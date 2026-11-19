@@ -26,6 +26,7 @@ const vertexShader=`
 #include <common>
 #include <morphtarget_pars_vertex>
 #include <skinning_pars_vertex>
+#include <clipping_planes_pars_vertex>
 attribute vec3 smoothNormal;
 uniform float outlineWidth;
 varying vec3 outlineWorld;
@@ -44,6 +45,7 @@ void main(){
  float depth=isOrthographic?3.171594802/projectionMatrix[1][1]:max(-mvPosition.z,.05);
  mvPosition.xyz+=viewNormal*outlineWidth*depth;
  gl_Position=projectionMatrix*mvPosition;
+ #include <clipping_planes_vertex>
 }`;
 
 export class ModelOutline{
@@ -53,18 +55,24 @@ export class ModelOutline{
   const originals:THREE.Mesh[]=[];root.traverse(o=>{if((o as THREE.Mesh).isMesh&&!o.userData.BA_auxiliary)originals.push(o as THREE.Mesh);});
   for(const mesh of originals){
    const materials=Array.isArray(mesh.material)?mesh.material:[mesh.material];
-   if(materials.some(m=>m.transparent||!m.colorWrite||m.userData.BA_stencil||m.userData.BA_cafeParticle||m.userData.BA_waterFx))continue;
+   if(materials.some(m=>m.transparent||!m.colorWrite||m.userData.BA_stencil||m.userData.BA_mirrorSurface||m.userData.BA_cafeParticle||m.userData.BA_waterFx))continue;
    smoothOutlineNormals(mesh.geometry);if(!mesh.geometry.hasAttribute('smoothNormal'))continue;
    const clip=materials.find(m=>m.userData._BA_clipPlane)?.userData._BA_clipPlane;
-   const material=new THREE.ShaderMaterial({side:THREE.BackSide,uniforms:clip?{outlineWidth:{value:0},clipPlane:clip}:{outlineWidth:{value:0}},vertexShader,fragmentShader:clip?`uniform vec4 clipPlane;varying vec3 outlineWorld;
+   const clipStencil=materials.find(m=>m.userData.BA_clipStencil)?.userData.BA_clipStencil;
+   const material=new THREE.ShaderMaterial({side:THREE.BackSide,clipping:true,uniforms:clip?{outlineWidth:{value:0},clipPlane:clip}:{outlineWidth:{value:0}},vertexShader,fragmentShader:clip?`#include <clipping_planes_pars_fragment>
+uniform vec4 clipPlane;varying vec3 outlineWorld;
 void main(){
+ #include <clipping_planes_fragment>
  if(dot(clipPlane.xyz,outlineWorld)+clipPlane.w<0.)discard;
  gl_FragColor=vec4(0.,0.,0.,1.);
  #include <colorspace_fragment>
-}`:`void main(){
+}`:`#include <clipping_planes_pars_fragment>
+void main(){
+ #include <clipping_planes_fragment>
  gl_FragColor=vec4(0.,0.,0.,1.);
  #include <colorspace_fragment>
 }`});
+   if(clipStencil){material.stencilWrite=true;material.stencilRef=clipStencil;material.stencilFunc=THREE.EqualStencilFunc;material.stencilZPass=THREE.KeepStencilOp;}
    let hull:THREE.Mesh;
    if((mesh as THREE.SkinnedMesh).isSkinnedMesh){const source=mesh as THREE.SkinnedMesh,skin=new THREE.SkinnedMesh(mesh.geometry,material);skin.bindMode=source.bindMode;skin.bind(source.skeleton,source.bindMatrix);hull=skin;}else hull=new THREE.Mesh(mesh.geometry,material);
    hull.name=mesh.name+'__outline';hull.userData.BA_auxiliary=true;hull.userData.isOutline=true;hull.frustumCulled=false;hull.renderOrder=-1;

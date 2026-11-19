@@ -320,11 +320,10 @@
           "tile": 401
         }
       ],
-      "yaw": 2.356194490192345,
+      "yaw": 2.356194,
       "sourceTimeline": "my_event083_beachsunbed",
       "sourceGroup": "RequiredTrack_20049",
-      "sourceStudentTrack": "20049",
-      "viewYaw": 0.0
+      "sourceStudentTrack": "20049"
     }
   ],
   "framing": {

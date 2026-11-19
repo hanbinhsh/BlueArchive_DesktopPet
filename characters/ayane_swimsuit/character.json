@@ -482,11 +482,10 @@
           "tile": 704
         }
       ],
-      "yaw": 2.356194490192345,
+      "yaw": 0.785398,
       "sourceTimeline": "my_poolparty_01_b_pack",
       "sourceGroup": "RequiredTrack_26007",
-      "sourceStudentTrack": "26007",
-      "viewYaw": -1.570796
+      "sourceStudentTrack": "26007"
     }
   ],
   "framing": {

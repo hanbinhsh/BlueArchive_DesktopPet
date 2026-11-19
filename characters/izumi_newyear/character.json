@@ -508,11 +508,10 @@
           "tile": 704
         }
       ],
-      "yaw": 2.356194490192345,
+      "yaw": 0.785398,
       "sourceTimeline": "my_event077_table_01",
       "sourceGroup": "RequiredTrack_20043",
-      "sourceStudentTrack": "20043",
-      "viewYaw": -1.570796
+      "sourceStudentTrack": "20043"
     }
   ],
   "framing": {

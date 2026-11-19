@@ -1,0 +1,138 @@
+{
+  "id": "momoi_battle",
+  "name": "桃井 · 临战",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 NP0267; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "NP0267_Idle--cb90d8856d178d43",
+    "interact": "NP0267_Interaction01--815c4c48de493600"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "NP0267_Idle--cb90d8856d178d43",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "NP0267_Interaction01--815c4c48de493600",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "NP0267_Walk--d576d357bd35aee",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "NP0267_Interaction02--d7fe8f133aefe9fe",
+      "category": "常用"
+    },
+    {
+      "id": "original_interaction01_idle",
+      "label": "Interaction01 · 待机",
+      "clip": "NP0267_Interaction01_Idle--39a10b16a16dbd82",
+      "sourceName": "NP0267_Interaction01_Idle",
+      "category": "剧情"
+    }
+  ],
+  "mouth": {
+    "material": "NP0267_Mouth",
+    "defaultTile": 404,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.5,
+      0.5
+    ],
+    "events": {
+      "NP0267_Idle--cb90d8856d178d43": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 4,
+          "tile": 404
+        }
+      ],
+      "NP0267_Interaction01--815c4c48de493600": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.06666667,
+          "tile": 504
+        },
+        {
+          "time": 0.33333334,
+          "tile": 404
+        },
+        {
+          "time": 0.73333335,
+          "tile": 105
+        }
+      ],
+      "NP0267_Walk--d576d357bd35aee": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 2.5000002,
+          "tile": 504
+        },
+        {
+          "time": 4.1000004,
+          "tile": 404
+        },
+        {
+          "time": 5.3333335,
+          "tile": 404
+        }
+      ],
+      "NP0267_Interaction02--d7fe8f133aefe9fe": [
+        {
+          "time": 0,
+          "tile": 405
+        },
+        {
+          "time": 0.13333334,
+          "tile": 501
+        },
+        {
+          "time": 0.53333336,
+          "tile": 405
+        },
+        {
+          "time": 0.70000005,
+          "tile": 105
+        }
+      ],
+      "NP0267_Interaction01_Idle--39a10b16a16dbd82": [
+        {
+          "time": 0,
+          "tile": 105
+        }
+      ]
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_interaction01_idle": {
+        "zoom": 0.7106616407011803,
+        "centerY": 0.6990021048279387
+      }
+    }
+  }
+}

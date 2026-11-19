@@ -115,11 +115,19 @@ for name, renderer in original_renderers.items():
             if node.get('name') == name:
                 node.pop('mesh', None); node.pop('skin', None)
         continue
-    renderers[name] = [p.read().m_Name for p in renderer.m_Materials]
+    try:
+        resolved_mats = [p.read() for p in renderer.m_Materials]
+    except FileNotFoundError:
+        initial_visibility[name] = False
+        for node in doc['nodes']:
+            if node.get('name') == name:
+                node.pop('mesh', None); node.pop('skin', None)
+        continue
+    renderers[name] = [m.m_Name for m in resolved_mats]
     # Glow and outline materials can have identical names. Prefer the material
     # actually referenced by this prefab, not another asset's same-named copy.
-    for pointer in renderer.m_Materials:
-        material = pointer.read(); materials[material.m_Name] = material
+    for material in resolved_mats:
+        materials[material.m_Name] = material
 default_uv = profile.get('mouthDefaultUV', defaults[0])
 default_tile = round(default_uv['y'] * 8) * 100 + round(default_uv['x'] * 8)
 texture_cache = {}

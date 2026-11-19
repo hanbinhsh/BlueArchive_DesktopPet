@@ -1,0 +1,501 @@
+{
+  "id": "nagusa",
+  "name": "名草 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0222; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0222_Cafe_Idle--8e6dfcbfd99599d3",
+    "interact": "CH0222_Cafe_Reaction--e72237e395e5610c"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0222_Cafe_Idle--8e6dfcbfd99599d3",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0222_Cafe_Reaction--e72237e395e5610c",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0222_Cafe_Walk--3116e47bc5a78a55",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "CH0222_Victory_Start--7f7917decbfc435d",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "CH0222_Normal_Reload--38032273327b9e58",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0222_Formation_Pickup--2ae55fab0e3b39f",
+      "category": "常用"
+    },
+    {
+      "id": "original_exs_cutin_01",
+      "label": "EX 技能 · Cutin · 01",
+      "clip": "CH0222_Exs_Cutin_01--ec0e7154e9a7a1b1",
+      "sourceName": "CH0222_Exs_Cutin_01",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "CH0222_Exs--fd27a9e3ed0c9f57",
+      "sourceName": "CH0222_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "CH0222_Public01--f8f0e2eb67a9b384",
+      "sourceName": "CH0222_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_dummy_arm_01",
+      "label": "EX 技能 · Cutin · Dummy · Arm · 01",
+      "clip": "CH0222_Exs_Cutin_Dummy_Arm_01--acd0c7d8a457c638",
+      "sourceName": "CH0222_Exs_Cutin_Dummy_Arm_01",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "CH0222_Normal_Attack_End--fe6526791be8b5cf",
+      "sourceName": "CH0222_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "CH0222_Vital_Panic--e416df998ce22df0",
+      "sourceName": "CH0222_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "CH0222_Vital_Retreat--d7cc4e2c4c4521d1",
+      "sourceName": "CH0222_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "CH0222_Normal_Attack_Start--d6aa0833e0003735",
+      "sourceName": "CH0222_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_03",
+      "label": "EX 技能 · Cutin · 03",
+      "clip": "CH0222_Exs_Cutin_03--c4d008076e92d8f5",
+      "sourceName": "CH0222_Exs_Cutin_03",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "CH0222_Normal_Attack_Ing--adeccb869b9a2b30",
+      "sourceName": "CH0222_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_02",
+      "label": "EX 技能 · Cutin · 02",
+      "clip": "CH0222_Exs_Cutin_02--872992cbcc849a2b",
+      "sourceName": "CH0222_Exs_Cutin_02",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0222_Formation_Idle--84c0dbf858bffb27",
+      "sourceName": "CH0222_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "CH0222_Vital_Dying_Ing--e9bc94335e810b1",
+      "sourceName": "CH0222_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "CH0222_Normal_Attack_Delay--14b823b85aeecd75",
+      "sourceName": "CH0222_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "CH0222_Normal_Callsign--1ff8dd1a44603929",
+      "sourceName": "CH0222_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "CH0222_Move_Ing--24c8440794b3d216",
+      "sourceName": "CH0222_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "CH0222_Move_End_Normal--4213d98f2afa7dce",
+      "sourceName": "CH0222_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "CH0222_Victory_End--512979ad61cdc560",
+      "sourceName": "CH0222_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "CH0222_Normal_Idle--5bc08a1304d24886",
+      "sourceName": "CH0222_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "CH0222_Vital_Death--608d2bf390662a88",
+      "sourceName": "CH0222_Vital_Death",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "CH0222_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.125,
+      0.5
+    ],
+    "events": {
+      "CH0222_Cafe_Idle--8e6dfcbfd99599d3": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0222_Cafe_Reaction--e72237e395e5610c": [
+        {
+          "time": 4.1666665,
+          "tile": 402
+        },
+        {
+          "time": 6.1666665,
+          "tile": 305
+        },
+        {
+          "time": 7.633333,
+          "tile": 604
+        },
+        {
+          "time": 9.333334,
+          "tile": 401
+        }
+      ],
+      "CH0222_Cafe_Walk--3116e47bc5a78a55": [],
+      "CH0222_Victory_Start--7f7917decbfc435d": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 1,
+          "tile": 401,
+          "reset": true
+        },
+        {
+          "time": 2.2333333,
+          "tile": 300
+        }
+      ],
+      "CH0222_Normal_Reload--38032273327b9e58": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.13333334,
+          "tile": 402
+        },
+        {
+          "time": 0.26666668,
+          "tile": 607
+        },
+        {
+          "time": 0.33333334,
+          "tile": 305
+        },
+        {
+          "time": 1.3000001,
+          "tile": 402
+        },
+        {
+          "time": 1.5000001,
+          "tile": 401
+        }
+      ],
+      "CH0222_Formation_Pickup--2ae55fab0e3b39f": [
+        {
+          "time": 0,
+          "tile": 401,
+          "reset": true
+        },
+        {
+          "time": 0.23333335,
+          "tile": 402
+        },
+        {
+          "time": 1.3000001,
+          "tile": 305
+        },
+        {
+          "time": 2.1333334,
+          "tile": 402
+        },
+        {
+          "time": 3.5666668,
+          "tile": 604
+        },
+        {
+          "time": 4.7000003,
+          "tile": 305
+        },
+        {
+          "time": 5.866667,
+          "tile": 402
+        },
+        {
+          "time": 7.566667,
+          "tile": 401,
+          "reset": true
+        },
+        {
+          "time": 12.000001,
+          "tile": 401,
+          "reset": true
+        }
+      ],
+      "CH0222_Exs_Cutin_01--ec0e7154e9a7a1b1": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0222_Exs--fd27a9e3ed0c9f57": [
+        {
+          "time": 0,
+          "tile": 305
+        },
+        {
+          "time": 1.7333335,
+          "tile": 402
+        },
+        {
+          "time": 4.1000004,
+          "tile": 604
+        },
+        {
+          "time": 5.066667,
+          "tile": 401,
+          "reset": true
+        }
+      ],
+      "CH0222_Public01--f8f0e2eb67a9b384": [
+        {
+          "time": 0,
+          "tile": 602
+        },
+        {
+          "time": 0.16666667,
+          "tile": 504
+        },
+        {
+          "time": 0.4666667,
+          "tile": 607
+        },
+        {
+          "time": 0.9333334,
+          "tile": 305
+        },
+        {
+          "time": 1.9333334,
+          "tile": 300
+        },
+        {
+          "time": 3.3333335,
+          "tile": 401,
+          "reset": true
+        }
+      ],
+      "CH0222_Exs_Cutin_Dummy_Arm_01--acd0c7d8a457c638": [],
+      "CH0222_Normal_Attack_End--fe6526791be8b5cf": [],
+      "CH0222_Vital_Panic--e416df998ce22df0": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ],
+      "CH0222_Vital_Retreat--d7cc4e2c4c4521d1": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "CH0222_Normal_Attack_Start--d6aa0833e0003735": [],
+      "CH0222_Exs_Cutin_03--c4d008076e92d8f5": [],
+      "CH0222_Normal_Attack_Ing--adeccb869b9a2b30": [],
+      "CH0222_Exs_Cutin_02--872992cbcc849a2b": [
+        {
+          "time": 0,
+          "tile": 604
+        },
+        {
+          "time": 1.8000001,
+          "tile": 305
+        },
+        {
+          "time": 3.2,
+          "tile": 305
+        }
+      ],
+      "CH0222_Formation_Idle--84c0dbf858bffb27": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0222_Vital_Dying_Ing--e9bc94335e810b1": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.20000002,
+          "tile": 402
+        }
+      ],
+      "CH0222_Normal_Attack_Delay--14b823b85aeecd75": [
+        {
+          "time": 0,
+          "tile": 401,
+          "reset": true
+        }
+      ],
+      "CH0222_Normal_Callsign--1ff8dd1a44603929": [
+        {
+          "time": 0,
+          "tile": 401,
+          "reset": true
+        }
+      ],
+      "CH0222_Move_Ing--24c8440794b3d216": [
+        {
+          "time": 0,
+          "tile": 401,
+          "reset": true
+        }
+      ],
+      "CH0222_Move_End_Normal--4213d98f2afa7dce": [
+        {
+          "time": 0,
+          "tile": 401,
+          "reset": true
+        }
+      ],
+      "CH0222_Victory_End--512979ad61cdc560": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "CH0222_Normal_Idle--5bc08a1304d24886": [
+        {
+          "time": 0,
+          "tile": 401,
+          "reset": true
+        }
+      ],
+      "CH0222_Vital_Death--608d2bf390662a88": [
+        {
+          "time": 0,
+          "tile": 401,
+          "reset": true
+        },
+        {
+          "time": 0.20000002,
+          "tile": 402
+        }
+      ]
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs_cutin_01": {
+        "zoom": 0.7489732136163588,
+        "centerY": 0.3124486048375178
+      },
+      "original_exs_cutin_dummy_arm_01": {
+        "zoom": 0.7515883409910348,
+        "centerY": 0.3124494400783323
+      },
+      "original_exs_cutin_03": {
+        "zoom": 0.8147904025250802,
+        "centerY": 0.3124494400783323
+      },
+      "original_exs_cutin_02": {
+        "zoom": 0.8147904025250802,
+        "centerY": 0.3124494400783323
+      },
+      "original_vital_death": {
+        "zoom": 1,
+        "centerY": 0.7710699357293066
+      }
+    }
+  },
+  "furniture": [
+    {
+      "id": "f18109_0",
+      "name": "百花缭乱木制枪架",
+      "model": "f18109_0.glb",
+      "clip": "f18109_0",
+      "duration": 33.333333333333336,
+      "mouthEvents": [],
+      "yaw": 0.785398,
+      "sourceTimeline": "my_hyakkiyako_01_gunstand_01",
+      "sourceGroup": "RequiredTrack_10119",
+      "sourceStudentTrack": "10119"
+    }
+  ]
+}

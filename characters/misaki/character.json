@@ -286,11 +286,23 @@
       "clip": "f1108_0",
       "duration": 26.599999999999998,
       "mouthEvents": [],
-      "yaw": 2.356194490192345,
+      "yaw": 1.570796,
       "sourceTimeline": "my_cafe_01_b_wall_04",
       "sourceGroup": "MakeTrack_10041",
-      "sourceStudentTrack": "10041",
-      "viewYaw": -1.570796
+      "sourceStudentTrack": "10041"
+    },
+    {
+      "id": "f1108_1",
+      "name": "落地窗（双人）",
+      "model": "f1108_1.glb",
+      "clip": "f1108_1",
+      "duration": 26.599999999999998,
+      "mouthEvents": [],
+      "note": "与纱织 · 原版同步互动。",
+      "yaw": 1.570796,
+      "sourceTimeline": "my_cafe_01_b_wall_04",
+      "sourceGroup": "MakeTrack_10041_10048",
+      "sourceStudentTrack": "10041"
     }
   ]
 }

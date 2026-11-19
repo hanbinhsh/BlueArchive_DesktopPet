@@ -32,6 +32,10 @@ LAYOUTS={
     # indices 3/4 (bone_root is child 0). Enumerating renderers shifted index 4
     # onto CH0297_Body, hiding her entire body.
     'tsukuyo_dress':{3:'CH0297_Arm01_Mesh',4:'CH0297_Arm02_Mesh'},
+    # CH0261 clips address CH0261_Body01 / CH0261_Body02 at prefab child indices
+    # 3/4 (bone_root is child 0). Enumerating renderers shifted 3/4 onto Body02/Prop,
+    # leaving both bodies visible and z-fighting.
+    'fubuki_swimsuit':{3:'CH0261_Body01',4:'CH0261_Body02'},
 }
 def renderer_event_layout(character,names):
     result=list(names)

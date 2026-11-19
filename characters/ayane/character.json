@@ -234,11 +234,10 @@
           "tile": 300
         }
       ],
-      "yaw": 2.356194490192345,
+      "yaw": 0.785398,
       "sourceTimeline": "my_abydosclassroom_01_desk_04",
       "sourceGroup": "RequiredTrack_23005",
-      "sourceStudentTrack": "23005",
-      "viewYaw": -1.570796
+      "sourceStudentTrack": "23005"
     }
   ]
 }

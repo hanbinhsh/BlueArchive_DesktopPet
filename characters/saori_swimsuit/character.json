@@ -712,11 +712,10 @@
           "tile": 300
         }
       ],
-      "yaw": 2.356194490192345,
+      "yaw": 2.356194,
       "sourceTimeline": "my_event070_djtable",
       "sourceGroup": "RequiredTrack_10101",
-      "sourceStudentTrack": "10101",
-      "viewYaw": 0.0
+      "sourceStudentTrack": "10101"
     }
   ],
   "framing": {

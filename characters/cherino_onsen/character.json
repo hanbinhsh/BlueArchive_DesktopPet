@@ -1,0 +1,491 @@
+{
+  "id": "cherino_onsen",
+  "name": "切里诺 · 温泉",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0164; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0164_Cafe_Idle--f3d7746e40f9fbd8",
+    "interact": "CH0164_Cafe_Reaction--3affe1fab74599c3"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0164_Cafe_Idle--f3d7746e40f9fbd8",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0164_Cafe_Reaction--3affe1fab74599c3",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0164_Cafe_Walk--acf742ce8084a86c",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0164_Formation_Pickup--f51514e94169c2cb",
+      "category": "常用"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "CH0164_Tank_Normal_Attack_End--f051b81ddb85366a",
+      "sourceName": "CH0164_Tank_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "CH0164_Tank_Public01--ccbd18b04d7b5085",
+      "sourceName": "CH0164_Tank_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "CH0164_Tank_Move_Ing--c8f380535a931373",
+      "sourceName": "CH0164_Tank_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0164_Formation_Idle--c011be92c67d3298",
+      "sourceName": "CH0164_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "CH0164_Tank_Normal_Attack_Ing--baf0147f92d0c49e",
+      "sourceName": "CH0164_Tank_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "CH0164_Tank_Normal_Attack_Start--8b17630d16088466",
+      "sourceName": "CH0164_Tank_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_tank_reload",
+      "label": "Tank · 换弹",
+      "clip": "CH0164_Tank_Reload--8aa98f0675075c5d",
+      "sourceName": "CH0164_Tank_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "CH0164_Tank_Vital_Retreat--87730b32b548f4b0",
+      "sourceName": "CH0164_Tank_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_tank_appearance",
+      "label": "Tank · Appearance",
+      "clip": "CH0164_Tank_Appearance--181b273615c150fa",
+      "sourceName": "CH0164_Tank_Appearance",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_destroy",
+      "label": "状态 · Destroy",
+      "clip": "CH0164_Tank_Vital_Destroy--299f7336b93569a0",
+      "sourceName": "CH0164_Tank_Vital_Destroy",
+      "category": "战斗"
+    },
+    {
+      "id": "original_tank_idle",
+      "label": "Tank · 待机",
+      "clip": "CH0164_Tank_Idle--4d2f1bca3c11cd36",
+      "sourceName": "CH0164_Tank_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0164_Tactical_Start--6882b2acbb342ffc",
+      "sourceName": "CH0164_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "CH0164_Tank_Vital_Panic--6d19753d66fbf0af",
+      "sourceName": "CH0164_Tank_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "CH0164_Tank_Normal_Attack_Delay--6f3e36570534c3bf",
+      "sourceName": "CH0164_Tank_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "CH0164_Tank_Move_End_Normal--767d524e1cfe4462",
+      "sourceName": "CH0164_Tank_Move_End_Normal",
+      "category": "移动"
+    }
+  ],
+  "mouth": {
+    "material": "CH0164_Mouth",
+    "defaultTile": 305,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.625,
+      0.375
+    ],
+    "events": {
+      "CH0164_Cafe_Idle--f3d7746e40f9fbd8": [
+        {
+          "time": 0,
+          "tile": 305,
+          "reset": true
+        },
+        {
+          "time": 3.2000003,
+          "tile": 305,
+          "reset": true
+        }
+      ],
+      "CH0164_Cafe_Reaction--3affe1fab74599c3": [
+        {
+          "time": 0,
+          "tile": 305,
+          "reset": true
+        },
+        {
+          "time": 0.26666668,
+          "tile": 706
+        },
+        {
+          "time": 1.4666667,
+          "tile": 506
+        },
+        {
+          "time": 1.7333333,
+          "tile": 606
+        },
+        {
+          "time": 2.3333335,
+          "tile": 506
+        },
+        {
+          "time": 2.8333335,
+          "tile": 504
+        },
+        {
+          "time": 3.1666667,
+          "tile": 604
+        }
+      ],
+      "CH0164_Cafe_Walk--acf742ce8084a86c": [],
+      "CH0164_Formation_Pickup--f51514e94169c2cb": [
+        {
+          "time": 0,
+          "tile": 202
+        },
+        {
+          "time": 0.13333334,
+          "tile": 704
+        },
+        {
+          "time": 1.5000001,
+          "tile": 504
+        },
+        {
+          "time": 2.6666667,
+          "tile": 202
+        }
+      ],
+      "CH0164_Tank_Normal_Attack_End--f051b81ddb85366a": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "CH0164_Exs_Cutin--cce717b2af537835": [
+        {
+          "time": 2.966667,
+          "tile": 305
+        },
+        {
+          "time": 3.0666668,
+          "tile": 706
+        },
+        {
+          "time": 3.5666668,
+          "tile": 704
+        }
+      ],
+      "CH0164_Tank_Public01--ccbd18b04d7b5085": [
+        {
+          "time": 0,
+          "tile": 305
+        },
+        {
+          "time": 0.40000004,
+          "tile": 606
+        },
+        {
+          "time": 1.5666667,
+          "tile": 305
+        },
+        {
+          "time": 1.9,
+          "tile": 606
+        },
+        {
+          "time": 2.8000002,
+          "tile": 305
+        },
+        {
+          "time": 3.2000003,
+          "tile": 305
+        }
+      ],
+      "CH0164_Tank_Move_Ing--c8f380535a931373": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "CH0164_Formation_Idle--c011be92c67d3298": [
+        {
+          "time": 0,
+          "tile": 405
+        }
+      ],
+      "CH0164_Tank_Normal_Attack_Ing--baf0147f92d0c49e": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "CH0164_Tank_Normal_Attack_Start--8b17630d16088466": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "CH0164_Tank_Reload--8aa98f0675075c5d": [
+        {
+          "time": 0,
+          "tile": 606
+        },
+        {
+          "time": 1.5666667,
+          "tile": 305
+        }
+      ],
+      "CH0164_Tank_Vital_Retreat--87730b32b548f4b0": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "CH0164_Tank_Appearance--181b273615c150fa": [
+        {
+          "time": 0,
+          "tile": 305,
+          "reset": true
+        },
+        {
+          "time": 1.1666667,
+          "tile": 305,
+          "reset": true
+        },
+        {
+          "time": 1.2666668,
+          "tile": 606
+        },
+        {
+          "time": 1.7,
+          "tile": 305
+        }
+      ],
+      "CH0164_Tank_Vital_Destroy--299f7336b93569a0": [
+        {
+          "time": 0,
+          "tile": 305
+        },
+        {
+          "time": 0.23333335,
+          "tile": 606
+        },
+        {
+          "time": 0.8333334,
+          "tile": 506
+        }
+      ],
+      "CH0164_Tank_Idle--4d2f1bca3c11cd36": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "CH0164_Tactical_Start--6882b2acbb342ffc": [
+        {
+          "time": 0,
+          "tile": 305,
+          "reset": true
+        },
+        {
+          "time": 0.53333336,
+          "tile": 305,
+          "reset": true
+        },
+        {
+          "time": 0.6666667,
+          "tile": 706
+        }
+      ],
+      "CH0164_Tank_Vital_Panic--6d19753d66fbf0af": [
+        {
+          "time": 0,
+          "tile": 506
+        }
+      ],
+      "CH0164_Tank_Normal_Attack_Delay--6f3e36570534c3bf": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "CH0164_Tank_Move_End_Normal--767d524e1cfe4462": [
+        {
+          "time": 0,
+          "tile": 305
+        },
+        {
+          "time": 0.70000005,
+          "tile": 606
+        },
+        {
+          "time": 1.7333335,
+          "tile": 305
+        }
+      ]
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_normal_attack_end": {
+        "zoom": 0.7509237387445946,
+        "centerY": 1.8310780829738387
+      },
+      "original_public01": {
+        "zoom": 0.7659954992838804,
+        "centerY": 1.7827494607594916
+      },
+      "original_move_ing": {
+        "zoom": 0.7667212746296815,
+        "centerY": 1.7427336889629212
+      },
+      "original_normal_attack_ing": {
+        "zoom": 0.7496469926502254,
+        "centerY": 1.8007724990152807
+      },
+      "original_normal_attack_start": {
+        "zoom": 0.757083565138886,
+        "centerY": 1.8161799612540237
+      },
+      "original_tank_reload": {
+        "zoom": 0.7671713370741536,
+        "centerY": 1.791439111575432
+      },
+      "original_vital_retreat": {
+        "zoom": 0.7671713371107187,
+        "centerY": 1.7798616388394137
+      },
+      "original_tank_appearance": {
+        "zoom": 0.28992830039619527,
+        "centerY": 4.702010598265844
+      },
+      "original_vital_destroy": {
+        "zoom": 0.7271473973171095,
+        "centerY": 1.8388553774977625
+      },
+      "original_tank_idle": {
+        "zoom": 0.766572292503921,
+        "centerY": 1.7936990593655808
+      },
+      "original_vital_panic": {
+        "zoom": 0.7708720050463335,
+        "centerY": 1.7055364896812213
+      },
+      "original_normal_attack_delay": {
+        "zoom": 0.7527283791428392,
+        "centerY": 1.8266881362514398
+      },
+      "original_move_end_normal": {
+        "zoom": 0.7563753314509976,
+        "centerY": 1.754890557232534
+      }
+    }
+  },
+  "furniture": [
+    {
+      "id": "f6203_0",
+      "name": "饮料保温柜",
+      "model": "f6203_0.glb",
+      "clip": "f6203_0",
+      "duration": 14.9,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 604
+        },
+        {
+          "time": 5.0000005,
+          "tile": 705
+        },
+        {
+          "time": 5.7000003,
+          "tile": 706
+        },
+        {
+          "time": 8.3,
+          "tile": 504
+        },
+        {
+          "time": 10.733334,
+          "tile": 504
+        },
+        {
+          "time": 10.766667,
+          "tile": 302
+        },
+        {
+          "time": 11.6,
+          "tile": 704
+        },
+        {
+          "time": 13.966667,
+          "tile": 604
+        }
+      ],
+      "yaw": 2.356194,
+      "sourceTimeline": "My_hotsprings_01_hotstorage",
+      "sourceGroup": "RequiredTrack_20009",
+      "sourceStudentTrack": "20009"
+    }
+  ]
+}

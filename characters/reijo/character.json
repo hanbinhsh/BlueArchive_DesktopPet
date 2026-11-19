@@ -1,0 +1,546 @@
+{
+  "id": "reijo",
+  "name": "丽情 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Reizyo_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Reizyo_Original_Cafe_Idle--cbad4d8d4d3f8edf",
+    "interact": "Reizyo_Original_Cafe_Reaction--d7aeff8897da3151"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Reizyo_Original_Cafe_Idle--cbad4d8d4d3f8edf",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Reizyo_Original_Cafe_Reaction--d7aeff8897da3151",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Reizyo_Original_Cafe_Walk--2ae70ff43e2dcda9",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Reizyo_Original_Victory_Start--c70d9915edf97734",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Reizyo_Original_Normal_Reload--f90e36da922fd4a2",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Reizyo_Original_Formation_Pickup--5c8b9d878b535a8a",
+      "category": "常用"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Reizyo_Original_Normal_Attack_End--e92d3f2732e94757",
+      "sourceName": "Reizyo_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Reizyo_Original_Normal_Callsign--ca081b2ac297e96e",
+      "sourceName": "Reizyo_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Reizyo_Original_Normal_Attack_Delay--c4bf8476bc7d8d64",
+      "sourceName": "Reizyo_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Reizyo_Original_Move_Ing--b2a74b562a7c0c4f",
+      "sourceName": "Reizyo_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Reizyo_Original_Victory_End--af7bf0c3976cfd05",
+      "sourceName": "Reizyo_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Reizyo_Original_Formation_Idle--a9f1d7ec7fcb8fac",
+      "sourceName": "Reizyo_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Reizyo_Original_Move_End_Kneel--a63ccbba7f3dac76",
+      "sourceName": "Reizyo_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Reizyo_Original_Vital_Death--f6c5e6c643fc9271",
+      "sourceName": "Reizyo_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Reizyo_Original_Normal_Attack_Start--9d22b48cf3e16470",
+      "sourceName": "Reizyo_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Reizyo_Original_Kneel_Attack_End--9c6d5e7708f6c56b",
+      "sourceName": "Reizyo_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Reizyo_Original_Vital_Retreat--81ce7ac6568fe742",
+      "sourceName": "Reizyo_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Reizyo_Original_Normal_Idle--157a480388b62734",
+      "sourceName": "Reizyo_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Reizyo_Original_Move_End_Normal--427f5f8e5f5b8b4",
+      "sourceName": "Reizyo_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Reizyo_Original_Exs--2e6794a323fdb5fd",
+      "sourceName": "Reizyo_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "Reizyo_Original_Move_Jump--369697c079fd324b",
+      "sourceName": "Reizyo_Original_Move_Jump",
+      "category": "移动"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Reizyo_Original_Exs_Cutin--37bda93f89e746c3",
+      "sourceName": "Reizyo_Original_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Reizyo_Original_Kneel_Attack_Start--4602fa717abf90da",
+      "sourceName": "Reizyo_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Reizyo_Original_Vital_Panic--48821245de59b508",
+      "sourceName": "Reizyo_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Reizyo_Original_Kneel_Reload--4f8c04f726bfaf02",
+      "sourceName": "Reizyo_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Reizyo_Original_Kneel_Attack_Delay--657b9c00977e943c",
+      "sourceName": "Reizyo_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Reizyo_Original_Kneel_Attack_Ing--699053ebc7e63e66",
+      "sourceName": "Reizyo_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Reizyo_Original_Public01--6c8e4ec96c1646ee",
+      "sourceName": "Reizyo_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Reizyo_Original_Vital_Dying_Ing--70ee264396a7de71",
+      "sourceName": "Reizyo_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Reizyo_Original_Normal_Attack_Ing--775baf8352900c6a",
+      "sourceName": "Reizyo_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Reizyo_Original_Kneel_Idle--7b557b1c44e7050a",
+      "sourceName": "Reizyo_Original_Kneel_Idle",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Reizyo_Original_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.125,
+      0.5
+    ],
+    "events": {
+      "Reizyo_Original_Cafe_Idle--cbad4d8d4d3f8edf": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Reizyo_Original_Cafe_Reaction--d7aeff8897da3151": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.39999598,
+          "tile": 402
+        },
+        {
+          "time": 1.433319,
+          "tile": 602
+        },
+        {
+          "time": 1.799982,
+          "tile": 604
+        },
+        {
+          "time": 1.899981,
+          "tile": 604
+        },
+        {
+          "time": 2.066646,
+          "tile": 604
+        },
+        {
+          "time": 4.466622,
+          "tile": 707
+        },
+        {
+          "time": 4.933284,
+          "tile": 707
+        },
+        {
+          "time": 5.699943,
+          "tile": 707
+        },
+        {
+          "time": 5.966607,
+          "tile": 401
+        }
+      ],
+      "Reizyo_Original_Cafe_Walk--2ae70ff43e2dcda9": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Reizyo_Original_Victory_Start--c70d9915edf97734": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.33333,
+          "tile": 402
+        },
+        {
+          "time": 1.533318,
+          "tile": 300
+        }
+      ],
+      "Reizyo_Original_Normal_Reload--f90e36da922fd4a2": [],
+      "Reizyo_Original_Formation_Pickup--5c8b9d878b535a8a": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 5.66661,
+          "tile": 401
+        },
+        {
+          "time": 6.266604,
+          "tile": 402
+        },
+        {
+          "time": 11.833215,
+          "tile": 401
+        }
+      ],
+      "Reizyo_Original_Normal_Attack_End--e92d3f2732e94757": [],
+      "Reizyo_Original_Normal_Callsign--ca081b2ac297e96e": [
+        {
+          "time": 0,
+          "tile": 604
+        },
+        {
+          "time": 0.39999598,
+          "tile": 406,
+          "flipped": true
+        }
+      ],
+      "Reizyo_Original_Normal_Attack_Delay--c4bf8476bc7d8d64": [],
+      "Reizyo_Original_Move_Ing--b2a74b562a7c0c4f": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Reizyo_Original_Victory_End--af7bf0c3976cfd05": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Reizyo_Original_Formation_Idle--a9f1d7ec7fcb8fac": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Reizyo_Original_Move_End_Kneel--a63ccbba7f3dac76": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Reizyo_Original_Vital_Death--f6c5e6c643fc9271": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Reizyo_Original_Normal_Attack_Start--9d22b48cf3e16470": [],
+      "Reizyo_Original_Kneel_Attack_End--9c6d5e7708f6c56b": [],
+      "Reizyo_Original_Vital_Retreat--81ce7ac6568fe742": [
+        {
+          "time": 0,
+          "tile": 605
+        }
+      ],
+      "Reizyo_Original_Normal_Idle--157a480388b62734": [],
+      "Reizyo_Original_Move_End_Normal--427f5f8e5f5b8b4": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Reizyo_Original_Exs--2e6794a323fdb5fd": [
+        {
+          "time": 0,
+          "tile": 604
+        },
+        {
+          "time": 0.133332,
+          "tile": 605
+        },
+        {
+          "time": 0.66666,
+          "tile": 604
+        }
+      ],
+      "Reizyo_Original_Move_Jump--369697c079fd324b": [],
+      "Reizyo_Original_Exs_Cutin--37bda93f89e746c3": [
+        {
+          "time": 0.233331,
+          "tile": 401
+        },
+        {
+          "time": 2.366643,
+          "tile": 402
+        },
+        {
+          "time": 3.3332999,
+          "tile": 401
+        },
+        {
+          "time": 4.866618,
+          "tile": 604
+        },
+        {
+          "time": 4.966617,
+          "tile": 604
+        },
+        {
+          "time": 5.166615,
+          "tile": 605
+        },
+        {
+          "time": 5.366613,
+          "tile": 604
+        },
+        {
+          "time": 6.733266,
+          "tile": 607
+        }
+      ],
+      "Reizyo_Original_Kneel_Attack_Start--4602fa717abf90da": [],
+      "Reizyo_Original_Vital_Panic--48821245de59b508": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ],
+      "Reizyo_Original_Kneel_Reload--4f8c04f726bfaf02": [],
+      "Reizyo_Original_Kneel_Attack_Delay--657b9c00977e943c": [],
+      "Reizyo_Original_Kneel_Attack_Ing--699053ebc7e63e66": [],
+      "Reizyo_Original_Public01--6c8e4ec96c1646ee": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.5999839,
+          "tile": 706
+        },
+        {
+          "time": 2.499975,
+          "tile": 401
+        }
+      ],
+      "Reizyo_Original_Vital_Dying_Ing--70ee264396a7de71": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Reizyo_Original_Normal_Attack_Ing--775baf8352900c6a": [],
+      "Reizyo_Original_Kneel_Idle--7b557b1c44e7050a": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ]
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs": {
+        "zoom": 0.8564877367533852,
+        "centerY": 1.5960327726439572
+      },
+      "original_exs_cutin": {
+        "zoom": 0.3366669456984817,
+        "centerY": 3.9959231684902705
+      }
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210351_0",
+      "name": "木人桩",
+      "model": "f210351_0.glb",
+      "clip": "f210351_0",
+      "duration": 20.666666666666668,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 401
+        },
+        {
+          "time": 2.399976,
+          "tile": 402
+        },
+        {
+          "time": 2.499975,
+          "tile": 402
+        },
+        {
+          "time": 2.833305,
+          "tile": 604
+        },
+        {
+          "time": 3.433299,
+          "tile": 401
+        },
+        {
+          "time": 5.499945,
+          "tile": 607
+        },
+        {
+          "time": 6.233271,
+          "tile": 401
+        },
+        {
+          "time": 11.633217,
+          "tile": 504
+        },
+        {
+          "time": 12.0665455,
+          "tile": 604
+        },
+        {
+          "time": 14.366523,
+          "tile": 402
+        },
+        {
+          "time": 15.799842,
+          "tile": 401
+        },
+        {
+          "time": 20.66646,
+          "tile": 401
+        }
+      ],
+      "yaw": 2.356194,
+      "sourceTimeline": "my_event071_woodendummy",
+      "sourceGroup": "OnlyTrack_10104",
+      "sourceStudentTrack": "10104"
+    }
+  ]
+}

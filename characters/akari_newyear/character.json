@@ -359,11 +359,10 @@
           "tile": 705
         }
       ],
-      "yaw": 2.356194490192345,
+      "yaw": 2.356194,
       "sourceTimeline": "my_event065_ricecakemakingset",
       "sourceGroup": "RequiredTrack_20034",
-      "sourceStudentTrack": "20034",
-      "viewYaw": 0.0
+      "sourceStudentTrack": "20034"
     }
   ],
   "framing": {

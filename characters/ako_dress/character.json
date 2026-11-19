@@ -730,7 +730,7 @@
           "tile": 404
         }
       ],
-      "yaw": 1.5707963267948966,
+      "yaw": 0.785398,
       "sourceTimeline": "my_gehennaparty_01_sofaset_01",
       "sourceGroup": "MakeTrack_10087",
       "sourceStudentTrack": "10087"
@@ -780,7 +780,7 @@
         }
       ],
       "note": "与日奈 · 礼服同步互动。",
-      "yaw": 1.5707963267948966,
+      "yaw": 0.785398,
       "sourceTimeline": "my_gehennaparty_01_sofaset_01",
       "sourceGroup": "RequiredTrack_10086_10087",
       "sourceStudentTrack": "10087"

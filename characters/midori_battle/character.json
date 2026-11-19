@@ -1,0 +1,117 @@
+{
+  "id": "midori_battle",
+  "name": "绿 · 临战",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 NP0268; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "NP0268_Idle--116ee8138da2e340",
+    "interact": "NP0268_Interaction01--c8fae2af4f0db7c1"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "NP0268_Idle--116ee8138da2e340",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "NP0268_Interaction01--c8fae2af4f0db7c1",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "NP0268_Walk--e6ab4f89d2022177",
+      "category": "常用"
+    }
+  ],
+  "mouth": {
+    "material": "NP0268_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.125,
+      0.5
+    ],
+    "events": {
+      "NP0268_Idle--116ee8138da2e340": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 4,
+          "tile": 401
+        }
+      ],
+      "NP0268_Interaction01--c8fae2af4f0db7c1": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 3.2333336,
+          "tile": 401
+        },
+        {
+          "time": 6.366667,
+          "tile": 402
+        },
+        {
+          "time": 10.200001,
+          "tile": 401
+        },
+        {
+          "time": 11.633334,
+          "tile": 402
+        },
+        {
+          "time": 16.900002,
+          "tile": 401
+        },
+        {
+          "time": 19.866669,
+          "tile": 402
+        }
+      ],
+      "NP0268_Walk--e6ab4f89d2022177": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 1.33332,
+          "tile": 402
+        },
+        {
+          "time": 2.66664,
+          "tile": 402
+        },
+        {
+          "time": 4.133292,
+          "tile": 401
+        },
+        {
+          "time": 4.499955,
+          "tile": 402
+        },
+        {
+          "time": 5.33328,
+          "tile": 402
+        },
+        {
+          "time": 6.6665998,
+          "tile": 402
+        }
+      ]
+    }
+  }
+}

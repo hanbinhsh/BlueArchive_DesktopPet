@@ -1,0 +1,498 @@
+{
+  "id": "sakurako",
+  "name": "樱子 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Sakurako_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Sakurako_Original_Cafe_Idle--7d52ba1e293f6c2f",
+    "interact": "Sakurako_Original_Cafe_Reaction--ade8f5170d871ddd"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Sakurako_Original_Cafe_Idle--7d52ba1e293f6c2f",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Sakurako_Original_Cafe_Reaction--ade8f5170d871ddd",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Sakurako_Original_Cafe_Walk--5488a0c59a978f03",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Sakurako_Original_Victory_Start--97fbc04afb3ad08b",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Sakurako_Original_Normal_Reload--8062c99ee942a9e8",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Sakurako_Original_Formation_Pickup--bcd97d5f9137bb02",
+      "category": "常用"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Sakurako_Original_Move_End_Kneel--e2326d8d64101e13",
+      "sourceName": "Sakurako_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Sakurako_Original_Move_Ing--d08657bede48ef5e",
+      "sourceName": "Sakurako_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Sakurako_Original_Kneel_Attack_End--c1857c3a46266153",
+      "sourceName": "Sakurako_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Sakurako_Original_Vital_Panic--f91dea097731879d",
+      "sourceName": "Sakurako_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Sakurako_Original_Normal_Attack_Ing--ba8d19900a5d6dbe",
+      "sourceName": "Sakurako_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Sakurako_Original_Normal_Attack_End--ac2ca83393c4e3b3",
+      "sourceName": "Sakurako_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Sakurako_Original_Normal_Attack_Delay--a69271a2c3425d0d",
+      "sourceName": "Sakurako_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Sakurako_Original_Normal_Idle--a3e3b8203f2cadc4",
+      "sourceName": "Sakurako_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "Sakurako_Original_Move_Jump--a0d7872edda28f87",
+      "sourceName": "Sakurako_Original_Move_Jump",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Sakurako_Original_Vital_Dying_Ing--99ae342c45400900",
+      "sourceName": "Sakurako_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Sakurako_Original_Exs--97e51a3b7d3c8c15",
+      "sourceName": "Sakurako_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Sakurako_Original_Kneel_Attack_Delay--9336db2c35fb20f3",
+      "sourceName": "Sakurako_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Sakurako_Original_Victory_End--1d05324779988600",
+      "sourceName": "Sakurako_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Sakurako_Original_Kneel_Idle--20264e0dde592953",
+      "sourceName": "Sakurako_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Sakurako_Original_Normal_Callsign--354aa30e88223a05",
+      "sourceName": "Sakurako_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Sakurako_Original_Vital_Death--57f83af8f301310",
+      "sourceName": "Sakurako_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public",
+      "label": "普通技能",
+      "clip": "Sakurako_Original_Public--3aaaad375e0487c3",
+      "sourceName": "Sakurako_Original_Public",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Sakurako_Original_Normal_Attack_Start--6b94220f50bd184",
+      "sourceName": "Sakurako_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Sakurako_Original_Exs_Cutin--586ab2114e2dba7c",
+      "sourceName": "Sakurako_Original_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Sakurako_Original_Kneel_Attack_Start--970e4df4e39af03",
+      "sourceName": "Sakurako_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Sakurako_Original_Move_End_Normal--6104e58e858f9950",
+      "sourceName": "Sakurako_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_callsign_random",
+      "label": "常规 · 回应 · Random",
+      "clip": "Sakurako_Original_Normal_Callsign_Random--6b5cffa46da50269",
+      "sourceName": "Sakurako_Original_Normal_Callsign_Random",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Sakurako_Original_Kneel_Attack_Ing--6ce1a96f22c54e8f",
+      "sourceName": "Sakurako_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Sakurako_Original_Formation_Idle--7181776d7cfc1ae0",
+      "sourceName": "Sakurako_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Sakurako_Original_Kneel_Reload--73d2892b9899f26b",
+      "sourceName": "Sakurako_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Sakurako_Original_Vital_Retreat--7baf0564c0174d37",
+      "sourceName": "Sakurako_Original_Vital_Retreat",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Sakurako_Original_Mouth",
+    "defaultTile": 704,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.5,
+      0.875
+    ],
+    "events": {
+      "Sakurako_Original_Cafe_Idle--7d52ba1e293f6c2f": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Sakurako_Original_Cafe_Reaction--ade8f5170d871ddd": [
+        {
+          "time": 0,
+          "tile": 305
+        },
+        {
+          "time": 6.600001,
+          "tile": 704
+        }
+      ],
+      "Sakurako_Original_Cafe_Walk--5488a0c59a978f03": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Sakurako_Original_Victory_Start--97fbc04afb3ad08b": [
+        {
+          "time": 0,
+          "tile": 707
+        },
+        {
+          "time": 1.4666667,
+          "tile": 704
+        }
+      ],
+      "Sakurako_Original_Normal_Reload--8062c99ee942a9e8": [],
+      "Sakurako_Original_Formation_Pickup--bcd97d5f9137bb02": [
+        {
+          "time": 0,
+          "tile": 305
+        },
+        {
+          "time": 0.10000001,
+          "tile": 607
+        },
+        {
+          "time": 1.5666667,
+          "tile": 305
+        }
+      ],
+      "Sakurako_Original_Move_End_Kneel--e2326d8d64101e13": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Sakurako_Original_Move_Ing--d08657bede48ef5e": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Sakurako_Original_Kneel_Attack_End--c1857c3a46266153": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Sakurako_Original_Vital_Panic--f91dea097731879d": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "Sakurako_Original_Normal_Attack_Ing--ba8d19900a5d6dbe": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Sakurako_Original_Normal_Attack_End--ac2ca83393c4e3b3": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Sakurako_Original_Normal_Attack_Delay--a69271a2c3425d0d": [],
+      "Sakurako_Original_Normal_Idle--a3e3b8203f2cadc4": [],
+      "Sakurako_Original_Move_Jump--a0d7872edda28f87": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Sakurako_Original_Vital_Dying_Ing--99ae342c45400900": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "Sakurako_Original_Exs--97e51a3b7d3c8c15": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "Sakurako_Original_Kneel_Attack_Delay--9336db2c35fb20f3": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Sakurako_Original_Victory_End--1d05324779988600": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Sakurako_Original_Kneel_Idle--20264e0dde592953": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Sakurako_Original_Normal_Callsign--354aa30e88223a05": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Sakurako_Original_Vital_Death--57f83af8f301310": [
+        {
+          "time": 0,
+          "tile": 305
+        },
+        {
+          "time": 0.33333334,
+          "tile": 605
+        },
+        {
+          "time": 0.8333334,
+          "tile": 305
+        }
+      ],
+      "Sakurako_Original_Public--3aaaad375e0487c3": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.8000001,
+          "tile": 401
+        }
+      ],
+      "Sakurako_Original_Normal_Attack_Start--6b94220f50bd184": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Sakurako_Original_Exs_Cutin--586ab2114e2dba7c": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.13333334,
+          "tile": 402
+        },
+        {
+          "time": 0.26666668,
+          "tile": 705
+        },
+        {
+          "time": 0.4666667,
+          "tile": 707
+        },
+        {
+          "time": 0.70000005,
+          "tile": 704
+        },
+        {
+          "time": 2.3333335,
+          "tile": 705
+        },
+        {
+          "time": 3.4,
+          "tile": 704
+        }
+      ],
+      "Sakurako_Original_Kneel_Attack_Start--970e4df4e39af03": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Sakurako_Original_Move_End_Normal--6104e58e858f9950": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Sakurako_Original_Normal_Callsign_Random--6b5cffa46da50269": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Sakurako_Original_Kneel_Attack_Ing--6ce1a96f22c54e8f": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Sakurako_Original_Formation_Idle--7181776d7cfc1ae0": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Sakurako_Original_Kneel_Reload--73d2892b9899f26b": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Sakurako_Original_Vital_Retreat--7baf0564c0174d37": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ]
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_vital_death": {
+        "zoom": 0.7452794708258775,
+        "centerY": 0.9726645139320121
+      }
+    }
+  },
+  "furniture": [
+    {
+      "id": "f207314_0",
+      "name": "祈祷椅",
+      "model": "f207314_0.glb",
+      "clip": "f207314_0",
+      "duration": 27.733333333333334,
+      "mouthEvents": [],
+      "yaw": 2.356194,
+      "sourceTimeline": "my_event20_prayerchair",
+      "sourceGroup": "RequiredTrack_10061",
+      "sourceStudentTrack": "10061"
+    }
+  ]
+}

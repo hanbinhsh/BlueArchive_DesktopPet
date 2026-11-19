@@ -531,11 +531,10 @@
           "tile": 305
         }
       ],
-      "yaw": 2.356194490192345,
+      "yaw": 0.785398,
       "sourceTimeline": "my_event087_dressroom",
       "sourceGroup": "RequiredTrack_10132",
-      "sourceStudentTrack": "10132",
-      "viewYaw": 3.141593
+      "sourceStudentTrack": "10132"
     }
   ],
   "framing": {

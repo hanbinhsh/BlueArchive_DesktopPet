@@ -15,6 +15,7 @@ import { attachLiquidReceiver } from './liquid-receiver';
 import { visiblePoseBounds } from './framing';
 import { updateFxBillboard } from './fx-billboard';
 import { attachPoolWater } from './pool-water';
+import { PlanarMirror } from './mirror-surface';
 type Tracks = {node:number;keys:[number,boolean][]}[];
 export class SceneView {
  readonly scene=new THREE.Scene();readonly camera=new THREE.OrthographicCamera(-1,1,1,-1,.01,100);readonly root=new THREE.Group();
@@ -26,6 +27,7 @@ export class SceneView {
  private fxUpdates:((time:number)=>void)[]=[];private mouthLooped=false;private ambientLoopOffset=0;
  private particles:CafeParticle[]=[];private outline?:ModelOutline;
  private trails:CafeTrail[]=[];
+ private mirrors:PlanarMirror[]=[];
  private billboards:THREE.Object3D[]=[];
  private depth:CafeDepth={texture:{value:null},size:{value:new THREE.Vector2()},range:{value:new THREE.Vector2(.01,100)},scale:{value:1},required:false};
  private depthTarget?:THREE.WebGLRenderTarget;
@@ -55,9 +57,10 @@ export class SceneView {
     if(m.userData.BA_smokeFx?.kind==='channel')mesh.geometry.setAttribute('fxSecondUV',mesh.geometry.getAttribute('uv1')||new THREE.BufferAttribute(new Float32Array(mesh.geometry.getAttribute('position').count*2),2));
     if(m.userData.BA_cafeParticle)this.particles.push(new CafeParticle(mesh,m as THREE.MeshBasicMaterial,this.textures,gltf.scene,particleTransforms));
     if(m.userData.BA_cafeTrail)this.trails.push(new CafeTrail(mesh,m as THREE.MeshBasicMaterial,mesh.parent!,gltf.scene,particleTransforms));
+    if(furniture&&m.userData.BA_mirrorSurface){this.mirrors.push(new PlanarMirror(mesh,typeof m.userData.BA_mirrorSurface==='object'?m.userData.BA_mirrorSurface:{}));break;}
     if(furniture&&m.userData.BA_clipStencil){m.stencilWrite=true;m.stencilRef=m.userData.BA_clipStencil;m.stencilFunc=THREE.EqualStencilFunc;m.stencilZPass=THREE.KeepStencilOp;}
     const s=m.userData.BA_stencil;if(!furniture||!s)continue;
-    m.stencilWrite=true;m.stencilRef=s.ref;m.stencilFunc=s.mode==='mask'?THREE.GreaterEqualStencilFunc:THREE.NotEqualStencilFunc;m.stencilZPass=s.mode==='mask'?THREE.ReplaceStencilOp:THREE.KeepStencilOp;
+    m.stencilWrite=true;m.stencilRef=s.ref;m.stencilFunc=s.mode==='mask'?THREE.GreaterEqualStencilFunc:s.mode==='equal'?THREE.EqualStencilFunc:THREE.NotEqualStencilFunc;m.stencilZPass=s.mode==='mask'?THREE.ReplaceStencilOp:THREE.KeepStencilOp;
     if(s.mode==='mask'){m.colorWrite=false;m.depthWrite=false;m.depthTest=false;m.transparent=false;}mesh.renderOrder=s.order;
    }
    mesh.userData.BA_auxiliary=!!furniture&&mats.every(m=>!!m.userData.BA_stencil||!!m.userData.BA_maskedFx);
@@ -115,6 +118,7 @@ export class SceneView {
    finally{for(const o of hidden)o.visible=true;renderer.setRenderTarget(oldTarget);}
    this.depth.texture.value=this.depthTarget.depthTexture;
   }
+  for(const mirror of this.mirrors)mirror.render(renderer,this.scene,this.camera);
   renderer.render(this.scene,this.camera);
  }
  orientation(s:Settings,roaming:number,smooth:boolean){const yaw=(roaming?roaming*Math.PI/2:s.yaw)+this.character.yaw+(this.furniture?(this.furniture.yaw??Math.PI*.75):0);if(smooth)this.turnTarget=yaw;else{this.root.rotation.set(roaming?0:s.pitch,yaw,roaming?0:s.roll,'YXZ');this.turnTarget=null;}}
@@ -156,7 +160,7 @@ export class SceneView {
  diagnostics(measureFace=false,measurePose=false){
   const face:Record<string,number[]>={};if(measureFace){this.root.traverse(o=>{if((o as THREE.Bone).isBone&&/eye|brow|blow|mouth|bone_prop/i.test(o.name))face[o.name]=[...o.position.toArray(),...o.quaternion.toArray(),...o.scale.toArray()];});for(const [i,o]of this.vis)face[`visible-${i}`]=[Number(o.visible)];}
   const size=measurePose?visiblePoseBounds(this.root,.003,false).getSize(new THREE.Vector3()).toArray():undefined;
-  return {action:this.furniture?'idle':this.actionId,actionTime:this.active.time,shaderTime:this.active.time+this.ambientLoopOffset,mouthTile:this.mouthTile,mouthFlipped:this.mouthFlipped,particleStates:measurePose?this.particles.map(p=>p.diagnostics(this.camera)):undefined,outlineMeshes:this.outline?.meshes.length||0,mouthMaps:this.mouths.map(({spec,map})=>({material:spec.material,texture:map.uuid,offset:map.offset.toArray()})),orientation:[this.root.rotation.x,this.root.rotation.y,this.root.rotation.z],meshes:this.meshes,bones:this.bones,durations:Object.fromEntries([...this.actions].map(([id,a])=>[id,a.getClip().duration])),animations:[...this.actions.values()].map(a=>a.getClip().name),gaze:this.eye.diagnostics(),face,transition:{remaining:Math.max(0,this.fadeLeft),incoming:this.active.getEffectiveWeight(),outgoing:this.fading?.getEffectiveWeight()||0,props:this.props.meshes},...(size?{pose:{size,halo:this.halos[0]?.node.getWorldPosition(new THREE.Vector3()).toArray()||[],canvas:[],client:[innerWidth,innerHeight]}}:{})};
+  return {action:this.furniture?'idle':this.actionId,actionTime:this.active.time,shaderTime:this.active.time+this.ambientLoopOffset,mouthTile:this.mouthTile,mouthFlipped:this.mouthFlipped,particleStates:measurePose?this.particles.map(p=>p.diagnostics(this.camera)):undefined,mirrors:this.mirrors.map(m=>({name:m.mesh.name,visible:m.mesh.visible,side:m.material.side,hasMap:!!m.material.uniforms.uReflectionMap.value,diag:m.lastDiag})),outlineMeshes:this.outline?.meshes.length||0,mouthMaps:this.mouths.map(({spec,map})=>({material:spec.material,texture:map.uuid,offset:map.offset.toArray()})),orientation:[this.root.rotation.x,this.root.rotation.y,this.root.rotation.z],meshes:this.meshes,bones:this.bones,durations:Object.fromEntries([...this.actions].map(([id,a])=>[id,a.getClip().duration])),animations:[...this.actions.values()].map(a=>a.getClip().name),gaze:this.eye.diagnostics(),face,transition:{remaining:Math.max(0,this.fadeLeft),incoming:this.active.getEffectiveWeight(),outgoing:this.fading?.getEffectiveWeight()||0,props:this.props.meshes},...(size?{pose:{size,halo:this.halos[0]?.node.getWorldPosition(new THREE.Vector3()).toArray()||[],canvas:[],client:[innerWidth,innerHeight]}}:{})};
  }
- dispose(){if(this.disposed)return;this.disposed=true;this.depthTarget?.dispose();this.outline?.dispose();this.mixer?.stopAllAction();if(this.mixer)this.mixer.uncacheRoot(this.root.children[0]);for(const s of this.skeletons)s.dispose();for(const g of this.geometries)g.dispose();for(const m of this.materials)m.dispose();for(const t of this.textures){const image=t.source.data;if(image?.close)image.close();t.dispose();}this.scene.clear();}
+ dispose(){if(this.disposed)return;this.disposed=true;this.depthTarget?.dispose();for(const m of this.mirrors)m.dispose();this.mirrors.length=0;this.outline?.dispose();this.mixer?.stopAllAction();if(this.mixer)this.mixer.uncacheRoot(this.root.children[0]);for(const s of this.skeletons)s.dispose();for(const g of this.geometries)g.dispose();for(const m of this.materials)m.dispose();for(const t of this.textures){const image=t.source.data;if(image?.close)image.close();t.dispose();}this.scene.clear();}
 }

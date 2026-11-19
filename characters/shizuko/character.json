@@ -232,11 +232,10 @@
           "tile": 704
         }
       ],
-      "yaw": 2.356194490192345,
+      "yaw": 0.785398,
       "sourceTimeline": "my_event06_pocha",
       "sourceGroup": "RequiredTrack_23006",
-      "sourceStudentTrack": "23006",
-      "viewYaw": -1.570796
+      "sourceStudentTrack": "23006"
     }
   ],
   "framing": {

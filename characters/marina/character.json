@@ -1,0 +1,822 @@
+{
+  "id": "marina",
+  "name": "真里奈 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Marina_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Marina_Original_Cafe_Idle--9f30847f903e314b",
+    "interact": "Marina_Original_Cafe_Reaction--a81cf79c34cf677"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Marina_Original_Cafe_Idle--9f30847f903e314b",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Marina_Original_Cafe_Reaction--a81cf79c34cf677",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Marina_Original_Cafe_Walk--3e7770249765164a",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Marina_Original_Victory_Start--4304a08161d8b0d",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Marina_Original_Normal_Reload--51b1f6a53475e0f0",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Marina_Original_Formation_Pickup--7367c6909b213ae7",
+      "category": "常用"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "Marina_Original_Move_Jump--e9be73cce64818c3",
+      "sourceName": "Marina_Original_Move_Jump",
+      "category": "移动"
+    },
+    {
+      "id": "original_exs_root",
+      "label": "EX 技能 · Root",
+      "clip": "Marina_Original_Exs_Root--d616b80fbf51da57",
+      "sourceName": "Marina_Original_Exs_Root",
+      "category": "技能"
+    },
+    {
+      "id": "original_victory_01",
+      "label": "胜利 · 01",
+      "clip": "Marina_Original_Exs_Cutin_RedWinter_Victory_01--d600f7a50e868f6c",
+      "sourceName": "Marina_Original_Exs_Cutin_RedWinter_Victory_01",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Marina_Original_Victory_End--d5f56efde97e1d6f",
+      "sourceName": "Marina_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Marina_Original_Vital_Retreat--d1824861d7785bc8",
+      "sourceName": "Marina_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Marina_Original_Vital_Death--cc62b1df885a106c",
+      "sourceName": "Marina_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_ing",
+      "label": "掩体站姿 · 攻击 · 持续",
+      "clip": "Marina_Original_Stand_Attack_Ing--ca36cd4ec0d74889",
+      "sourceName": "Marina_Original_Stand_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Marina_Original_Kneel_Idle--c99e10fb97bc3259",
+      "sourceName": "Marina_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Marina_Original_Move_End_Normal--fa626638807fd148",
+      "sourceName": "Marina_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Marina_Original_Kneel_Attack_Delay--c7a197c4477bd6bd",
+      "sourceName": "Marina_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_03",
+      "label": "胜利 · 03",
+      "clip": "Marina_Original_Exs_Cutin_RedWinter_Victory_03--fa22e20bddd2e135",
+      "sourceName": "Marina_Original_Exs_Cutin_RedWinter_Victory_03",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Marina_Original_Vital_Dying_ing--c259a1ce6be4dc70",
+      "sourceName": "Marina_Original_Vital_Dying_ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Marina_Original_Kneel_Attack_End--b8a9c3a5e548262e",
+      "sourceName": "Marina_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_redwinter_run_01",
+      "label": "EX 技能 · Cutin · RedWinter · 跑步 · 01",
+      "clip": "Marina_Original_Exs_Cutin_RedWinter_Run_01--b7ac8cdccb70409f",
+      "sourceName": "Marina_Original_Exs_Cutin_RedWinter_Run_01",
+      "category": "技能"
+    },
+    {
+      "id": "original_stand_idle",
+      "label": "掩体站姿 · 待机",
+      "clip": "Marina_Original_Stand_Idle--b19327dc56f7e24c",
+      "sourceName": "Marina_Original_Stand_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_redwinter_run_02",
+      "label": "EX 技能 · Cutin · RedWinter · 跑步 · 02",
+      "clip": "Marina_Original_Exs_Cutin_RedWinter_Run_02--9dadfec47f339f5e",
+      "sourceName": "Marina_Original_Exs_Cutin_RedWinter_Run_02",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Marina_Original_Vital_Panic--98644598582d764e",
+      "sourceName": "Marina_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Marina_Original_Move_End_Kneel--968b346919843609",
+      "sourceName": "Marina_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_stand_reload",
+      "label": "掩体站姿 · 换弹",
+      "clip": "Marina_Original_Stand_Reload--95584c48ae6cec3e",
+      "sourceName": "Marina_Original_Stand_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Marina_Original_Exs--92a816f944d9191b",
+      "sourceName": "Marina_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Marina_Original_Kneel_Attack_Ing--8e7e13c1b7864c2c",
+      "sourceName": "Marina_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Marina_Original_Normal_Attack_End--899264f37743b8d7",
+      "sourceName": "Marina_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Marina_Original_Normal_Callsign--fe222c4206abf61",
+      "sourceName": "Marina_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Marina_Original_Move_Ing--13ae3f8e53bbe25b",
+      "sourceName": "Marina_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_exs_cutin_redwinter_run_03",
+      "label": "EX 技能 · Cutin · RedWinter · 跑步 · 03",
+      "clip": "Marina_Original_Exs_Cutin_RedWinter_Run_03--1a387079d9602d8c",
+      "sourceName": "Marina_Original_Exs_Cutin_RedWinter_Run_03",
+      "category": "技能"
+    },
+    {
+      "id": "original_stand_attack_delay",
+      "label": "掩体站姿 · 攻击 · 间隔",
+      "clip": "Marina_Original_Stand_Attack_Delay--214c4a509d9b7123",
+      "sourceName": "Marina_Original_Stand_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Marina_Original_Normal_Attack_Delay--251946fef0cff235",
+      "sourceName": "Marina_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Marina_Original_Public01--26e3c8f55e74e4b6",
+      "sourceName": "Marina_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_public",
+      "label": "普通技能",
+      "clip": "Marina_Original_Public--2a5df4b0c750f92c",
+      "sourceName": "Marina_Original_Public",
+      "category": "技能"
+    },
+    {
+      "id": "original_stand_attack_start",
+      "label": "掩体站姿 · 攻击 · 开始",
+      "clip": "Marina_Original_Stand_Attack_Start--3006b830880d0123",
+      "sourceName": "Marina_Original_Stand_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_stand",
+      "label": "移动 · 结束 · 掩体站姿",
+      "clip": "Marina_Original_Move_End_Stand--4d535b392a9f0fa",
+      "sourceName": "Marina_Original_Move_End_Stand",
+      "category": "移动"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Marina_Original_Formation_Idle--332fef6f9144b02c",
+      "sourceName": "Marina_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Marina_Original_Normal_Attack_Ing--33b0fe72380a890a",
+      "sourceName": "Marina_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Marina_Original_Normal_Attack_Start--3688ef6aa0349163",
+      "sourceName": "Marina_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Marina_Original_Kneel_Reload--5b34df222482bce",
+      "sourceName": "Marina_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_redwinter",
+      "label": "EX 技能 · RedWinter",
+      "clip": "Marina_Original_Exs_RedWinter--44e6b74f771828aa",
+      "sourceName": "Marina_Original_Exs_RedWinter",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Marina_Original_Normal_Idle--47508f12bd19b577",
+      "sourceName": "Marina_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Marina_Original_Kneel_Attack_Start--57bc43401673b264",
+      "sourceName": "Marina_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Marina_Original_Exs_Cutin--584547f109f036d8",
+      "sourceName": "Marina_Original_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_stand_attack_end",
+      "label": "掩体站姿 · 攻击 · 结束",
+      "clip": "Marina_Original_Stand_Attack_End--5b6ef3f1f5ebec98",
+      "sourceName": "Marina_Original_Stand_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_root_46",
+      "label": "EX 技能 · Root",
+      "clip": "Marina_Original_Exs_Root--6988ed81219756ac",
+      "sourceName": "Marina_Original_Exs_Root",
+      "category": "技能"
+    },
+    {
+      "id": "original_victory_02",
+      "label": "胜利 · 02",
+      "clip": "Marina_Original_Exs_Cutin_RedWinter_Victory_02--7b9a2cafddc06a31",
+      "sourceName": "Marina_Original_Exs_Cutin_RedWinter_Victory_02",
+      "category": "编队与胜利"
+    }
+  ],
+  "mouth": {
+    "material": "Marina_Original_Mouth",
+    "defaultTile": 406,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.75,
+      0.5
+    ],
+    "events": {
+      "Marina_Original_Cafe_Idle--9f30847f903e314b": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 2.6666667,
+          "tile": 704
+        }
+      ],
+      "Marina_Original_Cafe_Reaction--a81cf79c34cf677": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.20000002,
+          "tile": 705
+        },
+        {
+          "time": 0.9333334,
+          "tile": 707
+        },
+        {
+          "time": 0.9666667,
+          "tile": 704
+        },
+        {
+          "time": 2.8333335,
+          "tile": 704
+        }
+      ],
+      "Marina_Original_Cafe_Walk--3e7770249765164a": [
+        {
+          "time": 0,
+          "tile": 604
+        },
+        {
+          "time": 1.3333334,
+          "tile": 604
+        }
+      ],
+      "Marina_Original_Victory_Start--4304a08161d8b0d": [
+        {
+          "time": 0,
+          "tile": 406
+        },
+        {
+          "time": 0.33333334,
+          "tile": 707
+        },
+        {
+          "time": 2.266667,
+          "tile": 706
+        },
+        {
+          "time": 3.0000002,
+          "tile": 406
+        }
+      ],
+      "Marina_Original_Normal_Reload--51b1f6a53475e0f0": [],
+      "Marina_Original_Formation_Pickup--7367c6909b213ae7": [
+        {
+          "time": 0,
+          "tile": 707
+        },
+        {
+          "time": 0.033333335,
+          "tile": 305
+        },
+        {
+          "time": 0.23333335,
+          "tile": 605
+        },
+        {
+          "time": 1.6666667,
+          "tile": 305
+        },
+        {
+          "time": 5.066667,
+          "tile": 707
+        },
+        {
+          "time": 10.666667,
+          "tile": 707
+        }
+      ],
+      "Marina_Original_Move_Jump--e9be73cce64818c3": [],
+      "Marina_Original_Exs_Root--d616b80fbf51da57": [
+        {
+          "time": 0.033333335,
+          "tile": 504
+        },
+        {
+          "time": 0.13333334,
+          "tile": 607
+        },
+        {
+          "time": 0.23333335,
+          "tile": 605
+        },
+        {
+          "time": 0.33333334,
+          "tile": 707
+        },
+        {
+          "time": 0.6,
+          "tile": 406
+        },
+        {
+          "time": 3.3666668,
+          "tile": 607
+        },
+        {
+          "time": 7.0000005,
+          "tile": 406
+        },
+        {
+          "time": 7.3333335,
+          "tile": 604
+        },
+        {
+          "time": 8.400001,
+          "tile": 406
+        },
+        {
+          "time": 8.833334,
+          "tile": 406
+        }
+      ],
+      "Marina_Original_Exs_Cutin_RedWinter_Victory_01--d600f7a50e868f6c": [],
+      "Marina_Original_Victory_End--d5f56efde97e1d6f": [],
+      "Marina_Original_Vital_Retreat--d1824861d7785bc8": [
+        {
+          "time": 0,
+          "tile": 604
+        },
+        {
+          "time": 1.6666667,
+          "tile": 604
+        }
+      ],
+      "Marina_Original_Vital_Death--cc62b1df885a106c": [
+        {
+          "time": 0,
+          "tile": 507
+        },
+        {
+          "time": 0.6,
+          "tile": 607
+        },
+        {
+          "time": 2.2333333,
+          "tile": 607
+        }
+      ],
+      "Marina_Original_Stand_Attack_Ing--ca36cd4ec0d74889": [],
+      "Marina_Original_Kneel_Idle--c99e10fb97bc3259": [],
+      "Marina_Original_Move_End_Normal--fa626638807fd148": [],
+      "Marina_Original_Kneel_Attack_Delay--c7a197c4477bd6bd": [
+        {
+          "time": 0,
+          "tile": 406
+        }
+      ],
+      "Marina_Original_Exs_Cutin_RedWinter_Victory_03--fa22e20bddd2e135": [],
+      "Marina_Original_Vital_Dying_ing--c259a1ce6be4dc70": [
+        {
+          "time": 0,
+          "tile": 607
+        },
+        {
+          "time": 2.266667,
+          "tile": 607
+        }
+      ],
+      "Marina_Original_Kneel_Attack_End--b8a9c3a5e548262e": [],
+      "Marina_Original_Exs_Cutin_RedWinter_Run_01--b7ac8cdccb70409f": [],
+      "Marina_Original_Stand_Idle--b19327dc56f7e24c": [],
+      "Marina_Original_Exs_Cutin_RedWinter_Run_02--9dadfec47f339f5e": [],
+      "Marina_Original_Vital_Panic--98644598582d764e": [
+        {
+          "time": 0,
+          "tile": 607
+        },
+        {
+          "time": 1.6666667,
+          "tile": 607
+        }
+      ],
+      "Marina_Original_Move_End_Kneel--968b346919843609": [],
+      "Marina_Original_Stand_Reload--95584c48ae6cec3e": [],
+      "Marina_Original_Exs--92a816f944d9191b": [
+        {
+          "time": 0,
+          "tile": 504
+        },
+        {
+          "time": 0.06666668,
+          "tile": 604
+        },
+        {
+          "time": 0.13333334,
+          "tile": 607
+        },
+        {
+          "time": 0.23333335,
+          "tile": 605
+        },
+        {
+          "time": 0.33333334,
+          "tile": 707
+        },
+        {
+          "time": 0.6,
+          "tile": 406
+        },
+        {
+          "time": 3.3666668,
+          "tile": 607
+        },
+        {
+          "time": 7.0000005,
+          "tile": 406
+        },
+        {
+          "time": 7.3333335,
+          "tile": 604
+        },
+        {
+          "time": 8.400001,
+          "tile": 406
+        },
+        {
+          "time": 8.833334,
+          "tile": 406
+        }
+      ],
+      "Marina_Original_Kneel_Attack_Ing--8e7e13c1b7864c2c": [],
+      "Marina_Original_Normal_Attack_End--899264f37743b8d7": [],
+      "Marina_Original_Normal_Callsign--fe222c4206abf61": [],
+      "Marina_Original_Move_Ing--13ae3f8e53bbe25b": [],
+      "Marina_Original_Exs_Cutin_RedWinter_Run_03--1a387079d9602d8c": [],
+      "Marina_Original_Stand_Attack_Delay--214c4a509d9b7123": [],
+      "Marina_Original_Normal_Attack_Delay--251946fef0cff235": [],
+      "Marina_Original_Public01--26e3c8f55e74e4b6": [
+        {
+          "time": 0,
+          "tile": 604
+        },
+        {
+          "time": 0.36666667,
+          "tile": 607
+        },
+        {
+          "time": 0.8000001,
+          "tile": 503
+        },
+        {
+          "time": 2.0666668,
+          "tile": 604
+        }
+      ],
+      "Marina_Original_Public--2a5df4b0c750f92c": [
+        {
+          "time": 0,
+          "tile": 607
+        },
+        {
+          "time": 0.10000001,
+          "tile": 507
+        },
+        {
+          "time": 1.0666667,
+          "tile": 406
+        },
+        {
+          "time": 1.2,
+          "tile": 406
+        }
+      ],
+      "Marina_Original_Stand_Attack_Start--3006b830880d0123": [],
+      "Marina_Original_Move_End_Stand--4d535b392a9f0fa": [],
+      "Marina_Original_Formation_Idle--332fef6f9144b02c": [
+        {
+          "time": 0,
+          "tile": 604
+        },
+        {
+          "time": 4,
+          "tile": 604
+        }
+      ],
+      "Marina_Original_Normal_Attack_Ing--33b0fe72380a890a": [],
+      "Marina_Original_Normal_Attack_Start--3688ef6aa0349163": [],
+      "Marina_Original_Kneel_Reload--5b34df222482bce": [],
+      "Marina_Original_Exs_RedWinter--44e6b74f771828aa": [],
+      "Marina_Original_Normal_Idle--47508f12bd19b577": [],
+      "Marina_Original_Kneel_Attack_Start--57bc43401673b264": [],
+      "Marina_Original_Exs_Cutin--584547f109f036d8": [
+        {
+          "time": 0,
+          "tile": 604
+        },
+        {
+          "time": 0.53333336,
+          "tile": 406
+        },
+        {
+          "time": 1.1666667,
+          "tile": 504
+        },
+        {
+          "time": 1.3000001,
+          "tile": 607
+        },
+        {
+          "time": 1.4333333,
+          "tile": 605
+        },
+        {
+          "time": 1.5333334,
+          "tile": 707
+        },
+        {
+          "time": 1.6666666,
+          "tile": 605
+        },
+        {
+          "time": 1.8333334,
+          "tile": 504
+        },
+        {
+          "time": 2.4,
+          "tile": 604
+        },
+        {
+          "time": 3.0666668,
+          "tile": 504
+        },
+        {
+          "time": 3.2333336,
+          "tile": 606
+        },
+        {
+          "time": 4,
+          "tile": 606
+        }
+      ],
+      "Marina_Original_Stand_Attack_End--5b6ef3f1f5ebec98": [],
+      "Marina_Original_Exs_Root--6988ed81219756ac": [],
+      "Marina_Original_Exs_Cutin_RedWinter_Victory_02--7b9a2cafddc06a31": []
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_vital_death": {
+        "zoom": 0.8186319828559907,
+        "centerY": 0.9828583612323859
+      },
+      "original_victory_03": {
+        "zoom": 1,
+        "centerY": 0.7806511248639718
+      },
+      "original_stand_reload": {
+        "zoom": 0.952634115501693,
+        "centerY": 0.8981539482815566
+      },
+      "original_exs_root_46": {
+        "zoom": 1,
+        "centerY": 0.7801727303821695
+      },
+      "original_victory_02": {
+        "zoom": 1,
+        "centerY": 0.7768333887328429
+      }
+    }
+  },
+  "furniture": [
+    {
+      "id": "f3105_0",
+      "name": "情人节单人椅",
+      "model": "f3105_0.glb",
+      "clip": "f3105_0",
+      "duration": 52.233333333333334,
+      "mouthEvents": [
+        {
+          "time": 7.633333333333334,
+          "tile": 402
+        },
+        {
+          "time": 14.100000333333332,
+          "tile": 605
+        },
+        {
+          "time": 15.166667333333333,
+          "tile": 607
+        },
+        {
+          "time": 15.200001333333333,
+          "tile": 604
+        },
+        {
+          "time": 16.633333333333276,
+          "tile": 604
+        },
+        {
+          "time": 18.633333333333276,
+          "tile": 604
+        },
+        {
+          "time": 20.63333333333329,
+          "tile": 604
+        },
+        {
+          "time": 28.86666666666664,
+          "tile": 604
+        },
+        {
+          "time": 29.69999999999996,
+          "tile": 402
+        },
+        {
+          "time": 36.86666666666664,
+          "tile": 402
+        },
+        {
+          "time": 43.33333366666664,
+          "tile": 605
+        },
+        {
+          "time": 44.40000066666664,
+          "tile": 607
+        },
+        {
+          "time": 44.43333466666664,
+          "tile": 604
+        },
+        {
+          "time": 45.86666666666664,
+          "tile": 604
+        },
+        {
+          "time": 45.86666666666668,
+          "tile": 604
+        },
+        {
+          "time": 47.86666666666668,
+          "tile": 604
+        },
+        {
+          "time": 49.86666666666667,
+          "tile": 604
+        },
+        {
+          "time": 51.86666666666667,
+          "tile": 604
+        }
+      ],
+      "yaw": 0.785398,
+      "sourceTimeline": "my_chocolatecafe_01_p_chair",
+      "sourceGroup": "RequiredTrack_10037",
+      "sourceStudentTrack": "10037"
+    }
+  ]
+}

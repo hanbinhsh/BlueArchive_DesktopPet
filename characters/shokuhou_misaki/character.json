@@ -692,11 +692,10 @@
           "tile": 404
         }
       ],
-      "yaw": 2.356194490192345,
+      "yaw": 2.356194,
       "sourceTimeline": "my_event061_market_table",
       "sourceGroup": "RequiredTrack_10080",
-      "sourceStudentTrack": "10080",
-      "viewYaw": 0.0
+      "sourceStudentTrack": "10080"
     }
   ],
   "framing": {

@@ -360,11 +360,10 @@
           "tile": 704
         }
       ],
-      "yaw": 2.356194490192345,
+      "yaw": 5.497787,
       "sourceTimeline": "my_seahouse_01_table_05",
       "sourceGroup": "RequiredTrack_26008",
-      "sourceStudentTrack": "26008",
-      "viewYaw": 3.141593
+      "sourceStudentTrack": "26008"
     }
   ],
   "framing": {

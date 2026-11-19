@@ -50,8 +50,11 @@ def visit(go,path=''):
         mesh_ptr=r.m_Mesh if renderer_kind=='ParticleSystemRenderer' else parts['MeshFilter'].read().m_Mesh
         if renderer_kind=='MeshRenderer':row['staticRenderer']=True
         if mesh_ptr.m_PathID:
-            mesh=read(mesh_ptr);h=MeshHandler(mesh);h.process();row['mesh']={'name':mesh.m_Name,'positions':h.m_Vertices,'uv':h.m_UV0,'uv2':h.m_UV1,'colors':h.m_Colors,'triangles':h.get_triangles()}
-        if row.get('mesh') and h.m_Normals:row['mesh']['normals']=h.m_Normals
+            try:
+                mesh=read(mesh_ptr);h=MeshHandler(mesh);h.process();row['mesh']={'name':mesh.m_Name,'positions':h.m_Vertices,'uv':h.m_UV0,'uv2':h.m_UV1,'colors':h.m_Colors,'triangles':h.get_triangles()}
+                if h.m_Normals:row['mesh']['normals']=h.m_Normals
+            except (FileNotFoundError, KeyError) as error:
+                row.setdefault('missing',[]).append(str(error));errors.append({'effect':row['path'],'reason':str(error),'meshPointer':str(mesh_ptr)})
         for ptr in r.m_Materials:
             if not ptr.m_PathID:continue
             try:row['materials'].append(material(read(ptr)))

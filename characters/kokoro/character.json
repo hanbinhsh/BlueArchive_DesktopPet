@@ -661,11 +661,10 @@
           "tile": 403
         }
       ],
-      "yaw": 2.356194490192345,
+      "yaw": 1.570796,
       "sourceTimeline": "my_event095_divingpool",
       "sourceGroup": "MakeTrack_10149",
-      "sourceStudentTrack": "10149",
-      "viewYaw": 0.0
+      "sourceStudentTrack": "10149"
     },
     {
       "id": "f211314_1",
@@ -680,11 +679,10 @@
         }
       ],
       "note": "与琴音 · 原版同步互动。",
-      "yaw": 2.356194490192345,
+      "yaw": 1.570796,
       "sourceTimeline": "my_event095_divingpool",
       "sourceGroup": "RequiredTrack_10149_10150",
-      "sourceStudentTrack": "10149",
-      "viewYaw": 0.0
+      "sourceStudentTrack": "10149"
     }
   ],
   "framing": {
