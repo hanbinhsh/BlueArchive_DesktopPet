@@ -117,7 +117,8 @@ def adapt_furniture(doc,data,icon):
                 texcache[key]=len(doc.setdefault('textures',[]));doc['textures'].append({'source':image})
             mat['pbrMetallicRoughness']={'baseColorTexture':{'index':texcache[key]},'metallicFactor':0,'roughnessFactor':1}
         elif 'baseColorTexture' not in mat.get('pbrMetallicRoughness',{}):
-            color=dict(original.m_SavedProperties.m_Colors).get('_Color')
+            colors_map=dict(original.m_SavedProperties.m_Colors)
+            color=colors_map.get('_Color') or colors_map.get('_Main_Color')
             if color is None:raise ValueError('Furniture material has no verified texture or color '+mat['name'])
             mat['pbrMetallicRoughness']={'baseColorFactor':[max(0,min(1,v)) for v in [color.r,color.g,color.b,color.a]],'metallicFactor':0,'roughnessFactor':1}
         mat['extensions']={'KHR_materials_unlit':{}}

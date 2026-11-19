@@ -1,0 +1,499 @@
+{
+  "id": "yuzu",
+  "name": "柚子 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Yuzu_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Yuzu_Original_Cafe_Idle--48320edb6ad2e14f",
+    "interact": "Yuzu_Original_Cafe_Reaction--d6efb4bc61167e96"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Yuzu_Original_Cafe_Idle--48320edb6ad2e14f",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Yuzu_Original_Cafe_Reaction--d6efb4bc61167e96",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Yuzu_Original_Cafe_Walk--9aff485b59c1aae1",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Yuzu_Original_Victory_Start--a751a0a430f13143",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Yuzu_Original_Normal_Reload--86de985a1cb2bf97",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Yuzu_Original_Formation_Pickup--ff535b6d9a9f2aac",
+      "category": "常用"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Yuzu_Original_Move_End_Normal--ed8db074fafd0ec1",
+      "sourceName": "Yuzu_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Yuzu_Original_Normal_Callsign--fd675e9a0977a515",
+      "sourceName": "Yuzu_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Yuzu_Original_Vital_Panic--d3d428d7be6e9aed",
+      "sourceName": "Yuzu_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Yuzu_Original_Normal_Attack_Start--d2263a749b626f16",
+      "sourceName": "Yuzu_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Yuzu_Original_Exs--c6ddc40158456b79",
+      "sourceName": "Yuzu_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Yuzu_Original_Vital_Retreat--c2d0cf8e8e6b0315",
+      "sourceName": "Yuzu_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Yuzu_Original_Normal_Attack_End--ad8b92c3c73c4fce",
+      "sourceName": "Yuzu_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Yuzu_Original_Normal_Attack_Ing--acfdd583932916f5",
+      "sourceName": "Yuzu_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Yuzu_Original_Kneel_Attack_Delay--ab7dab8bbe543a09",
+      "sourceName": "Yuzu_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Yuzu_Original_Vital_Dying_Ing--a72bb0342ca32d04",
+      "sourceName": "Yuzu_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Yuzu_Original_Formation_Idle--979e56bb2e9e0855",
+      "sourceName": "Yuzu_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Yuzu_Original_Kneel_Idle--90dd7f31a6602d1e",
+      "sourceName": "Yuzu_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Yuzu_Original_Move_End_Kneel--f369697d78634ba2",
+      "sourceName": "Yuzu_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Yuzu_Original_Kneel_Attack_Ing--1eaac479e520b212",
+      "sourceName": "Yuzu_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Yuzu_Original_Kneel_Reload--22a84ac3fbf514cf",
+      "sourceName": "Yuzu_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Yuzu_Original_Move_Ing--22b2b81fefa0688b",
+      "sourceName": "Yuzu_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Yuzu_Original_Kneel_Attack_End--33252ae2bbe1953e",
+      "sourceName": "Yuzu_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Yuzu_Original_Normal_Attack_Delay--3a77550aaa1706f9",
+      "sourceName": "Yuzu_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Yuzu_Original_Public01--41ba1ee4e6629849",
+      "sourceName": "Yuzu_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Yuzu_Original_Victory_End--51f95f20328adfeb",
+      "sourceName": "Yuzu_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Yuzu_Original_Normal_Idle--60ab325e67756038",
+      "sourceName": "Yuzu_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Yuzu_Original_Kneel_Attack_Start--69d701790cbc2496",
+      "sourceName": "Yuzu_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Yuzu_Original_Vital_Death--774c7f18bb3887db",
+      "sourceName": "Yuzu_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Yuzu_Original_Exs_Cutin--7cf06a9aa1858fc6",
+      "sourceName": "Yuzu_Original_Exs_Cutin",
+      "category": "技能"
+    }
+  ],
+  "mouth": {
+    "material": "Yuzu_Original_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.125,
+      0.5
+    ],
+    "events": {
+      "Yuzu_Original_Cafe_Idle--48320edb6ad2e14f": [],
+      "Yuzu_Original_Cafe_Reaction--d6efb4bc61167e96": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.3,
+          "tile": 507
+        },
+        {
+          "time": 1.1666667,
+          "tile": 506
+        },
+        {
+          "time": 2,
+          "tile": 507
+        },
+        {
+          "time": 2.8333335,
+          "tile": 401
+        }
+      ],
+      "Yuzu_Original_Cafe_Walk--9aff485b59c1aae1": [],
+      "Yuzu_Original_Victory_Start--a751a0a430f13143": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.36666667,
+          "tile": 606
+        },
+        {
+          "time": 0.5,
+          "tile": 605
+        },
+        {
+          "time": 1.3666668,
+          "tile": 402
+        },
+        {
+          "time": 2.6000001,
+          "tile": 300
+        }
+      ],
+      "Yuzu_Original_Normal_Reload--86de985a1cb2bf97": [],
+      "Yuzu_Original_Formation_Pickup--ff535b6d9a9f2aac": [
+        {
+          "time": 0,
+          "tile": 502
+        },
+        {
+          "time": 1.0666667,
+          "tile": 506
+        },
+        {
+          "time": 4.266667,
+          "tile": 507
+        },
+        {
+          "time": 6.8333335,
+          "tile": 502
+        }
+      ],
+      "Yuzu_Original_Move_End_Normal--ed8db074fafd0ec1": [],
+      "Yuzu_Original_Normal_Callsign--fd675e9a0977a515": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.16666667,
+          "tile": 402
+        },
+        {
+          "time": 0.8333334,
+          "tile": 506
+        },
+        {
+          "time": 1.4666667,
+          "tile": 401
+        }
+      ],
+      "Yuzu_Original_Vital_Panic--d3d428d7be6e9aed": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Yuzu_Original_Normal_Attack_Start--d2263a749b626f16": [],
+      "Yuzu_Original_Exs--c6ddc40158456b79": [
+        {
+          "time": 0,
+          "tile": 502
+        },
+        {
+          "time": 0.43333337,
+          "tile": 507
+        },
+        {
+          "time": 1.1333334,
+          "tile": 506
+        },
+        {
+          "time": 1.9333334,
+          "tile": 402
+        },
+        {
+          "time": 2.266667,
+          "tile": 401
+        }
+      ],
+      "Yuzu_Original_Vital_Retreat--c2d0cf8e8e6b0315": [],
+      "Yuzu_Original_Normal_Attack_End--ad8b92c3c73c4fce": [],
+      "Yuzu_Original_Normal_Attack_Ing--acfdd583932916f5": [],
+      "Yuzu_Original_Kneel_Attack_Delay--ab7dab8bbe543a09": [],
+      "Yuzu_Original_Vital_Dying_Ing--a72bb0342ca32d04": [
+        {
+          "time": 0,
+          "tile": 506
+        }
+      ],
+      "Yuzu_Original_Formation_Idle--979e56bb2e9e0855": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Yuzu_Original_Kneel_Idle--90dd7f31a6602d1e": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Yuzu_Original_Move_End_Kneel--f369697d78634ba2": [],
+      "Yuzu_Original_Kneel_Attack_Ing--1eaac479e520b212": [],
+      "Yuzu_Original_Kneel_Reload--22a84ac3fbf514cf": [],
+      "Yuzu_Original_Move_Ing--22b2b81fefa0688b": [],
+      "Yuzu_Original_Kneel_Attack_End--33252ae2bbe1953e": [],
+      "Yuzu_Original_Normal_Attack_Delay--3a77550aaa1706f9": [],
+      "Yuzu_Original_Public01--41ba1ee4e6629849": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.73333335,
+          "tile": 506
+        },
+        {
+          "time": 2.6000001,
+          "tile": 401
+        }
+      ],
+      "Yuzu_Original_Victory_End--51f95f20328adfeb": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Yuzu_Original_Normal_Idle--60ab325e67756038": [],
+      "Yuzu_Original_Kneel_Attack_Start--69d701790cbc2496": [],
+      "Yuzu_Original_Vital_Death--774c7f18bb3887db": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Yuzu_Original_Exs_Cutin--7cf06a9aa1858fc6": [
+        {
+          "time": 0,
+          "tile": 507
+        },
+        {
+          "time": 0.3,
+          "tile": 506
+        },
+        {
+          "time": 1.1666667,
+          "tile": 402
+        },
+        {
+          "time": 1.7333335,
+          "tile": 401
+        },
+        {
+          "time": 2.7,
+          "tile": 502
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210301_0",
+      "name": "游戏开发部置物柜",
+      "model": "f210301_0.glb",
+      "clip": "f210301_0",
+      "duration": 35.23333333333333,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 300
+        },
+        {
+          "time": 3.3333333333333335,
+          "tile": 300
+        },
+        {
+          "time": 6.666666666666667,
+          "tile": 300
+        },
+        {
+          "time": 10.0,
+          "tile": 300
+        },
+        {
+          "time": 12.0333335,
+          "tile": 402
+        },
+        {
+          "time": 13.100000099999999,
+          "tile": 205
+        },
+        {
+          "time": 14.2000003,
+          "tile": 507
+        },
+        {
+          "time": 14.5,
+          "tile": 506
+        },
+        {
+          "time": 16.2333336,
+          "tile": 602
+        },
+        {
+          "time": 18.533334,
+          "tile": 205
+        },
+        {
+          "time": 21.6,
+          "tile": 300
+        },
+        {
+          "time": 21.9,
+          "tile": 300
+        },
+        {
+          "time": 25.233333333333327,
+          "tile": 300
+        },
+        {
+          "time": 28.56666666666666,
+          "tile": 300
+        },
+        {
+          "time": 31.89999999999999,
+          "tile": 300
+        }
+      ],
+      "yaw": 0.7853981633974483,
+      "sourceTimeline": "my_event22_locker",
+      "sourceGroup": "RequiredTrack_10018",
+      "sourceStudentTrack": "10018"
+    }
+  ]
+}

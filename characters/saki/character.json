@@ -1,0 +1,261 @@
+{
+  "id": "saki",
+  "name": "咲 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0144; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0144_Cafe_Idle--7b443682f62d254a",
+    "interact": "CH0144_Cafe_Reaction--e659ca29657c8bb2"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0144_Cafe_Idle--7b443682f62d254a",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0144_Cafe_Reaction--e659ca29657c8bb2",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0144_Cafe_Walk--a69ae54f9895e8c8",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0144_Formation_Pickup--920124d16c4d99be",
+      "category": "常用"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0144_Formation_Idle--9a09d2a66e65b96c",
+      "sourceName": "CH0144_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0144_Tactical_Start--4533e9f940df3269",
+      "sourceName": "CH0144_Tactical_Start",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "CH0144_Mouth",
+    "defaultTile": 602,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.25,
+      0.75
+    ],
+    "events": {
+      "CH0144_Cafe_Idle--7b443682f62d254a": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0144_Cafe_Reaction--e659ca29657c8bb2": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.26666668,
+          "tile": 402
+        },
+        {
+          "time": 0.90000004,
+          "tile": 401
+        },
+        {
+          "time": 1.1666667,
+          "tile": 305
+        },
+        {
+          "time": 3.0333335,
+          "tile": 401
+        }
+      ],
+      "CH0144_Cafe_Walk--a69ae54f9895e8c8": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0144_Formation_Pickup--920124d16c4d99be": [
+        {
+          "time": 0,
+          "tile": 604
+        },
+        {
+          "time": 0.20000002,
+          "tile": 605
+        },
+        {
+          "time": 0.6,
+          "tile": 604
+        },
+        {
+          "time": 0.7333334,
+          "tile": 606
+        },
+        {
+          "time": 2.3666668,
+          "tile": 607
+        },
+        {
+          "time": 5.866667,
+          "tile": 604
+        }
+      ],
+      "CH0144_Exs--c59adeaad95b10b8": [
+        {
+          "time": 0,
+          "tile": 607
+        },
+        {
+          "time": 0.53333336,
+          "tile": 604
+        },
+        {
+          "time": 1.2,
+          "tile": 507
+        },
+        {
+          "time": 2.6333334,
+          "tile": 604
+        },
+        {
+          "time": 4.033334,
+          "tile": 607
+        },
+        {
+          "time": 5.266667,
+          "tile": 604
+        }
+      ],
+      "CH0144_Formation_Idle--9a09d2a66e65b96c": [
+        {
+          "time": 0,
+          "tile": 604
+        },
+        {
+          "time": 3.2000003,
+          "tile": 604
+        }
+      ],
+      "CH0144_UH60_Exs_Cutin--25fda089dcdd1662": [],
+      "CH0144_Tactical_Start--4533e9f940df3269": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.30000004,
+          "tile": 402
+        },
+        {
+          "time": 0.9333334,
+          "tile": 605
+        },
+        {
+          "time": 1.2000002,
+          "tile": 604
+        }
+      ],
+      "CH0144_UH60_Exs--65f627468f1d7404": [],
+      "CH0144_Exs_Cutin--6606aee371af0ccf": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.26666668,
+          "tile": 605
+        },
+        {
+          "time": 0.5,
+          "tile": 604
+        },
+        {
+          "time": 1.4333334,
+          "tile": 507
+        },
+        {
+          "time": 1.8333334,
+          "tile": 604
+        },
+        {
+          "time": 2.3333335,
+          "tile": 607
+        },
+        {
+          "time": 3.4,
+          "tile": 604
+        },
+        {
+          "time": 3.8333335,
+          "tile": 507
+        }
+      ],
+      "CH0144_RabbitofCaerbannog_part2_OP--da476f1448eec816": []
+    }
+  },
+  "furniture": [
+    {
+      "id": "f8104_0",
+      "name": "黄色折叠式露营椅",
+      "model": "f8104_0.glb",
+      "clip": "f8104_0",
+      "duration": 9.033333333333333,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 604
+        },
+        {
+          "time": 3.3333335,
+          "tile": 401
+        },
+        {
+          "time": 3.9,
+          "tile": 402
+        },
+        {
+          "time": 5.1000004,
+          "tile": 604
+        },
+        {
+          "time": 6.333334,
+          "tile": 305
+        },
+        {
+          "time": 7.7333336,
+          "tile": 401
+        },
+        {
+          "time": 8.466667,
+          "tile": 604
+        }
+      ],
+      "yaw": -0.7853981633974483,
+      "sourceTimeline": "my_military_01_CH0144_chair",
+      "sourceGroup": "RequiredTrack_20014",
+      "sourceStudentTrack": "20014"
+    }
+  ]
+}

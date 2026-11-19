@@ -1,0 +1,460 @@
+{
+  "id": "sumire_parttime",
+  "name": "堇 · 打工",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0287; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0287_Cafe_Idle--e253b1193859f86e",
+    "interact": "CH0287_Cafe_Reaction--7d3c6617a4a68d51"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0287_Cafe_Idle--e253b1193859f86e",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0287_Cafe_Reaction--7d3c6617a4a68d51",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0287_Cafe_Walk--da3c6d6132ce11ae",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0287_Formation_Pickup--e578144701d8143a",
+      "category": "常用"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0287_Tactical_Start--cfd4b883cee3273c",
+      "sourceName": "CH0287_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0287_Formation_Idle--2c5ce1430c8bbf6d",
+      "sourceName": "CH0287_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_tactical_start_random",
+      "label": "Tactical · 开始 · Random",
+      "clip": "CH0287_Tactical_Start_Random--79aadd5ab8d1ca9a",
+      "sourceName": "CH0287_Tactical_Start_Random",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_npc1",
+      "label": "EX 技能 · Cutin · NPC1",
+      "clip": "CH0287_Exs_Cutin_NPC1--9abe79125b2dab6e",
+      "sourceName": "CH0287_Exs_Cutin_NPC1",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_npc4",
+      "label": "EX 技能 · Cutin · NPC4",
+      "clip": "CH0287_Exs_Cutin_NPC4--27586d74c004ea86",
+      "sourceName": "CH0287_Exs_Cutin_NPC4",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "CH0287_Exs--3195fc5375679912",
+      "sourceName": "CH0287_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_npc2",
+      "label": "EX 技能 · Cutin · NPC2",
+      "clip": "CH0287_Exs_Cutin_NPC2--36663f94bddaf517",
+      "sourceName": "CH0287_Exs_Cutin_NPC2",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_npc3",
+      "label": "EX 技能 · Cutin · NPC3",
+      "clip": "CH0287_Exs_Cutin_NPC3--7285e379e25a5a2f",
+      "sourceName": "CH0287_Exs_Cutin_NPC3",
+      "category": "技能"
+    }
+  ],
+  "mouth": {
+    "material": "CH0287_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.125,
+      0.5
+    ],
+    "events": {
+      "CH0287_Cafe_Idle--e253b1193859f86e": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0287_Cafe_Reaction--7d3c6617a4a68d51": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.13333334,
+          "tile": 402
+        },
+        {
+          "time": 0.86666673,
+          "tile": 401
+        },
+        {
+          "time": 1.5333334,
+          "tile": 402
+        },
+        {
+          "time": 2.7333336,
+          "tile": 300
+        },
+        {
+          "time": 3.0000002,
+          "tile": 705
+        },
+        {
+          "time": 3.8333335,
+          "tile": 707
+        },
+        {
+          "time": 5.6000004,
+          "tile": 704
+        },
+        {
+          "time": 5.9,
+          "tile": 706
+        },
+        {
+          "time": 8.3,
+          "tile": 704
+        },
+        {
+          "time": 9.3,
+          "tile": 401
+        }
+      ],
+      "CH0287_Cafe_Walk--da3c6d6132ce11ae": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0287_Formation_Pickup--e578144701d8143a": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.166665,
+          "tile": 402
+        },
+        {
+          "time": 1.433319,
+          "tile": 706
+        },
+        {
+          "time": 3.599964,
+          "tile": 705
+        },
+        {
+          "time": 4.299957,
+          "tile": 704
+        },
+        {
+          "time": 7.133262,
+          "tile": 402
+        },
+        {
+          "time": 9.133242,
+          "tile": 300
+        },
+        {
+          "time": 14.33319,
+          "tile": 402
+        }
+      ],
+      "CH0287_Tactical_Start--cfd4b883cee3273c": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.4666667,
+          "tile": 707
+        }
+      ],
+      "CH0287_Formation_Idle--2c5ce1430c8bbf6d": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0287_Tactical_Start_Random--79aadd5ab8d1ca9a": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.6,
+          "tile": 704
+        },
+        {
+          "time": 0.8000001,
+          "tile": 706
+        }
+      ],
+      "CH0287_Exs_Cutin_02--ee964ba2ef8affe3": [
+        {
+          "time": 0,
+          "tile": 604
+        },
+        {
+          "time": 0.233331,
+          "tile": 605
+        },
+        {
+          "time": 0.499995,
+          "tile": 607
+        }
+      ],
+      "CH0287_Exs_Cutin_01--ca96af1f85bc6e87": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.199988,
+          "tile": 706
+        },
+        {
+          "time": 3.133302,
+          "tile": 402
+        },
+        {
+          "time": 4.899951,
+          "tile": 605
+        }
+      ],
+      "CH0287_Exs_Cutin_03--c6682106dbd4883d": [
+        {
+          "time": 0.233331,
+          "tile": 305
+        },
+        {
+          "time": 1.499985,
+          "tile": 706
+        }
+      ],
+      "CH0287_Exs_Cutin_NPC1--9abe79125b2dab6e": [],
+      "CH0287_Exs_Cutin_04--8b889e1b7105b863": [
+        {
+          "time": 0,
+          "tile": 706
+        }
+      ],
+      "CH0287_Exs_Cutin_NPC4--27586d74c004ea86": [],
+      "CH0287_Exs--3195fc5375679912": [
+        {
+          "time": 0,
+          "tile": 706
+        },
+        {
+          "time": 0.19999799,
+          "tile": 401
+        },
+        {
+          "time": 1.633317,
+          "tile": 305
+        },
+        {
+          "time": 3.733296,
+          "tile": 401
+        },
+        {
+          "time": 4.066626,
+          "tile": 704
+        },
+        {
+          "time": 4.266624,
+          "tile": 706
+        }
+      ],
+      "CH0287_Exs_Cutin_NPC2--36663f94bddaf517": [],
+      "CH0287_Exs_Cutin_NPC3--7285e379e25a5a2f": []
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs_cutin_npc1": {
+        "zoom": 0.3062562879021432,
+        "centerY": 2.551265058283924
+      },
+      "original_exs_cutin_npc4": {
+        "zoom": 0.2572766338206234,
+        "centerY": 2.5820827979283907
+      },
+      "original_exs": {
+        "zoom": 0.6370776105573984,
+        "centerY": 2.1554330493791216
+      },
+      "original_exs_cutin_npc2": {
+        "zoom": 0.3071801450902348,
+        "centerY": 2.374133236758663
+      },
+      "original_exs_cutin_npc3": {
+        "zoom": 0.30710799715121223,
+        "centerY": 2.1916188132830206
+      }
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210365_0",
+      "name": "引体向上辅助器",
+      "model": "f210365_0.glb",
+      "clip": "f210365_0",
+      "duration": 81.86666666666666,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 707
+        },
+        {
+          "time": 8.533248,
+          "tile": 704
+        },
+        {
+          "time": 9.366573,
+          "tile": 706
+        },
+        {
+          "time": 9.966567,
+          "tile": 705
+        },
+        {
+          "time": 11.899881,
+          "tile": 704
+        },
+        {
+          "time": 22.66644,
+          "tile": 705
+        },
+        {
+          "time": 23.466433,
+          "tile": 706
+        },
+        {
+          "time": 24.266424,
+          "tile": 504
+        },
+        {
+          "time": 26.066406,
+          "tile": 704
+        },
+        {
+          "time": 29.766369,
+          "tile": 707
+        },
+        {
+          "time": 33.166336,
+          "tile": 704
+        },
+        {
+          "time": 34.76632,
+          "tile": 300
+        },
+        {
+          "time": 43.199566,
+          "tile": 707
+        },
+        {
+          "time": 44.33289,
+          "tile": 705
+        },
+        {
+          "time": 46.532867,
+          "tile": 704
+        },
+        {
+          "time": 49.532837,
+          "tile": 705
+        },
+        {
+          "time": 50.36616,
+          "tile": 704
+        },
+        {
+          "time": 54.932785,
+          "tile": 704
+        },
+        {
+          "time": 57.66609,
+          "tile": 707
+        },
+        {
+          "time": 60.66606,
+          "tile": 705
+        },
+        {
+          "time": 61.79938,
+          "tile": 706
+        },
+        {
+          "time": 62.132713,
+          "tile": 504
+        },
+        {
+          "time": 63.066036,
+          "tile": 704
+        },
+        {
+          "time": 66.766,
+          "tile": 402
+        },
+        {
+          "time": 68.69931,
+          "tile": 704
+        },
+        {
+          "time": 68.765976,
+          "tile": 706
+        },
+        {
+          "time": 70.73263,
+          "tile": 704
+        },
+        {
+          "time": 79.13254,
+          "tile": 707
+        }
+      ],
+      "yaw": -2.356194490192345,
+      "sourceTimeline": "my_event078_pullupmachine",
+      "sourceGroup": "RequiredTrack_20044",
+      "sourceStudentTrack": "20044"
+    }
+  ]
+}

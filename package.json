@@ -1,6 +1,6 @@
 {
   "name": "blue-archive-desktop-pet",
-  "version": "0.2.24",
+  "version": "0.2.25",
   "private": true,
   "description": "Offline Windows 3D desktop companion",
   "author": "BA Desktop Pet",
@@ -171,6 +171,10 @@
       {
         "from": "docs/ROSTER-016.md",
         "to": "ROSTER-016.md"
+      },
+      {
+        "from": "docs/ROSTER-017.md",
+        "to": "ROSTER-017.md"
       }
     ],
     "win": {

@@ -101,12 +101,12 @@ export async function attachCafeSmoke(material:THREE.MeshBasicMaterial,parser:an
  if(spec.kind==='multiply'){material.blendSrcAlpha=THREE.ZeroFactor;material.blendDstAlpha=THREE.OneFactor;}
  material.depthWrite=false;
  if(['unlit','unlitVC'].includes(spec.kind))material.depthWrite=material.userData.BA_depthWrite===true;
- if(spec.kind==='matcap')material.depthWrite=material.userData.BA_depthWrite===true;
+ if(['matcap','matcapBlend'].includes(spec.kind))material.depthWrite=material.userData.BA_depthWrite===true;
  if(['cloud','doubleSoft','distortSoft'].includes(spec.kind))depth.required=true;
  material.onBeforeCompile=shader=>{
   Object.assign(shader.uniforms,uniforms);
   shader.vertexShader=(spec.kind==='channel'?'attribute vec2 fxSecondUV;':'')+'varying vec2 fxUV2;varying vec2 fxUV;varying float fxEyeDepth;\n'+shader.vertexShader.replace('#include <uv_vertex>','#include <uv_vertex>\nfxUV=vec2(uv.x,1.-uv.y);fxUV2='+ (spec.kind==='channel'?'vec2(fxSecondUV.x,1.-fxSecondUV.y);':'fxUV;')).replace('#include <project_vertex>','#include <project_vertex>\nfxEyeDepth=-mvPosition.z;');
-  if(spec.kind==='matcap')shader.vertexShader='varying vec3 fxViewNormal;\n'+shader.vertexShader.replace('#include <begin_vertex>','#include <begin_vertex>\nfxViewNormal=normalize(normalMatrix*normal);');
+  if(['matcap','matcapBlend'].includes(spec.kind))shader.vertexShader='varying vec3 fxViewNormal;\n'+shader.vertexShader.replace('#include <begin_vertex>','#include <begin_vertex>\nfxViewNormal=normalize(normalMatrix*normal);');
   shader.fragmentShader=`varying vec2 fxUV2;varying vec2 fxUV;varying float fxEyeDepth;
 uniform float fxTime,fxUnitScale;uniform vec4 fxAtlas,cd1,cd2,mainST,maskST,distortST,dissolveST;
 uniform vec2 fxDepthSize,fxDepthRange;uniform sampler2D fxDepthTex,mainTex,maskTex,distortTex,dissolveTex;
@@ -123,7 +123,7 @@ particleColor.rgb*=vColor;
 ${(cafeMaterialShaders[spec.kind]||(spec.kind==='cloud'?cloud:spec.kind==='puff'?puff:spec.kind==='pixel'?pixel:smooth)).replace(/\bfxUV\b/g,'animatedUV').replace(/\bcd1\b/g,'shaderData1').replace(/\bcd2\b/g,'shaderData2')}
 ${['blend','channel'].includes(spec.kind)?'diffuseColor.rgb*=particleColor.a;':['mask','distort','distortSoft'].includes(spec.kind)?'diffuseColor.rgb*=particleColor.a*particleColor.a;':spec.kind==='step'?'diffuseColor.rgb*=(_Vertex_Alpha_Use!=0.?1.:particleColor.a);':''}
 ${spec.kind==='add'?'diffuseColor.a=clamp(max(max(diffuseColor.r,diffuseColor.g),diffuseColor.b),0.,1.);':''}`).replace('#include <color_fragment>','').replace('#include <premultiplied_alpha_fragment>','');
-  if(spec.kind==='matcap')shader.fragmentShader='varying vec3 fxViewNormal;\n'+shader.fragmentShader;
+  if(['matcap','matcapBlend'].includes(spec.kind))shader.fragmentShader='varying vec3 fxViewNormal;\n'+shader.fragmentShader;
   if(material.blendSrc===THREE.OneFactor&&material.blendDst===THREE.OneMinusSrcAlphaFactor)shader.fragmentShader=shader.fragmentShader.replace('#include <colorspace_fragment>','gl_FragColor.rgb/=max(gl_FragColor.a,1e-7);\n#include <colorspace_fragment>\ngl_FragColor.rgb*=gl_FragColor.a;');
  };
  material.customProgramCacheKey=()=>`BA-smoke-${spec.kind}-${declarations.join('|')}-${material.blendSrc}-${material.blendDst}`;material.needsUpdate=true;

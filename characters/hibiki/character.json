@@ -1,0 +1,119 @@
+{
+  "id": "hibiki",
+  "name": "响 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Hibiki_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Hibiki_Original_Cafe_Idle--bb9d964bdff809c3",
+    "interact": "Hibiki_Original_Cafe_Reaction--abdea3ebec98d649"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Hibiki_Original_Cafe_Idle--bb9d964bdff809c3",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Hibiki_Original_Cafe_Reaction--abdea3ebec98d649",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Hibiki_Original_Cafe_Walk--a209113104a20a1a",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Hibiki_Original_Formation_Pickup--cecc765307950a43",
+      "category": "常用"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Hibiki_Original_Formation_Idle--8e404d621ead027a",
+      "sourceName": "Hibiki_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Hibiki_Original_Exs--1bf39f82cad33753",
+      "sourceName": "Hibiki_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "Hibiki_Original_Tactical_Start--737c6ab9811818b8",
+      "sourceName": "Hibiki_Original_Tactical_Start",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Hibiki_Original_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.125,
+      0.5
+    ],
+    "events": {
+      "Hibiki_Original_Cafe_Idle--bb9d964bdff809c3": [],
+      "Hibiki_Original_Cafe_Reaction--abdea3ebec98d649": [],
+      "Hibiki_Original_Cafe_Walk--a209113104a20a1a": [],
+      "Hibiki_Original_Formation_Pickup--cecc765307950a43": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.53333336,
+          "tile": 704
+        },
+        {
+          "time": 2.266667,
+          "tile": 705
+        },
+        {
+          "time": 4.2000003,
+          "tile": 704
+        },
+        {
+          "time": 5.566667,
+          "tile": 705
+        },
+        {
+          "time": 9.500001,
+          "tile": 401
+        }
+      ],
+      "Hibiki_Original_Formation_Idle--8e404d621ead027a": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hibiki_Original_Exs--1bf39f82cad33753": [],
+      "Hibiki_Original_Tactical_Start--737c6ab9811818b8": []
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs": {
+        "zoom": 0.6628667656939031,
+        "centerY": -0.0743233348870953
+      }
+    }
+  }
+}

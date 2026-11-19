@@ -40,13 +40,15 @@ def restore_geometry(doc,data,originals,defaults,restore_static=True):
         if source.m_Normals:attrs['NORMAL']=append_accessor(doc,data,[(-v[0],v[1],v[2]) for v in source.m_Normals],'VEC3')
         if source.m_UV0:attrs['TEXCOORD_0']=append_accessor(doc,data,[(v[0],1-v[1]) for v in source.m_UV0],'VEC2')
         mesh={'name':filt.m_Mesh.read().m_Name,'primitives':[]}
+        materials = doc.setdefault('materials', [])
+        meshes = doc.setdefault('meshes', [])
         for i,triangles in enumerate(source.get_triangles()):
             if not triangles:continue
             mat=renderer.m_Materials[i].read().m_Name
-            mi=next((i for i,m in enumerate(doc['materials']) if m.get('name')==mat),None)
-            if mi is None:mi=len(doc['materials']);doc['materials'].append({'name':mat})
+            mi=next((i for i,m in enumerate(materials) if m.get('name')==mat),None)
+            if mi is None:mi=len(materials);materials.append({'name':mat})
             mesh['primitives'].append({'attributes':attrs,'indices':append_accessor(doc,data,[(v,) for a,b,c in triangles for v in (a,c,b)],'SCALAR',5125),'material':mi})
-        node['mesh']=len(doc['meshes']);doc['meshes'].append(mesh);restored.append(name)
+        node['mesh']=len(meshes);meshes.append(mesh);restored.append(name)
     for node in doc['nodes']:
         if 'mesh' not in node or 'skin' not in node:continue
         name=original_name(node.get('name',''),originals);renderer=originals.get(name)

@@ -212,3 +212,4 @@ cafeMaterialShaders.matcap=`
 vec4 mainSample=sourceTex(mainTex,fxUV*mainST.xy+mainST.zw);
 vec4 cap=sourceTex(maskTex,fxViewNormal.xy*.5+.5);
 diffuseColor=vec4(mainSample.rgb*_Main_Color.rgb*particleColor.rgb*cap.rgb,cap.a*particleColor.a*_Main_Color.a);`;
+cafeMaterialShaders.matcapBlend=cafeMaterialShaders.matcap;

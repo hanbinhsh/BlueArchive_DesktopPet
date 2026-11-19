@@ -18,7 +18,7 @@ for (const dir of readdirSync(root, { withFileTypes: true }).filter(d => d.isDir
     const original = gltf.scenes[0].extras.BAAD_unity_animation.clips;
     for (const [clip, events] of Object.entries(manifest.mouth.events)) {
       const metadata = original.find(c => c.track === clip);
-      const expected=metadata?.events.filter(e=>['SetMouthTile','SetHorizontallyFlippedMouthTile','SetMouthTileToDefault'].includes(e.function)).map(e=>({time:e.time,tile:e.function==='SetMouthTileToDefault'?manifest.mouth.defaultTile:e.int,...e.function==='SetHorizontallyFlippedMouthTile'?{flipped:true}:{}}));
+      const expected=metadata?.events.filter(e=>['SetMouthTile','SetHorizontallyFlippedMouthTile','SetMouthTileToDefault'].includes(e.function)).map(e=>({time:e.time,tile:e.function==='SetMouthTileToDefault'?manifest.mouth.defaultTile:Math.abs(e.int),...e.function==='SetHorizontallyFlippedMouthTile'?{flipped:true}:{}}));
       const normalized=events.map(({reset,...e})=>e);
       if (!metadata || JSON.stringify(expected) !== JSON.stringify(normalized) || events.some((e,i)=>e.reset!==undefined&&(e.reset!==true||metadata.events.filter(e=>['SetMouthTile','SetHorizontallyFlippedMouthTile','SetMouthTileToDefault'].includes(e.function))[i]?.function!=='SetMouthTileToDefault'))) throw new Error(`Mouth events differ from official export: ${clip}`);
     }

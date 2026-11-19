@@ -1,0 +1,669 @@
+{
+  "id": "nonomi",
+  "name": "野宫 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Nonomi_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Nonomi_Original_Cafe_Idle--699d0e3af54ee64d",
+    "interact": "Nonomi_Original_Cafe_Reaction--305c4deb212e54c8"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Nonomi_Original_Cafe_Idle--699d0e3af54ee64d",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Nonomi_Original_Cafe_Reaction--305c4deb212e54c8",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Nonomi_Original_Cafe_Walk--c900a330efbca23a",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Nonomi_Original_Victory_Start--a80b467ddee8e563",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Nonomi_Original_Normal_Reload--716d2865ce706b9f",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Nonomi_Original_Formation_Pickup--4c030f8e8940b17",
+      "category": "常用"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Nonomi_Original_Vital_Panic--f0f88d3615500175",
+      "sourceName": "Nonomi_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_start",
+      "label": "掩体站姿 · 攻击 · 开始",
+      "clip": "Nonomi_Original_Stand_Attack_Start--efd0f7e7ac706dff",
+      "sourceName": "Nonomi_Original_Stand_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Nonomi_Original_Vital_Retreat--e96ab0bc28693788",
+      "sourceName": "Nonomi_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Nonomi_Original_Normal_Attack_End--de59fd81fb899138",
+      "sourceName": "Nonomi_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_callsign",
+      "label": "移动 · 回应",
+      "clip": "Nonomi_Original_Move_Callsign--dbfc6c7fa77b0459",
+      "sourceName": "Nonomi_Original_Move_Callsign",
+      "category": "移动"
+    },
+    {
+      "id": "original_stand_attack_delay",
+      "label": "掩体站姿 · 攻击 · 间隔",
+      "clip": "Nonomi_Original_Stand_Attack_Delay--db907d41a5a5aec9",
+      "sourceName": "Nonomi_Original_Stand_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_rearrange_idle",
+      "label": "重新编队 · 待机",
+      "clip": "Nonomi_Original_Rearrange_Idle--d77f771f7e6e9b33",
+      "sourceName": "Nonomi_Original_Rearrange_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_stand_callsign",
+      "label": "掩体站姿 · 回应",
+      "clip": "Nonomi_Original_Stand_Callsign--d533febf49298e2d",
+      "sourceName": "Nonomi_Original_Stand_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Nonomi_Original_Victory_End--d0559c76e523212e",
+      "sourceName": "Nonomi_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_stand_idle",
+      "label": "掩体站姿 · 待机",
+      "clip": "Nonomi_Original_Stand_Idle--c4e4cee9555f85c9",
+      "sourceName": "Nonomi_Original_Stand_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Nonomi_Original_Exs_Cutin--c303b2c576769dc8",
+      "sourceName": "Nonomi_Original_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Nonomi_Original_Public01--c1ce5f38a3078e66",
+      "sourceName": "Nonomi_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_move_end_stand",
+      "label": "移动 · 结束 · 掩体站姿",
+      "clip": "Nonomi_Original_Move_End_Stand--ba76ea13e2373021",
+      "sourceName": "Nonomi_Original_Move_End_Stand",
+      "category": "移动"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Nonomi_Original_Move_Ing--b7bb0c16aa8378c4",
+      "sourceName": "Nonomi_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Nonomi_Original_Exs--9be217272b937160",
+      "sourceName": "Nonomi_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Nonomi_Original_Normal_Attack_Delay--836ee1dcce458e3d",
+      "sourceName": "Nonomi_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Nonomi_Original_Vital_Dying_Ing--192eab5c8bb37390",
+      "sourceName": "Nonomi_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Nonomi_Original_Normal_Attack_Start--2b483a4946d72704",
+      "sourceName": "Nonomi_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Nonomi_Original_Normal_Idle--2dd753817bb574ea",
+      "sourceName": "Nonomi_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Nonomi_Original_Move_End_Normal--324848238c53ad0a",
+      "sourceName": "Nonomi_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_rearrange_reaction",
+      "label": "重新编队 · 互动",
+      "clip": "Nonomi_Original_Rearrange_Reaction--450adbcb085448a5",
+      "sourceName": "Nonomi_Original_Rearrange_Reaction",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Nonomi_Original_Vital_Death--47d8748f61347f68",
+      "sourceName": "Nonomi_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Nonomi_Original_Formation_Idle--4e4749ec31ad2719",
+      "sourceName": "Nonomi_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_stand_attack_end",
+      "label": "掩体站姿 · 攻击 · 结束",
+      "clip": "Nonomi_Original_Stand_Attack_End--4eaa9ef4d04458ce",
+      "sourceName": "Nonomi_Original_Stand_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_ing",
+      "label": "掩体站姿 · 攻击 · 持续",
+      "clip": "Nonomi_Original_Stand_Attack_Ing--547c407d489fc966",
+      "sourceName": "Nonomi_Original_Stand_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Nonomi_Original_Normal_Callsign--5dfee833ca79399e",
+      "sourceName": "Nonomi_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Nonomi_Original_Normal_Attack_Ing--6951b8349028e9be",
+      "sourceName": "Nonomi_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_reload",
+      "label": "掩体站姿 · 换弹",
+      "clip": "Nonomi_Original_Stand_Reload--72cb3c72caf24e8c",
+      "sourceName": "Nonomi_Original_Stand_Reload",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Nonomi_Original_Mouth",
+    "defaultTile": 704,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.5,
+      0.875
+    ],
+    "events": {
+      "Nonomi_Original_Cafe_Idle--699d0e3af54ee64d": [],
+      "Nonomi_Original_Cafe_Reaction--305c4deb212e54c8": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.13333334,
+          "tile": 505
+        },
+        {
+          "time": 0.4666667,
+          "tile": 501
+        },
+        {
+          "time": 1.2666668,
+          "tile": 704
+        },
+        {
+          "time": 1.4666667,
+          "tile": 501
+        },
+        {
+          "time": 2.3000002,
+          "tile": 704
+        }
+      ],
+      "Nonomi_Original_Cafe_Walk--c900a330efbca23a": [],
+      "Nonomi_Original_Victory_Start--a80b467ddee8e563": [
+        {
+          "time": 0,
+          "tile": 705
+        },
+        {
+          "time": 0.16666667,
+          "tile": 704
+        },
+        {
+          "time": 1.5333333,
+          "tile": 500
+        },
+        {
+          "time": 1.6,
+          "tile": 501
+        },
+        {
+          "time": 2.7,
+          "tile": 500
+        },
+        {
+          "time": 2.7333333,
+          "tile": 704
+        }
+      ],
+      "Nonomi_Original_Normal_Reload--716d2865ce706b9f": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.9000001,
+          "tile": 501
+        },
+        {
+          "time": 2.1,
+          "tile": 500
+        },
+        {
+          "time": 2.2666667,
+          "tile": 704
+        }
+      ],
+      "Nonomi_Original_Formation_Pickup--4c030f8e8940b17": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 1.0333333,
+          "tile": 705
+        },
+        {
+          "time": 1.1,
+          "tile": 706
+        },
+        {
+          "time": 3.5000002,
+          "tile": 404
+        }
+      ],
+      "Nonomi_Original_Vital_Panic--f0f88d3615500175": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ],
+      "Nonomi_Original_Stand_Attack_Start--efd0f7e7ac706dff": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Nonomi_Original_Vital_Retreat--e96ab0bc28693788": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ],
+      "Nonomi_Original_Normal_Attack_End--de59fd81fb899138": [
+        {
+          "time": 0,
+          "tile": 501
+        },
+        {
+          "time": 0.3,
+          "tile": 704
+        }
+      ],
+      "Nonomi_Original_Move_Callsign--dbfc6c7fa77b0459": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.8333334,
+          "tile": 400
+        },
+        {
+          "time": 1.3666668,
+          "tile": 704
+        }
+      ],
+      "Nonomi_Original_Stand_Attack_Delay--db907d41a5a5aec9": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Nonomi_Original_Rearrange_Idle--d77f771f7e6e9b33": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.73333335,
+          "tile": 501
+        },
+        {
+          "time": 2.1333334,
+          "tile": 704
+        },
+        {
+          "time": 3.766667,
+          "tile": 704
+        }
+      ],
+      "Nonomi_Original_Stand_Callsign--d533febf49298e2d": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.16666667,
+          "tile": 400
+        },
+        {
+          "time": 0.53333336,
+          "tile": 704
+        }
+      ],
+      "Nonomi_Original_Victory_End--d0559c76e523212e": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Nonomi_Original_Stand_Idle--c4e4cee9555f85c9": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Nonomi_Original_Exs_Cutin--c303b2c576769dc8": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.13333334,
+          "tile": 704
+        },
+        {
+          "time": 0.3,
+          "tile": 505
+        },
+        {
+          "time": 0.70000005,
+          "tile": 404
+        },
+        {
+          "time": 1.7,
+          "tile": 500
+        },
+        {
+          "time": 1.8000001,
+          "tile": 501
+        }
+      ],
+      "Nonomi_Original_Public01--c1ce5f38a3078e66": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.26666668,
+          "tile": 501
+        },
+        {
+          "time": 0.7666667,
+          "tile": 704
+        }
+      ],
+      "Nonomi_Original_Move_End_Stand--ba76ea13e2373021": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Nonomi_Original_Move_Ing--b7bb0c16aa8378c4": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.20000002,
+          "tile": 400
+        },
+        {
+          "time": 0.53333336,
+          "tile": 704
+        },
+        {
+          "time": 0.9333334,
+          "tile": 704
+        }
+      ],
+      "Nonomi_Original_Exs--9be217272b937160": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.23333333,
+          "tile": 400
+        },
+        {
+          "time": 0.7666667,
+          "tile": 704
+        },
+        {
+          "time": 1.5333334,
+          "tile": 501
+        },
+        {
+          "time": 4.8,
+          "tile": 704
+        }
+      ],
+      "Nonomi_Original_Normal_Attack_Delay--836ee1dcce458e3d": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Nonomi_Original_Vital_Dying_Ing--192eab5c8bb37390": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ],
+      "Nonomi_Original_Normal_Attack_Start--2b483a4946d72704": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.1,
+          "tile": 501
+        }
+      ],
+      "Nonomi_Original_Normal_Idle--2dd753817bb574ea": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Nonomi_Original_Move_End_Normal--324848238c53ad0a": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Nonomi_Original_Rearrange_Reaction--450adbcb085448a5": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.8333334,
+          "tile": 705
+        },
+        {
+          "time": 0.90000004,
+          "tile": 501
+        },
+        {
+          "time": 1.8000001,
+          "tile": 704
+        }
+      ],
+      "Nonomi_Original_Vital_Death--47d8748f61347f68": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 1.9000001,
+          "tile": 402
+        }
+      ],
+      "Nonomi_Original_Formation_Idle--4e4749ec31ad2719": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Nonomi_Original_Stand_Attack_End--4eaa9ef4d04458ce": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.73333335,
+          "tile": 704
+        }
+      ],
+      "Nonomi_Original_Stand_Attack_Ing--547c407d489fc966": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Nonomi_Original_Normal_Callsign--5dfee833ca79399e": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.23333335,
+          "tile": 400
+        },
+        {
+          "time": 0.5,
+          "tile": 704
+        }
+      ],
+      "Nonomi_Original_Normal_Attack_Ing--6951b8349028e9be": [
+        {
+          "time": 0,
+          "tile": 501
+        }
+      ],
+      "Nonomi_Original_Stand_Reload--72cb3c72caf24e8c": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.8666668,
+          "tile": 501
+        },
+        {
+          "time": 2.2,
+          "tile": 704
+        }
+      ]
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_vital_death": {
+        "zoom": 1,
+        "centerY": 0.7538544777833489
+      }
+    }
+  },
+  "furniture": [
+    {
+      "id": "f11204_0",
+      "name": "阿拜多斯讲堂放有羊毛衫的桌子",
+      "model": "f11204_0.glb",
+      "clip": "f11204_0",
+      "duration": 24.333333333333332,
+      "mouthEvents": [],
+      "yaw": 2.356194490192345,
+      "sourceTimeline": "my_abydosclassroom_01_desk_02",
+      "sourceGroup": "RequiredTrack_13004",
+      "sourceStudentTrack": "13004"
+    }
+  ]
+}

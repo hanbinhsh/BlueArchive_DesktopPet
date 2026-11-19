@@ -18,6 +18,7 @@ root=pathlib.Path(os.environ.get('BA_FX_STAGE',str(W/'pending-repairs')));root.m
 requested=sys.argv[1:] or ['akane_uniform','mine','kikyou_swimsuit','aris','neru','midori','momoi','hifumi_racing','azusa_racing']
 shader_kinds={'FX_SHADER_Explosion_Smoke_Distortion_0':'smokeDistortion','FX_SHADER_Step_2side_0':'stepTwoSide','FX_SHADER_Explosion_Smoke_Blur_Flowmap_0':'flowmap','General Unlit Texture':'unlit','General Unlit VC-Texture':'unlitVC','FX_SHADER_AlphaBlend_Add_Double_Distort_Sp_1a':'doubleSoft','FX_SHADER_AlphaBlend_Add_Distort_Sp_0':'distortSoft','FX_SHADER_Explosion_Smoke_Blur_1a':'cloudNoDepth','FX_SHADER_Water_Distortion_0':'water','FX_SHADER_Water_Distortion_Blur_0':'waterBlur','FX_SHADER_Step_Distort_1a':'step1','FX_SHADER_Two_Step_Distort_0':'twoStep','FX_SHADER_AlphaBlend_Add':'blend','FX_SHADER_AlphaBlend_Add_Mask_0':'mask','FX_SHADER_AlphaBlend_Add_Distort_0':'distort','FX_SHADER_AlphaBlend_Add_Distort_1a':'distort1','FX_SHADER_Step_0':'step','FX_SHADER_Multiplicative_0':'multiply','FX_SHADER_Additive_0':'add','FX_SHADER_Main_Add_Channel_Distort_1a':'channel','FX_SHADER_Main_Add_Channel_Distort_0':'classic'}
 shader_kinds['FX_SHADER_Matcap']='matcap'
+shader_kinds['FX_SHADER_Matcap_0']='matcapBlend'
 shader_kinds['FX_SHADER_AlphaBlend_Add_Double_Distort_1a']='doubleDistort'
 allowed=['InitialModule','SizeModule','RotationModule','ColorModule','UVModule','VelocityModule','CustomDataModule','ShapeModule','ClampVelocityModule','SubModule']
 def curve(c):
@@ -161,7 +162,16 @@ for character in requested:
                     # bursts. A one-slot LED at 120 births/s must not become
                     # thousands of coincident, overbright draw calls.
                     if not p.get('ringBufferMode',0) and p['InitialModule']['startLifetime']['minMaxState'] in [0,3]:
-                        schedule=limit_births(schedule,p['InitialModule'],p['startDelay'])
+                        init_cap=p['InitialModule']
+                        if (init_cap['maxNumParticles']>1 and p['EmissionModule']['rateOverTime']['minMaxState']==0 and p['EmissionModule']['rateOverTime']['scalar']>=1000
+                            and not any(p[m]['enabled'] for m in ['ShapeModule','VelocityModule','ColorModule','SizeModule','RotationModule'])
+                            and init_cap['startSpeed']['minMaxState']==0 and init_cap['startSpeed']['scalar']==0
+                            and init_cap['gravityModifier']['minMaxState']==0 and init_cap['gravityModifier']['scalar']==0
+                            and all(init_cap[k]['minMaxState']==0 for k in ['startLifetime','startSize','startRotation','startColor'])
+                            and (not p['UVModule']['enabled'] or p['UVModule']['frameOverTime']['minMaxState']==0)
+                            and original['shader']=='DSFX/FX_SHADER_AlphaBlend_0' and original['colors'].get('_Color',[1,1,1,1])[3]>=0.99):
+                            init_cap={**init_cap,'maxNumParticles':1}
+                        schedule=limit_births(schedule,init_cap,p['startDelay'])
                     for birth,ordinal,total,particle_seed in schedule:
                             mat=len(doc['materials']);name=f'cafe_particle_{mat}'
                             spec={'clip':furniture['clip'],'control':control,'particle':trim({k:p[k] for k in allowed if k in p}),
@@ -208,13 +218,13 @@ for character in requested:
                                 for slot,key in [('_Texture','mainTexture'),('_MainTex','mainTexture'),('_MainTexRGBA','mainTexture'),('_FlowTexRGB','distortTexture'),('_Tex_Main','mainTexture'),('_Tex_MainRGB','mainTexture'),('_Tex_DistortRG','distortTexture'),('_Main_TexRGBA','mainTexture'),('_Tex_Mask','maskTexture'),('_Sub_Tex','maskTexture'),('_Tex_Distort','distortTexture'),('_Tex_RDistortGDissolve','dissolveTexture')]:
                                     t=next((t for t in original['textures'] if t['slot']==slot and 'file' in t),None)
                                     if t:
-                                        entry={'index':texture(t),'st':t['scale']+t['offset']}
-                                        if fx['kind']=='step' and key=='maskTexture' and t.get('srgb'):entry['srgb']=True
-                                        fx[key]=entry
-                                if fx['kind']=='matcap':
+                                        tex_entry={'index':texture(t),'st':t['scale']+t['offset']}
+                                        if fx['kind']=='step' and key=='maskTexture' and t.get('srgb'):tex_entry['srgb']=True
+                                        fx[key]=tex_entry
+                                if fx['kind'] in ('matcap','matcapBlend'):
                                     for slot,key in [('_Main_Tex','mainTexture'),('_Matcap_Tex','maskTexture')]:
-                                        t=next(t for t in original['textures'] if t['slot']==slot and 'file'in t)
-                                        fx[key]={'index':texture(t),'st':t['scale']+t['offset']}
+                                        t=next((t for t in original['textures'] if t['slot']==slot and 'file'in t),None)
+                                        if t:fx[key]={'index':texture(t),'st':t['scale']+t['offset']}
                                 material['extras']['BA_smokeFx']=fx
                             doc['materials'].append(material)
                             mesh=n.get('mesh') if renderer['m_RenderMode']==4 else None

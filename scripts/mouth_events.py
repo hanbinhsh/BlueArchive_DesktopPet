@@ -14,7 +14,7 @@ def mouth_events(clip, default_tile):
     for e in clip['events']:
         fn = e['function']
         if fn not in ('SetMouthTile', 'SetHorizontallyFlippedMouthTile', 'SetMouthTileToDefault'): continue
-        event = {'time': e['time'], 'tile': default_tile if fn == 'SetMouthTileToDefault' else e['int']}
+        event = {'time': e['time'], 'tile': default_tile if fn == 'SetMouthTileToDefault' else abs(e['int'])}
         if fn == 'SetHorizontallyFlippedMouthTile': event['flipped'] = True
         if fn == 'SetMouthTileToDefault': event['reset'] = True
         result.append(event)

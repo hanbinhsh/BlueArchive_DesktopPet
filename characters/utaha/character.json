@@ -1,0 +1,144 @@
+{
+  "id": "utaha",
+  "name": "歌原 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Utaha_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Utaha_Original_Cafe_Idle--900f7f38c9472eaf",
+    "interact": "Utaha_Original_Cafe_Reaction--4f7acc08ded878d"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Utaha_Original_Cafe_Idle--900f7f38c9472eaf",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Utaha_Original_Cafe_Reaction--4f7acc08ded878d",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Utaha_Original_Cafe_Walk--d5eea90654284a3c",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Utaha_Original_Formation_Pickup--3615748b5264a87a",
+      "category": "常用"
+    },
+    {
+      "id": "original_turret_tactical_start",
+      "label": "Turret · Tactical · 开始",
+      "clip": "Utaha_Original_Turret_Tactical_Start--b761c587d03ba413",
+      "sourceName": "Utaha_Original_Turret_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Utaha_Original_Formation_Idle--9c92cffc2b5b3afa",
+      "sourceName": "Utaha_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_turret_exs_cutin",
+      "label": "Turret · EXs · Cutin",
+      "clip": "Utaha_Original_Turret_EXs_Cutin--865cb7b57882a54d",
+      "sourceName": "Utaha_Original_Turret_EXs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Utaha_Original_Exs_Cutin--5be12f1596277371",
+      "sourceName": "Utaha_Original_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "Utaha_Original_Tactical_Start--74f789bf0d3b0114",
+      "sourceName": "Utaha_Original_Tactical_Start",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Utaha_Original_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.125,
+      0.5
+    ],
+    "events": {
+      "Utaha_Original_Cafe_Idle--900f7f38c9472eaf": [],
+      "Utaha_Original_Cafe_Reaction--4f7acc08ded878d": [],
+      "Utaha_Original_Cafe_Walk--d5eea90654284a3c": [],
+      "Utaha_Original_Formation_Pickup--3615748b5264a87a": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.40000004,
+          "tile": 705
+        },
+        {
+          "time": 1.4000001,
+          "tile": 300
+        },
+        {
+          "time": 10.966667,
+          "tile": 402
+        }
+      ],
+      "Utaha_Original_Turret_Tactical_Start--b761c587d03ba413": [],
+      "Utaha_Original_Formation_Idle--9c92cffc2b5b3afa": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Utaha_Original_Turret_EXs_Cutin--865cb7b57882a54d": [],
+      "Utaha_Original_Exs_Cutin--5be12f1596277371": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.1666667,
+          "tile": 402
+        },
+        {
+          "time": 1.7,
+          "tile": 502
+        },
+        {
+          "time": 2.0666668,
+          "tile": 300
+        },
+        {
+          "time": 2.5666668,
+          "tile": 705
+        },
+        {
+          "time": 3.0666668,
+          "tile": 300
+        }
+      ],
+      "Utaha_Original_Tactical_Start--74f789bf0d3b0114": []
+    }
+  }
+}

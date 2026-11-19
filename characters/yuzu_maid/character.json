@@ -1,0 +1,522 @@
+{
+  "id": "yuzu_maid",
+  "name": "柚子 · 女仆",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0203; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0203_Cafe_Idle--724e048bd0587be5",
+    "interact": "CH0203_Cafe_Reaction--2b61a886148cb2b4"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0203_Cafe_Idle--724e048bd0587be5",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0203_Cafe_Reaction--2b61a886148cb2b4",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0203_Cafe_Walk--95798f20d162ac04",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0203_Formation_Pickup--21b12652f2dbde99",
+      "category": "常用"
+    },
+    {
+      "id": "original_st_death",
+      "label": "ST · 倒下",
+      "clip": "CH0203_ST_Death--dc92fc7ed1de32b7",
+      "sourceName": "CH0203_ST_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0203_Formation_Idle--c7a8fd1b63ecf9c5",
+      "sourceName": "CH0203_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs_cutin_genryumon_ar",
+      "label": "EX 技能 · Cutin · Genryumon · AR",
+      "clip": "CH0203_Exs_Cutin_Genryumon_AR--c3b66030c8ea7da3",
+      "sourceName": "CH0203_Exs_Cutin_Genryumon_AR",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "CH0203_Exs_Cutin--af2adad09be6a80e",
+      "sourceName": "CH0203_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "CH0203_ST_Move_Ing--aeae6001ae0ec1a6",
+      "sourceName": "CH0203_ST_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_formation_idle_random",
+      "label": "编队 · 待机 · Random",
+      "clip": "CH0203_Formation_Idle_Random--9c840812193ea5d0",
+      "sourceName": "CH0203_Formation_Idle_Random",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0203_Tactical_Start--8941e44faacbd9ef",
+      "sourceName": "CH0203_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_b_st_attack_ing",
+      "label": "B · ST · 攻击 · 持续",
+      "clip": "CH0203_B_ST_Attack_Ing--193e398b40bf738",
+      "sourceName": "CH0203_B_ST_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_st_attack_ing",
+      "label": "ST · 攻击 · 持续",
+      "clip": "CH0203_ST_Attack_Ing--7e6dbc6d3287ee4",
+      "sourceName": "CH0203_ST_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_genryumon_hg",
+      "label": "EX 技能 · Cutin · Genryumon · HG",
+      "clip": "CH0203_Exs_Cutin_Genryumon_HG--5162cf59f2915185",
+      "sourceName": "CH0203_Exs_Cutin_Genryumon_HG",
+      "category": "技能"
+    },
+    {
+      "id": "original_st_idle",
+      "label": "ST · 待机",
+      "clip": "CH0203_ST_Idle--70e3440a6d61d247",
+      "sourceName": "CH0203_ST_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "CH0203_Exs--742f1ec10e339a6f",
+      "sourceName": "CH0203_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle_16",
+      "label": "编队 · 待机",
+      "clip": "CH0203_B_ST_Formation_Idle--ed2b86945eb7baf7",
+      "sourceName": "CH0203_B_ST_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_move_ing_17",
+      "label": "移动 · 持续",
+      "clip": "CH0203_B_ST_Move_Ing--d8d71134f11d85ed",
+      "sourceName": "CH0203_B_ST_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_b_st_formation",
+      "label": "B · ST · 编队",
+      "clip": "CH0203_B_ST_Formation--ca8620b744c423c1",
+      "sourceName": "CH0203_B_ST_Formation",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_b_st_death",
+      "label": "B · ST · 倒下",
+      "clip": "CH0203_B_ST_Death--afb96db479eff12e",
+      "sourceName": "CH0203_B_ST_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_st_formation",
+      "label": "ST · 编队",
+      "clip": "CH0203_ST_Formation--aaecac51f753ba00",
+      "sourceName": "CH0203_ST_Formation",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_formation_idle_21",
+      "label": "编队 · 待机",
+      "clip": "CH0203_ST_Formation_Idle--8aa2c62c90e4b141",
+      "sourceName": "CH0203_ST_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_b_st_idle",
+      "label": "B · ST · 待机",
+      "clip": "CH0203_B_ST_Idle--191fab90185dec39",
+      "sourceName": "CH0203_B_ST_Idle",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "CH0203_Mouth",
+    "defaultTile": 507,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.875,
+      0.625
+    ],
+    "events": {
+      "CH0203_Cafe_Idle--724e048bd0587be5": [
+        {
+          "time": 0,
+          "tile": 305
+        },
+        {
+          "time": 2.6666667,
+          "tile": 402
+        },
+        {
+          "time": 10.933334,
+          "tile": 305
+        }
+      ],
+      "CH0203_Cafe_Reaction--2b61a886148cb2b4": [
+        {
+          "time": 0,
+          "tile": 305
+        },
+        {
+          "time": 0.13333334,
+          "tile": 402
+        },
+        {
+          "time": 1.1666667,
+          "tile": 705
+        },
+        {
+          "time": 2.5000002,
+          "tile": 200
+        },
+        {
+          "time": 3.4333334,
+          "tile": 205
+        },
+        {
+          "time": 4,
+          "tile": 507
+        },
+        {
+          "time": 4.6000004,
+          "tile": 205
+        },
+        {
+          "time": 5.933334,
+          "tile": 305
+        }
+      ],
+      "CH0203_Cafe_Walk--95798f20d162ac04": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "CH0203_Formation_Pickup--21b12652f2dbde99": [
+        {
+          "time": 0,
+          "tile": 506
+        },
+        {
+          "time": 0.366663,
+          "tile": 605
+        },
+        {
+          "time": 1.233321,
+          "tile": 506
+        },
+        {
+          "time": 2.033313,
+          "tile": 205
+        },
+        {
+          "time": 7.199928,
+          "tile": 506
+        }
+      ],
+      "CH0203_ST_Death--dc92fc7ed1de32b7": [],
+      "CH0203_Formation_Idle--c7a8fd1b63ecf9c5": [
+        {
+          "time": 0,
+          "tile": 506
+        }
+      ],
+      "CH0203_Exs_Cutin_Genryumon_AR--c3b66030c8ea7da3": [],
+      "CH0203_Exs_Cutin--af2adad09be6a80e": [
+        {
+          "time": 0,
+          "tile": 305
+        },
+        {
+          "time": 0.36666667,
+          "tile": 402
+        },
+        {
+          "time": 1.6000001,
+          "tile": 305
+        },
+        {
+          "time": 1.7333335,
+          "tile": 205
+        },
+        {
+          "time": 3.9,
+          "tile": 507
+        },
+        {
+          "time": 4.666667,
+          "tile": 402
+        }
+      ],
+      "CH0203_ST_Move_Ing--aeae6001ae0ec1a6": [],
+      "CH0203_Formation_Idle_Random--9c840812193ea5d0": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ],
+      "CH0203_Tactical_Start--8941e44faacbd9ef": [
+        {
+          "time": 0,
+          "tile": 705
+        },
+        {
+          "time": 0.70000005,
+          "tile": 402
+        },
+        {
+          "time": 1.0666667,
+          "tile": 506
+        },
+        {
+          "time": 1.2,
+          "tile": 205
+        }
+      ],
+      "CH0203_B_ST_Attack_Ing--193e398b40bf738": [],
+      "CH0203_ST_Attack_Ing--7e6dbc6d3287ee4": [],
+      "CH0203_Exs_Cutin_Genryumon_HG--5162cf59f2915185": [],
+      "CH0203_ST_Idle--70e3440a6d61d247": [],
+      "CH0203_Exs--742f1ec10e339a6f": [
+        {
+          "time": 0,
+          "tile": 507
+        },
+        {
+          "time": 1.1333334,
+          "tile": 205
+        },
+        {
+          "time": 1.7666668,
+          "tile": 305
+        },
+        {
+          "time": 1.9666668,
+          "tile": 205
+        },
+        {
+          "time": 2.8333335,
+          "tile": 507
+        }
+      ],
+      "CH0203_B_ST_Formation_Idle--ed2b86945eb7baf7": [
+        {
+          "time": 0,
+          "tile": 205
+        }
+      ],
+      "CH0203_B_ST_Move_Ing--d8d71134f11d85ed": [],
+      "CH0203_B_ST_Formation--ca8620b744c423c1": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0203_B_ST_Death--afb96db479eff12e": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.033333335,
+          "tile": 205
+        }
+      ],
+      "CH0203_ST_Formation--aaecac51f753ba00": [
+        {
+          "time": 0,
+          "tile": 705
+        },
+        {
+          "time": 0.90000004,
+          "tile": 402
+        },
+        {
+          "time": 1.1333334,
+          "tile": 507
+        },
+        {
+          "time": 2.3000002,
+          "tile": 305
+        },
+        {
+          "time": 2.5333335,
+          "tile": 205
+        }
+      ],
+      "CH0203_ST_Formation_Idle--8aa2c62c90e4b141": [
+        {
+          "time": 0,
+          "tile": 205
+        }
+      ],
+      "CH0203_B_ST_Idle--191fab90185dec39": []
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs_cutin_genryumon_ar": {
+        "zoom": 0.5322735809048063,
+        "centerY": 1.0732534831268272
+      },
+      "original_exs_cutin": {
+        "zoom": 0.6155603257545849,
+        "centerY": 2.2337372024658277
+      },
+      "original_exs_cutin_genryumon_hg": {
+        "zoom": 0.5322735809048063,
+        "centerY": 0.9043413985735744
+      },
+      "original_exs": {
+        "zoom": 0.7089696370500321,
+        "centerY": 1.3091029461835628
+      }
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210304_0",
+      "name": "铁制滑门置物柜",
+      "model": "f210304_0.glb",
+      "clip": "f210304_0",
+      "duration": 36.0,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 305
+        },
+        {
+          "time": 4.0,
+          "tile": 305
+        },
+        {
+          "time": 4.0,
+          "tile": 305
+        },
+        {
+          "time": 4.6333334,
+          "tile": 402
+        },
+        {
+          "time": 5.9333334,
+          "tile": 507
+        },
+        {
+          "time": 6.3000001999999995,
+          "tile": 205
+        },
+        {
+          "time": 8.600000399999999,
+          "tile": 402
+        },
+        {
+          "time": 9.4333334,
+          "tile": 605
+        },
+        {
+          "time": 10.1333337,
+          "tile": 305
+        },
+        {
+          "time": 10.566666999999999,
+          "tile": 602
+        },
+        {
+          "time": 11.600000399999999,
+          "tile": 402
+        },
+        {
+          "time": 14.966667,
+          "tile": 507
+        },
+        {
+          "time": 16.433334000000002,
+          "tile": 205
+        },
+        {
+          "time": 19.500000999999997,
+          "tile": 200
+        },
+        {
+          "time": 22.566668,
+          "tile": 205
+        },
+        {
+          "time": 23.1,
+          "tile": 305
+        },
+        {
+          "time": 23.999999999999993,
+          "tile": 305
+        },
+        {
+          "time": 27.999999999999993,
+          "tile": 305
+        },
+        {
+          "time": 27.999999999999993,
+          "tile": 305
+        },
+        {
+          "time": 31.999999999999993,
+          "tile": 305
+        },
+        {
+          "time": 31.999999999999993,
+          "tile": 305
+        },
+        {
+          "time": 35.99999999999999,
+          "tile": 305
+        }
+      ],
+      "yaw": 0.7853981633974483,
+      "sourceTimeline": "my_event22_cabinet",
+      "sourceGroup": "RequiredTrack_26009",
+      "sourceStudentTrack": "26009"
+    }
+  ]
+}

@@ -30,8 +30,9 @@ def append_view(doc, binary, data, target=None):
     view = {'buffer': 0, 'byteOffset': len(binary), 'byteLength': len(data)}
     if target:
         view['target'] = target
-    index = len(doc['bufferViews'])
-    doc['bufferViews'].append(view)
+    views = doc.setdefault('bufferViews', [])
+    index = len(views)
+    views.append(view)
     binary.extend(data)
     return index
 
@@ -39,8 +40,9 @@ def append_accessor(doc, binary, values, kind, component=5126):
     fmt = {5123: 'H', 5125: 'I', 5126: 'f'}[component]
     data = b''.join(struct.pack('<' + fmt * len(v), *v) for v in values)
     view = append_view(doc, binary, data, 34963 if kind == 'SCALAR' else 34962)
-    index = len(doc['accessors'])
-    doc['accessors'].append({'bufferView': view, 'componentType': component, 'count': len(values), 'type': kind})
+    accessors = doc.setdefault('accessors', [])
+    index = len(accessors)
+    accessors.append({'bufferView': view, 'componentType': component, 'count': len(values), 'type': kind})
     return index
 
 def compact(doc, binary):
