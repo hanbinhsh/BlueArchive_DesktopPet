@@ -1,0 +1,244 @@
+{
+  "id": "ayane",
+  "name": "绫音 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Ayane_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Ayane_Original_Cafe_Idle--4b6dc06b3ae4ac05",
+    "interact": "Ayane_Original_Cafe_Reaction--67a1ff3ad9844685"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Ayane_Original_Cafe_Idle--4b6dc06b3ae4ac05",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Ayane_Original_Cafe_Reaction--67a1ff3ad9844685",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Ayane_Original_Cafe_Walk--83f49bb3747413d6",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Ayane_Original_Formation_Pickup--ed57523185eaad56",
+      "category": "常用"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Ayane_Original_Exs_Cutin--e660748e84fd53be",
+      "sourceName": "Ayane_Original_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Ayane_Original_Formation_Idle--235ae2eebcdea405",
+      "sourceName": "Ayane_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "Ayane_Original_Tactical_Start--401f9e3f9544a2ae",
+      "sourceName": "Ayane_Original_Tactical_Start",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Ayane_Original_Mouth",
+    "defaultTile": 704,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.5,
+      0.875
+    ],
+    "events": {
+      "Ayane_Original_Cafe_Idle--4b6dc06b3ae4ac05": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Ayane_Original_Cafe_Reaction--67a1ff3ad9844685": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.20000002,
+          "tile": 402
+        },
+        {
+          "time": 0.6,
+          "tile": 705
+        },
+        {
+          "time": 1.9333334,
+          "tile": 704
+        }
+      ],
+      "Ayane_Original_Cafe_Walk--83f49bb3747413d6": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Ayane_Original_Formation_Pickup--ed57523185eaad56": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.33333,
+          "tile": 504
+        },
+        {
+          "time": 1.033323,
+          "tile": 300
+        },
+        {
+          "time": 5.166615,
+          "tile": 705
+        },
+        {
+          "time": 6.766599,
+          "tile": 704
+        },
+        {
+          "time": 13.133202,
+          "tile": 705
+        },
+        {
+          "time": 14.33319,
+          "tile": 704
+        }
+      ],
+      "Ayane_Original_Exs_Cutin--e660748e84fd53be": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 2.1333334,
+          "tile": 705
+        },
+        {
+          "time": 2.6000001,
+          "tile": 704
+        },
+        {
+          "time": 3.2000003,
+          "tile": 706
+        }
+      ],
+      "Ayane_Original_Formation_Idle--235ae2eebcdea405": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 4,
+          "tile": 704
+        }
+      ],
+      "Ayane_Original_Tactical_Start--401f9e3f9544a2ae": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.5,
+          "tile": 705
+        },
+        {
+          "time": 1.2333333,
+          "tile": 300
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "f11206_0",
+      "name": "阿拜多斯讲堂放有眼镜的桌子",
+      "model": "f11206_0.glb",
+      "clip": "f11206_0",
+      "duration": 43.9,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 300
+        },
+        {
+          "time": 18.933334,
+          "tile": 705
+        },
+        {
+          "time": 23.2,
+          "tile": 704
+        },
+        {
+          "time": 25.733335,
+          "tile": 705
+        },
+        {
+          "time": 26.900002,
+          "tile": 704
+        },
+        {
+          "time": 30.366669,
+          "tile": 402
+        },
+        {
+          "time": 33.166668,
+          "tile": 605
+        },
+        {
+          "time": 35.06667,
+          "tile": 604
+        },
+        {
+          "time": 36.36667,
+          "tile": 605
+        },
+        {
+          "time": 40.633335,
+          "tile": 402
+        },
+        {
+          "time": 41.333336,
+          "tile": 605
+        },
+        {
+          "time": 42.06667,
+          "tile": 507
+        },
+        {
+          "time": 43.26667,
+          "tile": 300
+        }
+      ],
+      "yaw": 2.356194490192345,
+      "sourceTimeline": "my_abydosclassroom_01_desk_04",
+      "sourceGroup": "RequiredTrack_23005",
+      "sourceStudentTrack": "23005",
+      "viewYaw": -1.570796
+    }
+  ]
+}

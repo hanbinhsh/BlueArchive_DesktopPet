@@ -200,7 +200,7 @@ export class CafeParticle{
    relative=current.invert().multiply(this.birthMatrix);this.mesh.position.applyMatrix4(relative);
   }
   if(s.renderer?.m_RenderAlignment===4||p.ShapeModule?.alignToDirection){const direction=this.direction.clone();direction.x*=-1;this.mesh.quaternion.premultiply(new THREE.Quaternion().setFromUnitVectors(new THREE.Vector3(0,0,1),direction));}
-  if(relative)this.mesh.quaternion.premultiply(new THREE.Quaternion().setFromRotationMatrix(relative.clone().extractRotation(relative)));
+  if(relative&&s.renderer?.m_RenderAlignment!==1)this.mesh.quaternion.premultiply(new THREE.Quaternion().setFromRotationMatrix(relative.clone().extractRotation(relative)));
   if(s.renderer?.m_RenderMode===2){
    const parent=this.mesh.parent!.getWorldQuaternion(new THREE.Quaternion()).invert();
    const world=this.sourceRoot?.getWorldQuaternion(new THREE.Quaternion())||new THREE.Quaternion();
@@ -208,9 +208,11 @@ export class CafeParticle{
     .multiply(new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(1,0,0),-Math.PI/2))
     .multiply(new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(0,0,1),-(this.sample(i.startRotation,this.initialTime)+a[2])));
   }
-  if(camera&&[0,4].includes(s.renderer?.m_RenderMode)&&[0,1,3].includes(s.renderer.m_RenderAlignment)){
+  if((camera||s.renderer?.m_RenderAlignment===1)&&[0,4].includes(s.renderer?.m_RenderMode)&&[0,1,3].includes(s.renderer.m_RenderAlignment)){
    const authored=this.mesh.quaternion.clone(),q=new THREE.Quaternion();this.mesh.parent!.updateWorldMatrix(true,false);this.mesh.parent!.getWorldQuaternion(q).invert();
-   if(s.renderer.m_RenderAlignment!==1){
+   if(s.renderer.m_RenderAlignment===1&&this.sourceRoot){
+    q.multiply(this.sourceRoot.getWorldQuaternion(new THREE.Quaternion()));
+   }else if(camera&&s.renderer.m_RenderAlignment!==1){
     // Source billboards face +Z in Unity's camera frame. Three cameras look
     // down -Z; the reflected source geometry therefore needs a Y half-turn.
     // Omitting this mirrors glyphs and puts negative depth pivots behind heads.

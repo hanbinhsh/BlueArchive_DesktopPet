@@ -5,6 +5,19 @@
   "airi_band": {
     "f210338_0": 0.2
   },
+  "akari_newyear": {
+    "f210334_0": 0.0
+  },
+  "ako": {
+    "f1101_0": 0.25
+  },
+  "ako_dress": {
+    "f15306_0": 0.5,
+    "f15306_1": 0.5
+  },
+  "anna": {
+    "f211316_0": 1.75
+  },
   "aoba": {
     "f20308_0": 0.35000000000000003
   },
@@ -13,6 +26,29 @@
   },
   "aris_battle": {
     "f210394_0": 0.5
+  },
+  "asuna_bunnygirl:my_event11_stool03": 5.497787,
+  "asuna_uniform:my_millenniumlounge_01_desk_02": 5.497787,
+  "atsuko": {
+    "f205301_0": 0.75
+  },
+  "atsuko_swimsuit": {
+    "f13204_0": 0.5
+  },
+  "ayane": {
+    "f11206_0": -1.570796
+  },
+  "ayane_swimsuit": {
+    "f4103_0": -1.570796
+  },
+  "chiaki": {
+    "f210356_0": 0.75
+  },
+  "chiaki_swimsuit": {
+    "f211312_0": 1.75
+  },
+  "chihiro": {
+    "f2203_0": 0.75
   },
   "chise_swimsuit": {
     "f9201_0": -0.65
@@ -23,21 +59,103 @@
   "eimi_swimsuit": {
     "f210327_0": 0.1
   },
+  "eri": {
+    "f210380_0": 1.75
+  },
+  "erika:my_event091_accstand": 2.356194,
+  "erina": {
+    "f211317_0": 0.75
+  },
+  "fuuka_newyear:my_newyearpath_01_hanger": 2.356194,
+  "fuyu:my_event084_televisiontower": 2.356194,
+  "hanae_christmas:my_event13_fireplace": 2.356194,
   "hanako_swimsuit": {
     "f210316_0": 0.0,
     "f210315_1": 0.75
   },
+  "hare_camp": {
+    "f210329_0": 0.25
+  },
+  "haruka": {
+    "f209301_0": 0.25
+  },
+  "haruka_dress": {
+    "f15300_0": 0.25
+  },
+  "haruka_newyear": {
+    "f209301_0": 0.25
+  },
+  "haruna_newyear:my_newyearpath_01_table_02": 3.926991,
+  "haruna_track:my_event059_benchtable": 0.785398,
   "hasumi_swimsuit": {
     "f210376_1": 0.30000000000000004
   },
   "hasumi_track": {
     "f10300_0": 0.45
   },
+  "hibiki_cheerleader": {
+    "f10302_0": 0.75
+  },
+  "himari:my_gamecenter_01_p_vendingmachine_01": 2.356194,
+  "himari_battle:my_event088_simplekitchen": 2.356194,
+  "hina_dress": {
+    "f15306_1": 0.75
+  },
+  "hinata": {
+    "f2103_0": 0.25,
+    "f207314_1": 0.7
+  },
+  "hinata_swimsuit": {
+    "f210314_0": 0.75
+  },
   "hoshino_battle": {
     "f210347_0": 0.75
   },
+  "ibuki": {
+    "f210330_0": 0.25
+  },
+  "ibuki_swimsuit": {
+    "f211311_0": 0.25,
+    "f211311_1": 0.25
+  },
+  "ichika": {
+    "f10206_0": 0.25
+  },
+  "ichika_swimsuit": {
+    "f210376_0": 0.75,
+    "f210376_1": 0.25
+  },
+  "iroha": {
+    "f6105_0": 1.75
+  },
+  "iroha_swimsuit": {
+    "f211311_0": 0.25,
+    "f211311_1": 0.25,
+    "f211313_2": 1.75
+  },
+  "izumi_newyear": {
+    "f210361_0": -1.570796
+  },
+  "juri_parttime": {
+    "f210362_0": 1.75
+  },
+  "kaede:my_hotsprings_01_gachamachine": 2.356194,
+  "kaho": {
+    "f209302_0": 0.25
+  },
+  "kanna:my_event15_table": 2.356194,
+  "kanna_swimsuit:my_event069_lifesavingbox": 5.497787,
+  "kanoe": {
+    "f210379_0": 0.75
+  },
   "karin_uniform": {
     "f19307_0": -0.75
+  },
+  "kasumi": {
+    "f9106_0": -0.15
+  },
+  "kasumi_swimsuit": {
+    "f211315_0": 0.25
   },
   "kayoko_dress": {
     "f210333_1": -0.9
@@ -51,9 +169,27 @@
   "kikyou_swimsuit": {
     "f210372_0": -0.7000000000000001
   },
+  "kirino": {
+    "f211304_0": 0.25
+  },
+  "kirino_swimsuit": {
+    "f210345_0": 0.75
+  },
   "kisaki": {
     "f210353_1": 1.25,
     "f210353_0": 0.25
+  },
+  "kokoro": {
+    "f211314_0": 0.0,
+    "f211314_1": 0.0
+  },
+  "konoka": {
+    "f211301_0": 0.75
+  },
+  "kotama_camp:my_event063_partition": 5.497787,
+  "kotone": {
+    "f211314_0": 0.0,
+    "f211314_1": 0.0
   },
   "kotori_cheerleader": {
     "f10109_0": 1.8
@@ -63,6 +199,15 @@
   },
   "kurumi": {
     "f211303_0": 0.75
+  },
+  "makoto:my_event064_chairmandesk": 0.785398,
+  "makoto_swimsuit:my_event094_saberstand": 0.785398,
+  "mashiro_swimsuit": {
+    "f4200_0": 1.25
+  },
+  "megu:my_hotsprings_01_woodenbathtub": 3.926991,
+  "midori": {
+    "f12301_1": 1.375
   },
   "midori_maid": {
     "f210341_1": 0.25,
@@ -79,12 +224,25 @@
   "mine": {
     "f207310_0": -0.05
   },
+  "minori": {
+    "f210307_0": 0.75
+  },
+  "misaka_mikoto": {
+    "f210322_0": 1.25
+  },
+  "misaki": {
+    "f1108_0": -1.570796
+  },
+  "misaki_swimsuit": {
+    "f17105_0": 0.0
+  },
   "miyo": {
     "f210381_0": 1.75
   },
   "moe": {
     "f8106_0": 0.15
   },
+  "momiji:my_event059_chair": 0.785398,
   "momoi": {
     "f2301_0": 1.75,
     "f12301_1": 1.375
@@ -93,142 +251,80 @@
     "f210341_1": 1.75,
     "f210341_2": 0.25
   },
-  "neru": {
-    "f207307_0": 0.25
-  },
-  "reisa": {
-    "f9106_0": 0.35000000000000003
-  },
-  "rio_battle": {
-    "f210391_0": 1.3,
-    "f210391_1": 1.3
-  },
-  "saten_ruiko": {
-    "f210324_0": -0.6000000000000001
-  },
-  "shun_swimsuit": {
-    "f211307_0": 0.25
-  },
-  "subaru": {
-    "f210384_0": 0.65
-  },
-  "toki_battle": {
-    "f210391_0": 1.3,
-    "f210391_1": 1.3
-  },
-  "yakumo": {
-    "f210387_0": 0.6000000000000001
-  },
-  "yuuka_pajama": {
-    "f210358_0": 0.2
-  },
-  "yuuka_track": {
-    "f10108_0": 0.25
-  },
-  "otogi": {
-    "f211303_0": 0.75
-  },
-  "hina_dress": {
-    "f15306_1": 0.75
-  },
-  "midori": {
-    "f12301_1": 1.375
-  },
-  "wakamo": {
-    "f3108_0": 0.25
-  },
-  "wakamo_swimsuit": {
-    "f4201_0": 0.25
-  },
-  "ibuki": {
-    "f210330_0": 0.25
-  },
-  "ibuki_swimsuit": {
-    "f211311_0": 0.25,
-    "f211311_1": 0.25
-  },
-  "anna": {
-    "f211316_0": 1.75
-  },
-  "tomoe": {
-    "f6100_0": 0.75
-  },
-  "tomoe_qipao": {
-    "f210352_0": 0.75
-  },
-  "hinata": {
-    "f2103_0": 0.25,
-    "f207314_1": 0.7
-  },
-  "hinata_swimsuit": {
-    "f210314_0": 0.75
-  },
-  "misaka_mikoto": {
-    "f210322_0": 1.25
-  },
-  "kirino": {
-    "f211304_0": 0.25
-  },
-  "kirino_swimsuit": {
-    "f210345_0": 0.75
-  },
-  "ichika": {
-    "f10206_0": 0.25
-  },
-  "ichika_swimsuit": {
-    "f210376_0": 0.75,
-    "f210376_1": 0.25
-  },
-  "ritsu": {
-    "f210383_0": 1.75
-  },
-  "mashiro_swimsuit": {
-    "f4200_0": 1.25
-  },
-  "kaho": {
-    "f209302_0": 0.25
-  },
-  "eri": {
-    "f210380_0": 1.75
-  },
-  "rena": {
-    "f22305_0": 0.25
-  },
-  "kanoe": {
-    "f210379_0": 0.75
-  },
   "nagisa": {
     "f207312_0": 1.85
   },
   "nagisa_swimsuit": {
     "f210374_0": 1.75
   },
-  "tsubaki_guide": {
-    "f14102_0": 0.75
+  "neru": {
+    "f207307_0": 0.25
   },
-  "hare_camp": {
-    "f210329_0": 0.25
+  "niko:my_event091_strategytable": 0.0,
+  "niya:my_event080_workdesk": 5.497787,
+  "noa:my_autumnsports_01_storagebox": 0.785398,
+  "noa_pajama:my_event075_beanbagwhite": 5.497787,
+  "nodoka_onsen": {
+    "f6201_0": -0.75
   },
-  "chiaki": {
-    "f210356_0": 0.75
+  "nonomi": {
+    "f11204_0": 0.75
   },
-  "chiaki_swimsuit": {
-    "f211312_0": 1.75
+  "nonomi_swimsuit": {
+    "f4108_0": 0.25
   },
-  "serina_christmas": {
-    "f207309_0": 1.75
+  "otogi": {
+    "f211303_0": 0.75
   },
-  "atsuko": {
-    "f205301_0": 0.75
+  "pina:my_newyearpath_01_fireplace": 5.497787,
+  "pina_guide:my_event078_videotelevision": 3.926991,
+  "rabu:my_event085_helmetcleankit": 5.497787,
+  "rei": {
+    "f210364_0": 1.75
   },
-  "atsuko_swimsuit": {
-    "f13204_0": 0.5
+  "reisa": {
+    "f9106_0": 0.35000000000000003
+  },
+  "rena": {
+    "f22305_0": 0.25
+  },
+  "renge:my_event062_oven": 3.926991,
+  "renge_swimsuit:my_event081_watergunstand": 5.497787,
+  "rio_battle": {
+    "f210391_0": 1.3,
+    "f210391_1": 1.3
+  },
+  "ritsu": {
+    "f210383_0": 1.75
+  },
+  "saki": {
+    "f8104_0": -0.25
+  },
+  "saki_swimsuit": {
+    "f210309_0": 0.25
+  },
+  "saori": {
+    "f1108_0": -1.570796
+  },
+  "saori_dress": {
+    "f210366_0": 0.0
+  },
+  "saori_swimsuit": {
+    "f17304_0": 0.0
+  },
+  "saten_ruiko": {
+    "f210324_0": -0.6000000000000001
+  },
+  "satsuki": {
+    "f210355_0": 0.75
   },
   "satsuki_swimsuit": {
     "f211310_0": 0.25
   },
-  "satsuki": {
-    "f210355_0": 0.75
+  "sena:my_defaultroom_table": 0.785398,
+  "sena_casual:my_event077_table_03": 2.356194,
+  "serina_christmas": {
+    "f207309_0": 1.75
   },
   "shigure": {
     "f9107_0": 0.25
@@ -236,62 +332,72 @@
   "shigure_onsen": {
     "f6301_0": 0.25
   },
-  "juri_parttime": {
-    "f210362_0": 1.75
+  "shizuko": {
+    "f203302_0": -1.570796
   },
-  "rei": {
-    "f210364_0": 1.75
+  "shizuko_swimsuit": {
+    "f9302_0": 3.141593
   },
-  "iroha_swimsuit": {
-    "f211311_0": 0.25,
-    "f211311_1": 0.25,
-    "f211313_2": 1.75
+  "shokuhou_misaki": {
+    "f210323_0": 0.0
   },
-  "iroha": {
-    "f6105_0": 1.75
+  "shun_swimsuit": {
+    "f211307_0": 0.25
   },
-  "yoshimi_band": {
-    "f210337_0": 0.25
+  "subaru": {
+    "f210384_0": 0.65
+  },
+  "sumire_parttime": {
+    "f210365_0": -0.75
+  },
+  "toki_battle": {
+    "f210391_0": 1.3,
+    "f210391_1": 1.3
+  },
+  "tomoe": {
+    "f6100_0": 0.75
+  },
+  "tomoe_qipao": {
+    "f210352_0": 0.75
+  },
+  "tsubaki_guide": {
+    "f14102_0": 0.75
+  },
+  "tsukuyo": {
+    "f4106_0": -1.570796
+  },
+  "tsukuyo_dress": {
+    "f210389_0": 3.141593
   },
   "umika": {
     "f210335_0": 0.75
   },
-  "haruka_dress": {
-    "f15300_0": 0.25
-  },
-  "haruka": {
-    "f209301_0": 0.25
-  },
-  "haruka_newyear": {
-    "f209301_0": 0.25
-  },
   "utaha_cheerleader": {
     "f10302_0": 0.75
   },
-  "saki_swimsuit": {
-    "f210309_0": 0.25
+  "wakamo": {
+    "f3108_0": 0.25
   },
-  "saki": {
-    "f8104_0": -0.25
+  "wakamo_swimsuit": {
+    "f4201_0": 0.25
   },
-  "nonomi_swimsuit": {
-    "f4108_0": 0.25
+  "yakumo": {
+    "f210387_0": 0.6000000000000001
   },
-  "nonomi": {
-    "f11204_0": 0.75
+  "yoshimi_band": {
+    "f210337_0": 0.25
   },
-  "ako_dress": {
-    "f15306_0": 0.5,
-    "f15306_1": 0.5
+  "yukari": {
+    "f210321_0": -0.25
   },
-  "ako": {
-    "f1101_0": 0.25
+  "yukari_swimsuit": {
+    "f13302_0": 0.75
   },
-  "nodoka_onsen": {
-    "f6201_0": -0.75
+  "yuuka_pajama": {
+    "f210358_0": 0.2
   },
-  "konoka": {
-    "f211301_0": 0.75
+  "yuuka_track": {
+    "f10108_0": 0.25
   },
   "yuzu": {
     "f210301_0": 0.25
@@ -301,61 +407,5 @@
   },
   "yuzu_maid": {
     "f210304_0": 0.25
-  },
-  "chihiro": {
-    "f2203_0": 0.75
-  },
-  "erina": {
-    "f211317_0": 0.75
-  },
-  "sumire_parttime": {
-    "f210365_0": -0.75
-  },
-  "yukari": {
-    "f210321_0": -0.25
-  },
-  "yukari_swimsuit": {
-    "f13302_0": 0.75
-  },
-  "kasumi": {
-    "f9106_0": -0.15
-  },
-  "kasumi_swimsuit": {
-    "f211315_0": 0.25
-  },
-  "minori": {
-    "f210307_0": 0.75
-  },
-  "hibiki_cheerleader": {
-    "f10302_0": 0.75
-  },
-  "renge:my_event062_oven": 3.926991,
-  "renge_swimsuit:my_event081_watergunstand": 5.497787,
-  "makoto:my_event064_chairmandesk": 0.785398,
-  "makoto_swimsuit:my_event094_saberstand": 0.785398,
-  "noa:my_autumnsports_01_storagebox": 0.785398,
-  "noa_pajama:my_event075_beanbagwhite": 5.497787,
-  "himari:my_gamecenter_01_p_vendingmachine_01": 2.356194,
-  "himari_battle:my_event088_simplekitchen": 2.356194,
-  "hanae_christmas:my_event13_fireplace": 2.356194,
-  "rabu:my_event085_helmetcleankit": 5.497787,
-  "niya:my_event080_workdesk": 5.497787,
-  "fuyu:my_event084_televisiontower": 2.356194,
-  "pina:my_newyearpath_01_fireplace": 5.497787,
-  "pina_guide:my_event078_videotelevision": 3.926991,
-  "kaede:my_hotsprings_01_gachamachine": 2.356194,
-  "asuna_bunnygirl:my_event11_stool03": 5.497787,
-  "asuna_uniform:my_millenniumlounge_01_desk_02": 5.497787,
-  "kanna_swimsuit:my_event069_lifesavingbox": 5.497787,
-  "kanna:my_event15_table": 2.356194,
-  "fuuka_newyear:my_newyearpath_01_hanger": 2.356194,
-  "niko:my_event091_strategytable": 0.0,
-  "sena_casual:my_event077_table_03": 2.356194,
-  "sena:my_defaultroom_table": 0.785398,
-  "momiji:my_event059_chair": 0.785398,
-  "haruna_newyear:my_newyearpath_01_table_02": 3.926991,
-  "haruna_track:my_event059_benchtable": 0.785398,
-  "kotama_camp:my_event063_partition": 5.497787,
-  "erika:my_event091_accstand": 2.356194,
-  "megu:my_hotsprings_01_woodenbathtub": 3.926991
+  }
 }

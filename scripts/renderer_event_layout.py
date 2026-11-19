@@ -24,6 +24,14 @@ LAYOUTS={
     # (Hand01/Hand02/strategytable_prop_02). On CH0172, index 5 is CH0172_Halo
     # and index 6 is absent; map all three explicitly so Halo is never hidden.
     'niko':{4:'CH0172_Hand01_Mesh',5:'CH0172_Hand02_Mesh',6:'my_event091_strategytable_prop_02'},
+    # CH0114 clips address CH0114_Body / CH0114_Tree_Outline at prefab child
+    # indices 2/3 (bone_root is child 0). Enumerating renderers shifted 2/3 onto
+    # Tree/Bomb, trapping Tsukuyo inside her tree trunk during Cafe Idle.
+    'tsukuyo':{2:'CH0114_Body',3:'CH0114_Tree_Outline'},
+    # CH0297 clips address CH0297_Arm01_Mesh / CH0297_Arm02_Mesh at prefab child
+    # indices 3/4 (bone_root is child 0). Enumerating renderers shifted index 4
+    # onto CH0297_Body, hiding her entire body.
+    'tsukuyo_dress':{3:'CH0297_Arm01_Mesh',4:'CH0297_Arm02_Mesh'},
 }
 def renderer_event_layout(character,names):
     result=list(names)

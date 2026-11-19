@@ -1,0 +1,378 @@
+{
+  "id": "saori",
+  "name": "纱织 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Saori_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Saori_Original_Cafe_Idle--f56dd43f76966639",
+    "interact": "Saori_Original_Cafe_Reaction--4d87398eb4331e22"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Saori_Original_Cafe_Idle--f56dd43f76966639",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Saori_Original_Cafe_Reaction--4d87398eb4331e22",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Saori_Original_Cafe_Walk--9564a7ac3ed698bb",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Saori_Original_Victory_Start--c5c15e776917d314",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Saori_Original_Normal_Reload--7cebe565881c61b2",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Saori_Original_Formation_Pickup--b69d7bcea4f4a698",
+      "category": "常用"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Saori_Original_Vital_Retreat--eef2d5402eab0a23",
+      "sourceName": "Saori_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Saori_Original_Normal_Callsign--e3bd27c38bda4258",
+      "sourceName": "Saori_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Saori_Original_Kneel_Reload--d93c5d699c9bbaf7",
+      "sourceName": "Saori_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign_random",
+      "label": "常规 · 回应 · Random",
+      "clip": "Saori_Original_Normal_Callsign_Random--fb726a00a68969d5",
+      "sourceName": "Saori_Original_Normal_Callsign_Random",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "Saori_Original_Move_Jump--c6e4a57e87e0ee2d",
+      "sourceName": "Saori_Original_Move_Jump",
+      "category": "移动"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Saori_Original_Exs--c564aaf293fbe6ab",
+      "sourceName": "Saori_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Saori_Original_Exs_Cutin--c15205b45a5fac0f",
+      "sourceName": "Saori_Original_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Saori_Original_Vital_Dying_Ing--c10eaf13a6b62c13",
+      "sourceName": "Saori_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Saori_Original_Vital_Death--b6eea5aba2dc8d4f",
+      "sourceName": "Saori_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Saori_Original_Formation_Idle--acbf4f72b9e35ab1",
+      "sourceName": "Saori_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Saori_Original_Public01--a2d4cdc251a66296",
+      "sourceName": "Saori_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Saori_Original_Victory_End--f4fe9dc017121df6",
+      "sourceName": "Saori_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Saori_Original_Move_End_Kneel--8f2df4a03ee23ef4",
+      "sourceName": "Saori_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Saori_Original_Kneel_Idle--8969ed12719e7cd6",
+      "sourceName": "Saori_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Saori_Original_Move_Ing--2ddcd205cfc1c58c",
+      "sourceName": "Saori_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Saori_Original_Kneel_Attack_Start--2e91eb58b4d52f59",
+      "sourceName": "Saori_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Saori_Original_Kneel_Attack_Delay--36efd856c0b1ef19",
+      "sourceName": "Saori_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Saori_Original_Kneel_Attack_Ing--3a4ba35a7a02262c",
+      "sourceName": "Saori_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_2",
+      "label": "EX 技能 · Cutin · 2",
+      "clip": "Saori_Original_Exs_Cutin_2--4228e14cd6773a99",
+      "sourceName": "Saori_Original_Exs_Cutin_2",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Saori_Original_Normal_Attack_Ing--4ec57ffb9f5678bb",
+      "sourceName": "Saori_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Saori_Original_Normal_Attack_Start--54f3f07999d2809d",
+      "sourceName": "Saori_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Saori_Original_Normal_Idle--5536bac7edf330d7",
+      "sourceName": "Saori_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Saori_Original_Normal_Attack_Delay--5c149dc281322eeb",
+      "sourceName": "Saori_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Saori_Original_Normal_Attack_End--5fdf3c94261e3714",
+      "sourceName": "Saori_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_root",
+      "label": "EX 技能 · Root",
+      "clip": "Saori_Original_Exs_Root--648aa616cda74fc2",
+      "sourceName": "Saori_Original_Exs_Root",
+      "category": "技能"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Saori_Original_Move_End_Normal--6a7f5cea8bcbbed9",
+      "sourceName": "Saori_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Saori_Original_Vital_Panic--b1d31d61b2410a2",
+      "sourceName": "Saori_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Saori_Original_Kneel_Attack_End--7b975563de507de2",
+      "sourceName": "Saori_Original_Kneel_Attack_End",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Saori_Original_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.125,
+      0.5
+    ],
+    "events": {
+      "Saori_Original_Cafe_Idle--f56dd43f76966639": [],
+      "Saori_Original_Cafe_Reaction--4d87398eb4331e22": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.53333336,
+          "tile": 402
+        },
+        {
+          "time": 1.2666668,
+          "tile": 401
+        }
+      ],
+      "Saori_Original_Cafe_Walk--9564a7ac3ed698bb": [],
+      "Saori_Original_Victory_Start--c5c15e776917d314": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.6666667,
+          "tile": 402
+        },
+        {
+          "time": 1.5333334,
+          "tile": 401
+        }
+      ],
+      "Saori_Original_Normal_Reload--7cebe565881c61b2": [],
+      "Saori_Original_Formation_Pickup--b69d7bcea4f4a698": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.3333334,
+          "tile": 402
+        },
+        {
+          "time": 2.8000002,
+          "tile": 401
+        }
+      ],
+      "Saori_Original_Vital_Retreat--eef2d5402eab0a23": [],
+      "Saori_Original_Normal_Callsign--e3bd27c38bda4258": [],
+      "Saori_Original_Kneel_Reload--d93c5d699c9bbaf7": [],
+      "Saori_Original_Normal_Callsign_Random--fb726a00a68969d5": [],
+      "Saori_Original_Move_Jump--c6e4a57e87e0ee2d": [],
+      "Saori_Original_Exs--c564aaf293fbe6ab": [],
+      "Saori_Original_Exs_Cutin--c15205b45a5fac0f": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.23333332,
+          "tile": 402
+        },
+        {
+          "time": 1.3333334,
+          "tile": 401
+        }
+      ],
+      "Saori_Original_Vital_Dying_Ing--c10eaf13a6b62c13": [],
+      "Saori_Original_Vital_Death--b6eea5aba2dc8d4f": [],
+      "Saori_Original_Formation_Idle--acbf4f72b9e35ab1": [],
+      "Saori_Original_Public01--a2d4cdc251a66296": [],
+      "Saori_Original_Victory_End--f4fe9dc017121df6": [],
+      "Saori_Original_Move_End_Kneel--8f2df4a03ee23ef4": [],
+      "Saori_Original_Kneel_Idle--8969ed12719e7cd6": [],
+      "Saori_Original_Move_Ing--2ddcd205cfc1c58c": [],
+      "Saori_Original_Kneel_Attack_Start--2e91eb58b4d52f59": [],
+      "Saori_Original_Kneel_Attack_Delay--36efd856c0b1ef19": [],
+      "Saori_Original_Kneel_Attack_Ing--3a4ba35a7a02262c": [],
+      "Saori_Original_Exs_Cutin_2--4228e14cd6773a99": [],
+      "Saori_Original_Normal_Attack_Ing--4ec57ffb9f5678bb": [],
+      "Saori_Original_Normal_Attack_Start--54f3f07999d2809d": [],
+      "Saori_Original_Normal_Idle--5536bac7edf330d7": [],
+      "Saori_Original_Normal_Attack_Delay--5c149dc281322eeb": [],
+      "Saori_Original_Normal_Attack_End--5fdf3c94261e3714": [],
+      "Saori_Original_Exs_Root--648aa616cda74fc2": [],
+      "Saori_Original_Move_End_Normal--6a7f5cea8bcbbed9": [],
+      "Saori_Original_Vital_Panic--b1d31d61b2410a2": [],
+      "Saori_Original_Kneel_Attack_End--7b975563de507de2": []
+    }
+  },
+  "furniture": [
+    {
+      "id": "f1108_0",
+      "name": "落地窗",
+      "model": "f1108_0.glb",
+      "clip": "f1108_0",
+      "duration": 26.599999999999998,
+      "mouthEvents": [],
+      "yaw": 2.356194490192345,
+      "sourceTimeline": "my_cafe_01_b_wall_04",
+      "sourceGroup": "MakeTrack_10048",
+      "sourceStudentTrack": "10048",
+      "viewYaw": -1.570796
+    }
+  ],
+  "framing": {
+    "actions": {
+      "original_exs_cutin": {
+        "zoom": 0.8035245650859154,
+        "centerY": 0.9983011402297927
+      },
+      "original_exs_cutin_2": {
+        "zoom": 0.8034036791064393,
+        "centerY": 0.998305095094937
+      },
+      "original_exs_root": {
+        "zoom": 0.9459820605803155,
+        "centerY": 1.0000000006181617
+      }
+    }
+  }
+}

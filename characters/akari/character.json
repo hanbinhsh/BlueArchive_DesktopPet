@@ -1,0 +1,442 @@
+{
+  "id": "akari",
+  "name": "明里 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Akari_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Akari_Original_Cafe_Idle--633012b390f4fa9b",
+    "interact": "Akari_Original_Cafe_Reaction--7f59a885fc593e6d"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Akari_Original_Cafe_Idle--633012b390f4fa9b",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Akari_Original_Cafe_Reaction--7f59a885fc593e6d",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Akari_Original_Cafe_Walk--f4057d3253f652cb",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Akari_Original_Victory_Start--722e57bff73f77f1",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Akari_Original_Normal_Reload--72f68fd0a60e9f50",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Akari_Original_Formation_Pickup--6b0afb4999863768",
+      "category": "常用"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "Akari_Original_Move_Jump--ef56c0e8afe504f3",
+      "sourceName": "Akari_Original_Move_Jump",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Akari_Original_Normal_Attack_Ing--d83400b8d6a86352",
+      "sourceName": "Akari_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Akari_Original_Move_End_Kneel--d638dec976857b1c",
+      "sourceName": "Akari_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Akari_Original_Public01--d40b4c113113e91f",
+      "sourceName": "Akari_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Akari_Original_Normal_Callsign--ce1c520a8a01ad09",
+      "sourceName": "Akari_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Akari_Original_Kneel_Idle--cbed5f0909aeafe4",
+      "sourceName": "Akari_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_end",
+      "label": "掩体站姿 · 攻击 · 结束",
+      "clip": "Akari_Original_Stand_Attack_End--c990bcd19686a056",
+      "sourceName": "Akari_Original_Stand_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Akari_Original_Normal_Attack_Start--ff69cb60779114e9",
+      "sourceName": "Akari_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Akari_Original_Kneel_Attack_Ing--c3ff18a7894ec2ab",
+      "sourceName": "Akari_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Akari_Original_Vital_Dying_Ing--bdd7c6dd657c738d",
+      "sourceName": "Akari_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_stand",
+      "label": "移动 · 结束 · 掩体站姿",
+      "clip": "Akari_Original_Move_End_Stand--bd5b86e9da70eb5d",
+      "sourceName": "Akari_Original_Move_End_Stand",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_callsign",
+      "label": "蹲姿 · 回应",
+      "clip": "Akari_Original_Kneel_Callsign--b8f830a8e1f0f00b",
+      "sourceName": "Akari_Original_Kneel_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_callsign",
+      "label": "掩体站姿 · 回应",
+      "clip": "Akari_Original_Stand_Callsign--b5527199b8acf73f",
+      "sourceName": "Akari_Original_Stand_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Akari_Original_Victory_End--afe2a6327416f7e9",
+      "sourceName": "Akari_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Akari_Original_Move_Ing--aeb9348860bd80b6",
+      "sourceName": "Akari_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Akari_Original_Kneel_Attack_Delay--a9929017c62bc0da",
+      "sourceName": "Akari_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Akari_Original_Vital_Retreat--9d618def989b4373",
+      "sourceName": "Akari_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_callsign",
+      "label": "移动 · 回应",
+      "clip": "Akari_Original_Move_Callsign--8589b63043cab5ae",
+      "sourceName": "Akari_Original_Move_Callsign",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Akari_Original_Kneel_Reload--f2cb220401669c2d",
+      "sourceName": "Akari_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Akari_Original_Vital_Death--f17ed226a1ba7c3",
+      "sourceName": "Akari_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Akari_Original_Vital_Panic--13f7ed15b5090340",
+      "sourceName": "Akari_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Akari_Original_Normal_Attack_Delay--1670e73b8d45b947",
+      "sourceName": "Akari_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Akari_Original_Exs_Cutin--1b2d808a1bc377e3",
+      "sourceName": "Akari_Original_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_stand_idle",
+      "label": "掩体站姿 · 待机",
+      "clip": "Akari_Original_Stand_Idle--21a61e9a47f6da16",
+      "sourceName": "Akari_Original_Stand_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Akari_Original_Move_End_Normal--276a1c8dda10ecdc",
+      "sourceName": "Akari_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Akari_Original_Normal_Idle--2adb3d77d92060b0",
+      "sourceName": "Akari_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_delay",
+      "label": "掩体站姿 · 攻击 · 间隔",
+      "clip": "Akari_Original_Stand_Attack_Delay--3e9948f63ad419f7",
+      "sourceName": "Akari_Original_Stand_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_start",
+      "label": "掩体站姿 · 攻击 · 开始",
+      "clip": "Akari_Original_Stand_Attack_Start--43a43d36d8f8a7f1",
+      "sourceName": "Akari_Original_Stand_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Akari_Original_Normal_Attack_End--850e9ac0a21624d",
+      "sourceName": "Akari_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Akari_Original_Kneel_Attack_Start--601fd542592e01f6",
+      "sourceName": "Akari_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Akari_Original_Exs--9ba872e4463084b",
+      "sourceName": "Akari_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Akari_Original_Formation_Idle--63e0fe007348ecb3",
+      "sourceName": "Akari_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_stand_reload",
+      "label": "掩体站姿 · 换弹",
+      "clip": "Akari_Original_Stand_Reload--67403f756ab0749f",
+      "sourceName": "Akari_Original_Stand_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_ing",
+      "label": "掩体站姿 · 攻击 · 持续",
+      "clip": "Akari_Original_Stand_Attack_Ing--695bc086f141aad9",
+      "sourceName": "Akari_Original_Stand_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Akari_Original_Kneel_Attack_End--75163c940cba4ed6",
+      "sourceName": "Akari_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_skill_frag",
+      "label": "Skill · Frag",
+      "clip": "Akari_Original_Skill_Frag--759efa59492d9c46",
+      "sourceName": "Akari_Original_Skill_Frag",
+      "category": "技能"
+    }
+  ],
+  "mouth": {
+    "material": "Akari_Original_Mouth",
+    "defaultTile": 500,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0,
+      0.625
+    ],
+    "events": {
+      "Akari_Original_Cafe_Idle--633012b390f4fa9b": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Akari_Original_Cafe_Reaction--7f59a885fc593e6d": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.26666668,
+          "tile": 500
+        },
+        {
+          "time": 0.33333334,
+          "tile": 501
+        },
+        {
+          "time": 1.4,
+          "tile": 500
+        },
+        {
+          "time": 1.4333334,
+          "tile": 704
+        }
+      ],
+      "Akari_Original_Cafe_Walk--f4057d3253f652cb": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Akari_Original_Victory_Start--722e57bff73f77f1": [
+        {
+          "time": 0,
+          "tile": 500,
+          "reset": true
+        },
+        {
+          "time": 0.73333335,
+          "tile": 704
+        },
+        {
+          "time": 0.9666667,
+          "tile": 505
+        },
+        {
+          "time": 1.3000001,
+          "tile": 402
+        },
+        {
+          "time": 2.1333334,
+          "tile": 502
+        },
+        {
+          "time": 2.3000002,
+          "tile": 507
+        },
+        {
+          "time": 3.0333335,
+          "tile": 405
+        }
+      ],
+      "Akari_Original_Normal_Reload--72f68fd0a60e9f50": [],
+      "Akari_Original_Formation_Pickup--6b0afb4999863768": [],
+      "Akari_Original_Move_Jump--ef56c0e8afe504f3": [],
+      "Akari_Original_Normal_Attack_Ing--d83400b8d6a86352": [],
+      "Akari_Original_Move_End_Kneel--d638dec976857b1c": [],
+      "Akari_Original_Public01--d40b4c113113e91f": [],
+      "Akari_Original_Normal_Callsign--ce1c520a8a01ad09": [],
+      "Akari_Original_Kneel_Idle--cbed5f0909aeafe4": [],
+      "Akari_Original_Stand_Attack_End--c990bcd19686a056": [],
+      "Akari_Original_Normal_Attack_Start--ff69cb60779114e9": [],
+      "Akari_Original_Kneel_Attack_Ing--c3ff18a7894ec2ab": [],
+      "Akari_Original_Vital_Dying_Ing--bdd7c6dd657c738d": [],
+      "Akari_Original_Move_End_Stand--bd5b86e9da70eb5d": [],
+      "Akari_Original_Kneel_Callsign--b8f830a8e1f0f00b": [],
+      "Akari_Original_Stand_Callsign--b5527199b8acf73f": [],
+      "Akari_Original_Victory_End--afe2a6327416f7e9": [
+        {
+          "time": 0,
+          "tile": 405
+        }
+      ],
+      "Akari_Original_Move_Ing--aeb9348860bd80b6": [],
+      "Akari_Original_Kneel_Attack_Delay--a9929017c62bc0da": [],
+      "Akari_Original_Vital_Retreat--9d618def989b4373": [],
+      "Akari_Original_Move_Callsign--8589b63043cab5ae": [],
+      "Akari_Original_Kneel_Reload--f2cb220401669c2d": [],
+      "Akari_Original_Vital_Death--f17ed226a1ba7c3": [],
+      "Akari_Original_Vital_Panic--13f7ed15b5090340": [],
+      "Akari_Original_Normal_Attack_Delay--1670e73b8d45b947": [],
+      "Akari_Original_Exs_Cutin--1b2d808a1bc377e3": [
+        {
+          "time": 0,
+          "tile": 500
+        },
+        {
+          "time": 0.9666667,
+          "tile": 501
+        },
+        {
+          "time": 1.6000001,
+          "tile": 301
+        },
+        {
+          "time": 2.8333335,
+          "tile": 500
+        }
+      ],
+      "Akari_Original_Stand_Idle--21a61e9a47f6da16": [],
+      "Akari_Original_Move_End_Normal--276a1c8dda10ecdc": [],
+      "Akari_Original_Normal_Idle--2adb3d77d92060b0": [],
+      "Akari_Original_Stand_Attack_Delay--3e9948f63ad419f7": [],
+      "Akari_Original_Stand_Attack_Start--43a43d36d8f8a7f1": [],
+      "Akari_Original_Normal_Attack_End--850e9ac0a21624d": [],
+      "Akari_Original_Kneel_Attack_Start--601fd542592e01f6": [],
+      "Akari_Original_Exs--9ba872e4463084b": [],
+      "Akari_Original_Formation_Idle--63e0fe007348ecb3": [],
+      "Akari_Original_Stand_Reload--67403f756ab0749f": [],
+      "Akari_Original_Stand_Attack_Ing--695bc086f141aad9": [],
+      "Akari_Original_Kneel_Attack_End--75163c940cba4ed6": [],
+      "Akari_Original_Skill_Frag--759efa59492d9c46": []
+    }
+  }
+}

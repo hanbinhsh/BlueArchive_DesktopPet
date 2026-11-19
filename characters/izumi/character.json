@@ -1,0 +1,562 @@
+{
+  "id": "izumi",
+  "name": "泉 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Izumi_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Izumi_Original_Cafe_Idle--75d9941d5113a9ed",
+    "interact": "Izumi_Original_Cafe_Reaction--bbc35ec37ec69902"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Izumi_Original_Cafe_Idle--75d9941d5113a9ed",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Izumi_Original_Cafe_Reaction--bbc35ec37ec69902",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Izumi_Original_Cafe_Walk--9ae38c2da0bbdf01",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Izumi_Original_Victory_Start--7083f7c18183523c",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Izumi_Original_Normal_Reload--8169340c3d7d2601",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Izumi_Original_Formation_Pickup--f4f29c0a18fc3058",
+      "category": "常用"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Izumi_Original_Exs--edfddb1620eddaae",
+      "sourceName": "Izumi_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_stand_attack_ing",
+      "label": "掩体站姿 · 攻击 · 持续",
+      "clip": "Izumi_Original_Stand_Attack_Ing--ec4a3af1202de5a9",
+      "sourceName": "Izumi_Original_Stand_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Izumi_Original_Normal_Attack_End--dcd42d79fd1e73c1",
+      "sourceName": "Izumi_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Izumi_Original_Vital_Death--d599e8a69edf696b",
+      "sourceName": "Izumi_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Izumi_Original_Normal_Idle--ce65ca68f984395e",
+      "sourceName": "Izumi_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_delay",
+      "label": "掩体站姿 · 攻击 · 间隔",
+      "clip": "Izumi_Original_Stand_Attack_Delay--c3a4fb7dc19f562c",
+      "sourceName": "Izumi_Original_Stand_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_stand",
+      "label": "移动 · 结束 · 掩体站姿",
+      "clip": "Izumi_Original_Move_End_Stand--bd67f5d41049ced4",
+      "sourceName": "Izumi_Original_Move_End_Stand",
+      "category": "移动"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Izumi_Original_Move_Ing--bceff688eb8a3c7b",
+      "sourceName": "Izumi_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_move_callsign",
+      "label": "移动 · 回应",
+      "clip": "Izumi_Original_Move_Callsign--a7add292a302e883",
+      "sourceName": "Izumi_Original_Move_Callsign",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Izumi_Original_Normal_Attack_Ing--a1da0020fa644fbb",
+      "sourceName": "Izumi_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Izumi_Original_Move_End_Normal--9cc4b3aefb97725f",
+      "sourceName": "Izumi_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Izumi_Original_Formation_Idle--9b2b52148226f0b7",
+      "sourceName": "Izumi_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_stand_attack_start",
+      "label": "掩体站姿 · 攻击 · 开始",
+      "clip": "Izumi_Original_Stand_Attack_Start--98dae32749c28823",
+      "sourceName": "Izumi_Original_Stand_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_callsign",
+      "label": "掩体站姿 · 回应",
+      "clip": "Izumi_Original_Stand_Callsign--89c2054f631af8e3",
+      "sourceName": "Izumi_Original_Stand_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_end",
+      "label": "掩体站姿 · 攻击 · 结束",
+      "clip": "Izumi_Original_Stand_Attack_End--f3d62ab66255c373",
+      "sourceName": "Izumi_Original_Stand_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Izumi_Original_Public01--82b78aa06be901bc",
+      "sourceName": "Izumi_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Izumi_Original_Vital_Panic--24afa836d3fc7e51",
+      "sourceName": "Izumi_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Izumi_Original_Vital_Dying_Ing--46544b7fa2297e0",
+      "sourceName": "Izumi_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Izumi_Original_Normal_Attack_Delay--350b415f7d0b4bb6",
+      "sourceName": "Izumi_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Izumi_Original_Normal_Callsign--4051e8fc4dc475c2",
+      "sourceName": "Izumi_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Izumi_Original_Victory_End--56e355c385d41f71",
+      "sourceName": "Izumi_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_stand_idle",
+      "label": "掩体站姿 · 待机",
+      "clip": "Izumi_Original_Stand_Idle--5f4460ef029c01f3",
+      "sourceName": "Izumi_Original_Stand_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Izumi_Original_Vital_Retreat--739937854c95f051",
+      "sourceName": "Izumi_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Izumi_Original_Normal_Attack_Start--7ddacd5159e39509",
+      "sourceName": "Izumi_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_reload",
+      "label": "掩体站姿 · 换弹",
+      "clip": "Izumi_Original_Stand_Reload--1aadfe02e577b969",
+      "sourceName": "Izumi_Original_Stand_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_ex01_camera",
+      "label": "Ex01 · Camera",
+      "clip": "Izumi_Original_Ex01_Camera--4c977bd397d5a2b7",
+      "sourceName": "Izumi_Original_Ex01_Camera",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Izumi_Original_Mouth",
+    "defaultTile": 404,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.5,
+      0.5
+    ],
+    "events": {
+      "Izumi_Original_Cafe_Idle--75d9941d5113a9ed": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Izumi_Original_Cafe_Reaction--bbc35ec37ec69902": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.23333335,
+          "tile": 501
+        },
+        {
+          "time": 0.6333334,
+          "tile": 301
+        },
+        {
+          "time": 1.8000001,
+          "tile": 406
+        },
+        {
+          "time": 1.8333334,
+          "tile": 404
+        }
+      ],
+      "Izumi_Original_Cafe_Walk--9ae38c2da0bbdf01": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Izumi_Original_Victory_Start--7083f7c18183523c": [
+        {
+          "time": 0,
+          "tile": 301
+        },
+        {
+          "time": 0.7333334,
+          "tile": 400
+        },
+        {
+          "time": 1.1333334,
+          "tile": 403
+        },
+        {
+          "time": 1.7333335,
+          "tile": 404
+        },
+        {
+          "time": 1.9666668,
+          "tile": 403
+        },
+        {
+          "time": 2.0666668,
+          "tile": 404
+        },
+        {
+          "time": 2.2333333,
+          "tile": 403
+        },
+        {
+          "time": 2.3000002,
+          "tile": 404
+        },
+        {
+          "time": 3.0666668,
+          "tile": 302
+        }
+      ],
+      "Izumi_Original_Normal_Reload--8169340c3d7d2601": [
+        {
+          "time": 0,
+          "tile": 404,
+          "reset": true
+        }
+      ],
+      "Izumi_Original_Formation_Pickup--f4f29c0a18fc3058": [],
+      "Izumi_Original_Exs--edfddb1620eddaae": [
+        {
+          "time": 0,
+          "tile": 404,
+          "reset": true
+        },
+        {
+          "time": 0.26666668,
+          "tile": 302
+        },
+        {
+          "time": 0.8333334,
+          "tile": 300
+        },
+        {
+          "time": 1.1,
+          "tile": 400
+        },
+        {
+          "time": 1.5666667,
+          "tile": 403
+        },
+        {
+          "time": 1.7333335,
+          "tile": 400
+        },
+        {
+          "time": 1.8666668,
+          "tile": 403
+        },
+        {
+          "time": 2.3333335,
+          "tile": 400
+        },
+        {
+          "time": 2.6666667,
+          "tile": 403
+        },
+        {
+          "time": 3.8000002,
+          "tile": 404
+        },
+        {
+          "time": 5.066667,
+          "tile": 404
+        }
+      ],
+      "Izumi_Original_Stand_Attack_Ing--ec4a3af1202de5a9": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Izumi_Original_Normal_Attack_End--dcd42d79fd1e73c1": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Izumi_Original_Vital_Death--d599e8a69edf696b": [
+        {
+          "time": 0,
+          "tile": 506
+        }
+      ],
+      "Izumi_Original_Normal_Idle--ce65ca68f984395e": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Izumi_Original_Stand_Attack_Delay--c3a4fb7dc19f562c": [
+        {
+          "time": 0,
+          "tile": 404,
+          "reset": true
+        }
+      ],
+      "Izumi_Original_Move_End_Stand--bd67f5d41049ced4": [
+        {
+          "time": 0,
+          "tile": 404,
+          "reset": true
+        }
+      ],
+      "Izumi_Original_Move_Ing--bceff688eb8a3c7b": [
+        {
+          "time": 0,
+          "tile": 404,
+          "reset": true
+        }
+      ],
+      "Izumi_Original_Move_Callsign--a7add292a302e883": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.33333334,
+          "tile": 505
+        },
+        {
+          "time": 0.5,
+          "tile": 404
+        }
+      ],
+      "Izumi_Original_Normal_Attack_Ing--a1da0020fa644fbb": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Izumi_Original_Move_End_Normal--9cc4b3aefb97725f": [
+        {
+          "time": 0,
+          "tile": 404,
+          "reset": true
+        }
+      ],
+      "Izumi_Original_Formation_Idle--9b2b52148226f0b7": [],
+      "Izumi_Original_Stand_Attack_Start--98dae32749c28823": [
+        {
+          "time": 0,
+          "tile": 404,
+          "reset": true
+        }
+      ],
+      "Izumi_Original_Stand_Callsign--89c2054f631af8e3": [
+        {
+          "time": 0,
+          "tile": 404,
+          "reset": true
+        },
+        {
+          "time": 0.16666667,
+          "tile": 400
+        },
+        {
+          "time": 0.5,
+          "tile": 404
+        }
+      ],
+      "Izumi_Original_Stand_Attack_End--f3d62ab66255c373": [
+        {
+          "time": 0,
+          "tile": 404,
+          "reset": true
+        }
+      ],
+      "Izumi_Original_Public01--82b78aa06be901bc": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.16666667,
+          "tile": 302
+        },
+        {
+          "time": 0.8000001,
+          "tile": 301
+        }
+      ],
+      "Izumi_Original_Vital_Panic--24afa836d3fc7e51": [
+        {
+          "time": 0,
+          "tile": 506
+        }
+      ],
+      "Izumi_Original_Vital_Dying_Ing--46544b7fa2297e0": [
+        {
+          "time": 0,
+          "tile": 506
+        }
+      ],
+      "Izumi_Original_Normal_Attack_Delay--350b415f7d0b4bb6": [
+        {
+          "time": 0,
+          "tile": 404,
+          "reset": true
+        }
+      ],
+      "Izumi_Original_Normal_Callsign--4051e8fc4dc475c2": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.23333335,
+          "tile": 400
+        },
+        {
+          "time": 0.53333336,
+          "tile": 404
+        }
+      ],
+      "Izumi_Original_Victory_End--56e355c385d41f71": [
+        {
+          "time": 0,
+          "tile": 301
+        }
+      ],
+      "Izumi_Original_Stand_Idle--5f4460ef029c01f3": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Izumi_Original_Vital_Retreat--739937854c95f051": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ],
+      "Izumi_Original_Normal_Attack_Start--7ddacd5159e39509": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Izumi_Original_Stand_Reload--1aadfe02e577b969": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Izumi_Original_Ex01_Camera--4c977bd397d5a2b7": []
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_vital_death": {
+        "zoom": 1,
+        "centerY": 0.6890638821832673
+      }
+    }
+  }
+}

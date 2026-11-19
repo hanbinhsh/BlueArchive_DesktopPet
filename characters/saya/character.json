@@ -1,0 +1,229 @@
+{
+  "id": "saya",
+  "name": "纱绫 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Saya_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Saya_Original_Cafe_Idle--33d6c26695a56f9a",
+    "interact": "Saya_Original_Cafe_Reaction--51d4ee1e94fc9f76"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Saya_Original_Cafe_Idle--33d6c26695a56f9a",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Saya_Original_Cafe_Reaction--51d4ee1e94fc9f76",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Saya_Original_Cafe_Walk--22900921e712be40",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Saya_Original_Formation_Pickup--d34b8253d540cd73",
+      "category": "常用"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Saya_Original_Exs_Cutin--b5c3ced847837cdb",
+      "sourceName": "Saya_Original_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "Saya_Original_Tactical_Start--2761b72284b5ee4e",
+      "sourceName": "Saya_Original_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Saya_Original_Formation_Idle--5e2ae3eac276f75a",
+      "sourceName": "Saya_Original_Formation_Idle",
+      "category": "编队与胜利"
+    }
+  ],
+  "mouth": {
+    "material": "Saya_Original_Mouth",
+    "defaultTile": 701,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.125,
+      0.875
+    ],
+    "events": {
+      "Saya_Original_Cafe_Idle--33d6c26695a56f9a": [
+        {
+          "time": 0,
+          "tile": 304
+        }
+      ],
+      "Saya_Original_Cafe_Reaction--51d4ee1e94fc9f76": [
+        {
+          "time": 0,
+          "tile": 304
+        },
+        {
+          "time": 0.26666668,
+          "tile": 700
+        },
+        {
+          "time": 0.6,
+          "tile": 701
+        },
+        {
+          "time": 1.9333334,
+          "tile": 304
+        }
+      ],
+      "Saya_Original_Cafe_Walk--22900921e712be40": [
+        {
+          "time": 0,
+          "tile": 701
+        }
+      ],
+      "Saya_Original_Formation_Pickup--d34b8253d540cd73": [
+        {
+          "time": 0,
+          "tile": 201
+        },
+        {
+          "time": 0.266664,
+          "tile": 607
+        },
+        {
+          "time": 0.39999598,
+          "tile": 601
+        },
+        {
+          "time": 1.366653,
+          "tile": 601
+        },
+        {
+          "time": 1.566651,
+          "tile": 607
+        },
+        {
+          "time": 2.033313,
+          "tile": 601
+        },
+        {
+          "time": 2.33331,
+          "tile": 601
+        },
+        {
+          "time": 2.66664,
+          "tile": 607
+        },
+        {
+          "time": 3.266634,
+          "tile": 601
+        },
+        {
+          "time": 4.766619,
+          "tile": 403
+        },
+        {
+          "time": 5.499945,
+          "tile": 403
+        },
+        {
+          "time": 6.799932,
+          "tile": 403
+        },
+        {
+          "time": 7.833255,
+          "tile": 403
+        },
+        {
+          "time": 8.133252,
+          "tile": 602
+        },
+        {
+          "time": 11.966547,
+          "tile": 200
+        },
+        {
+          "time": 12.899871,
+          "tile": 201
+        },
+        {
+          "time": 13.366533,
+          "tile": 201
+        },
+        {
+          "time": 13.66653,
+          "tile": 201
+        }
+      ],
+      "Saya_Original_Exs--c992f7d55c7d7ed7": [],
+      "Saya_Original_Exs_Cutin--b5c3ced847837cdb": [
+        {
+          "time": 0,
+          "tile": 304
+        },
+        {
+          "time": 0.6333334,
+          "tile": 701
+        },
+        {
+          "time": 1.6666667,
+          "tile": 405
+        },
+        {
+          "time": 2.1000001,
+          "tile": 304
+        },
+        {
+          "time": 3.1666667,
+          "tile": 701
+        }
+      ],
+      "Saya_Original_Tactical_Start--2761b72284b5ee4e": [
+        {
+          "time": 0,
+          "tile": 304
+        },
+        {
+          "time": 0.6,
+          "tile": 701
+        },
+        {
+          "time": 1.1,
+          "tile": 304
+        }
+      ],
+      "Saya_Original_Formation_Idle--5e2ae3eac276f75a": [
+        {
+          "time": 0,
+          "tile": 203
+        }
+      ]
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs_cutin": {
+        "zoom": 0.3804430933582903,
+        "centerY": 2.5893236924791556
+      }
+    }
+  }
+}

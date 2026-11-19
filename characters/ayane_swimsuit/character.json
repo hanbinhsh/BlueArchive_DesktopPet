@@ -1,0 +1,528 @@
+{
+  "id": "ayane_swimsuit",
+  "name": "绫音 · 泳装",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0176; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0176_Cafe_Idle--9efe6a93b0ca689d",
+    "interact": "CH0176_Cafe_Reaction--e4cb2630113eb72b"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0176_Cafe_Idle--9efe6a93b0ca689d",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0176_Cafe_Reaction--e4cb2630113eb72b",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0176_Cafe_Walk--d1e9bf54a61d5163",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "CH0176_Normal_Reload--d7abfd043299731d",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0176_Formation_Pickup--da1dfe2c7d4c7654",
+      "category": "常用"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "CH0176_Move_End_Normal--e1c25e2787b93abe",
+      "sourceName": "CH0176_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0176_Tactical_Start--9a664558bcb3b9ca",
+      "sourceName": "CH0176_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "CH0176_Normal_Attack_End--8608f9ef1496a4ed",
+      "sourceName": "CH0176_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "CH0176_Public01--113188c6e97fcb78",
+      "sourceName": "CH0176_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "CH0176_Normal_Attack_Ing--1e42a3454c1aa078",
+      "sourceName": "CH0176_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0176_Formation_Idle--2d9d57962afd7539",
+      "sourceName": "CH0176_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "CH0176_Normal_Attack_Delay--3ff7a561a7050231",
+      "sourceName": "CH0176_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "CH0176_Normal_Idle--55716f5e91196d17",
+      "sourceName": "CH0176_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "CH0176_Normal_Attack_Start--62cb61a242ba6b4e",
+      "sourceName": "CH0176_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "CH0176_Move_Ing--64ee10453a79724f",
+      "sourceName": "CH0176_Move_Ing",
+      "category": "移动"
+    }
+  ],
+  "mouth": {
+    "material": "CH0176_Mouth",
+    "defaultTile": 704,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.5,
+      0.875
+    ],
+    "events": {
+      "CH0176_Cafe_Idle--9efe6a93b0ca689d": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 2.6666667,
+          "tile": 704
+        }
+      ],
+      "CH0176_Cafe_Reaction--e4cb2630113eb72b": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.10000001,
+          "tile": 506
+        },
+        {
+          "time": 0.20000002,
+          "tile": 507
+        },
+        {
+          "time": 1.5666666,
+          "tile": 704
+        }
+      ],
+      "CH0176_Cafe_Walk--d1e9bf54a61d5163": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.3333334,
+          "tile": 704
+        }
+      ],
+      "CH0176_Normal_Reload--d7abfd043299731d": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.3,
+          "tile": 506
+        },
+        {
+          "time": 0.5,
+          "tile": 507
+        },
+        {
+          "time": 0.90000004,
+          "tile": 506
+        },
+        {
+          "time": 1.3333334,
+          "tile": 704
+        }
+      ],
+      "CH0176_Formation_Pickup--da1dfe2c7d4c7654": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.233331,
+          "tile": 200
+        },
+        {
+          "time": 1.733316,
+          "tile": 602
+        },
+        {
+          "time": 1.933314,
+          "tile": 303
+        },
+        {
+          "time": 4.099959,
+          "tile": 506
+        },
+        {
+          "time": 4.733286,
+          "tile": 706
+        },
+        {
+          "time": 7.799922,
+          "tile": 300
+        }
+      ],
+      "CH0176_Move_End_Normal--e1c25e2787b93abe": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.8000001,
+          "tile": 704
+        },
+        {
+          "time": 1.0666667,
+          "tile": 704
+        }
+      ],
+      "CH0176_Normal_Retreat--aa1938ab5591eac4": [],
+      "CH0176_Tactical_Start--9a664558bcb3b9ca": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.9333334,
+          "tile": 500
+        },
+        {
+          "time": 1.2666668,
+          "tile": 704
+        },
+        {
+          "time": 2,
+          "tile": 704
+        }
+      ],
+      "CH0176_Exs_Cutin--94f827c9851b822b": [
+        {
+          "time": 0,
+          "tile": 504
+        },
+        {
+          "time": 0.10000001,
+          "tile": 402
+        },
+        {
+          "time": 0.3,
+          "tile": 504
+        },
+        {
+          "time": 0.53333336,
+          "tile": 402
+        },
+        {
+          "time": 0.6666667,
+          "tile": 504
+        },
+        {
+          "time": 0.86666673,
+          "tile": 401
+        },
+        {
+          "time": 1.1,
+          "tile": 402
+        },
+        {
+          "time": 1.9333334,
+          "tile": 704
+        }
+      ],
+      "CH0176_Normal_Attack_End--8608f9ef1496a4ed": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.10000001,
+          "tile": 506
+        },
+        {
+          "time": 0.20000002,
+          "tile": 704
+        },
+        {
+          "time": 0.6666667,
+          "tile": 704
+        }
+      ],
+      "CH0176_Appearance--82aff51ba352d6b7": [
+        {
+          "time": 0,
+          "tile": 507
+        },
+        {
+          "time": 1.0666667,
+          "tile": 704
+        }
+      ],
+      "CH0176_Public01--113188c6e97fcb78": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.2,
+          "tile": 507
+        },
+        {
+          "time": 2.0666668,
+          "tile": 506
+        },
+        {
+          "time": 2.5333335,
+          "tile": 704
+        }
+      ],
+      "CH0176_Vital_Retreat--1877a648c4cd827b": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.40000004,
+          "tile": 507
+        }
+      ],
+      "CH0176_Normal_Attack_Ing--1e42a3454c1aa078": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0176_Formation_Idle--2d9d57962afd7539": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 4.3333335,
+          "tile": 300
+        }
+      ],
+      "CH0176_Normal_Attack_Delay--3ff7a561a7050231": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.3333334,
+          "tile": 704
+        }
+      ],
+      "CH0176_Vital_Destroy--4bb022dbf4fc7780": [
+        {
+          "time": 0,
+          "tile": 506
+        },
+        {
+          "time": 0.23333335,
+          "tile": 507
+        },
+        {
+          "time": 0.7666667,
+          "tile": 506
+        },
+        {
+          "time": 0.9333334,
+          "tile": 507
+        },
+        {
+          "time": 1.2,
+          "tile": 506
+        },
+        {
+          "time": 1.6666667,
+          "tile": 507
+        }
+      ],
+      "CH0176_Normal_Idle--55716f5e91196d17": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.6000001,
+          "tile": 704
+        }
+      ],
+      "CH0176_Normal_Attack_Start--62cb61a242ba6b4e": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.53333336,
+          "tile": 506
+        },
+        {
+          "time": 0.6666667,
+          "tile": 507
+        }
+      ],
+      "CH0176_Move_Ing--64ee10453a79724f": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.4666667,
+          "tile": 402
+        },
+        {
+          "time": 1.3333334,
+          "tile": 402
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "f4103_0",
+      "name": "夏日野餐套装用品",
+      "model": "f4103_0.glb",
+      "clip": "f4103_0",
+      "duration": 12.533333333333333,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 704
+        },
+        {
+          "time": 0.53333336,
+          "tile": 402
+        },
+        {
+          "time": 1.4000001,
+          "tile": 401
+        },
+        {
+          "time": 2.0,
+          "tile": 402
+        },
+        {
+          "time": 5.2000003,
+          "tile": 401
+        },
+        {
+          "time": 6.8333335,
+          "tile": 604
+        },
+        {
+          "time": 7.7333336,
+          "tile": 705
+        },
+        {
+          "time": 8.133334,
+          "tile": 401
+        },
+        {
+          "time": 9.1,
+          "tile": 402
+        },
+        {
+          "time": 9.466667,
+          "tile": 706
+        },
+        {
+          "time": 10.166667,
+          "tile": 704
+        }
+      ],
+      "yaw": 2.356194490192345,
+      "sourceTimeline": "my_poolparty_01_b_pack",
+      "sourceGroup": "RequiredTrack_26007",
+      "sourceStudentTrack": "26007",
+      "viewYaw": -1.570796
+    }
+  ],
+  "framing": {
+    "actions": {
+      "original_move_end_normal": {
+        "zoom": 0.3531867799708211,
+        "centerY": 2.7418009679504842
+      },
+      "original_normal_attack_end": {
+        "zoom": 0.35608047763390877,
+        "centerY": 3.0851191267321836
+      },
+      "original_public01": {
+        "zoom": 0.31018176507783984,
+        "centerY": 3.8311844034110507
+      },
+      "original_normal_attack_ing": {
+        "zoom": 0.3551279469803986,
+        "centerY": 3.1535831594296244
+      },
+      "original_normal_attack_delay": {
+        "zoom": 0.3545727892863275,
+        "centerY": 3.0953259205098984
+      },
+      "original_normal_idle": {
+        "zoom": 0.35560354852970344,
+        "centerY": 2.5457833377624377
+      },
+      "original_normal_attack_start": {
+        "zoom": 0.3535017650339832,
+        "centerY": 3.0713518950786627
+      },
+      "original_move_ing": {
+        "zoom": 0.3556439781568865,
+        "centerY": 2.7156288642381963
+      }
+    }
+  }
+}

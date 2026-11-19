@@ -1,0 +1,377 @@
+{
+  "id": "akari_newyear",
+  "name": "明里 · 新年",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0196; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0196_Cafe_Idle--1ad2897a9026ebfa",
+    "interact": "CH0196_Cafe_Reaction--9bad805da7b58556"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0196_Cafe_Idle--1ad2897a9026ebfa",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0196_Cafe_Reaction--9bad805da7b58556",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0196_Cafe_Walk--5717a5b8db8124ff",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0196_Formation_Pickup--5a974ad7ffc417f0",
+      "category": "常用"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0196_Formation_Idle--b93ae25072e0a389",
+      "sourceName": "CH0196_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "CH0196_Exs_Cutin--23568e20905230e6",
+      "sourceName": "CH0196_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0196_Tactical_Start--56576a1424d40b12",
+      "sourceName": "CH0196_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle_random",
+      "label": "编队 · 待机 · Random",
+      "clip": "CH0196_Formation_Idle_Random--2feb57bc57a900f7",
+      "sourceName": "CH0196_Formation_Idle_Random",
+      "category": "编队与胜利"
+    }
+  ],
+  "mouth": {
+    "material": "CH0196_Mouth",
+    "defaultTile": 704,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.5,
+      0.875
+    ],
+    "events": {
+      "CH0196_Cafe_Idle--1ad2897a9026ebfa": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0196_Cafe_Reaction--9bad805da7b58556": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.3666668,
+          "tile": 705
+        },
+        {
+          "time": 1.9333334,
+          "tile": 704
+        },
+        {
+          "time": 3.1666667,
+          "tile": 707
+        },
+        {
+          "time": 4.9333334,
+          "tile": 704
+        }
+      ],
+      "CH0196_Cafe_Walk--5717a5b8db8124ff": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0196_Formation_Pickup--5a974ad7ffc417f0": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.53333336,
+          "tile": 705
+        },
+        {
+          "time": 1.4000001,
+          "tile": 704
+        },
+        {
+          "time": 2.966667,
+          "tile": 706
+        },
+        {
+          "time": 4.3333335,
+          "tile": 704
+        },
+        {
+          "time": 5.0000005,
+          "tile": 707
+        },
+        {
+          "time": 9.6,
+          "tile": 704
+        }
+      ],
+      "CH0196_Formation_Idle--b93ae25072e0a389": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0196_Exs_Cutin--23568e20905230e6": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 2.5333335,
+          "tile": 707
+        },
+        {
+          "time": 3.1666667,
+          "tile": 704
+        },
+        {
+          "time": 3.3000002,
+          "tile": 706
+        }
+      ],
+      "CH0196_Tactical_Start--56576a1424d40b12": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.8000001,
+          "tile": 706
+        }
+      ],
+      "CH0196_Formation_Idle_Random--2feb57bc57a900f7": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210334_0",
+      "name": "臼和糕杵",
+      "model": "f210334_0.glb",
+      "clip": "f210334_0",
+      "duration": 43.76666666666665,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 705
+        },
+        {
+          "time": 2.1666666666666683,
+          "tile": 705
+        },
+        {
+          "time": 2.466666666666668,
+          "tile": 704
+        },
+        {
+          "time": 4.366666666666669,
+          "tile": 402
+        },
+        {
+          "time": 5.633333666666669,
+          "tile": 300
+        },
+        {
+          "time": 6.666666666666668,
+          "tile": 704
+        },
+        {
+          "time": 8.200000666666668,
+          "tile": 707
+        },
+        {
+          "time": 9.500000166666668,
+          "tile": 704
+        },
+        {
+          "time": 10.133333666666669,
+          "tile": 705
+        },
+        {
+          "time": 10.166666666666668,
+          "tile": 705
+        },
+        {
+          "time": 12.333333333333334,
+          "tile": 705
+        },
+        {
+          "time": 14.5,
+          "tile": 705
+        },
+        {
+          "time": 17.599990666666667,
+          "tile": 704
+        },
+        {
+          "time": 17.86665466666667,
+          "tile": 402
+        },
+        {
+          "time": 19.033309666666668,
+          "tile": 704
+        },
+        {
+          "time": 20.99995666666667,
+          "tile": 504
+        },
+        {
+          "time": 21.43328566666667,
+          "tile": 705
+        },
+        {
+          "time": 23.73326266666667,
+          "tile": 505
+        },
+        {
+          "time": 24.033259666666666,
+          "tile": 403
+        },
+        {
+          "time": 25.366579666666667,
+          "tile": 504
+        },
+        {
+          "time": 25.633243666666665,
+          "tile": 505
+        },
+        {
+          "time": 25.833241166666667,
+          "tile": 403
+        },
+        {
+          "time": 26.19990466666667,
+          "tile": 505
+        },
+        {
+          "time": 26.36656966666667,
+          "tile": 403
+        },
+        {
+          "time": 26.76656566666667,
+          "tile": 505
+        },
+        {
+          "time": 26.933230666666667,
+          "tile": 403
+        },
+        {
+          "time": 27.199894666666665,
+          "tile": 505
+        },
+        {
+          "time": 27.366559666666667,
+          "tile": 403
+        },
+        {
+          "time": 27.699889666666667,
+          "tile": 505
+        },
+        {
+          "time": 27.866554666666666,
+          "tile": 403
+        },
+        {
+          "time": 28.133218666666668,
+          "tile": 505
+        },
+        {
+          "time": 28.299883666666666,
+          "tile": 403
+        },
+        {
+          "time": 28.733212166666668,
+          "tile": 704
+        },
+        {
+          "time": 28.89987766666667,
+          "tile": 706
+        },
+        {
+          "time": 30.333196666666666,
+          "tile": 705
+        },
+        {
+          "time": 30.533194666666667,
+          "tile": 705
+        },
+        {
+          "time": 31.199854666666667,
+          "tile": 704
+        },
+        {
+          "time": 32.93333333333334,
+          "tile": 705
+        },
+        {
+          "time": 35.099999999999994,
+          "tile": 705
+        },
+        {
+          "time": 37.26666666666666,
+          "tile": 705
+        },
+        {
+          "time": 39.43333333333332,
+          "tile": 705
+        },
+        {
+          "time": 41.59999999999999,
+          "tile": 705
+        }
+      ],
+      "yaw": 2.356194490192345,
+      "sourceTimeline": "my_event065_ricecakemakingset",
+      "sourceGroup": "RequiredTrack_20034",
+      "sourceStudentTrack": "20034",
+      "viewYaw": 0.0
+    }
+  ],
+  "framing": {
+    "actions": {
+      "original_exs_cutin": {
+        "zoom": 0.551384215379483,
+        "centerY": 1.5915008749338815
+      }
+    }
+  }
+}

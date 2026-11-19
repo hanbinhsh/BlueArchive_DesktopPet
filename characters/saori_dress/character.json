@@ -1,0 +1,479 @@
+{
+  "id": "saori_dress",
+  "name": "纱织 · 礼服",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0259; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0259_Cafe_Idle--709493166f7ed0a6",
+    "interact": "CH0259_Cafe_Reaction--7cef847b40bd0969"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0259_Cafe_Idle--709493166f7ed0a6",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0259_Cafe_Reaction--7cef847b40bd0969",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0259_Cafe_Walk--c9ac24815754aac0",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "CH0259_Victory_Start--90df1a939ac1e835",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "CH0259_Normal_Reload--c09f48cb649b4f8f",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0259_Formation_Pickup--c0ddf3dbb185b7a7",
+      "category": "常用"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "CH0259_Normal_Attack_Start--dc3544596ef53c7d",
+      "sourceName": "CH0259_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "CH0259_Vital_Retreat--c7f939e218863405",
+      "sourceName": "CH0259_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_droid_dummy_01",
+      "label": "EX 技能 · CutIn · Droid · Dummy · 01",
+      "clip": "CH0259_Exs_CutIn_Droid_Dummy_01--ff6365f7a6c862a0",
+      "sourceName": "CH0259_Exs_CutIn_Droid_Dummy_01",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "CH0259_Vital_Panic--bdd3217080d40c49",
+      "sourceName": "CH0259_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle_random",
+      "label": "编队 · 待机 · Random",
+      "clip": "CH0259_Formation_Idle_Random--ac0526d049f6406f",
+      "sourceName": "CH0259_Formation_Idle_Random",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_victory_start_random",
+      "label": "胜利 · 开始 · Random",
+      "clip": "CH0259_Victory_Start_Random--a43c5d89a7c45410",
+      "sourceName": "CH0259_Victory_Start_Random",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0259_Formation_Idle--9e0c93320997322d",
+      "sourceName": "CH0259_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "CH0259_Move_End_Normal--9c4d34029e5ccc24",
+      "sourceName": "CH0259_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "CH0259_Move_Ing--8da498921d100028",
+      "sourceName": "CH0259_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "CH0259_Normal_Idle--86bd6746447f3e16",
+      "sourceName": "CH0259_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign_random",
+      "label": "常规 · 回应 · Random",
+      "clip": "CH0259_Normal_Callsign_Random--f3c3a03f75d49dea",
+      "sourceName": "CH0259_Normal_Callsign_Random",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "CH0259_Victory_End--8264e4dc4be0b871",
+      "sourceName": "CH0259_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "CH0259_Vital_Dying_Ing--80cb9aa84d39f383",
+      "sourceName": "CH0259_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "CH0259_Vital_Death--3ae09a8506753ca9",
+      "sourceName": "CH0259_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "CH0259_Normal_Attack_Ing--44c77a41be4242d6",
+      "sourceName": "CH0259_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "CH0259_Normal_Callsign--5432ad7369616f33",
+      "sourceName": "CH0259_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "CH0259_Normal_Attack_Delay--8847a141302b79a",
+      "sourceName": "CH0259_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "CH0259_Normal_Attack_End--8c74f154dab3022",
+      "sourceName": "CH0259_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · CutIn",
+      "clip": "CH0259_Exs_CutIn--63537a58b3f435f7",
+      "sourceName": "CH0259_Exs_CutIn",
+      "category": "技能"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "CH0259_Public01--683b11bff01bdb01",
+      "sourceName": "CH0259_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_victory_end_random",
+      "label": "胜利 · 结束 · Random",
+      "clip": "CH0259_Victory_End_Random--72a9b8c75757e520",
+      "sourceName": "CH0259_Victory_End_Random",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "CH0259_Exs--7ad43e7c0d7055ef",
+      "sourceName": "CH0259_Exs",
+      "category": "技能"
+    }
+  ],
+  "mouth": {
+    "material": "CH0259_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.125,
+      0.5
+    ],
+    "events": {
+      "CH0259_Cafe_Idle--709493166f7ed0a6": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "CH0259_Cafe_Reaction--7cef847b40bd0969": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.5666667,
+          "tile": 402
+        },
+        {
+          "time": 1.8000001,
+          "tile": 401
+        },
+        {
+          "time": 3.6333334,
+          "tile": 402
+        },
+        {
+          "time": 4.9666667,
+          "tile": 300
+        },
+        {
+          "time": 7.2333336,
+          "tile": 300
+        }
+      ],
+      "CH0259_Cafe_Walk--c9ac24815754aac0": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0259_Victory_Start--90df1a939ac1e835": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.4666667,
+          "tile": 402
+        },
+        {
+          "time": 1.5333334,
+          "tile": 401
+        }
+      ],
+      "CH0259_Normal_Reload--c09f48cb649b4f8f": [],
+      "CH0259_Formation_Pickup--c0ddf3dbb185b7a7": [],
+      "CH0259_Normal_Attack_Start--dc3544596ef53c7d": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0259_Vital_Retreat--c7f939e218863405": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0259_Exs_CutIn_Droid_Dummy_01--ff6365f7a6c862a0": [],
+      "CH0259_Vital_Panic--bdd3217080d40c49": [],
+      "CH0259_Formation_Idle_Random--ac0526d049f6406f": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0259_Victory_Start_Random--a43c5d89a7c45410": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0259_Formation_Idle--9e0c93320997322d": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0259_Move_End_Normal--9c4d34029e5ccc24": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0259_Move_Ing--8da498921d100028": [],
+      "CH0259_Normal_Idle--86bd6746447f3e16": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0259_Normal_Callsign_Random--f3c3a03f75d49dea": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0259_Victory_End--8264e4dc4be0b871": [],
+      "CH0259_Vital_Dying_Ing--80cb9aa84d39f383": [],
+      "CH0259_Vital_Death--3ae09a8506753ca9": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0259_Normal_Attack_Ing--44c77a41be4242d6": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0259_Normal_Callsign--5432ad7369616f33": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0259_Normal_Attack_Delay--8847a141302b79a": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0259_Normal_Attack_End--8c74f154dab3022": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0259_Exs_CutIn--63537a58b3f435f7": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 2.4333334,
+          "tile": 402
+        },
+        {
+          "time": 3.1666667,
+          "tile": 401
+        }
+      ],
+      "CH0259_Public01--683b11bff01bdb01": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0259_Victory_End_Random--72a9b8c75757e520": [],
+      "CH0259_Exs--7ad43e7c0d7055ef": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210366_0",
+      "name": "豪华全身镜",
+      "model": "f210366_0.glb",
+      "clip": "f210366_0",
+      "duration": 42.666666666666664,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 401
+        },
+        {
+          "time": 3.99996,
+          "tile": 401
+        },
+        {
+          "time": 4.899951,
+          "tile": 402
+        },
+        {
+          "time": 19.66647,
+          "tile": 402
+        },
+        {
+          "time": 22.133112,
+          "tile": 200
+        },
+        {
+          "time": 23.466433,
+          "tile": 602
+        },
+        {
+          "time": 26.166405,
+          "tile": 402
+        },
+        {
+          "time": 28.733046,
+          "tile": 602
+        },
+        {
+          "time": 35.532978,
+          "tile": 402
+        },
+        {
+          "time": 36.532967,
+          "tile": 602
+        },
+        {
+          "time": 37.299625,
+          "tile": 402
+        },
+        {
+          "time": 38.66628,
+          "tile": 300
+        },
+        {
+          "time": 41.266254,
+          "tile": 300
+        },
+        {
+          "time": 41.532917,
+          "tile": 402
+        },
+        {
+          "time": 42.432907,
+          "tile": 401
+        },
+        {
+          "time": 42.66624,
+          "tile": 401
+        }
+      ],
+      "yaw": 2.356194490192345,
+      "sourceTimeline": "my_event078_mirror",
+      "sourceGroup": "RequiredTrack_10116",
+      "sourceStudentTrack": "10116",
+      "viewYaw": 0.0
+    }
+  ],
+  "framing": {
+    "actions": {
+      "original_vital_retreat": {
+        "zoom": 0.9925754290774,
+        "centerY": 0.6147148521719261
+      },
+      "original_exs_cutin_droid_dummy_01": {
+        "zoom": 0.47144501375940046,
+        "centerY": -0.5692956535543774
+      },
+      "original_vital_death": {
+        "zoom": 0.8351647607148664,
+        "centerY": 0.9968712023837132
+      }
+    }
+  }
+}

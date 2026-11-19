@@ -1,0 +1,296 @@
+{
+  "id": "misaki",
+  "name": "美咲 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Misaki_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Misaki_Original_Cafe_Idle--53f880e5150af71",
+    "interact": "Misaki_Original_Cafe_Reaction--8debbafc7092d558"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Misaki_Original_Cafe_Idle--53f880e5150af71",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Misaki_Original_Cafe_Reaction--8debbafc7092d558",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Misaki_Original_Cafe_Walk--4ef279b8dd1782e0",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Misaki_Original_Victory_Start--bf807b08d3ab6cdf",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Misaki_Original_Normal_Reload--b73ce04b8a27e1b9",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Misaki_Original_Formation_Pickup--a18dd2e10d799d82",
+      "category": "常用"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Misaki_Original_Vital_Panic--fe8427aebffff09e",
+      "sourceName": "Misaki_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Misaki_Original_Exs--edeecbdd3ca63b4e",
+      "sourceName": "Misaki_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Misaki_Original_Normal_Attack_Ing--dc68d5e89b7e89f0",
+      "sourceName": "Misaki_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Misaki_Original_Formation_Idle--d1798c400cad6d6b",
+      "sourceName": "Misaki_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Misaki_Original_Normal_Idle--bdfb728c87e4d73c",
+      "sourceName": "Misaki_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Misaki_Original_Vital_Dying_Ing--bd432c409560d5b5",
+      "sourceName": "Misaki_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Misaki_Original_Normal_Attack_Delay--b1fe74e40715b4f4",
+      "sourceName": "Misaki_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Misaki_Original_Move_End_Normal--f7dd3026b83a87fd",
+      "sourceName": "Misaki_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Misaki_Original_Kneel_Attack_Delay--a745de2ddb09ca01",
+      "sourceName": "Misaki_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Misaki_Original_Kneel_Attack_End--925080382e31b593",
+      "sourceName": "Misaki_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Misaki_Original_Normal_Attack_Start--88da953186360d0c",
+      "sourceName": "Misaki_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Misaki_Original_Kneel_Attack_Ing--86d31d48def60a86",
+      "sourceName": "Misaki_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Misaki_Original_Normal_Callsign--83f298eee0025b9f",
+      "sourceName": "Misaki_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public_01",
+      "label": "普通技能 · 01",
+      "clip": "Misaki_Original_Public_01--1daa768930158609",
+      "sourceName": "Misaki_Original_Public_01",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Misaki_Original_Vital_Death--20f502db66546aba",
+      "sourceName": "Misaki_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Misaki_Original_Victory_End--2a692d400e038db3",
+      "sourceName": "Misaki_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Misaki_Original_Move_Ing--47f38389645a0e93",
+      "sourceName": "Misaki_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Misaki_Original_Vital_Retreat--5371c3ea3ee57d08",
+      "sourceName": "Misaki_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Misaki_Original_Move_End_Kneel--5f40b67b3f18c595",
+      "sourceName": "Misaki_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Misaki_Original_Normal_Attack_End--65e01ec59ce78742",
+      "sourceName": "Misaki_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Misaki_Original_Kneel_Attack_Start--670c261815777494",
+      "sourceName": "Misaki_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Misaki_Original_Exs_Cutin--71f904e27bd55375",
+      "sourceName": "Misaki_Original_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Misaki_Original_Kneel_Reload--7612931b560ccc64",
+      "sourceName": "Misaki_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Misaki_Original_Kneel_Idle--780fc77f7c6eada6",
+      "sourceName": "Misaki_Original_Kneel_Idle",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Misaki_Original_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.125,
+      0.5
+    ],
+    "events": {
+      "Misaki_Original_Cafe_Idle--53f880e5150af71": [],
+      "Misaki_Original_Cafe_Reaction--8debbafc7092d558": [],
+      "Misaki_Original_Cafe_Walk--4ef279b8dd1782e0": [],
+      "Misaki_Original_Victory_Start--bf807b08d3ab6cdf": [],
+      "Misaki_Original_Normal_Reload--b73ce04b8a27e1b9": [],
+      "Misaki_Original_Formation_Pickup--a18dd2e10d799d82": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.3,
+          "tile": 402
+        },
+        {
+          "time": 2.7,
+          "tile": 401
+        }
+      ],
+      "Misaki_Original_Vital_Panic--fe8427aebffff09e": [],
+      "Misaki_Original_Exs--edeecbdd3ca63b4e": [],
+      "Misaki_Original_Normal_Attack_Ing--dc68d5e89b7e89f0": [],
+      "Misaki_Original_Formation_Idle--d1798c400cad6d6b": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Misaki_Original_Normal_Idle--bdfb728c87e4d73c": [],
+      "Misaki_Original_Vital_Dying_Ing--bd432c409560d5b5": [],
+      "Misaki_Original_Normal_Attack_Delay--b1fe74e40715b4f4": [],
+      "Misaki_Original_Move_End_Normal--f7dd3026b83a87fd": [],
+      "Misaki_Original_Kneel_Attack_Delay--a745de2ddb09ca01": [],
+      "Misaki_Original_Kneel_Attack_End--925080382e31b593": [],
+      "Misaki_Original_Normal_Attack_Start--88da953186360d0c": [],
+      "Misaki_Original_Kneel_Attack_Ing--86d31d48def60a86": [],
+      "Misaki_Original_Normal_Callsign--83f298eee0025b9f": [],
+      "Misaki_Original_Public_01--1daa768930158609": [],
+      "Misaki_Original_Vital_Death--20f502db66546aba": [],
+      "Misaki_Original_Victory_End--2a692d400e038db3": [],
+      "Misaki_Original_Move_Ing--47f38389645a0e93": [],
+      "Misaki_Original_Vital_Retreat--5371c3ea3ee57d08": [],
+      "Misaki_Original_Move_End_Kneel--5f40b67b3f18c595": [],
+      "Misaki_Original_Normal_Attack_End--65e01ec59ce78742": [],
+      "Misaki_Original_Kneel_Attack_Start--670c261815777494": [],
+      "Misaki_Original_Exs_Cutin--71f904e27bd55375": [],
+      "Misaki_Original_Kneel_Reload--7612931b560ccc64": [],
+      "Misaki_Original_Kneel_Idle--780fc77f7c6eada6": []
+    }
+  },
+  "furniture": [
+    {
+      "id": "f1108_0",
+      "name": "落地窗",
+      "model": "f1108_0.glb",
+      "clip": "f1108_0",
+      "duration": 26.599999999999998,
+      "mouthEvents": [],
+      "yaw": 2.356194490192345,
+      "sourceTimeline": "my_cafe_01_b_wall_04",
+      "sourceGroup": "MakeTrack_10041",
+      "sourceStudentTrack": "10041",
+      "viewYaw": -1.570796
+    }
+  ]
+}

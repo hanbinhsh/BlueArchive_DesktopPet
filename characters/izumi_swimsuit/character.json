@@ -1,0 +1,547 @@
+{
+  "id": "izumi_swimsuit",
+  "name": "泉 · 泳装",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Izumi_Swimsuit; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Izumi_Swimsuit_Cafe_Idle--760a6d9ed5b0d039",
+    "interact": "Izumi_Swimsuit_Cafe_Reaction--4dc8a3200128e0eb"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Izumi_Swimsuit_Cafe_Idle--760a6d9ed5b0d039",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Izumi_Swimsuit_Cafe_Reaction--4dc8a3200128e0eb",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Izumi_Swimsuit_Cafe_Walk--8dbfa9981ea725f3",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Izumi_Swimsuit_Victory_Start--cc9bc822552dbecc",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Izumi_Swimsuit_Normal_Reload--7ca9b9477c4f71bb",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Izumi_Swimsuit_Formation_Pickup--c85b75694df57b8f",
+      "category": "常用"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Izumi_Swimsuit_Public01--e2e12d3de4912f7d",
+      "sourceName": "Izumi_Swimsuit_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Izumi_Swimsuit_Vital_Panic--98d9e23950dd59bd",
+      "sourceName": "Izumi_Swimsuit_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Izumi_Swimsuit_Victory_End--91dfcf9b75d1e214",
+      "sourceName": "Izumi_Swimsuit_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Izumi_Swimsuit_Vital_Death--8776aaaf07910d90",
+      "sourceName": "Izumi_Swimsuit_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Izumi_Swimsuit_Normal_Attack_End--296d50b58b14989f",
+      "sourceName": "Izumi_Swimsuit_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_reload_01",
+      "label": "常规 · 换弹 · 01",
+      "clip": "Izumi_Swimsuit_Normal_Reload_01--33a32121537a1f86",
+      "sourceName": "Izumi_Swimsuit_Normal_Reload_01",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Izumi_Swimsuit_Normal_Attack_Ing--47f32279d74cddda",
+      "sourceName": "Izumi_Swimsuit_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Izumi_Swimsuit_Normal_Idle--49201b476ad6c551",
+      "sourceName": "Izumi_Swimsuit_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Izumi_Swimsuit_Formation_Idle--4a2b3fe896f45fe1",
+      "sourceName": "Izumi_Swimsuit_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Izumi_Swimsuit_Vital_Dying_ing--4bb07836ab4b6051",
+      "sourceName": "Izumi_Swimsuit_Vital_Dying_ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Izumi_Swimsuit_Normal_Attack_Delay--548825e8f5e4ed96",
+      "sourceName": "Izumi_Swimsuit_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Izumi_Swimsuit_Vital_Retreat--582a580781adaf98",
+      "sourceName": "Izumi_Swimsuit_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Izumi_Swimsuit_Normal_Callsign--5e6f9ec42293c3e3",
+      "sourceName": "Izumi_Swimsuit_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01_01",
+      "label": "Public01 · 01",
+      "clip": "Izumi_Swimsuit_Public01_01--5ec113fcc9d9552e",
+      "sourceName": "Izumi_Swimsuit_Public01_01",
+      "category": "技能"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Izumi_Swimsuit_Move_Ing--6aa6298625739e8b",
+      "sourceName": "Izumi_Swimsuit_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Izumi_Swimsuit_Move_End_Normal--6acf00d7cb123159",
+      "sourceName": "Izumi_Swimsuit_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Izumi_Swimsuit_Exs--6d3523604b54f728",
+      "sourceName": "Izumi_Swimsuit_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Izumi_Swimsuit_Normal_Attack_Start--7a26c546adc20179",
+      "sourceName": "Izumi_Swimsuit_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Izumi_Swimsuit_Exs_Cutin--7a3b939df561cc04",
+      "sourceName": "Izumi_Swimsuit_Exs_Cutin",
+      "category": "技能"
+    }
+  ],
+  "mouth": {
+    "material": "Izumi_Swimsuit_Mouth",
+    "defaultTile": 404,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.5,
+      0.5
+    ],
+    "events": {
+      "Izumi_Swimsuit_Cafe_Idle--760a6d9ed5b0d039": [
+        {
+          "time": 0,
+          "tile": 301
+        }
+      ],
+      "Izumi_Swimsuit_Cafe_Reaction--4dc8a3200128e0eb": [
+        {
+          "time": 0,
+          "tile": 301
+        },
+        {
+          "time": 0.26666668,
+          "tile": 302
+        },
+        {
+          "time": 1.3666668,
+          "tile": 507
+        },
+        {
+          "time": 2.6666667,
+          "tile": 301
+        }
+      ],
+      "Izumi_Swimsuit_Cafe_Walk--8dbfa9981ea725f3": [
+        {
+          "time": 0,
+          "tile": 301
+        },
+        {
+          "time": 2.5333335,
+          "tile": 301
+        }
+      ],
+      "Izumi_Swimsuit_Victory_Start--cc9bc822552dbecc": [
+        {
+          "time": 0,
+          "tile": 301
+        },
+        {
+          "time": 0.10000001,
+          "tile": 302
+        },
+        {
+          "time": 0.4666667,
+          "tile": 404
+        },
+        {
+          "time": 1.4000001,
+          "tile": 405
+        }
+      ],
+      "Izumi_Swimsuit_Normal_Reload--7ca9b9477c4f71bb": [
+        {
+          "time": 0,
+          "tile": 301
+        },
+        {
+          "time": 0.3,
+          "tile": 302
+        },
+        {
+          "time": 0.8000001,
+          "tile": 301
+        }
+      ],
+      "Izumi_Swimsuit_Formation_Pickup--c85b75694df57b8f": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 1.5000001,
+          "tile": 302
+        },
+        {
+          "time": 2.3000002,
+          "tile": 405
+        },
+        {
+          "time": 2.7,
+          "tile": 302
+        },
+        {
+          "time": 4.3,
+          "tile": 404
+        }
+      ],
+      "Izumi_Swimsuit_Public01--e2e12d3de4912f7d": [
+        {
+          "time": 0,
+          "tile": 302
+        },
+        {
+          "time": 0.10000001,
+          "tile": 301
+        },
+        {
+          "time": 0.3,
+          "tile": 302
+        },
+        {
+          "time": 0.4666667,
+          "tile": 301
+        },
+        {
+          "time": 0.6666667,
+          "tile": 302
+        },
+        {
+          "time": 0.7666667,
+          "tile": 404
+        },
+        {
+          "time": 1.0666667,
+          "tile": 302
+        },
+        {
+          "time": 1.9000001,
+          "tile": 301
+        }
+      ],
+      "Izumi_Swimsuit_Vital_Panic--98d9e23950dd59bd": [
+        {
+          "time": 0,
+          "tile": 507
+        }
+      ],
+      "Izumi_Swimsuit_Victory_End--91dfcf9b75d1e214": [
+        {
+          "time": 0,
+          "tile": 405
+        }
+      ],
+      "Izumi_Swimsuit_Vital_Death--8776aaaf07910d90": [
+        {
+          "time": 0,
+          "tile": 301
+        },
+        {
+          "time": 0.23333335,
+          "tile": 507
+        },
+        {
+          "time": 1.1,
+          "tile": 506
+        }
+      ],
+      "Izumi_Swimsuit_Normal_Attack_End--296d50b58b14989f": [
+        {
+          "time": 0,
+          "tile": 507
+        },
+        {
+          "time": 0.23333335,
+          "tile": 301
+        }
+      ],
+      "Izumi_Swimsuit_Normal_Reload_01--33a32121537a1f86": [
+        {
+          "time": 0,
+          "tile": 301
+        },
+        {
+          "time": 0.23333335,
+          "tile": 302
+        },
+        {
+          "time": 0.6333334,
+          "tile": 301
+        },
+        {
+          "time": 1.4000001,
+          "tile": 507
+        },
+        {
+          "time": 1.9333334,
+          "tile": 404
+        }
+      ],
+      "Izumi_Swimsuit_Normal_Attack_Ing--47f32279d74cddda": [
+        {
+          "time": 0,
+          "tile": 507
+        }
+      ],
+      "Izumi_Swimsuit_Normal_Idle--49201b476ad6c551": [
+        {
+          "time": 0,
+          "tile": 301
+        }
+      ],
+      "Izumi_Swimsuit_Formation_Idle--4a2b3fe896f45fe1": [
+        {
+          "time": 0,
+          "tile": 301
+        }
+      ],
+      "Izumi_Swimsuit_Vital_Dying_ing--4bb07836ab4b6051": [
+        {
+          "time": 0,
+          "tile": 507
+        }
+      ],
+      "Izumi_Swimsuit_Normal_Attack_Delay--548825e8f5e4ed96": [],
+      "Izumi_Swimsuit_Vital_Retreat--582a580781adaf98": [
+        {
+          "time": 0,
+          "tile": 507
+        },
+        {
+          "time": 0.86666673,
+          "tile": 506
+        }
+      ],
+      "Izumi_Swimsuit_Normal_Callsign--5e6f9ec42293c3e3": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.4666667,
+          "tile": 302
+        },
+        {
+          "time": 1,
+          "tile": 404
+        }
+      ],
+      "Izumi_Swimsuit_Public01_01--5ec113fcc9d9552e": [
+        {
+          "time": 0,
+          "tile": 301
+        },
+        {
+          "time": 0.20000002,
+          "tile": 302
+        },
+        {
+          "time": 0.36666667,
+          "tile": 301
+        },
+        {
+          "time": 0.5666667,
+          "tile": 302
+        },
+        {
+          "time": 0.6666667,
+          "tile": 301
+        },
+        {
+          "time": 0.9666667,
+          "tile": 302
+        },
+        {
+          "time": 1.1666667,
+          "tile": 301
+        },
+        {
+          "time": 1.5666667,
+          "tile": 301
+        },
+        {
+          "time": 1.8333334,
+          "tile": 405
+        },
+        {
+          "time": 1.9666668,
+          "tile": 301
+        },
+        {
+          "time": 2.2,
+          "tile": 405
+        },
+        {
+          "time": 2.4666667,
+          "tile": 301
+        }
+      ],
+      "Izumi_Swimsuit_Move_Ing--6aa6298625739e8b": [
+        {
+          "time": 0,
+          "tile": 301
+        }
+      ],
+      "Izumi_Swimsuit_Move_End_Normal--6acf00d7cb123159": [
+        {
+          "time": 0,
+          "tile": 301
+        }
+      ],
+      "Izumi_Swimsuit_Exs--6d3523604b54f728": [
+        {
+          "time": 0,
+          "tile": 405
+        },
+        {
+          "time": 0.53333336,
+          "tile": 302
+        },
+        {
+          "time": 1.4000001,
+          "tile": 301
+        }
+      ],
+      "Izumi_Swimsuit_Normal_Attack_Start--7a26c546adc20179": [
+        {
+          "time": 0,
+          "tile": 301
+        }
+      ],
+      "Izumi_Swimsuit_Exs_Cutin--7a3b939df561cc04": [
+        {
+          "time": 0,
+          "tile": 301
+        },
+        {
+          "time": 0.5666667,
+          "tile": 404
+        },
+        {
+          "time": 0.86666673,
+          "tile": 405
+        },
+        {
+          "time": 1.8000001,
+          "tile": 302
+        },
+        {
+          "time": 2.4333334,
+          "tile": 404
+        },
+        {
+          "time": 3.1666667,
+          "tile": 405
+        },
+        {
+          "time": 3.3333335,
+          "tile": 302
+        }
+      ]
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_vital_death": {
+        "zoom": 0.7036721843778424,
+        "centerY": 1.3491491189111422
+      }
+    }
+  }
+}

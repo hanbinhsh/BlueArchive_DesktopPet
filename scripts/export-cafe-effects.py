@@ -28,6 +28,7 @@ def material(m):
         except (FileNotFoundError, KeyError) as error:
             errors.append({'material':m.m_Name,'slot':k,'reason':str(error)})
             v['textures'].append({'slot':k,'missing':str(error)});continue
+        if not hasattr(texture,'image'):continue
         name=hashlib.sha256((texture.object_reader.assets_file.name+str(texture.object_reader.path_id)).encode()).hexdigest()[:16]+'.png';texture.image.save(dest/name)
         v['textures'].append({'slot':k,'file':name,'name':texture.m_Name,'srgb':bool(getattr(texture,'m_ColorSpace',0)==1),'scale':[tex.m_Scale.x,tex.m_Scale.y],'offset':[tex.m_Offset.x,tex.m_Offset.y],'wrap':[texture.m_TextureSettings.m_WrapU,texture.m_TextureSettings.m_WrapV]})
     return v

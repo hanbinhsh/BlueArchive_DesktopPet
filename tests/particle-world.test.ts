@@ -35,3 +35,26 @@ test('local particles use animated gravity orientation and still follow their em
  assert.ok(Math.abs(position.x-5)<1e-6);assert.ok(Math.abs(position.y-(10-9.8100004196167/2))<1e-5);
  s.mesh.geometry.dispose();s.material.dispose();
 });
+
+test('world-aligned horizontal ripples ignore emitter tilt and stay parallel to sourceRoot water plane',()=>{
+ const c=(scalar:number)=>({minMaxState:0,scalar}),root=new THREE.Group(),duck=new THREE.Group();
+ duck.name='duck';duck.rotation.set(0.45,0.3,-0.5);root.add(duck);
+ root.rotation.set(0.25,1.1,-0.15);
+ const material=new THREE.MeshBasicMaterial();
+ material.userData.BA_cafeParticle={
+  clip:'bath',simulationSpace:1,control:{start:0,duration:10,speed:1,clipIn:0},burst:0,delay:c(0),
+  renderer:{m_RenderMode:0,m_RenderAlignment:1},
+  material:{queue:3000,shader:'test',floats:{},colors:{}},
+  particle:{InitialModule:{startLifetime:c(2),startSpeed:c(0),gravityModifier:c(0),startSize:c(0.25),rotation3D:true,startRotationX:c(Math.PI/2),startRotationY:c(0),startRotation:c(0),startColor:{minMaxState:0,maxColor:{r:1,g:1,b:1,a:1}}}}
+ };
+ const mesh=new THREE.Mesh(new THREE.PlaneGeometry(),material);duck.add(mesh);
+ const particle=new CafeParticle(mesh,material,new Set(),root);
+ root.updateMatrixWorld(true);
+ particle.update(0.5,'bath');
+ root.updateMatrixWorld(true);
+ const worldQuat=mesh.getWorldQuaternion(new THREE.Quaternion());
+ const planeNormal=new THREE.Vector3(0,0,1).applyQuaternion(worldQuat);
+ const rootUp=new THREE.Vector3(0,1,0).applyQuaternion(root.getWorldQuaternion(new THREE.Quaternion()));
+ assert.ok(Math.abs(Math.abs(planeNormal.dot(rootUp))-1)<1e-5,`expected horizontal ripple parallel to root up, dot=${planeNormal.dot(rootUp)}`);
+ mesh.geometry.dispose();material.dispose();
+});
