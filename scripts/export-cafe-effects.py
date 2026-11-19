@@ -29,7 +29,7 @@ def material(m):
             errors.append({'material':m.m_Name,'slot':k,'reason':str(error)})
             v['textures'].append({'slot':k,'missing':str(error)});continue
         name=hashlib.sha256((texture.object_reader.assets_file.name+str(texture.object_reader.path_id)).encode()).hexdigest()[:16]+'.png';texture.image.save(dest/name)
-        v['textures'].append({'slot':k,'file':name,'name':texture.m_Name,'scale':[tex.m_Scale.x,tex.m_Scale.y],'offset':[tex.m_Offset.x,tex.m_Offset.y],'wrap':[texture.m_TextureSettings.m_WrapU,texture.m_TextureSettings.m_WrapV]})
+        v['textures'].append({'slot':k,'file':name,'name':texture.m_Name,'srgb':bool(getattr(texture,'m_ColorSpace',0)==1),'scale':[tex.m_Scale.x,tex.m_Scale.y],'offset':[tex.m_Offset.x,tex.m_Offset.y],'wrap':[texture.m_TextureSettings.m_WrapU,texture.m_TextureSettings.m_WrapV]})
     return v
 def visit(go,path=''):
     row={'name':go.m_Name,'path':path+'/'+go.m_Name,'objectId':go.object_reader.assets_file.name+':'+str(go.object_reader.path_id),'active':go.m_IsActive};parts={c.component.deref().type.name:c.component.deref() for c in go.m_Component};row['components']=list(parts);t=parts['Transform'].read()

@@ -5,6 +5,11 @@ LAYOUTS={
     # Preserve the original event times/indices and resolve named faces here.
     'chiaki':{7:'CH0238_Face01',8:'CH0238_Face02'},
     'juri_parttime':{6:'CH0286_Face_Outline',7:'CH0286_Face01_Outline'},
+    # CH0123 clips address the two body meshes at their prefab child indices
+    # 3/4 (CH0123_CutIn_Body / CH0123_Body). Enumerating renderers alone shifted
+    # indices 3/4 onto CH0123_Prop and CH0123_Halo, causing yukata z-fighting
+    # and hiding her handheld onsen props in cafe/skill clips.
+    'shigure_onsen':{3:'CH0123_CutIn_Body',4:'CH0123_Body'},
 }
 def renderer_event_layout(character,names):
     result=list(names)

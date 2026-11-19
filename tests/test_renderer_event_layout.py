@@ -6,7 +6,7 @@ from visibility import attach_visibility
 
 class FaceLayoutTests(unittest.TestCase):
  def test_original_face_events_remain_exclusive_and_never_toggle_halo(self):
-  for character,a,b,names in [('chiaki',7,8,['CH0238_Face01','CH0238_Face02','CH0238_Halo']),('juri_parttime',6,7,['CH0286_Face_Outline','CH0286_Face01_Outline','CH0286_Halo'])]:
+  for character,a,b,names in [('chiaki',7,8,['CH0238_Face01','CH0238_Face02','CH0238_Halo']),('juri_parttime',6,7,['CH0286_Face_Outline','CH0286_Face01_Outline','CH0286_Halo']),('shigure_onsen',3,4,['CH0123_CutIn_Body','CH0123_Body','CH0123_Prop','CH0123_Halo'])]:
    with self.subTest(character=character):
     events=[dict(time=0,function='AniEvt_EnableChildRenderer',int=a),dict(time=0,function='AniEvt_DisableChildRenderer',int=b),dict(time=2,function='AniEvt_DisableChildRenderer',int=a),dict(time=2,function='AniEvt_EnableChildRenderer',int=b)]
     doc={'nodes':[{'name':n}for n in names],'scenes':[{'extras':{'BAAD_unity_animation':{'clips':[{'name':'original','track':'held','events':events}]}}}]}

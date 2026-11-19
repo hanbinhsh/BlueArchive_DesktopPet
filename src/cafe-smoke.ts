@@ -88,7 +88,7 @@ export async function attachCafeSmoke(material:THREE.MeshBasicMaterial,parser:an
  const white=new THREE.DataTexture(new Uint8Array([255,255,255,255]),1,1);white.needsUpdate=true;textures.add(white);
  for(const name of ['main','mask','distort','dissolve']){
   const info=spec[`${name}Texture`];let texture=white;
-  if(info){texture=await parser.getDependency('texture',info.index);texture.colorSpace=THREE.NoColorSpace;textures.add(texture);}
+  if(info){const base=await parser.getDependency('texture',info.index);texture=info.srgb?base.clone():base;texture.colorSpace=info.srgb?THREE.SRGBColorSpace:THREE.NoColorSpace;if(info.srgb)texture.needsUpdate=true;textures.add(texture);}
   uniforms[`${name}Tex`]={value:texture};uniforms[`${name}ST`]={value:new THREE.Vector4(...(info?.st||[1,1,0,0]) as [number,number,number,number])};
  }
  material.blending=THREE.CustomBlending;material.blendSrc=['cloud','blend','mask','distort','distortSoft','step','add'].includes(spec.kind)?THREE.OneFactor:THREE.SrcAlphaFactor;material.blendDst=THREE.OneMinusSrcAlphaFactor;

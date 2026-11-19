@@ -207,7 +207,10 @@ for character in requested:
                                     elif prop['m_Type'] in [2,3]:fx['floats'].setdefault(prop['m_Name'],prop['m_DefValue[0]'])
                                 for slot,key in [('_Texture','mainTexture'),('_MainTex','mainTexture'),('_MainTexRGBA','mainTexture'),('_FlowTexRGB','distortTexture'),('_Tex_Main','mainTexture'),('_Tex_MainRGB','mainTexture'),('_Tex_DistortRG','distortTexture'),('_Main_TexRGBA','mainTexture'),('_Tex_Mask','maskTexture'),('_Sub_Tex','maskTexture'),('_Tex_Distort','distortTexture'),('_Tex_RDistortGDissolve','dissolveTexture')]:
                                     t=next((t for t in original['textures'] if t['slot']==slot and 'file' in t),None)
-                                    if t:fx[key]={'index':texture(t),'st':t['scale']+t['offset']}
+                                    if t:
+                                        entry={'index':texture(t),'st':t['scale']+t['offset']}
+                                        if fx['kind']=='step' and key=='maskTexture' and t.get('srgb'):entry['srgb']=True
+                                        fx[key]=entry
                                 if fx['kind']=='matcap':
                                     for slot,key in [('_Main_Tex','mainTexture'),('_Matcap_Tex','maskTexture')]:
                                         t=next(t for t in original['textures'] if t['slot']==slot and 'file'in t)

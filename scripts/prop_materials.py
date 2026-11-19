@@ -1,6 +1,16 @@
 """Translate the draw state of selected props with verified source materials."""
 
 def adapt_prop_material(material):
+    extras = material.get('extras') or {}
+    smoke = extras.get('BA_smokeFx')
+    particle = extras.get('BA_cafeParticle')
+    if (smoke and smoke.get('kind') == 'step' and 'maskTexture' in smoke
+            and particle and (particle.get('texture') or {}).get('name', '').startswith('FX_TEX_CH0347_Sandart')):
+        # Source Sandart step masks have Unity m_ColorSpace = 1 (sRGB); Unity's
+        # authored CustomData threshold curve expects hardware sRGB->linear
+        # decoding when comparing mask.r against threshold.
+        smoke['maskTexture']['srgb'] = True
+        return
     name = material['name']
     factors = material['pbrMetallicRoughness']
     if name == 'CH0100_Table_02':
