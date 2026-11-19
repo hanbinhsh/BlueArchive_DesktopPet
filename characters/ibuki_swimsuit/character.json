@@ -1,0 +1,666 @@
+{
+  "id": "ibuki_swimsuit",
+  "name": "伊吹 · 泳装",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0347; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0347_Cafe_Idle--a973bdab03b329dc",
+    "interact": "CH0347_Cafe_Reaction--26c4a5627e380eae"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0347_Cafe_Idle--a973bdab03b329dc",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0347_Cafe_Reaction--26c4a5627e380eae",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0347_Cafe_Walk--ff8f971dd48d0e4c",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0347_Formation_Pickup--8e29f00295bed7e3",
+      "category": "常用"
+    },
+    {
+      "id": "original_victory_end_interaction",
+      "label": "胜利 · 结束 · Interaction",
+      "clip": "CH0347_Victory_End_Interaction--96069236239396b4",
+      "sourceName": "CH0347_Victory_End_Interaction",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_victory_start_interaction",
+      "label": "胜利 · 开始 · Interaction",
+      "clip": "CH0347_Victory_Start_Interaction--519387d71991ef58",
+      "sourceName": "CH0347_Victory_Start_Interaction",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_tactical_start_random",
+      "label": "Tactical · 开始 · Random",
+      "clip": "CH0347_Tactical_Start_Random--fddd166a9a396759",
+      "sourceName": "CH0347_Tactical_Start_Random",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0347_Formation_Idle--db7500fee3f9de0c",
+      "sourceName": "CH0347_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0347_Tactical_Start--d5def83f59c8c137",
+      "sourceName": "CH0347_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs03",
+      "label": "Exs03",
+      "clip": "CH0347_Exs03--fbab6faeb4fbb795",
+      "sourceName": "CH0347_Exs03",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs02",
+      "label": "Exs02",
+      "clip": "CH0347_Exs02--f9de4c419b7178ca",
+      "sourceName": "CH0347_Exs02",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin03",
+      "label": "EX 技能 · Cutin03",
+      "clip": "CH0347_Exs_Cutin03--37594e76178bfc2a",
+      "sourceName": "CH0347_Exs_Cutin03",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin03_fx",
+      "label": "EX 技能 · Cutin03 · FX",
+      "clip": "CH0347_Exs_Cutin03_FX--5f3c39131863f32e",
+      "sourceName": "CH0347_Exs_Cutin03_FX",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle_random",
+      "label": "编队 · 待机 · Random",
+      "clip": "CH0347_Formation_Idle_Random--5f64431f680c6fde",
+      "sourceName": "CH0347_Formation_Idle_Random",
+      "category": "编队与胜利"
+    }
+  ],
+  "mouth": {
+    "material": "CH0347_Mouth",
+    "defaultTile": 704,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.5,
+      0.875
+    ],
+    "events": {
+      "CH0347_Cafe_Idle--a973bdab03b329dc": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 2.166645,
+          "tile": 405
+        },
+        {
+          "time": 2.866638,
+          "tile": 207
+        },
+        {
+          "time": 6.133272,
+          "tile": 404
+        }
+      ],
+      "CH0347_Cafe_Reaction--26c4a5627e380eae": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.233331,
+          "tile": 202
+        },
+        {
+          "time": 1.366653,
+          "tile": 404
+        },
+        {
+          "time": 1.633317,
+          "tile": 207
+        },
+        {
+          "time": 2.399976,
+          "tile": 505
+        },
+        {
+          "time": 3.433299,
+          "tile": 201
+        },
+        {
+          "time": 5.599944,
+          "tile": 405
+        },
+        {
+          "time": 6.099939,
+          "tile": 207
+        },
+        {
+          "time": 8.099919,
+          "tile": 404
+        }
+      ],
+      "CH0347_Cafe_Walk--ff8f971dd48d0e4c": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "CH0347_Formation_Pickup--8e29f00295bed7e3": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.166665,
+          "tile": 405
+        },
+        {
+          "time": 0.499995,
+          "tile": 501
+        },
+        {
+          "time": 1.833315,
+          "tile": 603
+        },
+        {
+          "time": 2.499975,
+          "tile": 207
+        },
+        {
+          "time": 8.633247,
+          "tile": 405
+        },
+        {
+          "time": 8.833245,
+          "tile": 501
+        },
+        {
+          "time": 10.33323,
+          "tile": 404
+        }
+      ],
+      "CH0347_Victory_End_Interaction--96069236239396b4": [
+        {
+          "time": 0,
+          "tile": 206
+        },
+        {
+          "time": 4.066626,
+          "tile": 404
+        },
+        {
+          "time": 4.33329,
+          "tile": 705
+        },
+        {
+          "time": 5.166615,
+          "tile": 706
+        },
+        {
+          "time": 5.866608,
+          "tile": 404
+        },
+        {
+          "time": 7.2999268,
+          "tile": 206
+        },
+        {
+          "time": 7.366593,
+          "tile": 206
+        },
+        {
+          "time": 9.699903,
+          "tile": 603
+        },
+        {
+          "time": 9.899901,
+          "tile": 603
+        },
+        {
+          "time": 10.66656,
+          "tile": 204
+        },
+        {
+          "time": 11.566551,
+          "tile": 204
+        },
+        {
+          "time": 11.599884,
+          "tile": 404
+        },
+        {
+          "time": 11.933214,
+          "tile": 504
+        },
+        {
+          "time": 12.833205,
+          "tile": 505
+        },
+        {
+          "time": 13.599864,
+          "tile": 704
+        },
+        {
+          "time": 14.133192,
+          "tile": 206
+        }
+      ],
+      "CH0347_Victory_Start_Interaction--519387d71991ef58": [
+        {
+          "time": 0,
+          "tile": 206
+        },
+        {
+          "time": 0.733326,
+          "tile": 201
+        },
+        {
+          "time": 1.499985,
+          "tile": 206
+        },
+        {
+          "time": 2.99997,
+          "tile": 206
+        }
+      ],
+      "CH0347_Exs_Cutin02_01--f17d74964be8f801": [
+        {
+          "time": 0,
+          "tile": 603
+        },
+        {
+          "time": 1.199988,
+          "tile": 207
+        },
+        {
+          "time": 1.6333333,
+          "tile": 405
+        }
+      ],
+      "CH0347_Tactical_Start_Random--fddd166a9a396759": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.899991,
+          "tile": 207
+        }
+      ],
+      "CH0347_Formation_Idle--db7500fee3f9de0c": [
+        {
+          "time": 0,
+          "tile": 501
+        }
+      ],
+      "CH0347_Tactical_Start--d5def83f59c8c137": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.366663,
+          "tile": 405
+        },
+        {
+          "time": 0.899991,
+          "tile": 207
+        }
+      ],
+      "CH0347_Exs03--fbab6faeb4fbb795": [
+        {
+          "time": 0,
+          "tile": 202
+        },
+        {
+          "time": 1.566651,
+          "tile": 603
+        },
+        {
+          "time": 3.266634,
+          "tile": 405
+        },
+        {
+          "time": 4.033293,
+          "tile": 207
+        }
+      ],
+      "CH0347_Exs_Cutin02_03--c78b0b72f0538579": [],
+      "CH0347_Exs02--f9de4c419b7178ca": [
+        {
+          "time": 0,
+          "tile": 207
+        },
+        {
+          "time": 0.633327,
+          "tile": 404
+        },
+        {
+          "time": 1.466652,
+          "tile": 501
+        },
+        {
+          "time": 3.633297,
+          "tile": 404
+        },
+        {
+          "time": 4.066626,
+          "tile": 206
+        }
+      ],
+      "CH0347_Exs_Cutin02_04--9617f659bcc34fcf": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.166665,
+          "tile": 501
+        }
+      ],
+      "CH0347_Exs_Cutin02_02--109f7c9d0797c081": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.433329,
+          "tile": 207
+        },
+        {
+          "time": 1.699983,
+          "tile": 202
+        }
+      ],
+      "CH0347_Exs_Cutin03--37594e76178bfc2a": [
+        {
+          "time": 0.099998996,
+          "tile": 404
+        },
+        {
+          "time": 0.266664,
+          "tile": 207
+        },
+        {
+          "time": 1.233321,
+          "tile": 501
+        },
+        {
+          "time": 2.433309,
+          "tile": 404
+        },
+        {
+          "time": 3.899961,
+          "tile": 207
+        },
+        {
+          "time": 6.799932,
+          "tile": 405
+        },
+        {
+          "time": 8.899911,
+          "tile": 405
+        }
+      ],
+      "CH0347_Exs_Cutin03_FX--5f3c39131863f32e": [],
+      "CH0347_Formation_Idle_Random--5f64431f680c6fde": [
+        {
+          "time": 0,
+          "tile": 202
+        }
+      ]
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs_cutin03": {
+        "zoom": 0.3757434674223915,
+        "centerY": -0.9967629035531917
+      },
+      "original_exs_cutin03_fx": {
+        "zoom": 0.38343721067007813,
+        "centerY": -0.9967176041515833
+      }
+    }
+  },
+  "furniture": [
+    {
+      "id": "f211311_0",
+      "name": "沙浴池",
+      "model": "f211311_0.glb",
+      "clip": "f211311_0",
+      "duration": 55.833333333333336,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 202
+        },
+        {
+          "time": 0.433329,
+          "tile": 701
+        },
+        {
+          "time": 0.966657,
+          "tile": 704
+        },
+        {
+          "time": 1.466652,
+          "tile": 704
+        },
+        {
+          "time": 1.633317,
+          "tile": 604
+        },
+        {
+          "time": 3.499965,
+          "tile": 504
+        },
+        {
+          "time": 3.8332949,
+          "tile": 701
+        },
+        {
+          "time": 6.166605,
+          "tile": 603
+        },
+        {
+          "time": 11.066556,
+          "tile": 701
+        },
+        {
+          "time": 12.033213,
+          "tile": 301
+        },
+        {
+          "time": 14.799852,
+          "tile": 207
+        },
+        {
+          "time": 18.699812,
+          "tile": 701
+        },
+        {
+          "time": 23.833096,
+          "tile": 704
+        },
+        {
+          "time": 25.16666666666666,
+          "tile": 202
+        },
+        {
+          "time": 25.833075,
+          "tile": 202
+        },
+        {
+          "time": 32.33326166666666,
+          "tile": 506
+        },
+        {
+          "time": 34.833236666666664,
+          "tile": 202
+        },
+        {
+          "time": 40.16666666666667,
+          "tile": 202
+        },
+        {
+          "time": 40.83317666666666,
+          "tile": 202
+        },
+        {
+          "time": 47.33326166666667,
+          "tile": 506
+        },
+        {
+          "time": 49.83323666666667,
+          "tile": 202
+        },
+        {
+          "time": 55.833176666666674,
+          "tile": 202
+        }
+      ],
+      "yaw": 0.7853981633974483,
+      "sourceTimeline": "my_event094_sandbath",
+      "sourceGroup": "MakeTrack_20060",
+      "sourceStudentTrack": "20060"
+    },
+    {
+      "id": "f211311_1",
+      "name": "沙浴池（双人）",
+      "model": "f211311_1.glb",
+      "clip": "f211311_1",
+      "duration": 55.83333333333341,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 202
+        },
+        {
+          "time": 0.433329,
+          "tile": 701
+        },
+        {
+          "time": 0.966657,
+          "tile": 704
+        },
+        {
+          "time": 1.466652,
+          "tile": 704
+        },
+        {
+          "time": 1.633317,
+          "tile": 604
+        },
+        {
+          "time": 3.499965,
+          "tile": 504
+        },
+        {
+          "time": 3.8332949,
+          "tile": 701
+        },
+        {
+          "time": 6.166605,
+          "tile": 603
+        },
+        {
+          "time": 11.066556,
+          "tile": 701
+        },
+        {
+          "time": 12.033213,
+          "tile": 301
+        },
+        {
+          "time": 14.799852,
+          "tile": 207
+        },
+        {
+          "time": 18.699812,
+          "tile": 701
+        },
+        {
+          "time": 23.833096,
+          "tile": 704
+        },
+        {
+          "time": 25.166666666666703,
+          "tile": 202
+        },
+        {
+          "time": 25.833075,
+          "tile": 202
+        },
+        {
+          "time": 32.3332616666667,
+          "tile": 506
+        },
+        {
+          "time": 34.83323666666671,
+          "tile": 202
+        },
+        {
+          "time": 40.16666666666674,
+          "tile": 202
+        },
+        {
+          "time": 40.8331766666667,
+          "tile": 202
+        },
+        {
+          "time": 47.33326166666674,
+          "tile": 506
+        },
+        {
+          "time": 49.83323666666674,
+          "tile": 202
+        },
+        {
+          "time": 55.833176666666745,
+          "tile": 202
+        }
+      ],
+      "note": "与伊吕波 · 泳装（家具搭档）同步互动。",
+      "yaw": 0.7853981633974483,
+      "sourceTimeline": "my_event094_sandbath",
+      "sourceGroup": "RequiredTrack_10148_20060",
+      "sourceStudentTrack": "20060"
+    }
+  ]
+}

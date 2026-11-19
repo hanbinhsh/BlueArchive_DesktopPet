@@ -1,0 +1,109 @@
+{
+  "id": "toki",
+  "name": "时 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0187; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0187_Cafe_Idle--6ad2d6e81b85c8b3",
+    "interact": "CH0187_Cafe_Reaction--69728cc4811e41f3"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0187_Cafe_Idle--6ad2d6e81b85c8b3",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0187_Cafe_Reaction--69728cc4811e41f3",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0187_Cafe_Walk--27fcc2c7699ba3fc",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "CH0187_Victory_Start--689ea8c6fd4eb814",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0187_Formation_Pickup--46ebc407eab2f017",
+      "category": "常用"
+    }
+  ],
+  "mouth": {
+    "material": "CH0187_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "CH0187_Cafe_Idle--6ad2d6e81b85c8b3": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0187_Cafe_Reaction--69728cc4811e41f3": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0187_Cafe_Walk--27fcc2c7699ba3fc": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0187_Victory_Start--689ea8c6fd4eb814": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0187_Formation_Pickup--46ebc407eab2f017": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 2.2,
+          "tile": 402
+        },
+        {
+          "time": 4.2333336,
+          "tile": 401
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "f2302_0",
+      "name": "竞速游戏机",
+      "model": "f2302_0.glb",
+      "clip": "f2302_0",
+      "duration": 18.033333333333335,
+      "mouthEvents": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "yaw": 0.7853981633974483
+    }
+  ]
+}

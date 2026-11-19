@@ -1,0 +1,530 @@
+{
+  "id": "kazusa",
+  "name": "和纱 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Kazusa_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Kazusa_Original_Cafe_Idle--ba82166e0132f59d",
+    "interact": "Kazusa_Original_Cafe_Reaction--cb4239cedb639939"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Kazusa_Original_Cafe_Idle--ba82166e0132f59d",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Kazusa_Original_Cafe_Reaction--cb4239cedb639939",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Kazusa_Original_Cafe_Walk--49aabc962b1bd832",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Kazusa_Original_Victory_Start--d4327decced857be",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Kazusa_Original_Normal_Reload--4131cd24de855fc0",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Kazusa_Original_Formation_Pickup--730cbdbc663e66bd",
+      "category": "常用"
+    },
+    {
+      "id": "original_normal_move_ing",
+      "label": "常规 · 移动 · 持续",
+      "clip": "Kazusa_Original_Normal_Move_Ing--ef5b0b2a7fb1c4b8",
+      "sourceName": "Kazusa_Original_Normal_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Kazusa_Original_Vital_Death--e7df687a5ccb406c",
+      "sourceName": "Kazusa_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Kazusa_Original_Victory_End--e43adfce596164e1",
+      "sourceName": "Kazusa_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Kazusa_Original_Normal_Attack_End--d81f516eb906c22c",
+      "sourceName": "Kazusa_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Kazusa_Original_Normal_Attack_Ing--c7010341c3305250",
+      "sourceName": "Kazusa_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Kazusa_Original_Public01--bbe2b55a24267831",
+      "sourceName": "Kazusa_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Kazusa_Original_Vital_Panic--a6a19e5df641ce55",
+      "sourceName": "Kazusa_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_move_end_normal",
+      "label": "常规 · 移动 · 结束 · 常规",
+      "clip": "Kazusa_Original_Normal_Move_End_Normal--8c175e67a869b8a9",
+      "sourceName": "Kazusa_Original_Normal_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Kazusa_Original_Formation_Idle--89a2fc1bd61be522",
+      "sourceName": "Kazusa_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Kazusa_Original_Exs_Cutin--236e916b20936248",
+      "sourceName": "Kazusa_Original_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_dying",
+      "label": "状态 · 濒危",
+      "clip": "Kazusa_Original_Vital_Dying--2f716c47a21a1538",
+      "sourceName": "Kazusa_Original_Vital_Dying",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_move_end_normal_root",
+      "label": "常规 · 移动 · 结束 · 常规 · Root",
+      "clip": "Kazusa_Original_Normal_Move_End_Normal_Root--65bd205d51ce7d1",
+      "sourceName": "Kazusa_Original_Normal_Move_End_Normal_Root",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Kazusa_Original_Normal_Attack_Delay--3feeabf03f69fa52",
+      "sourceName": "Kazusa_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Kazusa_Original_Normal_Attack_Start--4f73f24036419650",
+      "sourceName": "Kazusa_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Kazusa_Original_Exs--81702c867ed28c3",
+      "sourceName": "Kazusa_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Kazusa_Original_Vital_Retreat--97296cac00b8d16",
+      "sourceName": "Kazusa_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Kazusa_Original_Normal_Callsign--ac0e5af14fb684c",
+      "sourceName": "Kazusa_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Kazusa_Original_Normal_Idle--6dcd2d9d4b81a838",
+      "sourceName": "Kazusa_Original_Normal_Idle",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Kazusa_Original_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "Kazusa_Original_Cafe_Idle--ba82166e0132f59d": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Kazusa_Original_Cafe_Reaction--cb4239cedb639939": [
+        {
+          "time": 0,
+          "tile": 400
+        },
+        {
+          "time": 0.26666668,
+          "tile": 402
+        },
+        {
+          "time": 1.3333334,
+          "tile": 300
+        },
+        {
+          "time": 1.4666667,
+          "tile": 405
+        },
+        {
+          "time": 3.466667,
+          "tile": 400
+        },
+        {
+          "time": 3.6333334,
+          "tile": 403
+        },
+        {
+          "time": 5.3333335,
+          "tile": 506
+        },
+        {
+          "time": 5.4333334,
+          "tile": 402
+        },
+        {
+          "time": 5.8,
+          "tile": 300
+        }
+      ],
+      "Kazusa_Original_Cafe_Walk--49aabc962b1bd832": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Kazusa_Original_Victory_Start--d4327decced857be": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.90000004,
+          "tile": 402
+        },
+        {
+          "time": 1.5000001,
+          "tile": 401
+        },
+        {
+          "time": 2.0666668,
+          "tile": 300
+        }
+      ],
+      "Kazusa_Original_Normal_Reload--4131cd24de855fc0": [],
+      "Kazusa_Original_Formation_Pickup--730cbdbc663e66bd": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.16666667,
+          "tile": 402
+        },
+        {
+          "time": 0.36666667,
+          "tile": 200
+        },
+        {
+          "time": 0.6666667,
+          "tile": 401
+        },
+        {
+          "time": 1,
+          "tile": 402
+        },
+        {
+          "time": 3.0666668,
+          "tile": 401
+        },
+        {
+          "time": 4.4666667,
+          "tile": 300
+        }
+      ],
+      "Kazusa_Original_Normal_Move_Ing--ef5b0b2a7fb1c4b8": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Kazusa_Original_Vital_Death--e7df687a5ccb406c": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.06666667,
+          "tile": 402
+        },
+        {
+          "time": 0.23333335,
+          "tile": 502
+        },
+        {
+          "time": 0.70000005,
+          "tile": 401
+        },
+        {
+          "time": 0.8333334,
+          "tile": 402
+        },
+        {
+          "time": 0.9333334,
+          "tile": 401
+        }
+      ],
+      "Kazusa_Original_Victory_End--e43adfce596164e1": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Kazusa_Original_Normal_Attack_End--d81f516eb906c22c": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Kazusa_Original_Normal_Attack_Ing--c7010341c3305250": [],
+      "Kazusa_Original_Public01--bbe2b55a24267831": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.40000004,
+          "tile": 300
+        },
+        {
+          "time": 1.0666667,
+          "tile": 400
+        },
+        {
+          "time": 1.2666668,
+          "tile": 403
+        },
+        {
+          "time": 2.5333335,
+          "tile": 402
+        },
+        {
+          "time": 2.9,
+          "tile": 401
+        }
+      ],
+      "Kazusa_Original_Vital_Panic--a6a19e5df641ce55": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "Kazusa_Original_Normal_Move_End_Normal--8c175e67a869b8a9": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.6,
+          "tile": 402
+        },
+        {
+          "time": 0.90000004,
+          "tile": 401
+        }
+      ],
+      "Kazusa_Original_Formation_Idle--89a2fc1bd61be522": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Kazusa_Original_Exs_Cutin--236e916b20936248": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 1.9666667,
+          "tile": 505
+        },
+        {
+          "time": 2.1000001,
+          "tile": 400
+        },
+        {
+          "time": 2.3333335,
+          "tile": 403
+        }
+      ],
+      "Kazusa_Original_Vital_Dying--2f716c47a21a1538": [],
+      "Kazusa_Original_Normal_Move_End_Normal_Root--65bd205d51ce7d1": [],
+      "Kazusa_Original_Normal_Attack_Delay--3feeabf03f69fa52": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Kazusa_Original_Normal_Attack_Start--4f73f24036419650": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Kazusa_Original_Exs--81702c867ed28c3": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.13333334,
+          "tile": 400
+        },
+        {
+          "time": 0.36666667,
+          "tile": 402
+        },
+        {
+          "time": 3.6666667,
+          "tile": 505
+        },
+        {
+          "time": 4.266667,
+          "tile": 607
+        },
+        {
+          "time": 4.3,
+          "tile": 506
+        },
+        {
+          "time": 4.8,
+          "tile": 401
+        }
+      ],
+      "Kazusa_Original_Vital_Retreat--97296cac00b8d16": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "Kazusa_Original_Normal_Callsign--ac0e5af14fb684c": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.43333337,
+          "tile": 402
+        },
+        {
+          "time": 1.1666667,
+          "tile": 400
+        },
+        {
+          "time": 1.3000001,
+          "tile": 401
+        }
+      ],
+      "Kazusa_Original_Normal_Idle--6dcd2d9d4b81a838": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "f3103_0",
+      "name": "情人节甜蜜收纳台",
+      "model": "f3103_0.glb",
+      "clip": "f3103_0",
+      "duration": 15.233333333333333,
+      "mouthEvents": [
+        {
+          "time": 2.0,
+          "tile": 300
+        },
+        {
+          "time": 4.500000200000001,
+          "tile": 405
+        },
+        {
+          "time": 5.0333334999999995,
+          "tile": 400
+        },
+        {
+          "time": 5.1333334,
+          "tile": 403
+        },
+        {
+          "time": 7.6000004,
+          "tile": 402
+        },
+        {
+          "time": 8.6333337,
+          "tile": 506
+        },
+        {
+          "time": 8.866667,
+          "tile": 205
+        },
+        {
+          "time": 10.033334,
+          "tile": 506
+        },
+        {
+          "time": 10.700001,
+          "tile": 507
+        },
+        {
+          "time": 11.366667,
+          "tile": 300
+        }
+      ],
+      "yaw": 2.356194490192345,
+      "sourceTimeline": "my_chocolatecafe_01_p_bar_04",
+      "sourceGroup": "RequiredTrack_10049",
+      "sourceStudentTrack": "10049"
+    }
+  ]
+}

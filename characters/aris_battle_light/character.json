@@ -1,0 +1,305 @@
+{
+  "id": "aris_battle_light",
+  "name": "爱丽丝 · 临战轻装",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0334_Scenario; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0334_Scenario_Normal_Idle--a5a27e8ec3861c60",
+    "interact": "CH0334_Scenario_Normal_Reload--4aef51a0c631fa81"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0334_Scenario_Normal_Idle--a5a27e8ec3861c60",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "武器整备",
+      "clip": "CH0334_Scenario_Normal_Reload--4aef51a0c631fa81",
+      "category": "常用"
+    },
+    {
+      "id": "attack",
+      "label": "原版攻击姿态",
+      "clip": "CH0334_Scenario_Normal_Attack_Ing--4f5fb522a676271b",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "移动",
+      "clip": "CH0334_Scenario_Move_Ing--f299a9c72426532",
+      "category": "常用"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "CH0334_Scenario_Move_End_Normal--ca077f08968a017c",
+      "sourceName": "CH0334_Scenario_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "CH0334_Scenario_Exs--f68bbe001a2dcac2",
+      "sourceName": "CH0334_Scenario_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "CH0334_Scenario_Normal_Attack_End--146d74699301cf8a",
+      "sourceName": "CH0334_Scenario_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "CH0334_Scenario_Normal_Attack_Start--28e268d48140c861",
+      "sourceName": "CH0334_Scenario_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "CH0334_Scenario_Vital_Panic--4ae43b812ee39028",
+      "sourceName": "CH0334_Scenario_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "CH0334_Scenario_Normal_Attack_Delay--606b875a758110c5",
+      "sourceName": "CH0334_Scenario_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "CH0334_Scenario_Vital_Death--2cb3764ec7fbddfa",
+      "sourceName": "CH0334_Scenario_Vital_Death",
+      "category": "战斗"
+    }
+  ],
+  "note": "临战的轻装剧情形态。没有提起动作，拖动时保持待机。",
+  "mouth": {
+    "material": "CH0334_Scenario_Mouth",
+    "defaultTile": 704,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "CH0334_Scenario_Normal_Idle--a5a27e8ec3861c60": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 2.8000002,
+          "tile": 401
+        }
+      ],
+      "CH0334_Scenario_Normal_Reload--4aef51a0c631fa81": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.43333337,
+          "tile": 402
+        },
+        {
+          "time": 1.4666667,
+          "tile": 401
+        },
+        {
+          "time": 2,
+          "tile": 401
+        }
+      ],
+      "CH0334_Scenario_Normal_Attack_Ing--4f5fb522a676271b": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.0666667,
+          "tile": 507
+        },
+        {
+          "time": 1.6333334,
+          "tile": 401
+        },
+        {
+          "time": 2.6666667,
+          "tile": 401
+        }
+      ],
+      "CH0334_Scenario_Move_Ing--f299a9c72426532": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.6666667,
+          "tile": 402
+        }
+      ],
+      "CH0334_Scenario_Move_End_Normal--ca077f08968a017c": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.8000001,
+          "tile": 401
+        },
+        {
+          "time": 2,
+          "tile": 401
+        }
+      ],
+      "CH0334_Scenario_Exs--f68bbe001a2dcac2": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.1000001,
+          "tile": 604
+        },
+        {
+          "time": 2.833305,
+          "tile": 604
+        },
+        {
+          "time": 3.3332999,
+          "tile": 604
+        },
+        {
+          "time": 3.399966,
+          "tile": 402
+        },
+        {
+          "time": 3.66663,
+          "tile": 605
+        },
+        {
+          "time": 5.199948,
+          "tile": 401
+        },
+        {
+          "time": 6.499935,
+          "tile": 402
+        },
+        {
+          "time": 6.899931,
+          "tile": 402
+        },
+        {
+          "time": 7.399926,
+          "tile": 401
+        },
+        {
+          "time": 8.5,
+          "tile": 401
+        }
+      ],
+      "CH0334_Scenario_Normal_Attack_End--146d74699301cf8a": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.20000002,
+          "tile": 402
+        },
+        {
+          "time": 0.6,
+          "tile": 401
+        },
+        {
+          "time": 0.6666667,
+          "tile": 401
+        }
+      ],
+      "CH0334_Scenario_Normal_Attack_Start--28e268d48140c861": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.20000002,
+          "tile": 402
+        },
+        {
+          "time": 0.53333336,
+          "tile": 401
+        },
+        {
+          "time": 0.6666667,
+          "tile": 401
+        }
+      ],
+      "CH0334_Scenario_Vital_Panic--4ae43b812ee39028": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.3,
+          "tile": 402
+        },
+        {
+          "time": 0.8000001,
+          "tile": 401
+        },
+        {
+          "time": 2.9333334,
+          "tile": 402
+        },
+        {
+          "time": 10.166667,
+          "tile": 402
+        }
+      ],
+      "CH0334_Scenario_Normal_Attack_Delay--606b875a758110c5": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1,
+          "tile": 401
+        }
+      ],
+      "CH0334_Scenario_Vital_Death--2cb3764ec7fbddfa": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.3,
+          "tile": 402
+        },
+        {
+          "time": 0.8000001,
+          "tile": 401
+        },
+        {
+          "time": 2.9333334,
+          "tile": 402
+        },
+        {
+          "time": 10.166667,
+          "tile": 402
+        }
+      ]
+    }
+  }
+}

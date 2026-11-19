@@ -1,0 +1,642 @@
+{
+  "id": "kirara",
+  "name": "绮良 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Kirara_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Kirara_Original_Cafe_Idle--eabfe15db2560dd4",
+    "interact": "Kirara_Original_Cafe_Reaction--8a9f05bc813921ad"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Kirara_Original_Cafe_Idle--eabfe15db2560dd4",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Kirara_Original_Cafe_Reaction--8a9f05bc813921ad",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Kirara_Original_Cafe_Walk--8a6a2846adddb6d7",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Kirara_Original_Victory_Start--e76c61dc6218430a",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Kirara_Original_Normal_Reload--bcf38b7e2296b3b2",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Kirara_Original_Formation_Pickup--e8b9d1c5a7dcc09f",
+      "category": "常用"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Kirara_Original_Vital_Panic--e9c808b843b233c5",
+      "sourceName": "Kirara_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end_random",
+      "label": "胜利 · 结束 · Random",
+      "clip": "Kirara_Original_Victory_End_Random--e18abe5b591bf8a2",
+      "sourceName": "Kirara_Original_Victory_End_Random",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Kirara_Original_Kneel_Attack_Ing--db5beec3ac363b04",
+      "sourceName": "Kirara_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Kirara_Original_Kneel_Idle--dab7bf8d6aff54b6",
+      "sourceName": "Kirara_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Kirara_Original_Public01--caccdc24e3f39480",
+      "sourceName": "Kirara_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Kirara_Original_Vital_Retreat--caa4ae3908fe0de2",
+      "sourceName": "Kirara_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Kirara_Original_Vital_Dying_Ing--c680027f86653dfb",
+      "sourceName": "Kirara_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Kirara_Original_Move_End_Kneel--b8c36ba19925d331",
+      "sourceName": "Kirara_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Kirara_Original_Normal_Idle--9915cf928eca4904",
+      "sourceName": "Kirara_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Kirara_Original_Normal_Attack_End--961a388268a4f484",
+      "sourceName": "Kirara_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Kirara_Original_Kneel_Attack_End--8c12a5d21585617a",
+      "sourceName": "Kirara_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "Kirara_Original_Move_Jump--85d72ac5dcf0ad49",
+      "sourceName": "Kirara_Original_Move_Jump",
+      "category": "移动"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Kirara_Original_Move_End_Normal--85674a317e190f37",
+      "sourceName": "Kirara_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Kirara_Original_Victory_End--164a6300e6b82662",
+      "sourceName": "Kirara_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Kirara_Original_Normal_Attack_Start--185c9f8014260a95",
+      "sourceName": "Kirara_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Kirara_Original_Normal_Attack_Delay--1d25cd7cc8e600f7",
+      "sourceName": "Kirara_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Kirara_Original_Normal_Attack_Ing--20ea0519c7e7f674",
+      "sourceName": "Kirara_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_start_random",
+      "label": "胜利 · 开始 · Random",
+      "clip": "Kirara_Original_Victory_Start_Random--2680836586c625af",
+      "sourceName": "Kirara_Original_Victory_Start_Random",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Kirara_Original_Normal_Callsign--2f05fcb652373f62",
+      "sourceName": "Kirara_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Kirara_Original_Kneel_Attack_Start--2f63122c38fe2442",
+      "sourceName": "Kirara_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Kirara_Original_Formation_Idle--3b53867960fc11a1",
+      "sourceName": "Kirara_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Kirara_Original_Move_Ing--3ed84e4c370ef23f",
+      "sourceName": "Kirara_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Kirara_Original_Kneel_Reload--5836502710fd4e59",
+      "sourceName": "Kirara_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Kirara_Original_Vital_Death--645212f8717caaff",
+      "sourceName": "Kirara_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Kirara_Original_Kneel_Attack_Delay--b66aab09894bcb7",
+      "sourceName": "Kirara_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Kirara_Original_Mouth",
+    "defaultTile": 203,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "Kirara_Original_Cafe_Idle--eabfe15db2560dd4": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Kirara_Original_Cafe_Reaction--8a9f05bc813921ad": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.133332,
+          "tile": 701
+        },
+        {
+          "time": 0.766659,
+          "tile": 704
+        },
+        {
+          "time": 1.566651,
+          "tile": 707
+        },
+        {
+          "time": 2.266644,
+          "tile": 102
+        },
+        {
+          "time": 2.633307,
+          "tile": 102
+        },
+        {
+          "time": 3.499965,
+          "tile": 704
+        },
+        {
+          "time": 3.599964,
+          "tile": 203
+        },
+        {
+          "time": 5.433279,
+          "tile": 404
+        }
+      ],
+      "Kirara_Original_Cafe_Walk--8a6a2846adddb6d7": [
+        {
+          "time": 0,
+          "tile": 405
+        }
+      ],
+      "Kirara_Original_Victory_Start--e76c61dc6218430a": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.966657,
+          "tile": 102
+        },
+        {
+          "time": 1.799982,
+          "tile": 704
+        },
+        {
+          "time": 2.1999779,
+          "tile": 707
+        },
+        {
+          "time": 2.99997,
+          "tile": 707
+        }
+      ],
+      "Kirara_Original_Normal_Reload--bcf38b7e2296b3b2": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.166665,
+          "tile": 405
+        },
+        {
+          "time": 1.033323,
+          "tile": 707
+        },
+        {
+          "time": 1.533318,
+          "tile": 704
+        }
+      ],
+      "Kirara_Original_Formation_Pickup--e8b9d1c5a7dcc09f": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.33332,
+          "tile": 202
+        },
+        {
+          "time": 1.899981,
+          "tile": 201
+        },
+        {
+          "time": 1.966647,
+          "tile": 600
+        },
+        {
+          "time": 2.599974,
+          "tile": 203
+        },
+        {
+          "time": 4.633287,
+          "tile": 700
+        },
+        {
+          "time": 8.933244,
+          "tile": 704
+        }
+      ],
+      "Kirara_Original_Vital_Panic--e9c808b843b233c5": [
+        {
+          "time": 0,
+          "tile": 702
+        }
+      ],
+      "Kirara_Original_Victory_End_Random--e18abe5b591bf8a2": [
+        {
+          "time": 0,
+          "tile": 203
+        }
+      ],
+      "Kirara_Original_Kneel_Attack_Ing--db5beec3ac363b04": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Kirara_Original_Kneel_Idle--dab7bf8d6aff54b6": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Kirara_Original_Public01--caccdc24e3f39480": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.599994,
+          "tile": 203
+        },
+        {
+          "time": 1.266654,
+          "tile": 704
+        },
+        {
+          "time": 2.466642,
+          "tile": 700
+        },
+        {
+          "time": 3.599964,
+          "tile": 404
+        }
+      ],
+      "Kirara_Original_Vital_Retreat--caa4ae3908fe0de2": [
+        {
+          "time": 0,
+          "tile": 702
+        }
+      ],
+      "Kirara_Original_Vital_Dying_Ing--c680027f86653dfb": [
+        {
+          "time": 0,
+          "tile": 403
+        }
+      ],
+      "Kirara_Original_Move_End_Kneel--b8c36ba19925d331": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Kirara_Original_Normal_Idle--9915cf928eca4904": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Kirara_Original_Normal_Attack_End--961a388268a4f484": [],
+      "Kirara_Original_Kneel_Attack_End--8c12a5d21585617a": [],
+      "Kirara_Original_Move_Jump--85d72ac5dcf0ad49": [],
+      "Kirara_Original_Move_End_Normal--85674a317e190f37": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Kirara_Original_Victory_End--164a6300e6b82662": [
+        {
+          "time": 0,
+          "tile": 707
+        }
+      ],
+      "Kirara_Original_Normal_Attack_Start--185c9f8014260a95": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Kirara_Original_Normal_Attack_Delay--1d25cd7cc8e600f7": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Kirara_Original_Normal_Attack_Ing--20ea0519c7e7f674": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Kirara_Original_Victory_Start_Random--2680836586c625af": [
+        {
+          "time": 0,
+          "tile": 504
+        },
+        {
+          "time": 0.599994,
+          "tile": 504
+        },
+        {
+          "time": 0.766659,
+          "tile": 707
+        },
+        {
+          "time": 1.566651,
+          "tile": 203
+        },
+        {
+          "time": 1.766649,
+          "tile": 203
+        },
+        {
+          "time": 3.0000002,
+          "tile": 203
+        }
+      ],
+      "Kirara_Original_Normal_Callsign--2f05fcb652373f62": [
+        {
+          "time": 0,
+          "tile": 307
+        },
+        {
+          "time": 0.566661,
+          "tile": 504
+        },
+        {
+          "time": 1.033323,
+          "tile": 701
+        }
+      ],
+      "Kirara_Original_Kneel_Attack_Start--2f63122c38fe2442": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Kirara_Original_Formation_Idle--3b53867960fc11a1": [
+        {
+          "time": 0,
+          "tile": 701
+        }
+      ],
+      "Kirara_Original_Move_Ing--3ed84e4c370ef23f": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Kirara_Original_Kneel_Reload--5836502710fd4e59": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.166665,
+          "tile": 405
+        },
+        {
+          "time": 1.033323,
+          "tile": 707
+        },
+        {
+          "time": 1.533318,
+          "tile": 704
+        }
+      ],
+      "Kirara_Original_Vital_Death--645212f8717caaff": [
+        {
+          "time": 0,
+          "tile": 506
+        }
+      ],
+      "Kirara_Original_Kneel_Attack_Delay--b66aab09894bcb7": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210339_0",
+      "name": "自拍机",
+      "model": "f210339_0.glb",
+      "clip": "f210339_0",
+      "duration": 23.733333333333334,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 704
+        },
+        {
+          "time": 0.83332497,
+          "tile": 700
+        },
+        {
+          "time": 2.499975,
+          "tile": 707
+        },
+        {
+          "time": 3.466632,
+          "tile": 404
+        },
+        {
+          "time": 4.533288,
+          "tile": 701
+        },
+        {
+          "time": 5.599944,
+          "tile": 704
+        },
+        {
+          "time": 5.699943,
+          "tile": 102
+        },
+        {
+          "time": 6.866598,
+          "tile": 700
+        },
+        {
+          "time": 7.6665897,
+          "tile": 202
+        },
+        {
+          "time": 9.066576,
+          "tile": 300
+        },
+        {
+          "time": 10.099899,
+          "tile": 701
+        },
+        {
+          "time": 11.199888,
+          "tile": 707
+        },
+        {
+          "time": 11.966547,
+          "tile": 404
+        },
+        {
+          "time": 13.066536,
+          "tile": 405
+        },
+        {
+          "time": 13.6998625,
+          "tile": 405
+        },
+        {
+          "time": 14.799852,
+          "tile": 701
+        },
+        {
+          "time": 15.033183,
+          "tile": 404
+        },
+        {
+          "time": 18.99981,
+          "tile": 504
+        },
+        {
+          "time": 20.099798,
+          "tile": 203
+        },
+        {
+          "time": 22.56644,
+          "tile": 704
+        }
+      ],
+      "yaw": 2.356194490192345,
+      "sourceTimeline": "my_event067_selfphotobooth",
+      "sourceGroup": "RequiredTrack_10093",
+      "sourceStudentTrack": "10093"
+    }
+  ]
+}

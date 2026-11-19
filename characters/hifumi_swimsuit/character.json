@@ -1,0 +1,137 @@
+{
+  "id": "hifumi_swimsuit",
+  "name": "日富美 · 泳装",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0058; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0058_Cafe_Idle--619bcdd9e6392a12",
+    "interact": "CH0058_Cafe_Reaction--84b81aeeb34d1552"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0058_Cafe_Idle--619bcdd9e6392a12",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0058_Cafe_Reaction--84b81aeeb34d1552",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0058_Cafe_Walk--915e3e12e79e1ef5",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0058_Formation_Pickup--4130b2ad85858169",
+      "category": "常用"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0058_Tactical_Start--c0721e7714bafd81",
+      "sourceName": "CH0058_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0058_Formation_Idle--41a0b392e24d638a",
+      "sourceName": "CH0058_Formation_Idle",
+      "category": "编队与胜利"
+    }
+  ],
+  "mouth": {
+    "material": "CH0058_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "CH0058_Cafe_Idle--619bcdd9e6392a12": [],
+      "CH0058_Cafe_Reaction--84b81aeeb34d1552": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.16666667,
+          "tile": 502
+        },
+        {
+          "time": 0.4666667,
+          "tile": 506
+        },
+        {
+          "time": 1.0666667,
+          "tile": 500
+        },
+        {
+          "time": 2.8666668,
+          "tile": 300
+        },
+        {
+          "time": 3.3000002,
+          "tile": 401
+        }
+      ],
+      "CH0058_Cafe_Walk--915e3e12e79e1ef5": [],
+      "CH0058_Formation_Pickup--4130b2ad85858169": [
+        {
+          "time": 0,
+          "tile": 500
+        },
+        {
+          "time": 0.099998996,
+          "tile": 605
+        },
+        {
+          "time": 0.33333,
+          "tile": 507
+        },
+        {
+          "time": 1.033323,
+          "tile": 506
+        },
+        {
+          "time": 3.3332999,
+          "tile": 502
+        },
+        {
+          "time": 3.99996,
+          "tile": 704
+        },
+        {
+          "time": 5.99994,
+          "tile": 500
+        }
+      ],
+      "CH0058_Tactical_Start--c0721e7714bafd81": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.40000004,
+          "tile": 706
+        }
+      ],
+      "CH0058_Formation_Idle--41a0b392e24d638a": [
+        {
+          "time": 0,
+          "tile": 501
+        }
+      ]
+    }
+  }
+}

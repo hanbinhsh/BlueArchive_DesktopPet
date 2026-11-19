@@ -1,0 +1,310 @@
+{
+  "id": "eimi",
+  "name": "艾米 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Eimi_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Eimi_Original_Cafe_Idle--dc50204b49f90466",
+    "interact": "Eimi_Original_Cafe_Reaction--df205c63325f0896"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Eimi_Original_Cafe_Idle--dc50204b49f90466",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Eimi_Original_Cafe_Reaction--df205c63325f0896",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Eimi_Original_Cafe_Walk--7140b28915ad7c34",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Eimi_Original_Victory_Start--526e07dee60ccc82",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Eimi_Original_Normal_Reload--139d82d6f74b3e11",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Eimi_Original_Formation_Pickup--5f103fd90784e178",
+      "category": "常用"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Eimi_Original_Vital_Retreat--ee2c30863f3c9b14",
+      "sourceName": "Eimi_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Eimi_Original_Normal_Idle--e842a3fa91428afe",
+      "sourceName": "Eimi_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_idle",
+      "label": "掩体站姿 · 待机",
+      "clip": "Eimi_Original_Stand_Idle--e378d342a6cef13a",
+      "sourceName": "Eimi_Original_Stand_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_callsign",
+      "label": "移动 · 回应",
+      "clip": "Eimi_Original_Move_Callsign--dbd88e3ca939f090",
+      "sourceName": "Eimi_Original_Move_Callsign",
+      "category": "移动"
+    },
+    {
+      "id": "original_stand_attack_start",
+      "label": "掩体站姿 · 攻击 · 开始",
+      "clip": "Eimi_Original_Stand_Attack_Start--b19a23ed150b21c0",
+      "sourceName": "Eimi_Original_Stand_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Eimi_Original_Exs--afaa1f2e1a491a0b",
+      "sourceName": "Eimi_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Eimi_Original_Public01--af2bda76129d815d",
+      "sourceName": "Eimi_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Eimi_Original_Normal_Attack_End--a9abe69c3a0355e4",
+      "sourceName": "Eimi_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_ing",
+      "label": "掩体站姿 · 攻击 · 持续",
+      "clip": "Eimi_Original_Stand_Attack_Ing--8f1a316f6142d148",
+      "sourceName": "Eimi_Original_Stand_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_callsign",
+      "label": "掩体站姿 · 攻击 · 回应",
+      "clip": "Eimi_Original_Stand_Attack_Callsign--eb3f0a1d1702d93",
+      "sourceName": "Eimi_Original_Stand_Attack_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Eimi_Original_Vital_Death--157e73aa9dd7b4db",
+      "sourceName": "Eimi_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_callsign",
+      "label": "掩体站姿 · 回应",
+      "clip": "Eimi_Original_Stand_Callsign--30f4fb24c82289f",
+      "sourceName": "Eimi_Original_Stand_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Eimi_Original_Move_Ing--3577be2dd19a9ff8",
+      "sourceName": "Eimi_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_stand_attack_delay",
+      "label": "掩体站姿 · 攻击 · 间隔",
+      "clip": "Eimi_Original_Stand_Attack_Delay--3621523526eda841",
+      "sourceName": "Eimi_Original_Stand_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Eimi_Original_Formation_Idle--37d8fd51465e7236",
+      "sourceName": "Eimi_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Eimi_Original_Vital_Dying_Ing--460baaf0af5eb3ce",
+      "sourceName": "Eimi_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Eimi_Original_Normal_Attack_Start--47f61f1acd2bd596",
+      "sourceName": "Eimi_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Eimi_Original_Victory_End--4bcee53c92e57569",
+      "sourceName": "Eimi_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Eimi_Original_Normal_Attack_Delay--4fdae0e70bc156de",
+      "sourceName": "Eimi_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Eimi_Original_Move_End_Normal--50e13608c6b9fd66",
+      "sourceName": "Eimi_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Eimi_Original_Vital_Panic--599a2f4d721e6d1c",
+      "sourceName": "Eimi_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Eimi_Original_Normal_Attack_Ing--68ba34d5cfd64a9e",
+      "sourceName": "Eimi_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "Eimi_Original_Move_Jump--70b87608da2148ed",
+      "sourceName": "Eimi_Original_Move_Jump",
+      "category": "移动"
+    },
+    {
+      "id": "original_move_end_stand",
+      "label": "移动 · 结束 · 掩体站姿",
+      "clip": "Eimi_Original_Move_End_Stand--73455b17c46918f7",
+      "sourceName": "Eimi_Original_Move_End_Stand",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Eimi_Original_Normal_Callsign--7810759dca31a72a",
+      "sourceName": "Eimi_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_end",
+      "label": "掩体站姿 · 攻击 · 结束",
+      "clip": "Eimi_Original_Stand_Attack_End--7ad7245a25399ffd",
+      "sourceName": "Eimi_Original_Stand_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_reload",
+      "label": "掩体站姿 · 换弹",
+      "clip": "Eimi_Original_Stand_Reload--7d305a0aae264cba",
+      "sourceName": "Eimi_Original_Stand_Reload",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Eimi_Original_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "Eimi_Original_Cafe_Idle--dc50204b49f90466": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ],
+      "Eimi_Original_Cafe_Reaction--df205c63325f0896": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.6000001,
+          "tile": 300
+        },
+        {
+          "time": 0.6333334,
+          "tile": 704
+        },
+        {
+          "time": 1.9666668,
+          "tile": 300
+        },
+        {
+          "time": 2.1000001,
+          "tile": 402
+        }
+      ],
+      "Eimi_Original_Cafe_Walk--7140b28915ad7c34": [],
+      "Eimi_Original_Victory_Start--526e07dee60ccc82": [],
+      "Eimi_Original_Normal_Reload--139d82d6f74b3e11": [],
+      "Eimi_Original_Formation_Pickup--5f103fd90784e178": [],
+      "Eimi_Original_Vital_Retreat--ee2c30863f3c9b14": [],
+      "Eimi_Original_Normal_Idle--e842a3fa91428afe": [],
+      "Eimi_Original_Stand_Idle--e378d342a6cef13a": [],
+      "Eimi_Original_Move_Callsign--dbd88e3ca939f090": [],
+      "Eimi_Original_Stand_Attack_Start--b19a23ed150b21c0": [],
+      "Eimi_Original_Exs--afaa1f2e1a491a0b": [],
+      "Eimi_Original_Public01--af2bda76129d815d": [],
+      "Eimi_Original_Normal_Attack_End--a9abe69c3a0355e4": [],
+      "Eimi_Original_Stand_Attack_Ing--8f1a316f6142d148": [],
+      "Eimi_Original_Stand_Attack_Callsign--eb3f0a1d1702d93": [],
+      "Eimi_Original_Vital_Death--157e73aa9dd7b4db": [],
+      "Eimi_Original_Stand_Callsign--30f4fb24c82289f": [],
+      "Eimi_Original_Move_Ing--3577be2dd19a9ff8": [],
+      "Eimi_Original_Stand_Attack_Delay--3621523526eda841": [],
+      "Eimi_Original_Formation_Idle--37d8fd51465e7236": [],
+      "Eimi_Original_Vital_Dying_Ing--460baaf0af5eb3ce": [],
+      "Eimi_Original_Normal_Attack_Start--47f61f1acd2bd596": [],
+      "Eimi_Original_Victory_End--4bcee53c92e57569": [],
+      "Eimi_Original_Normal_Attack_Delay--4fdae0e70bc156de": [],
+      "Eimi_Original_Move_End_Normal--50e13608c6b9fd66": [],
+      "Eimi_Original_Vital_Panic--599a2f4d721e6d1c": [],
+      "Eimi_Original_Normal_Attack_Ing--68ba34d5cfd64a9e": [],
+      "Eimi_Original_Move_Jump--70b87608da2148ed": [],
+      "Eimi_Original_Move_End_Stand--73455b17c46918f7": [],
+      "Eimi_Original_Normal_Callsign--7810759dca31a72a": [],
+      "Eimi_Original_Stand_Attack_End--7ad7245a25399ffd": [],
+      "Eimi_Original_Stand_Reload--7d305a0aae264cba": []
+    }
+  },
+  "note": "技能粒子、音效和完整场景演出未移植。"
+}

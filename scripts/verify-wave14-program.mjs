@@ -1,0 +1,10 @@
+import * as asar from '@electron/asar';
+import {writeFileSync} from 'node:fs';
+import assert from 'node:assert/strict';
+const old='release/v0.2.18/win-unpacked/resources/app.asar',current='release/v0.2.19/win-unpacked/resources/app.asar';
+const files=asar.listPackage(old).map(p=>p.replaceAll('\\','/')).filter(p=>p.startsWith('/dist/')&&/\.(cjs|js|html|css)$/.test(p));
+const identical=[],changed=[];
+for(const file of files)(asar.extractFile(old,file.slice(1)).equals(asar.extractFile(current,file.slice(1)))?identical:changed).push(file);
+assert.equal(identical.length,14);assert.deepEqual(changed,['/dist/renderer.js']);
+writeFileSync('test-results/wave14-program-identity.json',JSON.stringify({baseVersion:'0.2.18',version:'0.2.19',identicalRuntimeFiles:identical,changedRuntimeFiles:changed,reason:'Original Matcap particle material support; source-gated, existing resources unchanged.'},null,2));
+console.log('Unchanged runtime files:',identical.length,'changed:',changed);

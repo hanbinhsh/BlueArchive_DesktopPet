@@ -1,0 +1,171 @@
+{
+  "id": "hare",
+  "name": "晴 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Hare_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Hare_Original_Cafe_Idle--8debd79c5a7a0d8a",
+    "interact": "Hare_Original_Cafe_Reaction--cc4e30a455a11d3b"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Hare_Original_Cafe_Idle--8debd79c5a7a0d8a",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Hare_Original_Cafe_Reaction--cc4e30a455a11d3b",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Hare_Original_Cafe_Walk--ac03e8e3ac69f8be",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Hare_Original_Formation_Pickup--d425952b77c7cf36",
+      "category": "常用"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "Hare_Original_Tactical_Start--f96a6e769f9645cb",
+      "sourceName": "Hare_Original_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_cutin",
+      "label": "Cutin",
+      "clip": "Hare_Original_Cutin--b8c1bdfaca24922e",
+      "sourceName": "Hare_Original_Cutin",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Hare_Original_Formation_Idle--a916b0d798073e90",
+      "sourceName": "Hare_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_formation_pickup",
+      "label": "编队 · 提起",
+      "clip": "HareDron_Original_Formation_Pickup--c19780ec1c17deb3",
+      "sourceName": "HareDron_Original_Formation_Pickup",
+      "category": "编队与胜利"
+    }
+  ],
+  "mouth": {
+    "material": "Hare_Original_Mouth",
+    "defaultTile": 602,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.25,
+      0.75
+    ],
+    "events": {
+      "Hare_Original_Cafe_Idle--8debd79c5a7a0d8a": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.6,
+          "tile": 402
+        },
+        {
+          "time": 1.4666667,
+          "tile": 401
+        }
+      ],
+      "Hare_Original_Cafe_Reaction--cc4e30a455a11d3b": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.3,
+          "tile": 401
+        },
+        {
+          "time": 1.0666667,
+          "tile": 704
+        },
+        {
+          "time": 2.0333335,
+          "tile": 401
+        }
+      ],
+      "Hare_Original_Cafe_Walk--ac03e8e3ac69f8be": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hare_Original_Formation_Pickup--d425952b77c7cf36": [
+        {
+          "time": 0,
+          "tile": 602
+        },
+        {
+          "time": 3.6000001,
+          "tile": 402
+        },
+        {
+          "time": 4.9,
+          "tile": 300
+        },
+        {
+          "time": 6.8333335,
+          "tile": 402
+        },
+        {
+          "time": 8.766667,
+          "tile": 604
+        },
+        {
+          "time": 10.133334,
+          "tile": 602
+        }
+      ],
+      "Hare_Original_Tactical_Start--f96a6e769f9645cb": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.06666667,
+          "tile": 401
+        },
+        {
+          "time": 0.26666668,
+          "tile": 402
+        },
+        {
+          "time": 0.5666667,
+          "tile": 401
+        }
+      ],
+      "Hare_Original_Cutin--b8c1bdfaca24922e": [],
+      "Hare_Original_Formation_Idle--a916b0d798073e90": [
+        {
+          "time": 0,
+          "tile": 602
+        }
+      ],
+      "HareDron_Original_Formation_Pickup--c19780ec1c17deb3": []
+    }
+  }
+}

@@ -1,0 +1,1228 @@
+{
+  "id": "eimi_battle",
+  "name": "艾米 · 武装",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0337; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0337_Cafe_Idle--34d9a3b04190370f",
+    "interact": "CH0337_Cafe_Reaction--b07e4010e5cf4d3c"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0337_Cafe_Idle--34d9a3b04190370f",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0337_Cafe_Reaction--b07e4010e5cf4d3c",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0337_Cafe_Walk--bc653c18b928ca07",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "CH0337_Victory_Start--68674e905ed67c36",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0337_Formation_Pickup--3047ff41a3e28b23",
+      "category": "常用"
+    },
+    {
+      "id": "original_victory_start_interaction",
+      "label": "胜利 · 开始 · Interaction",
+      "clip": "CH0337_Victory_Start_Interaction--d852a98184307b9a",
+      "sourceName": "CH0337_Victory_Start_Interaction",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_victory_end_interaction",
+      "label": "胜利 · 结束 · Interaction",
+      "clip": "CH0337_Victory_End_Interaction--b8c0d0644831f859",
+      "sourceName": "CH0337_Victory_End_Interaction",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "CH0337_Vital_Retreat--eeed5bb266353c4d",
+      "sourceName": "CH0337_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal01_attack_start",
+      "label": "Normal01 · 攻击 · 开始",
+      "clip": "CH0337_Normal01_Attack_Start--ec2e44c0ed791d1a",
+      "sourceName": "CH0337_Normal01_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal02_attack_start",
+      "label": "Normal02 · 攻击 · 开始",
+      "clip": "CH0337_Normal02_Attack_Start--dad8ab97e4ce1b4f",
+      "sourceName": "CH0337_Normal02_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal01_attack_ing",
+      "label": "Normal01 · 攻击 · 持续",
+      "clip": "CH0337_Normal01_Attack_Ing--d7d335e513940f0e",
+      "sourceName": "CH0337_Normal01_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "CH0337_Victory_End--d559070a6d13eca7",
+      "sourceName": "CH0337_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs_cutin_04",
+      "label": "EX 技能 · Cutin · 04",
+      "clip": "CH0337_Exs_Cutin_04--fac854ac87bde585",
+      "sourceName": "CH0337_Exs_Cutin_04",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal01_attack_end",
+      "label": "Normal01 · 攻击 · 结束",
+      "clip": "CH0337_Normal01_Attack_End--c8a25aac1a79d5ce",
+      "sourceName": "CH0337_Normal01_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "CH0337_Vital_Panic--c6244ede4cea7164",
+      "sourceName": "CH0337_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal02_idle",
+      "label": "Normal02 · 待机",
+      "clip": "CH0337_Normal02_Idle--ad3061c8de36084b",
+      "sourceName": "CH0337_Normal02_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "CH0337_Exs--a0104de3eb451356",
+      "sourceName": "CH0337_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_move_end_normal02",
+      "label": "移动 · 结束 · Normal02",
+      "clip": "CH0337_Move_End_Normal02--91cf058ed9cee055",
+      "sourceName": "CH0337_Move_End_Normal02",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal02_attack_ing",
+      "label": "Normal02 · 攻击 · 持续",
+      "clip": "CH0337_Normal02_Attack_Ing--82ba92a0625444d3",
+      "sourceName": "CH0337_Normal02_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_02",
+      "label": "EX 技能 · Cutin · 02",
+      "clip": "CH0337_Exs_Cutin_02--134847427e8571aa",
+      "sourceName": "CH0337_Exs_Cutin_02",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0337_Formation_Idle--2ac513892df86bb5",
+      "sourceName": "CH0337_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal01_idle",
+      "label": "Normal01 · 待机",
+      "clip": "CH0337_Normal01_Idle--4f3338c5d7ab61e",
+      "sourceName": "CH0337_Normal01_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_01",
+      "label": "EX 技能 · Cutin · 01",
+      "clip": "CH0337_Exs_Cutin_01--80d75e85438f78",
+      "sourceName": "CH0337_Exs_Cutin_01",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal02_readystart",
+      "label": "Normal02 · ReadyStart",
+      "clip": "CH0337_Normal02_ReadyStart--33db4474da069c15",
+      "sourceName": "CH0337_Normal02_ReadyStart",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal02_attack_delay",
+      "label": "Normal02 · 攻击 · 间隔",
+      "clip": "CH0337_Normal02_Attack_Delay--5b21c0a4332d1b1",
+      "sourceName": "CH0337_Normal02_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_05",
+      "label": "EX 技能 · Cutin · 05",
+      "clip": "CH0337_Exs_Cutin_05--3f2f0957b1a670a5",
+      "sourceName": "CH0337_Exs_Cutin_05",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal01_reload",
+      "label": "Normal01 · 换弹",
+      "clip": "CH0337_Normal01_Reload--42faabca39c48ece",
+      "sourceName": "CH0337_Normal01_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "CH0337_Vital_Death--4577ff04c7aca537",
+      "sourceName": "CH0337_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal01_attack_delay",
+      "label": "Normal01 · 攻击 · 间隔",
+      "clip": "CH0337_Normal01_Attack_Delay--4a769f80cf9f56ea",
+      "sourceName": "CH0337_Normal01_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal02_reload",
+      "label": "Normal02 · 换弹",
+      "clip": "CH0337_Normal02_Reload--4cfa63053d1d4892",
+      "sourceName": "CH0337_Normal02_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "CH0337_Move_Ing--8189f6e839bf745",
+      "sourceName": "CH0337_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "CH0337_Normal_Callsign--55321126591db329",
+      "sourceName": "CH0337_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle_random",
+      "label": "编队 · 待机 · Random",
+      "clip": "CH0337_Formation_Idle_Random--57327dfc637713d7",
+      "sourceName": "CH0337_Formation_Idle_Random",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_formrelease",
+      "label": "FormRelease",
+      "clip": "CH0337_FormRelease--5938db5b354d0ffd",
+      "sourceName": "CH0337_FormRelease",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "CH0337_Vital_Dying_Ing--91abd0781ab8b0b",
+      "sourceName": "CH0337_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_03",
+      "label": "EX 技能 · Cutin · 03",
+      "clip": "CH0337_Exs_Cutin_03--5c20ef65116dfb28",
+      "sourceName": "CH0337_Exs_Cutin_03",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal02_attack_end",
+      "label": "Normal02 · 攻击 · 结束",
+      "clip": "CH0337_Normal02_Attack_End--6c40cf4384a983f8",
+      "sourceName": "CH0337_Normal02_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal02_readyend",
+      "label": "Normal02 · ReadyEnd",
+      "clip": "CH0337_Normal02_ReadyEnd--6d0c48576b6becf8",
+      "sourceName": "CH0337_Normal02_ReadyEnd",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "CH0337_Public01--6fc5763f7e3b7400",
+      "sourceName": "CH0337_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "CH0337_Move_End_Normal--71ac9e0f7da4088c",
+      "sourceName": "CH0337_Move_End_Normal",
+      "category": "移动"
+    }
+  ],
+  "note": "原版武装外观；技能粒子和运输载具场景未移植。 技能粒子、音效和完整场景演出未移植。",
+  "mouth": {
+    "material": "CH0337_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "CH0337_Cafe_Idle--34d9a3b04190370f": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.83332497,
+          "tile": 402
+        },
+        {
+          "time": 3.3332999,
+          "tile": 401
+        },
+        {
+          "time": 5.99994,
+          "tile": 401
+        }
+      ],
+      "CH0337_Cafe_Reaction--b07e4010e5cf4d3c": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 1.499985,
+          "tile": 401
+        },
+        {
+          "time": 1.833315,
+          "tile": 401
+        },
+        {
+          "time": 2.1999779,
+          "tile": 401
+        },
+        {
+          "time": 2.566641,
+          "tile": 300
+        },
+        {
+          "time": 2.799972,
+          "tile": 300
+        },
+        {
+          "time": 3.033303,
+          "tile": 300
+        },
+        {
+          "time": 3.266634,
+          "tile": 300
+        },
+        {
+          "time": 3.599964,
+          "tile": 300
+        },
+        {
+          "time": 4.066626,
+          "tile": 704
+        },
+        {
+          "time": 5.933274,
+          "tile": 401
+        },
+        {
+          "time": 6.366603,
+          "tile": 401
+        },
+        {
+          "time": 6.499935,
+          "tile": 401
+        },
+        {
+          "time": 6.666667,
+          "tile": 401
+        }
+      ],
+      "CH0337_Cafe_Walk--bc653c18b928ca07": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.2,
+          "tile": 401
+        }
+      ],
+      "CH0337_Victory_Start--68674e905ed67c36": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.366663,
+          "tile": 504
+        },
+        {
+          "time": 1.133322,
+          "tile": 401
+        },
+        {
+          "time": 1.833315,
+          "tile": 300
+        },
+        {
+          "time": 3.0000002,
+          "tile": 300
+        }
+      ],
+      "CH0337_Formation_Pickup--3047ff41a3e28b23": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.233331,
+          "tile": 401
+        },
+        {
+          "time": 0.83332497,
+          "tile": 201
+        },
+        {
+          "time": 1.066656,
+          "tile": 201
+        },
+        {
+          "time": 1.6666499,
+          "tile": 201
+        },
+        {
+          "time": 2.66664,
+          "tile": 201
+        },
+        {
+          "time": 4.3999557,
+          "tile": 201
+        },
+        {
+          "time": 4.533288,
+          "tile": 401
+        },
+        {
+          "time": 5.199948,
+          "tile": 705
+        },
+        {
+          "time": 10.966557,
+          "tile": 300
+        },
+        {
+          "time": 11.299887,
+          "tile": 300
+        },
+        {
+          "time": 14.133192,
+          "tile": 300
+        },
+        {
+          "time": 14.499855,
+          "tile": 402
+        },
+        {
+          "time": 14.99985,
+          "tile": 402
+        }
+      ],
+      "CH0337_Victory_Start_Interaction--d852a98184307b9a": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 2.066646,
+          "tile": 300
+        }
+      ],
+      "CH0337_Victory_End_Interaction--b8c0d0644831f859": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.6666667,
+          "tile": 201
+        },
+        {
+          "time": 1.6333334,
+          "tile": 300
+        },
+        {
+          "time": 1.9000001,
+          "tile": 706
+        },
+        {
+          "time": 3.1666667,
+          "tile": 300
+        }
+      ],
+      "CH0337_Vital_Retreat--eeed5bb266353c4d": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 1.6666667,
+          "tile": 402
+        }
+      ],
+      "CH0337_Normal01_Attack_Start--ec2e44c0ed791d1a": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.366663,
+          "tile": 504
+        },
+        {
+          "time": 0.699993,
+          "tile": 401
+        },
+        {
+          "time": 1.033323,
+          "tile": 401
+        }
+      ],
+      "CH0337_Normal02_Attack_Start--dad8ab97e4ce1b4f": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.10000001,
+          "tile": 401
+        }
+      ],
+      "CH0337_Normal01_Attack_Ing--d7d335e513940f0e": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.40000004,
+          "tile": 402
+        },
+        {
+          "time": 0.70000005,
+          "tile": 401
+        },
+        {
+          "time": 1.4000001,
+          "tile": 401
+        }
+      ],
+      "CH0337_Victory_End--d559070a6d13eca7": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 3.7333336,
+          "tile": 300
+        }
+      ],
+      "CH0337_Exs_Cutin_04--fac854ac87bde585": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.9666668,
+          "tile": 401
+        }
+      ],
+      "CH0337_Normal01_Attack_End--c8a25aac1a79d5ce": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.8333334,
+          "tile": 401
+        }
+      ],
+      "CH0337_Vital_Panic--c6244ede4cea7164": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 1.6000001,
+          "tile": 402
+        }
+      ],
+      "CH0337_Normal02_Idle--ad3061c8de36084b": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.3333334,
+          "tile": 401
+        }
+      ],
+      "CH0337_Exs--a0104de3eb451356": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.19999799,
+          "tile": 504
+        },
+        {
+          "time": 0.433329,
+          "tile": 402
+        },
+        {
+          "time": 1.066656,
+          "tile": 401
+        },
+        {
+          "time": 4.133292,
+          "tile": 401
+        },
+        {
+          "time": 4.366623,
+          "tile": 504
+        },
+        {
+          "time": 4.733286,
+          "tile": 401
+        },
+        {
+          "time": 5.499945,
+          "tile": 401
+        }
+      ],
+      "CH0337_Move_End_Normal02--91cf058ed9cee055": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.23333335,
+          "tile": 401
+        },
+        {
+          "time": 0.43333337,
+          "tile": 504
+        },
+        {
+          "time": 1.0666667,
+          "tile": 401
+        },
+        {
+          "time": 1.8333334,
+          "tile": 401
+        }
+      ],
+      "CH0337_Normal02_Attack_Ing--82ba92a0625444d3": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.90000004,
+          "tile": 504
+        },
+        {
+          "time": 1.6666667,
+          "tile": 401
+        },
+        {
+          "time": 2,
+          "tile": 401
+        }
+      ],
+      "CH0337_Exs_Cutin_02--134847427e8571aa": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 2,
+          "tile": 402
+        },
+        {
+          "time": 2.2,
+          "tile": 402
+        }
+      ],
+      "CH0337_Formation_Idle--2ac513892df86bb5": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 4,
+          "tile": 402
+        }
+      ],
+      "CH0337_Normal01_Idle--4f3338c5d7ab61e": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.3333334,
+          "tile": 401
+        }
+      ],
+      "CH0337_Exs_Cutin_01--80d75e85438f78": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.6666667,
+          "tile": 401
+        }
+      ],
+      "CH0337_Normal02_ReadyStart--33db4474da069c15": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.133332,
+          "tile": 402
+        },
+        {
+          "time": 0.99999,
+          "tile": 401
+        },
+        {
+          "time": 1.166655,
+          "tile": 401
+        }
+      ],
+      "CH0337_Normal02_Attack_Delay--5b21c0a4332d1b1": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.5333334,
+          "tile": 401
+        }
+      ],
+      "CH0337_Exs_Cutin_05--3f2f0957b1a670a5": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.2,
+          "tile": 402
+        },
+        {
+          "time": 2.0666668,
+          "tile": 402
+        },
+        {
+          "time": 2.9,
+          "tile": 402
+        },
+        {
+          "time": 3.0333335,
+          "tile": 401
+        },
+        {
+          "time": 3.6666667,
+          "tile": 401
+        }
+      ],
+      "CH0337_Normal01_Reload--42faabca39c48ece": [
+        {
+          "time": 0,
+          "tile": 504
+        },
+        {
+          "time": 0.266664,
+          "tile": 401
+        },
+        {
+          "time": 1.233321,
+          "tile": 402
+        },
+        {
+          "time": 1.766649,
+          "tile": 401
+        },
+        {
+          "time": 2.2333333,
+          "tile": 401
+        }
+      ],
+      "CH0337_Vital_Death--4577ff04c7aca537": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.133332,
+          "tile": 504
+        },
+        {
+          "time": 0.699993,
+          "tile": 402
+        },
+        {
+          "time": 1.799982,
+          "tile": 402
+        }
+      ],
+      "CH0337_Normal01_Attack_Delay--4a769f80cf9f56ea": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.3333334,
+          "tile": 401
+        }
+      ],
+      "CH0337_Normal02_Reload--4cfa63053d1d4892": [
+        {
+          "time": 0,
+          "tile": 504
+        },
+        {
+          "time": 0.266664,
+          "tile": 401
+        },
+        {
+          "time": 1.233321,
+          "tile": 402
+        },
+        {
+          "time": 1.766649,
+          "tile": 401
+        },
+        {
+          "time": 2.2333333,
+          "tile": 401
+        }
+      ],
+      "CH0337_Move_Ing--8189f6e839bf745": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.73333335,
+          "tile": 402
+        }
+      ],
+      "CH0337_Normal_Callsign--55321126591db329": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.966657,
+          "tile": 401
+        },
+        {
+          "time": 1.6666499,
+          "tile": 401
+        }
+      ],
+      "CH0337_Formation_Idle_Random--57327dfc637713d7": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 4,
+          "tile": 300
+        }
+      ],
+      "CH0337_FormRelease--5938db5b354d0ffd": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.133322,
+          "tile": 401
+        },
+        {
+          "time": 1.266654,
+          "tile": 504
+        },
+        {
+          "time": 1.866648,
+          "tile": 401
+        },
+        {
+          "time": 2.266644,
+          "tile": 401
+        }
+      ],
+      "CH0337_Vital_Dying_Ing--91abd0781ab8b0b": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.6666667,
+          "tile": 401
+        }
+      ],
+      "CH0337_Exs_Cutin_03--5c20ef65116dfb28": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.36666667,
+          "tile": 401
+        }
+      ],
+      "CH0337_Normal02_Attack_End--6c40cf4384a983f8": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.10000001,
+          "tile": 401
+        }
+      ],
+      "CH0337_Normal02_ReadyEnd--6d0c48576b6becf8": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.2666668,
+          "tile": 504
+        },
+        {
+          "time": 1.7666668,
+          "tile": 401
+        },
+        {
+          "time": 2.4666667,
+          "tile": 401
+        }
+      ],
+      "CH0337_Public01--6fc5763f7e3b7400": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.16666667,
+          "tile": 401
+        },
+        {
+          "time": 3.0000002,
+          "tile": 504
+        },
+        {
+          "time": 3.5666668,
+          "tile": 401
+        },
+        {
+          "time": 5.166667,
+          "tile": 402
+        },
+        {
+          "time": 5.3333335,
+          "tile": 504
+        },
+        {
+          "time": 5.966667,
+          "tile": 401
+        },
+        {
+          "time": 6.666667,
+          "tile": 401
+        }
+      ],
+      "CH0337_Move_End_Normal--71ac9e0f7da4088c": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.23333335,
+          "tile": 401
+        },
+        {
+          "time": 0.43333337,
+          "tile": 504
+        },
+        {
+          "time": 1.0666667,
+          "tile": 401
+        },
+        {
+          "time": 1.8333334,
+          "tile": 401
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210397_0",
+      "name": "万用桌",
+      "model": "f210397_0.glb",
+      "clip": "f210397_0",
+      "duration": 38.66666666666667,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 402
+        },
+        {
+          "time": 1.266654,
+          "tile": 401
+        },
+        {
+          "time": 1.733316,
+          "tile": 401
+        },
+        {
+          "time": 2.233311,
+          "tile": 401
+        },
+        {
+          "time": 2.99997,
+          "tile": 402
+        },
+        {
+          "time": 4.066626,
+          "tile": 401
+        },
+        {
+          "time": 4.499955,
+          "tile": 504
+        },
+        {
+          "time": 4.66662,
+          "tile": 504
+        },
+        {
+          "time": 5.166615,
+          "tile": 403
+        },
+        {
+          "time": 5.66661,
+          "tile": 403
+        },
+        {
+          "time": 6.166605,
+          "tile": 403
+        },
+        {
+          "time": 6.6665998,
+          "tile": 403
+        },
+        {
+          "time": 7.166595,
+          "tile": 403
+        },
+        {
+          "time": 7.6665897,
+          "tile": 403
+        },
+        {
+          "time": 8.166585,
+          "tile": 403
+        },
+        {
+          "time": 8.66658,
+          "tile": 403
+        },
+        {
+          "time": 8.766579,
+          "tile": 402
+        },
+        {
+          "time": 9.966567,
+          "tile": 403
+        },
+        {
+          "time": 10.199898,
+          "tile": 403
+        },
+        {
+          "time": 10.699893,
+          "tile": 403
+        },
+        {
+          "time": 11.199888,
+          "tile": 403
+        },
+        {
+          "time": 11.6998825,
+          "tile": 403
+        },
+        {
+          "time": 12.199878,
+          "tile": 403
+        },
+        {
+          "time": 13.199868,
+          "tile": 403
+        },
+        {
+          "time": 13.299867,
+          "tile": 705
+        },
+        {
+          "time": 13.66653,
+          "tile": 705
+        },
+        {
+          "time": 13.833195,
+          "tile": 300
+        },
+        {
+          "time": 14.5998535,
+          "tile": 300
+        },
+        {
+          "time": 15.433179,
+          "tile": 300
+        },
+        {
+          "time": 16.399836,
+          "tile": 300
+        },
+        {
+          "time": 18.733147,
+          "tile": 300
+        },
+        {
+          "time": 19.566471,
+          "tile": 300
+        },
+        {
+          "time": 19.933134,
+          "tile": 300
+        },
+        {
+          "time": 20.233131,
+          "tile": 402
+        },
+        {
+          "time": 20.733126,
+          "tile": 201
+        },
+        {
+          "time": 21.866447,
+          "tile": 201
+        },
+        {
+          "time": 22.23311,
+          "tile": 201
+        },
+        {
+          "time": 23.2331,
+          "tile": 402
+        },
+        {
+          "time": 24.33309,
+          "tile": 402
+        },
+        {
+          "time": 24.666666666666668,
+          "tile": 402
+        },
+        {
+          "time": 26.66664666666667,
+          "tile": 402
+        },
+        {
+          "time": 27.66663666666667,
+          "tile": 402
+        },
+        {
+          "time": 28.66662666666667,
+          "tile": 200
+        },
+        {
+          "time": 29.333286666666666,
+          "tile": 200
+        },
+        {
+          "time": 29.966613666666667,
+          "tile": 200
+        },
+        {
+          "time": 30.666606666666667,
+          "tile": 200
+        },
+        {
+          "time": 31.333266466666668,
+          "tile": 200
+        },
+        {
+          "time": 31.666596666666667,
+          "tile": 200
+        },
+        {
+          "time": 32.66658666666667,
+          "tile": 402
+        },
+        {
+          "time": 33.66657666666667,
+          "tile": 402
+        },
+        {
+          "time": 34.66656666666667,
+          "tile": 402
+        }
+      ],
+      "yaw": -1.7278759594743864,
+      "sourceTimeline": "my_event089_multitable",
+      "sourceGroup": "RequiredTrack_10136",
+      "sourceStudentTrack": "10136"
+    }
+  ]
+}

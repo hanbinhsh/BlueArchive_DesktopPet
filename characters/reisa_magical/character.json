@@ -1,0 +1,380 @@
+{
+  "id": "reisa_magical",
+  "name": "玲纱 · 魔法少女",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0326; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0326_Cafe_Idle--897f61105501f75e",
+    "interact": "CH0326_Cafe_Reaction--aa75ed7b91343a4c"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0326_Cafe_Idle--897f61105501f75e",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0326_Cafe_Reaction--aa75ed7b91343a4c",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0326_Cafe_Walk--4afdf2569f30e8b0",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0326_Formation_Pickup--2b5385fcb215d1f9",
+      "category": "常用"
+    },
+    {
+      "id": "original_tactical_start_random",
+      "label": "Tactical · 开始 · Random",
+      "clip": "CH0326_Tactical_Start_Random--b3dfdcf801f0d50e",
+      "sourceName": "CH0326_Tactical_Start_Random",
+      "category": "战斗"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0326_Tactical_Start--10731c2e9be8c66a",
+      "sourceName": "CH0326_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0326_Formation_Idle--3119f0884a9dcf9e",
+      "sourceName": "CH0326_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_formation_idle_random",
+      "label": "编队 · 待机 · Random",
+      "clip": "CH0326_Formation_Idle_Random--79d19886a4b6dae5",
+      "sourceName": "CH0326_Formation_Idle_Random",
+      "category": "编队与胜利"
+    }
+  ],
+  "mouth": {
+    "material": "CH0326_Mouth",
+    "defaultTile": 704,
+    "events": {
+      "CH0326_Cafe_Idle--897f61105501f75e": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "CH0326_Cafe_Reaction--aa75ed7b91343a4c": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.233331,
+          "tile": 504
+        },
+        {
+          "time": 1.166655,
+          "tile": 404
+        },
+        {
+          "time": 1.99998,
+          "tile": 505
+        },
+        {
+          "time": 3.533298,
+          "tile": 602
+        },
+        {
+          "time": 4.533288,
+          "tile": 501
+        },
+        {
+          "time": 7.99992,
+          "tile": 707
+        },
+        {
+          "time": 8.399916,
+          "tile": 404
+        }
+      ],
+      "CH0326_Cafe_Walk--4afdf2569f30e8b0": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "CH0326_Formation_Pickup--2b5385fcb215d1f9": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.19999799,
+          "tile": 105
+        },
+        {
+          "time": 1.166655,
+          "tile": 404
+        },
+        {
+          "time": 1.6666499,
+          "tile": 202
+        },
+        {
+          "time": 3.533298,
+          "tile": 603,
+          "flipped": true
+        },
+        {
+          "time": 4.266624,
+          "tile": 501
+        },
+        {
+          "time": 7.099929,
+          "tile": 707
+        },
+        {
+          "time": 8.166585,
+          "tile": 404
+        }
+      ],
+      "CH0326_Tactical_Start_Random--b3dfdcf801f0d50e": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 1.133322,
+          "tile": 501
+        }
+      ],
+      "CH0326_Tactical_Start--10731c2e9be8c66a": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.633327,
+          "tile": 504
+        }
+      ],
+      "CH0326_Formation_Idle--3119f0884a9dcf9e": [
+        {
+          "time": 0,
+          "tile": 603,
+          "flipped": true
+        }
+      ],
+      "CH0326_Formation_Idle_Random--79d19886a4b6dae5": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210385_0",
+      "name": "公益盒",
+      "model": "f210385_0.glb",
+      "clip": "f210385_0",
+      "duration": 35.56666666666666,
+      "mouthEvents": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.366663,
+          "tile": 500
+        },
+        {
+          "time": 1.866648,
+          "tile": 402
+        },
+        {
+          "time": 2.833305,
+          "tile": 202
+        },
+        {
+          "time": 4.533288,
+          "tile": 603
+        },
+        {
+          "time": 6.766599,
+          "tile": 706
+        },
+        {
+          "time": 8.266584,
+          "tile": 301
+        },
+        {
+          "time": 9.399906,
+          "tile": 404
+        },
+        {
+          "time": 9.899901,
+          "tile": 504
+        },
+        {
+          "time": 11.466552,
+          "tile": 602
+        },
+        {
+          "time": 12.66654,
+          "tile": 504
+        },
+        {
+          "time": 14.199858,
+          "tile": 404
+        },
+        {
+          "time": 14.466522,
+          "tile": 501
+        },
+        {
+          "time": 16.966497,
+          "tile": 707
+        },
+        {
+          "time": 17.99982,
+          "tile": 404
+        },
+        {
+          "time": 19.633137,
+          "tile": 202
+        },
+        {
+          "time": 20.933125,
+          "tile": 603
+        },
+        {
+          "time": 22.76644,
+          "tile": 404
+        },
+        {
+          "time": 24.433088,
+          "tile": 201
+        },
+        {
+          "time": 25.266415,
+          "tile": 404
+        },
+        {
+          "time": 25.566666666666666,
+          "tile": 404
+        }
+      ],
+      "yaw": 1.5707963267948966
+    },
+    {
+      "id": "f210385_1",
+      "name": "公益盒（双人）",
+      "model": "f210385_1.glb",
+      "clip": "f210385_1",
+      "duration": 33.13333333333333,
+      "mouthEvents": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.866658,
+          "tile": 202
+        },
+        {
+          "time": 2.899971,
+          "tile": 500
+        },
+        {
+          "time": 5.166615,
+          "tile": 603
+        },
+        {
+          "time": 9.033243,
+          "tile": 405
+        },
+        {
+          "time": 10.533228,
+          "tile": 301
+        },
+        {
+          "time": 11.499885,
+          "tile": 504
+        },
+        {
+          "time": 13.866528,
+          "tile": 200
+        },
+        {
+          "time": 15.299847,
+          "tile": 602
+        },
+        {
+          "time": 16.599834,
+          "tile": 201
+        },
+        {
+          "time": 17.599823,
+          "tile": 403
+        },
+        {
+          "time": 18.866478,
+          "tile": 101
+        },
+        {
+          "time": 19.566471,
+          "tile": 205
+        },
+        {
+          "time": 20.66646,
+          "tile": 501
+        },
+        {
+          "time": 22.599773,
+          "tile": 500
+        },
+        {
+          "time": 23.266434,
+          "tile": 404
+        },
+        {
+          "time": 24.599754,
+          "tile": 202
+        },
+        {
+          "time": 25.399746,
+          "tile": 500
+        },
+        {
+          "time": 26.499735,
+          "tile": 105
+        },
+        {
+          "time": 29.066376,
+          "tile": 707
+        },
+        {
+          "time": 29.633038,
+          "tile": 404
+        }
+      ],
+      "note": "与铃美 · 魔法少女同步互动。",
+      "yaw": 1.5707963267948966
+    }
+  ]
+}

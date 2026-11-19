@@ -1,0 +1,445 @@
+{
+  "id": "azusa_swimsuit",
+  "name": "梓 · 泳装",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Azusa_Swimsuit; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Azusa_Swimsuit_Cafe_Idle--88fe2d4704cb4c5d",
+    "interact": "Azusa_Swimsuit_Cafe_Reaction--7f1fa783897c8e7f"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Azusa_Swimsuit_Cafe_Idle--88fe2d4704cb4c5d",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Azusa_Swimsuit_Cafe_Reaction--7f1fa783897c8e7f",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Azusa_Swimsuit_Cafe_Walk--1b795265f9b1cf56",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Azusa_Swimsuit_Victory_Start--d24401068f7531a4",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Azusa_Swimsuit_Normal_Reload--74319242c0928682",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Azusa_Swimsuit_Formation_Pickup--4915ef4bd1151e32",
+      "category": "常用"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Azusa_Swimsuit_Normal_Attack_Delay--eb463e2ccc6ea85d",
+      "sourceName": "Azusa_Swimsuit_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Azusa_Swimsuit_Kneel_Attack_Start--e2f171f2673461c8",
+      "sourceName": "Azusa_Swimsuit_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Azusa_Swimsuit_Vital_Death--e0894e2b60b9fe06",
+      "sourceName": "Azusa_Swimsuit_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_stand",
+      "label": "移动 · 结束 · 掩体站姿",
+      "clip": "Azusa_Swimsuit_Move_End_Stand--dd2ece0a28dc0276",
+      "sourceName": "Azusa_Swimsuit_Move_End_Stand",
+      "category": "移动"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "Azusa_Swimsuit_Move_Jump--dbf497e74fe94cfe",
+      "sourceName": "Azusa_Swimsuit_Move_Jump",
+      "category": "移动"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Azusa_Swimsuit_Formation_Idle--d828e806d6c0b2b2",
+      "sourceName": "Azusa_Swimsuit_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_stand_attack_ing",
+      "label": "掩体站姿 · 攻击 · 持续",
+      "clip": "Azusa_Swimsuit_Stand_Attack_Ing--cd517a2ff4160032",
+      "sourceName": "Azusa_Swimsuit_Stand_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Azusa_Swimsuit_Move_End_Kneel--c01d4d0540b9dbb1",
+      "sourceName": "Azusa_Swimsuit_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Azusa_Swimsuit_Vital_Dying_Ing--f586b0f4619be564",
+      "sourceName": "Azusa_Swimsuit_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Azusa_Swimsuit_Kneel_Attack_Delay--8ca4481d19a13e8f",
+      "sourceName": "Azusa_Swimsuit_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Azusa_Swimsuit_Normal_Attack_Start--feca38d4ca80f109",
+      "sourceName": "Azusa_Swimsuit_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Azusa_Swimsuit_Exs--81e625df5d8ce61a",
+      "sourceName": "Azusa_Swimsuit_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Azusa_Swimsuit_Kneel_Reload--f3161a9e837d5b75",
+      "sourceName": "Azusa_Swimsuit_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_start",
+      "label": "掩体站姿 · 攻击 · 开始",
+      "clip": "Azusa_Swimsuit_Stand_Attack_Start--e074338ce342dd7",
+      "sourceName": "Azusa_Swimsuit_Stand_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Azusa_Swimsuit_Vital_Retreat--f58babc7f366660",
+      "sourceName": "Azusa_Swimsuit_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_end",
+      "label": "掩体站姿 · 攻击 · 结束",
+      "clip": "Azusa_Swimsuit_Stand_Attack_End--1ffc32402261080",
+      "sourceName": "Azusa_Swimsuit_Stand_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Azusa_Swimsuit_Normal_Callsign--1c8d2512a752c400",
+      "sourceName": "Azusa_Swimsuit_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_idle",
+      "label": "掩体站姿 · 待机",
+      "clip": "Azusa_Swimsuit_Stand_Idle--20adab48764a1b8a",
+      "sourceName": "Azusa_Swimsuit_Stand_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Azusa_Swimsuit_Kneel_Attack_End--4b44e07c986f7d4a",
+      "sourceName": "Azusa_Swimsuit_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Azusa_Swimsuit_Move_End_Normal--4bc4034633c17842",
+      "sourceName": "Azusa_Swimsuit_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_stand_reload",
+      "label": "掩体站姿 · 换弹",
+      "clip": "Azusa_Swimsuit_Stand_Reload--4ca5ef528b5a5156",
+      "sourceName": "Azusa_Swimsuit_Stand_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Azusa_Swimsuit_Normal_Attack_Ing--512ad2d406e9df0f",
+      "sourceName": "Azusa_Swimsuit_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Azusa_Swimsuit_Kneel_Idle--5288352250296985",
+      "sourceName": "Azusa_Swimsuit_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Azusa_Swimsuit_Public01--57c545fc35e80cd1",
+      "sourceName": "Azusa_Swimsuit_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Azusa_Swimsuit_Normal_Idle--5c5d03662cac7948",
+      "sourceName": "Azusa_Swimsuit_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Azusa_Swimsuit_Vital_Panic--63f69a9375091082",
+      "sourceName": "Azusa_Swimsuit_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_delay",
+      "label": "掩体站姿 · 攻击 · 间隔",
+      "clip": "Azusa_Swimsuit_Stand_Attack_Delay--6673185bb2146bc6",
+      "sourceName": "Azusa_Swimsuit_Stand_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Azusa_Swimsuit_Move_Ing--66b52dfade6f6a73",
+      "sourceName": "Azusa_Swimsuit_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Azusa_Swimsuit_Victory_End--6bca26453cc0eab6",
+      "sourceName": "Azusa_Swimsuit_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Azusa_Swimsuit_Normal_Attack_End--70a882b126ae42b6",
+      "sourceName": "Azusa_Swimsuit_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Azusa_Swimsuit_Kneel_Attack_Ing--da78540dc969c14",
+      "sourceName": "Azusa_Swimsuit_Kneel_Attack_Ing",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Azusa_Swimsuit_Mouth",
+    "defaultTile": 602,
+    "events": {
+      "Azusa_Swimsuit_Cafe_Idle--88fe2d4704cb4c5d": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Azusa_Swimsuit_Cafe_Reaction--7f1fa783897c8e7f": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.26666668,
+          "tile": 402
+        },
+        {
+          "time": 2.5666668,
+          "tile": 305
+        },
+        {
+          "time": 4.3,
+          "tile": 401
+        }
+      ],
+      "Azusa_Swimsuit_Cafe_Walk--1b795265f9b1cf56": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Azusa_Swimsuit_Victory_Start--d24401068f7531a4": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Azusa_Swimsuit_Normal_Reload--74319242c0928682": [],
+      "Azusa_Swimsuit_Formation_Pickup--4915ef4bd1151e32": [
+        {
+          "time": 0,
+          "tile": 602
+        }
+      ],
+      "Azusa_Swimsuit_Normal_Attack_Delay--eb463e2ccc6ea85d": [],
+      "Azusa_Swimsuit_Kneel_Attack_Start--e2f171f2673461c8": [],
+      "Azusa_Swimsuit_Vital_Death--e0894e2b60b9fe06": [],
+      "Azusa_Swimsuit_Move_End_Stand--dd2ece0a28dc0276": [],
+      "Azusa_Swimsuit_Move_Jump--dbf497e74fe94cfe": [],
+      "Azusa_Swimsuit_Formation_Idle--d828e806d6c0b2b2": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Azusa_Swimsuit_Stand_Attack_Ing--cd517a2ff4160032": [],
+      "Azusa_Swimsuit_Move_End_Kneel--c01d4d0540b9dbb1": [],
+      "Azusa_Swimsuit_Vital_Dying_Ing--f586b0f4619be564": [],
+      "Azusa_Swimsuit_Kneel_Attack_Delay--8ca4481d19a13e8f": [],
+      "Azusa_Swimsuit_Normal_Attack_Start--feca38d4ca80f109": [],
+      "Azusa_Swimsuit_Exs--81e625df5d8ce61a": [
+        {
+          "time": 0,
+          "tile": 602
+        },
+        {
+          "time": 1.4000001,
+          "tile": 401
+        }
+      ],
+      "Azusa_Swimsuit_Kneel_Reload--f3161a9e837d5b75": [],
+      "Azusa_Swimsuit_Stand_Attack_Start--e074338ce342dd7": [],
+      "Azusa_Swimsuit_Vital_Retreat--f58babc7f366660": [],
+      "Azusa_Swimsuit_Stand_Attack_End--1ffc32402261080": [],
+      "Azusa_Swimsuit_Normal_Callsign--1c8d2512a752c400": [],
+      "Azusa_Swimsuit_Stand_Idle--20adab48764a1b8a": [],
+      "Azusa_Swimsuit_Kneel_Attack_End--4b44e07c986f7d4a": [],
+      "Azusa_Swimsuit_Move_End_Normal--4bc4034633c17842": [],
+      "Azusa_Swimsuit_Stand_Reload--4ca5ef528b5a5156": [],
+      "Azusa_Swimsuit_Normal_Attack_Ing--512ad2d406e9df0f": [],
+      "Azusa_Swimsuit_Kneel_Idle--5288352250296985": [],
+      "Azusa_Swimsuit_Public01--57c545fc35e80cd1": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.0333334,
+          "tile": 504
+        },
+        {
+          "time": 2.1000001,
+          "tile": 605
+        },
+        {
+          "time": 2.5000002,
+          "tile": 401
+        }
+      ],
+      "Azusa_Swimsuit_Normal_Idle--5c5d03662cac7948": [],
+      "Azusa_Swimsuit_Vital_Panic--63f69a9375091082": [],
+      "Azusa_Swimsuit_Stand_Attack_Delay--6673185bb2146bc6": [],
+      "Azusa_Swimsuit_Move_Ing--66b52dfade6f6a73": [],
+      "Azusa_Swimsuit_Victory_End--6bca26453cc0eab6": [],
+      "Azusa_Swimsuit_Normal_Attack_End--70a882b126ae42b6": [],
+      "Azusa_Swimsuit_Kneel_Attack_Ing--da78540dc969c14": []
+    }
+  },
+  "furniture": [
+    {
+      "id": "f4303_0",
+      "name": "度假区顶篷沙发",
+      "model": "f4303_0.glb",
+      "clip": "f4303_0",
+      "duration": 21.4,
+      "mouthEvents": [
+        {
+          "time": 0,
+          "tile": 602
+        },
+        {
+          "time": 2.6666666666666665,
+          "tile": 602
+        },
+        {
+          "time": 5.333333333333333,
+          "tile": 602
+        },
+        {
+          "time": 8,
+          "tile": 602
+        },
+        {
+          "time": 10.666666666666666,
+          "tile": 602
+        },
+        {
+          "time": 11.200000026666666,
+          "tile": 402
+        },
+        {
+          "time": 12.033333466666665,
+          "tile": 504
+        },
+        {
+          "time": 13.766666766666667,
+          "tile": 305
+        },
+        {
+          "time": 16.866666966666667,
+          "tile": 201
+        },
+        {
+          "time": 18.166667166666667,
+          "tile": 604
+        },
+        {
+          "time": 18.366666966666667,
+          "tile": 605
+        },
+        {
+          "time": 18.700000666666668,
+          "tile": 604
+        },
+        {
+          "time": 21.200000666666668,
+          "tile": 602
+        }
+      ],
+      "yaw": 1.8849555921538759
+    }
+  ]
+}

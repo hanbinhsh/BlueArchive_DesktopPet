@@ -1,0 +1,432 @@
+{
+  "id": "hina_swimsuit",
+  "name": "日奈 · 泳装",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0063; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0063_Cafe_Idle--b2ade0af54638fe8",
+    "interact": "CH0063_Cafe_Reaction--a9e7e72095c20bb0"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0063_Cafe_Idle--b2ade0af54638fe8",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0063_Cafe_Reaction--a9e7e72095c20bb0",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0063_Cafe_Walk--2f2cae692292e3df",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "CH0063_Victory_Start--39715af946e79d39",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "CH0063_Normal_Reload--36201f0365f48d4c",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0063_Formation_Pickup--a9b6d46bd48513dc",
+      "category": "常用"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "CH0063_Victory_End--fe8da68afe25b974",
+      "sourceName": "CH0063_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "CH0063_Exs--fb91a3fd80da4bdd",
+      "sourceName": "CH0063_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0063_Formation_Idle--d01b3986b16cd4c1",
+      "sourceName": "CH0063_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "CH0063_Vital_Dying_ing--cfe5ccae1d431db0",
+      "sourceName": "CH0063_Vital_Dying_ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "CH0063_Move_End_Normal--cec9836cb9fc870d",
+      "sourceName": "CH0063_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "CH0063_Vital_Panic--bab84557a6b93c65",
+      "sourceName": "CH0063_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "CH0063_Normal_Idle--a8b1b0f2a8d01252",
+      "sourceName": "CH0063_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "CH0063_Normal_Callsign--a7806a460e1ec85e",
+      "sourceName": "CH0063_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "CH0063_Normal_Attack_Start--a4099ab98dc62621",
+      "sourceName": "CH0063_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "CH0063_Normal_Attack_End--91cf785fe31162d5",
+      "sourceName": "CH0063_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "CH0063_Vital_Death--1e96fada784202c1",
+      "sourceName": "CH0063_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "CH0063_Vital_Retreat--2656d5b2a13cf210",
+      "sourceName": "CH0063_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "CH0063_Move_Ing--329b23b0437ebcf6",
+      "sourceName": "CH0063_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "CH0063_Normal_Attack_Delay--56fdba9025829cf7",
+      "sourceName": "CH0063_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "CH0063_Normal_Attack_Ing--6a8ad799be7c9e48",
+      "sourceName": "CH0063_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "CH0063_Public01--6f4b3487828f682a",
+      "sourceName": "CH0063_Public01",
+      "category": "技能"
+    }
+  ],
+  "mouth": {
+    "material": "CH0063_Mouth",
+    "defaultTile": 300,
+    "events": {
+      "CH0063_Cafe_Idle--b2ade0af54638fe8": [
+        {
+          "time": 0,
+          "tile": 101
+        }
+      ],
+      "CH0063_Cafe_Reaction--a9e7e72095c20bb0": [
+        {
+          "time": 0,
+          "tile": 101
+        },
+        {
+          "time": 0.33333334,
+          "tile": 301
+        },
+        {
+          "time": 1.1,
+          "tile": 100
+        },
+        {
+          "time": 3.5000002,
+          "tile": 101
+        }
+      ],
+      "CH0063_Cafe_Walk--2f2cae692292e3df": [
+        {
+          "time": 0,
+          "tile": 101
+        }
+      ],
+      "CH0063_Victory_Start--39715af946e79d39": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.23333335,
+          "tile": 301
+        },
+        {
+          "time": 1.2666668,
+          "tile": 101
+        }
+      ],
+      "CH0063_Normal_Reload--36201f0365f48d4c": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "CH0063_Formation_Pickup--a9b6d46bd48513dc": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 2.5333335,
+          "tile": 301
+        },
+        {
+          "time": 4.5,
+          "tile": 300
+        }
+      ],
+      "CH0063_Victory_End--fe8da68afe25b974": [
+        {
+          "time": 0,
+          "tile": 101
+        }
+      ],
+      "CH0063_Exs--fb91a3fd80da4bdd": [
+        {
+          "time": 0,
+          "tile": 301
+        },
+        {
+          "time": 0.5666667,
+          "tile": 300
+        }
+      ],
+      "CH0063_Formation_Idle--d01b3986b16cd4c1": [
+        {
+          "time": 0,
+          "tile": 301
+        },
+        {
+          "time": 1.1,
+          "tile": 300
+        }
+      ],
+      "CH0063_Vital_Dying_ing--cfe5ccae1d431db0": [],
+      "CH0063_Move_End_Normal--cec9836cb9fc870d": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.16666667,
+          "tile": 0
+        },
+        {
+          "time": 0.33333334,
+          "tile": 300
+        }
+      ],
+      "CH0063_Vital_Panic--bab84557a6b93c65": [
+        {
+          "time": 0,
+          "tile": 301
+        }
+      ],
+      "CH0063_Normal_Idle--a8b1b0f2a8d01252": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.8333334,
+          "tile": 301
+        }
+      ],
+      "CH0063_Normal_Callsign--a7806a460e1ec85e": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.33333334,
+          "tile": 301
+        },
+        {
+          "time": 0.8,
+          "tile": 300
+        }
+      ],
+      "CH0063_Normal_Attack_Start--a4099ab98dc62621": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "CH0063_Normal_Attack_End--91cf785fe31162d5": [
+        {
+          "time": 0,
+          "tile": 301
+        },
+        {
+          "time": 0.33333334,
+          "tile": 300
+        }
+      ],
+      "CH0063_Vital_Death--1e96fada784202c1": [
+        {
+          "time": 0,
+          "tile": 301
+        }
+      ],
+      "CH0063_Vital_Retreat--2656d5b2a13cf210": [
+        {
+          "time": 0,
+          "tile": 301
+        }
+      ],
+      "CH0063_Move_Ing--329b23b0437ebcf6": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.33333334,
+          "tile": 301
+        }
+      ],
+      "CH0063_Normal_Attack_Delay--56fdba9025829cf7": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "CH0063_Normal_Attack_Ing--6a8ad799be7c9e48": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.36666667,
+          "tile": 301
+        }
+      ],
+      "CH0063_Public01--6f4b3487828f682a": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.16666667,
+          "tile": 301
+        },
+        {
+          "time": 0.6666667,
+          "tile": 300
+        },
+        {
+          "time": 0.9333334,
+          "tile": 0
+        },
+        {
+          "time": 1.3000001,
+          "tile": 300
+        }
+      ]
+    },
+    "columns": 4,
+    "rows": 4
+  },
+  "furniture": [
+    {
+      "id": "f4301_0",
+      "name": "泳圈套装小型泳池",
+      "model": "f4301_0.glb",
+      "clip": "f4301_0",
+      "duration": 15.2,
+      "mouthEvents": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 1.1666667,
+          "tile": 301
+        },
+        {
+          "time": 3.0333335,
+          "tile": 102
+        },
+        {
+          "time": 5.6000004,
+          "tile": 0
+        },
+        {
+          "time": 5.7333336,
+          "tile": 101
+        },
+        {
+          "time": 10.000001,
+          "tile": 301
+        },
+        {
+          "time": 11.700001,
+          "tile": 300
+        }
+      ],
+      "yaw": 1.8849555921538759
+    }
+  ],
+  "framing": {
+    "actions": {
+      "original_vital_death": {
+        "zoom": 0.7036058167822998,
+        "centerY": 0.8689540146472824
+      }
+    }
+  }
+}

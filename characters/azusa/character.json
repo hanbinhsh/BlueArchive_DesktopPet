@@ -1,0 +1,365 @@
+{
+  "id": "azusa",
+  "name": "梓 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Azusa_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Azusa_Original_Cafe_Idle--3f3c67a10b3ae7ee",
+    "interact": "Azusa_Original_Cafe_Reaction--84fd92389c673d1b"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Azusa_Original_Cafe_Idle--3f3c67a10b3ae7ee",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Azusa_Original_Cafe_Reaction--84fd92389c673d1b",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Azusa_Original_Cafe_Walk--22effc9a6075c86",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Azusa_Original_Victory_Start--3267a217eecafddf",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Azusa_Original_Normal_Reload--dfaf917c2866e070",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Azusa_Original_Formation_Pickup--78f68790dc118311",
+      "category": "常用"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Azusa_Original_Normal_Idle--ed5ee744870165f8",
+      "sourceName": "Azusa_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_end",
+      "label": "掩体站姿 · 攻击 · 结束",
+      "clip": "Azusa_Original_Stand_Attack_End--fe1c18a76c5ea5dd",
+      "sourceName": "Azusa_Original_Stand_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Azusa_Original_Kneel_Attack_Start--e3c50903516a1810",
+      "sourceName": "Azusa_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Azusa_Original_Vital_Retreat--e09125e1a5bbc842",
+      "sourceName": "Azusa_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Azusa_Original_Vital_Death--d3e3fea2a9f7de51",
+      "sourceName": "Azusa_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Azusa_Original_Kneel_Reload--f962fa66124c58fd",
+      "sourceName": "Azusa_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_reload",
+      "label": "掩体站姿 · 换弹",
+      "clip": "Azusa_Original_Stand_Reload--aa1ef1a24926cd98",
+      "sourceName": "Azusa_Original_Stand_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Azusa_Original_Formation_Idle--f62a821f61ffe4b4",
+      "sourceName": "Azusa_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Azusa_Original_Normal_Attack_Ing--9da11696c0be76fe",
+      "sourceName": "Azusa_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Azusa_Original_Kneel_Idle--9423d9ed0455f69b",
+      "sourceName": "Azusa_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_start",
+      "label": "掩体站姿 · 攻击 · STart",
+      "clip": "Azusa_Original_Stand_Attack_STart--92fa0066dab145fb",
+      "sourceName": "Azusa_Original_Stand_Attack_STart",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_delay",
+      "label": "掩体站姿 · 攻击 · 间隔",
+      "clip": "Azusa_Original_Stand_Attack_Delay--8bb6581a2a89c99e",
+      "sourceName": "Azusa_Original_Stand_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Azusa_Original_Move_End_Kneel--f364254f9f00f15b",
+      "sourceName": "Azusa_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_stand_attack_ing",
+      "label": "掩体站姿 · 攻击 · 持续",
+      "clip": "Azusa_Original_Stand_Attack_Ing--e0e8f33ff525886",
+      "sourceName": "Azusa_Original_Stand_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Azusa_Original_Move_End_Normal--ff8af1884ff6df1",
+      "sourceName": "Azusa_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Azusa_Original_Vital_Panic--1d1081435656de91",
+      "sourceName": "Azusa_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Azusa_Original_Public01--24c5cbc8a48a3135",
+      "sourceName": "Azusa_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Azusa_Original_Vital_Dying_Ing--4329733a3e8ce1c",
+      "sourceName": "Azusa_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Azusa_Original_Normal_Callsign--627947b15e5c398",
+      "sourceName": "Azusa_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Azusa_Original_Victory_End--698668c8f488105",
+      "sourceName": "Azusa_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Azusa_Original_Kneel_Attack_Delay--43d6279bd2720be9",
+      "sourceName": "Azusa_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Azusa_Original_Normal_Attack_Delay--5cc19bd7d15bcd10",
+      "sourceName": "Azusa_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "Azusa_Original_Move_Jump--6425056dffe4a4e3",
+      "sourceName": "Azusa_Original_Move_Jump",
+      "category": "移动"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Azusa_Original_Move_Ing--72a2b6a4a8e9ff41",
+      "sourceName": "Azusa_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_stand_idle",
+      "label": "掩体站姿 · 待机",
+      "clip": "Azusa_Original_Stand_Idle--7322197b84d5180b",
+      "sourceName": "Azusa_Original_Stand_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Azusa_Original_Normal_Attack_Start--740ef42fc009732d",
+      "sourceName": "Azusa_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Azusa_Original_Normal_Attack_End--78a6eb78d15741c0",
+      "sourceName": "Azusa_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_stand",
+      "label": "移动 · 结束 · 掩体站姿",
+      "clip": "Azusa_Original_Move_End_Stand--b5835fd0876d51fc",
+      "sourceName": "Azusa_Original_Move_End_Stand",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Azusa_Original_Kneel_Attack_Ing--b111a60d9601fc53",
+      "sourceName": "Azusa_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Azusa_Original_Kneel_Attack_End--90a1d5b0d64d525",
+      "sourceName": "Azusa_Original_Kneel_Attack_End",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Azusa_Original_Mouth",
+    "defaultTile": 401,
+    "events": {
+      "Azusa_Original_Cafe_Idle--3f3c67a10b3ae7ee": [
+        {
+          "time": 0,
+          "tile": 602
+        }
+      ],
+      "Azusa_Original_Cafe_Reaction--84fd92389c673d1b": [
+        {
+          "time": 0,
+          "tile": 602
+        },
+        {
+          "time": 0.53333336,
+          "tile": 504
+        },
+        {
+          "time": 1.7666668,
+          "tile": 605
+        },
+        {
+          "time": 2.4333334,
+          "tile": 602
+        }
+      ],
+      "Azusa_Original_Cafe_Walk--22effc9a6075c86": [
+        {
+          "time": 0,
+          "tile": 602
+        }
+      ],
+      "Azusa_Original_Victory_Start--3267a217eecafddf": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.33333334,
+          "tile": 402
+        },
+        {
+          "time": 0.43333337,
+          "tile": 401
+        },
+        {
+          "time": 0.53333336,
+          "tile": 402
+        },
+        {
+          "time": 0.6333334,
+          "tile": 401
+        },
+        {
+          "time": 0.73333335,
+          "tile": 402
+        },
+        {
+          "time": 0.8333334,
+          "tile": 402
+        },
+        {
+          "time": 1.0333334,
+          "tile": 401
+        }
+      ],
+      "Azusa_Original_Normal_Reload--dfaf917c2866e070": [],
+      "Azusa_Original_Formation_Pickup--78f68790dc118311": [],
+      "Azusa_Original_Normal_Idle--ed5ee744870165f8": [],
+      "Azusa_Original_Stand_Attack_End--fe1c18a76c5ea5dd": [],
+      "Azusa_Original_Kneel_Attack_Start--e3c50903516a1810": [],
+      "Azusa_Original_Vital_Retreat--e09125e1a5bbc842": [],
+      "Azusa_Original_Vital_Death--d3e3fea2a9f7de51": [],
+      "Azusa_Original_Kneel_Reload--f962fa66124c58fd": [],
+      "Azusa_Original_Stand_Reload--aa1ef1a24926cd98": [],
+      "Azusa_Original_Formation_Idle--f62a821f61ffe4b4": [],
+      "Azusa_Original_Normal_Attack_Ing--9da11696c0be76fe": [],
+      "Azusa_Original_Kneel_Idle--9423d9ed0455f69b": [],
+      "Azusa_Original_Stand_Attack_STart--92fa0066dab145fb": [],
+      "Azusa_Original_Stand_Attack_Delay--8bb6581a2a89c99e": [],
+      "Azusa_Original_Move_End_Kneel--f364254f9f00f15b": [],
+      "Azusa_Original_Stand_Attack_Ing--e0e8f33ff525886": [],
+      "Azusa_Original_Move_End_Normal--ff8af1884ff6df1": [],
+      "Azusa_Original_Vital_Panic--1d1081435656de91": [],
+      "Azusa_Original_Public01--24c5cbc8a48a3135": [],
+      "Azusa_Original_Vital_Dying_Ing--4329733a3e8ce1c": [],
+      "Azusa_Original_Normal_Callsign--627947b15e5c398": [],
+      "Azusa_Original_Victory_End--698668c8f488105": [],
+      "Azusa_Original_Kneel_Attack_Delay--43d6279bd2720be9": [],
+      "Azusa_Original_Normal_Attack_Delay--5cc19bd7d15bcd10": [],
+      "Azusa_Original_Move_Jump--6425056dffe4a4e3": [],
+      "Azusa_Original_Move_Ing--72a2b6a4a8e9ff41": [],
+      "Azusa_Original_Stand_Idle--7322197b84d5180b": [],
+      "Azusa_Original_Normal_Attack_Start--740ef42fc009732d": [],
+      "Azusa_Original_Normal_Attack_End--78a6eb78d15741c0": [],
+      "Azusa_Original_Move_End_Stand--b5835fd0876d51fc": [],
+      "Azusa_Original_Kneel_Attack_Ing--b111a60d9601fc53": [],
+      "Azusa_Original_Kneel_Attack_End--90a1d5b0d64d525": []
+    }
+  }
+}

@@ -1,0 +1,1138 @@
+{
+  "id": "kazusa_band",
+  "name": "和纱 · 乐队",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0250; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0250_Cafe_Idle--a14ce10c59d0f807",
+    "interact": "CH0250_Cafe_Reaction--5e73de711efce65c"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0250_Cafe_Idle--a14ce10c59d0f807",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0250_Cafe_Reaction--5e73de711efce65c",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0250_Cafe_Walk--180fb8eb40acbada",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "CH0250_Victory_Start--e96336f7afdf8be6",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "CH0250_Normal_Reload--e11369b17c9a6c9",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0250_Formation_Pickup--c3062224ab6bd44",
+      "category": "常用"
+    },
+    {
+      "id": "original_victory_start_interaction",
+      "label": "胜利 · 开始 · Interaction",
+      "clip": "CH0250_Victory_Start_Interaction--e6e241308f9862e7",
+      "sourceName": "CH0250_Victory_Start_Interaction",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_victory_end_interaction",
+      "label": "胜利 · 结束 · Interaction",
+      "clip": "CH0250_Victory_End_Interaction--cb3b4e10c98d004c",
+      "sourceName": "CH0250_Victory_End_Interaction",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0250_Formation_Idle--eee43f7a0cb6ca71",
+      "sourceName": "CH0250_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "CH0250_Public01--e790563b8463a3d2",
+      "sourceName": "CH0250_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "CH0250_Move_Ing--e36014285d71414d",
+      "sourceName": "CH0250_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "CH0250_Exs--cf70fe172577adb0",
+      "sourceName": "CH0250_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "CH0250_Normal_Attack_Start--c3fda3f61dbd2eb6",
+      "sourceName": "CH0250_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "CH0250_Vital_Panic--aa1c6332afc9a027",
+      "sourceName": "CH0250_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "CH0250_Normal_Attack_End--a7167afdbd1bc17a",
+      "sourceName": "CH0250_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "CH0250_Vital_Retreat--9d53b280eb2c2313",
+      "sourceName": "CH0250_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "CH0250_Normal_Attack_Delay--867e8d19e54c29ca",
+      "sourceName": "CH0250_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin01",
+      "label": "EX 技能 · Cutin01",
+      "clip": "CH0250_Exs_Cutin01--1f64508e9b4107d",
+      "sourceName": "CH0250_Exs_Cutin01",
+      "category": "技能"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "CH0250_Victory_End--1404932d8dce6824",
+      "sourceName": "CH0250_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "CH0250_Move_End_Normal--18c9626a48da93c6",
+      "sourceName": "CH0250_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "CH0250_Vital_Death--2bc88e2d45c7b2d5",
+      "sourceName": "CH0250_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "CH0250_Vital_Dying_Ing--3b8932599a8b135e",
+      "sourceName": "CH0250_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "CH0250_Normal_Attack_Ing--47b7083a7ffc1d0a",
+      "sourceName": "CH0250_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_nonweapon_bass",
+      "label": "NonWeapon · Bass",
+      "clip": "CH0250_NonWeapon_Bass--662c0bbc79c58689",
+      "sourceName": "CH0250_NonWeapon_Bass",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin02",
+      "label": "EX 技能 · Cutin02",
+      "clip": "CH0250_Exs_Cutin02--6951275aa01ff67b",
+      "sourceName": "CH0250_Exs_Cutin02",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "CH0250_Normal_Callsign--6a5c015a2d88ea6f",
+      "sourceName": "CH0250_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "CH0250_Normal_Idle--6c04a6a5309add43",
+      "sourceName": "CH0250_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign_random",
+      "label": "常规 · 回应 · Random",
+      "clip": "CH0250_Normal_Callsign_Random--b6989b47a099778",
+      "sourceName": "CH0250_Normal_Callsign_Random",
+      "category": "战斗"
+    },
+    {
+      "id": "original_nonweapon_idle",
+      "label": "NonWeapon · 待机",
+      "clip": "CH0250_NonWeapon_Idle--fc8957fb4d24d12c",
+      "sourceName": "CH0250_NonWeapon_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_nonweapon_stretching",
+      "label": "NonWeapon · Stretching",
+      "clip": "CH0250_NonWeapon_Stretching--f81051fc04358515",
+      "sourceName": "CH0250_NonWeapon_Stretching",
+      "category": "战斗"
+    },
+    {
+      "id": "original_nonweapon_desserttable",
+      "label": "NonWeapon · DessertTable",
+      "clip": "CH0250_NonWeapon_DessertTable--38b793ec2337040",
+      "sourceName": "CH0250_NonWeapon_DessertTable",
+      "category": "战斗"
+    },
+    {
+      "id": "original_nonweapon_study",
+      "label": "NonWeapon · Study",
+      "clip": "CH0250_NonWeapon_Study--59e385760d4b0a30",
+      "sourceName": "CH0250_NonWeapon_Study",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "CH0250_Mouth",
+    "defaultTile": 605,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "CH0250_Cafe_Idle--a14ce10c59d0f807": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0250_Cafe_Reaction--5e73de711efce65c": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.166665,
+          "tile": 605
+        },
+        {
+          "time": 1.266654,
+          "tile": 402
+        },
+        {
+          "time": 2.266644,
+          "tile": 704
+        },
+        {
+          "time": 3.733296,
+          "tile": 704
+        },
+        {
+          "time": 5.99994,
+          "tile": 401
+        }
+      ],
+      "CH0250_Cafe_Walk--180fb8eb40acbada": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0250_Victory_Start--e96336f7afdf8be6": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.3333334,
+          "tile": 402
+        },
+        {
+          "time": 1.4666667,
+          "tile": 602
+        },
+        {
+          "time": 1.6666667,
+          "tile": 706
+        },
+        {
+          "time": 2.1333334,
+          "tile": 704
+        },
+        {
+          "time": 2.266667,
+          "tile": 706
+        },
+        {
+          "time": 3.0000002,
+          "tile": 706
+        }
+      ],
+      "CH0250_Normal_Reload--e11369b17c9a6c9": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.6,
+          "tile": 402
+        },
+        {
+          "time": 1.0666667,
+          "tile": 401
+        }
+      ],
+      "CH0250_Formation_Pickup--c3062224ab6bd44": [
+        {
+          "time": 0,
+          "tile": 606
+        },
+        {
+          "time": 0.133332,
+          "tile": 506
+        },
+        {
+          "time": 0.233331,
+          "tile": 507
+        },
+        {
+          "time": 0.699993,
+          "tile": 200
+        },
+        {
+          "time": 0.899991,
+          "tile": 507
+        },
+        {
+          "time": 1.33332,
+          "tile": 602
+        },
+        {
+          "time": 1.399986,
+          "tile": 205
+        },
+        {
+          "time": 2.166645,
+          "tile": 506
+        },
+        {
+          "time": 2.266644,
+          "tile": 602
+        },
+        {
+          "time": 3.466632,
+          "tile": 402
+        },
+        {
+          "time": 4.599954,
+          "tile": 602
+        },
+        {
+          "time": 7.199928,
+          "tile": 200
+        },
+        {
+          "time": 7.366593,
+          "tile": 606
+        },
+        {
+          "time": 7.533258,
+          "tile": 606
+        }
+      ],
+      "CH0250_Victory_Start_Interaction--e6e241308f9862e7": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.533328,
+          "tile": 402
+        },
+        {
+          "time": 1.33332,
+          "tile": 602
+        },
+        {
+          "time": 1.533318,
+          "tile": 402
+        },
+        {
+          "time": 2.1999779,
+          "tile": 300
+        }
+      ],
+      "CH0250_Victory_End_Interaction--cb3b4e10c98d004c": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "CH0250_Formation_Idle--eee43f7a0cb6ca71": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0250_Public01--e790563b8463a3d2": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1,
+          "tile": 402
+        },
+        {
+          "time": 2.6000001,
+          "tile": 706
+        },
+        {
+          "time": 3.266667,
+          "tile": 402
+        },
+        {
+          "time": 3.4,
+          "tile": 401
+        },
+        {
+          "time": 3.5666668,
+          "tile": 705
+        },
+        {
+          "time": 4.2333336,
+          "tile": 704
+        },
+        {
+          "time": 4.6333337,
+          "tile": 705
+        },
+        {
+          "time": 4.7333336,
+          "tile": 704
+        },
+        {
+          "time": 5.0000005,
+          "tile": 7
+        }
+      ],
+      "CH0250_Move_Ing--e36014285d71414d": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0250_Exs--cf70fe172577adb0": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.10000001,
+          "tile": 605
+        },
+        {
+          "time": 0.20000002,
+          "tile": 606
+        },
+        {
+          "time": 0.33333334,
+          "tile": 402
+        },
+        {
+          "time": 0.4666667,
+          "tile": 504
+        },
+        {
+          "time": 0.6333334,
+          "tile": 300
+        },
+        {
+          "time": 0.73333335,
+          "tile": 504
+        },
+        {
+          "time": 0.8333334,
+          "tile": 505
+        },
+        {
+          "time": 0.9333334,
+          "tile": 401
+        },
+        {
+          "time": 1.0333334,
+          "tile": 605
+        },
+        {
+          "time": 1.1666667,
+          "tile": 401
+        },
+        {
+          "time": 1.2666668,
+          "tile": 600
+        },
+        {
+          "time": 1.4000001,
+          "tile": 300
+        },
+        {
+          "time": 1.5333334,
+          "tile": 505
+        },
+        {
+          "time": 1.6000001,
+          "tile": 602
+        },
+        {
+          "time": 2.9333334,
+          "tile": 200
+        },
+        {
+          "time": 4.1333337,
+          "tile": 602
+        },
+        {
+          "time": 4.4666667,
+          "tile": 706
+        },
+        {
+          "time": 5.4,
+          "tile": 300
+        },
+        {
+          "time": 5.6000004,
+          "tile": 705
+        },
+        {
+          "time": 6.2333336,
+          "tile": 300
+        },
+        {
+          "time": 6.5000005,
+          "tile": 705
+        },
+        {
+          "time": 6.7333336,
+          "tile": 300
+        },
+        {
+          "time": 6.866667,
+          "tile": 401
+        }
+      ],
+      "CH0250_Normal_Attack_Start--c3fda3f61dbd2eb6": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.10000001,
+          "tile": 402
+        },
+        {
+          "time": 0.4666667,
+          "tile": 401
+        }
+      ],
+      "CH0250_Vital_Panic--aa1c6332afc9a027": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ],
+      "CH0250_Normal_Attack_End--a7167afdbd1bc17a": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.33333334,
+          "tile": 402
+        },
+        {
+          "time": 0.6333334,
+          "tile": 401
+        }
+      ],
+      "CH0250_Vital_Retreat--9d53b280eb2c2313": [
+        {
+          "time": 0,
+          "tile": 506
+        }
+      ],
+      "CH0250_Normal_Attack_Delay--867e8d19e54c29ca": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0250_Exs_Cutin01--1f64508e9b4107d": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 2.299977,
+          "tile": 602
+        },
+        {
+          "time": 2.466642,
+          "tile": 402
+        },
+        {
+          "time": 3.66663,
+          "tile": 604
+        },
+        {
+          "time": 3.99996,
+          "tile": 200
+        },
+        {
+          "time": 6.366603,
+          "tile": 704
+        }
+      ],
+      "CH0250_Victory_End--1404932d8dce6824": [
+        {
+          "time": 0,
+          "tile": 706
+        }
+      ],
+      "CH0250_Move_End_Normal--18c9626a48da93c6": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.53333336,
+          "tile": 402
+        },
+        {
+          "time": 0.9333334,
+          "tile": 401
+        }
+      ],
+      "CH0250_Vital_Death--2bc88e2d45c7b2d5": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 2.299977,
+          "tile": 602
+        }
+      ],
+      "CH0250_Vital_Dying_Ing--3b8932599a8b135e": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ],
+      "CH0250_Normal_Attack_Ing--47b7083a7ffc1d0a": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0250_NonWeapon_Bass--662c0bbc79c58689": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.3,
+          "tile": 605
+        },
+        {
+          "time": 0.6666667,
+          "tile": 402
+        },
+        {
+          "time": 0.9333334,
+          "tile": 605
+        },
+        {
+          "time": 1.1333334,
+          "tile": 401
+        },
+        {
+          "time": 1.4000001,
+          "tile": 402
+        },
+        {
+          "time": 1.6000001,
+          "tile": 401
+        },
+        {
+          "time": 1.8333334,
+          "tile": 402
+        },
+        {
+          "time": 2.1666667,
+          "tile": 605
+        },
+        {
+          "time": 2.4,
+          "tile": 401
+        },
+        {
+          "time": 2.7333336,
+          "tile": 402
+        },
+        {
+          "time": 2.9,
+          "tile": 401
+        },
+        {
+          "time": 3.2000003,
+          "tile": 402
+        },
+        {
+          "time": 3.4,
+          "tile": 605
+        },
+        {
+          "time": 3.7333336,
+          "tile": 401
+        },
+        {
+          "time": 4.1000004,
+          "tile": 402
+        },
+        {
+          "time": 4.4333334,
+          "tile": 401
+        },
+        {
+          "time": 4.733333,
+          "tile": 605
+        },
+        {
+          "time": 5.1,
+          "tile": 402
+        },
+        {
+          "time": 5.366667,
+          "tile": 605
+        },
+        {
+          "time": 5.5666666,
+          "tile": 401
+        },
+        {
+          "time": 5.8333335,
+          "tile": 402
+        },
+        {
+          "time": 6.0333333,
+          "tile": 401
+        },
+        {
+          "time": 6.266667,
+          "tile": 402
+        },
+        {
+          "time": 6.6,
+          "tile": 605
+        },
+        {
+          "time": 6.8333335,
+          "tile": 401
+        },
+        {
+          "time": 7.1666665,
+          "tile": 402
+        },
+        {
+          "time": 7.3333335,
+          "tile": 401
+        },
+        {
+          "time": 7.633333,
+          "tile": 402
+        },
+        {
+          "time": 7.8333335,
+          "tile": 605
+        },
+        {
+          "time": 8.166667,
+          "tile": 401
+        }
+      ],
+      "CH0250_Exs_Cutin02--6951275aa01ff67b": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.2999868,
+          "tile": 706
+        }
+      ],
+      "CH0250_Normal_Callsign--6a5c015a2d88ea6f": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.033333343,
+          "tile": 504
+        },
+        {
+          "time": 0.2666667,
+          "tile": 505
+        },
+        {
+          "time": 0.53333336,
+          "tile": 300
+        },
+        {
+          "time": 0.9333334,
+          "tile": 706
+        }
+      ],
+      "CH0250_Normal_Idle--6c04a6a5309add43": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0250_Normal_Callsign_Random--b6989b47a099778": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.13333334,
+          "tile": 402
+        },
+        {
+          "time": 0.6,
+          "tile": 602
+        },
+        {
+          "time": 0.9666668,
+          "tile": 507
+        }
+      ],
+      "CH0250_NonWeapon_Idle--fc8957fb4d24d12c": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ],
+      "CH0250_NonWeapon_Stretching--f81051fc04358515": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.5000001,
+          "tile": 401
+        },
+        {
+          "time": 2.5333335,
+          "tile": 402
+        },
+        {
+          "time": 4.533334,
+          "tile": 401
+        },
+        {
+          "time": 5.9000006,
+          "tile": 402
+        },
+        {
+          "time": 7.433334,
+          "tile": 401
+        }
+      ],
+      "CH0250_NonWeapon_DessertTable--38b793ec2337040": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.40000004,
+          "tile": 706
+        },
+        {
+          "time": 1.3666668,
+          "tile": 300
+        },
+        {
+          "time": 2.2333333,
+          "tile": 605
+        },
+        {
+          "time": 2.9333334,
+          "tile": 305
+        }
+      ],
+      "CH0250_NonWeapon_Study--59e385760d4b0a30": [
+        {
+          "time": 0,
+          "tile": 605
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210336_0",
+      "name": "深蓝色贝斯",
+      "model": "f210336_0.glb",
+      "clip": "f210336_0",
+      "duration": 10.0,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 605
+        },
+        {
+          "time": 0.0,
+          "tile": 605
+        },
+        {
+          "time": 0.033333,
+          "tile": 401
+        },
+        {
+          "time": 0.133332,
+          "tile": 605
+        },
+        {
+          "time": 0.19999799,
+          "tile": 300
+        },
+        {
+          "time": 0.299997,
+          "tile": 605
+        },
+        {
+          "time": 0.39999598,
+          "tile": 606
+        },
+        {
+          "time": 0.533328,
+          "tile": 402
+        },
+        {
+          "time": 0.66666,
+          "tile": 504
+        },
+        {
+          "time": 0.83332497,
+          "tile": 401
+        },
+        {
+          "time": 0.933324,
+          "tile": 504
+        },
+        {
+          "time": 1.033323,
+          "tile": 505
+        },
+        {
+          "time": 1.133322,
+          "tile": 401
+        },
+        {
+          "time": 1.233321,
+          "tile": 605
+        },
+        {
+          "time": 1.366653,
+          "tile": 401
+        },
+        {
+          "time": 1.466652,
+          "tile": 605
+        },
+        {
+          "time": 1.566651,
+          "tile": 300
+        },
+        {
+          "time": 1.699983,
+          "tile": 605
+        },
+        {
+          "time": 1.799982,
+          "tile": 606
+        },
+        {
+          "time": 1.933314,
+          "tile": 402
+        },
+        {
+          "time": 2.066646,
+          "tile": 504
+        },
+        {
+          "time": 2.233311,
+          "tile": 401
+        },
+        {
+          "time": 2.33331,
+          "tile": 504
+        },
+        {
+          "time": 2.433309,
+          "tile": 505
+        },
+        {
+          "time": 2.499975,
+          "tile": 401
+        },
+        {
+          "time": 2.599974,
+          "tile": 605
+        },
+        {
+          "time": 2.733306,
+          "tile": 401
+        },
+        {
+          "time": 2.833305,
+          "tile": 605
+        },
+        {
+          "time": 3.233301,
+          "tile": 300
+        },
+        {
+          "time": 3.3332999,
+          "tile": 605
+        },
+        {
+          "time": 3.433299,
+          "tile": 606
+        },
+        {
+          "time": 3.566631,
+          "tile": 402
+        },
+        {
+          "time": 3.699963,
+          "tile": 504
+        },
+        {
+          "time": 3.866628,
+          "tile": 401
+        },
+        {
+          "time": 3.966627,
+          "tile": 504
+        },
+        {
+          "time": 4.066626,
+          "tile": 505
+        },
+        {
+          "time": 4.133292,
+          "tile": 401
+        },
+        {
+          "time": 4.199958,
+          "tile": 605
+        },
+        {
+          "time": 4.466622,
+          "tile": 602
+        },
+        {
+          "time": 4.733286,
+          "tile": 402
+        },
+        {
+          "time": 6.366603,
+          "tile": 602
+        },
+        {
+          "time": 6.466602,
+          "tile": 200
+        },
+        {
+          "time": 7.533258,
+          "tile": 602
+        },
+        {
+          "time": 7.699923,
+          "tile": 402
+        },
+        {
+          "time": 9.199908,
+          "tile": 300
+        },
+        {
+          "time": 9.399906,
+          "tile": 605
+        },
+        {
+          "time": 9.599904,
+          "tile": 602
+        },
+        {
+          "time": 9.699903,
+          "tile": 605
+        },
+        {
+          "time": 9.833235,
+          "tile": 401
+        },
+        {
+          "time": 9.933234,
+          "tile": 605
+        },
+        {
+          "time": 9.9999,
+          "tile": 605
+        }
+      ],
+      "yaw": 0.6283185307179586,
+      "sourceTimeline": "my_event067_bandbaseguitarset",
+      "sourceGroup": "RequiredTrack_10091",
+      "sourceStudentTrack": "10091"
+    }
+  ]
+}

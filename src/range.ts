@@ -1,0 +1,6 @@
+declare const window:Window & {range:{command:(name:string,value?:number)=>void;onState:(fn:(v:{radius:number;actual:number})=>void)=>void}};
+const mode=new URLSearchParams(location.search).get('mode');document.body.dataset.mode=mode||'border';
+if(mode==='tools'){document.body.innerHTML='<div id="tools"><label>半径 <input id="radius" type="number" min="40" max="4000"></label><small id="actual"></small><button id="apply">应用</button><button id="cancel">取消</button></div>';const input=document.querySelector<HTMLInputElement>('#radius')!;input.oninput=()=>window.range.command('radius',Number(input.value));document.querySelector<HTMLButtonElement>('#apply')!.onclick=()=>window.range.command('apply');document.querySelector<HTMLButtonElement>('#cancel')!.onclick=()=>window.range.command('cancel');window.range.onState(v=>{if(document.activeElement!==input)input.value=String(v.radius);document.querySelector('#actual')!.textContent=`可移动 ${v.actual} 像素`;});}
+else if(mode!=='border'){const h=document.createElement('div');h.className='handle';h.textContent='↔';h.onpointerdown=e=>{h.setPointerCapture(e.pointerId);window.range.command('start');};h.onpointerup=()=>window.range.command('end');h.onlostpointercapture=()=>window.range.command('end');document.body.append(h);}
+window.addEventListener('keydown',e=>{if(e.key==='Escape')window.range.command('cancel');});
+export {};

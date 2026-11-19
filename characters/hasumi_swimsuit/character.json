@@ -1,0 +1,765 @@
+{
+  "id": "hasumi_swimsuit",
+  "name": "莲见 · 泳装",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0291; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0291_Cafe_Idle--c322d08483acfbdf",
+    "interact": "CH0291_Cafe_Reaction--32d1cfe290ca91cb"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0291_Cafe_Idle--c322d08483acfbdf",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0291_Cafe_Reaction--32d1cfe290ca91cb",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0291_Cafe_Walk--6863abb94d05452c",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "CH0291_Victory_Start--1ef7f51288c28538",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "CH0291_Normal_Reload--26ccd1759e8b0b24",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0291_Formation_Pickup--62a0534d67c40716",
+      "category": "常用"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "CH0291_Vital_Panic--e3f0ffdad32e6065",
+      "sourceName": "CH0291_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "CH0291_Public01--ff85645e69499a0e",
+      "sourceName": "CH0291_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "CH0291_Normal_Callsign--cbe87e4598541b2d",
+      "sourceName": "CH0291_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "CH0291_Normal_Attack_Start--fab71746d3679b98",
+      "sourceName": "CH0291_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "CH0291_Kneel_Attack_Delay--c2ebb757ef8405b3",
+      "sourceName": "CH0291_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "CH0291_Move_End_Normal--b9793bb9fb4279d8",
+      "sourceName": "CH0291_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "CH0291_Normal_Attack_Ing--a7ce11257e12e7c5",
+      "sourceName": "CH0291_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "CH0291_Normal_Attack_Delay--a676781358fe0f76",
+      "sourceName": "CH0291_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "CH0291_Victory_End--a2ceb5ee6a28cdf4",
+      "sourceName": "CH0291_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "CH0291_Normal_Attack_End--90d1bdffe95c72a7",
+      "sourceName": "CH0291_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "CH0291_Exs--81940d4e7d54208a",
+      "sourceName": "CH0291_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle_random",
+      "label": "编队 · 待机 · Random",
+      "clip": "CH0291_Formation_Idle_Random--10bd17d864975e88",
+      "sourceName": "CH0291_Formation_Idle_Random",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "CH0291_Kneel_Attack_End--11fdf1a891b70e3e",
+      "sourceName": "CH0291_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "CH0291_Vital_Death--19ce128f6eb3ba3f",
+      "sourceName": "CH0291_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "CH0291_Move_End_Kneel--23371b45a2da9361",
+      "sourceName": "CH0291_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_exs_cutin_03",
+      "label": "EX 技能 · Cutin · 03",
+      "clip": "CH0291_Exs_Cutin_03--24b1378b4faf0b81",
+      "sourceName": "CH0291_Exs_Cutin_03",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "CH0291_Normal_Idle--2e31bb71b2f83c69",
+      "sourceName": "CH0291_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "CH0291_Vital_Retreat--329c2361b16e2289",
+      "sourceName": "CH0291_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "CH0291_Kneel_Attack_Ing--404db3988af3bcbd",
+      "sourceName": "CH0291_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0291_Formation_Idle--4cc1cae058beda4a",
+      "sourceName": "CH0291_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "CH0291_Kneel_Attack_Start--4d55dff96b4a7275",
+      "sourceName": "CH0291_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_02",
+      "label": "EX 技能 · Cutin · 02",
+      "clip": "CH0291_Exs_Cutin_02--4e3931c172c1688e",
+      "sourceName": "CH0291_Exs_Cutin_02",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_01",
+      "label": "EX 技能 · Cutin · 01",
+      "clip": "CH0291_Exs_Cutin_01--9b7dd970af151ad",
+      "sourceName": "CH0291_Exs_Cutin_01",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "CH0291_Vital_Dying_Ing--62395ca815dfc86f",
+      "sourceName": "CH0291_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "CH0291_Move_Ing--681264f1280b82b7",
+      "sourceName": "CH0291_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "CH0291_Kneel_Idle--6beefb2a65bdc902",
+      "sourceName": "CH0291_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "CH0291_Kneel_Reload--b89f604d2863621",
+      "sourceName": "CH0291_Kneel_Reload",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "CH0291_Mouth",
+    "defaultTile": 605,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "CH0291_Cafe_Idle--c322d08483acfbdf": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "CH0291_Cafe_Reaction--32d1cfe290ca91cb": [
+        {
+          "time": 0,
+          "tile": 305
+        },
+        {
+          "time": 0.233331,
+          "tile": 605
+        },
+        {
+          "time": 0.99999,
+          "tile": 305
+        },
+        {
+          "time": 1.299987,
+          "tile": 205
+        },
+        {
+          "time": 3.499965,
+          "tile": 305
+        },
+        {
+          "time": 5.433279,
+          "tile": 402
+        },
+        {
+          "time": 8.099919,
+          "tile": 604
+        }
+      ],
+      "CH0291_Cafe_Walk--6863abb94d05452c": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "CH0291_Victory_Start--1ef7f51288c28538": [
+        {
+          "time": 0,
+          "tile": 604
+        },
+        {
+          "time": 0.3,
+          "tile": 402
+        },
+        {
+          "time": 1.0333334,
+          "tile": 604
+        },
+        {
+          "time": 1.7333333,
+          "tile": 705
+        },
+        {
+          "time": 2.2,
+          "tile": 704
+        }
+      ],
+      "CH0291_Normal_Reload--26ccd1759e8b0b24": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "CH0291_Formation_Pickup--62a0534d67c40716": [
+        {
+          "time": 0,
+          "tile": 604
+        },
+        {
+          "time": 0.6333334,
+          "tile": 402
+        },
+        {
+          "time": 2.2,
+          "tile": 305
+        },
+        {
+          "time": 3.9,
+          "tile": 604
+        }
+      ],
+      "CH0291_Vital_Panic--e3f0ffdad32e6065": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ],
+      "CH0291_Public01--ff85645e69499a0e": [
+        {
+          "time": 0,
+          "tile": 305
+        },
+        {
+          "time": 0.266664,
+          "tile": 305
+        },
+        {
+          "time": 0.866658,
+          "tile": 506
+        },
+        {
+          "time": 1.133322,
+          "tile": 506
+        },
+        {
+          "time": 1.299987,
+          "tile": 205
+        },
+        {
+          "time": 2.033313,
+          "tile": 506
+        },
+        {
+          "time": 2.1999779,
+          "tile": 606
+        },
+        {
+          "time": 2.733306,
+          "tile": 403
+        },
+        {
+          "time": 5.833275,
+          "tile": 604
+        }
+      ],
+      "CH0291_Normal_Callsign--cbe87e4598541b2d": [
+        {
+          "time": 0,
+          "tile": 604
+        },
+        {
+          "time": 0.7333334,
+          "tile": 305
+        },
+        {
+          "time": 0.90000004,
+          "tile": 402
+        },
+        {
+          "time": 1.3333335,
+          "tile": 604
+        }
+      ],
+      "CH0291_Normal_Attack_Start--fab71746d3679b98": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "CH0291_Kneel_Attack_Delay--c2ebb757ef8405b3": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "CH0291_Move_End_Normal--b9793bb9fb4279d8": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "CH0291_Normal_Attack_Ing--a7ce11257e12e7c5": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "CH0291_Normal_Attack_Delay--a676781358fe0f76": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "CH0291_Victory_End--a2ceb5ee6a28cdf4": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0291_Normal_Attack_End--90d1bdffe95c72a7": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "CH0291_Exs--81940d4e7d54208a": [
+        {
+          "time": 0,
+          "tile": 604
+        },
+        {
+          "time": 3.166635,
+          "tile": 604
+        },
+        {
+          "time": 3.499965,
+          "tile": 402
+        },
+        {
+          "time": 4.266624,
+          "tile": 604
+        }
+      ],
+      "CH0291_Formation_Idle_Random--10bd17d864975e88": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "CH0291_Kneel_Attack_End--11fdf1a891b70e3e": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "CH0291_Vital_Death--19ce128f6eb3ba3f": [
+        {
+          "time": 0,
+          "tile": 604
+        },
+        {
+          "time": 0.16666667,
+          "tile": 605
+        },
+        {
+          "time": 0.6,
+          "tile": 607
+        },
+        {
+          "time": 1.1,
+          "tile": 402
+        },
+        {
+          "time": 1.3333334,
+          "tile": 305
+        }
+      ],
+      "CH0291_Move_End_Kneel--23371b45a2da9361": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "CH0291_Exs_Cutin_03--24b1378b4faf0b81": [
+        {
+          "time": 0,
+          "tile": 403
+        },
+        {
+          "time": 0.6666667,
+          "tile": 607
+        },
+        {
+          "time": 1.6666666,
+          "tile": 305
+        },
+        {
+          "time": 2.0333335,
+          "tile": 507
+        }
+      ],
+      "CH0291_Normal_Idle--2e31bb71b2f83c69": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "CH0291_Vital_Retreat--329c2361b16e2289": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "CH0291_Kneel_Attack_Ing--404db3988af3bcbd": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "CH0291_Formation_Idle--4cc1cae058beda4a": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0291_Kneel_Attack_Start--4d55dff96b4a7275": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "CH0291_Exs_Cutin_02--4e3931c172c1688e": [
+        {
+          "time": 0,
+          "tile": 607
+        },
+        {
+          "time": 0.70000005,
+          "tile": 507
+        },
+        {
+          "time": 1.2666668,
+          "tile": 607
+        },
+        {
+          "time": 1.6333334,
+          "tile": 507
+        },
+        {
+          "time": 1.9000001,
+          "tile": 607
+        },
+        {
+          "time": 2.3000002,
+          "tile": 507
+        }
+      ],
+      "CH0291_Exs_Cutin_01--9b7dd970af151ad": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "CH0291_Vital_Dying_Ing--62395ca815dfc86f": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ],
+      "CH0291_Move_Ing--681264f1280b82b7": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "CH0291_Kneel_Idle--6beefb2a65bdc902": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "CH0291_Kneel_Reload--b89f604d2863621": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210376_0",
+      "name": "打西瓜套装",
+      "model": "f210376_0.glb",
+      "clip": "f210376_0",
+      "duration": 14.0,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 704
+        },
+        {
+          "time": 0.499995,
+          "tile": 706
+        },
+        {
+          "time": 0.933324,
+          "tile": 403
+        },
+        {
+          "time": 2.733306,
+          "tile": 704
+        },
+        {
+          "time": 3.166635,
+          "tile": 706
+        },
+        {
+          "time": 3.499965,
+          "tile": 403
+        },
+        {
+          "time": 5.3999457,
+          "tile": 704
+        },
+        {
+          "time": 5.566611,
+          "tile": 706
+        },
+        {
+          "time": 5.899941,
+          "tile": 403
+        },
+        {
+          "time": 6.599934,
+          "tile": 706
+        },
+        {
+          "time": 6.966597,
+          "tile": 403
+        },
+        {
+          "time": 8.366583,
+          "tile": 706
+        },
+        {
+          "time": 8.766579,
+          "tile": 604
+        },
+        {
+          "time": 8.99991,
+          "tile": 402
+        },
+        {
+          "time": 10.933224,
+          "tile": 704
+        },
+        {
+          "time": 11.399886,
+          "tile": 606
+        },
+        {
+          "time": 11.899881,
+          "tile": 403
+        },
+        {
+          "time": 13.533198,
+          "tile": 704
+        }
+      ],
+      "yaw": 2.356194490192345,
+      "sourceTimeline": "my_event082_breakingwatermelon",
+      "sourceGroup": "MakeTrack_10124",
+      "sourceStudentTrack": "10124"
+    },
+    {
+      "id": "f210376_1",
+      "name": "打西瓜套装（双人）",
+      "model": "f210376_1.glb",
+      "clip": "f210376_1",
+      "duration": 25.9,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 401
+        },
+        {
+          "time": 4.166625,
+          "tile": 605
+        },
+        {
+          "time": 4.766619,
+          "tile": 604
+        },
+        {
+          "time": 5.233281,
+          "tile": 402
+        },
+        {
+          "time": 5.899941,
+          "tile": 305
+        },
+        {
+          "time": 6.866598,
+          "tile": 507
+        },
+        {
+          "time": 8.099919,
+          "tile": 402
+        },
+        {
+          "time": 13.099869,
+          "tile": 602
+        },
+        {
+          "time": 16.533169,
+          "tile": 402
+        },
+        {
+          "time": 17.23316,
+          "tile": 201
+        },
+        {
+          "time": 19.09981,
+          "tile": 602
+        },
+        {
+          "time": 22.199778,
+          "tile": 604
+        },
+        {
+          "time": 22.466442,
+          "tile": 504
+        },
+        {
+          "time": 22.66644,
+          "tile": 305
+        },
+        {
+          "time": 24.399755,
+          "tile": 401
+        }
+      ],
+      "note": "与一花 · 泳装同步互动。",
+      "yaw": 0.942477796076938,
+      "sourceTimeline": "my_event082_breakingwatermelon",
+      "sourceGroup": "RequiredTrack_26015_10124",
+      "sourceStudentTrack": "10124"
+    }
+  ]
+}

@@ -1,0 +1,506 @@
+{
+  "id": "akane",
+  "name": "茜 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Akane_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Akane_Original_Cafe_Idle--1ce1d41c62a763a",
+    "interact": "Akane_Original_Cafe_Reaction--b30295251eb3720b"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Akane_Original_Cafe_Idle--1ce1d41c62a763a",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Akane_Original_Cafe_Reaction--b30295251eb3720b",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Akane_Original_Cafe_Walk--6d110aba82bf3376",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Akane_Original_Victory_Start--63035de6f33e6e8e",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Akane_Original_Normal_Reload--c9d5abb56eec002a",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Akane_Original_Formation_Pickup--7405d0b4f4ecc1a7",
+      "category": "常用"
+    },
+    {
+      "id": "original_kneel_callsign",
+      "label": "蹲姿 · 回应",
+      "clip": "Akane_Original_Kneel_Callsign--f21f0690a1fd8c4f",
+      "sourceName": "Akane_Original_Kneel_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Akane_Original_Move_End_Normal--ea36e1bc845da712",
+      "sourceName": "Akane_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Akane_Original_Kneel_Attack_End--e50588a8e0b0c39c",
+      "sourceName": "Akane_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_callsign",
+      "label": "移动 · 回应",
+      "clip": "Akane_Original_Move_Callsign--e1d2917bf50e55c1",
+      "sourceName": "Akane_Original_Move_Callsign",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Akane_Original_Vital_Panic--dfd863d8bef6a862",
+      "sourceName": "Akane_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Akane_Original_Normal_Attack_End--d8473f52b2a1627d",
+      "sourceName": "Akane_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Akane_Original_Kneel_Attack_Start--d7daccd933d7bd28",
+      "sourceName": "Akane_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_start",
+      "label": "掩体站姿 · 攻击 · 开始",
+      "clip": "Akane_Original_Stand_Attack_Start--bde4080994e10894",
+      "sourceName": "Akane_Original_Stand_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Akane_Original_Public01--bcc1770c76d91171",
+      "sourceName": "Akane_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_stand_callsign",
+      "label": "掩体站姿 · 回应",
+      "clip": "Akane_Original_Stand_Callsign--9f1a0bc206f1a247",
+      "sourceName": "Akane_Original_Stand_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Akane_Original_Kneel_Reload--f6398ec026696ff9",
+      "sourceName": "Akane_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_ing",
+      "label": "掩体站姿 · 攻击 · 持续",
+      "clip": "Akane_Original_Stand_Attack_Ing--97d7b352a42dac05",
+      "sourceName": "Akane_Original_Stand_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Akane_Original_Normal_Attack_Ing--9571b961e834d33b",
+      "sourceName": "Akane_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Akane_Original_Vital_Retreat--93ad039e875276fd",
+      "sourceName": "Akane_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_idle",
+      "label": "掩体站姿 · 待机",
+      "clip": "Akane_Original_Stand_Idle--91a0cf6de008c710",
+      "sourceName": "Akane_Original_Stand_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_stand",
+      "label": "移动 · 结束 · 掩体站姿",
+      "clip": "Akane_Original_Move_End_Stand--f4e0bedc2a8847ce",
+      "sourceName": "Akane_Original_Move_End_Stand",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Akane_Original_Normal_Idle--820c7d575e3a340a",
+      "sourceName": "Akane_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Akane_Original_Vital_Death--f311d9eab2f0495d",
+      "sourceName": "Akane_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Akane_Original_Move_Ing--1829ae5f072351e2",
+      "sourceName": "Akane_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_stand_reload",
+      "label": "掩体站姿 · 换弹",
+      "clip": "Akane_Original_Stand_Reload--1bf32428fa0175b6",
+      "sourceName": "Akane_Original_Stand_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Akane_Original_Move_End_Kneel--2b05fb283efbe883",
+      "sourceName": "Akane_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Akane_Original_Exs--330c15badf952cdd",
+      "sourceName": "Akane_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Akane_Original_Victory_End--4bc6034eb69048b8",
+      "sourceName": "Akane_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Akane_Original_Kneel_Attack_Ing--5277b0e055e9bfe3",
+      "sourceName": "Akane_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Akane_Original_Normal_Attack_Start--5778d2bd611989f5",
+      "sourceName": "Akane_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Akane_Original_Vital_Dying_Ing--5a898d4b36866c86",
+      "sourceName": "Akane_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "Akane_Original_Move_Jump--649a07be4657641a",
+      "sourceName": "Akane_Original_Move_Jump",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Akane_Original_Kneel_Idle--6aa78c77df0a39ec",
+      "sourceName": "Akane_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_end",
+      "label": "掩体站姿 · 攻击 · 结束",
+      "clip": "Akane_Original_Stand_Attack_End--749bce27cbb061b7",
+      "sourceName": "Akane_Original_Stand_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Akane_Original_Normal_Attack_Delay--c243b2ff98ff2d38",
+      "sourceName": "Akane_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Akane_Original_Formation_Idle--c1fb4be96514cefa",
+      "sourceName": "Akane_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Akane_Original_Kneel_Attack_Delay--87ff97b5c4d97661",
+      "sourceName": "Akane_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Akane_Original_Normal_Callsign--615852941784bfc3",
+      "sourceName": "Akane_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_delay",
+      "label": "掩体站姿 · 攻击 · 间隔",
+      "clip": "Akane_Original_Stand_Attack_Delay--73f73d02f84beb6d",
+      "sourceName": "Akane_Original_Stand_Attack_Delay",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Akane_Original_Mouth",
+    "defaultTile": 704,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "Akane_Original_Cafe_Idle--1ce1d41c62a763a": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Akane_Original_Cafe_Reaction--b30295251eb3720b": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.43333337,
+          "tile": 500
+        },
+        {
+          "time": 0.76666677,
+          "tile": 704
+        }
+      ],
+      "Akane_Original_Cafe_Walk--6d110aba82bf3376": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Akane_Original_Victory_Start--63035de6f33e6e8e": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.9333334,
+          "tile": 402
+        },
+        {
+          "time": 0.9666667,
+          "tile": 505
+        },
+        {
+          "time": 1.1666667,
+          "tile": 402
+        },
+        {
+          "time": 1.7,
+          "tile": 704
+        },
+        {
+          "time": 1.7666668,
+          "tile": 500
+        },
+        {
+          "time": 2.1666667,
+          "tile": 704
+        }
+      ],
+      "Akane_Original_Normal_Reload--c9d5abb56eec002a": [],
+      "Akane_Original_Formation_Pickup--7405d0b4f4ecc1a7": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.3666668,
+          "tile": 704
+        }
+      ],
+      "Akane_Original_Kneel_Callsign--f21f0690a1fd8c4f": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.26666668,
+          "tile": 705
+        },
+        {
+          "time": 0.40000004,
+          "tile": 704
+        }
+      ],
+      "Akane_Original_Move_End_Normal--ea36e1bc845da712": [],
+      "Akane_Original_Kneel_Attack_End--e50588a8e0b0c39c": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Akane_Original_Move_Callsign--e1d2917bf50e55c1": [],
+      "Akane_Original_Vital_Panic--dfd863d8bef6a862": [
+        {
+          "time": 0,
+          "tile": 502
+        }
+      ],
+      "Akane_Original_Normal_Attack_End--d8473f52b2a1627d": [],
+      "Akane_Original_Kneel_Attack_Start--d7daccd933d7bd28": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Akane_Original_Stand_Attack_Start--bde4080994e10894": [],
+      "Akane_Original_Public01--bcc1770c76d91171": [],
+      "Akane_Original_Stand_Callsign--9f1a0bc206f1a247": [],
+      "Akane_Original_Kneel_Reload--f6398ec026696ff9": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Akane_Original_Stand_Attack_Ing--97d7b352a42dac05": [],
+      "Akane_Original_Normal_Attack_Ing--9571b961e834d33b": [],
+      "Akane_Original_Vital_Retreat--93ad039e875276fd": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ],
+      "Akane_Original_Stand_Idle--91a0cf6de008c710": [],
+      "Akane_Original_Move_End_Stand--f4e0bedc2a8847ce": [],
+      "Akane_Original_Normal_Idle--820c7d575e3a340a": [],
+      "Akane_Original_Vital_Death--f311d9eab2f0495d": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ],
+      "Akane_Original_Move_Ing--1829ae5f072351e2": [],
+      "Akane_Original_Stand_Reload--1bf32428fa0175b6": [],
+      "Akane_Original_Move_End_Kneel--2b05fb283efbe883": [
+        {
+          "time": 0,
+          "tile": 502
+        },
+        {
+          "time": 0.6333333,
+          "tile": 704
+        }
+      ],
+      "Akane_Original_Exs--330c15badf952cdd": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.26666668,
+          "tile": 500
+        },
+        {
+          "time": 0.3,
+          "tile": 501
+        },
+        {
+          "time": 1.0666667,
+          "tile": 500
+        },
+        {
+          "time": 1.1,
+          "tile": 704
+        },
+        {
+          "time": 4.8333335,
+          "tile": 705
+        },
+        {
+          "time": 5.566667,
+          "tile": 704
+        }
+      ],
+      "Akane_Original_Victory_End--4bc6034eb69048b8": [],
+      "Akane_Original_Kneel_Attack_Ing--5277b0e055e9bfe3": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Akane_Original_Normal_Attack_Start--5778d2bd611989f5": [],
+      "Akane_Original_Vital_Dying_Ing--5a898d4b36866c86": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ],
+      "Akane_Original_Move_Jump--649a07be4657641a": [],
+      "Akane_Original_Kneel_Idle--6aa78c77df0a39ec": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Akane_Original_Stand_Attack_End--749bce27cbb061b7": [],
+      "Akane_Original_Normal_Attack_Delay--c243b2ff98ff2d38": [],
+      "Akane_Original_Formation_Idle--c1fb4be96514cefa": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Akane_Original_Kneel_Attack_Delay--87ff97b5c4d97661": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Akane_Original_Normal_Callsign--615852941784bfc3": [],
+      "Akane_Original_Stand_Attack_Delay--73f73d02f84beb6d": []
+    }
+  }
+}

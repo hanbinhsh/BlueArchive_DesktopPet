@@ -1,0 +1,196 @@
+{
+  "id": "yoshimi",
+  "name": "好美 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Yoshimi_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Yoshimi_Original_Cafe_Idle--71eefc3fd45ef994",
+    "interact": "Yoshimi_Original_Cafe_Reaction--d7428b5f3158b5d1"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Yoshimi_Original_Cafe_Idle--71eefc3fd45ef994",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Yoshimi_Original_Cafe_Reaction--d7428b5f3158b5d1",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Yoshimi_Original_Cafe_Walk--e53838d4b8187b4f",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Yoshimi_Original_Formation_Pickup--747b4aa1e3038a54",
+      "category": "常用"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "Yoshimi_Original_Tactical_Start--fb276384a79939b1",
+      "sourceName": "Yoshimi_Original_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Yoshimi_Original_Formation_Idle--3862f35b0b7b848a",
+      "sourceName": "Yoshimi_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Yoshimi_Original_Exs_Cutin--3a2ae3d6512daca1",
+      "sourceName": "Yoshimi_Original_Exs_Cutin",
+      "category": "技能"
+    }
+  ],
+  "mouth": {
+    "material": "Yoshimi_Original_Mouth",
+    "defaultTile": 602,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.25,
+      0.75
+    ],
+    "events": {
+      "Yoshimi_Original_Cafe_Idle--71eefc3fd45ef994": [
+        {
+          "time": 0,
+          "tile": 604
+        },
+        {
+          "time": 1.6333334,
+          "tile": 604
+        }
+      ],
+      "Yoshimi_Original_Cafe_Reaction--d7428b5f3158b5d1": [
+        {
+          "time": 0,
+          "tile": 604
+        },
+        {
+          "time": 0.16666667,
+          "tile": 507
+        },
+        {
+          "time": 0.53333336,
+          "tile": 402
+        },
+        {
+          "time": 2.7,
+          "tile": 604
+        },
+        {
+          "time": 3.3333335,
+          "tile": 604
+        }
+      ],
+      "Yoshimi_Original_Cafe_Walk--e53838d4b8187b4f": [
+        {
+          "time": 0,
+          "tile": 604
+        },
+        {
+          "time": 1,
+          "tile": 604
+        }
+      ],
+      "Yoshimi_Original_Formation_Pickup--747b4aa1e3038a54": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.066666,
+          "tile": 504
+        },
+        {
+          "time": 0.133332,
+          "tile": 101
+        },
+        {
+          "time": 1.166655,
+          "tile": 305
+        },
+        {
+          "time": 1.833315,
+          "tile": 400
+        },
+        {
+          "time": 2.499975,
+          "tile": 400
+        },
+        {
+          "time": 2.866638,
+          "tile": 602
+        },
+        {
+          "time": 3.266634,
+          "tile": 602
+        },
+        {
+          "time": 7.599924,
+          "tile": 602
+        },
+        {
+          "time": 8.566581,
+          "tile": 402
+        }
+      ],
+      "Yoshimi_Original_Tactical_Start--fb276384a79939b1": [
+        {
+          "time": 0,
+          "tile": 604
+        },
+        {
+          "time": 0.5666667,
+          "tile": 604
+        },
+        {
+          "time": 2,
+          "tile": 604
+        }
+      ],
+      "Yoshimi_Original_Formation_Idle--3862f35b0b7b848a": [
+        {
+          "time": 0,
+          "tile": 602
+        }
+      ],
+      "Yoshimi_Original_Exs_Cutin--3a2ae3d6512daca1": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.6,
+          "tile": 507
+        },
+        {
+          "time": 1.2333333,
+          "tile": 607
+        },
+        {
+          "time": 2.4333334,
+          "tile": 602
+        }
+      ]
+    }
+  }
+}

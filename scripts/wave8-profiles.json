@@ -1,0 +1,31 @@
+{
+  "natsu_band_relax": {
+    "exportDirectory": "natsu_nonweapon-restored",
+    "note": "乐队服的场景形态，使用原版休息、伸懒腰动画；桌椅与鼓的动作需在配套家具中播放。没有提起动画。",
+    "actions": [["idle","休息待机","CH0221_NonWeapon_Idle"],["interact","伸懒腰","CH0221_NonWeapon_Stretching"]]
+  },
+  "yuuka_pajama": {
+    "exportDirectory": "yuuka_pajama-restored",
+    "actions": [["idle","待机","CH0284_Cafe_Idle"],["interact","咖啡厅互动","CH0284_Cafe_Reaction"],["walk","走路","CH0284_Cafe_Walk"],["victory","胜利","CH0284_Victory_Start"],["reload","换弹","CH0284_Normal_Reload"],["pickup","编队提起","CH0284_Formation_Pickup"]]
+  },
+  "aris_battle_carrier": {
+    "exportDirectory": "costume-variants",
+    "note": "临战的携带武器形态，使用独立的原版待机和走路动作；单击播放走路，无提起动画。",
+    "actions": [["idle","携带待机","CH0334_Carrier_Idle"],["interact","携带走路","CH0334_Carrier_Walk"],["walk","携带走路","CH0334_Carrier_Walk"]]
+  },
+  "kei_carrier": {
+    "exportDirectory": "costume-variants",
+    "note": "与原版同一服装，携带道具的独立场景形态；单击播放走路，无提起动画。",
+    "actions": [["idle","携带待机","CH0335_Carrier2_Idle"],["interact","携带走路","CH0335_Carrier2_Walk"],["walk","携带走路","CH0335_Carrier2_Walk"]]
+  },
+  "kei_combat_story": {
+    "exportDirectory": "costume-variants",
+    "note": "与原版同一服装，使用剧情预制体的武器和战斗动作；无提起动画。",
+    "actions": [["idle","剧情战斗待机","CH0335_Scenario_02_Normal_Idle"],["interact","武器整备","CH0335_Scenario_02_Normal_Reload"],["walk","移动","CH0335_Scenario_02_Move_Ing"]]
+  },
+  "toki_battle_story": {
+    "exportDirectory": "costume-variants",
+    "note": "与临战同一服装，保留剧情版的道具和动作；无提起动画。",
+    "actions": [["idle","剧情战斗待机","CH0333_Scenario_Normal_Idle"],["interact","武器整备","CH0333_Scenario_Normal_Reload"],["walk","移动","CH0333_Scenario_Move_Ing"]]
+  }
+}

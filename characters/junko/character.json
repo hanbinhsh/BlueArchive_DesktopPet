@@ -1,0 +1,525 @@
+{
+  "id": "junko",
+  "name": "纯子 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Zunko_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Zunko_Original_Cafe_Idle--75a7a21a15cdf153",
+    "interact": "Zunko_Original_Cafe_Reaction--71664ec49ca1919a"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Zunko_Original_Cafe_Idle--75a7a21a15cdf153",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Zunko_Original_Cafe_Reaction--71664ec49ca1919a",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Zunko_Original_Cafe_Walk--95fdfc94b16b602b",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Zunko_Original_Victory_Start--b4bb5383b1d4ef5a",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Zunko_Original_Normal_Reload--8724ac5608355bf9",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Zunko_Original_Formation_Pickup--8f1337637f5b458d",
+      "category": "常用"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Zunko_Original_Vital_Dying_Ing--ec1f05731016821d",
+      "sourceName": "Zunko_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_stand",
+      "label": "移动 · 结束 · 掩体站姿",
+      "clip": "Zunko_Original_Move_End_Stand--e492db490acfa4fb",
+      "sourceName": "Zunko_Original_Move_End_Stand",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Zunko_Original_Kneel_Attack_Ing--da85f29bb0a7be98",
+      "sourceName": "Zunko_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_end",
+      "label": "掩体站姿 · 攻击 · 结束",
+      "clip": "Zunko_Original_Stand_Attack_End--d0c9b38ed51d30f8",
+      "sourceName": "Zunko_Original_Stand_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Zunko_Original_Kneel_Idle--cb868248741c1335",
+      "sourceName": "Zunko_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Zunko_Original_Normal_Idle--c933cc1b7ed755a7",
+      "sourceName": "Zunko_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_start",
+      "label": "掩体站姿 · 攻击 · 开始",
+      "clip": "Zunko_Original_Stand_Attack_Start--c0d0b901c57b668d",
+      "sourceName": "Zunko_Original_Stand_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_delay",
+      "label": "掩体站姿 · 攻击 · 间隔",
+      "clip": "Zunko_Original_Stand_Attack_Delay--ba80c73a40bb5519",
+      "sourceName": "Zunko_Original_Stand_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Zunko_Original_Kneel_Reload--adcad5b2077faa0a",
+      "sourceName": "Zunko_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Zunko_Original_Normal_Attack_Start--a3cec9f1c1dc868d",
+      "sourceName": "Zunko_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Zunko_Original_Public01--17a48205be787b0e",
+      "sourceName": "Zunko_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Zunko_Original_Move_Ing--1bad5af9333e48b3",
+      "sourceName": "Zunko_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Zunko_Original_Normal_Attack_End--221bad868dea6736",
+      "sourceName": "Zunko_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Zunko_Original_Kneel_Attack_End--244351fbb198abc0",
+      "sourceName": "Zunko_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_idle",
+      "label": "掩体站姿 · 待机",
+      "clip": "Zunko_Original_Stand_Idle--2a31c96eb837ebff",
+      "sourceName": "Zunko_Original_Stand_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Zunko_Original_Kneel_Attack_Delay--320e815037a5edda",
+      "sourceName": "Zunko_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Zunko_Original_Vital_Panic--41e35870967d226d",
+      "sourceName": "Zunko_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Zunko_Original_Victory_End--41f736a26d1a058e",
+      "sourceName": "Zunko_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_stand_reload",
+      "label": "掩体站姿 · 换弹",
+      "clip": "Zunko_Original_Stand_Reload--4d0fc8c40746b690",
+      "sourceName": "Zunko_Original_Stand_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Zunko_Original_Kneel_Attack_Start--52c4a13d15fc553f",
+      "sourceName": "Zunko_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "Zunko_Original_Move_Jump--58421cd1c8aee939",
+      "sourceName": "Zunko_Original_Move_Jump",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Zunko_Original_Vital_Retreat--592200c07fcd8f27",
+      "sourceName": "Zunko_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Zunko_Original_Formation_Idle--93b097ecb9528a2",
+      "sourceName": "Zunko_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Zunko_Original_Normal_Callsign--970e0fb6167a4e9",
+      "sourceName": "Zunko_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Zunko_Original_Normal_Attack_Delay--5e6a21a6efa42a44",
+      "sourceName": "Zunko_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Zunko_Original_Exs--68d4ab4850d5f365",
+      "sourceName": "Zunko_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_stand_attack_ing",
+      "label": "掩体站姿 · 攻击 · 持续",
+      "clip": "Zunko_Original_Stand_Attack_Ing--6e759e0f987ae9f7",
+      "sourceName": "Zunko_Original_Stand_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Zunko_Original_Move_End_Kneel--6ef0ea86c5ff4cde",
+      "sourceName": "Zunko_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Zunko_Original_Move_End_Normal--71ad01d2e0889d82",
+      "sourceName": "Zunko_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Zunko_Original_Vital_Death--7500b8462be4aa1a",
+      "sourceName": "Zunko_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Zunko_Original_Normal_Attack_Ing--770ae15f5b2f5007",
+      "sourceName": "Zunko_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Zunko_Original_Mouth",
+    "defaultTile": 404,
+    "events": {
+      "Zunko_Original_Cafe_Idle--75a7a21a15cdf153": [],
+      "Zunko_Original_Cafe_Reaction--71664ec49ca1919a": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.16666667,
+          "tile": 603
+        },
+        {
+          "time": 1.2666668,
+          "tile": 701
+        },
+        {
+          "time": 2.4333334,
+          "tile": 404
+        }
+      ],
+      "Zunko_Original_Cafe_Walk--95fdfc94b16b602b": [],
+      "Zunko_Original_Victory_Start--b4bb5383b1d4ef5a": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.23333335,
+          "tile": 301
+        },
+        {
+          "time": 0.9666667,
+          "tile": 402
+        },
+        {
+          "time": 1.7333335,
+          "tile": 702
+        },
+        {
+          "time": 1.7666668,
+          "tile": 601
+        }
+      ],
+      "Zunko_Original_Normal_Reload--8724ac5608355bf9": [],
+      "Zunko_Original_Formation_Pickup--8f1337637f5b458d": [
+        {
+          "time": 0,
+          "tile": 601
+        }
+      ],
+      "Zunko_Original_Vital_Dying_Ing--ec1f05731016821d": [],
+      "Zunko_Original_Move_End_Stand--e492db490acfa4fb": [],
+      "Zunko_Original_Kneel_Attack_Ing--da85f29bb0a7be98": [],
+      "Zunko_Original_Stand_Attack_End--d0c9b38ed51d30f8": [],
+      "Zunko_Original_Kneel_Idle--cb868248741c1335": [],
+      "Zunko_Original_Normal_Idle--c933cc1b7ed755a7": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Zunko_Original_Stand_Attack_Start--c0d0b901c57b668d": [],
+      "Zunko_Original_Stand_Attack_Delay--ba80c73a40bb5519": [],
+      "Zunko_Original_Kneel_Reload--adcad5b2077faa0a": [],
+      "Zunko_Original_Normal_Attack_Start--a3cec9f1c1dc868d": [],
+      "Zunko_Original_Public01--17a48205be787b0e": [
+        {
+          "time": 0,
+          "tile": 607
+        },
+        {
+          "time": 0.4666667,
+          "tile": 601
+        }
+      ],
+      "Zunko_Original_Move_Ing--1bad5af9333e48b3": [],
+      "Zunko_Original_Normal_Attack_End--221bad868dea6736": [],
+      "Zunko_Original_Kneel_Attack_End--244351fbb198abc0": [],
+      "Zunko_Original_Stand_Idle--2a31c96eb837ebff": [],
+      "Zunko_Original_Kneel_Attack_Delay--320e815037a5edda": [],
+      "Zunko_Original_Vital_Panic--41e35870967d226d": [],
+      "Zunko_Original_Victory_End--41f736a26d1a058e": [
+        {
+          "time": 0,
+          "tile": 601
+        }
+      ],
+      "Zunko_Original_Stand_Reload--4d0fc8c40746b690": [],
+      "Zunko_Original_Kneel_Attack_Start--52c4a13d15fc553f": [],
+      "Zunko_Original_Move_Jump--58421cd1c8aee939": [],
+      "Zunko_Original_Vital_Retreat--592200c07fcd8f27": [],
+      "Zunko_Original_Formation_Idle--93b097ecb9528a2": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Zunko_Original_Normal_Callsign--970e0fb6167a4e9": [],
+      "Zunko_Original_Normal_Attack_Delay--5e6a21a6efa42a44": [],
+      "Zunko_Original_Exs--68d4ab4850d5f365": [
+        {
+          "time": 0,
+          "tile": 702
+        },
+        {
+          "time": 0.26666668,
+          "tile": 506
+        },
+        {
+          "time": 0.8000001,
+          "tile": 601
+        },
+        {
+          "time": 2.266667,
+          "tile": 604
+        },
+        {
+          "time": 3.2000003,
+          "tile": 404
+        }
+      ],
+      "Zunko_Original_Stand_Attack_Ing--6e759e0f987ae9f7": [],
+      "Zunko_Original_Move_End_Kneel--6ef0ea86c5ff4cde": [],
+      "Zunko_Original_Move_End_Normal--71ad01d2e0889d82": [],
+      "Zunko_Original_Vital_Death--7500b8462be4aa1a": [],
+      "Zunko_Original_Normal_Attack_Ing--770ae15f5b2f5007": []
+    }
+  },
+  "furniture": [
+    {
+      "id": "f5203_0",
+      "name": "万圣节南瓜甜点桌",
+      "model": "f5203_0.glb",
+      "clip": "f5203_0",
+      "duration": 33.5,
+      "mouthEvents": [
+        {
+          "time": 2.914335439641036e-16,
+          "tile": 302
+        },
+        {
+          "time": 4,
+          "tile": 302
+        },
+        {
+          "time": 4,
+          "tile": 302
+        },
+        {
+          "time": 8,
+          "tile": 302
+        },
+        {
+          "time": 8,
+          "tile": 302
+        },
+        {
+          "time": 11.999999999999996,
+          "tile": 302
+        },
+        {
+          "time": 12,
+          "tile": 302
+        },
+        {
+          "time": 12.400000039999997,
+          "tile": 604
+        },
+        {
+          "time": 13.266666799999996,
+          "tile": 302
+        },
+        {
+          "time": 13.999999999999996,
+          "tile": 302
+        },
+        {
+          "time": 13.999999999999996,
+          "tile": 302
+        },
+        {
+          "time": 17.999999999999964,
+          "tile": 302
+        },
+        {
+          "time": 17.999999999999996,
+          "tile": 302
+        },
+        {
+          "time": 21.999999999999964,
+          "tile": 302
+        },
+        {
+          "time": 21.999999999999964,
+          "tile": 302
+        },
+        {
+          "time": 22.400000039999963,
+          "tile": 604
+        },
+        {
+          "time": 23.266666799999964,
+          "tile": 302
+        },
+        {
+          "time": 23.999999999999964,
+          "tile": 302
+        },
+        {
+          "time": 23.999999999999986,
+          "tile": 302
+        },
+        {
+          "time": 24.533333359999986,
+          "tile": 600
+        },
+        {
+          "time": 25.500000099999987,
+          "tile": 702
+        },
+        {
+          "time": 26.300000199999985,
+          "tile": 403
+        },
+        {
+          "time": 26.800000199999985,
+          "tile": 601
+        },
+        {
+          "time": 27.833333499999988,
+          "tile": 702
+        },
+        {
+          "time": 29.466666999999987,
+          "tile": 504
+        },
+        {
+          "time": 30.166666999999986,
+          "tile": 702
+        },
+        {
+          "time": 30.900000599999984,
+          "tile": 402
+        },
+        {
+          "time": 33.200000999999986,
+          "tile": 302
+        }
+      ],
+      "yaw": 1.8849555921538759
+    }
+  ]
+}

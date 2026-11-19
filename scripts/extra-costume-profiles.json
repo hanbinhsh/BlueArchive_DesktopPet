@@ -1,0 +1,87 @@
+{
+  "momoi_coat": {
+    "exportDirectory": "extra-costumes",
+    "recenterTranslations": {"node":"Bip001","clips":["NP0267_Interaction01","NP0267_Interaction02","NP0267_Interaction01_Idle"]},
+    "note": "剧情中的白色外套。没有提起动作，拖动时保持待机。",
+    "actions": [
+      ["idle", "待机", "NP0267_Idle"],
+      ["interact", "原版互动 1", "NP0267_Interaction01"],
+      ["reaction2", "原版互动 2", "NP0267_Interaction02"],
+      ["relax", "互动待机", "NP0267_Interaction01_Idle"],
+      ["walk", "走路", "NP0267_Walk"]
+    ]
+  },
+  "midori_coat": {
+    "exportDirectory": "extra-costumes",
+    "recenterTranslations": {"node":"Bip001","clips":["NP0268_Interaction01"]},
+    "note": "剧情中的白色外套。没有提起动作，拖动时保持待机。",
+    "actions": [
+      ["idle", "待机", "NP0268_Idle"],
+      ["interact", "原版互动", "NP0268_Interaction01"],
+      ["walk", "走路", "NP0268_Walk"]
+    ]
+  },
+  "hina_pajamas": {
+    "exportDirectory": "extra-costumes",
+    "prefabName": "Field_Player_NP0009",
+    "note": "场景中的睡衣外观，使用专属场景动作。没有提起动作，拖动时保持待机。",
+    "actions": [
+      ["idle", "待机", "Field_Player_NP0009_Normal_Idle"],
+      ["interact", "场景互动", "Field_Player_NP0009_Field_Interaction"],
+      ["think", "思考", "Field_Player_NP0009_Normal_Idle_Think"],
+      ["get_item", "拾取物品", "Field_Player_NP0009_Field_Get_Item"],
+      ["walk", "走路", "Field_Player_NP0009_Walk_Ing"]
+    ]
+  },
+  "kei_story": {
+    "exportDirectory": "extra-costumes",
+    "note": "白色剧情服，保留持武器的原版动作。没有提起动作，拖动时保持待机。",
+    "actions": [
+      ["idle", "待机", "CH0335_Scenario_01_Normal_Idle"],
+      ["interact", "武器整备", "CH0335_Scenario_01_Normal_Reload"],
+      ["attack", "原版攻击姿态", "CH0335_Scenario_01_Normal_Attack_Ing"],
+      ["walk", "移动", "CH0335_Scenario_01_Move_Ing"]
+    ]
+  },
+  "aris_battle_light": {
+    "exportDirectory": "extra-costumes",
+    "note": "临战的轻装剧情形态。没有提起动作，拖动时保持待机。",
+    "actions": [
+      ["idle", "待机", "CH0334_Scenario_Normal_Idle"],
+      ["interact", "武器整备", "CH0334_Scenario_Normal_Reload"],
+      ["attack", "原版攻击姿态", "CH0334_Scenario_Normal_Attack_Ing"],
+      ["walk", "移动", "CH0334_Scenario_Move_Ing"]
+    ]
+  },
+  "toki_combat": {
+    "exportDirectory": "extra-costumes",
+    "note": "原版轻装战斗形态，与长裙女仆装分别选择。",
+    "actions": [
+      ["idle", "战斗待机", "CH0187_Normal_Idle01"],
+      ["interact", "原版回应", "CH0187_Normal_Callsign"],
+      ["reload", "武器整备", "CH0187_Normal_Reload01"],
+      ["walk", "移动", "CH0187_Move_Ing01"],
+      ["pickup", "编队提起", "CH0187_Formation_Pickup"]
+    ]
+  },
+  "toki_armor": {
+    "exportDirectory": "extra-costumes",
+    "note": "机械装甲战斗形态。没有提起动作，拖动时保持待机。",
+    "actions": [
+      ["idle", "装甲待机", "Toki_CNC_MG_Boss_Normal_Idle"],
+      ["interact", "武器整备", "Toki_CNC_MG_Boss_Normal_Reload"],
+      ["attack", "原版攻击姿态", "Toki_CNC_MG_Boss_Normal_Attack_Ing"],
+      ["walk", "移动", "Toki_CNC_MG_Boss_Move_Ing"]
+    ]
+  },
+  "shiroko_terror_story": {
+    "exportDirectory": "extra-costumes",
+    "note": "与 Terror 相同服装，使用剧情版光环。",
+    "actions": [
+      ["idle", "待机", "CH0263_Cafe_Idle"],
+      ["interact", "咖啡厅互动", "CH0263_Cafe_Reaction"],
+      ["walk", "走路", "CH0263_Cafe_Walk"],
+      ["pickup", "编队提起", "CH0263_Formation_Pickup"]
+    ]
+  }
+}

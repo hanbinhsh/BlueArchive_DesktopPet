@@ -1,0 +1,138 @@
+{
+  "izuna": {
+    "scale": 1,
+    "framing": {
+      "actions": {
+        "victory": {
+          "zoom": 0.62,
+          "centerY": 2
+        }
+      }
+    },
+    "note": "待机使用正常大小；胜利跳跃时镜头平滑拉远，结束后恢复。",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "Izuna_Original_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "Izuna_Original_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "Izuna_Original_Cafe_Walk"
+      ],
+      [
+        "victory",
+        "胜利动作",
+        "Izuna_Original_Victory_Start"
+      ],
+      [
+        "reload",
+        "换弹",
+        "Izuna_Original_Normal_Reload"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "Izuna_Original_Formation_Pickup"
+      ]
+    ],
+    "ignoredRendererEvents": [
+      {
+        "clip": "Izuna_Original_Victory_Start",
+        "index": 4,
+        "function": "AniEvt_EnableChildRenderer",
+        "time": 0,
+        "reason": "The current official prefab contains only four renderers (indices 0..3). This legacy enable event has no target; retain the original default visibility and all valid events."
+      },
+      {
+        "clip": "Izuna_Original_Normal_Reload",
+        "index": 4,
+        "function": "AniEvt_EnableChildRenderer",
+        "time": 0,
+        "reason": "The current official prefab contains only four renderers (indices 0..3). This legacy enable event has no target; retain the original default visibility and all valid events."
+      }
+    ]
+  },
+  "shun_swimsuit_small": {
+    "rendererEventLayout": {
+      "3": "CH0355_02_Face01_Mesh",
+      "4": "CH0355_02_Face02_Mesh"
+    },
+    "note": "泳装的幼女形态，使用自身编队及战斗动作，没有独立咖啡厅片段。",
+    "actions": [
+      [
+        "idle",
+        "编队待机",
+        "CH0355_02_Formation_Idle"
+      ],
+      [
+        "interact",
+        "原版应答动作",
+        "CH0355_02_Normal_Callsign"
+      ],
+      [
+        "walk",
+        "走路",
+        "CH0355_02_Move_Ing"
+      ],
+      [
+        "victory",
+        "胜利动作",
+        "CH0355_02_Victory_Start"
+      ],
+      [
+        "reload",
+        "换弹",
+        "CH0355_02_Normal_Reload"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0355_02_Formation_Pickup"
+      ]
+    ]
+  },
+  "hifumi": {
+    "framing": {
+      "minExtent": 0.003
+    },
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "Hihumi_Original_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "Hihumi_Original_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "Hihumi_Original_Cafe_Walk"
+      ],
+      [
+        "victory",
+        "胜利动作",
+        "Hihumi_Original_Victory_Start"
+      ],
+      [
+        "reload",
+        "换弹",
+        "Hihumi_Original_Normal_Reload"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "Hihumi_Original_Formation_Pickup"
+      ]
+    ]
+  }
+}

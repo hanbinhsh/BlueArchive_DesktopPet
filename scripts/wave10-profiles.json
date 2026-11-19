@@ -1,0 +1,62 @@
+{
+  "eimi_battle": {
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0337_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0337_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0337_Cafe_Walk"
+      ],
+      [
+        "victory",
+        "胜利动作",
+        "CH0337_Victory_Start"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0337_Formation_Pickup"
+      ]
+    ],
+    "ignoredRendererEvents": [
+      {
+        "clip": "CH0337_Cafe_Walk",
+        "index": 7,
+        "function": "AniEvt_EnableChildRenderer",
+        "time": 0,
+        "reason": "Index outside the four static/skinned renderers in the official CH0337 prefab; no guessed face/prop mapping. Particle renderers are not ported."
+      },
+      {
+        "clip": "CH0337_Cafe_Reaction",
+        "index": 7,
+        "function": "AniEvt_EnableChildRenderer",
+        "time": 0,
+        "reason": "Index outside the four static/skinned renderers in the official CH0337 prefab; no guessed face/prop mapping. Particle renderers are not ported."
+      },
+      {
+        "clip": "CH0337_Cafe_Reaction",
+        "index": 7,
+        "function": "AniEvt_EnableChildRenderer",
+        "time": 6.6666665,
+        "reason": "Index outside the four static/skinned renderers in the official CH0337 prefab; no guessed face/prop mapping. Particle renderers are not ported."
+      },
+      {
+        "clip": "CH0337_Cafe_Idle",
+        "index": 7,
+        "function": "AniEvt_EnableChildRenderer",
+        "time": 0,
+        "reason": "Index outside the four static/skinned renderers in the official CH0337 prefab; no guessed face/prop mapping. Particle renderers are not ported."
+      }
+    ],
+    "note": "原版武装外观；技能粒子和运输载具场景未移植。"
+  }
+}

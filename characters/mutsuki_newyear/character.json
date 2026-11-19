@@ -1,0 +1,381 @@
+{
+  "id": "mutsuki_newyear",
+  "name": "睦月 · 新年",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Mutsuki_Newyear; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Mutsuki_Newyear_Cafe_Idle--7c7f73508296bc3c",
+    "interact": "Mutsuki_Newyear_Cafe_Reaction--6a8b8ea9e6228a0a"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Mutsuki_Newyear_Cafe_Idle--7c7f73508296bc3c",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Mutsuki_Newyear_Cafe_Reaction--6a8b8ea9e6228a0a",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Mutsuki_Newyear_Cafe_Walk--432f6dd17703b828",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Mutsuki_Newyear_Victory_Start--70d4961f34f19ce0",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Mutsuki_Newyear_Normal_Reload--18670a1bfa0eaec5",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Mutsuki_Newyear_Formation_Pickup--5d733a40f1564401",
+      "category": "常用"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Mutsuki_Newyear_Normal_Attack_End--d2f260aabf17ae0a",
+      "sourceName": "Mutsuki_Newyear_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Mutsuki_Newyear_Vital_Dying_ing--d18b66efa570f98e",
+      "sourceName": "Mutsuki_Newyear_Vital_Dying_ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Mutsuki_Newyear_Public01--c46ab3f5e7cae4df",
+      "sourceName": "Mutsuki_Newyear_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Mutsuki_Newyear_Exs--a1c3f53e681589d0",
+      "sourceName": "Mutsuki_Newyear_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Mutsuki_Newyear_Normal_Callsign--9f987e9701c15216",
+      "sourceName": "Mutsuki_Newyear_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Mutsuki_Newyear_Formation_Idle--9f6182d4de2e5925",
+      "sourceName": "Mutsuki_Newyear_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Mutsuki_Newyear_Normal_Attack_Delay--8f1940727844d32e",
+      "sourceName": "Mutsuki_Newyear_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Mutsuki_Newyear_Vital_Death--8bcb798490bb080f",
+      "sourceName": "Mutsuki_Newyear_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Mutsuki_Newyear_Move_End_Normal--897808aa8d78745e",
+      "sourceName": "Mutsuki_Newyear_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Mutsuki_Newyear_Victory_End--f23d596caf434c42",
+      "sourceName": "Mutsuki_Newyear_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Mutsuki_Newyear_Move_Ing--163aef6d8042a25e",
+      "sourceName": "Mutsuki_Newyear_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Mutsuki_Newyear_Normal_Idle--402e4f44f5dfc72e",
+      "sourceName": "Mutsuki_Newyear_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Mutsuki_Newyear_Vital_Panic--4960989fc5ef86c8",
+      "sourceName": "Mutsuki_Newyear_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Mutsuki_Newyear_Normal_Attack_Ing--62ed41b4f5fa82b7",
+      "sourceName": "Mutsuki_Newyear_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Mutsuki_Newyear_Normal_Attack_Start--63d495aa5c318a4f",
+      "sourceName": "Mutsuki_Newyear_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Mutsuki_Newyear_Vital_Retreat--cf2c5b01ebcc841",
+      "sourceName": "Mutsuki_Newyear_Vital_Retreat",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Mutsuki_Newyear_Mouth",
+    "defaultTile": 704,
+    "events": {
+      "Mutsuki_Newyear_Cafe_Idle--7c7f73508296bc3c": [],
+      "Mutsuki_Newyear_Cafe_Reaction--6a8b8ea9e6228a0a": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.33333334,
+          "tile": 504
+        },
+        {
+          "time": 1.2,
+          "tile": 501
+        },
+        {
+          "time": 1.8333334,
+          "tile": 706
+        },
+        {
+          "time": 2.966667,
+          "tile": 707
+        },
+        {
+          "time": 3.8666668,
+          "tile": 704
+        }
+      ],
+      "Mutsuki_Newyear_Cafe_Walk--432f6dd17703b828": [],
+      "Mutsuki_Newyear_Victory_Start--70d4961f34f19ce0": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.20000002,
+          "tile": 707
+        },
+        {
+          "time": 1.9666668,
+          "tile": 704
+        },
+        {
+          "time": 2.266667,
+          "tile": 501
+        }
+      ],
+      "Mutsuki_Newyear_Normal_Reload--18670a1bfa0eaec5": [],
+      "Mutsuki_Newyear_Formation_Pickup--5d733a40f1564401": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.26666668,
+          "tile": 500
+        },
+        {
+          "time": 0.36666667,
+          "tile": 501
+        },
+        {
+          "time": 0.70000005,
+          "tile": 707
+        },
+        {
+          "time": 2.4,
+          "tile": 706
+        },
+        {
+          "time": 7.3333335,
+          "tile": 704
+        }
+      ],
+      "Mutsuki_Newyear_Normal_Attack_End--d2f260aabf17ae0a": [],
+      "Mutsuki_Newyear_Vital_Dying_ing--d18b66efa570f98e": [
+        {
+          "time": 0,
+          "tile": 507
+        }
+      ],
+      "Mutsuki_Newyear_Public01--c46ab3f5e7cae4df": [
+        {
+          "time": 0,
+          "tile": 706
+        },
+        {
+          "time": 0.3,
+          "tile": 707
+        },
+        {
+          "time": 2.9,
+          "tile": 704
+        }
+      ],
+      "Mutsuki_Newyear_Exs--a1c3f53e681589d0": [],
+      "Mutsuki_Newyear_Normal_Callsign--9f987e9701c15216": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.16666667,
+          "tile": 707
+        },
+        {
+          "time": 0.73333335,
+          "tile": 706
+        },
+        {
+          "time": 1.3000001,
+          "tile": 704
+        }
+      ],
+      "Mutsuki_Newyear_Formation_Idle--9f6182d4de2e5925": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Mutsuki_Newyear_Normal_Attack_Delay--8f1940727844d32e": [],
+      "Mutsuki_Newyear_Vital_Death--8bcb798490bb080f": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.06666667,
+          "tile": 506
+        }
+      ],
+      "Mutsuki_Newyear_Move_End_Normal--897808aa8d78745e": [],
+      "Mutsuki_Newyear_Victory_End--f23d596caf434c42": [
+        {
+          "time": 0,
+          "tile": 501
+        },
+        {
+          "time": 1.6666667,
+          "tile": 501
+        }
+      ],
+      "Mutsuki_Newyear_Move_Ing--163aef6d8042a25e": [],
+      "Mutsuki_Newyear_Normal_Idle--402e4f44f5dfc72e": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Mutsuki_Newyear_Vital_Panic--4960989fc5ef86c8": [
+        {
+          "time": 0,
+          "tile": 502
+        }
+      ],
+      "Mutsuki_Newyear_Normal_Attack_Ing--62ed41b4f5fa82b7": [],
+      "Mutsuki_Newyear_Normal_Attack_Start--63d495aa5c318a4f": [],
+      "Mutsuki_Newyear_Vital_Retreat--cf2c5b01ebcc841": [
+        {
+          "time": 0,
+          "tile": 502
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "f7107_0",
+      "name": "新年剑玉套装桌",
+      "model": "f7107_0.glb",
+      "clip": "f7107_0",
+      "duration": 11.566666666666666,
+      "mouthEvents": [
+        {
+          "time": 2.914335439641036e-16,
+          "tile": 704
+        },
+        {
+          "time": 3.0666666666666673,
+          "tile": 704
+        },
+        {
+          "time": 6.300000266666667,
+          "tile": 707
+        },
+        {
+          "time": 6.833333666666667,
+          "tile": 501
+        },
+        {
+          "time": 7.933333666666667,
+          "tile": 400
+        },
+        {
+          "time": 8.400000166666668,
+          "tile": 501
+        },
+        {
+          "time": 9.566667166666667,
+          "tile": 704
+        },
+        {
+          "time": 11.100000666666666,
+          "tile": 500
+        },
+        {
+          "time": 11.466667666666666,
+          "tile": 704
+        }
+      ],
+      "yaw": 0.3141592653589793
+    }
+  ]
+}

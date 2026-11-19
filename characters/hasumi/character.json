@@ -1,0 +1,556 @@
+{
+  "id": "hasumi",
+  "name": "莲见 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Hasumi_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Hasumi_Original_Cafe_Idle--26d22e63feb4a5bf",
+    "interact": "Hasumi_Original_Cafe_Reaction--a687eb9a2cf1d149"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Hasumi_Original_Cafe_Idle--26d22e63feb4a5bf",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Hasumi_Original_Cafe_Reaction--a687eb9a2cf1d149",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Hasumi_Original_Cafe_Walk--bc4b651851a1c164",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Hasumi_Original_Victory_Start--8d867833e4e801be",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Hasumi_Original_Normal_Reload--8b48eff26ddfa4d1",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Hasumi_Original_Formation_Pickup--8be4d7bec1387d6a",
+      "category": "常用"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Hasumi_Original_Move_End_Kneel--ef3048c732bbdb9b",
+      "sourceName": "Hasumi_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Hasumi_Original_Normal_Attack_Delay--e9a29220767f24a6",
+      "sourceName": "Hasumi_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_callsign",
+      "label": "移动 · 回应",
+      "clip": "Hasumi_Original_Move_Callsign--da7b05a2788ce9bc",
+      "sourceName": "Hasumi_Original_Move_Callsign",
+      "category": "移动"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Hasumi_Original_Victory_End--d38415fbf50f4709",
+      "sourceName": "Hasumi_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Hasumi_Original_Normal_Callsign--c0e9e60ba10ecaaa",
+      "sourceName": "Hasumi_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Hasumi_Original_Move_End_Normal--f93a578b73ae690a",
+      "sourceName": "Hasumi_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_stand_attack_end",
+      "label": "掩体站姿 · 攻击 · 结束",
+      "clip": "Hasumi_Original_Stand_Attack_End--b8490c3c34f28c1b",
+      "sourceName": "Hasumi_Original_Stand_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Hasumi_Original_Normal_Idle--b3e7425cb145fb1d",
+      "sourceName": "Hasumi_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_start",
+      "label": "掩体站姿 · 攻击 · 开始",
+      "clip": "Hasumi_Original_Stand_Attack_Start--aec02b062596293d",
+      "sourceName": "Hasumi_Original_Stand_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Hasumi_Original_Kneel_Reload--abbc6a95b83a1883",
+      "sourceName": "Hasumi_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Hasumi_Original_Normal_Attack_End--aa475af0780e044c",
+      "sourceName": "Hasumi_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Hasumi_Original_Move_Ing--a94fa2c066dfad50",
+      "sourceName": "Hasumi_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Hasumi_Original_Exs--f5b34e3231e19c9f",
+      "sourceName": "Hasumi_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_stand_callsign",
+      "label": "掩体站姿 · 回应",
+      "clip": "Hasumi_Original_Stand_Callsign--90d073e85c4d2754",
+      "sourceName": "Hasumi_Original_Stand_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_idle",
+      "label": "掩体站姿 · 待机",
+      "clip": "Hasumi_Original_Stand_Idle--8cf78dc844103204",
+      "sourceName": "Hasumi_Original_Stand_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Hasumi_Original_Normal_Attack_Ing--8a3bee062088058f",
+      "sourceName": "Hasumi_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Hasumi_Original_Kneel_Attack_Delay--86b277f6523940d6",
+      "sourceName": "Hasumi_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Hasumi_Original_Kneel_Attack_End--824b90b055ba0675",
+      "sourceName": "Hasumi_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_delay",
+      "label": "掩体站姿 · 攻击 · 间隔",
+      "clip": "Hasumi_Original_Stand_Attack_Delay--29268aa5e9cd7a3f",
+      "sourceName": "Hasumi_Original_Stand_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Hasumi_Original_Normal_Attack_Start--4bd334fa3619bbd",
+      "sourceName": "Hasumi_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_ing",
+      "label": "掩体站姿 · 攻击 · 持续",
+      "clip": "Hasumi_Original_Stand_Attack_Ing--348e390e1b64a31b",
+      "sourceName": "Hasumi_Original_Stand_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Hasumi_Original_Vital_Panic--4e0622528604815d",
+      "sourceName": "Hasumi_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Hasumi_Original_Kneel_Attack_Start--665de4c4516999e9",
+      "sourceName": "Hasumi_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_reload",
+      "label": "掩体站姿 · 换弹",
+      "clip": "Hasumi_Original_Stand_Reload--6754ff3b5a243484",
+      "sourceName": "Hasumi_Original_Stand_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Hasumi_Original_Vital_Dying_Ing--698a9619cc508b4d",
+      "sourceName": "Hasumi_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Hasumi_Original_Kneel_Attack_Ing--b12e279512ae947",
+      "sourceName": "Hasumi_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_stand",
+      "label": "移动 · 结束 · 掩体站姿",
+      "clip": "Hasumi_Original_Move_End_Stand--70fc9a788ab6ff08",
+      "sourceName": "Hasumi_Original_Move_End_Stand",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Hasumi_Original_Vital_Retreat--784382c04a9454e2",
+      "sourceName": "Hasumi_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Hasumi_Original_Formation_Idle--7d3e0520fa4b2dd1",
+      "sourceName": "Hasumi_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Hasumi_Original_Kneel_Idle--7e24df93b2b9ec9a",
+      "sourceName": "Hasumi_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_callsign",
+      "label": "蹲姿 · 回应",
+      "clip": "Hasumi_Original_Kneel_Callsign--7e254a3d4c3cb097",
+      "sourceName": "Hasumi_Original_Kneel_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Hasumi_Original_Vital_Death--7f4b64ceed53caeb",
+      "sourceName": "Hasumi_Original_Vital_Death",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Hasumi_Original_Mouth",
+    "defaultTile": 402,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "Hasumi_Original_Cafe_Idle--26d22e63feb4a5bf": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Cafe_Reaction--a687eb9a2cf1d149": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.5666667,
+          "tile": 300
+        },
+        {
+          "time": 0.6,
+          "tile": 704
+        },
+        {
+          "time": 1.8000001,
+          "tile": 300
+        },
+        {
+          "time": 1.8333334,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Cafe_Walk--bc4b651851a1c164": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Victory_Start--8d867833e4e801be": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.9333334,
+          "tile": 402
+        },
+        {
+          "time": 2.5333335,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Normal_Reload--8b48eff26ddfa4d1": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Formation_Pickup--8be4d7bec1387d6a": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Move_End_Kneel--ef3048c732bbdb9b": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Normal_Attack_Delay--e9a29220767f24a6": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Move_Callsign--da7b05a2788ce9bc": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.23333335,
+          "tile": 402
+        },
+        {
+          "time": 0.4666667,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Victory_End--d38415fbf50f4709": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Normal_Callsign--c0e9e60ba10ecaaa": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.16666667,
+          "tile": 402
+        },
+        {
+          "time": 0.43333337,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Move_End_Normal--f93a578b73ae690a": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Stand_Attack_End--b8490c3c34f28c1b": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Normal_Idle--b3e7425cb145fb1d": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Stand_Attack_Start--aec02b062596293d": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Kneel_Reload--abbc6a95b83a1883": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.40000004,
+          "tile": 402
+        },
+        {
+          "time": 0.70000005,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Normal_Attack_End--aa475af0780e044c": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Move_Ing--a94fa2c066dfad50": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "Hasumi_Original_Exs--f5b34e3231e19c9f": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Stand_Callsign--90d073e85c4d2754": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Stand_Idle--8cf78dc844103204": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Normal_Attack_Ing--8a3bee062088058f": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Kneel_Attack_Delay--86b277f6523940d6": [
+        {
+          "time": 0.033333335,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Kneel_Attack_End--824b90b055ba0675": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Stand_Attack_Delay--29268aa5e9cd7a3f": [],
+      "Hasumi_Original_Normal_Attack_Start--4bd334fa3619bbd": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Stand_Attack_Ing--348e390e1b64a31b": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Vital_Panic--4e0622528604815d": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ],
+      "Hasumi_Original_Kneel_Attack_Start--665de4c4516999e9": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Stand_Reload--6754ff3b5a243484": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Vital_Dying_Ing--698a9619cc508b4d": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ],
+      "Hasumi_Original_Kneel_Attack_Ing--b12e279512ae947": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Move_End_Stand--70fc9a788ab6ff08": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Vital_Retreat--784382c04a9454e2": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ],
+      "Hasumi_Original_Formation_Idle--7d3e0520fa4b2dd1": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Kneel_Idle--7e24df93b2b9ec9a": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Kneel_Callsign--7e254a3d4c3cb097": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Hasumi_Original_Vital_Death--7f4b64ceed53caeb": [
+        {
+          "time": 1,
+          "tile": 402
+        }
+      ]
+    }
+  }
+}

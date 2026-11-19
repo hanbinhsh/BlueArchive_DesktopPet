@@ -1,0 +1,84 @@
+{
+  "id": "chinatsu",
+  "name": "千夏 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Chinatsu_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Chinatsu_Original_Cafe_Idle--709c5a535c4b8805",
+    "interact": "Chinatsu_Original_Cafe_Reaction--9f06db5a5279e1d1"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Chinatsu_Original_Cafe_Idle--709c5a535c4b8805",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Chinatsu_Original_Cafe_Reaction--9f06db5a5279e1d1",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Chinatsu_Original_Cafe_Walk--d5031706a003af22",
+      "category": "常用"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Chinatsu_Original_Formation_Idle--26237d72db888f99",
+      "sourceName": "Chinatsu_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "Chinatsu_Original_Tactical_Start--3780da33e2716651",
+      "sourceName": "Chinatsu_Original_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Chinatsu_Original_Exs--b2b8ae47e07851f",
+      "sourceName": "Chinatsu_Original_Exs",
+      "category": "技能"
+    }
+  ],
+  "mouth": {
+    "material": "Chinatsu_Original_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "Chinatsu_Original_Cafe_Idle--709c5a535c4b8805": [],
+      "Chinatsu_Original_Cafe_Reaction--9f06db5a5279e1d1": [
+        {
+          "time": 0.6,
+          "tile": 402
+        },
+        {
+          "time": 2.2333333,
+          "tile": 401
+        }
+      ],
+      "Chinatsu_Original_Cafe_Walk--d5031706a003af22": [],
+      "Chinatsu_Original_Formation_Idle--26237d72db888f99": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Chinatsu_Original_Tactical_Start--3780da33e2716651": [],
+      "Chinatsu_Original_Exs--b2b8ae47e07851f": []
+    }
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "id": "mutsuki_dress",
+  "name": "睦月 · 礼服",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0246; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0246_Cafe_Idle--6975af42c80a22c6",
+    "interact": "CH0246_Cafe_Reaction--57e8a2752968a58a"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0246_Cafe_Idle--6975af42c80a22c6",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0246_Cafe_Reaction--57e8a2752968a58a",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0246_Cafe_Walk--54c3588575f472d6",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0246_Formation_Pickup--33933e5c52f0e453",
+      "category": "常用"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0246_Tactical_Start--cc1bd536d4b5fcc7",
+      "sourceName": "CH0246_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "CH0246_Public01--84090a7e15f5c306",
+      "sourceName": "CH0246_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0246_Formation_Idle--456c97a70c9b5c57",
+      "sourceName": "CH0246_Formation_Idle",
+      "category": "编队与胜利"
+    }
+  ],
+  "mouth": {
+    "material": "CH0246_Mouth",
+    "defaultTile": 704,
+    "events": {
+      "CH0246_Cafe_Idle--6975af42c80a22c6": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 5.799942,
+          "tile": 704
+        },
+        {
+          "time": 10.333333,
+          "tile": 704
+        }
+      ],
+      "CH0246_Cafe_Reaction--57e8a2752968a58a": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.099998996,
+          "tile": 701
+        },
+        {
+          "time": 0.66666,
+          "tile": 704
+        },
+        {
+          "time": 1.033323,
+          "tile": 603
+        },
+        {
+          "time": 2.399976,
+          "tile": 701
+        },
+        {
+          "time": 3.166635,
+          "tile": 704
+        },
+        {
+          "time": 3.933294,
+          "tile": 700
+        },
+        {
+          "time": 5.266614,
+          "tile": 704
+        },
+        {
+          "time": 6.8333335,
+          "tile": 704
+        }
+      ],
+      "CH0246_Cafe_Walk--54c3588575f472d6": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.3333334,
+          "tile": 704
+        }
+      ],
+      "CH0246_Formation_Pickup--33933e5c52f0e453": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.26666668,
+          "tile": 203
+        },
+        {
+          "time": 2.266667,
+          "tile": 301
+        },
+        {
+          "time": 5.666667,
+          "tile": 704
+        },
+        {
+          "time": 7.033334,
+          "tile": 704
+        }
+      ],
+      "CH0246_Tactical_Start--cc1bd536d4b5fcc7": [
+        {
+          "time": 0,
+          "tile": 701
+        },
+        {
+          "time": 1.199988,
+          "tile": 304
+        },
+        {
+          "time": 1.6666666,
+          "tile": 304
+        }
+      ],
+      "CH0246_Public01--84090a7e15f5c306": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.499995,
+          "tile": 704
+        },
+        {
+          "time": 1.499985,
+          "tile": 301
+        },
+        {
+          "time": 2.166645,
+          "tile": 701
+        },
+        {
+          "time": 3.99996,
+          "tile": 701
+        },
+        {
+          "time": 4.266624,
+          "tile": 301
+        },
+        {
+          "time": 7,
+          "tile": 301
+        }
+      ],
+      "CH0246_Formation_Idle--456c97a70c9b5c57": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 4,
+          "tile": 704
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "f15205_0",
+      "name": "经典沙发",
+      "model": "f15205_0.glb",
+      "clip": "f15205_0",
+      "duration": 28,
+      "mouthEvents": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 2.99997,
+          "tile": 701
+        },
+        {
+          "time": 3.66663,
+          "tile": 603
+        },
+        {
+          "time": 4.933284,
+          "tile": 701
+        },
+        {
+          "time": 6.499935,
+          "tile": 402
+        },
+        {
+          "time": 7.499925,
+          "tile": 603
+        },
+        {
+          "time": 9.066576,
+          "tile": 604
+        },
+        {
+          "time": 9.266574,
+          "tile": 402
+        },
+        {
+          "time": 11.433219,
+          "tile": 305
+        },
+        {
+          "time": 11.566551,
+          "tile": 702
+        },
+        {
+          "time": 13.533198,
+          "tile": 403
+        },
+        {
+          "time": 13.766529,
+          "tile": 701
+        },
+        {
+          "time": 15.899841,
+          "tile": 700
+        },
+        {
+          "time": 17.199827,
+          "tile": 704
+        },
+        {
+          "time": 17.99982,
+          "tile": 700
+        },
+        {
+          "time": 18.66648,
+          "tile": 704
+        },
+        {
+          "time": 21.333333333333332,
+          "tile": 704
+        }
+      ],
+      "yaw": 1.8849555921538759
+    }
+  ]
+}

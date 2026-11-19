@@ -1,0 +1,636 @@
+{
+  "id": "hinata",
+  "name": "日向 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Hinata_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Hinata_Original_Cafe_Idle--75ce97dbfe7dab08",
+    "interact": "Hinata_Original_Cafe_Reaction--e81d72a05f267fd1"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Hinata_Original_Cafe_Idle--75ce97dbfe7dab08",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Hinata_Original_Cafe_Reaction--e81d72a05f267fd1",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Hinata_Original_Cafe_Walk--5c3187926a1f1c0a",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Hinata_Original_Victory_Start--788a2f8a2066e198",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Hinata_Original_Normal_Reload--cf195c410e0c0e64",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Hinata_Original_Formation_Pickup--8f3a9f65c7bc60f7",
+      "category": "常用"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Hinata_Original_Formation_Idle--e22e0bb027a52762",
+      "sourceName": "Hinata_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Hinata_Original_Normal_Attack_Delay--d96a31e4df27a039",
+      "sourceName": "Hinata_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Hinata_Original_Vital_Retreat--d8768da77db866e7",
+      "sourceName": "Hinata_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Hinata_Original_Normal_Attack_End--d3c116cc85ff1be6",
+      "sourceName": "Hinata_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Hinata_Original_Vital_Death--d0dbdb71b463b943",
+      "sourceName": "Hinata_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Hinata_Original_Normal_Idle--ca1ba12e636ce901",
+      "sourceName": "Hinata_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Hinata_Original_Kneel_Attack_Delay--bcf180dd64efec08",
+      "sourceName": "Hinata_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Hinata_Original_Victory_End--bc49fbb49943f8b0",
+      "sourceName": "Hinata_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Hinata_Original_Vital_Panic--b3eba41176f716bc",
+      "sourceName": "Hinata_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Hinata_Original_Public01--b01b663da7a3111e",
+      "sourceName": "Hinata_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Hinata_Original_Move_End_Kneel--837f69c0f9120ed1",
+      "sourceName": "Hinata_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Hinata_Original_Normal_Attack_Start--10f877f7421a8864",
+      "sourceName": "Hinata_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Hinata_Original_Move_End_Normal--12a35e425ea833ce",
+      "sourceName": "Hinata_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Hinata_Original_Normal_Callsign--13dfab82cc0d55ef",
+      "sourceName": "Hinata_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Hinata_Original_Kneel_Reload--2d0be8720a27539c",
+      "sourceName": "Hinata_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Hinata_Original_Kneel_Attack_Start--402ffab68562a29f",
+      "sourceName": "Hinata_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Hinata_Original_Kneel_Attack_Ing--58637654b94571d0",
+      "sourceName": "Hinata_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Hinata_Original_Kneel_Idle--5c05d35d209e8695",
+      "sourceName": "Hinata_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Hinata_Original_Vital_Dying_ing--5c8df03284b4d12f",
+      "sourceName": "Hinata_Original_Vital_Dying_ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Hinata_Original_Move_Ing--a01f62c83cee32e",
+      "sourceName": "Hinata_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Hinata_Original_Exs--6cc641b45b3e85a0",
+      "sourceName": "Hinata_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Hinata_Original_Normal_Attack_Ing--70e8635da443ed32",
+      "sourceName": "Hinata_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Hinata_Original_Kneel_Attack_End--c24a463672558fe",
+      "sourceName": "Hinata_Original_Kneel_Attack_End",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Hinata_Original_Mouth",
+    "defaultTile": 305,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.625,
+      0.375
+    ],
+    "events": {
+      "Hinata_Original_Cafe_Idle--75ce97dbfe7dab08": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "Hinata_Original_Cafe_Reaction--e81d72a05f267fd1": [
+        {
+          "time": 0,
+          "tile": 305
+        },
+        {
+          "time": 0.4666667,
+          "tile": 401
+        },
+        {
+          "time": 1.5000001,
+          "tile": 705
+        },
+        {
+          "time": 3.0000002,
+          "tile": 402
+        },
+        {
+          "time": 3.666667,
+          "tile": 305
+        }
+      ],
+      "Hinata_Original_Cafe_Walk--5c3187926a1f1c0a": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "Hinata_Original_Victory_Start--788a2f8a2066e198": [
+        {
+          "time": 0,
+          "tile": 305
+        },
+        {
+          "time": 0.23333335,
+          "tile": 402
+        },
+        {
+          "time": 0.4666667,
+          "tile": 605
+        },
+        {
+          "time": 1,
+          "tile": 402
+        },
+        {
+          "time": 2.1000001,
+          "tile": 401
+        },
+        {
+          "time": 2.266667,
+          "tile": 706
+        },
+        {
+          "time": 2.4666667,
+          "tile": 704
+        },
+        {
+          "time": 3.0000002,
+          "tile": 704
+        }
+      ],
+      "Hinata_Original_Normal_Reload--cf195c410e0c0e64": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "Hinata_Original_Formation_Pickup--8f3a9f65c7bc60f7": [
+        {
+          "time": 0,
+          "tile": 305
+        },
+        {
+          "time": 0.33333334,
+          "tile": 402
+        },
+        {
+          "time": 1.1666667,
+          "tile": 605
+        },
+        {
+          "time": 2.8666668,
+          "tile": 402
+        },
+        {
+          "time": 3.6666667,
+          "tile": 305
+        }
+      ],
+      "Hinata_Original_Formation_Idle--e22e0bb027a52762": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "Hinata_Original_Normal_Attack_Delay--d96a31e4df27a039": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "Hinata_Original_Vital_Retreat--d8768da77db866e7": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "Hinata_Original_Normal_Attack_End--d3c116cc85ff1be6": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "Hinata_Original_Vital_Death--d0dbdb71b463b943": [
+        {
+          "time": 0,
+          "tile": 305
+        },
+        {
+          "time": 0.3,
+          "tile": 605
+        },
+        {
+          "time": 0.73333335,
+          "tile": 402
+        },
+        {
+          "time": 1.0666667,
+          "tile": 604
+        }
+      ],
+      "Hinata_Original_Normal_Idle--ca1ba12e636ce901": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "Hinata_Original_Kneel_Attack_Delay--bcf180dd64efec08": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "Hinata_Original_Victory_End--bc49fbb49943f8b0": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 3.2000003,
+          "tile": 704
+        }
+      ],
+      "Hinata_Original_Vital_Panic--b3eba41176f716bc": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "Hinata_Original_Public01--b01b663da7a3111e": [
+        {
+          "time": 0,
+          "tile": 305
+        },
+        {
+          "time": 0.5,
+          "tile": 606
+        },
+        {
+          "time": 0.73333335,
+          "tile": 305
+        },
+        {
+          "time": 0.8333334,
+          "tile": 402
+        },
+        {
+          "time": 0.9333334,
+          "tile": 305
+        },
+        {
+          "time": 3.3333335,
+          "tile": 402
+        },
+        {
+          "time": 3.7333336,
+          "tile": 305
+        }
+      ],
+      "Hinata_Original_Exs_Cutin--f64de23c648d7204": [
+        {
+          "time": 0,
+          "tile": 305
+        },
+        {
+          "time": 1.0666667,
+          "tile": 402
+        },
+        {
+          "time": 1.5000001,
+          "tile": 305
+        },
+        {
+          "time": 1.7,
+          "tile": 605
+        },
+        {
+          "time": 2.5333335,
+          "tile": 305
+        },
+        {
+          "time": 2.966667,
+          "tile": 605
+        },
+        {
+          "time": 3.0666668,
+          "tile": 305
+        }
+      ],
+      "Hinata_Original_Move_End_Kneel--837f69c0f9120ed1": [
+        {
+          "time": 0,
+          "tile": 305
+        },
+        {
+          "time": 0.33333334,
+          "tile": 402
+        },
+        {
+          "time": 0.6,
+          "tile": 605
+        },
+        {
+          "time": 0.80000013,
+          "tile": 305
+        }
+      ],
+      "Hinata_Original_Normal_Attack_Start--10f877f7421a8864": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "Hinata_Original_Move_End_Normal--12a35e425ea833ce": [
+        {
+          "time": 0,
+          "tile": 305
+        },
+        {
+          "time": 0.33333337,
+          "tile": 402
+        },
+        {
+          "time": 0.6000001,
+          "tile": 605
+        },
+        {
+          "time": 0.8000001,
+          "tile": 402
+        },
+        {
+          "time": 0.9000001,
+          "tile": 305
+        }
+      ],
+      "Hinata_Original_Normal_Callsign--13dfab82cc0d55ef": [
+        {
+          "time": 0,
+          "tile": 305
+        },
+        {
+          "time": 0.16666667,
+          "tile": 402
+        },
+        {
+          "time": 0.5,
+          "tile": 401
+        },
+        {
+          "time": 1.3666668,
+          "tile": 305
+        }
+      ],
+      "Hinata_Original_Kneel_Reload--2d0be8720a27539c": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "Hinata_Original_Kneel_Attack_Start--402ffab68562a29f": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "Hinata_Original_Kneel_Attack_Ing--58637654b94571d0": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "Hinata_Original_Kneel_Idle--5c05d35d209e8695": [],
+      "Hinata_Original_Vital_Dying_ing--5c8df03284b4d12f": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "Hinata_Original_Move_Ing--a01f62c83cee32e": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "Hinata_Original_Exs--6cc641b45b3e85a0": [
+        {
+          "time": 0,
+          "tile": 305
+        },
+        {
+          "time": 0.10000001,
+          "tile": 606
+        },
+        {
+          "time": 0.43333337,
+          "tile": 305
+        },
+        {
+          "time": 4.2000003,
+          "tile": 402
+        },
+        {
+          "time": 4.5,
+          "tile": 305
+        }
+      ],
+      "Hinata_Original_Normal_Attack_Ing--70e8635da443ed32": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "Hinata_Original_Kneel_Attack_End--c24a463672558fe": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "f2103_0",
+      "name": "白色简洁沙发",
+      "model": "f2103_0.glb",
+      "clip": "f2103_0",
+      "duration": 19.5,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 401
+        },
+        {
+          "time": 4.9,
+          "tile": 305
+        },
+        {
+          "time": 9.566668,
+          "tile": 402
+        },
+        {
+          "time": 10.000001,
+          "tile": 402
+        },
+        {
+          "time": 12.433334,
+          "tile": 401
+        },
+        {
+          "time": 12.733334,
+          "tile": 402
+        },
+        {
+          "time": 14.166667,
+          "tile": 401
+        }
+      ],
+      "yaw": 0.7853981633974483,
+      "sourceTimeline": "my_gamecenter_01_p_sofa_01",
+      "sourceGroup": "RequiredTrack_10036",
+      "sourceStudentTrack": "10036"
+    },
+    {
+      "id": "f207314_1",
+      "name": "祈祷椅",
+      "model": "f207314_1.glb",
+      "clip": "f207314_1",
+      "duration": 27.733333333333334,
+      "mouthEvents": [],
+      "yaw": 2.199114857512855,
+      "sourceTimeline": "my_event20_prayerchair",
+      "sourceGroup": "AddTrack_10036",
+      "sourceStudentTrack": "10036"
+    }
+  ]
+}

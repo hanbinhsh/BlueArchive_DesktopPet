@@ -1,0 +1,15 @@
+import {_electron as electron} from 'playwright';import {openTestPanel} from './themed-menu-test-helper.mjs';import {mkdirSync,writeFileSync,readFileSync} from 'node:fs';import path from 'node:path';import assert from 'node:assert/strict';
+const profile=path.resolve('test-results/rotation-gestures-profile');mkdirSync(profile,{recursive:true});writeFileSync(path.join(profile,'settings.json'),JSON.stringify({character:'hina',size:360,position:{x:450,y:180}}));const env={...process.env,BA_TEST_DATA:profile};delete env.ELECTRON_RUN_AS_NODE;
+const launch=()=>electron.launch({...process.env.BA_EXECUTABLE?{executablePath:path.resolve(process.env.BA_EXECUTABLE),args:[]}:{args:['.']},env});let app=await launch();const results=[];
+try{
+ const pet=await app.firstWindow();await pet.waitForFunction(()=>window.petDiagnostics?.frames>5);const panel=await openTestPanel(app,pet);
+ await app.evaluate(({screen})=>{globalThis.rotationCursor={x:-100000,y:-100000};screen.getCursorScreenPoint=()=>globalThis.rotationCursor;});
+ async function move(x,y){await app.evaluate(({BrowserWindow},p)=>{const b=BrowserWindow.getAllWindows().find(w=>w.webContents.getURL().endsWith('/index.html')).getBounds();globalThis.rotationCursor={x:b.x+p.x,y:b.y+p.y};},{x,y});await pet.mouse.move(x,y);}
+ for(const [key,axis,index,dx,dy] of [['Control','pitch',0,0,700],['Shift','yaw',1,700,0],['Alt','roll',2,700,0]]){
+  await panel.evaluate(()=>window.panel.command('reset-orientation'));await pet.waitForFunction(()=>window.petDiagnostics.orientation.every(v=>Math.abs(v)<.001));await pet.bringToFront();let point;
+  for(let y=150;y<340&&!point;y+=25)for(let x=190;x<350&&!point;x+=25){await move(x,y);await pet.waitForTimeout(40);if(await pet.evaluate(()=>window.petDiagnostics.hit))point={x,y};}assert.ok(point,axis+' hit');
+  await pet.keyboard.down(key);await pet.mouse.down();await move(point.x+dx,point.y+dy);await pet.waitForTimeout(250);await pet.mouse.up();await pet.keyboard.up(key);const angle=await pet.evaluate(i=>window.petDiagnostics.orientation[i],index);assert.ok(angle>Math.PI*2,axis+' exceeds a full turn: '+angle);results.push({axis,angle});
+ }
+ await panel.evaluate(()=>window.panel.command('settings',{yaw:Math.PI*7,pitch:-Math.PI*4,roll:Math.PI*5,contextMenu:{order:['orientation','open-panel'],hidden:['size']}}));await pet.waitForTimeout(500);await app.close();app=await launch();const resumed=await app.firstWindow();await resumed.waitForFunction(()=>window.petDiagnostics?.frames>5);const state=await resumed.evaluate(()=>window.pet.init());assert.equal(state.settings.roll,Math.PI*5);assert.equal(state.settings.pitch,-Math.PI*4);assert.equal(state.settings.yaw,Math.PI*7);assert.equal(state.settings.contextMenu.order[0],'orientation');assert.deepEqual(state.settings.contextMenu.hidden,['size']);
+ writeFileSync('test-results/rotation-gestures.json',JSON.stringify({executable:process.env.BA_EXECUTABLE||'development',results,restart:true},null,2));console.log(results,'restart passed');
+}finally{await app.close();}

@@ -1,0 +1,261 @@
+{
+  "id": "iori",
+  "name": "依织 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Iori_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Iori_Original_Cafe_Idle--a0b68dbb7bbecfe9",
+    "interact": "Iori_Original_Cafe_Reaction--e7d5e220aab7ead1"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Iori_Original_Cafe_Idle--a0b68dbb7bbecfe9",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Iori_Original_Cafe_Reaction--e7d5e220aab7ead1",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Iori_Original_Cafe_Walk--cd4661a4fe95698b",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Iori_Original_Victory_Start--d0a1dafa961dd3b9",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Iori_Original_Normal_Reload--b88fafb4a6ec9f30",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Iori_Original_Formation_Pickup--2df8e4b522ca5816",
+      "category": "常用"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Iori_Original_Public01--f0b425c3ea1efb78",
+      "sourceName": "Iori_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Iori_Original_Normal_Callsign--fd89f16cced396b5",
+      "sourceName": "Iori_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Iori_Original_Vital_Retreat--e57bc1a5489d2fba",
+      "sourceName": "Iori_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Iori_Original_Move_End_Kneel--dc27093ffb6a97a9",
+      "sourceName": "Iori_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Iori_Original_Formation_Idle--ce4e8adef28ba780",
+      "sourceName": "Iori_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Iori_Original_Vital_Panic--b72c51ae4d473de3",
+      "sourceName": "Iori_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Iori_Original_Kneel_Reload--b46f1d53b9c3212c",
+      "sourceName": "Iori_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Iori_Original_Kneel_Attack_End--b372ba68a2f2e118",
+      "sourceName": "Iori_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Iori_Original_Kneel_Attack_Start--f6f97992930c397d",
+      "sourceName": "Iori_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Iori_Original_Normal_Idle--f6c088e1cc249cae",
+      "sourceName": "Iori_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Iori_Original_Kneel_Idle--99306294efc3f200",
+      "sourceName": "Iori_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Iori_Original_Normal_Attack_Ing--946f697f880263c0",
+      "sourceName": "Iori_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Iori_Original_Normal_Attack_Delay--8bda4ce3877b38b8",
+      "sourceName": "Iori_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Iori_Original_Move_End_Normal--fdeca2b89c95e80",
+      "sourceName": "Iori_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Iori_Original_Normal_Attack_Start--159a69318e25d77a",
+      "sourceName": "Iori_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Iori_Original_Exs--30ab931946b2482e",
+      "sourceName": "Iori_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Iori_Original_Normal_Attack_End--4b16994153e05d39",
+      "sourceName": "Iori_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Iori_Original_Kneel_Attack_Delay--4bf7aa914d8cbd60",
+      "sourceName": "Iori_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Iori_Original_Kneel_Attack_Ing--5541504de95e6bf7",
+      "sourceName": "Iori_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Iori_Original_Vital_Death--5a3925040fdb44ab",
+      "sourceName": "Iori_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Iori_Original_Vital_Dying_ing--5e37898c17debfee",
+      "sourceName": "Iori_Original_Vital_Dying_ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Iori_Original_Move_Ing--76227a972fdc9016",
+      "sourceName": "Iori_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Iori_Original_Victory_End--71e2f70ee5e68955",
+      "sourceName": "Iori_Original_Victory_End",
+      "category": "编队与胜利"
+    }
+  ],
+  "mouth": {
+    "material": "Iori_Original_Mouth",
+    "defaultTile": 401,
+    "events": {
+      "Iori_Original_Cafe_Idle--a0b68dbb7bbecfe9": [],
+      "Iori_Original_Cafe_Reaction--e7d5e220aab7ead1": [],
+      "Iori_Original_Cafe_Walk--cd4661a4fe95698b": [],
+      "Iori_Original_Victory_Start--d0a1dafa961dd3b9": [],
+      "Iori_Original_Normal_Reload--b88fafb4a6ec9f30": [],
+      "Iori_Original_Formation_Pickup--2df8e4b522ca5816": [],
+      "Iori_Original_Public01--f0b425c3ea1efb78": [],
+      "Iori_Original_Normal_Callsign--fd89f16cced396b5": [],
+      "Iori_Original_Vital_Retreat--e57bc1a5489d2fba": [],
+      "Iori_Original_Move_End_Kneel--dc27093ffb6a97a9": [],
+      "Iori_Original_Formation_Idle--ce4e8adef28ba780": [],
+      "Iori_Original_Vital_Panic--b72c51ae4d473de3": [],
+      "Iori_Original_Kneel_Reload--b46f1d53b9c3212c": [],
+      "Iori_Original_Kneel_Attack_End--b372ba68a2f2e118": [],
+      "Iori_Original_Kneel_Attack_Start--f6f97992930c397d": [],
+      "Iori_Original_Normal_Idle--f6c088e1cc249cae": [],
+      "Iori_Original_Kneel_Idle--99306294efc3f200": [],
+      "Iori_Original_Normal_Attack_Ing--946f697f880263c0": [],
+      "Iori_Original_Normal_Attack_Delay--8bda4ce3877b38b8": [],
+      "Iori_Original_Move_End_Normal--fdeca2b89c95e80": [],
+      "Iori_Original_Normal_Attack_Start--159a69318e25d77a": [],
+      "Iori_Original_Exs--30ab931946b2482e": [],
+      "Iori_Original_Normal_Attack_End--4b16994153e05d39": [],
+      "Iori_Original_Kneel_Attack_Delay--4bf7aa914d8cbd60": [],
+      "Iori_Original_Kneel_Attack_Ing--5541504de95e6bf7": [],
+      "Iori_Original_Vital_Death--5a3925040fdb44ab": [],
+      "Iori_Original_Vital_Dying_ing--5e37898c17debfee": [],
+      "Iori_Original_Move_Ing--76227a972fdc9016": [],
+      "Iori_Original_Victory_End--71e2f70ee5e68955": []
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_vital_retreat": {
+        "zoom": 0.9639141562764476,
+        "centerY": 0.9368895691226431
+      },
+      "original_vital_death": {
+        "zoom": 1,
+        "centerY": 0.7552337939285825
+      }
+    }
+  }
+}

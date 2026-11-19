@@ -1,0 +1,22 @@
+{
+  "otogi": {
+    "modelPrefix": "CH0174_CafeOnly",
+    "prefabName": "CH0174_CafeOnly",
+    "exportDirectory": "../furniture-exported/all",
+    "rendererEventLayout": {
+      "10": "my_event091_strategytable_prop_03"
+    },
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0174_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "互动",
+        "CH0174_Cafe_Reaction"
+      ]
+    ]
+  }
+}

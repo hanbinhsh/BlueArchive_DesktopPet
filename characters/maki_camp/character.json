@@ -1,0 +1,316 @@
+{
+  "id": "maki_camp",
+  "name": "真纪 · 露营",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0235; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0235_Cafe_Idle--4f96ec077d3b5513",
+    "interact": "CH0235_Cafe_Reaction--edfb7a9ca0e2a1eb"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0235_Cafe_Idle--4f96ec077d3b5513",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0235_Cafe_Reaction--edfb7a9ca0e2a1eb",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0235_Cafe_Walk--ee566b0ba3476a10",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0235_Formation_Pickup--6573983ba5ee4add",
+      "category": "常用"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0235_Formation_Idle--6c698597833642a3",
+      "sourceName": "CH0235_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_formation_idle_random",
+      "label": "编队 · 待机 · Random",
+      "clip": "CH0235_Formation_Idle_Random--3042dae1360720da",
+      "sourceName": "CH0235_Formation_Idle_Random",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "CH0235_Exs--cfe4462e8e755ed0",
+      "sourceName": "CH0235_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_tactical_start_random",
+      "label": "Tactical · 开始 · Random",
+      "clip": "CH0235_Tactical_Start_Random--2da9ecfbf19d401b",
+      "sourceName": "CH0235_Tactical_Start_Random",
+      "category": "战斗"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0235_Tactical_Start--3e5a277770a6d92f",
+      "sourceName": "CH0235_Tactical_Start",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "CH0235_Mouth",
+    "defaultTile": 504,
+    "events": {
+      "CH0235_Cafe_Idle--4f96ec077d3b5513": [
+        {
+          "time": 0,
+          "tile": 200
+        },
+        {
+          "time": 3.066636,
+          "tile": 602
+        },
+        {
+          "time": 8.399916,
+          "tile": 200
+        }
+      ],
+      "CH0235_Cafe_Reaction--edfb7a9ca0e2a1eb": [
+        {
+          "time": 0,
+          "tile": 202
+        },
+        {
+          "time": 0.66666,
+          "tile": 501
+        },
+        {
+          "time": 2.366643,
+          "tile": 500
+        },
+        {
+          "time": 2.833305,
+          "tile": 105
+        },
+        {
+          "time": 3.099969,
+          "tile": 603
+        },
+        {
+          "time": 5.233281,
+          "tile": 403
+        },
+        {
+          "time": 7.699923,
+          "tile": 202
+        },
+        {
+          "time": 10.266564,
+          "tile": 602
+        },
+        {
+          "time": 10.799891,
+          "tile": 303
+        },
+        {
+          "time": 12.399876,
+          "tile": 603
+        },
+        {
+          "time": 14.799852,
+          "tile": 200
+        }
+      ],
+      "CH0235_Cafe_Walk--ee566b0ba3476a10": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0235_Formation_Pickup--6573983ba5ee4add": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.233331,
+          "tile": 501
+        },
+        {
+          "time": 1.166655,
+          "tile": 707
+        },
+        {
+          "time": 2.766639,
+          "tile": 704
+        }
+      ],
+      "CH0235_Formation_Idle--6c698597833642a3": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0235_Formation_Idle_Random--3042dae1360720da": [
+        {
+          "time": 0,
+          "tile": 603
+        }
+      ],
+      "CH0235_Exs--cfe4462e8e755ed0": [
+        {
+          "time": 0,
+          "tile": 101
+        },
+        {
+          "time": 0.533328,
+          "tile": 205
+        },
+        {
+          "time": 2.433309,
+          "tile": 201
+        },
+        {
+          "time": 3.399966,
+          "tile": 603
+        },
+        {
+          "time": 3.66663,
+          "tile": 105
+        }
+      ],
+      "CH0235_Tactical_Start_Random--2da9ecfbf19d401b": [
+        {
+          "time": 0,
+          "tile": 603
+        },
+        {
+          "time": 0.599994,
+          "tile": 504
+        },
+        {
+          "time": 0.99999,
+          "tile": 501
+        }
+      ],
+      "CH0235_Tactical_Start--3e5a277770a6d92f": [
+        {
+          "time": 0,
+          "tile": 504
+        },
+        {
+          "time": 0.9,
+          "tile": 402
+        },
+        {
+          "time": 1.1333333,
+          "tile": 403
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210359_0",
+      "name": "军事露营展板",
+      "model": "f210359_0.glb",
+      "clip": "f210359_0",
+      "duration": 26.833333333333332,
+      "mouthEvents": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.066656,
+          "tile": 602
+        },
+        {
+          "time": 2.799972,
+          "tile": 200
+        },
+        {
+          "time": 4.733286,
+          "tile": 603
+        },
+        {
+          "time": 6.433269,
+          "tile": 704
+        },
+        {
+          "time": 10.533228,
+          "tile": 707
+        },
+        {
+          "time": 11.499885,
+          "tile": 704
+        },
+        {
+          "time": 12.399876,
+          "tile": 603
+        },
+        {
+          "time": 15.166515,
+          "tile": 704
+        },
+        {
+          "time": 16.233171,
+          "tile": 707
+        },
+        {
+          "time": 17.466492,
+          "tile": 202
+        },
+        {
+          "time": 20.199799,
+          "tile": 704
+        },
+        {
+          "time": 21.433119,
+          "tile": 504
+        },
+        {
+          "time": 22.799772,
+          "tile": 603
+        },
+        {
+          "time": 25.33308,
+          "tile": 403
+        },
+        {
+          "time": 25.733076,
+          "tile": 105
+        },
+        {
+          "time": 26.466402,
+          "tile": 704
+        }
+      ],
+      "yaw": 0.6283185307179586
+    }
+  ],
+  "framing": {
+    "actions": {
+      "original_exs": {
+        "zoom": 0.57626190534116,
+        "centerY": 2.316003918246631
+      }
+    }
+  }
+}

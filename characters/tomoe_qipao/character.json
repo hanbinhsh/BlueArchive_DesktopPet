@@ -1,0 +1,487 @@
+{
+  "id": "tomoe_qipao",
+  "name": "巴 · 旗袍",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0271; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0271_Cafe_Idle--d6f34e3fe8e75861",
+    "interact": "CH0271_Cafe_Reaction--a7eba30745aca50c"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0271_Cafe_Idle--d6f34e3fe8e75861",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0271_Cafe_Reaction--a7eba30745aca50c",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0271_Cafe_Walk--bc36846958a5eb12",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0271_Fomation_Pickup--12a15e67b5875cfa",
+      "category": "常用"
+    },
+    {
+      "id": "original_exs_interaction_random",
+      "label": "EX 技能 · Interaction · Random",
+      "clip": "CH0271_Exs_Interaction_Random--b3db03f528284ffa",
+      "sourceName": "CH0271_Exs_Interaction_Random",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_03",
+      "label": "EX 技能 · Cutin · 03",
+      "clip": "CH0271_Exs_Cutin_03--983bfc20e32dd557",
+      "sourceName": "CH0271_Exs_Cutin_03",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0271_Formation_Idle--f5760ca303261f9f",
+      "sourceName": "CH0271_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0271_Tactical_Start--908de2272b6a6509",
+      "sourceName": "CH0271_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_01",
+      "label": "EX 技能 · Cutin · 01",
+      "clip": "CH0271_Exs_Cutin_01--1079ce25ddd3cf6b",
+      "sourceName": "CH0271_Exs_Cutin_01",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_interaction",
+      "label": "EX 技能 · Interaction",
+      "clip": "CH0271_Exs_Interaction--1a753bc7508df07",
+      "sourceName": "CH0271_Exs_Interaction",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_02",
+      "label": "EX 技能 · Cutin · 02",
+      "clip": "CH0271_Exs_Cutin_02--287dea2ef849e3c",
+      "sourceName": "CH0271_Exs_Cutin_02",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_idle",
+      "label": "EX 技能 · 待机",
+      "clip": "CH0271_Exs_Idle--2c0549aeee140fa7",
+      "sourceName": "CH0271_Exs_Idle",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_04",
+      "label": "EX 技能 · Cutin · 04",
+      "clip": "CH0271_Exs_Cutin_04--41941ca7e995265a",
+      "sourceName": "CH0271_Exs_Cutin_04",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_spawn",
+      "label": "EX 技能 · Spawn",
+      "clip": "CH0271_Exs_Spawn--587947804a7407d6",
+      "sourceName": "CH0271_Exs_Spawn",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_destory",
+      "label": "EX 技能 · Destory",
+      "clip": "CH0271_Exs_Destory--66d4b097bc62e7e9",
+      "sourceName": "CH0271_Exs_Destory",
+      "category": "技能"
+    }
+  ],
+  "mouth": {
+    "material": "CH0271_Mouth",
+    "defaultTile": 706,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.75,
+      0.875
+    ],
+    "events": {
+      "CH0271_Cafe_Idle--d6f34e3fe8e75861": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0271_Cafe_Reaction--a7eba30745aca50c": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.23333335,
+          "tile": 402
+        },
+        {
+          "time": 1.6333333,
+          "tile": 707
+        },
+        {
+          "time": 3.7333336,
+          "tile": 704
+        },
+        {
+          "time": 4.0333333,
+          "tile": 706
+        },
+        {
+          "time": 5.766667,
+          "tile": 704
+        }
+      ],
+      "CH0271_Cafe_Walk--bc36846958a5eb12": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0271_Fomation_Pickup--12a15e67b5875cfa": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.099998996,
+          "tile": 707
+        },
+        {
+          "time": 1.0999889,
+          "tile": 706
+        },
+        {
+          "time": 5.099949,
+          "tile": 704
+        },
+        {
+          "time": 12.599874,
+          "tile": 402
+        },
+        {
+          "time": 13.466532,
+          "tile": 704
+        }
+      ],
+      "CH0271_Exs_Interaction_Random--b3db03f528284ffa": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.53333336,
+          "tile": 706
+        },
+        {
+          "time": 2,
+          "tile": 704
+        }
+      ],
+      "CH0271_Exs_Cutin_03--983bfc20e32dd557": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0271_Formation_Idle--f5760ca303261f9f": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "CH0271_Tactical_Start--908de2272b6a6509": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.36666667,
+          "tile": 402
+        },
+        {
+          "time": 0.8000001,
+          "tile": 704
+        },
+        {
+          "time": 1.3000001,
+          "tile": 706
+        }
+      ],
+      "CH0271_Exs_Cutin_01--1079ce25ddd3cf6b": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.2,
+          "tile": 707
+        },
+        {
+          "time": 1.5000001,
+          "tile": 706
+        }
+      ],
+      "CH0271_Exs_Interaction--1a753bc7508df07": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.8,
+          "tile": 706
+        },
+        {
+          "time": 1.7333335,
+          "tile": 704
+        }
+      ],
+      "CH0271_Exs_Cutin_02--287dea2ef849e3c": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.40000004,
+          "tile": 707
+        }
+      ],
+      "CH0271_Exs_Idle--2c0549aeee140fa7": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 2.266667,
+          "tile": 707
+        },
+        {
+          "time": 2.4333334,
+          "tile": 706
+        },
+        {
+          "time": 4.2000003,
+          "tile": 704
+        }
+      ],
+      "CH0271_Exs_Cutin_04--41941ca7e995265a": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.8000001,
+          "tile": 706
+        }
+      ],
+      "CH0271_Exs_Spawn--587947804a7407d6": [
+        {
+          "time": 0,
+          "tile": 706
+        },
+        {
+          "time": 0.26666668,
+          "tile": 704
+        },
+        {
+          "time": 1.5000001,
+          "tile": 706
+        },
+        {
+          "time": 2.5000002,
+          "tile": 704
+        }
+      ],
+      "CH0271_Exs_Destory--66d4b097bc62e7e9": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.40000004,
+          "tile": 706
+        }
+      ]
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs_cutin_03": {
+        "zoom": 0.6231845554398008,
+        "centerY": -0.20640898109167627
+      },
+      "original_exs_cutin_01": {
+        "zoom": 0.7065814595096164,
+        "centerY": 0.9857420736327513
+      },
+      "original_exs_cutin_02": {
+        "zoom": 0.6223232669215885,
+        "centerY": -0.20946262671751814
+      },
+      "original_exs_cutin_04": {
+        "zoom": 0.6231845554398008,
+        "centerY": -0.20640898109167627
+      },
+      "original_exs_spawn": {
+        "zoom": 0.9954447163946192,
+        "centerY": 1.3323900657021717
+      }
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210352_0",
+      "name": "演讲桌",
+      "model": "f210352_0.glb",
+      "clip": "f210352_0",
+      "duration": 23.366666666666667,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 704
+        },
+        {
+          "time": 2.533308,
+          "tile": 402
+        },
+        {
+          "time": 4.133292,
+          "tile": 704
+        },
+        {
+          "time": 4.3999557,
+          "tile": 705
+        },
+        {
+          "time": 6.466602,
+          "tile": 704
+        },
+        {
+          "time": 7.99992,
+          "tile": 704
+        },
+        {
+          "time": 8.0,
+          "tile": 704
+        },
+        {
+          "time": 8.133332,
+          "tile": 504
+        },
+        {
+          "time": 8.39999598,
+          "tile": 402
+        },
+        {
+          "time": 9.399986,
+          "tile": 704
+        },
+        {
+          "time": 11.66663,
+          "tile": 705
+        },
+        {
+          "time": 11.766629,
+          "tile": 704
+        },
+        {
+          "time": 11.899961,
+          "tile": 402
+        },
+        {
+          "time": 12.033293,
+          "tile": 705
+        },
+        {
+          "time": 12.166625,
+          "tile": 704
+        },
+        {
+          "time": 12.33329,
+          "tile": 706
+        },
+        {
+          "time": 12.466622000000001,
+          "tile": 704
+        },
+        {
+          "time": 13.533278,
+          "tile": 705
+        },
+        {
+          "time": 13.633277,
+          "tile": 704
+        },
+        {
+          "time": 13.766608999999999,
+          "tile": 504
+        },
+        {
+          "time": 13.899941,
+          "tile": 705
+        },
+        {
+          "time": 14.033272700000001,
+          "tile": 704
+        },
+        {
+          "time": 14.199938,
+          "tile": 706
+        },
+        {
+          "time": 14.333269999999999,
+          "tile": 704
+        },
+        {
+          "time": 15.199928,
+          "tile": 706
+        },
+        {
+          "time": 16.533248,
+          "tile": 705
+        },
+        {
+          "time": 16.933244000000002,
+          "tile": 604
+        },
+        {
+          "time": 20.466542,
+          "tile": 706
+        },
+        {
+          "time": 22.033193,
+          "tile": 704
+        }
+      ],
+      "yaw": 2.356194490192345,
+      "sourceTimeline": "my_event071_comictable",
+      "sourceGroup": "RequiredTrack_20038",
+      "sourceStudentTrack": "20038"
+    }
+  ]
+}

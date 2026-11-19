@@ -1,0 +1,534 @@
+{
+  "id": "mimori",
+  "name": "三森 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Mimori_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Mimori_Original_Cafe_Idle--a4ff035022f03f6e",
+    "interact": "Mimori_Original_Cafe_Reaction--47198afb2a958ab2"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Mimori_Original_Cafe_Idle--a4ff035022f03f6e",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Mimori_Original_Cafe_Reaction--47198afb2a958ab2",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Mimori_Original_Cafe_Walk--1cfc849e0fb6f482",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Mimori_Original_Victory_Start--f7a81053dde8a09",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Mimori_Original_Normal_Reload--86ef1b07043274a1",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Mimori_Original_Formation_Pickup--3478f9d0adc5a7b1",
+      "category": "常用"
+    },
+    {
+      "id": "original_stand_attack_start",
+      "label": "掩体站姿 · 攻击 · 开始",
+      "clip": "Mimori_Original_Stand_Attack_Start--e9fbd4101c57e443",
+      "sourceName": "Mimori_Original_Stand_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Mimori_Original_Kneel_Attack_Delay--e8a0ff466ccd50bd",
+      "sourceName": "Mimori_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_stand",
+      "label": "移动 · 结束 · 掩体站姿",
+      "clip": "Mimori_Original_Move_End_Stand--e85bbde263c349a5",
+      "sourceName": "Mimori_Original_Move_End_Stand",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Mimori_Original_Normal_Attack_Ing--e831a6fbd12849c2",
+      "sourceName": "Mimori_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Mimori_Original_Exs_Cutin--e6f92a24db7a5105",
+      "sourceName": "Mimori_Original_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Mimori_Original_Move_Ing--d751bc6f50297c4b",
+      "sourceName": "Mimori_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Mimori_Original_Normal_Idle--fb9f4edcad59147d",
+      "sourceName": "Mimori_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Mimori_Original_Vital_Dying_Ing--cd24d6b959512bbd",
+      "sourceName": "Mimori_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Mimori_Original_Vital_Retreat--c8506f706367a060",
+      "sourceName": "Mimori_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_delay",
+      "label": "掩体站姿 · 攻击 · 间隔",
+      "clip": "Mimori_Original_Stand_Attack_Delay--b7c764d9216c4a81",
+      "sourceName": "Mimori_Original_Stand_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "Mimori_Original_Move_Jump--b204767f33ed41a1",
+      "sourceName": "Mimori_Original_Move_Jump",
+      "category": "移动"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Mimori_Original_Exs--a1e25ca648f8f7fb",
+      "sourceName": "Mimori_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Mimori_Original_Kneel_Attack_End--9eb5d9ac57dce942",
+      "sourceName": "Mimori_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Mimori_Original_Kneel_Reload--8fb220d97e490b80",
+      "sourceName": "Mimori_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Mimori_Original_Normal_Attack_End--8b22ef99df09dd13",
+      "sourceName": "Mimori_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Mimori_Original_Kneel_Attack_Ing--825ecc0a4e5c59c1",
+      "sourceName": "Mimori_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Mimori_Original_Move_End_Kneel--812cdfbb5b5faed2",
+      "sourceName": "Mimori_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Mimori_Original_Victory_End--28786c99098ec324",
+      "sourceName": "Mimori_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_stand_idle",
+      "label": "掩体站姿 · 待机",
+      "clip": "Mimori_Original_Stand_Idle--2913193cad3a0d32",
+      "sourceName": "Mimori_Original_Stand_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Mimori_Original_Normal_Callsign--2bb05a847fe87a98",
+      "sourceName": "Mimori_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_ing",
+      "label": "掩体站姿 · 攻击 · 持续",
+      "clip": "Mimori_Original_Stand_Attack_Ing--43f8d3391e212db6",
+      "sourceName": "Mimori_Original_Stand_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Mimori_Original_Vital_Panic--45fb9bbb844b78c9",
+      "sourceName": "Mimori_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Mimori_Original_Kneel_Attack_Start--4ed5780722a95382",
+      "sourceName": "Mimori_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Mimori_Original_Normal_Attack_Start--612e1db630226e8c",
+      "sourceName": "Mimori_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Mimori_Original_Move_End_Normal--666c245011e9e330",
+      "sourceName": "Mimori_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Mimori_Original_Formation_Idle--6817b34ed96c4cc4",
+      "sourceName": "Mimori_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_stand_attack_end",
+      "label": "掩体站姿 · 攻击 · 结束",
+      "clip": "Mimori_Original_Stand_Attack_End--696698151c65b0b5",
+      "sourceName": "Mimori_Original_Stand_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Mimori_Original_Vital_Death--b71bfbdb8edd1a6",
+      "sourceName": "Mimori_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Mimori_Original_Kneel_Idle--794d0bc96d684385",
+      "sourceName": "Mimori_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_reload",
+      "label": "掩体站姿 · 换弹",
+      "clip": "Mimori_Original_Stand_Reload--7b6a70a33a9b47f0",
+      "sourceName": "Mimori_Original_Stand_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Mimori_Original_Normal_Attack_Delay--d26a61212d92dc0",
+      "sourceName": "Mimori_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Mimori_Original_Public01--db4a96a6784e5fb",
+      "sourceName": "Mimori_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_cafe_janomegassa01",
+      "label": "咖啡厅 · janomegassa01",
+      "clip": "Mimori_Original_Cafe_janomegassa01--36e50fed2e9830b9",
+      "sourceName": "Mimori_Original_Cafe_janomegassa01",
+      "category": "剧情"
+    }
+  ],
+  "mouth": {
+    "material": "Mimori_Original_Mouth",
+    "defaultTile": 704,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "Mimori_Original_Cafe_Idle--a4ff035022f03f6e": [],
+      "Mimori_Original_Cafe_Reaction--47198afb2a958ab2": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.23333335,
+          "tile": 705
+        },
+        {
+          "time": 1.3666668,
+          "tile": 706
+        },
+        {
+          "time": 2.7,
+          "tile": 704
+        }
+      ],
+      "Mimori_Original_Cafe_Walk--1cfc849e0fb6f482": [],
+      "Mimori_Original_Victory_Start--f7a81053dde8a09": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.9000001,
+          "tile": 705
+        },
+        {
+          "time": 2.4,
+          "tile": 704
+        }
+      ],
+      "Mimori_Original_Normal_Reload--86ef1b07043274a1": [],
+      "Mimori_Original_Formation_Pickup--3478f9d0adc5a7b1": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.13333334,
+          "tile": 402
+        },
+        {
+          "time": 0.7666667,
+          "tile": 705
+        },
+        {
+          "time": 4.566667,
+          "tile": 704
+        }
+      ],
+      "Mimori_Original_Stand_Attack_Start--e9fbd4101c57e443": [],
+      "Mimori_Original_Kneel_Attack_Delay--e8a0ff466ccd50bd": [],
+      "Mimori_Original_Move_End_Stand--e85bbde263c349a5": [],
+      "Mimori_Original_Normal_Attack_Ing--e831a6fbd12849c2": [],
+      "Mimori_Original_Exs_Cutin--e6f92a24db7a5105": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.6333334,
+          "tile": 500
+        },
+        {
+          "time": 1.4000001,
+          "tile": 300
+        },
+        {
+          "time": 1.6000001,
+          "tile": 704
+        },
+        {
+          "time": 2.4666667,
+          "tile": 500
+        },
+        {
+          "time": 2.8333335,
+          "tile": 706
+        }
+      ],
+      "Mimori_Original_Move_Ing--d751bc6f50297c4b": [],
+      "Mimori_Original_Normal_Idle--fb9f4edcad59147d": [],
+      "Mimori_Original_Vital_Dying_Ing--cd24d6b959512bbd": [],
+      "Mimori_Original_Vital_Retreat--c8506f706367a060": [],
+      "Mimori_Original_Stand_Attack_Delay--b7c764d9216c4a81": [],
+      "Mimori_Original_Move_Jump--b204767f33ed41a1": [],
+      "Mimori_Original_Exs--a1e25ca648f8f7fb": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.8000001,
+          "tile": 501
+        },
+        {
+          "time": 1.0666667,
+          "tile": 500
+        },
+        {
+          "time": 2.3333335,
+          "tile": 704
+        }
+      ],
+      "Mimori_Original_Kneel_Attack_End--9eb5d9ac57dce942": [],
+      "Mimori_Original_Kneel_Reload--8fb220d97e490b80": [],
+      "Mimori_Original_Normal_Attack_End--8b22ef99df09dd13": [],
+      "Mimori_Original_Kneel_Attack_Ing--825ecc0a4e5c59c1": [],
+      "Mimori_Original_Move_End_Kneel--812cdfbb5b5faed2": [],
+      "Mimori_Original_Victory_End--28786c99098ec324": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Mimori_Original_Stand_Idle--2913193cad3a0d32": [],
+      "Mimori_Original_Normal_Callsign--2bb05a847fe87a98": [],
+      "Mimori_Original_Stand_Attack_Ing--43f8d3391e212db6": [],
+      "Mimori_Original_Vital_Panic--45fb9bbb844b78c9": [],
+      "Mimori_Original_Kneel_Attack_Start--4ed5780722a95382": [],
+      "Mimori_Original_Normal_Attack_Start--612e1db630226e8c": [],
+      "Mimori_Original_Move_End_Normal--666c245011e9e330": [],
+      "Mimori_Original_Formation_Idle--6817b34ed96c4cc4": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Mimori_Original_Stand_Attack_End--696698151c65b0b5": [],
+      "Mimori_Original_Vital_Death--b71bfbdb8edd1a6": [],
+      "Mimori_Original_Kneel_Idle--794d0bc96d684385": [],
+      "Mimori_Original_Stand_Reload--7b6a70a33a9b47f0": [],
+      "Mimori_Original_Normal_Attack_Delay--d26a61212d92dc0": [],
+      "Mimori_Original_Public01--db4a96a6784e5fb": [],
+      "Mimori_Original_Cafe_janomegassa01--36e50fed2e9830b9": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.5,
+          "tile": 705
+        },
+        {
+          "time": 1.8000001,
+          "tile": 300
+        },
+        {
+          "time": 2.6666667,
+          "tile": 504
+        },
+        {
+          "time": 2.8000002,
+          "tile": 705
+        },
+        {
+          "time": 4.7333336,
+          "tile": 504
+        },
+        {
+          "time": 5.966667,
+          "tile": 704
+        },
+        {
+          "time": 6.5000005,
+          "tile": 705
+        },
+        {
+          "time": 10.333334,
+          "tile": 706
+        },
+        {
+          "time": 10.500001,
+          "tile": 704
+        },
+        {
+          "time": 12.366668,
+          "tile": 300
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "f7101_0",
+      "name": "传统花纹雨伞装饰",
+      "model": "f7101_0.glb",
+      "clip": "f7101_0",
+      "duration": 17.3,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 300
+        },
+        {
+          "time": 0.5,
+          "tile": 705
+        },
+        {
+          "time": 1.8000001,
+          "tile": 300
+        },
+        {
+          "time": 2.6666667,
+          "tile": 504
+        },
+        {
+          "time": 2.8000002,
+          "tile": 705
+        },
+        {
+          "time": 4.7333336,
+          "tile": 504
+        },
+        {
+          "time": 5.966667,
+          "tile": 704
+        },
+        {
+          "time": 6.5000005,
+          "tile": 705
+        },
+        {
+          "time": 10.333334,
+          "tile": 706
+        },
+        {
+          "time": 10.500001,
+          "tile": 704
+        },
+        {
+          "time": 12.366668,
+          "tile": 300
+        }
+      ],
+      "yaw": 5.497787143782138,
+      "sourceTimeline": "my_newyearpath_01_janomegassa",
+      "sourceGroup": "RequiredTrack_10034",
+      "sourceStudentTrack": "10034"
+    }
+  ]
+}

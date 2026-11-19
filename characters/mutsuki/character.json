@@ -1,0 +1,304 @@
+{
+  "id": "mutsuki",
+  "name": "睦月 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Mutsuki_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Mutsuki_Original_Cafe_Idle--c81f1c04efbf4b6a",
+    "interact": "Mutsuki_Original_Cafe_Reaction--ea9f92b44012a536"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Mutsuki_Original_Cafe_Idle--c81f1c04efbf4b6a",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Mutsuki_Original_Cafe_Reaction--ea9f92b44012a536",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Mutsuki_Original_Cafe_Walk--17a85c74ddc407b3",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Mutsuki_Original_Victory_Start--845da2b98779274b",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Mutsuki_Original_Normal_Reload--9d0071c542528bfb",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Mutsuki_Original_Formation_Pickup--3d67a37906b0f545",
+      "category": "常用"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Mutsuki_Original_Normal_Idle--e623d4ad36fd07af",
+      "sourceName": "Mutsuki_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_ing",
+      "label": "掩体站姿 · 攻击 · 持续",
+      "clip": "Mutsuki_Original_Stand_Attack_Ing--db017068d44ffe8b",
+      "sourceName": "Mutsuki_Original_Stand_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_delay",
+      "label": "掩体站姿 · 攻击 · 间隔",
+      "clip": "Mutsuki_Original_Stand_Attack_Delay--b4d700d7d69b7405",
+      "sourceName": "Mutsuki_Original_Stand_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Mutsuki_Original_Normal_Attack_Start--b3125ef780d21b2a",
+      "sourceName": "Mutsuki_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Mutsuki_Original_Normal_Attack_End--b07a30d9e8a68fec",
+      "sourceName": "Mutsuki_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Mutsuki_Original_Victory_End--ff231731e98a9b9b",
+      "sourceName": "Mutsuki_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Mutsuki_Original_Move_End_Normal--a47790555042eecb",
+      "sourceName": "Mutsuki_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Mutsuki_Original_Vital_Dying_Ing--93a21296e1f40df1",
+      "sourceName": "Mutsuki_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Mutsuki_Original_Vital_Death--90b0227152bcc100",
+      "sourceName": "Mutsuki_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Mutsuki_Original_Normal_Callsign--889be50dee403d13",
+      "sourceName": "Mutsuki_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Mutsuki_Original_Vital_Panic--87c9c38aafff13c3",
+      "sourceName": "Mutsuki_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_callsign",
+      "label": "移动 · 回应",
+      "clip": "Mutsuki_Original_Move_Callsign--861c55023e95f1e3",
+      "sourceName": "Mutsuki_Original_Move_Callsign",
+      "category": "移动"
+    },
+    {
+      "id": "original_stand_callsign",
+      "label": "掩体站姿 · 回应",
+      "clip": "Mutsuki_Original_Stand_Callsign--119ba4e29e2a8b54",
+      "sourceName": "Mutsuki_Original_Stand_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_start",
+      "label": "掩体站姿 · 攻击 · 开始",
+      "clip": "Mutsuki_Original_Stand_Attack_Start--146f562a41e0b5d6",
+      "sourceName": "Mutsuki_Original_Stand_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_idle",
+      "label": "掩体站姿 · 待机",
+      "clip": "Mutsuki_Original_Stand_Idle--22b83e0575318e2f",
+      "sourceName": "Mutsuki_Original_Stand_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_end",
+      "label": "掩体站姿 · 攻击 · 结束",
+      "clip": "Mutsuki_Original_Stand_Attack_End--51a8e34749196f7",
+      "sourceName": "Mutsuki_Original_Stand_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_reload",
+      "label": "掩体站姿 · 换弹",
+      "clip": "Mutsuki_Original_Stand_Reload--3ef0ed87edc44a40",
+      "sourceName": "Mutsuki_Original_Stand_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_stand",
+      "label": "移动 · 结束 · 掩体站姿",
+      "clip": "Mutsuki_Original_Move_End_Stand--45b73c1db6f5d904",
+      "sourceName": "Mutsuki_Original_Move_End_Stand",
+      "category": "移动"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Mutsuki_Original_Move_Ing--4ec97b733388a858",
+      "sourceName": "Mutsuki_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Mutsuki_Original_Formation_Idle--533cfa6f735acf33",
+      "sourceName": "Mutsuki_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Mutsuki_Original_Vital_Retreat--6448855b95d7bed6",
+      "sourceName": "Mutsuki_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Mutsuki_Original_Normal_Attack_Delay--6c0630c517ef7e9d",
+      "sourceName": "Mutsuki_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Mutsuki_Original_Normal_Attack_Ing--73abe8646db24865",
+      "sourceName": "Mutsuki_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Mutsuki_Original_Exs--7826b08889b741de",
+      "sourceName": "Mutsuki_Original_Exs",
+      "category": "技能"
+    }
+  ],
+  "mouth": {
+    "material": "Mutsuki_Original_Mouth",
+    "defaultTile": 704,
+    "events": {
+      "Mutsuki_Original_Cafe_Idle--c81f1c04efbf4b6a": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Mutsuki_Original_Cafe_Reaction--ea9f92b44012a536": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.5666667,
+          "tile": 500
+        },
+        {
+          "time": 0.6,
+          "tile": 501
+        },
+        {
+          "time": 1.4333334,
+          "tile": 500
+        },
+        {
+          "time": 1.4666667,
+          "tile": 704
+        }
+      ],
+      "Mutsuki_Original_Cafe_Walk--17a85c74ddc407b3": [],
+      "Mutsuki_Original_Victory_Start--845da2b98779274b": [],
+      "Mutsuki_Original_Normal_Reload--9d0071c542528bfb": [],
+      "Mutsuki_Original_Formation_Pickup--3d67a37906b0f545": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.1666667,
+          "tile": 701
+        },
+        {
+          "time": 3.6666667,
+          "tile": 704
+        }
+      ],
+      "Mutsuki_Original_Normal_Idle--e623d4ad36fd07af": [],
+      "Mutsuki_Original_Stand_Attack_Ing--db017068d44ffe8b": [],
+      "Mutsuki_Original_Stand_Attack_Delay--b4d700d7d69b7405": [],
+      "Mutsuki_Original_Normal_Attack_Start--b3125ef780d21b2a": [],
+      "Mutsuki_Original_Normal_Attack_End--b07a30d9e8a68fec": [],
+      "Mutsuki_Original_Victory_End--ff231731e98a9b9b": [],
+      "Mutsuki_Original_Move_End_Normal--a47790555042eecb": [],
+      "Mutsuki_Original_Vital_Dying_Ing--93a21296e1f40df1": [],
+      "Mutsuki_Original_Vital_Death--90b0227152bcc100": [],
+      "Mutsuki_Original_Normal_Callsign--889be50dee403d13": [],
+      "Mutsuki_Original_Vital_Panic--87c9c38aafff13c3": [],
+      "Mutsuki_Original_Move_Callsign--861c55023e95f1e3": [],
+      "Mutsuki_Original_Stand_Callsign--119ba4e29e2a8b54": [],
+      "Mutsuki_Original_Stand_Attack_Start--146f562a41e0b5d6": [],
+      "Mutsuki_Original_Stand_Idle--22b83e0575318e2f": [],
+      "Mutsuki_Original_Stand_Attack_End--51a8e34749196f7": [],
+      "Mutsuki_Original_Stand_Reload--3ef0ed87edc44a40": [],
+      "Mutsuki_Original_Move_End_Stand--45b73c1db6f5d904": [],
+      "Mutsuki_Original_Move_Ing--4ec97b733388a858": [],
+      "Mutsuki_Original_Formation_Idle--533cfa6f735acf33": [],
+      "Mutsuki_Original_Vital_Retreat--6448855b95d7bed6": [],
+      "Mutsuki_Original_Normal_Attack_Delay--6c0630c517ef7e9d": [],
+      "Mutsuki_Original_Normal_Attack_Ing--73abe8646db24865": [],
+      "Mutsuki_Original_Exs--7826b08889b741de": []
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs": {
+        "zoom": 0.9515412070359074,
+        "centerY": 1.3133828490661166
+      }
+    }
+  }
+}

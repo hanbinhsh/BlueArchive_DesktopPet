@@ -1,0 +1,419 @@
+{
+  "id": "hifumi",
+  "name": "日富美 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Hihumi_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Hihumi_Original_Cafe_Idle--cf8d56a64ad6b410",
+    "interact": "Hihumi_Original_Cafe_Reaction--990f686d6d05d2bd"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Hihumi_Original_Cafe_Idle--cf8d56a64ad6b410",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Hihumi_Original_Cafe_Reaction--990f686d6d05d2bd",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Hihumi_Original_Cafe_Walk--1fb38da37580f723",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Hihumi_Original_Victory_Start--2a8607312633d9f1",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Hihumi_Original_Normal_Reload--214e6f07bef34dd0",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Hihumi_Original_Formation_Pickup--95fabad1cf1e0ce7",
+      "category": "常用"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Hihumi_Original_Kneel_Attack_Ing--ee4ebad8649de331",
+      "sourceName": "Hihumi_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Hihumi_Original_Move_End_Kneel--ed91dc03711144dd",
+      "sourceName": "Hihumi_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Hihumi_Original_Move_Ing--e8b187b42c4bb4ec",
+      "sourceName": "Hihumi_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Hihumi_Original_Formation_Idle--cd955e1dbc0c6bb5",
+      "sourceName": "Hihumi_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Hihumi_Original_Normal_Attack_Ing--caa7c065a6075af8",
+      "sourceName": "Hihumi_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_rearrange_reaction",
+      "label": "重新编队 · 互动",
+      "clip": "Hihumi_Original_Rearrange_Reaction--c7a5f5c6b848d678",
+      "sourceName": "Hihumi_Original_Rearrange_Reaction",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Hihumi_Original_Kneel_Idle--c33e6d0ca264c7cd",
+      "sourceName": "Hihumi_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Hihumi_Original_Kneel_Attack_End--f8844181240378db",
+      "sourceName": "Hihumi_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_callsign",
+      "label": "移动 · 回应",
+      "clip": "Hihumi_Original_Move_Callsign--afd970bf2ab8d41e",
+      "sourceName": "Hihumi_Original_Move_Callsign",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Hihumi_Original_Vital_Death--f73e9e87c1ac9867",
+      "sourceName": "Hihumi_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Hihumi_Original_Vital_Retreat--9e40c4c911948bbc",
+      "sourceName": "Hihumi_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_idle",
+      "label": "掩体站姿 · 待机",
+      "clip": "Hihumi_Original_Stand_Idle--9d8461403b119e65",
+      "sourceName": "Hihumi_Original_Stand_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_stand",
+      "label": "移动 · 结束 · 掩体站姿",
+      "clip": "Hihumi_Original_Move_End_Stand--8f1b61fccb0525ca",
+      "sourceName": "Hihumi_Original_Move_End_Stand",
+      "category": "移动"
+    },
+    {
+      "id": "original_stand_attack_start",
+      "label": "掩体站姿 · 攻击 · 开始",
+      "clip": "Hihumi_Original_Stand_Attack_Start--8e11d151309f93d7",
+      "sourceName": "Hihumi_Original_Stand_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Hihumi_Original_Public01--826f21ccfdd8a998",
+      "sourceName": "Hihumi_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Hihumi_Original_Kneel_Attack_Delay--15dc2c28bf23b378",
+      "sourceName": "Hihumi_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "Hihumi_Original_Move_Jump--1682fdad30d69a4b",
+      "sourceName": "Hihumi_Original_Move_Jump",
+      "category": "移动"
+    },
+    {
+      "id": "original_stand_attack_ing",
+      "label": "掩体站姿 · 攻击 · 持续",
+      "clip": "Hihumi_Original_Stand_Attack_Ing--170c7ce8b9f83b62",
+      "sourceName": "Hihumi_Original_Stand_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_callsign",
+      "label": "蹲姿 · 回应",
+      "clip": "Hihumi_Original_Kneel_Callsign--18a82aab65cf0bde",
+      "sourceName": "Hihumi_Original_Kneel_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Hihumi_Original_Victory_End--23abee3984ffefe8",
+      "sourceName": "Hihumi_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_stand_reload",
+      "label": "掩体站姿 · 换弹",
+      "clip": "Hihumi_Original_Stand_Reload--26ad431e3347c0a2",
+      "sourceName": "Hihumi_Original_Stand_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Hihumi_Original_Vital_Panic--26b62944b5af8b75",
+      "sourceName": "Hihumi_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Hihumi_Original_Normal_Attack_End--292dca313c283ebf",
+      "sourceName": "Hihumi_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Hihumi_Original_Vital_Dying_ing--2b7c36b6bb8a27c9",
+      "sourceName": "Hihumi_Original_Vital_Dying_ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_callsign",
+      "label": "掩体站姿 · 回应",
+      "clip": "Hihumi_Original_Stand_Callsign--2ba21d97f414a833",
+      "sourceName": "Hihumi_Original_Stand_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Hihumi_Original_Kneel_Reload--2c4ba056066062c3",
+      "sourceName": "Hihumi_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Hihumi_Original_Exs--41002d6ff918e0ae",
+      "sourceName": "Hihumi_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Hihumi_Original_Kneel_Attack_Start--41522d043ae0c249",
+      "sourceName": "Hihumi_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_rearrange_idle",
+      "label": "重新编队 · 待机",
+      "clip": "Hihumi_Original_Rearrange_Idle--4a3013fd52ebd0e6",
+      "sourceName": "Hihumi_Original_Rearrange_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Hihumi_Original_Normal_Attack_Delay--5879fbded6f74a54",
+      "sourceName": "Hihumi_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_delay",
+      "label": "掩体站姿 · 攻击 · 间隔",
+      "clip": "Hihumi_Original_Stand_Attack_Delay--5c37e3db71ae35b0",
+      "sourceName": "Hihumi_Original_Stand_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_rearrange_start",
+      "label": "重新编队 · 开始",
+      "clip": "Hihumi_Original_Rearrange_Start--60a1d291bdc4b1ca",
+      "sourceName": "Hihumi_Original_Rearrange_Start",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Hihumi_Original_Normal_Callsign--65a514401eb3b96d",
+      "sourceName": "Hihumi_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Hihumi_Original_Move_End_Normal--6cc1189b086370a1",
+      "sourceName": "Hihumi_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Hihumi_Original_Normal_Idle--75638afc44bd1dca",
+      "sourceName": "Hihumi_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Hihumi_Original_Normal_Attack_Start--7955e6088cc2ac36",
+      "sourceName": "Hihumi_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_end",
+      "label": "掩体站姿 · 攻击 · 结束",
+      "clip": "Hihumi_Original_Stand_Attack_End--7e3fa55a67bae8bb",
+      "sourceName": "Hihumi_Original_Stand_Attack_End",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Hihumi_Original_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "Hihumi_Original_Cafe_Idle--cf8d56a64ad6b410": [],
+      "Hihumi_Original_Cafe_Reaction--990f686d6d05d2bd": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.13333334,
+          "tile": 704
+        },
+        {
+          "time": 1.6000001,
+          "tile": 300
+        },
+        {
+          "time": 1.8666668,
+          "tile": 704
+        },
+        {
+          "time": 2.1333334,
+          "tile": 401
+        }
+      ],
+      "Hihumi_Original_Cafe_Walk--1fb38da37580f723": [],
+      "Hihumi_Original_Victory_Start--2a8607312633d9f1": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.10000001,
+          "tile": 402
+        },
+        {
+          "time": 2.766667,
+          "tile": 704
+        }
+      ],
+      "Hihumi_Original_Normal_Reload--214e6f07bef34dd0": [],
+      "Hihumi_Original_Formation_Pickup--95fabad1cf1e0ce7": [],
+      "Hihumi_Original_Kneel_Attack_Ing--ee4ebad8649de331": [],
+      "Hihumi_Original_Move_End_Kneel--ed91dc03711144dd": [],
+      "Hihumi_Original_Move_Ing--e8b187b42c4bb4ec": [],
+      "Hihumi_Original_Formation_Idle--cd955e1dbc0c6bb5": [],
+      "Hihumi_Original_Normal_Attack_Ing--caa7c065a6075af8": [],
+      "Hihumi_Original_Rearrange_Reaction--c7a5f5c6b848d678": [],
+      "Hihumi_Original_Kneel_Idle--c33e6d0ca264c7cd": [],
+      "Hihumi_Original_Kneel_Attack_End--f8844181240378db": [],
+      "Hihumi_Original_Move_Callsign--afd970bf2ab8d41e": [],
+      "Hihumi_Original_Vital_Death--f73e9e87c1ac9867": [],
+      "Hihumi_Original_Vital_Retreat--9e40c4c911948bbc": [],
+      "Hihumi_Original_Stand_Idle--9d8461403b119e65": [],
+      "Hihumi_Original_Move_End_Stand--8f1b61fccb0525ca": [],
+      "Hihumi_Original_Stand_Attack_Start--8e11d151309f93d7": [],
+      "Hihumi_Original_Public01--826f21ccfdd8a998": [],
+      "Hihumi_Original_Kneel_Attack_Delay--15dc2c28bf23b378": [],
+      "Hihumi_Original_Move_Jump--1682fdad30d69a4b": [],
+      "Hihumi_Original_Stand_Attack_Ing--170c7ce8b9f83b62": [],
+      "Hihumi_Original_Kneel_Callsign--18a82aab65cf0bde": [],
+      "Hihumi_Original_Victory_End--23abee3984ffefe8": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.13333334,
+          "tile": 704
+        },
+        {
+          "time": 0.3,
+          "tile": 704
+        }
+      ],
+      "Hihumi_Original_Stand_Reload--26ad431e3347c0a2": [],
+      "Hihumi_Original_Vital_Panic--26b62944b5af8b75": [],
+      "Hihumi_Original_Normal_Attack_End--292dca313c283ebf": [],
+      "Hihumi_Original_Vital_Dying_ing--2b7c36b6bb8a27c9": [],
+      "Hihumi_Original_Stand_Callsign--2ba21d97f414a833": [],
+      "Hihumi_Original_Kneel_Reload--2c4ba056066062c3": [],
+      "Hihumi_Original_Exs--41002d6ff918e0ae": [],
+      "Hihumi_Original_Kneel_Attack_Start--41522d043ae0c249": [],
+      "Hihumi_Original_Rearrange_Idle--4a3013fd52ebd0e6": [],
+      "Hihumi_Original_Normal_Attack_Delay--5879fbded6f74a54": [],
+      "Hihumi_Original_Stand_Attack_Delay--5c37e3db71ae35b0": [],
+      "Hihumi_Original_Rearrange_Start--60a1d291bdc4b1ca": [],
+      "Hihumi_Original_Normal_Callsign--65a514401eb3b96d": [],
+      "Hihumi_Original_Move_End_Normal--6cc1189b086370a1": [],
+      "Hihumi_Original_Normal_Idle--75638afc44bd1dca": [],
+      "Hihumi_Original_Normal_Attack_Start--7955e6088cc2ac36": [],
+      "Hihumi_Original_Stand_Attack_End--7e3fa55a67bae8bb": []
+    }
+  },
+  "framing": {
+    "minExtent": 0.003,
+    "actions": {
+      "original_rearrange_start": {
+        "zoom": 0.7687791325260062,
+        "centerY": 0.9728148904548959
+      }
+    }
+  }
+}

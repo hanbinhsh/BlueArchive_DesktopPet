@@ -1,0 +1,451 @@
+{
+  "id": "shiroko",
+  "name": "白子 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Shiroko_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Shiroko_Original_Cafe_Idle--246a7fb511d8d298",
+    "interact": "Shiroko_Original_Cafe_Reaction--1df6884b22abf9ee"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Shiroko_Original_Cafe_Idle--246a7fb511d8d298",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Shiroko_Original_Cafe_Reaction--1df6884b22abf9ee",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Shiroko_Original_Cafe_Walk--30311f2f6414c95",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Shiroko_Original_Victory_Start--7b87556e924e1676",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Shiroko_Original_Normal_Reload--4f4a3e794efe3418",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Shiroko_Original_Formation_Pickup--b31ca53c543e1a83",
+      "category": "常用"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Shiroko_Original_Formation_Idle--944ef3fa33225edb",
+      "sourceName": "Shiroko_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Shiroko_Original_Exs--5924022f11150ac5",
+      "sourceName": "Shiroko_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Shiroko_Original_Normal_Attack_Start--ea94cf2fa7eb661e",
+      "sourceName": "Shiroko_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Shiroko_Original_Kneel_Attack_Start--e9a01ec6ab7da576",
+      "sourceName": "Shiroko_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_rearrange_reaction",
+      "label": "重新编队 · 互动",
+      "clip": "Shiroko_Original_Rearrange_Reaction--e81c99e7267c2653",
+      "sourceName": "Shiroko_Original_Rearrange_Reaction",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Shiroko_Original_Kneel_Attack_End--d7bbf2cc3bc14b90",
+      "sourceName": "Shiroko_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_stand",
+      "label": "移动 · 结束 · 掩体站姿",
+      "clip": "Shiroko_Original_Move_End_Stand--d6a34a94996c3689",
+      "sourceName": "Shiroko_Original_Move_End_Stand",
+      "category": "移动"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Shiroko_Original_Public01--ccf41eb786609d1a",
+      "sourceName": "Shiroko_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Shiroko_Original_Vital_Death--c40e79469b8c65cc",
+      "sourceName": "Shiroko_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "Shiroko_Original_Move_Jump--bfe4893cab8f3bc9",
+      "sourceName": "Shiroko_Original_Move_Jump",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Shiroko_Original_Kneel_Idle--bdfc7153abeb269c",
+      "sourceName": "Shiroko_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Shiroko_Original_Kneel_Reload--ba94577c3738cdbc",
+      "sourceName": "Shiroko_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_callsign",
+      "label": "移动 · 回应",
+      "clip": "Shiroko_Original_Move_Callsign--a8565b26a68b55a5",
+      "sourceName": "Shiroko_Original_Move_Callsign",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_callsign",
+      "label": "蹲姿 · 回应",
+      "clip": "Shiroko_Original_Kneel_Callsign--f6ca20a6657210c2",
+      "sourceName": "Shiroko_Original_Kneel_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_idle",
+      "label": "掩体站姿 · 待机",
+      "clip": "Shiroko_Original_Stand_Idle--97de0ae2a820556f",
+      "sourceName": "Shiroko_Original_Stand_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Shiroko_Original_Normal_Callsign--91503e13d685dd28",
+      "sourceName": "Shiroko_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_end",
+      "label": "掩体站姿 · 攻击 · 结束",
+      "clip": "Shiroko_Original_Stand_Attack_End--89d36549738cddd6",
+      "sourceName": "Shiroko_Original_Stand_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Shiroko_Original_Move_End_Normal--83f49ebabe8e64cd",
+      "sourceName": "Shiroko_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Shiroko_Original_Move_Ing--11c5acc5540737cd",
+      "sourceName": "Shiroko_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_rearrange_start",
+      "label": "重新编队 · 开始",
+      "clip": "Shiroko_Original_Rearrange_Start--1943d535a2710c1f",
+      "sourceName": "Shiroko_Original_Rearrange_Start",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_rearrange_ing",
+      "label": "重新编队 · 持续",
+      "clip": "Shiroko_Original_Rearrange_Ing--250a51a34fb73c16",
+      "sourceName": "Shiroko_Original_Rearrange_Ing",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Shiroko_Original_Vital_Retreat--26c81fceb11e2eea",
+      "sourceName": "Shiroko_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Shiroko_Original_Kneel_Attack_Delay--28c373c7187f116a",
+      "sourceName": "Shiroko_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Shiroko_Original_Normal_Attack_Ing--2caddfe22e0ecb95",
+      "sourceName": "Shiroko_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_callsign",
+      "label": "掩体站姿 · 回应",
+      "clip": "Shiroko_Original_Stand_Callsign--2fcc98b6ed6f0ce6",
+      "sourceName": "Shiroko_Original_Stand_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_start",
+      "label": "掩体站姿 · 攻击 · 开始",
+      "clip": "Shiroko_Original_Stand_Attack_Start--3056af2ff6cc7e45",
+      "sourceName": "Shiroko_Original_Stand_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Shiroko_Original_Move_End_Kneel--3ede8f23cefab410",
+      "sourceName": "Shiroko_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Shiroko_Original_Victory_End--40b8a403612a8d3c",
+      "sourceName": "Shiroko_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_stand_attack_delay",
+      "label": "掩体站姿 · 攻击 · 间隔",
+      "clip": "Shiroko_Original_Stand_Attack_Delay--4681d657a32abfe9",
+      "sourceName": "Shiroko_Original_Stand_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Shiroko_Original_Kneel_Attack_Ing--4fdc2c5c7f11acdb",
+      "sourceName": "Shiroko_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Shiroko_Original_Normal_Idle--14a9214f8d47d7",
+      "sourceName": "Shiroko_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_ing",
+      "label": "掩体站姿 · 攻击 · 持续",
+      "clip": "Shiroko_Original_Stand_Attack_Ing--55a41f3af32d5207",
+      "sourceName": "Shiroko_Original_Stand_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_reload",
+      "label": "掩体站姿 · 换弹",
+      "clip": "Shiroko_Original_Stand_Reload--5b59bdbfa690b137",
+      "sourceName": "Shiroko_Original_Stand_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Shiroko_Original_Vital_Panic--643e3626a47d29f7",
+      "sourceName": "Shiroko_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Shiroko_Original_Normal_Attack_End--6e19c3eb46aa42da",
+      "sourceName": "Shiroko_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Shiroko_Original_Normal_Attack_Delay--730e87ef921b3a47",
+      "sourceName": "Shiroko_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Shiroko_Original_Vital_Dying_Ing--7f787782f602f826",
+      "sourceName": "Shiroko_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Shiroko_Original_Mouth",
+    "defaultTile": 402,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "Shiroko_Original_Cafe_Idle--246a7fb511d8d298": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ],
+      "Shiroko_Original_Cafe_Reaction--1df6884b22abf9ee": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.7666667,
+          "tile": 300
+        },
+        {
+          "time": 2.1000001,
+          "tile": 402
+        }
+      ],
+      "Shiroko_Original_Cafe_Walk--30311f2f6414c95": [],
+      "Shiroko_Original_Victory_Start--7b87556e924e1676": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 1.0666667,
+          "tile": 401
+        },
+        {
+          "time": 3.0000002,
+          "tile": 401
+        }
+      ],
+      "Shiroko_Original_Normal_Reload--4f4a3e794efe3418": [],
+      "Shiroko_Original_Formation_Pickup--b31ca53c543e1a83": [],
+      "Shiroko_Original_Formation_Idle--944ef3fa33225edb": [],
+      "Shiroko_Original_Exs--5924022f11150ac5": [],
+      "Shiroko_Original_Normal_Attack_Start--ea94cf2fa7eb661e": [],
+      "Shiroko_Original_Kneel_Attack_Start--e9a01ec6ab7da576": [],
+      "Shiroko_Original_Rearrange_Reaction--e81c99e7267c2653": [],
+      "Shiroko_Original_Kneel_Attack_End--d7bbf2cc3bc14b90": [],
+      "Shiroko_Original_Move_End_Stand--d6a34a94996c3689": [],
+      "Shiroko_Original_Public01--ccf41eb786609d1a": [],
+      "Shiroko_Original_Vital_Death--c40e79469b8c65cc": [],
+      "Shiroko_Original_Move_Jump--bfe4893cab8f3bc9": [],
+      "Shiroko_Original_Kneel_Idle--bdfc7153abeb269c": [],
+      "Shiroko_Original_Kneel_Reload--ba94577c3738cdbc": [],
+      "Shiroko_Original_Move_Callsign--a8565b26a68b55a5": [],
+      "Shiroko_Original_Kneel_Callsign--f6ca20a6657210c2": [],
+      "Shiroko_Original_Stand_Idle--97de0ae2a820556f": [],
+      "Shiroko_Original_Normal_Callsign--91503e13d685dd28": [],
+      "Shiroko_Original_Stand_Attack_End--89d36549738cddd6": [],
+      "Shiroko_Original_Move_End_Normal--83f49ebabe8e64cd": [],
+      "Shiroko_Original_Move_Ing--11c5acc5540737cd": [],
+      "Shiroko_Original_Rearrange_Start--1943d535a2710c1f": [],
+      "Shiroko_Original_Rearrange_Ing--250a51a34fb73c16": [],
+      "Shiroko_Original_Vital_Retreat--26c81fceb11e2eea": [],
+      "Shiroko_Original_Kneel_Attack_Delay--28c373c7187f116a": [],
+      "Shiroko_Original_Normal_Attack_Ing--2caddfe22e0ecb95": [],
+      "Shiroko_Original_Stand_Callsign--2fcc98b6ed6f0ce6": [],
+      "Shiroko_Original_Stand_Attack_Start--3056af2ff6cc7e45": [],
+      "Shiroko_Original_Move_End_Kneel--3ede8f23cefab410": [],
+      "Shiroko_Original_Victory_End--40b8a403612a8d3c": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Shiroko_Original_Stand_Attack_Delay--4681d657a32abfe9": [],
+      "Shiroko_Original_Kneel_Attack_Ing--4fdc2c5c7f11acdb": [],
+      "Shiroko_Original_Normal_Idle--14a9214f8d47d7": [],
+      "Shiroko_Original_Stand_Attack_Ing--55a41f3af32d5207": [],
+      "Shiroko_Original_Stand_Reload--5b59bdbfa690b137": [],
+      "Shiroko_Original_Vital_Panic--643e3626a47d29f7": [],
+      "Shiroko_Original_Normal_Attack_End--6e19c3eb46aa42da": [],
+      "Shiroko_Original_Normal_Attack_Delay--730e87ef921b3a47": [],
+      "Shiroko_Original_Vital_Dying_Ing--7f787782f602f826": []
+    }
+  },
+  "furniture": [
+    {
+      "id": "f11207_0",
+      "name": "阿拜多斯讲堂放有面罩的桌子",
+      "model": "f11207_0.glb",
+      "clip": "f11207_0",
+      "duration": 18,
+      "mouthEvents": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 2.9,
+          "tile": 602
+        },
+        {
+          "time": 3.0666668,
+          "tile": 201
+        },
+        {
+          "time": 3.3000002,
+          "tile": 602
+        },
+        {
+          "time": 5.966667,
+          "tile": 402
+        },
+        {
+          "time": 6.166667,
+          "tile": 401
+        },
+        {
+          "time": 10.066668,
+          "tile": 602
+        },
+        {
+          "time": 11.533334,
+          "tile": 401
+        },
+        {
+          "time": 12.900002,
+          "tile": 402
+        },
+        {
+          "time": 14.400002,
+          "tile": 401
+        }
+      ],
+      "yaw": 2.356194490192345
+    }
+  ]
+}

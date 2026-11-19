@@ -1,0 +1,21 @@
+{
+  "chinatsu": {
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "Chinatsu_Original_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "Chinatsu_Original_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "Chinatsu_Original_Cafe_Walk"
+      ]
+    ]
+  }
+}

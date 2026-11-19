@@ -1,0 +1,596 @@
+{
+  "id": "aris_maid",
+  "name": "爱丽丝 · 女仆",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0200; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0200_Cafe_Idle--1ab73e54a1640fde",
+    "interact": "CH0200_Cafe_Reaction--f442536cfe28c86e"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0200_Cafe_Idle--1ab73e54a1640fde",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0200_Cafe_Reaction--f442536cfe28c86e",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0200_Cafe_Walk--9bd67661a5fc1592",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "CH0200_Victory_Start--cd9524fc9ebf86ed",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "CH0200_Normal_Reload--1b1b7b6a986d0a54",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0200_Formation_Pickup--ef13ea95f3318e9d",
+      "category": "常用"
+    },
+    {
+      "id": "original_normal_reload_random",
+      "label": "常规 · 换弹 · Random",
+      "clip": "CH0200_Normal_Reload_Random--ebe2925a2e20f1ab",
+      "sourceName": "CH0200_Normal_Reload_Random",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "CH0200_Normal_Attack_Start--fca847b5561dcd66",
+      "sourceName": "CH0200_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "CH0200_Normal_Attack_End--d3158bd540f0f206",
+      "sourceName": "CH0200_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_start_random",
+      "label": "胜利 · 开始 · Random",
+      "clip": "CH0200_Victory_Start_Random--cec1cda7bf6177ec",
+      "sourceName": "CH0200_Victory_Start_Random",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_callsign_random",
+      "label": "常规 · 回应 · Random",
+      "clip": "CH0200_Normal_Callsign_Random--bbd8a8a566586a11",
+      "sourceName": "CH0200_Normal_Callsign_Random",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "CH0200_Move_Ing--f84749d9af9323b6",
+      "sourceName": "CH0200_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "CH0200_Public01--a23274226c3786cc",
+      "sourceName": "CH0200_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "CH0200_Normal_Attack_Ing--a0b3fc1eb42a250d",
+      "sourceName": "CH0200_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "CH0200_Vital_Retreat--9e9457872c40afd4",
+      "sourceName": "CH0200_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end_random",
+      "label": "胜利 · 结束 · Random",
+      "clip": "CH0200_Victory_End_Random--95f8abdfed384b26",
+      "sourceName": "CH0200_Victory_End_Random",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "CH0200_Normal_Attack_Delay--82b22ca714f0e39f",
+      "sourceName": "CH0200_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "CH0200_Vital_Dying_Ing--12f62bdd9f9ccbba",
+      "sourceName": "CH0200_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "CH0200_Vital_Death--22a2837e6a3999b3",
+      "sourceName": "CH0200_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "CH0200_Normal_Idle--2931f01cba6c683c",
+      "sourceName": "CH0200_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "CH0200_Exs--4a66d8e46408b21",
+      "sourceName": "CH0200_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0200_Formation_Idle--31a6dc40f96c0039",
+      "sourceName": "CH0200_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "CH0200_Move_End_Normal--35bbc33ef8e92557",
+      "sourceName": "CH0200_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "CH0200_Normal_Callsign--4c0cfd6fc185ac20",
+      "sourceName": "CH0200_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "CH0200_Victory_End--5879b4b87b3286f3",
+      "sourceName": "CH0200_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "CH0200_Vital_Panic--5fc90285c683539a",
+      "sourceName": "CH0200_Vital_Panic",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "CH0200_Mouth",
+    "defaultTile": 704,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "CH0200_Cafe_Idle--1ab73e54a1640fde": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "CH0200_Cafe_Reaction--f442536cfe28c86e": [
+        {
+          "time": 0,
+          "tile": 500
+        },
+        {
+          "time": 0.43333337,
+          "tile": 503
+        },
+        {
+          "time": 1.5000001,
+          "tile": 500
+        },
+        {
+          "time": 1.6000001,
+          "tile": 501
+        },
+        {
+          "time": 3.7000003,
+          "tile": 300
+        },
+        {
+          "time": 5.3,
+          "tile": 201
+        },
+        {
+          "time": 6.5000005,
+          "tile": 405
+        },
+        {
+          "time": 6.633334,
+          "tile": 501
+        },
+        {
+          "time": 7.966667,
+          "tile": 300
+        }
+      ],
+      "CH0200_Cafe_Walk--9bd67661a5fc1592": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "CH0200_Victory_Start--cd9524fc9ebf86ed": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.70000005,
+          "tile": 404
+        },
+        {
+          "time": 1.2333333,
+          "tile": 501
+        }
+      ],
+      "CH0200_Normal_Reload--1b1b7b6a986d0a54": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.5,
+          "tile": 202
+        },
+        {
+          "time": 1.1333334,
+          "tile": 300
+        }
+      ],
+      "CH0200_Formation_Pickup--ef13ea95f3318e9d": [
+        {
+          "time": 0,
+          "tile": 205
+        },
+        {
+          "time": 0.033333343,
+          "tile": 205
+        },
+        {
+          "time": 0.5666667,
+          "tile": 506
+        },
+        {
+          "time": 1.9666668,
+          "tile": 201
+        },
+        {
+          "time": 3.3000002,
+          "tile": 305
+        },
+        {
+          "time": 5.0000005,
+          "tile": 506
+        },
+        {
+          "time": 5.066667,
+          "tile": 507
+        },
+        {
+          "time": 7.3333335,
+          "tile": 205
+        }
+      ],
+      "CH0200_Normal_Reload_Random--ebe2925a2e20f1ab": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.26666665,
+          "tile": 501
+        },
+        {
+          "time": 1,
+          "tile": 404
+        }
+      ],
+      "CH0200_Normal_Attack_Start--fca847b5561dcd66": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.33333334,
+          "tile": 202
+        }
+      ],
+      "CH0200_Normal_Attack_End--d3158bd540f0f206": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "CH0200_Victory_Start_Random--cec1cda7bf6177ec": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 1.4666667,
+          "tile": 201
+        },
+        {
+          "time": 2.1666667,
+          "tile": 501
+        }
+      ],
+      "CH0200_Normal_Callsign_Random--bbd8a8a566586a11": [
+        {
+          "time": 0,
+          "tile": 501
+        },
+        {
+          "time": 1,
+          "tile": 404
+        }
+      ],
+      "CH0200_Move_Ing--f84749d9af9323b6": [
+        {
+          "time": 0,
+          "tile": 501
+        }
+      ],
+      "CH0200_Public01--a23274226c3786cc": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 2.1333334,
+          "tile": 501
+        },
+        {
+          "time": 3.1666667,
+          "tile": 300
+        }
+      ],
+      "CH0200_Normal_Attack_Ing--a0b3fc1eb42a250d": [
+        {
+          "time": 0,
+          "tile": 202
+        },
+        {
+          "time": 1.1,
+          "tile": 501
+        },
+        {
+          "time": 1.5666667,
+          "tile": 300
+        }
+      ],
+      "CH0200_Vital_Retreat--9e9457872c40afd4": [
+        {
+          "time": 0,
+          "tile": 507
+        }
+      ],
+      "CH0200_Victory_End_Random--95f8abdfed384b26": [
+        {
+          "time": 0,
+          "tile": 501
+        }
+      ],
+      "CH0200_Normal_Attack_Delay--82b22ca714f0e39f": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.23333335,
+          "tile": 501
+        },
+        {
+          "time": 0.53333336,
+          "tile": 300
+        }
+      ],
+      "CH0200_Vital_Dying_Ing--12f62bdd9f9ccbba": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "CH0200_Vital_Death--22a2837e6a3999b3": [
+        {
+          "time": 0,
+          "tile": 205
+        },
+        {
+          "time": 0.40000004,
+          "tile": 507
+        },
+        {
+          "time": 0.7666667,
+          "tile": 205
+        }
+      ],
+      "CH0200_Normal_Idle--2931f01cba6c683c": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "CH0200_Exs--4a66d8e46408b21": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.5,
+          "tile": 402
+        },
+        {
+          "time": 2.0666668,
+          "tile": 704
+        },
+        {
+          "time": 2.3333335,
+          "tile": 501
+        },
+        {
+          "time": 3.6333334,
+          "tile": 704
+        }
+      ],
+      "CH0200_Formation_Idle--31a6dc40f96c0039": [
+        {
+          "time": 0,
+          "tile": 501
+        }
+      ],
+      "CH0200_Move_End_Normal--35bbc33ef8e92557": [
+        {
+          "time": 0,
+          "tile": 501
+        },
+        {
+          "time": 0.9333334,
+          "tile": 300
+        }
+      ],
+      "CH0200_Normal_Callsign--4c0cfd6fc185ac20": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.86666673,
+          "tile": 501
+        }
+      ],
+      "CH0200_Victory_End--5879b4b87b3286f3": [
+        {
+          "time": 0,
+          "tile": 406
+        }
+      ],
+      "CH0200_Vital_Panic--5fc90285c683539a": []
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210303_0",
+      "name": "天蓝色单人沙发",
+      "model": "f210303_0.glb",
+      "clip": "f210303_0",
+      "duration": 21.166666666666668,
+      "mouthEvents": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 2.8000002,
+          "tile": 500
+        },
+        {
+          "time": 5.2000003,
+          "tile": 602
+        },
+        {
+          "time": 5.366667,
+          "tile": 201
+        },
+        {
+          "time": 6.066667,
+          "tile": 403
+        },
+        {
+          "time": 7.533334,
+          "tile": 402
+        },
+        {
+          "time": 7.666667,
+          "tile": 507
+        },
+        {
+          "time": 9.266667,
+          "tile": 205
+        },
+        {
+          "time": 13.466667,
+          "tile": 501
+        },
+        {
+          "time": 15.333334,
+          "tile": 404
+        },
+        {
+          "time": 15.766667,
+          "tile": 501
+        },
+        {
+          "time": 16.733334,
+          "tile": 404
+        },
+        {
+          "time": 17.833334,
+          "tile": 704
+        },
+        {
+          "time": 18.733334,
+          "tile": 501
+        },
+        {
+          "time": 20.733334,
+          "tile": 704
+        }
+      ],
+      "yaw": -0.3141592653589793
+    }
+  ],
+  "framing": {
+    "actions": {
+      "original_normal_reload_random": {
+        "zoom": 0.9509239716508469,
+        "centerY": 0.949581714697055
+      },
+      "original_public01": {
+        "zoom": 0.7803761955463865,
+        "centerY": 0.9749782679419324
+      },
+      "original_vital_retreat": {
+        "zoom": 1,
+        "centerY": 0.7810926359286285
+      }
+    }
+  }
+}

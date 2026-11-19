@@ -1,0 +1,333 @@
+{
+  "id": "atsuko_swimsuit",
+  "name": "亚津子 · 泳装",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0267; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0267_Cafe_Idle--fd4a0e12039c9063",
+    "interact": "CH0267_Cafe_Reaction--567cb0f061e13f76"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0267_Cafe_Idle--fd4a0e12039c9063",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0267_Cafe_Reaction--567cb0f061e13f76",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0267_Cafe_Walk--2cc70082562e3764",
+      "category": "常用"
+    },
+    {
+      "id": "original_victory_start_interaction",
+      "label": "胜利 · 开始 · Interaction",
+      "clip": "CH0267_Victory_Start_Interaction--c8b05ddf8a84abd4",
+      "sourceName": "CH0267_Victory_Start_Interaction",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_victory_end_interaction",
+      "label": "胜利 · 结束 · Interaction",
+      "clip": "CH0267_Victory_End_Interaction--7dfc5eeed5d0d57d",
+      "sourceName": "CH0267_Victory_End_Interaction",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_tactical_start_random",
+      "label": "Tactical · 开始 · Random",
+      "clip": "CH0267_Tactical_Start_Random--e94f4ef9ccb1e155",
+      "sourceName": "CH0267_Tactical_Start_Random",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_01",
+      "label": "EX 技能 · Cutin · 01",
+      "clip": "CH0267_Exs_Cutin_01--b9a43f1df4f8cded",
+      "sourceName": "CH0267_Exs_Cutin_01",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0267_Formation_Idle--ac4b6826f5ddace1",
+      "sourceName": "CH0267_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0267_Tactical_Start--909201e976e0f06c",
+      "sourceName": "CH0267_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs01",
+      "label": "Exs01",
+      "clip": "CH0267_Exs01--8e21785547ec177f",
+      "sourceName": "CH0267_Exs01",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs02",
+      "label": "Exs02",
+      "clip": "CH0267_Exs02--815d4289ee59cdd1",
+      "sourceName": "CH0267_Exs02",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_02",
+      "label": "EX 技能 · Cutin · 02",
+      "clip": "CH0267_Exs_Cutin_02--792d58b3dfa2f8f4",
+      "sourceName": "CH0267_Exs_Cutin_02",
+      "category": "技能"
+    }
+  ],
+  "mouth": {
+    "material": "CH0267_Mouth",
+    "defaultTile": 300,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0,
+      0.375
+    ],
+    "events": {
+      "CH0267_Cafe_Idle--fd4a0e12039c9063": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "CH0267_Cafe_Reaction--567cb0f061e13f76": [
+        {
+          "time": 0,
+          "tile": 705
+        },
+        {
+          "time": 0.466662,
+          "tile": 300
+        },
+        {
+          "time": 1.199988,
+          "tile": 602
+        },
+        {
+          "time": 1.899981,
+          "tile": 200
+        },
+        {
+          "time": 3.366633,
+          "tile": 402
+        },
+        {
+          "time": 4.233291,
+          "tile": 705
+        },
+        {
+          "time": 5.899941,
+          "tile": 300
+        },
+        {
+          "time": 6.566601,
+          "tile": 300
+        }
+      ],
+      "CH0267_Cafe_Walk--2cc70082562e3764": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "CH0267_Victory_Start_Interaction--c8b05ddf8a84abd4": [
+        {
+          "time": 0,
+          "tile": 706
+        },
+        {
+          "time": 0.533328,
+          "tile": 300
+        },
+        {
+          "time": 1.299987,
+          "tile": 300
+        },
+        {
+          "time": 2.1999779,
+          "tile": 706
+        }
+      ],
+      "CH0267_Victory_End_Interaction--7dfc5eeed5d0d57d": [
+        {
+          "time": 0,
+          "tile": 706
+        }
+      ],
+      "CH0267_Tactical_Start_Random--e94f4ef9ccb1e155": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 1.366653,
+          "tile": 705
+        }
+      ],
+      "CH0267_Exs_Cutin_01--b9a43f1df4f8cded": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 2.8000002,
+          "tile": 402
+        },
+        {
+          "time": 3.7000003,
+          "tile": 300
+        }
+      ],
+      "CH0267_Formation_Idle--ac4b6826f5ddace1": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "CH0267_Tactical_Start--909201e976e0f06c": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.19999799,
+          "tile": 300
+        },
+        {
+          "time": 0.39999598,
+          "tile": 402
+        },
+        {
+          "time": 1.033323,
+          "tile": 401
+        },
+        {
+          "time": 1.0999889,
+          "tile": 705
+        }
+      ],
+      "CH0267_Exs01--8e21785547ec177f": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 2.433309,
+          "tile": 402
+        },
+        {
+          "time": 3.466632,
+          "tile": 705
+        }
+      ],
+      "CH0267_Exs02--815d4289ee59cdd1": [
+        {
+          "time": 0,
+          "tile": 705
+        },
+        {
+          "time": 0.166665,
+          "tile": 300
+        },
+        {
+          "time": 2.499975,
+          "tile": 402
+        },
+        {
+          "time": 3.633297,
+          "tile": 705
+        }
+      ],
+      "CH0267_Exs_Cutin_02--792d58b3dfa2f8f4": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 2,
+          "tile": 705
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "f13204_0",
+      "name": "阳光花喷泉",
+      "model": "f13204_0.glb",
+      "clip": "f13204_0",
+      "duration": 29.833333333333332,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 300
+        },
+        {
+          "time": 0.899991,
+          "tile": 705
+        },
+        {
+          "time": 2.833305,
+          "tile": 300
+        },
+        {
+          "time": 6.933264,
+          "tile": 202
+        },
+        {
+          "time": 9.1665745,
+          "tile": 300
+        },
+        {
+          "time": 11.433219,
+          "tile": 500
+        },
+        {
+          "time": 13.566531,
+          "tile": 300
+        },
+        {
+          "time": 14.499855,
+          "tile": 705
+        },
+        {
+          "time": 16.499834,
+          "tile": 300
+        },
+        {
+          "time": 18.466482,
+          "tile": 300
+        },
+        {
+          "time": 20.133131,
+          "tile": 300
+        }
+      ],
+      "yaw": 1.5707963267948966,
+      "sourceTimeline": "my_sunshineresort_01_fountain_01",
+      "sourceGroup": "RequiredTrack_26013",
+      "sourceStudentTrack": "26013"
+    }
+  ]
+}

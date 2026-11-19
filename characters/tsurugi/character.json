@@ -1,0 +1,600 @@
+{
+  "id": "tsurugi",
+  "name": "鹤城 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Tsurugi_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Tsurugi_Original_Cafe_Idle--72904899879728f",
+    "interact": "Tsurugi_Original_Cafe_Reaction--7a693013ddb6126a"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Tsurugi_Original_Cafe_Idle--72904899879728f",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Tsurugi_Original_Cafe_Reaction--7a693013ddb6126a",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Tsurugi_Original_Cafe_Walk--1358b5e30e68c3d3",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Tsurugi_Original_Victory_Start--bc1a24b2de101136",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Tsurugi_Original_Formation_Pickup--4e74f0497b154da7",
+      "category": "常用"
+    },
+    {
+      "id": "original_normal02_attack_ing",
+      "label": "Normal02 · 攻击 · 持续",
+      "clip": "Tsurugi_Original_Normal02_Attack_Ing--f01bddc7cec3a184",
+      "sourceName": "Tsurugi_Original_Normal02_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Tsurugi_Original_Vital_Panic--e2ae948684304d29",
+      "sourceName": "Tsurugi_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal02_attack_end",
+      "label": "Normal02 · 攻击 · 结束",
+      "clip": "Tsurugi_Original_Normal02_Attack_End--e2064987d717a9f7",
+      "sourceName": "Tsurugi_Original_Normal02_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal01_idle",
+      "label": "Normal01 · 待机",
+      "clip": "Tsurugi_Original_Normal01_Idle--dce11db0658eba09",
+      "sourceName": "Tsurugi_Original_Normal01_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Tsurugi_Original_Exs--d8836b428de883b4",
+      "sourceName": "Tsurugi_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Tsurugi_Original_Formation_Idle--d17f103674bc335e",
+      "sourceName": "Tsurugi_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal02_attack_start",
+      "label": "Normal02 · 攻击 · 开始",
+      "clip": "Tsurugi_Original_Normal02_Attack_Start--cb767df1279d07a4",
+      "sourceName": "Tsurugi_Original_Normal02_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Tsurugi_Original_Exs_Cutin--c9711e49f7e5ad10",
+      "sourceName": "Tsurugi_Original_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal01_attack_end",
+      "label": "Normal01 · 攻击 · 结束",
+      "clip": "Tsurugi_Original_Normal01_Attack_End--bbbdb647a766acdd",
+      "sourceName": "Tsurugi_Original_Normal01_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal02_callsign",
+      "label": "Normal02 · 回应",
+      "clip": "Tsurugi_Original_Normal02_Callsign--911b9a2afbcac83a",
+      "sourceName": "Tsurugi_Original_Normal02_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Tsurugi_Original_Vital_Retreat--8d006f9b4e957a1d",
+      "sourceName": "Tsurugi_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Tsurugi_Original_Normal02_Public01--8ce29c26ab28935f",
+      "sourceName": "Tsurugi_Original_Normal02_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal01_reload",
+      "label": "Normal01 · 换弹",
+      "clip": "Tsurugi_Original_Normal01_Reload--14e9740a700d83db",
+      "sourceName": "Tsurugi_Original_Normal01_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal01_attack_start",
+      "label": "Normal01 · 攻击 · 开始",
+      "clip": "Tsurugi_Original_Normal01_Attack_Start--1b0ea4d26262d105",
+      "sourceName": "Tsurugi_Original_Normal01_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal01_callsign",
+      "label": "Normal01 · 回应",
+      "clip": "Tsurugi_Original_Normal01_Callsign--1b85c7842212516a",
+      "sourceName": "Tsurugi_Original_Normal01_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal02",
+      "label": "移动 · 结束 · Normal02",
+      "clip": "Tsurugi_Original_Move_End_Normal02--25cb56d1de996a2d",
+      "sourceName": "Tsurugi_Original_Move_End_Normal02",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal01_delay",
+      "label": "Normal01 · 间隔",
+      "clip": "Tsurugi_Original_Normal01_Delay--2905e86f36d1c0b6",
+      "sourceName": "Tsurugi_Original_Normal01_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal01",
+      "label": "移动 · 结束 · Normal01",
+      "clip": "Tsurugi_Original_Move_End_Normal01--2d23358b7fd2ad00",
+      "sourceName": "Tsurugi_Original_Move_End_Normal01",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Tsurugi_Original_Vital_Death--300030be5a08a6fd",
+      "sourceName": "Tsurugi_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move02_ing",
+      "label": "Move02 · 持续",
+      "clip": "Tsurugi_Original_Move02_Ing--3356c1bcc441771f",
+      "sourceName": "Tsurugi_Original_Move02_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal02_idle",
+      "label": "Normal02 · 待机",
+      "clip": "Tsurugi_Original_Normal02_Idle--34c57c3d66bb7bce",
+      "sourceName": "Tsurugi_Original_Normal02_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move01_ing",
+      "label": "Move01 · 持续",
+      "clip": "Tsurugi_Original_Move01_Ing--39275408e38aa268",
+      "sourceName": "Tsurugi_Original_Move01_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Tsurugi_Original_Vital_Dying_Ing--3c321654098d2e52",
+      "sourceName": "Tsurugi_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal02_delay",
+      "label": "Normal02 · 间隔",
+      "clip": "Tsurugi_Original_Normal02_Delay--401300071b3e86dd",
+      "sourceName": "Tsurugi_Original_Normal02_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal02_reload",
+      "label": "Normal02 · 换弹",
+      "clip": "Tsurugi_Original_Normal02_Reload--4248850d733a7c9c",
+      "sourceName": "Tsurugi_Original_Normal02_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Tsurugi_Original_Victory_End--6e61ee9520c1828a",
+      "sourceName": "Tsurugi_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal01_attack_ing",
+      "label": "Normal01 · 攻击 · 持续",
+      "clip": "Tsurugi_Original_Normal01_Attack_Ing--b489bdaae9182b7",
+      "sourceName": "Tsurugi_Original_Normal01_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01_32",
+      "label": "Public01",
+      "clip": "Tsurugi_Original_Normal01_Public01--7431f519d9748bac",
+      "sourceName": "Tsurugi_Original_Normal01_Public01",
+      "category": "技能"
+    }
+  ],
+  "note": "技能粒子、音效和完整场景演出未移植。 两个需要配套场景的 TSS 片段暂未开放。",
+  "mouth": {
+    "material": "Tsurugi_Original_Mouth",
+    "defaultTile": 300,
+    "columns": 4,
+    "rows": 4,
+    "events": {
+      "Tsurugi_Original_Victory_Start--bc1a24b2de101136": [
+        {
+          "time": 0,
+          "tile": 201
+        },
+        {
+          "time": 2.0333335,
+          "tile": 302
+        }
+      ],
+      "Tsurugi_Original_Cafe_Walk--1358b5e30e68c3d3": [
+        {
+          "time": 0,
+          "tile": 201
+        }
+      ],
+      "Tsurugi_Original_Cafe_Idle--72904899879728f": [
+        {
+          "time": 0,
+          "tile": 201
+        }
+      ],
+      "Tsurugi_Original_Formation_Pickup--4e74f0497b154da7": [
+        {
+          "time": 0,
+          "tile": 201
+        }
+      ],
+      "Tsurugi_Original_Cafe_Reaction--7a693013ddb6126a": [
+        {
+          "time": 0,
+          "tile": 201
+        },
+        {
+          "time": 1.8666668,
+          "tile": 202
+        },
+        {
+          "time": 3.0000002,
+          "tile": 201
+        }
+      ],
+      "Tsurugi_Original_Normal02_Attack_Ing--f01bddc7cec3a184": [
+        {
+          "time": 0,
+          "tile": 302
+        },
+        {
+          "time": 0.40000004,
+          "tile": 300
+        },
+        {
+          "time": 1.4000001,
+          "tile": 301
+        }
+      ],
+      "Tsurugi_Original_Vital_Panic--e2ae948684304d29": [
+        {
+          "time": 0,
+          "tile": 200
+        }
+      ],
+      "Tsurugi_Original_Normal02_Attack_End--e2064987d717a9f7": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Tsurugi_Original_Normal01_Idle--dce11db0658eba09": [
+        {
+          "time": 0,
+          "tile": 201
+        },
+        {
+          "time": 1.7666668,
+          "tile": 201
+        }
+      ],
+      "Tsurugi_Original_Exs--d8836b428de883b4": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.8000001,
+          "tile": 301
+        },
+        {
+          "time": 2.6666667,
+          "tile": 300
+        }
+      ],
+      "Tsurugi_Original_Formation_Idle--d17f103674bc335e": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Tsurugi_Original_Normal02_Attack_Start--cb767df1279d07a4": [],
+      "Tsurugi_Original_Exs_Cutin--c9711e49f7e5ad10": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 1.4333334,
+          "tile": 201
+        },
+        {
+          "time": 2.3666668,
+          "tile": 200
+        },
+        {
+          "time": 2.8333335,
+          "tile": 300
+        },
+        {
+          "time": 2.9333334,
+          "tile": 302
+        }
+      ],
+      "Tsurugi_Original_Normal01_Attack_End--bbbdb647a766acdd": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Tsurugi_Original_Normal02_Callsign--911b9a2afbcac83a": [
+        {
+          "time": 0,
+          "tile": 301
+        },
+        {
+          "time": 0.23333335,
+          "tile": 300
+        },
+        {
+          "time": 0.5,
+          "tile": 302
+        },
+        {
+          "time": 1,
+          "tile": 300
+        }
+      ],
+      "Tsurugi_Original_Vital_Retreat--8d006f9b4e957a1d": [
+        {
+          "time": 0,
+          "tile": 200
+        },
+        {
+          "time": 0.20000002,
+          "tile": 303
+        },
+        {
+          "time": 0.9666667,
+          "tile": 200
+        }
+      ],
+      "Tsurugi_Original_Normal02_Public01--8ce29c26ab28935f": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.16666667,
+          "tile": 301
+        },
+        {
+          "time": 0.6,
+          "tile": 302
+        },
+        {
+          "time": 1.5333335,
+          "tile": 300
+        }
+      ],
+      "Tsurugi_Original_Normal01_Reload--14e9740a700d83db": [
+        {
+          "time": 0,
+          "tile": 201
+        },
+        {
+          "time": 0.20000002,
+          "tile": 200
+        },
+        {
+          "time": 0.23333335,
+          "tile": 303
+        },
+        {
+          "time": 0.6666667,
+          "tile": 201
+        }
+      ],
+      "Tsurugi_Original_Normal01_Attack_Start--1b0ea4d26262d105": [
+        {
+          "time": 0,
+          "tile": 201
+        }
+      ],
+      "Tsurugi_Original_Normal01_Callsign--1b85c7842212516a": [
+        {
+          "time": 0,
+          "tile": 201
+        },
+        {
+          "time": 0.3,
+          "tile": 300
+        }
+      ],
+      "Tsurugi_Original_Move_End_Normal02--25cb56d1de996a2d": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.4666667,
+          "tile": 301
+        },
+        {
+          "time": 0.7333334,
+          "tile": 300
+        }
+      ],
+      "Tsurugi_Original_Normal01_Delay--2905e86f36d1c0b6": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.9000001,
+          "tile": 301
+        },
+        {
+          "time": 1.3333334,
+          "tile": 300
+        }
+      ],
+      "Tsurugi_Original_Move_End_Normal01--2d23358b7fd2ad00": [],
+      "Tsurugi_Original_Vital_Death--300030be5a08a6fd": [
+        {
+          "time": 0,
+          "tile": 303
+        },
+        {
+          "time": 1.5333334,
+          "tile": 200
+        }
+      ],
+      "Tsurugi_Original_Move02_Ing--3356c1bcc441771f": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Tsurugi_Original_Normal02_Idle--34c57c3d66bb7bce": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Tsurugi_Original_Move01_Ing--39275408e38aa268": [
+        {
+          "time": 0,
+          "tile": 201
+        }
+      ],
+      "Tsurugi_Original_Vital_Dying_Ing--3c321654098d2e52": [
+        {
+          "time": 0,
+          "tile": 303
+        }
+      ],
+      "Tsurugi_Original_Normal02_Delay--401300071b3e86dd": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.43333337,
+          "tile": 302
+        },
+        {
+          "time": 1.0333334,
+          "tile": 301
+        },
+        {
+          "time": 1.0666667,
+          "tile": 300
+        }
+      ],
+      "Tsurugi_Original_Normal02_Reload--4248850d733a7c9c": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.13333334,
+          "tile": 301
+        },
+        {
+          "time": 0.16666667,
+          "tile": 302
+        },
+        {
+          "time": 0.6666667,
+          "tile": 200
+        },
+        {
+          "time": 0.9333334,
+          "tile": 201
+        },
+        {
+          "time": 1.4666667,
+          "tile": 300
+        }
+      ],
+      "Tsurugi_Original_Victory_End--6e61ee9520c1828a": [
+        {
+          "time": 0,
+          "tile": 302
+        }
+      ],
+      "Tsurugi_Original_Normal01_Attack_Ing--b489bdaae9182b7": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Tsurugi_Original_Normal01_Public01--7431f519d9748bac": [
+        {
+          "time": 0,
+          "tile": 201
+        },
+        {
+          "time": 0.4666667,
+          "tile": 200
+        },
+        {
+          "time": 0.73333335,
+          "tile": 300
+        },
+        {
+          "time": 1.5666667,
+          "tile": 201
+        }
+      ]
+    }
+  }
+}

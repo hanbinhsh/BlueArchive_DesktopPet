@@ -1,0 +1,455 @@
+{
+  "id": "shiroko_terror_story",
+  "name": "白子 · Terror 剧情光环",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0263_Scenario01; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0263_Cafe_Idle--a76ea9b2372efcc7",
+    "interact": "CH0263_Cafe_Reaction--9232c7f54fc0dbb7"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0263_Cafe_Idle--a76ea9b2372efcc7",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0263_Cafe_Reaction--9232c7f54fc0dbb7",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "走路",
+      "clip": "CH0263_Cafe_Walk--45a467faa3d33dd6",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0263_Formation_Pickup--cdd148692f1f277b",
+      "category": "常用"
+    },
+    {
+      "id": "original_ch0263_normal01_attack_start",
+      "label": "CH0263 · Normal01 · 攻击 · 开始",
+      "clip": "CH0263_Normal01_Attack_Start--fe0ef8477b5dcd71",
+      "sourceName": "CH0263_Normal01_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_ch0263_normal01_attack_delay",
+      "label": "CH0263 · Normal01 · 攻击 · 间隔",
+      "clip": "CH0263_Normal01_Attack_Delay--e2d56974716e3819",
+      "sourceName": "CH0263_Normal01_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_ch0263_normal01_callsign",
+      "label": "CH0263 · Normal01 · 回应",
+      "clip": "CH0263_Normal01_Callsign--e00a31bfac65b290",
+      "sourceName": "CH0263_Normal01_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "CH0263_Normal01_Move_Ing--dd0451bd0f7e17b7",
+      "sourceName": "CH0263_Normal01_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "CH0263_Normal01_Victory_End--c72eddd30905c523",
+      "sourceName": "CH0263_Normal01_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs01",
+      "label": "Exs01",
+      "clip": "CH0263_Exs01--c6962c2094e3df40",
+      "sourceName": "CH0263_Exs01",
+      "category": "技能"
+    },
+    {
+      "id": "original_ch0263_move01_end_normal",
+      "label": "CH0263 · Move01 · 结束 · 常规",
+      "clip": "CH0263_Move01_End_Normal--f9a6f77899dc47fb",
+      "sourceName": "CH0263_Move01_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "CH0263_Normal01_Vital_Death--b267fe85f95f4bba",
+      "sourceName": "CH0263_Normal01_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_ch0263_normal01_attack_end",
+      "label": "CH0263 · Normal01 · 攻击 · 结束",
+      "clip": "CH0263_Normal01_Attack_End--a06a9f4b5cc31fe3",
+      "sourceName": "CH0263_Normal01_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_start_random",
+      "label": "胜利 · 开始 · Random",
+      "clip": "CH0263_Normal01_Victory_Start_Random--9ccc77b723f7c84a",
+      "sourceName": "CH0263_Normal01_Victory_Start_Random",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0263_Formation_Idle--9ccb985b076ee73f",
+      "sourceName": "CH0263_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "CH0263_Normal01_Vital_Panic--980108e20e003fe7",
+      "sourceName": "CH0263_Normal01_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "CH0263_Normal01_Vital_Retreat--94bffbf1099474a7",
+      "sourceName": "CH0263_Normal01_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end_random",
+      "label": "胜利 · 结束 · Random",
+      "clip": "CH0263_Normal01_Victory_End_Random--9119fbcf67390b56",
+      "sourceName": "CH0263_Normal01_Victory_End_Random",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_ch0263_normal01_reload",
+      "label": "CH0263 · Normal01 · 换弹",
+      "clip": "CH0263_Normal01_Reload--8e4e4e3b1d4ce3a9",
+      "sourceName": "CH0263_Normal01_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "CH0263_Normal01_Vital_Dying_Ing--86fb4265f4e975a3",
+      "sourceName": "CH0263_Normal01_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs04",
+      "label": "Exs04",
+      "clip": "CH0263_Exs04--16bbefc9efdb11a3",
+      "sourceName": "CH0263_Exs04",
+      "category": "技能"
+    },
+    {
+      "id": "original_ch0263_normal01_reload_random",
+      "label": "CH0263 · Normal01 · 换弹 · Random",
+      "clip": "CH0263_Normal01_Reload_Random--1aff21bc92225b19",
+      "sourceName": "CH0263_Normal01_Reload_Random",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle_random",
+      "label": "编队 · 待机 · Random",
+      "clip": "CH0263_Formation_Idle_Random--28d836da2e7cd20f",
+      "sourceName": "CH0263_Formation_Idle_Random",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_ch0263_normal01_callsign_random",
+      "label": "CH0263 · Normal01 · 回应 · Random",
+      "clip": "CH0263_Normal01_Callsign_Random--3f9a31f6c3c2a94a",
+      "sourceName": "CH0263_Normal01_Callsign_Random",
+      "category": "战斗"
+    },
+    {
+      "id": "original_ch0263_normal01_attack_ing",
+      "label": "CH0263 · Normal01 · 攻击 · 持续",
+      "clip": "CH0263_Normal01_Attack_Ing--503e7a7ab74c6710",
+      "sourceName": "CH0263_Normal01_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs03",
+      "label": "Exs03",
+      "clip": "CH0263_Exs03--50e08028cb175c2f",
+      "sourceName": "CH0263_Exs03",
+      "category": "技能"
+    },
+    {
+      "id": "original_victory_start",
+      "label": "胜利 · 开始",
+      "clip": "CH0263_Normal01_Victory_Start--529298ec5879f1a6",
+      "sourceName": "CH0263_Normal01_Victory_Start",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs02",
+      "label": "Exs02",
+      "clip": "CH0263_Exs02--722ba6b94f1dfdc0",
+      "sourceName": "CH0263_Exs02",
+      "category": "技能"
+    },
+    {
+      "id": "original_ch0263_normal01_idle",
+      "label": "CH0263 · Normal01 · 待机",
+      "clip": "CH0263_Normal01_Idle--786c8f1abcbf370c",
+      "sourceName": "CH0263_Normal01_Idle",
+      "category": "战斗"
+    }
+  ],
+  "note": "与 Terror 相同服装，使用剧情版光环。",
+  "mouth": {
+    "material": "CH0263_Scenario01_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "CH0263_Cafe_Idle--a76ea9b2372efcc7": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0263_Cafe_Reaction--9232c7f54fc0dbb7": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 3.7333336,
+          "tile": 402
+        },
+        {
+          "time": 5.3333335,
+          "tile": 401
+        },
+        {
+          "time": 6.666667,
+          "tile": 402
+        },
+        {
+          "time": 8.866667,
+          "tile": 401
+        }
+      ],
+      "CH0263_Cafe_Walk--45a467faa3d33dd6": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0263_Formation_Pickup--cdd148692f1f277b": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.8333334,
+          "tile": 402
+        },
+        {
+          "time": 3.966667,
+          "tile": 300
+        },
+        {
+          "time": 6.866667,
+          "tile": 402
+        },
+        {
+          "time": 7.9666667,
+          "tile": 401
+        }
+      ],
+      "CH0263_Normal01_Attack_Start--fe0ef8477b5dcd71": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0263_Normal01_Attack_Delay--e2d56974716e3819": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0263_Normal01_Callsign--e00a31bfac65b290": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.6666667,
+          "tile": 402
+        }
+      ],
+      "CH0263_Normal01_Move_Ing--dd0451bd0f7e17b7": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0263_Normal01_Victory_End--c72eddd30905c523": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0263_Exs01--c6962c2094e3df40": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0263_Move01_End_Normal--f9a6f77899dc47fb": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0263_Normal01_Vital_Death--b267fe85f95f4bba": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0263_Normal01_Attack_End--a06a9f4b5cc31fe3": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0263_Normal01_Victory_Start_Random--9ccc77b723f7c84a": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0263_Formation_Idle--9ccb985b076ee73f": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0263_Normal01_Vital_Panic--980108e20e003fe7": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0263_Normal01_Vital_Retreat--94bffbf1099474a7": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0263_Normal01_Victory_End_Random--9119fbcf67390b56": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0263_Normal01_Reload--8e4e4e3b1d4ce3a9": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0263_Normal01_Vital_Dying_Ing--86fb4265f4e975a3": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0263_Exs04--16bbefc9efdb11a3": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0263_Normal01_Reload_Random--1aff21bc92225b19": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0263_Formation_Idle_Random--28d836da2e7cd20f": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0263_Normal01_Callsign_Random--3f9a31f6c3c2a94a": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0263_Normal01_Attack_Ing--503e7a7ab74c6710": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0263_Exs03--50e08028cb175c2f": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0263_Normal01_Victory_Start--529298ec5879f1a6": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.43333337,
+          "tile": 401
+        }
+      ],
+      "CH0263_Exs02--722ba6b94f1dfdc0": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.5333334,
+          "tile": 402
+        },
+        {
+          "time": 2.8000002,
+          "tile": 401
+        }
+      ],
+      "CH0263_Normal01_Idle--786c8f1abcbf370c": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ]
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs04": {
+        "zoom": 0.9367498803860516,
+        "centerY": 1.2034886872927602
+      }
+    }
+  }
+}

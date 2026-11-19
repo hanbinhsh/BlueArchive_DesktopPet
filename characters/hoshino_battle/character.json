@@ -1,0 +1,499 @@
+{
+  "id": "hoshino_battle",
+  "name": "星野 · 临战",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0258; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0258_01_Cafe_Idle--dd043e8ce7109be",
+    "interact": "CH0258_01_Cafe_Reaction--f4879ed1cd8cf258"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0258_01_Cafe_Idle--dd043e8ce7109be",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0258_01_Cafe_Reaction--f4879ed1cd8cf258",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0258_01_Cafe_Walk--7fc71ebcfe4d8b1c",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "CH0258_01_Victory_Start--25f29eb942748ed8",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0258_01_Formation_Pickup--47680fbc1c195640",
+      "category": "常用"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "CH0258_02_Vital_Panic--f0e8b33f01a9dae7",
+      "sourceName": "CH0258_02_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "CH0258_02_Normal_Attack_Delay--eb88e7f0e658eda3",
+      "sourceName": "CH0258_02_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "CH0258_02_Move_Ing--fd12fcb1ccb0d2f3",
+      "sourceName": "CH0258_02_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "CH0258_02_Victory_End--dc4db47945853da1",
+      "sourceName": "CH0258_02_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "CH0258_02_Normal_Attack_End--d7fcc04c92b0d275",
+      "sourceName": "CH0258_02_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_start_random",
+      "label": "胜利 · 开始 · Random",
+      "clip": "CH0258_02_Victory_Start_Random--d65868d4f5d04df6",
+      "sourceName": "CH0258_02_Victory_Start_Random",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_callsign_random",
+      "label": "常规 · 回应 · Random",
+      "clip": "CH0258_02_Normal_Callsign_Random--d09394b4958d3077",
+      "sourceName": "CH0258_02_Normal_Callsign_Random",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "CH0258_02_Vital_Retreat--c4bbe187bd44b47d",
+      "sourceName": "CH0258_02_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0258_02_Formation_Idle--c085f0488ff52b1c",
+      "sourceName": "CH0258_02_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "CH0258_02_Normal_Attack_Ing--bb468c025464ba39",
+      "sourceName": "CH0258_02_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "CH0258_02_Normal_Callsign--a5befc2b732fa08a",
+      "sourceName": "CH0258_02_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "CH0258_02_Vital_Death--9fdbcee533aec083",
+      "sourceName": "CH0258_02_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_start",
+      "label": "胜利 · 开始",
+      "clip": "CH0258_02_Victory_Start--91e8a8b2208efa3b",
+      "sourceName": "CH0258_02_Victory_Start",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "CH0258_02_Vital_Dying_Ing--25d94b582c7fb041",
+      "sourceName": "CH0258_02_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end_random",
+      "label": "胜利 · 结束 · Random",
+      "clip": "CH0258_02_Victory_End_Random--3778e1453b5a73d9",
+      "sourceName": "CH0258_02_Victory_End_Random",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_reload",
+      "label": "常规 · 换弹",
+      "clip": "CH0258_02_Normal_Reload--3850c80143c0753d",
+      "sourceName": "CH0258_02_Normal_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_pickup",
+      "label": "编队 · 提起",
+      "clip": "CH0258_02_Formation_Pickup--3a404f9155ed7ba9",
+      "sourceName": "CH0258_02_Formation_Pickup",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "CH0258_02_Normal_Attack_Start--490e33467444ed39",
+      "sourceName": "CH0258_02_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "CH0258_02_Public01--9b49144da559608",
+      "sourceName": "CH0258_02_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "CH0258_02_Normal_Idle--62abeb3293bba455",
+      "sourceName": "CH0258_02_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "CH0258_02_Move_End_Normal--656f6afde7f13250",
+      "sourceName": "CH0258_02_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_reload_random",
+      "label": "常规 · 换弹 · Random",
+      "clip": "CH0258_02_Normal_Reload_Random--7b26b87022ab6ea0",
+      "sourceName": "CH0258_02_Normal_Reload_Random",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "CH0258_Mouth",
+    "defaultTile": 404,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "CH0258_01_Cafe_Idle--dd043e8ce7109be": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "CH0258_01_Cafe_Reaction--f4879ed1cd8cf258": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 2.99997,
+          "tile": 402
+        },
+        {
+          "time": 3.699963,
+          "tile": 404
+        },
+        {
+          "time": 4.066626,
+          "tile": 407
+        },
+        {
+          "time": 5.499945,
+          "tile": 404
+        },
+        {
+          "time": 5.933274,
+          "tile": 404
+        },
+        {
+          "time": 7.399926,
+          "tile": 404
+        }
+      ],
+      "CH0258_01_Cafe_Walk--7fc71ebcfe4d8b1c": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "CH0258_01_Victory_Start--25f29eb942748ed8": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.9666667,
+          "tile": 402
+        },
+        {
+          "time": 2.1666667,
+          "tile": 404
+        }
+      ],
+      "CH0258_01_Formation_Pickup--47680fbc1c195640": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.299997,
+          "tile": 401
+        },
+        {
+          "time": 4.566621,
+          "tile": 402
+        },
+        {
+          "time": 5.366613,
+          "tile": 404
+        },
+        {
+          "time": 5.633277,
+          "tile": 206
+        },
+        {
+          "time": 7.133262,
+          "tile": 404
+        }
+      ],
+      "CH0258_02_Vital_Panic--f0e8b33f01a9dae7": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0258_02_Normal_Attack_Delay--eb88e7f0e658eda3": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0258_02_Move_Ing--fd12fcb1ccb0d2f3": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0258_02_Victory_End--dc4db47945853da1": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "CH0258_02_Normal_Attack_End--d7fcc04c92b0d275": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0258_02_Victory_Start_Random--d65868d4f5d04df6": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.6666667,
+          "tile": 404
+        },
+        {
+          "time": 1.2666668,
+          "tile": 206
+        },
+        {
+          "time": 2.4,
+          "tile": 405
+        },
+        {
+          "time": 2.4666667,
+          "tile": 404
+        }
+      ],
+      "CH0258_02_Normal_Callsign_Random--d09394b4958d3077": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.9333334,
+          "tile": 404
+        }
+      ],
+      "CH0258_02_Vital_Retreat--c4bbe187bd44b47d": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0258_02_Formation_Idle--c085f0488ff52b1c": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "CH0258_02_Normal_Attack_Ing--bb468c025464ba39": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0258_02_Normal_Callsign--a5befc2b732fa08a": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.4666667,
+          "tile": 404
+        }
+      ],
+      "CH0258_02_Vital_Death--9fdbcee533aec083": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0258_02_Victory_Start--91e8a8b2208efa3b": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "CH0258_02_Vital_Dying_Ing--25d94b582c7fb041": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0258_02_Victory_End_Random--3778e1453b5a73d9": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "CH0258_02_Normal_Reload--3850c80143c0753d": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "CH0258_02_Formation_Pickup--3a404f9155ed7ba9": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 5.066667,
+          "tile": 206
+        },
+        {
+          "time": 6.533334,
+          "tile": 404
+        }
+      ],
+      "CH0258_02_Normal_Attack_Start--490e33467444ed39": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0258_02_Public01--9b49144da559608": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "CH0258_02_Normal_Idle--62abeb3293bba455": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "CH0258_02_Move_End_Normal--656f6afde7f13250": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0258_02_Normal_Reload_Random--7b26b87022ab6ea0": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210347_0",
+      "name": "老手专用自动标靶",
+      "model": "f210347_0.glb",
+      "clip": "f210347_0",
+      "duration": 34.86666666666667,
+      "mouthEvents": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 22.066446,
+          "tile": 202
+        },
+        {
+          "time": 22.799772,
+          "tile": 206
+        },
+        {
+          "time": 23.966427,
+          "tile": 404
+        },
+        {
+          "time": 27.033062,
+          "tile": 206
+        },
+        {
+          "time": 28.866377,
+          "tile": 404
+        }
+      ],
+      "yaw": 2.356194490192345
+    }
+  ],
+  "framing": {
+    "actions": {
+      "original_vital_death": {
+        "zoom": 0.8315143028800088,
+        "centerY": 0.9800257140836053
+      }
+    }
+  }
+}

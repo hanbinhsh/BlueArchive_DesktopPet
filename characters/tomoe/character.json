@@ -1,0 +1,1409 @@
+{
+  "id": "tomoe",
+  "name": "巴 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Tomoe_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Tomoe_Original_Cafe_Idle--fe1a9f8187b04f6e",
+    "interact": "Tomoe_Original_Cafe_Reaction--c793de5479014aa3"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Tomoe_Original_Cafe_Idle--fe1a9f8187b04f6e",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Tomoe_Original_Cafe_Reaction--c793de5479014aa3",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Tomoe_Original_Cafe_Walk--7405c096948d273c",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Tomoe_Original_Victory_Start--691477e4f8357ba8",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Tomoe_Original_Normal_Reload--db51ca8329dc8391",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Tomoe_Original_Formation_Pickup--52065e4e37d450a5",
+      "category": "常用"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Tomoe_Original_Vital_Retreat--c7697ed11d58b336",
+      "sourceName": "Tomoe_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Tomoe_Original_Normal_Idle--bfd72983c9909573",
+      "sourceName": "Tomoe_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Tomoe_Original_Kneel_Reload--bbf444aaab0727ac",
+      "sourceName": "Tomoe_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Tomoe_Original_Normal_Attack_Start--b891f7c82e925837",
+      "sourceName": "Tomoe_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Tomoe_Original_Kneel_Attack_Ing--a70cdaa4081240bf",
+      "sourceName": "Tomoe_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Tomoe_Original_Normal_Attack_Ing--9c5201eba2095641",
+      "sourceName": "Tomoe_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Tomoe_Original_Vital_Death--96a520a5e45e0794",
+      "sourceName": "Tomoe_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Tomoe_Original_Normal_Attack_Delay--8b6d85cdb57abd20",
+      "sourceName": "Tomoe_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Tomoe_Original_Vital_Panic--10d2d968b7348f93",
+      "sourceName": "Tomoe_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Tomoe_Original_Normal_Callsign--2114c22b085fb831",
+      "sourceName": "Tomoe_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Tomoe_Original_Move_Ing--223db736a84c89bc",
+      "sourceName": "Tomoe_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Tomoe_Original_Kneel_Attack_Delay--231a4acba57a8a3c",
+      "sourceName": "Tomoe_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Tomoe_Original_Move_End_Kneel--2546a576778acff9",
+      "sourceName": "Tomoe_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Tomoe_Original_Formation_Idle--2a3a7b204bca1147",
+      "sourceName": "Tomoe_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Tomoe_Original_Normal_Attack_End--36bae840cf5215b2",
+      "sourceName": "Tomoe_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Tomoe_Original_Kneel_Attack_End--4c314fdd73da5142",
+      "sourceName": "Tomoe_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Tomoe_Original_Public01--859a068c9f831e8",
+      "sourceName": "Tomoe_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Tomoe_Original_Kneel_Attack_Start--55cd2b667b411728",
+      "sourceName": "Tomoe_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Tomoe_Original_Victory_End--73e04a71bc36de7a",
+      "sourceName": "Tomoe_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Tomoe_Original_Move_End_Normal--77de54e9f017e662",
+      "sourceName": "Tomoe_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Tomoe_Original_Exs_Cutin--787ae1a5326a640f",
+      "sourceName": "Tomoe_Original_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Tomoe_Original_Exs--799959b80aa10da2",
+      "sourceName": "Tomoe_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Tomoe_Original_Kneel_Idle--7f81a5f67cd99e96",
+      "sourceName": "Tomoe_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_cafe_hotsprings_01_chair_03",
+      "label": "咖啡厅 · Hotsprings · 01 · Chair · 03",
+      "clip": "Tomoe_Original_Cafe_Hotsprings_01_Chair_03--9fac9a2ee2adc7fc",
+      "sourceName": "Tomoe_Original_Cafe_Hotsprings_01_Chair_03",
+      "category": "剧情"
+    },
+    {
+      "id": "original_cafe_hotsprings_01_chair_01",
+      "label": "咖啡厅 · Hotsprings · 01 · Chair · 01",
+      "clip": "Tomoe_Original_Cafe_Hotsprings_01_Chair_01--2161b058cdf419d1",
+      "sourceName": "Tomoe_Original_Cafe_Hotsprings_01_Chair_01",
+      "category": "剧情"
+    },
+    {
+      "id": "original_cafe_hotsprings_01_chair_02",
+      "label": "咖啡厅 · Hotsprings · 01 · Chair · 02",
+      "clip": "Tomoe_Original_Cafe_Hotsprings_01_Chair_02--35952d523f87ddb5",
+      "sourceName": "Tomoe_Original_Cafe_Hotsprings_01_Chair_02",
+      "category": "剧情"
+    },
+    {
+      "id": "original_cafe_hotsprings_01_chair_04",
+      "label": "咖啡厅 · Hotsprings · 01 · Chair · 04",
+      "clip": "Tomoe_Original_Cafe_Hotsprings_01_Chair_04--7a5ac9f3c1713dab",
+      "sourceName": "Tomoe_Original_Cafe_Hotsprings_01_Chair_04",
+      "category": "剧情"
+    }
+  ],
+  "mouth": {
+    "material": "Tomoe_Original_Mouth",
+    "defaultTile": 300,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0,
+      0.375
+    ],
+    "events": {
+      "Tomoe_Original_Cafe_Idle--fe1a9f8187b04f6e": [],
+      "Tomoe_Original_Cafe_Reaction--c793de5479014aa3": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.3,
+          "tile": 705
+        },
+        {
+          "time": 0.7333334,
+          "tile": 300
+        },
+        {
+          "time": 2.766667,
+          "tile": 705
+        },
+        {
+          "time": 3.5333335,
+          "tile": 300
+        },
+        {
+          "time": 4.166667,
+          "tile": 300
+        }
+      ],
+      "Tomoe_Original_Cafe_Walk--7405c096948d273c": [],
+      "Tomoe_Original_Victory_Start--691477e4f8357ba8": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.16666667,
+          "tile": 500
+        },
+        {
+          "time": 0.30000004,
+          "tile": 707
+        },
+        {
+          "time": 0.40000004,
+          "tile": 504
+        },
+        {
+          "time": 0.56666666,
+          "tile": 500
+        },
+        {
+          "time": 0.86666673,
+          "tile": 500
+        },
+        {
+          "time": 1.0000001,
+          "tile": 402
+        },
+        {
+          "time": 1.2,
+          "tile": 707
+        },
+        {
+          "time": 1.3666667,
+          "tile": 500
+        },
+        {
+          "time": 1.5666667,
+          "tile": 707
+        },
+        {
+          "time": 1.7333333,
+          "tile": 300
+        },
+        {
+          "time": 2.2333333,
+          "tile": 504
+        },
+        {
+          "time": 2.3666668,
+          "tile": 504
+        },
+        {
+          "time": 2.5,
+          "tile": 500
+        },
+        {
+          "time": 2.6000001,
+          "tile": 707
+        },
+        {
+          "time": 2.7,
+          "tile": 504
+        },
+        {
+          "time": 2.8333335,
+          "tile": 300
+        },
+        {
+          "time": 3.0000002,
+          "tile": 300
+        }
+      ],
+      "Tomoe_Original_Normal_Reload--db51ca8329dc8391": [],
+      "Tomoe_Original_Formation_Pickup--52065e4e37d450a5": [],
+      "Tomoe_Original_Vital_Retreat--c7697ed11d58b336": [],
+      "Tomoe_Original_Normal_Idle--bfd72983c9909573": [],
+      "Tomoe_Original_Kneel_Reload--bbf444aaab0727ac": [],
+      "Tomoe_Original_Normal_Attack_Start--b891f7c82e925837": [],
+      "Tomoe_Original_Kneel_Attack_Ing--a70cdaa4081240bf": [],
+      "Tomoe_Original_Normal_Attack_Ing--9c5201eba2095641": [],
+      "Tomoe_Original_Vital_Death--96a520a5e45e0794": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.033333335,
+          "tile": 605
+        },
+        {
+          "time": 0.9333334,
+          "tile": 402
+        },
+        {
+          "time": 2.5000002,
+          "tile": 402
+        }
+      ],
+      "Tomoe_Original_Normal_Attack_Delay--8b6d85cdb57abd20": [],
+      "Tomoe_Original_Vital_Panic--10d2d968b7348f93": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 1.6000001,
+          "tile": 402
+        }
+      ],
+      "Tomoe_Original_Normal_Callsign--2114c22b085fb831": [],
+      "Tomoe_Original_Move_Ing--223db736a84c89bc": [],
+      "Tomoe_Original_Kneel_Attack_Delay--231a4acba57a8a3c": [],
+      "Tomoe_Original_Move_End_Kneel--2546a576778acff9": [],
+      "Tomoe_Original_Formation_Idle--2a3a7b204bca1147": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 1.8000001,
+          "tile": 300
+        }
+      ],
+      "Tomoe_Original_Normal_Attack_End--36bae840cf5215b2": [],
+      "Tomoe_Original_Kneel_Attack_End--4c314fdd73da5142": [],
+      "Tomoe_Original_Public01--859a068c9f831e8": [],
+      "Tomoe_Original_Kneel_Attack_Start--55cd2b667b411728": [],
+      "Tomoe_Original_Victory_End--73e04a71bc36de7a": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Tomoe_Original_Move_End_Normal--77de54e9f017e662": [],
+      "Tomoe_Original_Exs_Cutin--787ae1a5326a640f": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.33333337,
+          "tile": 504
+        },
+        {
+          "time": 0.5,
+          "tile": 500
+        },
+        {
+          "time": 0.6666667,
+          "tile": 402
+        },
+        {
+          "time": 0.8333334,
+          "tile": 400
+        },
+        {
+          "time": 1,
+          "tile": 500
+        },
+        {
+          "time": 1.1666667,
+          "tile": 707
+        },
+        {
+          "time": 1.3333334,
+          "tile": 504
+        },
+        {
+          "time": 1.5000001,
+          "tile": 500
+        },
+        {
+          "time": 1.7333335,
+          "tile": 604
+        },
+        {
+          "time": 2.1000001,
+          "tile": 704
+        },
+        {
+          "time": 2.5333335,
+          "tile": 706
+        },
+        {
+          "time": 2.7333336,
+          "tile": 502
+        },
+        {
+          "time": 2.9,
+          "tile": 504
+        },
+        {
+          "time": 3.1000001,
+          "tile": 402
+        },
+        {
+          "time": 3.3000002,
+          "tile": 600
+        },
+        {
+          "time": 3.466667,
+          "tile": 403
+        },
+        {
+          "time": 3.766667,
+          "tile": 606
+        },
+        {
+          "time": 4.266667,
+          "tile": 704
+        }
+      ],
+      "Tomoe_Original_Exs--799959b80aa10da2": [],
+      "Tomoe_Original_Kneel_Idle--7f81a5f67cd99e96": [],
+      "Tomoe_Original_Cafe_Hotsprings_01_Chair_03--9fac9a2ee2adc7fc": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.23333335,
+          "tile": 707
+        },
+        {
+          "time": 0.33333334,
+          "tile": 500
+        },
+        {
+          "time": 0.5,
+          "tile": 300
+        },
+        {
+          "time": 0.5666667,
+          "tile": 707
+        },
+        {
+          "time": 0.6666667,
+          "tile": 300
+        },
+        {
+          "time": 0.73333335,
+          "tile": 707
+        },
+        {
+          "time": 0.90000004,
+          "tile": 504
+        },
+        {
+          "time": 1.1666667,
+          "tile": 500
+        },
+        {
+          "time": 1.3000001,
+          "tile": 300
+        },
+        {
+          "time": 1.3333334,
+          "tile": 402
+        },
+        {
+          "time": 1.4333334,
+          "tile": 500
+        },
+        {
+          "time": 1.5333334,
+          "tile": 504
+        },
+        {
+          "time": 1.6666667,
+          "tile": 500
+        },
+        {
+          "time": 1.7666668,
+          "tile": 707
+        },
+        {
+          "time": 1.9000001,
+          "tile": 300
+        },
+        {
+          "time": 2.1666667,
+          "tile": 504
+        },
+        {
+          "time": 2.3000002,
+          "tile": 707
+        },
+        {
+          "time": 2.4,
+          "tile": 400
+        },
+        {
+          "time": 2.5666668,
+          "tile": 401
+        },
+        {
+          "time": 2.6333334,
+          "tile": 402
+        },
+        {
+          "time": 2.8333335,
+          "tile": 500
+        },
+        {
+          "time": 3.0000002,
+          "tile": 707
+        },
+        {
+          "time": 3.2000003,
+          "tile": 300
+        },
+        {
+          "time": 3.266667,
+          "tile": 400
+        },
+        {
+          "time": 3.4,
+          "tile": 500
+        },
+        {
+          "time": 3.5333335,
+          "tile": 300
+        },
+        {
+          "time": 4,
+          "tile": 300
+        }
+      ],
+      "Tomoe_Original_Cafe_Hotsprings_01_Chair_01--2161b058cdf419d1": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 1.6666667,
+          "tile": 300
+        }
+      ],
+      "Tomoe_Original_Cafe_Hotsprings_01_Chair_02--35952d523f87ddb5": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.20000002,
+          "tile": 707
+        },
+        {
+          "time": 0.3,
+          "tile": 300
+        },
+        {
+          "time": 0.36666667,
+          "tile": 707
+        },
+        {
+          "time": 0.53333336,
+          "tile": 504
+        },
+        {
+          "time": 0.73333335,
+          "tile": 501
+        },
+        {
+          "time": 0.86666673,
+          "tile": 300
+        },
+        {
+          "time": 0.90000004,
+          "tile": 402
+        },
+        {
+          "time": 1,
+          "tile": 500
+        },
+        {
+          "time": 1.1,
+          "tile": 504
+        },
+        {
+          "time": 1.2333333,
+          "tile": 500
+        },
+        {
+          "time": 1.3333334,
+          "tile": 707
+        },
+        {
+          "time": 1.5666667,
+          "tile": 500
+        },
+        {
+          "time": 1.6666667,
+          "tile": 504
+        },
+        {
+          "time": 1.9333334,
+          "tile": 300
+        },
+        {
+          "time": 2.1000001,
+          "tile": 500
+        },
+        {
+          "time": 2.266667,
+          "tile": 500
+        },
+        {
+          "time": 2.5000002,
+          "tile": 707
+        },
+        {
+          "time": 2.6000001,
+          "tile": 400
+        },
+        {
+          "time": 2.7,
+          "tile": 707
+        },
+        {
+          "time": 2.8000002,
+          "tile": 400
+        },
+        {
+          "time": 2.9333334,
+          "tile": 500
+        },
+        {
+          "time": 3.1333334,
+          "tile": 300
+        },
+        {
+          "time": 3.3333335,
+          "tile": 300
+        }
+      ],
+      "Tomoe_Original_Cafe_Hotsprings_01_Chair_04--7a5ac9f3c1713dab": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.5,
+          "tile": 504
+        },
+        {
+          "time": 0.6666667,
+          "tile": 500
+        },
+        {
+          "time": 0.8333334,
+          "tile": 402
+        },
+        {
+          "time": 1.1333334,
+          "tile": 400
+        },
+        {
+          "time": 1.2333333,
+          "tile": 707
+        },
+        {
+          "time": 1.3666668,
+          "tile": 300
+        },
+        {
+          "time": 1.4000001,
+          "tile": 500
+        },
+        {
+          "time": 1.5000001,
+          "tile": 707
+        },
+        {
+          "time": 1.7333335,
+          "tile": 300
+        },
+        {
+          "time": 2,
+          "tile": 500
+        },
+        {
+          "time": 2.1333334,
+          "tile": 707
+        },
+        {
+          "time": 2.266667,
+          "tile": 402
+        },
+        {
+          "time": 2.5666668,
+          "tile": 500
+        },
+        {
+          "time": 2.766667,
+          "tile": 402
+        },
+        {
+          "time": 2.9333334,
+          "tile": 707
+        },
+        {
+          "time": 3.0666668,
+          "tile": 500
+        },
+        {
+          "time": 3.2333336,
+          "tile": 707
+        },
+        {
+          "time": 3.5000002,
+          "tile": 300
+        },
+        {
+          "time": 4.166667,
+          "tile": 300
+        }
+      ]
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs_cutin": {
+        "zoom": 0.5674111067937998,
+        "centerY": 1.0608901782465683
+      }
+    }
+  },
+  "furniture": [
+    {
+      "id": "f6100_0",
+      "name": "波浪纹靠椅",
+      "model": "f6100_0.glb",
+      "clip": "f6100_0",
+      "duration": 24.96666666666667,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 300
+        },
+        {
+          "time": 1.666666666666668,
+          "tile": 300
+        },
+        {
+          "time": 1.8666666866666681,
+          "tile": 707
+        },
+        {
+          "time": 1.9666666666666681,
+          "tile": 300
+        },
+        {
+          "time": 2.033333336666668,
+          "tile": 707
+        },
+        {
+          "time": 2.200000026666668,
+          "tile": 504
+        },
+        {
+          "time": 2.400000016666668,
+          "tile": 501
+        },
+        {
+          "time": 2.5333333966666682,
+          "tile": 300
+        },
+        {
+          "time": 2.566666706666668,
+          "tile": 402
+        },
+        {
+          "time": 2.666666666666668,
+          "tile": 500
+        },
+        {
+          "time": 2.7666666666666684,
+          "tile": 504
+        },
+        {
+          "time": 2.899999966666668,
+          "tile": 500
+        },
+        {
+          "time": 3.0000000666666677,
+          "tile": 707
+        },
+        {
+          "time": 3.233333366666668,
+          "tile": 500
+        },
+        {
+          "time": 3.3333333666666682,
+          "tile": 504
+        },
+        {
+          "time": 3.6000000666666683,
+          "tile": 300
+        },
+        {
+          "time": 3.7666667666666678,
+          "tile": 500
+        },
+        {
+          "time": 3.933333666666668,
+          "tile": 500
+        },
+        {
+          "time": 4.166666866666668,
+          "tile": 707
+        },
+        {
+          "time": 4.266666766666668,
+          "tile": 400
+        },
+        {
+          "time": 4.366666666666668,
+          "tile": 707
+        },
+        {
+          "time": 4.466666866666668,
+          "tile": 400
+        },
+        {
+          "time": 4.600000066666668,
+          "tile": 500
+        },
+        {
+          "time": 4.8000000666666685,
+          "tile": 300
+        },
+        {
+          "time": 4.999999999999998,
+          "tile": 300
+        },
+        {
+          "time": 5.233333349999998,
+          "tile": 707
+        },
+        {
+          "time": 5.3333333399999985,
+          "tile": 500
+        },
+        {
+          "time": 5.499999999999998,
+          "tile": 300
+        },
+        {
+          "time": 5.566666699999998,
+          "tile": 707
+        },
+        {
+          "time": 5.666666699999999,
+          "tile": 300
+        },
+        {
+          "time": 5.733333349999998,
+          "tile": 707
+        },
+        {
+          "time": 5.900000039999998,
+          "tile": 504
+        },
+        {
+          "time": 6.166666699999999,
+          "tile": 500
+        },
+        {
+          "time": 6.300000099999998,
+          "tile": 300
+        },
+        {
+          "time": 6.333333399999998,
+          "tile": 402
+        },
+        {
+          "time": 6.433333399999999,
+          "tile": 500
+        },
+        {
+          "time": 6.533333399999998,
+          "tile": 504
+        },
+        {
+          "time": 6.666666699999999,
+          "tile": 500
+        },
+        {
+          "time": 6.7666667999999985,
+          "tile": 707
+        },
+        {
+          "time": 6.900000099999998,
+          "tile": 300
+        },
+        {
+          "time": 7.166666699999999,
+          "tile": 504
+        },
+        {
+          "time": 7.300000199999998,
+          "tile": 707
+        },
+        {
+          "time": 7.399999999999999,
+          "tile": 400
+        },
+        {
+          "time": 7.566666799999998,
+          "tile": 401
+        },
+        {
+          "time": 7.633333399999998,
+          "tile": 402
+        },
+        {
+          "time": 7.833333499999998,
+          "tile": 500
+        },
+        {
+          "time": 8.000000199999999,
+          "tile": 707
+        },
+        {
+          "time": 8.2000003,
+          "tile": 300
+        },
+        {
+          "time": 8.266666999999998,
+          "tile": 400
+        },
+        {
+          "time": 8.399999999999999,
+          "tile": 500
+        },
+        {
+          "time": 8.533333499999998,
+          "tile": 300
+        },
+        {
+          "time": 8.999999999999998,
+          "tile": 300
+        },
+        {
+          "time": 9.500000099999998,
+          "tile": 500
+        },
+        {
+          "time": 9.666666999999999,
+          "tile": 500
+        },
+        {
+          "time": 9.9000002,
+          "tile": 707
+        },
+        {
+          "time": 10.000000099999998,
+          "tile": 400
+        },
+        {
+          "time": 10.099999999999998,
+          "tile": 707
+        },
+        {
+          "time": 10.200000199999998,
+          "tile": 400
+        },
+        {
+          "time": 10.333333399999999,
+          "tile": 500
+        },
+        {
+          "time": 10.533333399999998,
+          "tile": 300
+        },
+        {
+          "time": 10.733333333333333,
+          "tile": 300
+        },
+        {
+          "time": 11.233333333333333,
+          "tile": 504
+        },
+        {
+          "time": 11.400000033333333,
+          "tile": 500
+        },
+        {
+          "time": 11.566666733333333,
+          "tile": 402
+        },
+        {
+          "time": 11.866666733333332,
+          "tile": 400
+        },
+        {
+          "time": 11.966666633333332,
+          "tile": 707
+        },
+        {
+          "time": 12.100000133333332,
+          "tile": 300
+        },
+        {
+          "time": 12.133333433333332,
+          "tile": 500
+        },
+        {
+          "time": 12.233333433333332,
+          "tile": 707
+        },
+        {
+          "time": 12.466666833333333,
+          "tile": 300
+        },
+        {
+          "time": 12.733333333333333,
+          "tile": 500
+        },
+        {
+          "time": 12.866666733333332,
+          "tile": 707
+        },
+        {
+          "time": 13.000000333333332,
+          "tile": 402
+        },
+        {
+          "time": 13.300000133333333,
+          "tile": 500
+        },
+        {
+          "time": 13.500000333333332,
+          "tile": 402
+        },
+        {
+          "time": 13.666666733333333,
+          "tile": 707
+        },
+        {
+          "time": 13.800000133333333,
+          "tile": 500
+        },
+        {
+          "time": 13.966666933333332,
+          "tile": 707
+        },
+        {
+          "time": 14.233333533333333,
+          "tile": 300
+        },
+        {
+          "time": 14.900000000000002,
+          "tile": 300
+        },
+        {
+          "time": 15.133333350000003,
+          "tile": 707
+        },
+        {
+          "time": 15.233333340000001,
+          "tile": 500
+        },
+        {
+          "time": 15.400000000000002,
+          "tile": 300
+        },
+        {
+          "time": 15.466666700000003,
+          "tile": 707
+        },
+        {
+          "time": 15.566666700000003,
+          "tile": 300
+        },
+        {
+          "time": 15.633333350000003,
+          "tile": 707
+        },
+        {
+          "time": 15.800000040000002,
+          "tile": 504
+        },
+        {
+          "time": 16.066666700000003,
+          "tile": 500
+        },
+        {
+          "time": 16.200000100000004,
+          "tile": 300
+        },
+        {
+          "time": 16.233333400000003,
+          "tile": 402
+        },
+        {
+          "time": 16.3333334,
+          "tile": 500
+        },
+        {
+          "time": 16.433333400000002,
+          "tile": 504
+        },
+        {
+          "time": 16.566666700000003,
+          "tile": 500
+        },
+        {
+          "time": 16.6666668,
+          "tile": 707
+        },
+        {
+          "time": 16.800000100000002,
+          "tile": 300
+        },
+        {
+          "time": 16.833333400000004,
+          "tile": 707
+        },
+        {
+          "time": 17.066666700000003,
+          "tile": 504
+        },
+        {
+          "time": 17.066666700000003,
+          "tile": 500
+        },
+        {
+          "time": 17.166666700000004,
+          "tile": 504
+        },
+        {
+          "time": 17.2000002,
+          "tile": 707
+        },
+        {
+          "time": 17.3,
+          "tile": 400
+        },
+        {
+          "time": 17.433333400000002,
+          "tile": 300
+        },
+        {
+          "time": 17.600000100000003,
+          "tile": 500
+        },
+        {
+          "time": 17.766667000000005,
+          "tile": 500
+        },
+        {
+          "time": 18.000000200000002,
+          "tile": 707
+        },
+        {
+          "time": 18.100000100000003,
+          "tile": 400
+        },
+        {
+          "time": 18.200000000000003,
+          "tile": 707
+        },
+        {
+          "time": 18.300000200000003,
+          "tile": 400
+        },
+        {
+          "time": 18.433333400000002,
+          "tile": 500
+        },
+        {
+          "time": 18.633333400000005,
+          "tile": 300
+        },
+        {
+          "time": 18.7,
+          "tile": 300
+        },
+        {
+          "time": 18.90000002,
+          "tile": 707
+        },
+        {
+          "time": 19.0,
+          "tile": 300
+        },
+        {
+          "time": 19.06666667,
+          "tile": 707
+        },
+        {
+          "time": 19.23333336,
+          "tile": 504
+        },
+        {
+          "time": 19.433333349999998,
+          "tile": 501
+        },
+        {
+          "time": 19.566666729999998,
+          "tile": 300
+        },
+        {
+          "time": 19.600000039999998,
+          "tile": 402
+        },
+        {
+          "time": 19.7,
+          "tile": 500
+        },
+        {
+          "time": 19.8,
+          "tile": 504
+        },
+        {
+          "time": 19.9333333,
+          "tile": 500
+        },
+        {
+          "time": 20.0333334,
+          "tile": 707
+        },
+        {
+          "time": 20.2666667,
+          "tile": 500
+        },
+        {
+          "time": 20.3666667,
+          "tile": 504
+        },
+        {
+          "time": 20.633333399999998,
+          "tile": 300
+        },
+        {
+          "time": 20.8000001,
+          "tile": 500
+        },
+        {
+          "time": 20.83333353333333,
+          "tile": 707
+        },
+        {
+          "time": 20.93333333333333,
+          "tile": 400
+        },
+        {
+          "time": 20.966667,
+          "tile": 500
+        },
+        {
+          "time": 21.10000013333333,
+          "tile": 401
+        },
+        {
+          "time": 21.166666733333333,
+          "tile": 402
+        },
+        {
+          "time": 21.200000199999998,
+          "tile": 707
+        },
+        {
+          "time": 21.366666833333333,
+          "tile": 500
+        },
+        {
+          "time": 21.53333353333333,
+          "tile": 707
+        },
+        {
+          "time": 21.73333363333333,
+          "tile": 300
+        },
+        {
+          "time": 21.80000033333333,
+          "tile": 400
+        },
+        {
+          "time": 21.93333333333333,
+          "tile": 500
+        },
+        {
+          "time": 22.066666833333333,
+          "tile": 300
+        },
+        {
+          "time": 22.366667,
+          "tile": 402
+        },
+        {
+          "time": 22.53333333333333,
+          "tile": 300
+        },
+        {
+          "time": 22.666666799999998,
+          "tile": 500
+        },
+        {
+          "time": 22.866667,
+          "tile": 402
+        },
+        {
+          "time": 23.033333399999997,
+          "tile": 707
+        },
+        {
+          "time": 23.166666799999998,
+          "tile": 500
+        },
+        {
+          "time": 23.333333599999996,
+          "tile": 707
+        },
+        {
+          "time": 23.600000199999997,
+          "tile": 300
+        }
+      ],
+      "yaw": 2.356194490192345,
+      "sourceTimeline": "My_Hotsprings_01_Chair",
+      "sourceGroup": "RequiredTrack_16007",
+      "sourceStudentTrack": "16007"
+    }
+  ]
+}

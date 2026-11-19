@@ -1,0 +1,154 @@
+{
+  "id": "toki_battle_story",
+  "name": "时 · 临战（剧情战斗）",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0333_Scenario; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0333_Scenario_Normal_Idle--61e65d09fd5478a",
+    "interact": "CH0333_Scenario_Normal_Reload--df100a6a880a2b51"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "剧情战斗待机",
+      "clip": "CH0333_Scenario_Normal_Idle--61e65d09fd5478a",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "武器整备",
+      "clip": "CH0333_Scenario_Normal_Reload--df100a6a880a2b51",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "移动",
+      "clip": "CH0333_Scenario_Move_Ing--475c6bbe87374d8b",
+      "category": "常用"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "CH0333_Scenario_Vital_Death--d48017e26d347d5b",
+      "sourceName": "CH0333_Scenario_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "CH0333_Scenario_Normal_Attack_End--daf82a8c9c79d6aa",
+      "sourceName": "CH0333_Scenario_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "CH0333_Scenario_Normal_Attack_Start--1b377be29c03659f",
+      "sourceName": "CH0333_Scenario_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "CH0333_Scenario_Normal_Attack_Delay--245b7f6810fd967a",
+      "sourceName": "CH0333_Scenario_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "CH0333_Scenario_Vital_Panic--2a6f9bcd90273077",
+      "sourceName": "CH0333_Scenario_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs01",
+      "label": "Exs01",
+      "clip": "CH0333_Scenario_Exs01--33b4b3053acb5073",
+      "sourceName": "CH0333_Scenario_Exs01",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "CH0333_Scenario_Normal_Attack_Ing--354e14fd59d4eae0",
+      "sourceName": "CH0333_Scenario_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "CH0333_Scenario_Move_End_Normal--3f98eb8903bfedaa",
+      "sourceName": "CH0333_Scenario_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_exs02",
+      "label": "Exs02",
+      "clip": "CH0333_Scenario_Exs02--60791488dc12c1e5",
+      "sourceName": "CH0333_Scenario_Exs02",
+      "category": "技能"
+    }
+  ],
+  "note": "与临战同一服装，保留剧情版的道具和动作；无提起动画。",
+  "mouth": {
+    "material": "CH0333_Scenario_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "CH0333_Scenario_Normal_Idle--61e65d09fd5478a": [],
+      "CH0333_Scenario_Normal_Reload--df100a6a880a2b51": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0333_Scenario_Move_Ing--475c6bbe87374d8b": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0333_Scenario_Vital_Death--d48017e26d347d5b": [],
+      "CH0333_Scenario_Normal_Attack_End--daf82a8c9c79d6aa": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0333_Scenario_Normal_Attack_Start--1b377be29c03659f": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0333_Scenario_Normal_Attack_Delay--245b7f6810fd967a": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0333_Scenario_Vital_Panic--2a6f9bcd90273077": [],
+      "CH0333_Scenario_Exs01--33b4b3053acb5073": [],
+      "CH0333_Scenario_Normal_Attack_Ing--354e14fd59d4eae0": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0333_Scenario_Move_End_Normal--3f98eb8903bfedaa": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0333_Scenario_Exs02--60791488dc12c1e5": []
+    }
+  }
+}

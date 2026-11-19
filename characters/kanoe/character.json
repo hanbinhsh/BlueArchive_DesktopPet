@@ -1,0 +1,483 @@
+{
+  "id": "kanoe",
+  "name": "庚 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0306; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0306_Cafe_Idle--e10b22147906cdd3",
+    "interact": "CH0306_Cafe_Reaction--a3850b028214fd4b"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0306_Cafe_Idle--e10b22147906cdd3",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0306_Cafe_Reaction--a3850b028214fd4b",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0306_Cafe_Walk--5a9d5de02dc0a7f0",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "CH0306_Victory_Start--6354c77ecb42bba4",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "CH0306_Normal_Reload--5345f955d6384486",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0306_Formation_Pickup--72ef48ad3e00f2d2",
+      "category": "常用"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "CH0306_Vital_Dying_Ing--dc27cc60ba51205a",
+      "sourceName": "CH0306_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "CH0306_Vital_Retreat--d87a659fbef63b31",
+      "sourceName": "CH0306_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_03_wildhunt_hg",
+      "label": "EX 技能 · Cutin · 03 · Wildhunt · HG",
+      "clip": "CH0306_Exs_Cutin_03_Wildhunt_HG--d47538beb3f7ca0d",
+      "sourceName": "CH0306_Exs_Cutin_03_Wildhunt_HG",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_01",
+      "label": "EX 技能 · Cutin · 01",
+      "clip": "CH0306_Exs_Cutin_01--ccd8263c8bebb5d1",
+      "sourceName": "CH0306_Exs_Cutin_01",
+      "category": "技能"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "CH0306_Victory_End--b4d117f7855cb076",
+      "sourceName": "CH0306_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "CH0306_Normal_Attack_End--b0013cbc420cf36c",
+      "sourceName": "CH0306_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "CH0306_Normal_Attack_Ing--a70cee2f95798d93",
+      "sourceName": "CH0306_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_02_wildhunt_hg",
+      "label": "EX 技能 · Cutin · 02 · Wildhunt · HG",
+      "clip": "CH0306_Exs_Cutin_02_Wildhunt_HG--a673c698124ebef1",
+      "sourceName": "CH0306_Exs_Cutin_02_Wildhunt_HG",
+      "category": "技能"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "CH0306_Move_Ing--9bacc06e58d4d21b",
+      "sourceName": "CH0306_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_exs_cutin_01_wildhunt_hg",
+      "label": "EX 技能 · Cutin · 01 · Wildhunt · HG",
+      "clip": "CH0306_Exs_Cutin_01_Wildhunt_HG--1adaa5827f3b8ca5",
+      "sourceName": "CH0306_Exs_Cutin_01_Wildhunt_HG",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_03",
+      "label": "EX 技能 · Cutin · 03",
+      "clip": "CH0306_Exs_Cutin_03--2f7004da6ffa338",
+      "sourceName": "CH0306_Exs_Cutin_03",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "CH0306_Normal_Attack_Delay--311ba56978ac2c4",
+      "sourceName": "CH0306_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "CH0306_Public01--3982082e54b8ceb5",
+      "sourceName": "CH0306_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "CH0306_Normal_Idle--42047f93095a8e08",
+      "sourceName": "CH0306_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0306_Formation_Idle--72c1eeeccd86ef0",
+      "sourceName": "CH0306_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "CH0306_Exs--4fa50b4fe96f0951",
+      "sourceName": "CH0306_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "CH0306_Vital_Death--5f2957b073d1be79",
+      "sourceName": "CH0306_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "CH0306_Vital_Panic--64ddaa0cb7bc4639",
+      "sourceName": "CH0306_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "CH0306_Normal_Attack_Start--66ff5052c2ea7626",
+      "sourceName": "CH0306_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "CH0306_Move_End_Normal--6d182c9cbc520596",
+      "sourceName": "CH0306_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_exs_cutin_02",
+      "label": "EX 技能 · Cutin · 02",
+      "clip": "CH0306_Exs_Cutin_02--751eeba45e4f7c87",
+      "sourceName": "CH0306_Exs_Cutin_02",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "CH0306_Normal_Callsign--783c57035d02790e",
+      "sourceName": "CH0306_Normal_Callsign",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "CH0306_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.125,
+      0.5
+    ],
+    "events": {
+      "CH0306_Cafe_Idle--e10b22147906cdd3": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0306_Cafe_Reaction--a3850b028214fd4b": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.13333334,
+          "tile": 706
+        },
+        {
+          "time": 2.5000002,
+          "tile": 704
+        },
+        {
+          "time": 4.9,
+          "tile": 407
+        },
+        {
+          "time": 7.2333336,
+          "tile": 704
+        },
+        {
+          "time": 8.733334,
+          "tile": 401
+        }
+      ],
+      "CH0306_Cafe_Walk--5a9d5de02dc0a7f0": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "CH0306_Victory_Start--6354c77ecb42bba4": [
+        {
+          "time": 0,
+          "tile": 407
+        },
+        {
+          "time": 1.6666667,
+          "tile": 707
+        }
+      ],
+      "CH0306_Normal_Reload--5345f955d6384486": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0306_Formation_Pickup--72ef48ad3e00f2d2": [
+        {
+          "time": 0,
+          "tile": 407
+        },
+        {
+          "time": 2.766667,
+          "tile": 300
+        },
+        {
+          "time": 6.066667,
+          "tile": 704
+        },
+        {
+          "time": 6.9000006,
+          "tile": 407
+        }
+      ],
+      "CH0306_Vital_Dying_Ing--dc27cc60ba51205a": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0306_Vital_Retreat--d87a659fbef63b31": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ],
+      "CH0306_Exs_Cutin_03_Wildhunt_HG--d47538beb3f7ca0d": [],
+      "CH0306_Exs_Cutin_01--ccd8263c8bebb5d1": [],
+      "CH0306_Victory_End--b4d117f7855cb076": [
+        {
+          "time": 0,
+          "tile": 707
+        }
+      ],
+      "CH0306_Normal_Attack_End--b0013cbc420cf36c": [],
+      "CH0306_Normal_Attack_Ing--a70cee2f95798d93": [],
+      "CH0306_Exs_Cutin_02_Wildhunt_HG--a673c698124ebef1": [],
+      "CH0306_Move_Ing--9bacc06e58d4d21b": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0306_Exs_Cutin_01_Wildhunt_HG--1adaa5827f3b8ca5": [],
+      "CH0306_Exs_Cutin_03--2f7004da6ffa338": [
+        {
+          "time": 0.90000004,
+          "tile": 406
+        },
+        {
+          "time": 1.6333334,
+          "tile": 407
+        }
+      ],
+      "CH0306_Normal_Attack_Delay--311ba56978ac2c4": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0306_Public01--3982082e54b8ceb5": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.73333335,
+          "tile": 407
+        },
+        {
+          "time": 2.0333335,
+          "tile": 401
+        }
+      ],
+      "CH0306_Normal_Idle--42047f93095a8e08": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0306_Formation_Idle--72c1eeeccd86ef0": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0306_Exs--4fa50b4fe96f0951": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.53333336,
+          "tile": 402
+        },
+        {
+          "time": 1.3333334,
+          "tile": 401
+        },
+        {
+          "time": 2.0333335,
+          "tile": 407
+        },
+        {
+          "time": 3.1666667,
+          "tile": 401
+        }
+      ],
+      "CH0306_Vital_Death--5f2957b073d1be79": [],
+      "CH0306_Vital_Panic--64ddaa0cb7bc4639": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ],
+      "CH0306_Normal_Attack_Start--66ff5052c2ea7626": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0306_Move_End_Normal--6d182c9cbc520596": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0306_Exs_Cutin_02--751eeba45e4f7c87": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 2.7333336,
+          "tile": 402
+        }
+      ],
+      "CH0306_Normal_Callsign--783c57035d02790e": [
+        {
+          "time": 0,
+          "tile": 407
+        }
+      ]
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs_cutin_03_wildhunt_hg": {
+        "zoom": 0.41310422936725893,
+        "centerY": 0.9998283191042109
+      },
+      "original_exs_cutin_01": {
+        "zoom": 0.5330422994748278,
+        "centerY": 1.0513093058615268
+      },
+      "original_exs_cutin_02_wildhunt_hg": {
+        "zoom": 0.41310422936725893,
+        "centerY": 0.9998283191042109
+      },
+      "original_exs_cutin_01_wildhunt_hg": {
+        "zoom": 0.3172143412460931,
+        "centerY": 1.7441238798826724
+      },
+      "original_vital_death": {
+        "zoom": 1,
+        "centerY": 0.7417644582503855
+      }
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210379_0",
+      "name": "可疑的大锅",
+      "model": "f210379_0.glb",
+      "clip": "f210379_0",
+      "duration": 32.233333333333334,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 401
+        },
+        {
+          "time": 5.333333333333333,
+          "tile": 401
+        },
+        {
+          "time": 8.633333533333333,
+          "tile": 402
+        },
+        {
+          "time": 9.966667033333334,
+          "tile": 401
+        },
+        {
+          "time": 21.566666666666666,
+          "tile": 401
+        },
+        {
+          "time": 26.9,
+          "tile": 401
+        }
+      ],
+      "yaw": 2.356194490192345,
+      "sourceTimeline": "my_event083_weirdcauldron",
+      "sourceGroup": "RequiredTrack_10126",
+      "sourceStudentTrack": "10126"
+    }
+  ]
+}

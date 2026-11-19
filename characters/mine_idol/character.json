@@ -1,0 +1,773 @@
+{
+  "id": "mine_idol",
+  "name": "美祢 · 偶像",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0275; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0275_Cafe_Idle--65bfaff7bac3432b",
+    "interact": "CH0275_Cafe_Reaction--6eb8a4e788056845"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0275_Cafe_Idle--65bfaff7bac3432b",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0275_Cafe_Reaction--6eb8a4e788056845",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0275_Cafe_Walk--5ae9012fc37dca1b",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "CH0275_Victory_Start--f624e26af9ca31e1",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "CH0275_Normal_Reload--f2b4355ac74191",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0275_Formation_Pickup--65babaf5b1d13cc6",
+      "category": "常用"
+    },
+    {
+      "id": "original_victory_start_interaction",
+      "label": "胜利 · 开始 · Interaction",
+      "clip": "CH0275_Victory_Start_Interaction--d4168f9e2976fe82",
+      "sourceName": "CH0275_Victory_Start_Interaction",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_victory_end_interaction",
+      "label": "胜利 · 结束 · Interaction",
+      "clip": "CH0275_Victory_End_Interaction--cb07dc02a80f6ce9",
+      "sourceName": "CH0275_Victory_End_Interaction",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "CH0275_Public01--faaadea4e2bd2b5f",
+      "sourceName": "CH0275_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_rootmotion",
+      "label": "EX 技能 · RootMotion",
+      "clip": "CH0275_Exs_RootMotion--51ca69739b9438dd",
+      "sourceName": "CH0275_Exs_RootMotion",
+      "category": "技能"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "CH0275_Victory_End--f16be53aad7d4aa5",
+      "sourceName": "CH0275_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "CH0275_Move_End_Normal--fc674cbdd0832af3",
+      "sourceName": "CH0275_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "CH0275_Normal_Attack_Delay--d73fe03168041891",
+      "sourceName": "CH0275_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "CH0275_Normal_Idle--d20549e0679b5444",
+      "sourceName": "CH0275_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "CH0275_Vital_Death--b06bcf981947a40f",
+      "sourceName": "CH0275_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_mari_02",
+      "label": "EX 技能 · Cutin · mari · 02",
+      "clip": "CH0275_Exs_Cutin_mari_02--a8c1d5c67079da0e",
+      "sourceName": "CH0275_Exs_Cutin_mari_02",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "CH0275_Normal_Attack_Ing--a33fa30ccf5e6028",
+      "sourceName": "CH0275_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign_random",
+      "label": "常规 · 回应 · Random",
+      "clip": "CH0275_Normal_Callsign_Random--8e2c5c3795bf594d",
+      "sourceName": "CH0275_Normal_Callsign_Random",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "CH0275_Normal_Attack_Start--8d769fd6a76e6e3f",
+      "sourceName": "CH0275_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_saku_01",
+      "label": "EX 技能 · Cutin · saku · 01",
+      "clip": "CH0275_Exs_Cutin_saku_01--8d09dc8ee660224c",
+      "sourceName": "CH0275_Exs_Cutin_saku_01",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_mari_01",
+      "label": "EX 技能 · Cutin · mari · 01",
+      "clip": "CH0275_Exs_Cutin_mari_01--8ac65124d1f6fa8c",
+      "sourceName": "CH0275_Exs_Cutin_mari_01",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0275_Formation_Idle--ffde059ff248c13a",
+      "sourceName": "CH0275_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs_cutin_02",
+      "label": "EX 技能 · Cutin · 02",
+      "clip": "CH0275_Exs_Cutin_02--10fd82806b7f059b",
+      "sourceName": "CH0275_Exs_Cutin_02",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "CH0275_Normal_Attack_End--150b7e97f9eaa254",
+      "sourceName": "CH0275_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "CH0275_Move_Jump--39ae02d4a22765",
+      "sourceName": "CH0275_Move_Jump",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "CH0275_Vital_Panic--1d758104fd306db5",
+      "sourceName": "CH0275_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "CH0275_Vital_Dying_Ing--208b239521dd085e",
+      "sourceName": "CH0275_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_01",
+      "label": "EX 技能 · Cutin · 01",
+      "clip": "CH0275_Exs_Cutin_01--3a39b3c0a572aed6",
+      "sourceName": "CH0275_Exs_Cutin_01",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_mari_03",
+      "label": "EX 技能 · Cutin · mari · 03",
+      "clip": "CH0275_Exs_Cutin_mari_03--3c606dd00e35fbcf",
+      "sourceName": "CH0275_Exs_Cutin_mari_03",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_03",
+      "label": "EX 技能 · Cutin · 03",
+      "clip": "CH0275_Exs_Cutin_03--40fd6dc2528e7ebc",
+      "sourceName": "CH0275_Exs_Cutin_03",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "CH0275_Exs--74dc67cb66049fd",
+      "sourceName": "CH0275_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "CH0275_Move_Ing--56490d57c9d9780d",
+      "sourceName": "CH0275_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "CH0275_Normal_Callsign--5f997ffa4e31e729",
+      "sourceName": "CH0275_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_saku_02",
+      "label": "EX 技能 · Cutin · saku · 02",
+      "clip": "CH0275_Exs_Cutin_saku_02--6ec232d95c1af674",
+      "sourceName": "CH0275_Exs_Cutin_saku_02",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_saku_03",
+      "label": "EX 技能 · Cutin · saku · 03",
+      "clip": "CH0275_Exs_Cutin_saku_03--6f6fd1848ede0a2d",
+      "sourceName": "CH0275_Exs_Cutin_saku_03",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "CH0275_Vital_Retreat--72074f9111c08552",
+      "sourceName": "CH0275_Vital_Retreat",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "CH0275_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "CH0275_Cafe_Idle--65bfaff7bac3432b": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "CH0275_Cafe_Reaction--6eb8a4e788056845": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.39999598,
+          "tile": 305
+        },
+        {
+          "time": 0.699993,
+          "tile": 305
+        },
+        {
+          "time": 1.533318,
+          "tile": 705
+        },
+        {
+          "time": 3.099969,
+          "tile": 300
+        },
+        {
+          "time": 3.499965,
+          "tile": 705
+        },
+        {
+          "time": 4.433289,
+          "tile": 705
+        },
+        {
+          "time": 5.366613,
+          "tile": 300
+        },
+        {
+          "time": 6.066606,
+          "tile": 705
+        },
+        {
+          "time": 12.866538,
+          "tile": 300
+        }
+      ],
+      "CH0275_Cafe_Walk--5ae9012fc37dca1b": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 1.199988,
+          "tile": 300
+        }
+      ],
+      "CH0275_Victory_Start--f624e26af9ca31e1": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.733326,
+          "tile": 402
+        },
+        {
+          "time": 1.633317,
+          "tile": 705
+        },
+        {
+          "time": 2.166645,
+          "tile": 704
+        }
+      ],
+      "CH0275_Normal_Reload--f2b4355ac74191": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0275_Formation_Pickup--65babaf5b1d13cc6": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.166665,
+          "tile": 402
+        },
+        {
+          "time": 1.233321,
+          "tile": 704
+        },
+        {
+          "time": 2.566641,
+          "tile": 704
+        },
+        {
+          "time": 3.066636,
+          "tile": 704
+        },
+        {
+          "time": 3.299967,
+          "tile": 704
+        },
+        {
+          "time": 3.499965,
+          "tile": 705
+        },
+        {
+          "time": 6.533268,
+          "tile": 704
+        },
+        {
+          "time": 7.2999268,
+          "tile": 704
+        }
+      ],
+      "CH0275_Victory_Start_Interaction--d4168f9e2976fe82": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.3,
+          "tile": 402
+        },
+        {
+          "time": 1.0333334,
+          "tile": 300
+        }
+      ],
+      "CH0275_Victory_End_Interaction--cb07dc02a80f6ce9": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "CH0275_Public01--faaadea4e2bd2b5f": [],
+      "CH0275_Exs_RootMotion--51ca69739b9438dd": [],
+      "CH0275_Victory_End--f16be53aad7d4aa5": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0275_Move_End_Normal--fc674cbdd0832af3": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0275_Normal_Attack_Delay--d73fe03168041891": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0275_Normal_Idle--d20549e0679b5444": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0275_Vital_Death--b06bcf981947a40f": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.066666,
+          "tile": 605
+        },
+        {
+          "time": 0.33333,
+          "tile": 502
+        },
+        {
+          "time": 0.499995,
+          "tile": 401
+        }
+      ],
+      "CH0275_Exs_Cutin_mari_02--a8c1d5c67079da0e": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0275_Normal_Attack_Ing--a33fa30ccf5e6028": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0275_Normal_Callsign_Random--8e2c5c3795bf594d": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0275_Normal_Attack_Start--8d769fd6a76e6e3f": [],
+      "CH0275_Exs_Cutin_saku_01--8d09dc8ee660224c": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "CH0275_Exs_Cutin_mari_01--8ac65124d1f6fa8c": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0275_Formation_Idle--ffde059ff248c13a": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0275_Exs_Cutin_02--10fd82806b7f059b": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.70000005,
+          "tile": 704
+        }
+      ],
+      "CH0275_Normal_Attack_End--150b7e97f9eaa254": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0275_Move_Jump--39ae02d4a22765": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0275_Vital_Panic--1d758104fd306db5": [
+        {
+          "time": 0,
+          "tile": 506
+        }
+      ],
+      "CH0275_Vital_Dying_Ing--208b239521dd085e": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "CH0275_Exs_Cutin_01--3a39b3c0a572aed6": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.6333333,
+          "tile": 402
+        }
+      ],
+      "CH0275_Exs_Cutin_mari_03--3c606dd00e35fbcf": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0275_Exs_Cutin_03--40fd6dc2528e7ebc": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.16666667,
+          "tile": 705
+        },
+        {
+          "time": 0.66666675,
+          "tile": 704
+        },
+        {
+          "time": 1.9666668,
+          "tile": 705
+        },
+        {
+          "time": 2.6333334,
+          "tile": 704
+        },
+        {
+          "time": 3.7000003,
+          "tile": 705
+        }
+      ],
+      "CH0275_Exs--74dc67cb66049fd": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.6333334,
+          "tile": 704
+        },
+        {
+          "time": 0.9333334,
+          "tile": 706
+        },
+        {
+          "time": 1.7333335,
+          "tile": 704
+        }
+      ],
+      "CH0275_Move_Ing--56490d57c9d9780d": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0275_Normal_Callsign--5f997ffa4e31e729": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.599994,
+          "tile": 704
+        },
+        {
+          "time": 1.6666499,
+          "tile": 704
+        }
+      ],
+      "CH0275_Exs_Cutin_saku_02--6ec232d95c1af674": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "CH0275_Exs_Cutin_saku_03--6f6fd1848ede0a2d": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "CH0275_Vital_Retreat--72074f9111c08552": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ]
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_vital_death": {
+        "zoom": 0.7673252596008127,
+        "centerY": 1.107876846274243
+      },
+      "original_exs_cutin_mari_02": {
+        "zoom": 0.48337876063165586,
+        "centerY": 0.9971891248075836
+      },
+      "original_exs_cutin_saku_01": {
+        "zoom": 0.33285782509584066,
+        "centerY": 1
+      },
+      "original_exs_cutin_mari_01": {
+        "zoom": 0.6668320790754639,
+        "centerY": 0.9986469251711847
+      },
+      "original_exs_cutin_02": {
+        "zoom": 0.9278729715367576,
+        "centerY": 0.9904240014987117
+      },
+      "original_exs_cutin_01": {
+        "zoom": 0.9250235135877475,
+        "centerY": 1
+      },
+      "original_exs_cutin_mari_03": {
+        "zoom": 0.42139498539845777,
+        "centerY": -0.5909662181498043
+      },
+      "original_exs_cutin_03": {
+        "zoom": 0.5781196355487894,
+        "centerY": 1.4490453092982087
+      },
+      "original_exs": {
+        "zoom": 0.5385581053200558,
+        "centerY": 2.506812762185
+      },
+      "original_exs_cutin_saku_02": {
+        "zoom": 0.3238964431125603,
+        "centerY": 0.9928130705275651
+      },
+      "original_exs_cutin_saku_03": {
+        "zoom": 0.2784170462180713,
+        "centerY": 0.9892635419020775
+      }
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210354_0",
+      "name": "演出舞台（多人）",
+      "model": "f210354_0.glb",
+      "clip": "f210354_0",
+      "duration": 4.666666666666667,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 300
+        }
+      ],
+      "note": "与玛丽 · 偶像、樱子 · 偶像同步互动。",
+      "yaw": 0.0,
+      "sourceTimeline": "my_event073_idolstage",
+      "sourceGroup": "RequiredTrack_10105_10106_16016",
+      "sourceStudentTrack": "16016"
+    },
+    {
+      "id": "f210354_1",
+      "name": "演出舞台",
+      "model": "f210354_1.glb",
+      "clip": "f210354_1",
+      "duration": 31.666666666666668,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 300
+        },
+        {
+          "time": 5.66661,
+          "tile": 704
+        },
+        {
+          "time": 7.966587,
+          "tile": 402
+        },
+        {
+          "time": 9.399906,
+          "tile": 605
+        },
+        {
+          "time": 10.233231,
+          "tile": 402
+        },
+        {
+          "time": 10.899891,
+          "tile": 604
+        },
+        {
+          "time": 11.499885,
+          "tile": 402
+        },
+        {
+          "time": 11.633217,
+          "tile": 401
+        },
+        {
+          "time": 12.399876,
+          "tile": 300
+        },
+        {
+          "time": 12.766539,
+          "tile": 706
+        },
+        {
+          "time": 13.799862,
+          "tile": 705
+        },
+        {
+          "time": 14.166525,
+          "tile": 706
+        },
+        {
+          "time": 14.633187,
+          "tile": 505
+        },
+        {
+          "time": 15.133182,
+          "tile": 706
+        },
+        {
+          "time": 17.766489,
+          "tile": 705
+        },
+        {
+          "time": 18.333149,
+          "tile": 704
+        },
+        {
+          "time": 20.499794,
+          "tile": 300
+        }
+      ],
+      "yaw": 0.0,
+      "sourceTimeline": "my_event073_idolstage",
+      "sourceGroup": "MakeTrack_16016",
+      "sourceStudentTrack": "16016"
+    }
+  ]
+}

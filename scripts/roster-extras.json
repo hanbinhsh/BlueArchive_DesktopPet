@@ -1,0 +1,10 @@
+{
+  "momoi_coat": ["NP0267", "小桃 · 白色外套"],
+  "midori_coat": ["NP0268", "小绿 · 白色外套"],
+  "hina_pajamas": ["Player_NP0009", "日奈 · 睡衣"],
+  "kei_story": ["CH0335_Scenario_01", "凯伊 · 白色剧情服"],
+  "aris_battle_light": ["CH0334_Scenario", "爱丽丝 · 临战轻装"],
+  "toki_combat": ["CH0187", "时 · 轻装战斗"],
+  "toki_armor": ["Toki_CNC_MG_Boss", "时 · 机械装甲"],
+  "shiroko_terror_story": ["CH0263_Scenario01", "白子 · Terror 剧情光环"]
+}

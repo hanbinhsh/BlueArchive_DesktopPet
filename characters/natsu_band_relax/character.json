@@ -1,0 +1,58 @@
+{
+  "id": "natsu_band_relax",
+  "name": "夏 · 乐队（场景动作）",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0221_NonWeapon; original rig, textures, material references, mouth defaults and animation events. Animation TRS recovered from the referenced community extraction after checking original bone bind transforms; game-source mouth/visibility events retained.",
+    "animationReference": "https://cdn.jsdelivr.net/gh/lihaohong6/BlueArchiveModels@525ae0faeb0a89f54ef4023f3be3692dcb529e51/Natsu%20%28Band%29%20%28No%20Weapon%29.glb",
+    "animationReferenceSha256": "6182ed4b4652eacf43e8646d50c6f2a66151ed5352e389183c0bbfac5c1e0f66"
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0221_NonWeapon_Idle",
+    "interact": "CH0221_NonWeapon_Stretching"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "休息待机",
+      "clip": "CH0221_NonWeapon_Idle"
+    },
+    {
+      "id": "interact",
+      "label": "伸懒腰",
+      "clip": "CH0221_NonWeapon_Stretching"
+    }
+  ],
+  "note": "乐队服的场景形态，使用原版休息、伸懒腰动画；桌椅与鼓的动作需在配套家具中播放。没有提起动画。",
+  "mouth": {
+    "material": "CH0221_NonWeapon_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "CH0221_NonWeapon_Idle": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ],
+      "CH0221_NonWeapon_Stretching": [
+        {
+          "time": 0,
+          "tile": 200
+        },
+        {
+          "time": 8.133252143859863,
+          "tile": 503
+        },
+        {
+          "time": 10.233333587646484,
+          "tile": 200
+        }
+      ]
+    }
+  }
+}

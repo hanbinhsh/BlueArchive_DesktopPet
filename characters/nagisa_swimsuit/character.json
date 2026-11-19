@@ -1,0 +1,324 @@
+{
+  "id": "nagisa_swimsuit",
+  "name": "渚 · 泳装",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0293; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0293_Cafe_Idle--fc61cdf1309dc80d",
+    "interact": "CH0293_Cafe_Reaction--2792934ebe1c71df"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0293_Cafe_Idle--fc61cdf1309dc80d",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0293_Cafe_Reaction--2792934ebe1c71df",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0293_Cafe_Walk--7bb9c20fb9921b50",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0293_Formation_Pickup--89bb67ebc336c38f",
+      "category": "常用"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0293_Tactical_Start--ffde2dcdb8495a23",
+      "sourceName": "CH0293_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_tactical_start_random",
+      "label": "Tactical · 开始 · Random",
+      "clip": "CH0293_Tactical_Start_Random--2336ef879312ea86",
+      "sourceName": "CH0293_Tactical_Start_Random",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "CH0293_Exs--2a05f8a9baa6ed4c",
+      "sourceName": "CH0293_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0293_Formation_Idle--5873a3b58f77d706",
+      "sourceName": "CH0293_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_formation_idle_random",
+      "label": "编队 · 待机 · Random",
+      "clip": "CH0293_Formation_Idle_Random--7c545551d764b717",
+      "sourceName": "CH0293_Formation_Idle_Random",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_victory_end_interaction",
+      "label": "胜利 · 结束 · Interaction",
+      "clip": "CH0293_Victory_End_Interaction--92ef2813b4709110",
+      "sourceName": "CH0293_Victory_End_Interaction",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs_cutin_desk_01",
+      "label": "EX 技能 · Cutin · Desk · 01",
+      "clip": "CH0293_Exs_Cutin_Desk_01--c1a417d4cd7ca6fe",
+      "sourceName": "CH0293_Exs_Cutin_Desk_01",
+      "category": "技能"
+    }
+  ],
+  "mouth": {
+    "material": "CH0293_Mouth",
+    "defaultTile": 704,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.5,
+      0.875
+    ],
+    "events": {
+      "CH0293_Cafe_Idle--fc61cdf1309dc80d": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0293_Cafe_Reaction--2792934ebe1c71df": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.13333334,
+          "tile": 402
+        },
+        {
+          "time": 1.8666668,
+          "tile": 401
+        },
+        {
+          "time": 2.3333335,
+          "tile": 705
+        },
+        {
+          "time": 3.9333336,
+          "tile": 704
+        }
+      ],
+      "CH0293_Cafe_Walk--7bb9c20fb9921b50": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0293_Formation_Pickup--89bb67ebc336c38f": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.43333337,
+          "tile": 606
+        },
+        {
+          "time": 2,
+          "tile": 606
+        },
+        {
+          "time": 2.599974,
+          "tile": 604
+        },
+        {
+          "time": 2.766639,
+          "tile": 402
+        },
+        {
+          "time": 3.99996,
+          "tile": 704
+        }
+      ],
+      "CH0293_Tactical_Start--ffde2dcdb8495a23": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.13333333,
+          "tile": 605
+        },
+        {
+          "time": 0.4666667,
+          "tile": 402
+        },
+        {
+          "time": 1.1333334,
+          "tile": 604
+        }
+      ],
+      "CH0293_Tactical_Start_Random--2336ef879312ea86": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.8000001,
+          "tile": 705
+        },
+        {
+          "time": 1.4000001,
+          "tile": 704
+        }
+      ],
+      "CH0293_Exs--2a05f8a9baa6ed4c": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 2.3000002,
+          "tile": 705
+        },
+        {
+          "time": 4.2000003,
+          "tile": 704
+        }
+      ],
+      "CH0293_Formation_Idle--5873a3b58f77d706": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0293_Formation_Idle_Random--7c545551d764b717": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0293_Victory_Start_Interaction--bc8c7b473231834a": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 1.3666668,
+          "tile": 401
+        },
+        {
+          "time": 2.0333335,
+          "tile": 300
+        }
+      ],
+      "CH0293_Victory_End_Interaction--92ef2813b4709110": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "CH0293_Exs_Cutin_Desk_01--c1a417d4cd7ca6fe": [],
+      "CH0293_Exs_Cutin_02--9b2e5907a42252b9": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "CH0293_Exs_Cutin_03--4c9d3c480044a3d5": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ]
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs": {
+        "zoom": 0.8386092831175466,
+        "centerY": 1.0615945138456595
+      },
+      "original_exs_cutin_desk_01": {
+        "zoom": 0.5854494910824256,
+        "centerY": 1.1206640629418028
+      }
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210374_0",
+      "name": "秋千椅",
+      "model": "f210374_0.glb",
+      "clip": "f210374_0",
+      "duration": 32.86666666666667,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 402
+        },
+        {
+          "time": 10.233231,
+          "tile": 604
+        },
+        {
+          "time": 10.899891,
+          "tile": 305
+        },
+        {
+          "time": 13.1,
+          "tile": 506
+        },
+        {
+          "time": 21.866447,
+          "tile": 200
+        },
+        {
+          "time": 23.4331,
+          "tile": 401
+        },
+        {
+          "time": 23.66643,
+          "tile": 402
+        },
+        {
+          "time": 25.366413,
+          "tile": 604
+        },
+        {
+          "time": 25.766409,
+          "tile": 402
+        },
+        {
+          "time": 28.233051,
+          "tile": 604
+        },
+        {
+          "time": 28.633047,
+          "tile": 402
+        }
+      ],
+      "yaw": 5.497787143782138,
+      "sourceTimeline": "my_event082_swingchair",
+      "sourceGroup": "RequiredTrack_20048",
+      "sourceStudentTrack": "20048"
+    }
+  ]
+}

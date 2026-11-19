@@ -1,0 +1,316 @@
+{
+  "id": "koyuki_pajamas",
+  "name": "小雪 · 睡衣",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0310; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0310_Cafe_Idle--a64761192557e8b0",
+    "interact": "CH0310_Cafe_Reaction--b94afcc654578445"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0310_Cafe_Idle--a64761192557e8b0",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0310_Cafe_Reaction--b94afcc654578445",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0310_Cafe_Walk--42b24a77b19e5ad4",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0310_Formation_Pickup--7dd5d7afabba134",
+      "category": "常用"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0310_Tactical_Start--fd3caef1880f53bb",
+      "sourceName": "CH0310_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "CH0310_Exs--840984b79864d6a1",
+      "sourceName": "CH0310_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0310_Formation_Idle--1adbbde637b43dcf",
+      "sourceName": "CH0310_Formation_Idle",
+      "category": "编队与胜利"
+    }
+  ],
+  "mouth": {
+    "material": "CH0310_Mouth",
+    "defaultTile": 201,
+    "columns": 4,
+    "rows": 4,
+    "events": {
+      "CH0310_Cafe_Idle--a64761192557e8b0": [
+        {
+          "time": 0,
+          "tile": 303
+        },
+        {
+          "time": 1.7333335,
+          "tile": 202
+        },
+        {
+          "time": 2.3333333,
+          "tile": 0
+        },
+        {
+          "time": 2.5666668,
+          "tile": 300
+        },
+        {
+          "time": 4.4333334,
+          "tile": 0
+        },
+        {
+          "time": 4.7333336,
+          "tile": 301
+        },
+        {
+          "time": 6.8333335,
+          "tile": 303
+        }
+      ],
+      "CH0310_Cafe_Reaction--b94afcc654578445": [
+        {
+          "time": 0,
+          "tile": 303
+        },
+        {
+          "time": 0.26666668,
+          "tile": 201
+        },
+        {
+          "time": 1.4,
+          "tile": 404
+        },
+        {
+          "time": 1.866648,
+          "tile": 206
+        },
+        {
+          "time": 2.166645,
+          "tile": 404
+        },
+        {
+          "time": 2.9333334,
+          "tile": 201
+        },
+        {
+          "time": 3.266634,
+          "tile": 304
+        },
+        {
+          "time": 4.66662,
+          "tile": 204
+        },
+        {
+          "time": 5.1333337,
+          "tile": 300
+        },
+        {
+          "time": 5.866608,
+          "tile": 304
+        },
+        {
+          "time": 6.266667,
+          "tile": 102
+        },
+        {
+          "time": 6.6333337,
+          "tile": 201
+        },
+        {
+          "time": 8.766667,
+          "tile": 303
+        }
+      ],
+      "CH0310_Cafe_Walk--42b24a77b19e5ad4": [
+        {
+          "time": 0,
+          "tile": 303
+        }
+      ],
+      "CH0310_Formation_Pickup--7dd5d7afabba134": [
+        {
+          "time": 0,
+          "tile": 203
+        }
+      ],
+      "CH0310_Tactical_Start--fd3caef1880f53bb": [
+        {
+          "time": 0,
+          "tile": 303
+        },
+        {
+          "time": 0.7666667,
+          "tile": 201
+        },
+        {
+          "time": 1.0333334,
+          "tile": 100
+        },
+        {
+          "time": 1.1333334,
+          "tile": 203
+        }
+      ],
+      "CH0310_Exs--840984b79864d6a1": [
+        {
+          "time": 0,
+          "tile": 303
+        },
+        {
+          "time": 1.0666667,
+          "tile": 203
+        }
+      ],
+      "CH0310_Formation_Idle--1adbbde637b43dcf": [
+        {
+          "time": 0,
+          "tile": 303
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210398_0",
+      "name": "午夜游戏区",
+      "model": "f210398_0.glb",
+      "clip": "f210398_0",
+      "duration": 22,
+      "mouthEvents": [
+        {
+          "time": 0,
+          "tile": 303
+        },
+        {
+          "time": 0.6333334,
+          "tile": 201
+        },
+        {
+          "time": 0.7666667,
+          "tile": 201
+        },
+        {
+          "time": 1.6000001,
+          "tile": 101
+        },
+        {
+          "time": 3.4,
+          "tile": 100
+        },
+        {
+          "time": 4.2000003,
+          "tile": 301
+        },
+        {
+          "time": 5.8333335,
+          "tile": 100
+        },
+        {
+          "time": 7.766667,
+          "tile": 301
+        },
+        {
+          "time": 7.9000006,
+          "tile": 203
+        },
+        {
+          "time": 8.066668,
+          "tile": 202
+        },
+        {
+          "time": 8.3,
+          "tile": 203
+        },
+        {
+          "time": 9.700001,
+          "tile": 100
+        },
+        {
+          "time": 10.166667,
+          "tile": 301
+        },
+        {
+          "time": 10.633334,
+          "tile": 100
+        },
+        {
+          "time": 12.3,
+          "tile": 300
+        },
+        {
+          "time": 12.899871,
+          "tile": 305
+        },
+        {
+          "time": 12.933334,
+          "tile": 100
+        },
+        {
+          "time": 13.266667,
+          "tile": 203
+        },
+        {
+          "time": 17.666668,
+          "tile": 100
+        },
+        {
+          "time": 18.366669,
+          "tile": 301
+        },
+        {
+          "time": 19.7,
+          "tile": 303
+        },
+        {
+          "time": 21.266668,
+          "tile": 303
+        }
+      ],
+      "yaw": 0.3141592653589793
+    }
+  ],
+  "framing": {
+    "actions": {
+      "original_tactical_start": {
+        "zoom": 0.7513885975369169,
+        "centerY": 1.3749347690381717
+      },
+      "original_exs": {
+        "zoom": 0.7537150798928638,
+        "centerY": 0.6899653706691484
+      },
+      "original_formation_idle": {
+        "zoom": 0.7085020903522079,
+        "centerY": 0.05928589523784589
+      }
+    }
+  }
+}

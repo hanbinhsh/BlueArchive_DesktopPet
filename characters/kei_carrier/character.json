@@ -1,0 +1,68 @@
+{
+  "id": "kei_carrier",
+  "name": "凯伊 · 原版（携带道具）",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0335_Carrier2; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0335_Carrier2_Idle--f0f4526cd08aa74f",
+    "interact": "CH0335_Carrier2_Walk--45fa62f9d1aace72"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "携带待机",
+      "clip": "CH0335_Carrier2_Idle--f0f4526cd08aa74f",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "携带走路",
+      "clip": "CH0335_Carrier2_Walk--45fa62f9d1aace72",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "携带走路",
+      "clip": "CH0335_Carrier2_Walk--45fa62f9d1aace72",
+      "category": "常用"
+    }
+  ],
+  "note": "与原版同一服装，携带道具的独立场景形态；单击播放走路，无提起动画。",
+  "mouth": {
+    "material": "CH0335_Carrier2_Mouth",
+    "defaultTile": 602,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "CH0335_Carrier2_Idle--f0f4526cd08aa74f": [
+        {
+          "time": 0,
+          "tile": 305
+        }
+      ],
+      "CH0335_Carrier2_Walk--45fa62f9d1aace72": [
+        {
+          "time": 0,
+          "tile": 305
+        },
+        {
+          "time": 1.466652,
+          "tile": 402
+        },
+        {
+          "time": 2.466642,
+          "tile": 305
+        },
+        {
+          "time": 4.499955,
+          "tile": 200
+        }
+      ]
+    }
+  }
+}

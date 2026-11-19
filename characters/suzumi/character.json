@@ -1,0 +1,405 @@
+{
+  "id": "suzumi",
+  "name": "铃美 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Suzumi_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Suzumi_Original_Cafe_Idle--373b92b6262dfb80",
+    "interact": "Suzumi_Original_Cafe_Reaction--3cbf7daeda069976"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Suzumi_Original_Cafe_Idle--373b92b6262dfb80",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Suzumi_Original_Cafe_Reaction--3cbf7daeda069976",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Suzumi_Original_Cafe_Walk--7c993fd29ff4c6b",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Suzumi_Original_Victory_Start--a8a3204772194f80",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Suzumi_Original_Normal_Reload--fb317665f61ef3f0",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Suzumi_Original_Formation_Pickup--47fd4649dc54f706",
+      "category": "常用"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Suzumi_Original_Formation_Idle--40b97c7fa5517efd",
+      "sourceName": "Suzumi_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Suzumi_Original_Exs--5fc7ce08f2566852",
+      "sourceName": "Suzumi_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Suzumi_Original_Move_Ing--ee3d7c25e663b749",
+      "sourceName": "Suzumi_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Suzumi_Original_Victory_End--d6b6bcf60e0674df",
+      "sourceName": "Suzumi_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Suzumi_Original_Public01--cec0113c28ae8128",
+      "sourceName": "Suzumi_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_stand_attack_start",
+      "label": "掩体站姿 · 攻击 · 开始",
+      "clip": "Suzumi_Original_Stand_Attack_Start--ce90976765a94027",
+      "sourceName": "Suzumi_Original_Stand_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Suzumi_Original_Kneel_Attack_Start--cd9ad5c80b74d061",
+      "sourceName": "Suzumi_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_reload",
+      "label": "掩体站姿 · 换弹",
+      "clip": "Suzumi_Original_Stand_Reload--cac3ebf4a1aa22f4",
+      "sourceName": "Suzumi_Original_Stand_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Suzumi_Original_Move_End_Kneel--c6a8563a0116a9aa",
+      "sourceName": "Suzumi_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Suzumi_Original_Kneel_Idle--c66ede4e8ebff313",
+      "sourceName": "Suzumi_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_stand",
+      "label": "移动 · 结束 · 掩体站姿",
+      "clip": "Suzumi_Original_Move_End_Stand--b55b02e82296f0d0",
+      "sourceName": "Suzumi_Original_Move_End_Stand",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_callsign",
+      "label": "蹲姿 · 回应",
+      "clip": "Suzumi_Original_Kneel_Callsign--aed0dd01bc21f18e",
+      "sourceName": "Suzumi_Original_Kneel_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Suzumi_Original_Normal_Attack_Start--ad0d76d0e6349790",
+      "sourceName": "Suzumi_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Suzumi_Original_Normal_Idle--ac2b141e7e95a8a6",
+      "sourceName": "Suzumi_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Suzumi_Original_Normal_Callsign--a94a3411823916f7",
+      "sourceName": "Suzumi_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_ing",
+      "label": "掩体站姿 · 攻击 · 持续",
+      "clip": "Suzumi_Original_Stand_Attack_Ing--994145c51fad8a73",
+      "sourceName": "Suzumi_Original_Stand_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Suzumi_Original_Kneel_Attack_Delay--1c854c23ebdd0025",
+      "sourceName": "Suzumi_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Suzumi_Original_Kneel_Attack_End--21bcb3510c602e48",
+      "sourceName": "Suzumi_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Suzumi_Original_Normal_Attack_Ing--26a076856490871a",
+      "sourceName": "Suzumi_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Suzumi_Original_Kneel_Reload--30205c94807f9f5e",
+      "sourceName": "Suzumi_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Suzumi_Original_Move_End_Normal--3048f5e5e44ea430",
+      "sourceName": "Suzumi_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Suzumi_Original_Vital_Retreat--6784dc9aaf8e3a6",
+      "sourceName": "Suzumi_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_idle",
+      "label": "掩体站姿 · 待机",
+      "clip": "Suzumi_Original_Stand_Idle--481fa10550a69e59",
+      "sourceName": "Suzumi_Original_Stand_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Suzumi_Original_Normal_Attack_Delay--4bc4117588d8741f",
+      "sourceName": "Suzumi_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Suzumi_Original_Vital_Panic--4cfb575441e6129e",
+      "sourceName": "Suzumi_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_end",
+      "label": "掩体站姿 · 攻击 · 结束",
+      "clip": "Suzumi_Original_Stand_Attack_End--4f9d5d2e0c60011b",
+      "sourceName": "Suzumi_Original_Stand_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "Suzumi_Original_Move_Jump--5289390f1b4085be",
+      "sourceName": "Suzumi_Original_Move_Jump",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Suzumi_Original_Kneel_Attack_Ing--5ff43b996fc633b0",
+      "sourceName": "Suzumi_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Suzumi_Original_Vital_Death--6b6d42ba18df6d80",
+      "sourceName": "Suzumi_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_callsign",
+      "label": "移动 · 回应",
+      "clip": "Suzumi_Original_Move_Callsign--b7c1cb97d0e5ef4",
+      "sourceName": "Suzumi_Original_Move_Callsign",
+      "category": "移动"
+    },
+    {
+      "id": "original_stand_callsign",
+      "label": "掩体站姿 · 回应",
+      "clip": "Suzumi_Original_Stand_Callsign--737a465707505934",
+      "sourceName": "Suzumi_Original_Stand_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Suzumi_Original_Vital_Dying_Ing--749a59951dd18d9a",
+      "sourceName": "Suzumi_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Suzumi_Original_Normal_Attack_End--7e4cef39064023e3",
+      "sourceName": "Suzumi_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_delay",
+      "label": "掩体站姿 · 攻击 · 间隔",
+      "clip": "Suzumi_Original_Stand_Attack_Delay--7e84f8c879c2f640",
+      "sourceName": "Suzumi_Original_Stand_Attack_Delay",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Suzumi_Original_Mouth",
+    "defaultTile": 602,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "Suzumi_Original_Cafe_Idle--373b92b6262dfb80": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "Suzumi_Original_Cafe_Reaction--3cbf7daeda069976": [
+        {
+          "time": 0,
+          "tile": 604
+        },
+        {
+          "time": 0.20000002,
+          "tile": 401
+        },
+        {
+          "time": 0.26666668,
+          "tile": 704
+        },
+        {
+          "time": 1.3666668,
+          "tile": 401
+        },
+        {
+          "time": 1.4000001,
+          "tile": 604
+        }
+      ],
+      "Suzumi_Original_Cafe_Walk--7c993fd29ff4c6b": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Suzumi_Original_Victory_Start--a8a3204772194f80": [
+        {
+          "time": 0,
+          "tile": 504
+        },
+        {
+          "time": 0.10000001,
+          "tile": 402
+        },
+        {
+          "time": 1.4333334,
+          "tile": 402
+        },
+        {
+          "time": 1.8666668,
+          "tile": 602
+        },
+        {
+          "time": 3.0000002,
+          "tile": 602
+        }
+      ],
+      "Suzumi_Original_Normal_Reload--fb317665f61ef3f0": [],
+      "Suzumi_Original_Formation_Pickup--47fd4649dc54f706": [
+        {
+          "time": 0,
+          "tile": 602
+        }
+      ],
+      "Suzumi_Original_Formation_Idle--40b97c7fa5517efd": [],
+      "Suzumi_Original_Exs--5fc7ce08f2566852": [],
+      "Suzumi_Original_Move_Ing--ee3d7c25e663b749": [],
+      "Suzumi_Original_Victory_End--d6b6bcf60e0674df": [
+        {
+          "time": 0,
+          "tile": 602
+        },
+        {
+          "time": 2.2333333,
+          "tile": 602
+        }
+      ],
+      "Suzumi_Original_Public01--cec0113c28ae8128": [],
+      "Suzumi_Original_Stand_Attack_Start--ce90976765a94027": [],
+      "Suzumi_Original_Kneel_Attack_Start--cd9ad5c80b74d061": [],
+      "Suzumi_Original_Stand_Reload--cac3ebf4a1aa22f4": [],
+      "Suzumi_Original_Move_End_Kneel--c6a8563a0116a9aa": [],
+      "Suzumi_Original_Kneel_Idle--c66ede4e8ebff313": [],
+      "Suzumi_Original_Move_End_Stand--b55b02e82296f0d0": [],
+      "Suzumi_Original_Kneel_Callsign--aed0dd01bc21f18e": [],
+      "Suzumi_Original_Normal_Attack_Start--ad0d76d0e6349790": [],
+      "Suzumi_Original_Normal_Idle--ac2b141e7e95a8a6": [],
+      "Suzumi_Original_Normal_Callsign--a94a3411823916f7": [],
+      "Suzumi_Original_Stand_Attack_Ing--994145c51fad8a73": [],
+      "Suzumi_Original_Kneel_Attack_Delay--1c854c23ebdd0025": [],
+      "Suzumi_Original_Kneel_Attack_End--21bcb3510c602e48": [],
+      "Suzumi_Original_Normal_Attack_Ing--26a076856490871a": [],
+      "Suzumi_Original_Kneel_Reload--30205c94807f9f5e": [],
+      "Suzumi_Original_Move_End_Normal--3048f5e5e44ea430": [],
+      "Suzumi_Original_Vital_Retreat--6784dc9aaf8e3a6": [],
+      "Suzumi_Original_Stand_Idle--481fa10550a69e59": [],
+      "Suzumi_Original_Normal_Attack_Delay--4bc4117588d8741f": [],
+      "Suzumi_Original_Vital_Panic--4cfb575441e6129e": [],
+      "Suzumi_Original_Stand_Attack_End--4f9d5d2e0c60011b": [],
+      "Suzumi_Original_Move_Jump--5289390f1b4085be": [],
+      "Suzumi_Original_Kneel_Attack_Ing--5ff43b996fc633b0": [],
+      "Suzumi_Original_Vital_Death--6b6d42ba18df6d80": [],
+      "Suzumi_Original_Move_Callsign--b7c1cb97d0e5ef4": [],
+      "Suzumi_Original_Stand_Callsign--737a465707505934": [],
+      "Suzumi_Original_Vital_Dying_Ing--749a59951dd18d9a": [],
+      "Suzumi_Original_Normal_Attack_End--7e4cef39064023e3": [],
+      "Suzumi_Original_Stand_Attack_Delay--7e84f8c879c2f640": []
+    }
+  }
+}

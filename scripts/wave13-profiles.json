@@ -1,0 +1,17 @@
+{
+  "wakamo": {
+    "modelPrefix": "Cafe_Wakamo_Original",
+    "prefabName": "Cafe_Wakamo_Original",
+    "noMouthAtlas": true,
+    "note": "官方常服模型佩戴面具，原始 MouthRenderer 为空且 MouthMaterialIndex 为 -1；保留原貌，不合成口型。",
+    "exportDirectory": "wave13-complete",
+    "actions": [
+      ["idle", "待机", "Wakamo_Original_Cafe_Idle"],
+      ["interact", "咖啡厅互动", "Wakamo_Original_Cafe_Reaction"],
+      ["walk", "原地走路", "Wakamo_Original_Cafe_Walk"],
+      ["victory", "胜利动作", "Wakamo_Original_Victory_Start"],
+      ["reload", "换弹", "Wakamo_Original_Normal_Reload"],
+      ["pickup", "编队提起", "Wakamo_Original_Formation_Pickup"]
+    ]
+  }
+}

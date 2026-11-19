@@ -1,0 +1,244 @@
+{
+  "id": "kei_story",
+  "name": "凯伊 · 白色剧情服",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0335_Scenario_01; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0335_Scenario_01_Normal_Idle--689bf55b691cd486",
+    "interact": "CH0335_Scenario_01_Normal_Reload--79eb9bbafd007201"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0335_Scenario_01_Normal_Idle--689bf55b691cd486",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "武器整备",
+      "clip": "CH0335_Scenario_01_Normal_Reload--79eb9bbafd007201",
+      "category": "常用"
+    },
+    {
+      "id": "attack",
+      "label": "原版攻击姿态",
+      "clip": "CH0335_Scenario_01_Normal_Attack_Ing--7d06c9438ee3c847",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "移动",
+      "clip": "CH0335_Scenario_01_Move_Ing--25c5a84781e6e603",
+      "category": "常用"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "CH0335_Scenario_01_Normal_Attack_Start--dd6f8eec4f667ade",
+      "sourceName": "CH0335_Scenario_01_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "CH0335_Scenario_01_Normal_Attack_Delay--fb112285304cf6d9",
+      "sourceName": "CH0335_Scenario_01_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "CH0335_Scenario_01_Vital_Panic--b2f04608f8176a98",
+      "sourceName": "CH0335_Scenario_01_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "CH0335_Scenario_01_Normal_Attack_End--5ccb08b0c2161f32",
+      "sourceName": "CH0335_Scenario_01_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "CH0335_Scenario_01_Move_End_Normal--5cd2f0c4e0c06b14",
+      "sourceName": "CH0335_Scenario_01_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_carrier_idle",
+      "label": "白色剧情服 · 携带待机",
+      "clip": "CH0335_Carrier_Idle--7563dec9f403765c",
+      "category": "剧情",
+      "sourceName": "CH0335_Carrier_Idle"
+    }
+  ],
+  "note": "白色剧情服，保留持武器的原版动作。没有提起动作，拖动时保持待机。",
+  "mouth": {
+    "material": "CH0335_Scenario_01_Mouth",
+    "defaultTile": 602,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "CH0335_Scenario_01_Normal_Idle--689bf55b691cd486": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0335_Scenario_01_Normal_Reload--79eb9bbafd007201": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.366663,
+          "tile": 402
+        },
+        {
+          "time": 1.499985,
+          "tile": 401
+        }
+      ],
+      "CH0335_Scenario_01_Normal_Attack_Ing--7d06c9438ee3c847": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.86665136,
+          "tile": 602
+        },
+        {
+          "time": 1.6666431,
+          "tile": 401
+        }
+      ],
+      "CH0335_Scenario_01_Move_Ing--25c5a84781e6e603": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.66666,
+          "tile": 401
+        }
+      ],
+      "CH0335_Scenario_01_Normal_Attack_Start--dd6f8eec4f667ade": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.099998996,
+          "tile": 402
+        },
+        {
+          "time": 0.466662,
+          "tile": 401
+        }
+      ],
+      "CH0335_Scenario_01_Normal_Attack_Delay--fb112285304cf6d9": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0335_Scenario_01_Vital_Panic--b2f04608f8176a98": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.033333,
+          "tile": 607
+        },
+        {
+          "time": 0.133332,
+          "tile": 605
+        },
+        {
+          "time": 0.366663,
+          "tile": 607
+        },
+        {
+          "time": 2.033313,
+          "tile": 305
+        },
+        {
+          "time": 2.433309,
+          "tile": 607
+        },
+        {
+          "time": 3.966627,
+          "tile": 305
+        },
+        {
+          "time": 4.699953,
+          "tile": 607
+        },
+        {
+          "time": 6.433269,
+          "tile": 605
+        }
+      ],
+      "CH0335_Scenario_01_Normal_Attack_End--5ccb08b0c2161f32": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.26663613,
+          "tile": 402
+        },
+        {
+          "time": 0.59996605,
+          "tile": 401
+        }
+      ],
+      "CH0335_Scenario_01_Move_End_Normal--5cd2f0c4e0c06b14": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.4,
+          "tile": 401
+        },
+        {
+          "time": 0.6,
+          "tile": 402
+        },
+        {
+          "time": 1.1333333,
+          "tile": 604
+        },
+        {
+          "time": 1.3,
+          "tile": 401
+        }
+      ],
+      "CH0335_Carrier_Idle--7563dec9f403765c": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ]
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_vital_panic": {
+        "zoom": 0.9392465714360803,
+        "centerY": 0.9634393868284223
+      }
+    }
+  }
+}

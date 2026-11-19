@@ -1,0 +1,347 @@
+{
+  "id": "natsu",
+  "name": "夏 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0155; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0155_Cafe_Idle--5544cbc560e6fd4d",
+    "interact": "CH0155_Cafe_Reaction--cde3063e732fc18c"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0155_Cafe_Idle--5544cbc560e6fd4d",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0155_Cafe_Reaction--cde3063e732fc18c",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0155_Cafe_Walk--657801fd59759542",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "CH0155_Victory_Start--15d252caf3fb9a27",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "CH0155_Normal_Reload--767a3774adaddb0c",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0155_Formation_Pickup--4153832887b6b64a",
+      "category": "常用"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "CH0155_Vital_Dying_Ing--fe2502eba2269a44",
+      "sourceName": "CH0155_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public",
+      "label": "普通技能",
+      "clip": "CH0155_Public--bfd4c028a3c2e369",
+      "sourceName": "CH0155_Public",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "CH0155_Vital_Retreat--b7ba0dff5eb891d8",
+      "sourceName": "CH0155_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "CH0155_Normal_Attack_Start--b79c89d1918ca210",
+      "sourceName": "CH0155_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "CH0155_Normal_Attack_Delay--b5fdf3910829183f",
+      "sourceName": "CH0155_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "CH0155_Vital_Death--a43fbf271e4c2d84",
+      "sourceName": "CH0155_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "CH0155_Vital_Panic--95c7b6eaa1b3d077",
+      "sourceName": "CH0155_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "CH0155_Exs--903d8f45579fc66e",
+      "sourceName": "CH0155_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "CH0155_Normal_Idle--1562ed8272f02470",
+      "sourceName": "CH0155_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "CH0155_Victory_End--15beb08a32b4a8eb",
+      "sourceName": "CH0155_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "CH0155_Move_Ing--31210d457e863f73",
+      "sourceName": "CH0155_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "CH0155_Move_End_Normal--36f18a1f9296b317",
+      "sourceName": "CH0155_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "CH0155_Normal_Callsign--3dd141a2c46bd1e5",
+      "sourceName": "CH0155_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "CH0155_Normal_Attack_Ing--532c80bcae4cf973",
+      "sourceName": "CH0155_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0155_Formation_Idle--5a4ed3674349a0f9",
+      "sourceName": "CH0155_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "CH0155_Normal_Attack_End--6570830fc039b94d",
+      "sourceName": "CH0155_Normal_Attack_End",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "CH0155_Mouth",
+    "defaultTile": 200,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "CH0155_Cafe_Idle--5544cbc560e6fd4d": [
+        {
+          "time": 0,
+          "tile": 201
+        },
+        {
+          "time": 2.6666667,
+          "tile": 201
+        }
+      ],
+      "CH0155_Cafe_Reaction--cde3063e732fc18c": [
+        {
+          "time": 0,
+          "tile": 200
+        },
+        {
+          "time": 3.966667,
+          "tile": 201
+        },
+        {
+          "time": 4.4666667,
+          "tile": 201
+        }
+      ],
+      "CH0155_Cafe_Walk--657801fd59759542": [
+        {
+          "time": 0,
+          "tile": 201
+        },
+        {
+          "time": 1.6000001,
+          "tile": 201
+        }
+      ],
+      "CH0155_Victory_Start--15d252caf3fb9a27": [
+        {
+          "time": 0,
+          "tile": 201
+        },
+        {
+          "time": 3.0000002,
+          "tile": 201
+        }
+      ],
+      "CH0155_Normal_Reload--767a3774adaddb0c": [],
+      "CH0155_Formation_Pickup--4153832887b6b64a": [
+        {
+          "time": 0,
+          "tile": 201
+        },
+        {
+          "time": 4.366667,
+          "tile": 201
+        }
+      ],
+      "CH0155_Vital_Dying_Ing--fe2502eba2269a44": [
+        {
+          "time": 0,
+          "tile": 605
+        },
+        {
+          "time": 1.6666667,
+          "tile": 605
+        }
+      ],
+      "CH0155_Public--bfd4c028a3c2e369": [
+        {
+          "time": 0,
+          "tile": 200
+        },
+        {
+          "time": 0.93333334,
+          "tile": 705
+        },
+        {
+          "time": 1.5333334,
+          "tile": 200
+        },
+        {
+          "time": 1.8000001,
+          "tile": 200
+        }
+      ],
+      "CH0155_Vital_Retreat--b7ba0dff5eb891d8": [
+        {
+          "time": 0,
+          "tile": 604
+        },
+        {
+          "time": 1.6666667,
+          "tile": 604
+        }
+      ],
+      "CH0155_Normal_Attack_Start--b79c89d1918ca210": [],
+      "CH0155_Normal_Attack_Delay--b5fdf3910829183f": [],
+      "CH0155_Vital_Death--a43fbf271e4c2d84": [
+        {
+          "time": 0,
+          "tile": 200
+        },
+        {
+          "time": 0.06666667,
+          "tile": 605
+        },
+        {
+          "time": 1.1,
+          "tile": 604
+        },
+        {
+          "time": 2.266667,
+          "tile": 604
+        }
+      ],
+      "CH0155_Vital_Panic--95c7b6eaa1b3d077": [
+        {
+          "time": 0,
+          "tile": 605
+        },
+        {
+          "time": 1.6666667,
+          "tile": 605
+        }
+      ],
+      "CH0155_Exs--903d8f45579fc66e": [
+        {
+          "time": 0,
+          "tile": 201
+        },
+        {
+          "time": 2,
+          "tile": 200
+        },
+        {
+          "time": 2.6666667,
+          "tile": 200
+        }
+      ],
+      "CH0155_Normal_Idle--1562ed8272f02470": [],
+      "CH0155_Victory_End--15beb08a32b4a8eb": [
+        {
+          "time": 0,
+          "tile": 201
+        },
+        {
+          "time": 1.6666667,
+          "tile": 201
+        }
+      ],
+      "CH0155_Move_Ing--31210d457e863f73": [],
+      "CH0155_Move_End_Normal--36f18a1f9296b317": [],
+      "CH0155_Normal_Callsign--3dd141a2c46bd1e5": [],
+      "CH0155_Normal_Attack_Ing--532c80bcae4cf973": [],
+      "CH0155_Formation_Idle--5a4ed3674349a0f9": [
+        {
+          "time": 0,
+          "tile": 200
+        },
+        {
+          "time": 1.6666667,
+          "tile": 200
+        }
+      ],
+      "CH0155_Normal_Attack_End--6570830fc039b94d": []
+    }
+  },
+  "furniture": [
+    {
+      "id": "f3301_0",
+      "name": "情人节茶几",
+      "model": "f3301_0.glb",
+      "clip": "f3301_0",
+      "duration": 16.566666666666666,
+      "mouthEvents": [],
+      "yaw": 5.654866776461628
+    }
+  ]
+}

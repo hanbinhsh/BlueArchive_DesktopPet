@@ -1,0 +1,97 @@
+{
+  "hatsune_miku": {
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH9999_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH9999_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH9999_Cafe_Walk"
+      ]
+    ],
+    "note": "使用蔚蓝档案联动的原版模型与动画。原模型没有光环，也没有独立提起片段；拖动时保持自身待机。技能舞台、音效与演唱未移植。"
+  },
+  "saten_ruiko": {
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH9996_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH9996_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH9996_Cafe_Walk"
+      ]
+    ],
+    "note": "使用蔚蓝档案联动的原版模型与动画。未找到独立提起片段，拖动时保持自身待机。技能无人机、场景和音效未移植。"
+  },
+  "otogi": {
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0174_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0174_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0174_Cafe_Walk"
+      ],
+      [
+        "victory",
+        "胜利动作",
+        "CH0174_Victory_Start"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0174_Formation_Pickup"
+      ]
+    ],
+    "ignoredRendererEvents": [
+      {
+        "clip": "CH0174_Move_Ing",
+        "index": 10,
+        "function": "AniEvt_DisableChildRenderer",
+        "time": 0
+      },
+      {
+        "clip": "CH0174_Cafe_Reaction",
+        "index": 10,
+        "function": "AniEvt_DisableChildRenderer",
+        "time": 0
+      },
+      {
+        "clip": "CH0174_Cafe_Idle",
+        "index": 10,
+        "function": "AniEvt_DisableChildRenderer",
+        "time": 0
+      },
+      {
+        "clip": "CH0174_Cafe_Walk",
+        "index": 10,
+        "function": "AniEvt_DisableChildRenderer",
+        "time": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,378 @@
+{
+  "id": "kayoko",
+  "name": "佳代子 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Kayoko_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Kayoko_Original_Cafe_Idle--6654d386589edf93",
+    "interact": "Kayoko_Original_Cafe_Reaction--6ffbee1ba9a5f932"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Kayoko_Original_Cafe_Idle--6654d386589edf93",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Kayoko_Original_Cafe_Reaction--6ffbee1ba9a5f932",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Kayoko_Original_Cafe_Walk--4ed411a884d29ba5",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Kayoko_Original_Victory_Start--8e8af4951dd2dcb0",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Kayoko_Original_Normal_Reload--a3517a33dee8ae9d",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Kayoko_Original_Formation_Pickup--896613b54756458d",
+      "category": "常用"
+    },
+    {
+      "id": "original_stand_callsign",
+      "label": "掩体站姿 · 回应",
+      "clip": "Kayoko_Original_Stand_Callsign--ed3b128c25d52b67",
+      "sourceName": "Kayoko_Original_Stand_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_stand",
+      "label": "移动 · 结束 · 掩体站姿",
+      "clip": "Kayoko_Original_Move_End_Stand--e698a3880688be41",
+      "sourceName": "Kayoko_Original_Move_End_Stand",
+      "category": "移动"
+    },
+    {
+      "id": "original_stand_attack_end",
+      "label": "掩体站姿 · 攻击 · 结束",
+      "clip": "Kayoko_Original_Stand_Attack_End--e44c48c16f85fd80",
+      "sourceName": "Kayoko_Original_Stand_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_idle",
+      "label": "掩体站姿 · 待机",
+      "clip": "Kayoko_Original_Stand_Idle--df88ba558b7e70a2",
+      "sourceName": "Kayoko_Original_Stand_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Kayoko_Original_Kneel_Reload--dd0ecf8ccfd142ba",
+      "sourceName": "Kayoko_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Kayoko_Original_Exs--d51c29f1dcf77061",
+      "sourceName": "Kayoko_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Kayoko_Original_Move_End_Normal--d4264a62ec526956",
+      "sourceName": "Kayoko_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Kayoko_Original_Normal_Attack_Delay--cb6c69ea647ef0b2",
+      "sourceName": "Kayoko_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Kayoko_Original_Formation_Idle--bea8245d33387b14",
+      "sourceName": "Kayoko_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Kayoko_Original_Normal_Attack_Ing--bd11a5914e79243c",
+      "sourceName": "Kayoko_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Kayoko_Original_Kneel_Attack_Start--b809323c8137f917",
+      "sourceName": "Kayoko_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Kayoko_Original_Move_End_Kneel--a8b4d3590937a46a",
+      "sourceName": "Kayoko_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Kayoko_Original_Public01--997a0c032ae7240d",
+      "sourceName": "Kayoko_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_kneel_callsign",
+      "label": "蹲姿 · 回应",
+      "clip": "Kayoko_Original_Kneel_Callsign--97a42281bd75fbc0",
+      "sourceName": "Kayoko_Original_Kneel_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Kayoko_Original_Normal_Idle--8c3571a66575f66c",
+      "sourceName": "Kayoko_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Kayoko_Original_Move_Ing--87e42136265edda6",
+      "sourceName": "Kayoko_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Kayoko_Original_Kneel_Idle--850d9b876d03e70b",
+      "sourceName": "Kayoko_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Kayoko_Original_Kneel_Attack_End--8349199c8e5ace2c",
+      "sourceName": "Kayoko_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_delay",
+      "label": "掩体站姿 · 攻击 · 间隔",
+      "clip": "Kayoko_Original_Stand_Attack_Delay--186819ea51a429ea",
+      "sourceName": "Kayoko_Original_Stand_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Kayoko_Original_Kneel_Attack_Ing--1cac66977c0985c9",
+      "sourceName": "Kayoko_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_start",
+      "label": "掩体站姿 · 攻击 · 开始",
+      "clip": "Kayoko_Original_Stand_Attack_Start--205a75df36e503dd",
+      "sourceName": "Kayoko_Original_Stand_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_reload",
+      "label": "掩体站姿 · 换弹",
+      "clip": "Kayoko_Original_Stand_Reload--352123ddab9cdd5",
+      "sourceName": "Kayoko_Original_Stand_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_callsign",
+      "label": "移动 · 回应",
+      "clip": "Kayoko_Original_Move_Callsign--29739e773a6912ce",
+      "sourceName": "Kayoko_Original_Move_Callsign",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Kayoko_Original_Normal_Callsign--311ce5b9ca44480d",
+      "sourceName": "Kayoko_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Kayoko_Original_Vital_Retreat--31b926259c8c97bb",
+      "sourceName": "Kayoko_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Kayoko_Original_Vital_Dying_Ing--337dff047b938311",
+      "sourceName": "Kayoko_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "Kayoko_Original_Move_Jump--454d09e906cf9960",
+      "sourceName": "Kayoko_Original_Move_Jump",
+      "category": "移动"
+    },
+    {
+      "id": "original_stand_attack_ing",
+      "label": "掩体站姿 · 攻击 · 持续",
+      "clip": "Kayoko_Original_Stand_Attack_Ing--47dab0f572f1e4df",
+      "sourceName": "Kayoko_Original_Stand_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Kayoko_Original_Normal_Attack_End--5794fe2a623ebc9d",
+      "sourceName": "Kayoko_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Kayoko_Original_Normal_Attack_Start--62124df1a681eb27",
+      "sourceName": "Kayoko_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Kayoko_Original_Vital_Death--6566e35c8e59eccd",
+      "sourceName": "Kayoko_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Kayoko_Original_Kneel_Attack_Delay--65e705a58ce688a3",
+      "sourceName": "Kayoko_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Kayoko_Original_Vital_Panic--69c35f992d847792",
+      "sourceName": "Kayoko_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Kayoko_Original_Victory_End--7f8f662db26dcd75",
+      "sourceName": "Kayoko_Original_Victory_End",
+      "category": "编队与胜利"
+    }
+  ],
+  "mouth": {
+    "material": "Kayoko_Original_Mouth",
+    "defaultTile": 402,
+    "events": {
+      "Kayoko_Original_Cafe_Idle--6654d386589edf93": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Kayoko_Original_Cafe_Reaction--6ffbee1ba9a5f932": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.4333334,
+          "tile": 300
+        },
+        {
+          "time": 2.3000002,
+          "tile": 401
+        }
+      ],
+      "Kayoko_Original_Cafe_Walk--4ed411a884d29ba5": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Kayoko_Original_Victory_Start--8e8af4951dd2dcb0": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.8000001,
+          "tile": 602
+        },
+        {
+          "time": 2.3000002,
+          "tile": 402
+        }
+      ],
+      "Kayoko_Original_Normal_Reload--a3517a33dee8ae9d": [],
+      "Kayoko_Original_Formation_Pickup--896613b54756458d": [],
+      "Kayoko_Original_Stand_Callsign--ed3b128c25d52b67": [],
+      "Kayoko_Original_Move_End_Stand--e698a3880688be41": [],
+      "Kayoko_Original_Stand_Attack_End--e44c48c16f85fd80": [],
+      "Kayoko_Original_Stand_Idle--df88ba558b7e70a2": [],
+      "Kayoko_Original_Kneel_Reload--dd0ecf8ccfd142ba": [],
+      "Kayoko_Original_Exs--d51c29f1dcf77061": [],
+      "Kayoko_Original_Move_End_Normal--d4264a62ec526956": [],
+      "Kayoko_Original_Normal_Attack_Delay--cb6c69ea647ef0b2": [],
+      "Kayoko_Original_Formation_Idle--bea8245d33387b14": [],
+      "Kayoko_Original_Normal_Attack_Ing--bd11a5914e79243c": [],
+      "Kayoko_Original_Kneel_Attack_Start--b809323c8137f917": [],
+      "Kayoko_Original_Move_End_Kneel--a8b4d3590937a46a": [],
+      "Kayoko_Original_Public01--997a0c032ae7240d": [],
+      "Kayoko_Original_Kneel_Callsign--97a42281bd75fbc0": [],
+      "Kayoko_Original_Normal_Idle--8c3571a66575f66c": [],
+      "Kayoko_Original_Move_Ing--87e42136265edda6": [],
+      "Kayoko_Original_Kneel_Idle--850d9b876d03e70b": [],
+      "Kayoko_Original_Kneel_Attack_End--8349199c8e5ace2c": [],
+      "Kayoko_Original_Stand_Attack_Delay--186819ea51a429ea": [],
+      "Kayoko_Original_Kneel_Attack_Ing--1cac66977c0985c9": [],
+      "Kayoko_Original_Stand_Attack_Start--205a75df36e503dd": [],
+      "Kayoko_Original_Stand_Reload--352123ddab9cdd5": [],
+      "Kayoko_Original_Move_Callsign--29739e773a6912ce": [],
+      "Kayoko_Original_Normal_Callsign--311ce5b9ca44480d": [],
+      "Kayoko_Original_Vital_Retreat--31b926259c8c97bb": [],
+      "Kayoko_Original_Vital_Dying_Ing--337dff047b938311": [],
+      "Kayoko_Original_Move_Jump--454d09e906cf9960": [],
+      "Kayoko_Original_Stand_Attack_Ing--47dab0f572f1e4df": [],
+      "Kayoko_Original_Normal_Attack_End--5794fe2a623ebc9d": [],
+      "Kayoko_Original_Normal_Attack_Start--62124df1a681eb27": [],
+      "Kayoko_Original_Vital_Death--6566e35c8e59eccd": [],
+      "Kayoko_Original_Kneel_Attack_Delay--65e705a58ce688a3": [],
+      "Kayoko_Original_Vital_Panic--69c35f992d847792": [],
+      "Kayoko_Original_Victory_End--7f8f662db26dcd75": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ]
+    }
+  }
+}

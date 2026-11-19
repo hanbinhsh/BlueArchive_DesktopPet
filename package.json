@@ -1,0 +1,182 @@
+{
+  "name": "blue-archive-desktop-pet",
+  "version": "0.2.22",
+  "private": true,
+  "description": "Offline Windows 3D desktop companion",
+  "author": "BA Desktop Pet",
+  "main": "dist/main.cjs",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts",
+    "start": "npm run build && electron .",
+    "pack": "npm run build && electron-builder --win --x64 --dir",
+    "verify-assets": "node scripts/verify-assets.mjs",
+    "pack:zip": "npm run build && electron-builder --win zip --x64"
+  },
+  "dependencies": {
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/three": "^0.180.0",
+    "electron": "^38.0.0",
+    "electron-builder": "^26.0.0",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.9.0",
+    "tsx": "^4.20.0",
+    "playwright": "^1.55.0"
+  },
+  "build": {
+    "appId": "local.bluearchive.desktoppet",
+    "productName": "BA Desktop Pet",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "characters",
+        "to": "characters"
+      },
+      {
+        "from": "native/bin/wheel-forwarder.exe",
+        "to": "native/wheel-forwarder.exe"
+      }
+    ],
+    "extraFiles": [
+      {
+        "from": "README.md",
+        "to": "使用说明.md"
+      },
+      {
+        "from": "docs/ASSETS.md",
+        "to": "角色来源.md"
+      },
+      {
+        "from": "docs/VALIDATION.md",
+        "to": "验收记录.md"
+      },
+      {
+        "from": "docs/COSTUMES.md",
+        "to": "服装核对表.md"
+      },
+      {
+        "from": "docs/FURNITURE.md",
+        "to": "家具互动说明.md"
+      },
+      {
+        "from": "docs/COSTUME-EXTRAS.md",
+        "to": "额外外观说明.md"
+      },
+      {
+        "from": "docs/MODEL-AUDIT.md",
+        "to": "模型与动作核对.md"
+      },
+      {
+        "from": "docs/QOL.md",
+        "to": "生活质量改进说明.md"
+      },
+      {
+        "from": "docs/LIBRARY.md",
+        "to": "角色收藏与排序说明.md"
+      },
+      {
+        "from": "docs/RANDOM-ROSTER.md",
+        "to": "新增角色说明.md"
+      },
+      {
+        "from": "docs/UPDATE-025.md",
+        "to": "docs/UPDATE-025.md"
+      },
+      {
+        "from": "docs/UPDATE-026.md",
+        "to": "更新说明-0.2.6.md"
+      },
+      {
+        "from": "docs/UPDATE-027.md",
+        "to": "更新说明-0.2.7.md"
+      },
+      {
+        "from": "docs/AUDIT-028.md",
+        "to": "更新与排查记录-0.2.8.md"
+      },
+      {
+        "from": "docs/AUDIT-029.md",
+        "to": "更新与排查记录-0.2.9.md"
+      },
+      {
+        "from": "docs/AUDIT-030.md",
+        "to": "更新与排查记录-0.2.10.md"
+      },
+      {
+        "from": "docs/AUDIT-031.md",
+        "to": "更新与排查记录-0.2.11.md"
+      },
+      {
+        "from": "docs/AUDIT-032.md",
+        "to": "更新与排查记录-0.2.12.md"
+      },
+      {
+        "from": "docs/AUDIT-033.md",
+        "to": "更新与排查记录-0.2.13.md"
+      },
+      {
+        "from": "docs/AUDIT-034.md",
+        "to": "更新与排查记录-0.2.14.md"
+      },
+      {
+        "from": "docs/AUDIT-035.md",
+        "to": "家具修复与验收-0.2.14.md"
+      },
+      {
+        "from": "docs/AUDIT-036.md",
+        "to": "更新与排查记录-0.2.15.md"
+      },
+      {
+        "from": "docs/AUDIT-037.md",
+        "to": "更新与排查记录-0.2.16.md"
+      },
+      {
+        "from": "docs/AUDIT-038.md",
+        "to": "更新与排查记录-0.2.17.md"
+      },
+      {
+        "from": "docs/ROSTER-013.md",
+        "to": "ROSTER-013.md"
+      },
+      {
+        "from": "docs/HISTORY-RECHECK-038.md",
+        "to": "HISTORY-RECHECK-038.md"
+      },
+      {
+        "from": "docs/ROSTER-014.md",
+        "to": "ROSTER-014.md"
+      },
+      {
+        "from": "docs/ROSTER-COVERAGE.md",
+        "to": "ROSTER-COVERAGE.md"
+      },
+      {
+        "from": "docs/FIX-042.md",
+        "to": "FIX-042.md"
+      },
+      {
+        "from": "docs/ROSTER-015.md",
+        "to": "ROSTER-015.md"
+      },
+      {
+        "from": "docs/ROSTER-016.md",
+        "to": "ROSTER-016.md"
+      }
+    ],
+    "win": {
+      "target": "zip",
+      "signAndEditExecutable": false
+    },
+    "artifactName": "BA-Desktop-Pet-${version}-win-x64.${ext}"
+  }
+}

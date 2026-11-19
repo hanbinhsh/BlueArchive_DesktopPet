@@ -1,0 +1,239 @@
+{
+  "id": "toki_armor",
+  "name": "时 · 机械装甲",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Toki_CNC_MG_Boss; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Toki_CNC_MG_Boss_Normal_Idle--b549c39fc1337bd6",
+    "interact": "Toki_CNC_MG_Boss_Normal_Reload--ca68174a44050f6"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "装甲待机",
+      "clip": "Toki_CNC_MG_Boss_Normal_Idle--b549c39fc1337bd6",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "武器整备",
+      "clip": "Toki_CNC_MG_Boss_Normal_Reload--ca68174a44050f6",
+      "category": "常用"
+    },
+    {
+      "id": "attack",
+      "label": "原版攻击姿态",
+      "clip": "Toki_CNC_MG_Boss_Normal_Attack_Ing--7c209876da287763",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "移动",
+      "clip": "Toki_CNC_MG_Boss_Move_Ing--6a40cf63c7d9e28",
+      "category": "常用"
+    },
+    {
+      "id": "original_ex01",
+      "label": "Ex01",
+      "clip": "Toki_CNC_MG_Boss_Ex01--e63d9cf10d18d321",
+      "sourceName": "Toki_CNC_MG_Boss_Ex01",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Toki_CNC_MG_Boss_Move_End_Normal--967fb2285702e628",
+      "sourceName": "Toki_CNC_MG_Boss_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Toki_CNC_MG_Boss_Normal_Attack_Delay--56298e77ee48f8c2",
+      "sourceName": "Toki_CNC_MG_Boss_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Toki_CNC_MG_Boss_Vital_Panic--5ea9b16eb42ced1a",
+      "sourceName": "Toki_CNC_MG_Boss_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Toki_CNC_MG_Boss_Vital_Death--691da7cfb5fb9c33",
+      "sourceName": "Toki_CNC_MG_Boss_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Toki_CNC_MG_Boss_Public01--1d21c08d5f57a1ce",
+      "sourceName": "Toki_CNC_MG_Boss_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Toki_CNC_MG_Boss_Normal_Attack_Start--2bdf48a3f174f63a",
+      "sourceName": "Toki_CNC_MG_Boss_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_appear",
+      "label": "Appear",
+      "clip": "Toki_CNC_MG_Boss_Appear--738b69abda1d350c",
+      "sourceName": "Toki_CNC_MG_Boss_Appear",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Toki_CNC_MG_Boss_Normal_Attack_End--7d2be84ae9157374",
+      "sourceName": "Toki_CNC_MG_Boss_Normal_Attack_End",
+      "category": "战斗"
+    }
+  ],
+  "note": "机械装甲战斗形态。没有提起动作，拖动时保持待机。",
+  "mouth": {
+    "material": "Toki_CNC_MG_Boss_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "Toki_CNC_MG_Boss_Normal_Idle--b549c39fc1337bd6": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Toki_CNC_MG_Boss_Normal_Reload--ca68174a44050f6": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Toki_CNC_MG_Boss_Normal_Attack_Ing--7c209876da287763": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Toki_CNC_MG_Boss_Move_Ing--6a40cf63c7d9e28": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Toki_CNC_MG_Boss_Ex01--e63d9cf10d18d321": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.20000002,
+          "tile": 503
+        },
+        {
+          "time": 1.2333333,
+          "tile": 604
+        },
+        {
+          "time": 2.7333336,
+          "tile": 503
+        },
+        {
+          "time": 4.6333337,
+          "tile": 401
+        }
+      ],
+      "Toki_CNC_MG_Boss_Move_End_Normal--967fb2285702e628": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Toki_CNC_MG_Boss_Normal_Attack_Delay--56298e77ee48f8c2": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Toki_CNC_MG_Boss_Vital_Panic--5ea9b16eb42ced1a": [
+        {
+          "time": 0,
+          "tile": 502
+        }
+      ],
+      "Toki_CNC_MG_Boss_Vital_Death--691da7cfb5fb9c33": [
+        {
+          "time": 0,
+          "tile": 503
+        },
+        {
+          "time": 0.8000001,
+          "tile": 305
+        }
+      ],
+      "Toki_CNC_MG_Boss_Public01--1d21c08d5f57a1ce": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.86666673,
+          "tile": 503
+        },
+        {
+          "time": 3.3333335,
+          "tile": 401
+        }
+      ],
+      "Toki_CNC_MG_Boss_Normal_Attack_Start--2bdf48a3f174f63a": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Toki_CNC_MG_Boss_Appear--738b69abda1d350c": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Toki_CNC_MG_Boss_Normal_Attack_End--7d2be84ae9157374": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ]
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_ex01": {
+        "zoom": 0.8897686245954417,
+        "centerY": 1.2002435082391616
+      },
+      "original_move_end_normal": {
+        "zoom": 0.8865901899984857,
+        "centerY": 1.0902167556556628
+      },
+      "original_public01": {
+        "zoom": 1,
+        "centerY": 1.2482408807649596
+      },
+      "original_appear": {
+        "zoom": 0.9397529945045415,
+        "centerY": 1.4518509092079337
+      }
+    }
+  }
+}

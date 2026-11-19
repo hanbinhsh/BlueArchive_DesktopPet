@@ -1,0 +1,729 @@
+{
+  "id": "izuna",
+  "name": "泉奈 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Izuna_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Izuna_Original_Cafe_Idle--eac58ed81932f314",
+    "interact": "Izuna_Original_Cafe_Reaction--8a3abd02f18d593d"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Izuna_Original_Cafe_Idle--eac58ed81932f314",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Izuna_Original_Cafe_Reaction--8a3abd02f18d593d",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Izuna_Original_Cafe_Walk--f5db1712efac6fa3",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Izuna_Original_Victory_Start--66834108ac191d98",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Izuna_Original_Normal_Reload--1897ee3f74db2824",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Izuna_Original_Formation_Pickup--d4d2b28313146c1b",
+      "category": "常用"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Izuna_Original_Normal_Attack_Delay--f1f00272afca25d9",
+      "sourceName": "Izuna_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Izuna_Original_Normal_Attack_End--ee9ed6004153c7d2",
+      "sourceName": "Izuna_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_stand",
+      "label": "移动 · 结束 · 掩体站姿",
+      "clip": "Izuna_Original_Move_End_Stand--e88ebd60c48cec63",
+      "sourceName": "Izuna_Original_Move_End_Stand",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Izuna_Original_Normal_Idle--e73ada2b4b3fc17d",
+      "sourceName": "Izuna_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_end",
+      "label": "掩体站姿 · 攻击 · 结束",
+      "clip": "Izuna_Original_Stand_Attack_End--e554e0d26cd96dda",
+      "sourceName": "Izuna_Original_Stand_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Izuna_Original_Vital_Dying_Ing--d938e714bf2332bd",
+      "sourceName": "Izuna_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Izuna_Original_Vital_Panic--d7d7dc4bdad6f70c",
+      "sourceName": "Izuna_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_idle",
+      "label": "掩体站姿 · 待机",
+      "clip": "Izuna_Original_Stand_Idle--cd530eeeed65c601",
+      "sourceName": "Izuna_Original_Stand_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Izuna_Original_Move_End_Normal--c8f95f3982f78c1d",
+      "sourceName": "Izuna_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_stand_attack_ing",
+      "label": "掩体站姿 · 攻击 · 持续",
+      "clip": "Izuna_Original_Stand_Attack_Ing--c23a37c55359e558",
+      "sourceName": "Izuna_Original_Stand_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Izuna_Original_Kneel_Reload--bcc186d515dc3744",
+      "sourceName": "Izuna_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Izuna_Original_Move_Ing--b3cd3b3b4ff86968",
+      "sourceName": "Izuna_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Izuna_Original_Kneel_Attack_End--84259178c9348837",
+      "sourceName": "Izuna_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Izuna_Original_Kneel_Attack_Ing--825a3fbd706e2de8",
+      "sourceName": "Izuna_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Izuna_Original_Vital_Death--ef05e764e90dfbc",
+      "sourceName": "Izuna_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Izuna_Original_Kneel_Attack_Delay--1e0c3f9cb2b4a6d6",
+      "sourceName": "Izuna_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_start",
+      "label": "掩体站姿 · 攻击 · 开始",
+      "clip": "Izuna_Original_Stand_Attack_Start--1fa5c2283ba2ecf6",
+      "sourceName": "Izuna_Original_Stand_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Izuna_Original_Kneel_Idle--3a3a2b5061ba80f",
+      "sourceName": "Izuna_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_delay",
+      "label": "掩体站姿 · 攻击 · 间隔",
+      "clip": "Izuna_Original_Stand_Attack_Delay--247b66af7af404fa",
+      "sourceName": "Izuna_Original_Stand_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Izuna_Original_Normal_Attack_Start--38f2b8973492309c",
+      "sourceName": "Izuna_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "Izuna_Original_Move_Jump--3d85ed89df3f6687",
+      "sourceName": "Izuna_Original_Move_Jump",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Izuna_Original_Normal_Attack_Ing--3deafbb1fd21909d",
+      "sourceName": "Izuna_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_reload",
+      "label": "掩体站姿 · 换弹",
+      "clip": "Izuna_Original_Stand_Reload--64d405213d74b3a",
+      "sourceName": "Izuna_Original_Stand_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Izuna_Original_Normal_Callsign--400c5e826e92824c",
+      "sourceName": "Izuna_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Izuna_Original_Move_End_Kneel--51189a83a81b328c",
+      "sourceName": "Izuna_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Izuna_Original_Victory_End--9b2be9cee5fec8e",
+      "sourceName": "Izuna_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Izuna_Original_Public01--61dddb0554ac8c34",
+      "sourceName": "Izuna_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Izuna_Original_Exs--666cd2d18767d302",
+      "sourceName": "Izuna_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Izuna_Original_Vital_Retreat--69cfc36cb735a60a",
+      "sourceName": "Izuna_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Izuna_Original_Formation_Idle--6ac526c84e0c2c24",
+      "sourceName": "Izuna_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Izuna_Original_Kneel_Attack_Start--b5d33b5695f6351",
+      "sourceName": "Izuna_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Izuna_Original_Mouth",
+    "defaultTile": 202,
+    "columns": 4,
+    "rows": 4,
+    "events": {
+      "Izuna_Original_Cafe_Idle--eac58ed81932f314": [
+        {
+          "time": 0,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Cafe_Reaction--8a3abd02f18d593d": [
+        {
+          "time": 0,
+          "tile": 303
+        },
+        {
+          "time": 0.3,
+          "tile": 200
+        },
+        {
+          "time": 0.6,
+          "tile": 303
+        },
+        {
+          "time": 0.86666673,
+          "tile": 200
+        },
+        {
+          "time": 0.90000004,
+          "tile": 201
+        },
+        {
+          "time": 1.1666667,
+          "tile": 200
+        },
+        {
+          "time": 1.3000001,
+          "tile": 201
+        },
+        {
+          "time": 3.0666668,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Cafe_Walk--f5db1712efac6fa3": [
+        {
+          "time": 0,
+          "tile": 303
+        },
+        {
+          "time": 0.16666667,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Victory_Start--66834108ac191d98": [
+        {
+          "time": 0,
+          "tile": 303
+        },
+        {
+          "time": 1.0333334,
+          "tile": 201
+        },
+        {
+          "time": 1.3000001,
+          "tile": 303
+        },
+        {
+          "time": 2.0666668,
+          "tile": 701
+        },
+        {
+          "time": 2.1000001,
+          "tile": 201
+        }
+      ],
+      "Izuna_Original_Normal_Reload--1897ee3f74db2824": [
+        {
+          "time": 0,
+          "tile": 303
+        },
+        {
+          "time": 0.8333334,
+          "tile": 101
+        },
+        {
+          "time": 1.3000001,
+          "tile": 302
+        },
+        {
+          "time": 1.8000001,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Formation_Pickup--d4d2b28313146c1b": [
+        {
+          "time": 0,
+          "tile": 303
+        },
+        {
+          "time": 1.7333335,
+          "tile": 302
+        },
+        {
+          "time": 1.8000001,
+          "tile": 200
+        },
+        {
+          "time": 1.9000001,
+          "tile": 201
+        },
+        {
+          "time": 3.9,
+          "tile": 302
+        },
+        {
+          "time": 3.966667,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Normal_Attack_Delay--f1f00272afca25d9": [
+        {
+          "time": 0,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Normal_Attack_End--ee9ed6004153c7d2": [
+        {
+          "time": 0,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Move_End_Stand--e88ebd60c48cec63": [
+        {
+          "time": 0,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Normal_Idle--e73ada2b4b3fc17d": [
+        {
+          "time": 0,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Stand_Attack_End--e554e0d26cd96dda": [
+        {
+          "time": 0,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Vital_Dying_Ing--d938e714bf2332bd": [
+        {
+          "time": 0,
+          "tile": 202
+        }
+      ],
+      "Izuna_Original_Vital_Panic--d7d7dc4bdad6f70c": [
+        {
+          "time": 0,
+          "tile": 202
+        }
+      ],
+      "Izuna_Original_Stand_Idle--cd530eeeed65c601": [
+        {
+          "time": 0,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Move_End_Normal--c8f95f3982f78c1d": [
+        {
+          "time": 0,
+          "tile": 303
+        },
+        {
+          "time": 0.5,
+          "tile": 200
+        },
+        {
+          "time": 0.90000004,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Stand_Attack_Ing--c23a37c55359e558": [
+        {
+          "time": 0,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Kneel_Reload--bcc186d515dc3744": [
+        {
+          "time": 0,
+          "tile": 303
+        },
+        {
+          "time": 0.86666673,
+          "tile": 101
+        },
+        {
+          "time": 1.1666667,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Move_Ing--b3cd3b3b4ff86968": [
+        {
+          "time": 0,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Kneel_Attack_End--84259178c9348837": [
+        {
+          "time": 0,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Kneel_Attack_Ing--825a3fbd706e2de8": [
+        {
+          "time": 0,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Vital_Death--ef05e764e90dfbc": [
+        {
+          "time": 0,
+          "tile": 303
+        },
+        {
+          "time": 0.43333337,
+          "tile": 203
+        },
+        {
+          "time": 0.8000001,
+          "tile": 202
+        }
+      ],
+      "Izuna_Original_Kneel_Attack_Delay--1e0c3f9cb2b4a6d6": [
+        {
+          "time": 0,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Stand_Attack_Start--1fa5c2283ba2ecf6": [
+        {
+          "time": 0,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Kneel_Idle--3a3a2b5061ba80f": [
+        {
+          "time": 0,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Stand_Attack_Delay--247b66af7af404fa": [
+        {
+          "time": 0,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Normal_Attack_Start--38f2b8973492309c": [
+        {
+          "time": 0,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Move_Jump--3d85ed89df3f6687": [
+        {
+          "time": 0,
+          "tile": 303
+        },
+        {
+          "time": 0.33333334,
+          "tile": 201
+        },
+        {
+          "time": 0.6333334,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Normal_Attack_Ing--3deafbb1fd21909d": [
+        {
+          "time": 0,
+          "tile": 303
+        },
+        {
+          "time": 0.5666667,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Stand_Reload--64d405213d74b3a": [
+        {
+          "time": 0,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Normal_Callsign--400c5e826e92824c": [
+        {
+          "time": 0,
+          "tile": 303
+        },
+        {
+          "time": 0.56666666,
+          "tile": 302
+        },
+        {
+          "time": 0.6333334,
+          "tile": 201
+        },
+        {
+          "time": 1.1666667,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Move_End_Kneel--51189a83a81b328c": [
+        {
+          "time": 0,
+          "tile": 303
+        },
+        {
+          "time": 0.53333336,
+          "tile": 300
+        },
+        {
+          "time": 0.7666667,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Victory_End--9b2be9cee5fec8e": [
+        {
+          "time": 0,
+          "tile": 201
+        }
+      ],
+      "Izuna_Original_Public01--61dddb0554ac8c34": [
+        {
+          "time": 0,
+          "tile": 303
+        },
+        {
+          "time": 0.73333335,
+          "tile": 201
+        },
+        {
+          "time": 1.2,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Exs--666cd2d18767d302": [
+        {
+          "time": 0,
+          "tile": 101
+        },
+        {
+          "time": 0.20000002,
+          "tile": 100
+        },
+        {
+          "time": 1.5666667,
+          "tile": 203
+        },
+        {
+          "time": 2.766667,
+          "tile": 100
+        },
+        {
+          "time": 3.4333334,
+          "tile": 301
+        },
+        {
+          "time": 3.6000001,
+          "tile": 303
+        }
+      ],
+      "Izuna_Original_Vital_Retreat--69cfc36cb735a60a": [
+        {
+          "time": 0,
+          "tile": 202
+        }
+      ],
+      "Izuna_Original_Formation_Idle--6ac526c84e0c2c24": [
+        {
+          "time": 0,
+          "tile": 201
+        }
+      ],
+      "Izuna_Original_Kneel_Attack_Start--b5d33b5695f6351": [
+        {
+          "time": 0,
+          "tile": 303
+        }
+      ]
+    }
+  },
+  "note": "待机使用正常大小；胜利跳跃时镜头平滑拉远，结束后恢复。",
+  "furniture": [
+    {
+      "id": "f203303_0",
+      "name": "传统格子落地窗",
+      "model": "f203303_0.glb",
+      "clip": "f203303_0",
+      "duration": 15.6,
+      "mouthEvents": [
+        {
+          "time": 0,
+          "tile": 303
+        },
+        {
+          "time": 3.466667,
+          "tile": 102
+        },
+        {
+          "time": 4.3,
+          "tile": 101
+        },
+        {
+          "time": 5.4,
+          "tile": 300
+        },
+        {
+          "time": 6.8,
+          "tile": 303
+        },
+        {
+          "time": 6.966667,
+          "tile": 201
+        },
+        {
+          "time": 7.166667,
+          "tile": 303
+        }
+      ],
+      "yaw": 1.2566370614359172
+    }
+  ],
+  "framing": {
+    "actions": {
+      "victory": {
+        "zoom": 0.62,
+        "centerY": 2
+      },
+      "original_kneel_attack_end": {
+        "zoom": 0.9358311223666189,
+        "centerY": 0.9572863635758716
+      },
+      "original_stand_attack_start": {
+        "zoom": 0.9193830166394716,
+        "centerY": 0.9306494739711045
+      },
+      "original_public01": {
+        "zoom": 0.6243932418792976,
+        "centerY": 2.063031452781583
+      },
+      "original_exs": {
+        "zoom": 0.6449088338799356,
+        "centerY": 2.1214458587914584
+      }
+    }
+  }
+}

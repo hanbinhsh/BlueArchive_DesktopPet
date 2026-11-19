@@ -1,0 +1,310 @@
+{
+  "id": "azusa_racing",
+  "name": "梓 · 赛车服",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r97_s71wespocqarqo4ywey2/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r97 patch 31, APK 1.74.471552, CH0380; original prefab and animations. CRC verification: .assets/r97/racing-source-acquisition.json."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0380_Cafe_Idle--2beeff23f6e9d5ae",
+    "interact": "CH0380_Cafe_Reaction--d1301b4a18b22a5a"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0380_Cafe_Idle--2beeff23f6e9d5ae",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "互动",
+      "clip": "CH0380_Cafe_Reaction--d1301b4a18b22a5a",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "走路",
+      "clip": "CH0380_Cafe_Walk--993f6ba289945312",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "提起",
+      "clip": "CH0380_Formation_Pickup--c166f6ecfcd5ffa9",
+      "category": "常用"
+    },
+    {
+      "id": "original_tactical_start_random",
+      "label": "Tactical · 开始 · Random",
+      "clip": "CH0380_Tactical_Start_Random--8d8bb2aa5a2714da",
+      "sourceName": "CH0380_Tactical_Start_Random",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle_random",
+      "label": "编队 · 待机 · Random",
+      "clip": "CH0380_Formation_Idle_Random--10b8ea5df8f693cf",
+      "sourceName": "CH0380_Formation_Idle_Random",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0380_Formation_Idle--59b541eb134d1d9",
+      "sourceName": "CH0380_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0380_Tactical_Start--6ad2b052e6f9e76e",
+      "sourceName": "CH0380_Tactical_Start",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "CH0380_Mouth",
+    "defaultTile": 602,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "CH0380_Cafe_Idle--2beeff23f6e9d5ae": [
+        {
+          "time": 0,
+          "tile": 602
+        }
+      ],
+      "CH0380_Cafe_Reaction--d1301b4a18b22a5a": [
+        {
+          "time": 0,
+          "tile": 602
+        },
+        {
+          "time": 2.33331,
+          "tile": 402
+        },
+        {
+          "time": 3.233301,
+          "tile": 602
+        },
+        {
+          "time": 4.3999557,
+          "tile": 504
+        },
+        {
+          "time": 6.166605,
+          "tile": 602
+        }
+      ],
+      "CH0380_Cafe_Walk--993f6ba289945312": [
+        {
+          "time": 0,
+          "tile": 602
+        }
+      ],
+      "CH0380_Formation_Pickup--c166f6ecfcd5ffa9": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 2.66664,
+          "tile": 402
+        },
+        {
+          "time": 6.33327,
+          "tile": 401
+        }
+      ],
+      "CH0380_Tactical_Start_Random--8d8bb2aa5a2714da": [
+        {
+          "time": 0,
+          "tile": 602
+        }
+      ],
+      "CH0380_Formation_Idle_Random--10b8ea5df8f693cf": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0380_Formation_Idle--59b541eb134d1d9": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0380_Tactical_Start--6ad2b052e6f9e76e": [
+        {
+          "time": 0,
+          "tile": 602
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "fevent097_racinggame_0",
+      "name": "赛车游戏机",
+      "model": "fevent097_racinggame_0.glb",
+      "clip": "fevent097_racinggame_0",
+      "duration": 29.466666666666665,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 602
+        },
+        {
+          "time": 2.299977,
+          "tile": 402
+        },
+        {
+          "time": 4.633287,
+          "tile": 401
+        },
+        {
+          "time": 7.233261,
+          "tile": 402
+        },
+        {
+          "time": 8.466582,
+          "tile": 605
+        },
+        {
+          "time": 11.566551,
+          "tile": 107
+        },
+        {
+          "time": 13.033203,
+          "tile": 402
+        },
+        {
+          "time": 15.133182,
+          "tile": 401
+        },
+        {
+          "time": 17.799822,
+          "tile": 605
+        },
+        {
+          "time": 18.43315,
+          "tile": 504
+        },
+        {
+          "time": 20.533129,
+          "tile": 602
+        }
+      ],
+      "yaw": 2.356194490192345,
+      "sourceTimeline": "my_event097_racinggame",
+      "sourceGroup": "MakeTrack_20063",
+      "sourceStudentTrack": "20063"
+    },
+    {
+      "id": "fevent097_racinggame_1",
+      "name": "赛车游戏机（双人）",
+      "model": "fevent097_racinggame_1.glb",
+      "clip": "fevent097_racinggame_1",
+      "duration": 39.666666666666664,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 401
+        },
+        {
+          "time": 0.66666,
+          "tile": 402
+        },
+        {
+          "time": 2.799972,
+          "tile": 401
+        },
+        {
+          "time": 8.266584,
+          "tile": 402
+        },
+        {
+          "time": 9.033243,
+          "tile": 401
+        },
+        {
+          "time": 13.233201,
+          "tile": 401
+        },
+        {
+          "time": 16.899832,
+          "tile": 402
+        },
+        {
+          "time": 20.533129,
+          "tile": 402
+        },
+        {
+          "time": 20.766459,
+          "tile": 401
+        },
+        {
+          "time": 21.099789,
+          "tile": 402
+        },
+        {
+          "time": 21.533117,
+          "tile": 401
+        },
+        {
+          "time": 23.399765,
+          "tile": 704
+        },
+        {
+          "time": 25.966408,
+          "tile": 402
+        },
+        {
+          "time": 29.366373,
+          "tile": 704
+        },
+        {
+          "time": 30.133032,
+          "tile": 704
+        },
+        {
+          "time": 30.833025,
+          "tile": 402
+        },
+        {
+          "time": 31.43302,
+          "tile": 201
+        },
+        {
+          "time": 33.166336,
+          "tile": 401
+        },
+        {
+          "time": 34.832985,
+          "tile": 402
+        },
+        {
+          "time": 37.199627,
+          "tile": 401
+        },
+        {
+          "time": 37.866287,
+          "tile": 402
+        },
+        {
+          "time": 39.33294,
+          "tile": 401
+        }
+      ],
+      "note": "与日富美 · 赛车服同步互动。",
+      "yaw": 2.356194490192345,
+      "sourceTimeline": "my_event097_racinggame",
+      "sourceGroup": "RequiredTrack_10153_20063",
+      "sourceStudentTrack": "20063"
+    }
+  ]
+}

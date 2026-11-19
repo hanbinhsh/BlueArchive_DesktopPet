@@ -1,0 +1,160 @@
+{
+  "id": "hanako",
+  "name": "花子 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Hanako_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Hanako_Original_Cafe_Idle--502655dfda6987ad",
+    "interact": "Hanako_Original_Cafe_Reaction--ad358d347f788559"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Hanako_Original_Cafe_Idle--502655dfda6987ad",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Hanako_Original_Cafe_Reaction--ad358d347f788559",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Hanako_Original_Cafe_Walk--d71b126573b086c7",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Hanako_Original_Formation_Pickup--1277914dce8ca80b",
+      "category": "常用"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Hanako_Original_Exs_Cutin--f9725a0a009fa5bb",
+      "sourceName": "Hanako_Original_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Hanako_Original_Formation_Idle--f69142776e9eae42",
+      "sourceName": "Hanako_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "Hanako_Original_Tactical_Start--3cbaffc0dfb0e7a9",
+      "sourceName": "Hanako_Original_Tactical_Start",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Hanako_Original_Mouth",
+    "defaultTile": 300,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "Hanako_Original_Cafe_Idle--502655dfda6987ad": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Hanako_Original_Cafe_Reaction--ad358d347f788559": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.36666667,
+          "tile": 404
+        },
+        {
+          "time": 2.1000001,
+          "tile": 705
+        },
+        {
+          "time": 3.5,
+          "tile": 300
+        }
+      ],
+      "Hanako_Original_Cafe_Walk--d71b126573b086c7": [],
+      "Hanako_Original_Formation_Pickup--1277914dce8ca80b": [
+        {
+          "time": 0.13333334,
+          "tile": 504
+        },
+        {
+          "time": 1.3666668,
+          "tile": 704
+        },
+        {
+          "time": 2.1000001,
+          "tile": 706
+        },
+        {
+          "time": 3.2000003,
+          "tile": 705
+        },
+        {
+          "time": 6.166667,
+          "tile": 300
+        },
+        {
+          "time": 11.133334,
+          "tile": 705
+        }
+      ],
+      "Hanako_Original_Exs_Cutin--f9725a0a009fa5bb": [
+        {
+          "time": 0,
+          "tile": 602
+        },
+        {
+          "time": 1.1666667,
+          "tile": 402
+        },
+        {
+          "time": 1.9666668,
+          "tile": 402
+        },
+        {
+          "time": 3.0000002,
+          "tile": 401
+        },
+        {
+          "time": 3.1666667,
+          "tile": 300
+        }
+      ],
+      "Hanako_Original_Formation_Idle--f69142776e9eae42": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Hanako_Original_Tactical_Start--3cbaffc0dfb0e7a9": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 1.4333333,
+          "tile": 704
+        }
+      ]
+    }
+  },
+  "note": "技能粒子、音效和完整场景演出未移植。"
+}

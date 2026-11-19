@@ -1,0 +1,399 @@
+{
+  "id": "chinatsu_onsen",
+  "name": "千夏 · 温泉",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0163; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0163_Cafe_Idle--8686a0e7a5da8dd6",
+    "interact": "CH0163_Cafe_Reaction--dbc0713806dea6a4"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0163_Cafe_Idle--8686a0e7a5da8dd6",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0163_Cafe_Reaction--dbc0713806dea6a4",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0163_Cafe_Walk--9d5d700d1b5f4e15",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "CH0163_Victory_Start--52d3ac65a3ad2785",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "CH0163_Normal_Reload--18046071d721f2e8",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0163_Formation_Pickup--6fab38426f346d3c",
+      "category": "常用"
+    },
+    {
+      "id": "original_mesh",
+      "label": "Mesh",
+      "clip": "CH0163_Mesh--768afa81bfa22910",
+      "sourceName": "CH0163_Mesh",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "CH0163_Vital_Retreat--eb3fe869e9228a27",
+      "sourceName": "CH0163_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "CH0163_Vital_Death--d9e7a074e02a0fb3",
+      "sourceName": "CH0163_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "CH0163_Move_End_Kneel--be1733a917de54ff",
+      "sourceName": "CH0163_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "CH0163_Normal_Attack_Delay--b8db3c94f5651bbf",
+      "sourceName": "CH0163_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "CH0163_Move_Ing--b82ce21836b17717",
+      "sourceName": "CH0163_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "CH0163_Normal_Callsign--a2b4c3940bfac6a3",
+      "sourceName": "CH0163_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "CH0163_Victory_End--95d268613fdf2be0",
+      "sourceName": "CH0163_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "CH0163_Exs_Cutin--955cd53fc502b725",
+      "sourceName": "CH0163_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "CH0163_Normal_Attack_End--91c7edcb66dd2014",
+      "sourceName": "CH0163_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "CH0163_Kneel_Attack_End--1a00a3e29ea2bc3d",
+      "sourceName": "CH0163_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "CH0163_Kneel_Attack_Ing--1abade3b0d161c24",
+      "sourceName": "CH0163_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "CH0163_Normal_Attack_Start--22104f374a70f2be",
+      "sourceName": "CH0163_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "CH0163_Vital_Panic--3811eeeb97fc84e2",
+      "sourceName": "CH0163_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "CH0163_Exs--3cc563705c9aceb2",
+      "sourceName": "CH0163_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "CH0163_Kneel_Reload--3d3209a912b21692",
+      "sourceName": "CH0163_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "CH0163_Normal_Idle--3e4e579b9e2ccb44",
+      "sourceName": "CH0163_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "CH0163_Kneel_Attack_Delay--41688ecd2448e108",
+      "sourceName": "CH0163_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "CH0163_Kneel_Attack_Start--475e52811960e06e",
+      "sourceName": "CH0163_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "CH0163_Kneel_Idle--502108f46cf34fa9",
+      "sourceName": "CH0163_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "CH0163_Normal_Attack_Ing--64e1f7f48880cd96",
+      "sourceName": "CH0163_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "CH0163_Vital_Dying_ing--707f6d1785062a82",
+      "sourceName": "CH0163_Vital_Dying_ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_public",
+      "label": "常规 · 普通技能",
+      "clip": "CH0163_Normal_Public--7463cabea6df0bdb",
+      "sourceName": "CH0163_Normal_Public",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0163_Formation_Idle--7c39f853f90e7f0d",
+      "sourceName": "CH0163_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "CH0163_Move_End_Normal--d039dbf4ba0d471",
+      "sourceName": "CH0163_Move_End_Normal",
+      "category": "移动"
+    }
+  ],
+  "framing": {
+    "actions": {
+      "original_mesh": {
+        "zoom": 0.8432839796723104,
+        "centerY": 1
+      },
+      "original_vital_death": {
+        "zoom": 0.833175866915812,
+        "centerY": 0.8137497322457006
+      },
+      "original_exs_cutin": {
+        "zoom": 0.4659613225410721,
+        "centerY": 0.8814584739611373
+      }
+    }
+  },
+  "mouth": {
+    "material": "CH0163_Mouth",
+    "defaultTile": 300,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "CH0163_Cafe_Reaction--dbc0713806dea6a4": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.7666668,
+          "tile": 705
+        },
+        {
+          "time": 2.966667,
+          "tile": 704
+        }
+      ],
+      "CH0163_Cafe_Walk--9d5d700d1b5f4e15": [],
+      "CH0163_Cafe_Idle--8686a0e7a5da8dd6": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0163_Normal_Reload--18046071d721f2e8": [],
+      "CH0163_Victory_Start--52d3ac65a3ad2785": [
+        {
+          "time": 0,
+          "tile": 605
+        },
+        {
+          "time": 0.6333334,
+          "tile": 402
+        },
+        {
+          "time": 1.8000001,
+          "tile": 704
+        }
+      ],
+      "CH0163_Formation_Pickup--6fab38426f346d3c": [],
+      "CH0163_Mesh--768afa81bfa22910": [],
+      "CH0163_Vital_Retreat--eb3fe869e9228a27": [],
+      "CH0163_Vital_Death--d9e7a074e02a0fb3": [],
+      "CH0163_Move_End_Kneel--be1733a917de54ff": [],
+      "CH0163_Normal_Attack_Delay--b8db3c94f5651bbf": [],
+      "CH0163_Move_Ing--b82ce21836b17717": [],
+      "CH0163_Normal_Callsign--a2b4c3940bfac6a3": [],
+      "CH0163_Victory_End--95d268613fdf2be0": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0163_Exs_Cutin--955cd53fc502b725": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 1.4000002,
+          "tile": 705
+        },
+        {
+          "time": 3.1333334,
+          "tile": 506
+        },
+        {
+          "time": 3.8666668,
+          "tile": 605
+        },
+        {
+          "time": 4.266667,
+          "tile": 504
+        },
+        {
+          "time": 4.4,
+          "tile": 402
+        },
+        {
+          "time": 4.7000003,
+          "tile": 604
+        }
+      ],
+      "CH0163_Normal_Attack_End--91c7edcb66dd2014": [],
+      "CH0163_Kneel_Attack_End--1a00a3e29ea2bc3d": [],
+      "CH0163_Kneel_Attack_Ing--1abade3b0d161c24": [],
+      "CH0163_Normal_Attack_Start--22104f374a70f2be": [],
+      "CH0163_Vital_Panic--3811eeeb97fc84e2": [],
+      "CH0163_Exs--3cc563705c9aceb2": [],
+      "CH0163_Kneel_Reload--3d3209a912b21692": [],
+      "CH0163_Normal_Idle--3e4e579b9e2ccb44": [],
+      "CH0163_Kneel_Attack_Delay--41688ecd2448e108": [],
+      "CH0163_Kneel_Attack_Start--475e52811960e06e": [],
+      "CH0163_Kneel_Idle--502108f46cf34fa9": [],
+      "CH0163_Normal_Attack_Ing--64e1f7f48880cd96": [],
+      "CH0163_Vital_Dying_ing--707f6d1785062a82": [],
+      "CH0163_Normal_Public--7463cabea6df0bdb": [],
+      "CH0163_Formation_Idle--7c39f853f90e7f0d": [],
+      "CH0163_Move_End_Normal--d039dbf4ba0d471": []
+    }
+  },
+  "furniture": [
+    {
+      "id": "f6200_0",
+      "name": "高级按摩椅",
+      "model": "f6200_0.glb",
+      "clip": "f6200_0",
+      "duration": 43.0,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 704
+        },
+        {
+          "time": 15.800001,
+          "tile": 305
+        },
+        {
+          "time": 17.666668,
+          "tile": 401
+        },
+        {
+          "time": 17.866667,
+          "tile": 305
+        },
+        {
+          "time": 19.966667,
+          "tile": 705
+        },
+        {
+          "time": 22.533335,
+          "tile": 305
+        },
+        {
+          "time": 26.100002,
+          "tile": 704
+        },
+        {
+          "time": 27.066668,
+          "tile": 705
+        },
+        {
+          "time": 36.633335,
+          "tile": 704
+        }
+      ],
+      "yaw": 5.497787143782138,
+      "sourceTimeline": "My_Hotsprings_01_Massagechair",
+      "sourceGroup": "RequiredTrack_10030",
+      "sourceStudentTrack": "10030"
+    }
+  ]
+}

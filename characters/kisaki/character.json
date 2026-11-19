@@ -1,0 +1,251 @@
+{
+  "id": "kisaki",
+  "name": "妃咲 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0139; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0139_Cafe_Idle--5238acac068dc818",
+    "interact": "CH0139_Cafe_Reaction--64387dac7a8b9bc8"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0139_Cafe_Idle--5238acac068dc818",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0139_Cafe_Reaction--64387dac7a8b9bc8",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0139_Cafe_Walk--e6ce8f676a86086b",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0139_Formation_Pickup--fb8481e1c5c724ef",
+      "category": "常用"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0139_Formation_Idle--59acdd99825c4148",
+      "sourceName": "CH0139_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs01",
+      "label": "Exs01",
+      "clip": "CH0139_Exs01--d6117af951a852fb",
+      "sourceName": "CH0139_Exs01",
+      "category": "技能"
+    },
+    {
+      "id": "original_tactical_start_random",
+      "label": "Tactical · 开始 · Random",
+      "clip": "CH0139_Tactical_Start_Random--d1ca8b3a6abe5091",
+      "sourceName": "CH0139_Tactical_Start_Random",
+      "category": "战斗"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0139_Tactical_Start--d0d2e0e6ca64616e",
+      "sourceName": "CH0139_Tactical_Start",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "CH0139_Mouth",
+    "defaultTile": 401,
+    "events": {
+      "CH0139_Cafe_Idle--5238acac068dc818": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0139_Cafe_Reaction--64387dac7a8b9bc8": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.166665,
+          "tile": 401
+        },
+        {
+          "time": 3.066636,
+          "tile": 401
+        },
+        {
+          "time": 7.099929,
+          "tile": 402
+        },
+        {
+          "time": 8.233251,
+          "tile": 401
+        },
+        {
+          "time": 8.966667,
+          "tile": 401
+        }
+      ],
+      "CH0139_Cafe_Walk--e6ce8f676a86086b": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0139_Formation_Pickup--fb8481e1c5c724ef": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.533328,
+          "tile": 402
+        },
+        {
+          "time": 1.299987,
+          "tile": 300
+        },
+        {
+          "time": 11.33322,
+          "tile": 401
+        }
+      ],
+      "CH0139_Formation_Idle--59acdd99825c4148": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0139_Exs01--d6117af951a852fb": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0139_Tactical_Start_Random--d1ca8b3a6abe5091": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "CH0139_Tactical_Start--d0d2e0e6ca64616e": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210353_0",
+      "name": "玄龙门龙椅 · 动作 2",
+      "model": "scene_f210353.glb",
+      "clip": "f210353_0",
+      "duration": 24,
+      "mouthEvents": [
+        {
+          "time": 3.5333335,
+          "tile": 402
+        },
+        {
+          "time": 5.766667,
+          "tile": 401
+        },
+        {
+          "time": 9.5000001,
+          "tile": 402
+        },
+        {
+          "time": 12.299999999999999,
+          "tile": 401
+        },
+        {
+          "time": 12.899999999999999,
+          "tile": 402
+        },
+        {
+          "time": 14.366667,
+          "tile": 401
+        }
+      ],
+      "yaw": 0.7853981633974483,
+      "sceneId": "f210353"
+    },
+    {
+      "id": "f210353_1",
+      "name": "玄龙门龙椅 · 动作 1",
+      "model": "scene_f210353.glb",
+      "clip": "f210353_1",
+      "duration": 34.5,
+      "mouthEvents": [
+        {
+          "time": 7.233333366666667,
+          "tile": 402
+        },
+        {
+          "time": 9.433333666666666,
+          "tile": 602
+        },
+        {
+          "time": 12.066666666666666,
+          "tile": 401
+        },
+        {
+          "time": 12.333333666666668,
+          "tile": 402
+        },
+        {
+          "time": 14.466666666666667,
+          "tile": 401
+        },
+        {
+          "time": 15.966666666666669,
+          "tile": 402
+        },
+        {
+          "time": 17.73333346666667,
+          "tile": 401
+        },
+        {
+          "time": 25.266666666666673,
+          "tile": 401
+        },
+        {
+          "time": 26.866666766666665,
+          "tile": 402
+        },
+        {
+          "time": 27.866666766666665,
+          "tile": 401
+        },
+        {
+          "time": 30.866667066666665,
+          "tile": 402
+        },
+        {
+          "time": 31.433333666666666,
+          "tile": 401
+        }
+      ],
+      "yaw": 3.9269908169872414,
+      "sceneId": "f210353"
+    }
+  ]
+}

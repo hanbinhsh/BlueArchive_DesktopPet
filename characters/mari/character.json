@@ -1,0 +1,172 @@
+{
+  "id": "mari",
+  "name": "玛丽 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Mari_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Mari_Original_Cafe_Idle--b9fca346c525821f",
+    "interact": "Mari_Original_Cafe_Reaction--b2970fd592697115"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Mari_Original_Cafe_Idle--b9fca346c525821f",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Mari_Original_Cafe_Reaction--b2970fd592697115",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Mari_Original_Cafe_Walk--fa0c6196916ee3c6",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Mari_Original_Formation_Pickup--e9a9ec1db64bef3",
+      "category": "常用"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "Mari_Original_Tactical_Start--1c357202e5c850a9",
+      "sourceName": "Mari_Original_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Mari_Original_Formation_Idle--2510bccb7c502403",
+      "sourceName": "Mari_Original_Formation_Idle",
+      "category": "编队与胜利"
+    }
+  ],
+  "mouth": {
+    "material": "Mari_Original_Mouth",
+    "defaultTile": 604,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "Mari_Original_Cafe_Idle--b9fca346c525821f": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Mari_Original_Cafe_Reaction--b2970fd592697115": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Mari_Original_Cafe_Walk--fa0c6196916ee3c6": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Mari_Original_Formation_Pickup--e9a9ec1db64bef3": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.0000001,
+          "tile": 704
+        },
+        {
+          "time": 2.566641,
+          "tile": 705
+        },
+        {
+          "time": 3.166635,
+          "tile": 704
+        },
+        {
+          "time": 4.133292,
+          "tile": 707
+        },
+        {
+          "time": 8.499915,
+          "tile": 704
+        }
+      ],
+      "Mari_Original_Tactical_Start--1c357202e5c850a9": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Mari_Original_Formation_Idle--2510bccb7c502403": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 3.3333335,
+          "tile": 300
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "f1105_0",
+      "name": "撞色双层花盆",
+      "model": "f1105_0.glb",
+      "clip": "f1105_0",
+      "duration": 6.666666666666667,
+      "mouthEvents": [],
+      "yaw": 1.8849555921538759
+    },
+    {
+      "id": "f207314_1",
+      "name": "祈祷椅",
+      "model": "f207314_1.glb",
+      "clip": "f207314_1",
+      "duration": 27.733333333333334,
+      "mouthEvents": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 12.366668,
+          "tile": 200
+        },
+        {
+          "time": 12.400001,
+          "tile": 402
+        },
+        {
+          "time": 14.233333,
+          "tile": 704
+        },
+        {
+          "time": 16.633335,
+          "tile": 300
+        },
+        {
+          "time": 17.333334,
+          "tile": 402
+        },
+        {
+          "time": 18.266668,
+          "tile": 401
+        }
+      ],
+      "yaw": 1.8849555921538759
+    }
+  ]
+}

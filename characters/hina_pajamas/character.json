@@ -1,0 +1,196 @@
+{
+  "id": "hina_pajamas",
+  "name": "日奈 · 睡衣",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Player_NP0009; original rig, textures, material references, mouth defaults and animation events. Bedroom furniture and synchronized timelines: official Field833/Zone01 Bed and Windowsofa. Double-sided surfaces support desktop rotation."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Field_Player_NP0009_Normal_Idle--d347723a9f13035c",
+    "interact": "Field_Player_NP0009_Field_Interaction--dc2dc2900c6f037c"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Field_Player_NP0009_Normal_Idle--d347723a9f13035c",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "场景互动",
+      "clip": "Field_Player_NP0009_Field_Interaction--dc2dc2900c6f037c",
+      "category": "常用"
+    },
+    {
+      "id": "think",
+      "label": "思考",
+      "clip": "Field_Player_NP0009_Normal_Idle_Think--91496af722432575",
+      "category": "常用"
+    },
+    {
+      "id": "get_item",
+      "label": "拾取物品",
+      "clip": "Field_Player_NP0009_Field_Get_Item--2ca1f8e4ee7efe89",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "走路",
+      "clip": "Field_Player_NP0009_Walk_Ing--2a45056cf1981f96",
+      "category": "常用"
+    }
+  ],
+  "note": "场景中的睡衣外观。床与窗边沙发的七项原版动作在下方“家具互动”中播放。没有提起动作，拖动时保持待机。",
+  "mouth": {
+    "material": "Player_NP0009_Mouth",
+    "defaultTile": 300,
+    "columns": 4,
+    "rows": 4,
+    "events": {
+      "Field_Player_NP0009_Normal_Idle--d347723a9f13035c": [],
+      "Field_Player_NP0009_Field_Interaction--dc2dc2900c6f037c": [],
+      "Field_Player_NP0009_Normal_Idle_Think--91496af722432575": [],
+      "Field_Player_NP0009_Field_Get_Item--2ca1f8e4ee7efe89": [],
+      "Field_Player_NP0009_Walk_Ing--2a45056cf1981f96": [],
+      "Field_Player_NP0009_Cafe_Prop_Field_833_Zone01_Bed_Day01--eb7a9e1e556f5268": [
+        {
+          "time": 0,
+          "tile": 101
+        }
+      ],
+      "Field_Player_NP0009_Cafe_Prop_Field_833_Zone01_Windowsofa_01_End--d4d2111cce4263bb": [],
+      "Field_Player_NP0009_Cafe_Prop_Field_833_Zone01_Windowsofa_01_Start--b0324a408f9f99b3": [],
+      "Field_Player_NP0009_Cafe_Prop_Field_833_Zone01_Windowsofa_01_Ing--8f25e1cc246e91a0": [],
+      "Field_Player_NP0009_Cafe_Prop_Field_833_Zone01_Bed_Day03--8f20a40e8a827fec": [
+        {
+          "time": 0,
+          "tile": 101
+        }
+      ],
+      "Field_Player_NP0009_Cafe_Prop_Field_833_Zone01_Bed_Day02--840ec2aa15754f7e": [
+        {
+          "time": 0,
+          "tile": 101
+        }
+      ],
+      "Field_Player_NP0009_Cafe_Prop_Field_833_Zone01_Bed_Day00--3b38458308c8aade": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 1.8333334,
+          "tile": 102
+        },
+        {
+          "time": 2.466667,
+          "tile": 301
+        },
+        {
+          "time": 4.166667,
+          "tile": 100
+        },
+        {
+          "time": 6.3333335,
+          "tile": 101
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "bedroom_bed_day00_ing",
+      "name": "卧室床 · 坐卧",
+      "model": "scene_bedroom_bed.glb",
+      "clip": "bedroom_bed_day00_ing",
+      "duration": 7.433333333333334,
+      "mouthEvents": [
+        {
+          "time": 0.46666700000000017,
+          "tile": 301
+        },
+        {
+          "time": 2.1666670000000003,
+          "tile": 100
+        },
+        {
+          "time": 4.3333335,
+          "tile": 101
+        }
+      ],
+      "yaw": 3.9269908169872414,
+      "note": "原版卧室场景，人物与家具按同一时间轴播放。",
+      "sceneId": "bedroom_bed"
+    },
+    {
+      "id": "bedroom_bed_day01_ing",
+      "name": "卧室床 · 安睡",
+      "model": "scene_bedroom_bed.glb",
+      "clip": "bedroom_bed_day01_ing",
+      "duration": 3.5,
+      "mouthEvents": [],
+      "yaw": 3.9269908169872414,
+      "note": "原版卧室场景，人物与家具按同一时间轴播放。",
+      "sceneId": "bedroom_bed"
+    },
+    {
+      "id": "bedroom_bed_day02_ing",
+      "name": "卧室床 · 翻身",
+      "model": "scene_bedroom_bed.glb",
+      "clip": "bedroom_bed_day02_ing",
+      "duration": 4.0,
+      "mouthEvents": [],
+      "yaw": 3.9269908169872414,
+      "note": "原版卧室场景，人物与家具按同一时间轴播放。",
+      "sceneId": "bedroom_bed"
+    },
+    {
+      "id": "bedroom_bed_day03_ing",
+      "name": "卧室床 · 坐姿",
+      "model": "scene_bedroom_bed.glb",
+      "clip": "bedroom_bed_day03_ing",
+      "duration": 6.0,
+      "mouthEvents": [],
+      "yaw": 3.9269908169872414,
+      "note": "原版卧室场景，人物与家具按同一时间轴播放。",
+      "sceneId": "bedroom_bed"
+    },
+    {
+      "id": "bedroom_windowsofa_start",
+      "name": "窗边沙发 · 坐下",
+      "model": "scene_bedroom_windowsofa.glb",
+      "clip": "bedroom_windowsofa_start",
+      "duration": 7.0,
+      "mouthEvents": [],
+      "yaw": 2.356194490192345,
+      "note": "原版卧室场景，人物与家具按同一时间轴播放。",
+      "sceneId": "bedroom_windowsofa"
+    },
+    {
+      "id": "bedroom_windowsofa_ing",
+      "name": "窗边沙发 · 休息",
+      "model": "scene_bedroom_windowsofa.glb",
+      "clip": "bedroom_windowsofa_ing",
+      "duration": 10.0,
+      "mouthEvents": [],
+      "yaw": 2.356194490192345,
+      "note": "原版卧室场景，人物与家具按同一时间轴播放。",
+      "sceneId": "bedroom_windowsofa"
+    },
+    {
+      "id": "bedroom_windowsofa_end",
+      "name": "窗边沙发 · 起身",
+      "model": "scene_bedroom_windowsofa.glb",
+      "clip": "bedroom_windowsofa_end",
+      "duration": 5.333333333333333,
+      "mouthEvents": [],
+      "yaw": 2.356194490192345,
+      "note": "原版卧室场景，人物与家具按同一时间轴播放。",
+      "sceneId": "bedroom_windowsofa"
+    }
+  ]
+}

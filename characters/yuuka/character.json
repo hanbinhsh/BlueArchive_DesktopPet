@@ -1,0 +1,521 @@
+{
+  "id": "yuuka",
+  "name": "优香 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Yuuka_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Yuuka_Original_Cafe_Idle--db1875f75920ff68",
+    "interact": "Yuuka_Original_Cafe_Reaction--fb282f954a7ab2ff"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Yuuka_Original_Cafe_Idle--db1875f75920ff68",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Yuuka_Original_Cafe_Reaction--fb282f954a7ab2ff",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Yuuka_Original_Cafe_Walk--302cb28eacb1acf2",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Yuuka_Original_Victory_Start--782ee29b9539135c",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Yuuka_Original_Normal_Reload--3867a0d96f3af7a9",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Yuuka_Original_Formation_Pickup--90350a9e24d97d8b",
+      "category": "常用"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Yuuka_Original_Vital_Dying_Ing--ef1f6e9fe1e76204",
+      "sourceName": "Yuuka_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Yuuka_Original_Kneel_Idle--e7ea093fcf61daaf",
+      "sourceName": "Yuuka_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Yuuka_Original_Kneel_Attack_Delay--e67812e29af85036",
+      "sourceName": "Yuuka_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Yuuka_Original_Kneel_Attack_End--e62708ace869021c",
+      "sourceName": "Yuuka_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Yuuka_Original_Normal_Attack_Delay--e492f8637922dccb",
+      "sourceName": "Yuuka_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Yuuka_Original_Vital_Retreat--dd6572153ae3b5ca",
+      "sourceName": "Yuuka_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_start",
+      "label": "掩体站姿 · 攻击 · 开始",
+      "clip": "Yuuka_Original_Stand_Attack_Start--d9f0a440cee8b07c",
+      "sourceName": "Yuuka_Original_Stand_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_end",
+      "label": "掩体站姿 · 攻击 · 结束",
+      "clip": "Yuuka_Original_Stand_Attack_End--d570cc81616379cd",
+      "sourceName": "Yuuka_Original_Stand_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_delay",
+      "label": "掩体站姿 · 攻击 · 间隔",
+      "clip": "Yuuka_Original_Stand_Attack_Delay--f9f133cb7c186679",
+      "sourceName": "Yuuka_Original_Stand_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Yuuka_Original_Normal_Callsign--b85b73f5dff5800d",
+      "sourceName": "Yuuka_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Yuuka_Original_Kneel_Reload--b6a8cb52e540a52e",
+      "sourceName": "Yuuka_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_ing",
+      "label": "掩体站姿 · 攻击 · 持续",
+      "clip": "Yuuka_Original_Stand_Attack_Ing--b563f2d5b837076d",
+      "sourceName": "Yuuka_Original_Stand_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Yuuka_Original_Vital_Death--afb27dd6d11622f8",
+      "sourceName": "Yuuka_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Yuuka_Original_Kneel_Attack_Ing--add6c70cd4605b6e",
+      "sourceName": "Yuuka_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Yuuka_Original_Normal_Idle--ac7bb13281f8d7e2",
+      "sourceName": "Yuuka_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_stand",
+      "label": "移动 · 结束 · 掩体站姿",
+      "clip": "Yuuka_Original_Move_End_Stand--a3dc74c81028392a",
+      "sourceName": "Yuuka_Original_Move_End_Stand",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Yuuka_Original_Kneel_Attack_Start--a03723044fdf5291",
+      "sourceName": "Yuuka_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_idle",
+      "label": "掩体站姿 · 待机",
+      "clip": "Yuuka_Original_Stand_Idle--8bff5b7f248f7de1",
+      "sourceName": "Yuuka_Original_Stand_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Yuuka_Original_Move_End_Kneel--1825b9ccd1777dde",
+      "sourceName": "Yuuka_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Yuuka_Original_Formation_Idle--1cdb242d0fdbd946",
+      "sourceName": "Yuuka_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Yuuka_Original_Normal_Attack_Start--1f09bbadf58a73e2",
+      "sourceName": "Yuuka_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Yuuka_Original_Vital_Panic--3275a5a4aae6fbd4",
+      "sourceName": "Yuuka_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Yuuka_Original_Normal_Attack_End--38600adfc63ddf41",
+      "sourceName": "Yuuka_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_reload",
+      "label": "掩体站姿 · 换弹",
+      "clip": "Yuuka_Original_Stand_Reload--3be500dadaeb1fc3",
+      "sourceName": "Yuuka_Original_Stand_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Yuuka_Original_Normal_Attack_Ing--3d40e8108750acf3",
+      "sourceName": "Yuuka_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Yuuka_Original_Victory_End--3d4c6e70552d7368",
+      "sourceName": "Yuuka_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Yuuka_Original_Public01--4274e2a8502e92b3",
+      "sourceName": "Yuuka_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Yuuka_Original_Move_Ing--55928f86a4f36dca",
+      "sourceName": "Yuuka_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Yuuka_Original_Move_End_Normal--5d065b37c699a32a",
+      "sourceName": "Yuuka_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "Yuuka_Original_Move_Jump--6881607b5dab3cde",
+      "sourceName": "Yuuka_Original_Move_Jump",
+      "category": "移动"
+    }
+  ],
+  "mouth": {
+    "material": "Yuuka_Original_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "Yuuka_Original_Cafe_Idle--db1875f75920ff68": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Yuuka_Original_Cafe_Reaction--fb282f954a7ab2ff": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.06666667,
+          "tile": 504
+        },
+        {
+          "time": 0.13333334,
+          "tile": 402
+        },
+        {
+          "time": 1.0333334,
+          "tile": 404
+        },
+        {
+          "time": 2,
+          "tile": 704
+        }
+      ],
+      "Yuuka_Original_Cafe_Walk--302cb28eacb1acf2": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Yuuka_Original_Victory_Start--782ee29b9539135c": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 2.1000001,
+          "tile": 704
+        }
+      ],
+      "Yuuka_Original_Normal_Reload--3867a0d96f3af7a9": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Yuuka_Original_Formation_Pickup--90350a9e24d97d8b": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.6333334,
+          "tile": 704
+        },
+        {
+          "time": 3.766667,
+          "tile": 401
+        }
+      ],
+      "Yuuka_Original_Vital_Dying_Ing--ef1f6e9fe1e76204": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "Yuuka_Original_Kneel_Idle--e7ea093fcf61daaf": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Yuuka_Original_Kneel_Attack_Delay--e67812e29af85036": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Yuuka_Original_Kneel_Attack_End--e62708ace869021c": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Yuuka_Original_Normal_Attack_Delay--e492f8637922dccb": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Yuuka_Original_Vital_Retreat--dd6572153ae3b5ca": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ],
+      "Yuuka_Original_Stand_Attack_Start--d9f0a440cee8b07c": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Yuuka_Original_Stand_Attack_End--d570cc81616379cd": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Yuuka_Original_Stand_Attack_Delay--f9f133cb7c186679": [],
+      "Yuuka_Original_Normal_Callsign--b85b73f5dff5800d": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.16666667,
+          "tile": 502
+        },
+        {
+          "time": 0.43333337,
+          "tile": 401
+        }
+      ],
+      "Yuuka_Original_Kneel_Reload--b6a8cb52e540a52e": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Yuuka_Original_Stand_Attack_Ing--b563f2d5b837076d": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Yuuka_Original_Vital_Death--afb27dd6d11622f8": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "Yuuka_Original_Kneel_Attack_Ing--add6c70cd4605b6e": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Yuuka_Original_Normal_Idle--ac7bb13281f8d7e2": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Yuuka_Original_Move_End_Stand--a3dc74c81028392a": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Yuuka_Original_Kneel_Attack_Start--a03723044fdf5291": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Yuuka_Original_Stand_Idle--8bff5b7f248f7de1": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Yuuka_Original_Move_End_Kneel--1825b9ccd1777dde": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Yuuka_Original_Formation_Idle--1cdb242d0fdbd946": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Yuuka_Original_Normal_Attack_Start--1f09bbadf58a73e2": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Yuuka_Original_Vital_Panic--3275a5a4aae6fbd4": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "Yuuka_Original_Normal_Attack_End--38600adfc63ddf41": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Yuuka_Original_Stand_Reload--3be500dadaeb1fc3": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Yuuka_Original_Normal_Attack_Ing--3d40e8108750acf3": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Yuuka_Original_Victory_End--3d4c6e70552d7368": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Yuuka_Original_Public01--4274e2a8502e92b3": [],
+      "Yuuka_Original_Move_Ing--55928f86a4f36dca": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Yuuka_Original_Move_End_Normal--5d065b37c699a32a": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Yuuka_Original_Move_Jump--6881607b5dab3cde": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.16666667,
+          "tile": 402
+        },
+        {
+          "time": 0.3,
+          "tile": 401
+        }
+      ]
+    }
+  }
+}

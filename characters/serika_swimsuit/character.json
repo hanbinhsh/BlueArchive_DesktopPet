@@ -1,0 +1,334 @@
+{
+  "id": "serika_swimsuit",
+  "name": "芹香 · 泳装",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0189; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0189_Cafe_Idle--1b6c73b39ca0d10",
+    "interact": "CH0189_Cafe_Reaction--38992fb7dcabec90"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0189_Cafe_Idle--1b6c73b39ca0d10",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0189_Cafe_Reaction--38992fb7dcabec90",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0189_Cafe_Walk--8ca6c7d1a4264d33",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0189_Formation_Pickup--73fcfb5e1fa06130",
+      "category": "常用"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0189_Formation_Idle--b8ffbb8b236d8aff",
+      "sourceName": "CH0189_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_tactical_start_random",
+      "label": "Tactical · 开始 · Random",
+      "clip": "CH0189_Tactical_Start_Random--ad6ef5062413f5e7",
+      "sourceName": "CH0189_Tactical_Start_Random",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "CH0189_Exs--14defd59d3a6876c",
+      "sourceName": "CH0189_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0189_Tactical_Start--222af07a702bda3",
+      "sourceName": "CH0189_Tactical_Start",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "CH0189_Mouth",
+    "defaultTile": 402,
+    "events": {
+      "CH0189_Cafe_Idle--1b6c73b39ca0d10": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.99998,
+          "tile": 704
+        },
+        {
+          "time": 3.699963,
+          "tile": 700
+        },
+        {
+          "time": 4.766619,
+          "tile": 704
+        },
+        {
+          "time": 5.199948,
+          "tile": 700
+        },
+        {
+          "time": 8.33325,
+          "tile": 704
+        }
+      ],
+      "CH0189_Cafe_Reaction--38992fb7dcabec90": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.099998996,
+          "tile": 402
+        },
+        {
+          "time": 0.166665,
+          "tile": 402
+        },
+        {
+          "time": 0.66666,
+          "tile": 402
+        },
+        {
+          "time": 2.766639,
+          "tile": 602
+        },
+        {
+          "time": 3.066636,
+          "tile": 602
+        },
+        {
+          "time": 3.133302,
+          "tile": 402
+        },
+        {
+          "time": 3.633297,
+          "tile": 402
+        },
+        {
+          "time": 3.99996,
+          "tile": 601
+        },
+        {
+          "time": 4.166625,
+          "tile": 601
+        },
+        {
+          "time": 4.3999557,
+          "tile": 601
+        },
+        {
+          "time": 4.99995,
+          "tile": 506
+        },
+        {
+          "time": 5.366613,
+          "tile": 601
+        },
+        {
+          "time": 5.799942,
+          "tile": 506
+        },
+        {
+          "time": 8.533248,
+          "tile": 506
+        },
+        {
+          "time": 8.633247,
+          "tile": 704
+        }
+      ],
+      "CH0189_Cafe_Walk--8ca6c7d1a4264d33": [],
+      "CH0189_Formation_Pickup--73fcfb5e1fa06130": [
+        {
+          "time": 0,
+          "tile": 700
+        },
+        {
+          "time": 0.166665,
+          "tile": 404
+        },
+        {
+          "time": 1.833315,
+          "tile": 702
+        },
+        {
+          "time": 1.933314,
+          "tile": 702
+        },
+        {
+          "time": 2.466642,
+          "tile": 601
+        },
+        {
+          "time": 5.266614,
+          "tile": 403
+        },
+        {
+          "time": 6.166605,
+          "tile": 602
+        }
+      ],
+      "CH0189_Formation_Idle--b8ffbb8b236d8aff": [
+        {
+          "time": 0,
+          "tile": 304
+        },
+        {
+          "time": 4,
+          "tile": 304
+        }
+      ],
+      "CH0189_Tactical_Start_Random--ad6ef5062413f5e7": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0189_Exs--14defd59d3a6876c": [
+        {
+          "time": 0,
+          "tile": 601
+        },
+        {
+          "time": 0.99999,
+          "tile": 601
+        },
+        {
+          "time": 1.133322,
+          "tile": 601
+        },
+        {
+          "time": 1.299987,
+          "tile": 506
+        },
+        {
+          "time": 2.066646,
+          "tile": 506
+        },
+        {
+          "time": 2.233311,
+          "tile": 607
+        },
+        {
+          "time": 2.399976,
+          "tile": 601
+        },
+        {
+          "time": 3.799962,
+          "tile": 601
+        },
+        {
+          "time": 4.099959,
+          "tile": 506
+        }
+      ],
+      "CH0189_Tactical_Start--222af07a702bda3": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210342_0",
+      "name": "烧烤架",
+      "model": "f210342_0.glb",
+      "clip": "f210342_0",
+      "duration": 29.466666666666665,
+      "mouthEvents": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 7.233261,
+          "tile": 704
+        },
+        {
+          "time": 13.133202,
+          "tile": 700
+        },
+        {
+          "time": 13.733196,
+          "tile": 704
+        },
+        {
+          "time": 14.299857,
+          "tile": 700
+        },
+        {
+          "time": 15.599844,
+          "tile": 704
+        },
+        {
+          "time": 16.099838,
+          "tile": 602
+        },
+        {
+          "time": 16.199839,
+          "tile": 601
+        },
+        {
+          "time": 16.899832,
+          "tile": 602
+        },
+        {
+          "time": 17.066496,
+          "tile": 402
+        },
+        {
+          "time": 17.866488,
+          "tile": 700
+        },
+        {
+          "time": 20.399796,
+          "tile": 704
+        },
+        {
+          "time": 28.599714,
+          "tile": 704
+        }
+      ],
+      "yaw": 5.026548245743669
+    }
+  ],
+  "framing": {
+    "actions": {
+      "original_tactical_start_random": {
+        "zoom": 0.8836158682767256,
+        "centerY": 0.9936267034602888
+      },
+      "original_exs": {
+        "zoom": 0.6130568318058102,
+        "centerY": 1.534694819352218
+      }
+    }
+  }
+}

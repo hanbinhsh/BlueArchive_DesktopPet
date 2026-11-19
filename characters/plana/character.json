@@ -1,0 +1,80 @@
+{
+  "id": "plana",
+  "name": "普拉娜 · 原版（NPC）",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Plana NPC prefab and original AroPla_Cacha_02 timeline clips. Original facial renderer visibility curves; no Formation_Pickup exists."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Plana_Original_AroPla_Cacha_02_Idle--29a64f8967a1957b",
+    "interact": "Plana_Original_AroPla_Cacha_02_Reaction--b46dab21451da92d"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Plana_Original_AroPla_Cacha_02_Idle--29a64f8967a1957b",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "回应",
+      "clip": "Plana_Original_AroPla_Cacha_02_Reaction--b46dab21451da92d",
+      "category": "常用"
+    },
+    {
+      "id": "smile",
+      "label": "微笑",
+      "clip": "Plana_Original_AroPla_Cacha_02_Smile--8d6835728f25aec4",
+      "category": "常用"
+    },
+    {
+      "id": "blink",
+      "label": "眨眼",
+      "clip": "Plana_Original_AroPla_Cacha_02_Blink--793b76d1cd6295e3",
+      "category": "常用"
+    },
+    {
+      "id": "blink2",
+      "label": "眨眼（二）",
+      "clip": "Plana_Original_AroPla_Cacha_02_Blink_02--d69cc9fed0f3af21",
+      "category": "常用"
+    },
+    {
+      "id": "original_plana_original_aropla_cacha_02_start",
+      "label": "Plana · Original · AroPla · Cacha · 02 · 开始",
+      "clip": "Plana_Original_AroPla_Cacha_02_Start--3b86fca9ebf376cb",
+      "sourceName": "Plana_Original_AroPla_Cacha_02_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_plana_original_aropla_cacha_02_move",
+      "label": "Plana · Original · AroPla · Cacha · 02 · 移动",
+      "clip": "Plana_Original_AroPla_Cacha_02_Move--45015fdf9050203a",
+      "sourceName": "Plana_Original_AroPla_Cacha_02_Move",
+      "category": "移动"
+    },
+    {
+      "id": "original_plana_original_aropla_cacha_02_end",
+      "label": "Plana · Original · AroPla · Cacha · 02 · 结束",
+      "clip": "Plana_Original_AroPla_Cacha_02_End--557d1373fdfe4f10",
+      "sourceName": "Plana_Original_AroPla_Cacha_02_End",
+      "category": "战斗"
+    }
+  ],
+  "idleBlink": {
+    "action": "blink",
+    "interval": 6
+  },
+  "framing": {
+    "actions": {
+      "original_plana_original_aropla_cacha_02_start": {
+        "zoom": 0.9469963197280317,
+        "centerY": 0.5905492806500227
+      }
+    }
+  }
+}

@@ -1,0 +1,510 @@
+{
+  "id": "hoshino_swimsuit",
+  "name": "星野 · 泳装",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Hoshino_Swimsuit; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Hoshino_Swimsuit_Cafe_Idle--37dd586566797013",
+    "interact": "Hoshino_Swimsuit_Cafe_Reaction--844245763cd62c7"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Hoshino_Swimsuit_Cafe_Idle--37dd586566797013",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Hoshino_Swimsuit_Cafe_Reaction--844245763cd62c7",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Hoshino_Swimsuit_Cafe_Walk--1c22bf84e08b3752",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Hoshino_Swimsuit_Victory_Start--3f2e7b6112a653ab",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Hoshino_Swimsuit_Formation_Pickup--acadafc8244ca5ee",
+      "category": "常用"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Hoshino_Swimsuit_Exs--c9eba0af804e51e3",
+      "sourceName": "Hoshino_Swimsuit_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Hoshino_Swimsuit_Normal_Callsign--c9b2a749d42cfda9",
+      "sourceName": "Hoshino_Swimsuit_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack01_delay",
+      "label": "常规 · Attack01 · 间隔",
+      "clip": "Hoshino_Swimsuit_Normal_Attack01_Delay--f9a9ea3720f000f6",
+      "sourceName": "Hoshino_Swimsuit_Normal_Attack01_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Hoshino_Swimsuit_Normal01_Public01--b75e1907def91b07",
+      "sourceName": "Hoshino_Swimsuit_Normal01_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_victory_end_random",
+      "label": "胜利 · 结束 · Random",
+      "clip": "Hoshino_Swimsuit_Victory_End_Random--b1dcb95cd4ac39b6",
+      "sourceName": "Hoshino_Swimsuit_Victory_End_Random",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_vital_retreat01",
+      "label": "状态 · Retreat01",
+      "clip": "Hoshino_Swimsuit_Vital_Retreat01--af874dba9f9a0ed4",
+      "sourceName": "Hoshino_Swimsuit_Vital_Retreat01",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign_random",
+      "label": "常规 · 回应 · Random",
+      "clip": "Hoshino_Swimsuit_Normal_Callsign_Random--a2cbec6a10c369f8",
+      "sourceName": "Hoshino_Swimsuit_Normal_Callsign_Random",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack01_end",
+      "label": "常规 · Attack01 · 结束",
+      "clip": "Hoshino_Swimsuit_Normal_Attack01_End--9eb6d4f07189a8b7",
+      "sourceName": "Hoshino_Swimsuit_Normal_Attack01_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_reload01",
+      "label": "常规 · Reload01",
+      "clip": "Hoshino_Swimsuit_Normal_Reload01--9ac2fbf76a416522",
+      "sourceName": "Hoshino_Swimsuit_Normal_Reload01",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Hoshino_Swimsuit_Victory_End--976d5595f761f661",
+      "sourceName": "Hoshino_Swimsuit_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_vital_dying_ing01",
+      "label": "状态 · 濒危 · ing01",
+      "clip": "Hoshino_Swimsuit_Vital_Dying_ing01--129ce1e3ec810300",
+      "sourceName": "Hoshino_Swimsuit_Vital_Dying_ing01",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack01_start",
+      "label": "常规 · Attack01 · 开始",
+      "clip": "Hoshino_Swimsuit_Normal_Attack01_Start--17f621cc8eb7dcbc",
+      "sourceName": "Hoshino_Swimsuit_Normal_Attack01_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death01",
+      "label": "状态 · Death01",
+      "clip": "Hoshino_Swimsuit_Vital_Death01--1d4895d5301bb45e",
+      "sourceName": "Hoshino_Swimsuit_Vital_Death01",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal01",
+      "label": "移动 · 结束 · Normal01",
+      "clip": "Hoshino_Swimsuit_Move_End_Normal01--3cded2ad44c8fcea",
+      "sourceName": "Hoshino_Swimsuit_Move_End_Normal01",
+      "category": "移动"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Hoshino_Swimsuit_Formation_Idle--3eee0cd939969884",
+      "sourceName": "Hoshino_Swimsuit_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_move_jump01",
+      "label": "移动 · Jump01",
+      "clip": "Hoshino_Swimsuit_Move_Jump01--42acaf0406555f62",
+      "sourceName": "Hoshino_Swimsuit_Move_Jump01",
+      "category": "移动"
+    },
+    {
+      "id": "original_victory_start_random",
+      "label": "胜利 · 开始 · Random",
+      "clip": "Hoshino_Swimsuit_Victory_Start_Random--4c1b875a2f8c669f",
+      "sourceName": "Hoshino_Swimsuit_Victory_Start_Random",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_idle01",
+      "label": "常规 · Idle01",
+      "clip": "Hoshino_Swimsuit_Normal_Idle01--4f4df75aee5a2107",
+      "sourceName": "Hoshino_Swimsuit_Normal_Idle01",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing01",
+      "label": "移动 · Ing01",
+      "clip": "Hoshino_Swimsuit_Move_Ing01--5033d0e63e98902b",
+      "sourceName": "Hoshino_Swimsuit_Move_Ing01",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_panic01",
+      "label": "状态 · Panic01",
+      "clip": "Hoshino_Swimsuit_Vital_Panic01--894f5b5793db190",
+      "sourceName": "Hoshino_Swimsuit_Vital_Panic01",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack01_ing",
+      "label": "常规 · Attack01 · 持续",
+      "clip": "Hoshino_Swimsuit_Normal_Attack01_Ing--709bde510af1c130",
+      "sourceName": "Hoshino_Swimsuit_Normal_Attack01_Ing",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Hoshino_Swimsuit_Mouth",
+    "defaultTile": 404,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "Hoshino_Swimsuit_Cafe_Idle--37dd586566797013": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 2.3000002,
+          "tile": 206
+        },
+        {
+          "time": 3.5333335,
+          "tile": 404
+        }
+      ],
+      "Hoshino_Swimsuit_Cafe_Reaction--844245763cd62c7": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.26666668,
+          "tile": 405
+        },
+        {
+          "time": 1.8000001,
+          "tile": 404
+        },
+        {
+          "time": 2.1333334,
+          "tile": 700
+        },
+        {
+          "time": 3.766667,
+          "tile": 701
+        },
+        {
+          "time": 5.1333337,
+          "tile": 404
+        }
+      ],
+      "Hoshino_Swimsuit_Cafe_Walk--1c22bf84e08b3752": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Hoshino_Swimsuit_Victory_Start--3f2e7b6112a653ab": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.5333334,
+          "tile": 405
+        },
+        {
+          "time": 1.7000002,
+          "tile": 206
+        },
+        {
+          "time": 2.3000002,
+          "tile": 404
+        }
+      ],
+      "Hoshino_Swimsuit_Formation_Pickup--acadafc8244ca5ee": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 2.5666668,
+          "tile": 405
+        },
+        {
+          "time": 4.2333336,
+          "tile": 404
+        },
+        {
+          "time": 4.466667,
+          "tile": 206
+        },
+        {
+          "time": 7.2000003,
+          "tile": 404
+        }
+      ],
+      "Hoshino_Swimsuit_Exs--c9eba0af804e51e3": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.26666668,
+          "tile": 206
+        },
+        {
+          "time": 0.86666673,
+          "tile": 404
+        },
+        {
+          "time": 1.8666668,
+          "tile": 206
+        },
+        {
+          "time": 2.1000001,
+          "tile": 404
+        }
+      ],
+      "Hoshino_Swimsuit_Normal_Callsign--c9b2a749d42cfda9": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.23333335,
+          "tile": 206
+        },
+        {
+          "time": 1,
+          "tile": 404
+        }
+      ],
+      "Hoshino_Swimsuit_Normal_Attack01_Delay--f9a9ea3720f000f6": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Hoshino_Swimsuit_Normal01_Public01--b75e1907def91b07": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.6333334,
+          "tile": 405
+        },
+        {
+          "time": 1.5000001,
+          "tile": 404
+        }
+      ],
+      "Hoshino_Swimsuit_Victory_End_Random--b1dcb95cd4ac39b6": [
+        {
+          "time": 0,
+          "tile": 405
+        }
+      ],
+      "Hoshino_Swimsuit_Vital_Retreat01--af874dba9f9a0ed4": [
+        {
+          "time": 0,
+          "tile": 205
+        }
+      ],
+      "Hoshino_Swimsuit_Normal_Callsign_Random--a2cbec6a10c369f8": [
+        {
+          "time": 0,
+          "tile": 405
+        },
+        {
+          "time": 0.20000002,
+          "tile": 206
+        },
+        {
+          "time": 1,
+          "tile": 404
+        }
+      ],
+      "Hoshino_Swimsuit_Normal_Attack01_End--9eb6d4f07189a8b7": [],
+      "Hoshino_Swimsuit_Normal_Reload01--9ac2fbf76a416522": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 1.1333334,
+          "tile": 405
+        },
+        {
+          "time": 1.8333334,
+          "tile": 404
+        }
+      ],
+      "Hoshino_Swimsuit_Victory_End--976d5595f761f661": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Hoshino_Swimsuit_Vital_Dying_ing01--129ce1e3ec810300": [
+        {
+          "time": 0,
+          "tile": 205
+        }
+      ],
+      "Hoshino_Swimsuit_Normal_Attack01_Start--17f621cc8eb7dcbc": [],
+      "Hoshino_Swimsuit_Vital_Death01--1d4895d5301bb45e": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.20000002,
+          "tile": 601
+        },
+        {
+          "time": 0.90000004,
+          "tile": 205
+        }
+      ],
+      "Hoshino_Swimsuit_Move_End_Normal01--3cded2ad44c8fcea": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.33333334,
+          "tile": 405
+        },
+        {
+          "time": 0.5666667,
+          "tile": 404
+        }
+      ],
+      "Hoshino_Swimsuit_Formation_Idle--3eee0cd939969884": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Hoshino_Swimsuit_Move_Jump01--42acaf0406555f62": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Hoshino_Swimsuit_Victory_Start_Random--4c1b875a2f8c669f": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.7666667,
+          "tile": 206
+        },
+        {
+          "time": 1.8666668,
+          "tile": 404
+        },
+        {
+          "time": 2.3666668,
+          "tile": 405
+        }
+      ],
+      "Hoshino_Swimsuit_Normal_Idle01--4f4df75aee5a2107": [],
+      "Hoshino_Swimsuit_Move_Ing01--5033d0e63e98902b": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Hoshino_Swimsuit_Vital_Panic01--894f5b5793db190": [
+        {
+          "time": 0,
+          "tile": 205
+        }
+      ],
+      "Hoshino_Swimsuit_Normal_Attack01_Ing--709bde510af1c130": []
+    }
+  },
+  "furniture": [
+    {
+      "id": "f9304_0",
+      "name": "海滩游泳圈",
+      "model": "f9304_0.glb",
+      "clip": "f9304_0",
+      "duration": 17.733333333333334,
+      "mouthEvents": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 7.2333336,
+          "tile": 405
+        },
+        {
+          "time": 7.833334,
+          "tile": 404
+        },
+        {
+          "time": 9.3,
+          "tile": 206
+        },
+        {
+          "time": 11.1,
+          "tile": 404
+        },
+        {
+          "time": 12.633334,
+          "tile": 207
+        },
+        {
+          "time": 14.733335,
+          "tile": 404
+        }
+      ],
+      "yaw": 1.2566370614359172
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "id": "akane_uniform",
+  "name": "茜 · 制服",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0307; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0307_Cafe_Idle--73dd2c480785533a",
+    "interact": "CH0307_Cafe_Reaction--1746f348cb24087d"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0307_Cafe_Idle--73dd2c480785533a",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0307_Cafe_Reaction--1746f348cb24087d",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0307_Cafe_Walk--7e7b86a2b6aa56f9",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0307_Formation_Pickup--5347ebe820d46bd4",
+      "category": "常用"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0307_Formation_Idle--c148e75bbb9c7319",
+      "sourceName": "CH0307_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "CH0307_Public01--a9072ad41a195420",
+      "sourceName": "CH0307_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0307_Tactical_Start--812f67f36ef132a9",
+      "sourceName": "CH0307_Tactical_Start",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "CH0307_Mouth",
+    "defaultTile": 300,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "CH0307_Cafe_Idle--73dd2c480785533a": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0307_Cafe_Reaction--1746f348cb24087d": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.899981,
+          "tile": 705
+        },
+        {
+          "time": 2.599974,
+          "tile": 704
+        },
+        {
+          "time": 4.366623,
+          "tile": 705
+        },
+        {
+          "time": 6.599934,
+          "tile": 704
+        }
+      ],
+      "CH0307_Cafe_Walk--7e7b86a2b6aa56f9": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0307_Formation_Pickup--5347ebe820d46bd4": [
+        {
+          "time": 0,
+          "tile": 705
+        },
+        {
+          "time": 0.99999,
+          "tile": 704
+        },
+        {
+          "time": 4.33329,
+          "tile": 704
+        },
+        {
+          "time": 6.33327,
+          "tile": 704
+        },
+        {
+          "time": 7.399926,
+          "tile": 704
+        },
+        {
+          "time": 9.733236,
+          "tile": 705
+        }
+      ],
+      "CH0307_Exs_Cutin--e51e45e2d2c59e06": [
+        {
+          "time": 0.033333335,
+          "tile": 704
+        },
+        {
+          "time": 5.29995,
+          "tile": 705
+        },
+        {
+          "time": 6.099942,
+          "tile": 704
+        },
+        {
+          "time": 8.399919,
+          "tile": 705
+        }
+      ],
+      "CH0307_Formation_Idle--c148e75bbb9c7319": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0307_Public01--a9072ad41a195420": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.633317,
+          "tile": 705
+        },
+        {
+          "time": 2.33331,
+          "tile": 704
+        }
+      ],
+      "CH0307_Tactical_Start--812f67f36ef132a9": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.266654,
+          "tile": 705
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "f211302_0",
+      "name": "千年制闸机",
+      "model": "f211302_0.glb",
+      "clip": "f211302_0",
+      "duration": 33.333333333333336,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 604
+        },
+        {
+          "time": 0.499995,
+          "tile": 704
+        },
+        {
+          "time": 5.899941,
+          "tile": 402
+        },
+        {
+          "time": 10.933224,
+          "tile": 704
+        },
+        {
+          "time": 15.966507,
+          "tile": 704
+        },
+        {
+          "time": 17.733156,
+          "tile": 402
+        },
+        {
+          "time": 18.833145,
+          "tile": 401
+        },
+        {
+          "time": 21.466452,
+          "tile": 402
+        },
+        {
+          "time": 22.299776,
+          "tile": 604
+        },
+        {
+          "time": 28.299717,
+          "tile": 402
+        },
+        {
+          "time": 31.99968,
+          "tile": 604
+        }
+      ],
+      "yaw": 2.356194490192345,
+      "sourceTimeline": "my_event090_electronicgate",
+      "sourceGroup": "RequiredTrack_20057",
+      "sourceStudentTrack": "20057"
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "id": "maki",
+  "name": "真纪 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Maki_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Maki_Original_Cafe_Idle--b7852e1a99a58a36",
+    "interact": "Maki_Original_Cafe_Reaction--5d4c51e0fb141b68"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Maki_Original_Cafe_Idle--b7852e1a99a58a36",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Maki_Original_Cafe_Reaction--5d4c51e0fb141b68",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Maki_Original_Cafe_Walk--d223c4b90d74c587",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Maki_Original_Victory_Start--3dac5b605460b857",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Maki_Original_Normal_Reload--8344e77ee6f90da7",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Maki_Original_Formation_Pickup--d1d9e1012f436ce",
+      "category": "常用"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Maki_Original_Normal_Callsign--ee26449291142d97",
+      "sourceName": "Maki_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Maki_Original_Normal_Attack_Delay--e88b1b1ac3a35e12",
+      "sourceName": "Maki_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Maki_Original_Formation_Idle--e3a53bcbccacd5f4",
+      "sourceName": "Maki_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Maki_Original_Exs--e39d278365029299",
+      "sourceName": "Maki_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Maki_Original_Normal_Attack_Ing--fcf4d2fcd470b1ef",
+      "sourceName": "Maki_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Maki_Original_Vital_Death--d2d1fd47c58170dc",
+      "sourceName": "Maki_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Maki_Original_Normal_Attack_Start--ce47244268bdfb0e",
+      "sourceName": "Maki_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Maki_Original_Normal_Attack_End--b85f4863778d4782",
+      "sourceName": "Maki_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Maki_Original_Vital_Retreat--a1bf2e2f394efb55",
+      "sourceName": "Maki_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Maki_Original_Vital_Panic--f625b81a765113e5",
+      "sourceName": "Maki_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Maki_Original_Move_Ing--9cd82cf52dc89962",
+      "sourceName": "Maki_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_attack_readyend",
+      "label": "常规 · 攻击 · ReadyEnd",
+      "clip": "Maki_Original_Normal_Attack_ReadyEnd--94072aac3aaec8f2",
+      "sourceName": "Maki_Original_Normal_Attack_ReadyEnd",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Maki_Original_Move_End_Normal--1cac3a2763413ec0",
+      "sourceName": "Maki_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Maki_Original_Public01--23cd829ffe757d56",
+      "sourceName": "Maki_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_readystart",
+      "label": "常规 · 攻击 · ReadyStart",
+      "clip": "Maki_Original_Normal_Attack_ReadyStart--4f59885bd33b64aa",
+      "sourceName": "Maki_Original_Normal_Attack_ReadyStart",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Maki_Original_Vital_Dying_ing--50146c3b6620afe2",
+      "sourceName": "Maki_Original_Vital_Dying_ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Maki_Original_Normal_Idle--5b8f25734bbaaf4e",
+      "sourceName": "Maki_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Maki_Original_Victory_End--5beb340d57525185",
+      "sourceName": "Maki_Original_Victory_End",
+      "category": "编队与胜利"
+    }
+  ],
+  "mouth": {
+    "material": "Maki_Original_Mouth",
+    "defaultTile": 501,
+    "events": {
+      "Maki_Original_Cafe_Idle--b7852e1a99a58a36": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Maki_Original_Cafe_Reaction--5d4c51e0fb141b68": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.3,
+          "tile": 402
+        },
+        {
+          "time": 1.5666667,
+          "tile": 603
+        },
+        {
+          "time": 2.7333336,
+          "tile": 704
+        }
+      ],
+      "Maki_Original_Cafe_Walk--d223c4b90d74c587": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Maki_Original_Victory_Start--3dac5b605460b857": [
+        {
+          "time": 0,
+          "tile": 603
+        },
+        {
+          "time": 1.6000001,
+          "tile": 707
+        },
+        {
+          "time": 2.3000002,
+          "tile": 501
+        }
+      ],
+      "Maki_Original_Normal_Reload--8344e77ee6f90da7": [
+        {
+          "time": 0,
+          "tile": 501
+        },
+        {
+          "time": 0.10000001,
+          "tile": 603
+        },
+        {
+          "time": 1.0666667,
+          "tile": 501
+        }
+      ],
+      "Maki_Original_Formation_Pickup--d1d9e1012f436ce": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.5666667,
+          "tile": 400
+        },
+        {
+          "time": 3.6000001,
+          "tile": 507
+        },
+        {
+          "time": 9.500001,
+          "tile": 402
+        }
+      ],
+      "Maki_Original_Normal_Callsign--ee26449291142d97": [
+        {
+          "time": 0,
+          "tile": 501
+        }
+      ],
+      "Maki_Original_Normal_Attack_Delay--e88b1b1ac3a35e12": [],
+      "Maki_Original_Formation_Idle--e3a53bcbccacd5f4": [
+        {
+          "time": 0,
+          "tile": 501
+        }
+      ],
+      "Maki_Original_Exs--e39d278365029299": [
+        {
+          "time": 0,
+          "tile": 501
+        },
+        {
+          "time": 0.8000001,
+          "tile": 603
+        },
+        {
+          "time": 3.3000002,
+          "tile": 501
+        }
+      ],
+      "Maki_Original_Normal_Attack_Ing--fcf4d2fcd470b1ef": [],
+      "Maki_Original_Vital_Death--d2d1fd47c58170dc": [
+        {
+          "time": 0,
+          "tile": 506
+        }
+      ],
+      "Maki_Original_Normal_Attack_Start--ce47244268bdfb0e": [],
+      "Maki_Original_Normal_Attack_End--b85f4863778d4782": [],
+      "Maki_Original_Vital_Retreat--a1bf2e2f394efb55": [
+        {
+          "time": 0,
+          "tile": 507
+        }
+      ],
+      "Maki_Original_Vital_Panic--f625b81a765113e5": [
+        {
+          "time": 0,
+          "tile": 506
+        }
+      ],
+      "Maki_Original_Move_Ing--9cd82cf52dc89962": [],
+      "Maki_Original_Normal_Attack_ReadyEnd--94072aac3aaec8f2": [],
+      "Maki_Original_Move_End_Normal--1cac3a2763413ec0": [],
+      "Maki_Original_Public01--23cd829ffe757d56": [
+        {
+          "time": 0,
+          "tile": 501
+        },
+        {
+          "time": 0.23333333,
+          "tile": 603
+        },
+        {
+          "time": 1.5000001,
+          "tile": 501
+        }
+      ],
+      "Maki_Original_Normal_Attack_ReadyStart--4f59885bd33b64aa": [
+        {
+          "time": 0,
+          "tile": 501
+        }
+      ],
+      "Maki_Original_Vital_Dying_ing--50146c3b6620afe2": [
+        {
+          "time": 0,
+          "tile": 506
+        }
+      ],
+      "Maki_Original_Normal_Idle--5b8f25734bbaaf4e": [
+        {
+          "time": 0,
+          "tile": 501
+        }
+      ],
+      "Maki_Original_Victory_End--5beb340d57525185": [
+        {
+          "time": 0,
+          "tile": 501
+        }
+      ]
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs": {
+        "zoom": 1,
+        "centerY": 0.6593335067339041
+      },
+      "original_normal_attack_readyend": {
+        "zoom": 0.9314083163398689,
+        "centerY": 0.5237409030195244
+      },
+      "original_normal_attack_readystart": {
+        "zoom": 1,
+        "centerY": 0.6866064894847962
+      }
+    }
+  }
+}

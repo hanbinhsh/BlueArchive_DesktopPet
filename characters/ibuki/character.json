@@ -1,0 +1,1226 @@
+{
+  "id": "ibuki",
+  "name": "伊吹 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Ibuki_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Ibuki_Original_Cafe_Idle--e44f37dc9867a89b",
+    "interact": "Ibuki_Original_Cafe_Reaction--75355f6afa702634"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Ibuki_Original_Cafe_Idle--e44f37dc9867a89b",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Ibuki_Original_Cafe_Reaction--75355f6afa702634",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Ibuki_Original_Cafe_Walk--1852d6efad07a95e",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Ibuki_Original_Victory_Start--a02b5dd1d89e068e",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Ibuki_Original_Normal_Reload--b9db9b9f654546d9",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Ibuki_Original_Formation_Pickup--8d825b42de102666",
+      "category": "常用"
+    },
+    {
+      "id": "original_ridingex01_cutin",
+      "label": "RidingEx01 · Cutin",
+      "clip": "Ibuki_Original_RidingEx01_Cutin--d628ed5291367529",
+      "sourceName": "Ibuki_Original_RidingEx01_Cutin",
+      "category": "战斗"
+    },
+    {
+      "id": "original_riding_attack_end",
+      "label": "Riding · 攻击 · 结束",
+      "clip": "Ibuki_Original_Riding_Attack_End--c0b5a1bcc139ba0f",
+      "sourceName": "Ibuki_Original_Riding_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_riding_attack_start",
+      "label": "Riding · 攻击 · 开始",
+      "clip": "Ibuki_Original_Riding_Attack_Start--2f707363485911df",
+      "sourceName": "Ibuki_Original_Riding_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_riding_attack_ing",
+      "label": "Riding · 攻击 · 持续",
+      "clip": "Ibuki_Original_Riding_Attack_Ing--5c38225d6b711c29",
+      "sourceName": "Ibuki_Original_Riding_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_riding_retreat",
+      "label": "Riding · 撤退",
+      "clip": "Ibuki_Original_Riding_Retreat--ee76e247fce9d787",
+      "sourceName": "Ibuki_Original_Riding_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Ibuki_Original_Exs_Cutin--cf80c3c878e0a8ce",
+      "sourceName": "Ibuki_Original_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Ibuki_Original_Formation_Idle--cd6f941828140f02",
+      "sourceName": "Ibuki_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Ibuki_Original_Kneel_Attack_Ing--fab49f5dc7df0667",
+      "sourceName": "Ibuki_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Ibuki_Original_RidingPublic01--fa79e97c643a2523",
+      "sourceName": "Ibuki_Original_RidingPublic01",
+      "category": "技能"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Ibuki_Original_Move_Ing--bf4c6815dc375324",
+      "sourceName": "Ibuki_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_riding_idle",
+      "label": "Riding · 待机",
+      "clip": "Ibuki_Original_Riding_Idle--b882aaa96570fc34",
+      "sourceName": "Ibuki_Original_Riding_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end_random",
+      "label": "胜利 · 结束 · Random",
+      "clip": "Ibuki_Original_Victory_End_Random--adbc000f718e3a86",
+      "sourceName": "Ibuki_Original_Victory_End_Random",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Ibuki_Original_Vital_Panic--acfa1d544c15ecf6",
+      "sourceName": "Ibuki_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Ibuki_Original_Move_End_Kneel--a62bb46c764952d3",
+      "sourceName": "Ibuki_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_riding_destroy",
+      "label": "Riding · Destroy",
+      "clip": "Ibuki_Original_Riding_Destroy--9f857d3fcb358b04",
+      "sourceName": "Ibuki_Original_Riding_Destroy",
+      "category": "战斗"
+    },
+    {
+      "id": "original_riding_ing",
+      "label": "Riding · 持续",
+      "clip": "Ibuki_Original_Riding_Ing--9d3811caaa61e3fb",
+      "sourceName": "Ibuki_Original_Riding_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Ibuki_Original_Normal_Attack_Start--9380b03888648e6c",
+      "sourceName": "Ibuki_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Ibuki_Original_Exs--8fe945bfdf1f5767",
+      "sourceName": "Ibuki_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_public01_24",
+      "label": "Public01",
+      "clip": "Ibuki_Original_Public01--8f04f2850078f7b9",
+      "sourceName": "Ibuki_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Ibuki_Original_Normal_Idle--8e9bb46264e12e87",
+      "sourceName": "Ibuki_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_tsainteraction",
+      "label": "TSAInteraction",
+      "clip": "Ibuki_Original_TSAInteraction--84613c0f60788193",
+      "sourceName": "Ibuki_Original_TSAInteraction",
+      "category": "剧情"
+    },
+    {
+      "id": "original_riding_attack_delay",
+      "label": "Riding · 攻击 · 间隔",
+      "clip": "Ibuki_Original_Riding_Attack_Delay--f32b124c1f575222",
+      "sourceName": "Ibuki_Original_Riding_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_riding_end_normal",
+      "label": "Riding · 结束 · 常规",
+      "clip": "Ibuki_Original_Riding_End_Normal--111dc75ed33632db",
+      "sourceName": "Ibuki_Original_Riding_End_Normal",
+      "category": "战斗"
+    },
+    {
+      "id": "original_ridingex01",
+      "label": "RidingEx01",
+      "clip": "Ibuki_Original_RidingEx01--147df342ddf99bc7",
+      "sourceName": "Ibuki_Original_RidingEx01",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign_random",
+      "label": "常规 · 回应 · Random",
+      "clip": "Ibuki_Original_Normal_Callsign_Random--184e999e82895b16",
+      "sourceName": "Ibuki_Original_Normal_Callsign_Random",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Ibuki_Original_Vital_Death--1bd0a4d7999ae51c",
+      "sourceName": "Ibuki_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Ibuki_Original_Kneel_Attack_End--1f7c666bc937faff",
+      "sourceName": "Ibuki_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_riding_reload",
+      "label": "Riding · 换弹",
+      "clip": "Ibuki_Original_Riding_Reload--2033f363146674e0",
+      "sourceName": "Ibuki_Original_Riding_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle_random",
+      "label": "编队 · 待机 · Random",
+      "clip": "Ibuki_Original_Formation_Idle_Random--34380b227816bc10",
+      "sourceName": "Ibuki_Original_Formation_Idle_Random",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_riding_panic",
+      "label": "Riding · 惊慌",
+      "clip": "Ibuki_Original_Riding_Panic--3881e11906d15a34",
+      "sourceName": "Ibuki_Original_Riding_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Ibuki_Original_Move_End_Normal--3ab9320ae3628ec2",
+      "sourceName": "Ibuki_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_victory_start_random",
+      "label": "胜利 · 开始 · Random",
+      "clip": "Ibuki_Original_Victory_Start_Random--3cb7bfba76ee262c",
+      "sourceName": "Ibuki_Original_Victory_Start_Random",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Ibuki_Original_Vital_Dying_Ing--40c1ed24f84c043c",
+      "sourceName": "Ibuki_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Ibuki_Original_Normal_Callsign--46b7bc77c3da5c20",
+      "sourceName": "Ibuki_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Ibuki_Original_Kneel_Reload--4ddee772fdf33c12",
+      "sourceName": "Ibuki_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Ibuki_Original_Kneel_Attack_Start--4eb0675e3afec883",
+      "sourceName": "Ibuki_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Ibuki_Original_Kneel_Idle--57b4654719231509",
+      "sourceName": "Ibuki_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Ibuki_Original_Kneel_Attack_Delay--596c4c525c6be222",
+      "sourceName": "Ibuki_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Ibuki_Original_Normal_Attack_Delay--5bff7ba63148c9f4",
+      "sourceName": "Ibuki_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Ibuki_Original_Normal_Attack_Ing--5c2629ce86ee416d",
+      "sourceName": "Ibuki_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Ibuki_Original_Normal_Attack_End--5ce6096ec002592d",
+      "sourceName": "Ibuki_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Ibuki_Original_Vital_Retreat--65065d3853a4b4b7",
+      "sourceName": "Ibuki_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Ibuki_Original_Victory_End--75632146e0d4bf94",
+      "sourceName": "Ibuki_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_ridingex01_cutin_scope",
+      "label": "RidingEx01 · Cutin · Scope",
+      "clip": "Ibuki_Original_RidingEx01_Cutin_Scope--332784c4817c2f9a",
+      "sourceName": "Ibuki_Original_RidingEx01_Cutin_Scope",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Ibuki_Original_Mouth",
+    "defaultTile": 705,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.625,
+      0.875
+    ],
+    "events": {
+      "Ibuki_Original_Cafe_Idle--e44f37dc9867a89b": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Ibuki_Original_Cafe_Reaction--75355f6afa702634": [
+        {
+          "time": 0,
+          "tile": 405
+        },
+        {
+          "time": 0.099998996,
+          "tile": 207
+        },
+        {
+          "time": 1.966647,
+          "tile": 100
+        },
+        {
+          "time": 2.466642,
+          "tile": 505
+        },
+        {
+          "time": 2.633307,
+          "tile": 102
+        },
+        {
+          "time": 3.066636,
+          "tile": 102
+        },
+        {
+          "time": 3.266634,
+          "tile": 202
+        },
+        {
+          "time": 4.299957,
+          "tile": 203
+        },
+        {
+          "time": 6.0332727,
+          "tile": 404
+        },
+        {
+          "time": 6.299937,
+          "tile": 404
+        },
+        {
+          "time": 6.466602,
+          "tile": 404
+        }
+      ],
+      "Ibuki_Original_Cafe_Walk--1852d6efad07a95e": [
+        {
+          "time": 0,
+          "tile": 405
+        }
+      ],
+      "Ibuki_Original_Victory_Start--a02b5dd1d89e068e": [
+        {
+          "time": 0,
+          "tile": 603
+        },
+        {
+          "time": 1.266654,
+          "tile": 206
+        },
+        {
+          "time": 1.633317,
+          "tile": 206
+        },
+        {
+          "time": 1.766649,
+          "tile": 100
+        },
+        {
+          "time": 2.633307,
+          "tile": 203
+        }
+      ],
+      "Ibuki_Original_Normal_Reload--b9db9b9f654546d9": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.066666,
+          "tile": 102
+        },
+        {
+          "time": 0.466662,
+          "tile": 404
+        },
+        {
+          "time": 0.766659,
+          "tile": 603
+        },
+        {
+          "time": 1.199988,
+          "tile": 203
+        },
+        {
+          "time": 1.833315,
+          "tile": 404
+        }
+      ],
+      "Ibuki_Original_Formation_Pickup--8d825b42de102666": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.099998996,
+          "tile": 207
+        },
+        {
+          "time": 1.166655,
+          "tile": 505
+        },
+        {
+          "time": 1.933314,
+          "tile": 404
+        },
+        {
+          "time": 2.299977,
+          "tile": 203
+        },
+        {
+          "time": 8.766579,
+          "tile": 405
+        },
+        {
+          "time": 9.566571,
+          "tile": 404
+        },
+        {
+          "time": 9.9999,
+          "tile": 404
+        }
+      ],
+      "Ibuki_Original_RidingEx01_Cutin--d628ed5291367529": [
+        {
+          "time": 0,
+          "tile": 405
+        },
+        {
+          "time": 1.399986,
+          "tile": 404
+        },
+        {
+          "time": 1.533318,
+          "tile": 204
+        },
+        {
+          "time": 2.299977,
+          "tile": 504
+        },
+        {
+          "time": 3.8332949,
+          "tile": 701
+        },
+        {
+          "time": 3.866628,
+          "tile": 207
+        },
+        {
+          "time": 4.966617,
+          "tile": 207
+        },
+        {
+          "time": 5.166615,
+          "tile": 404
+        },
+        {
+          "time": 7.066596,
+          "tile": 405
+        },
+        {
+          "time": 7.6665897,
+          "tile": 203
+        },
+        {
+          "time": 7.933254,
+          "tile": 203
+        },
+        {
+          "time": 9.299907,
+          "tile": 203
+        }
+      ],
+      "Ibuki_Original_Riding_Attack_End--c0b5a1bcc139ba0f": [
+        {
+          "time": 0,
+          "tile": 700
+        },
+        {
+          "time": 0.20000002,
+          "tile": 404
+        }
+      ],
+      "Ibuki_Original_Riding_Attack_Start--2f707363485911df": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.20000002,
+          "tile": 700
+        }
+      ],
+      "Ibuki_Original_Riding_Attack_Ing--5c38225d6b711c29": [
+        {
+          "time": 0,
+          "tile": 700
+        },
+        {
+          "time": 0.06666667,
+          "tile": 203
+        },
+        {
+          "time": 0.73333335,
+          "tile": 700
+        }
+      ],
+      "Ibuki_Original_Riding_Retreat--ee76e247fce9d787": [
+        {
+          "time": 0,
+          "tile": 205
+        }
+      ],
+      "Ibuki_Original_Exs_Cutin--cf80c3c878e0a8ce": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.233331,
+          "tile": 404
+        },
+        {
+          "time": 0.533328,
+          "tile": 404
+        },
+        {
+          "time": 0.733326,
+          "tile": 404
+        },
+        {
+          "time": 1.199988,
+          "tile": 404
+        },
+        {
+          "time": 1.399986,
+          "tile": 207
+        },
+        {
+          "time": 3.133302,
+          "tile": 706
+        },
+        {
+          "time": 3.699963,
+          "tile": 603
+        },
+        {
+          "time": 3.866628,
+          "tile": 603
+        },
+        {
+          "time": 4.366623,
+          "tile": 603
+        },
+        {
+          "time": 4.899951,
+          "tile": 603
+        },
+        {
+          "time": 5.3999457,
+          "tile": 603
+        },
+        {
+          "time": 5.866608,
+          "tile": 603
+        },
+        {
+          "time": 6.6665998,
+          "tile": 100
+        },
+        {
+          "time": 7.499925,
+          "tile": 207
+        },
+        {
+          "time": 7.733256,
+          "tile": 207
+        },
+        {
+          "time": 9.099909,
+          "tile": 207
+        }
+      ],
+      "Ibuki_Original_Formation_Idle--cd6f941828140f02": [
+        {
+          "time": 0,
+          "tile": 206
+        }
+      ],
+      "Ibuki_Original_Kneel_Attack_Ing--fab49f5dc7df0667": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.16666667,
+          "tile": 405
+        },
+        {
+          "time": 0.86666673,
+          "tile": 404
+        }
+      ],
+      "Ibuki_Original_RidingPublic01--fa79e97c643a2523": [
+        {
+          "time": 0,
+          "tile": 405
+        },
+        {
+          "time": 0.266664,
+          "tile": 404
+        },
+        {
+          "time": 0.299997,
+          "tile": 204
+        },
+        {
+          "time": 0.66666,
+          "tile": 100
+        },
+        {
+          "time": 1.166655,
+          "tile": 100
+        },
+        {
+          "time": 1.6666499,
+          "tile": 207
+        },
+        {
+          "time": 3.066636,
+          "tile": 700
+        },
+        {
+          "time": 3.66663,
+          "tile": 404
+        }
+      ],
+      "Ibuki_Original_Move_Ing--bf4c6815dc375324": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Ibuki_Original_Riding_Idle--b882aaa96570fc34": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Ibuki_Original_Victory_End_Random--adbc000f718e3a86": [
+        {
+          "time": 0,
+          "tile": 301
+        }
+      ],
+      "Ibuki_Original_Vital_Panic--acfa1d544c15ecf6": [
+        {
+          "time": 0,
+          "tile": 205
+        }
+      ],
+      "Ibuki_Original_Move_End_Kneel--a62bb46c764952d3": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Ibuki_Original_Riding_Destroy--9f857d3fcb358b04": [
+        {
+          "time": 0,
+          "tile": 205
+        },
+        {
+          "time": 0.06666667,
+          "tile": 204
+        }
+      ],
+      "Ibuki_Original_Riding_Ing--9d3811caaa61e3fb": [
+        {
+          "time": 0,
+          "tile": 206
+        }
+      ],
+      "Ibuki_Original_Normal_Attack_Start--9380b03888648e6c": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Ibuki_Original_Exs--8fe945bfdf1f5767": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.133332,
+          "tile": 102
+        },
+        {
+          "time": 0.66666,
+          "tile": 603
+        },
+        {
+          "time": 1.566651,
+          "tile": 704
+        },
+        {
+          "time": 1.833315,
+          "tile": 207
+        },
+        {
+          "time": 3.266634,
+          "tile": 707
+        },
+        {
+          "time": 3.933294,
+          "tile": 404
+        }
+      ],
+      "Ibuki_Original_Public01--8f04f2850078f7b9": [
+        {
+          "time": 0,
+          "tile": 205
+        },
+        {
+          "time": 0.133332,
+          "tile": 204
+        },
+        {
+          "time": 0.766659,
+          "tile": 505
+        },
+        {
+          "time": 0.866658,
+          "tile": 403
+        },
+        {
+          "time": 2.033313,
+          "tile": 100
+        },
+        {
+          "time": 2.499975,
+          "tile": 404
+        }
+      ],
+      "Ibuki_Original_Normal_Idle--8e9bb46264e12e87": [],
+      "Ibuki_Original_TSAInteraction--84613c0f60788193": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.166665,
+          "tile": 207
+        },
+        {
+          "time": 1.066656,
+          "tile": 404
+        }
+      ],
+      "Ibuki_Original_Riding_Attack_Delay--f32b124c1f575222": [
+        {
+          "time": 0,
+          "tile": 700
+        }
+      ],
+      "Ibuki_Original_Riding_End_Normal--111dc75ed33632db": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.19999799,
+          "tile": 203
+        },
+        {
+          "time": 0.933324,
+          "tile": 404
+        }
+      ],
+      "Ibuki_Original_RidingEx01--147df342ddf99bc7": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.166665,
+          "tile": 206
+        },
+        {
+          "time": 0.433329,
+          "tile": 504
+        },
+        {
+          "time": 0.79999197,
+          "tile": 602
+        },
+        {
+          "time": 0.966657,
+          "tile": 600
+        },
+        {
+          "time": 1.566651,
+          "tile": 207
+        },
+        {
+          "time": 2.799972,
+          "tile": 404
+        },
+        {
+          "time": 3.066636,
+          "tile": 100
+        },
+        {
+          "time": 3.933294,
+          "tile": 705
+        },
+        {
+          "time": 4.366623,
+          "tile": 404
+        }
+      ],
+      "Ibuki_Original_Normal_Callsign_Random--184e999e82895b16": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.233331,
+          "tile": 404
+        },
+        {
+          "time": 0.266664,
+          "tile": 202
+        },
+        {
+          "time": 0.899991,
+          "tile": 404
+        },
+        {
+          "time": 0.966657,
+          "tile": 405
+        }
+      ],
+      "Ibuki_Original_Vital_Death--1bd0a4d7999ae51c": [
+        {
+          "time": 0,
+          "tile": 205
+        }
+      ],
+      "Ibuki_Original_Kneel_Attack_End--1f7c666bc937faff": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Ibuki_Original_Riding_Reload--2033f363146674e0": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.233331,
+          "tile": 405
+        },
+        {
+          "time": 0.566661,
+          "tile": 207
+        },
+        {
+          "time": 1.566651,
+          "tile": 404
+        },
+        {
+          "time": 1.833315,
+          "tile": 404
+        }
+      ],
+      "Ibuki_Original_Formation_Idle_Random--34380b227816bc10": [
+        {
+          "time": 0,
+          "tile": 603,
+          "flipped": true
+        }
+      ],
+      "Ibuki_Original_Riding_Panic--3881e11906d15a34": [],
+      "Ibuki_Original_Move_End_Normal--3ab9320ae3628ec2": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Ibuki_Original_Victory_Start_Random--3cb7bfba76ee262c": [
+        {
+          "time": 0,
+          "tile": 207
+        },
+        {
+          "time": 1.566651,
+          "tile": 100
+        },
+        {
+          "time": 1.833315,
+          "tile": 203
+        },
+        {
+          "time": 2.399976,
+          "tile": 301
+        }
+      ],
+      "Ibuki_Original_Vital_Dying_Ing--40c1ed24f84c043c": [
+        {
+          "time": 0,
+          "tile": 101
+        }
+      ],
+      "Ibuki_Original_Normal_Callsign--46b7bc77c3da5c20": [
+        {
+          "time": 0,
+          "tile": 100,
+          "flipped": true
+        },
+        {
+          "time": 0.366663,
+          "tile": 203
+        },
+        {
+          "time": 1.133322,
+          "tile": 707
+        }
+      ],
+      "Ibuki_Original_Kneel_Reload--4ddee772fdf33c12": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.066666,
+          "tile": 102
+        },
+        {
+          "time": 0.466662,
+          "tile": 404
+        },
+        {
+          "time": 0.766659,
+          "tile": 603
+        },
+        {
+          "time": 1.199988,
+          "tile": 203
+        },
+        {
+          "time": 1.833315,
+          "tile": 404
+        }
+      ],
+      "Ibuki_Original_Kneel_Attack_Start--4eb0675e3afec883": [],
+      "Ibuki_Original_Kneel_Idle--57b4654719231509": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Ibuki_Original_Kneel_Attack_Delay--596c4c525c6be222": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Ibuki_Original_Normal_Attack_Delay--5bff7ba63148c9f4": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Ibuki_Original_Normal_Attack_Ing--5c2629ce86ee416d": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.16666667,
+          "tile": 405
+        },
+        {
+          "time": 0.86666673,
+          "tile": 404
+        }
+      ],
+      "Ibuki_Original_Normal_Attack_End--5ce6096ec002592d": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Ibuki_Original_Vital_Retreat--65065d3853a4b4b7": [
+        {
+          "time": 0,
+          "tile": 200
+        }
+      ],
+      "Ibuki_Original_Victory_End--75632146e0d4bf94": [
+        {
+          "time": 0,
+          "tile": 203
+        }
+      ],
+      "Ibuki_Original_RidingEx01_Cutin_Scope--332784c4817c2f9a": []
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_ridingex01_cutin": {
+        "zoom": 1,
+        "centerY": 0.7958197711796984
+      },
+      "original_riding_retreat": {
+        "zoom": 0.83520100226168,
+        "centerY": 0.3536897150786782
+      },
+      "original_exs_cutin": {
+        "zoom": 0.7353195047612355,
+        "centerY": 0.13006456227966623
+      },
+      "original_public01": {
+        "zoom": 1,
+        "centerY": 0.7673864553376933
+      },
+      "original_riding_destroy": {
+        "zoom": 0.7205525087777039,
+        "centerY": 0.09174212392590786
+      },
+      "original_tsainteraction": {
+        "zoom": 0.7553258043124386,
+        "centerY": 0.17959350501517524
+      },
+      "original_ridingex01": {
+        "zoom": 1,
+        "centerY": 0.7689249091941516
+      },
+      "original_vital_death": {
+        "zoom": 0.8917158073514654,
+        "centerY": 1.052741186925267
+      },
+      "original_ridingex01_cutin_scope": {
+        "zoom": 0.765655443051437,
+        "centerY": 0.8756135882903359
+      }
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210330_0",
+      "name": "一步一脚印书桌套装",
+      "model": "f210330_0.glb",
+      "clip": "f210330_0",
+      "duration": 26.566666666666666,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 206
+        },
+        {
+          "time": 0.133332,
+          "tile": 705
+        },
+        {
+          "time": 3.366633,
+          "tile": 706
+        },
+        {
+          "time": 5.833275,
+          "tile": 707
+        },
+        {
+          "time": 6.099939,
+          "tile": 504
+        },
+        {
+          "time": 6.533268,
+          "tile": 707
+        },
+        {
+          "time": 8.466582,
+          "tile": 201
+        },
+        {
+          "time": 10.0665655,
+          "tile": 206
+        },
+        {
+          "time": 11.433219,
+          "tile": 707
+        },
+        {
+          "time": 11.899881,
+          "tile": 504
+        },
+        {
+          "time": 13.166535,
+          "tile": 707
+        },
+        {
+          "time": 14.699853,
+          "tile": 206
+        },
+        {
+          "time": 14.9665165,
+          "tile": 207
+        },
+        {
+          "time": 16.366503,
+          "tile": 707
+        },
+        {
+          "time": 16.733166,
+          "tile": 203
+        },
+        {
+          "time": 20.99979,
+          "tile": 405
+        },
+        {
+          "time": 22.89977,
+          "tile": 404
+        },
+        {
+          "time": 24.433088,
+          "tile": 206
+        }
+      ],
+      "yaw": 0.7853981633974483,
+      "sourceTimeline": "my_event064_kidstableset",
+      "sourceGroup": "RequiredTrack_16014",
+      "sourceStudentTrack": "16014"
+    }
+  ]
+}

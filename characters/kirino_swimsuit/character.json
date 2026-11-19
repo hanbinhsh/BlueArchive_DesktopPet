@@ -1,0 +1,677 @@
+{
+  "id": "kirino_swimsuit",
+  "name": "桐乃 · 泳装",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0262; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0262_Cafe_Idle--1b6b585a8bb82c8c",
+    "interact": "CH0262_Cafe_Reaction--db52e01cdc3209ba"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0262_Cafe_Idle--1b6b585a8bb82c8c",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0262_Cafe_Reaction--db52e01cdc3209ba",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0262_Cafe_Walk--36194a0f28bdb2e3",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0262_Formation_Pickup--e09a3e7866692a05",
+      "category": "常用"
+    },
+    {
+      "id": "original_exs_cutin_schoolgirl01_sukebanswim_smg_01_02",
+      "label": "EX 技能 · Cutin · SchoolGirl01 · SukebanSwim · SMG · 01 · 02",
+      "clip": "CH0262_Exs_Cutin_SchoolGirl01_SukebanSwim_SMG_01_02--da1617ca1c3d2bca",
+      "sourceName": "CH0262_Exs_Cutin_SchoolGirl01_SukebanSwim_SMG_01_02",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_schoolgirl03_sukebanswim_mg_02_01",
+      "label": "EX 技能 · Cutin · SchoolGirl03 · SukebanSwim · MG · 02 · 01",
+      "clip": "CH0262_Exs_Cutin_SchoolGirl03_SukebanSwim_MG_02_01--d34c5eeefb1ab4b6",
+      "sourceName": "CH0262_Exs_Cutin_SchoolGirl03_SukebanSwim_MG_02_01",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_schoolgirl03_sukebanswim_mg_01_02",
+      "label": "EX 技能 · Cutin · SchoolGirl03 · SukebanSwim · MG · 01 · 02",
+      "clip": "CH0262_Exs_Cutin_SchoolGirl03_SukebanSwim_MG_01_02--fade61cd701d7e7e",
+      "sourceName": "CH0262_Exs_Cutin_SchoolGirl03_SukebanSwim_MG_01_02",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_schoolgirl02_sukebanswim_sr_02_02",
+      "label": "EX 技能 · Cutin · SchoolGirl02 · SukebanSwim · SR · 02 · 02",
+      "clip": "CH0262_Exs_Cutin_SchoolGirl02_SukebanSwim_SR_02_02--bfdf9a928a1ad7e2",
+      "sourceName": "CH0262_Exs_Cutin_SchoolGirl02_SukebanSwim_SR_02_02",
+      "category": "技能"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0262_Tactical_Start--b2eb66fd2b98e69d",
+      "sourceName": "CH0262_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_appear",
+      "label": "Appear",
+      "clip": "CH0262_Appear--a8d68bc08fcfdbe9",
+      "sourceName": "CH0262_Appear",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_schoolgirl02_sukebanswim_sr_01_01",
+      "label": "EX 技能 · Cutin · SchoolGirl02 · SukebanSwim · SR · 01 · 01",
+      "clip": "CH0262_Exs_Cutin_SchoolGirl02_SukebanSwim_SR_01_01--a33c1ded94da795e",
+      "sourceName": "CH0262_Exs_Cutin_SchoolGirl02_SukebanSwim_SR_01_01",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_schoolgirl03_sukebanswim_mg_01_01",
+      "label": "EX 技能 · Cutin · SchoolGirl03 · SukebanSwim · MG · 01 · 01",
+      "clip": "CH0262_Exs_Cutin_SchoolGirl03_SukebanSwim_MG_01_01--991c805e893f13e2",
+      "sourceName": "CH0262_Exs_Cutin_SchoolGirl03_SukebanSwim_MG_01_01",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_01",
+      "label": "EX 技能 · Cutin · 01",
+      "clip": "CH0262_Exs_Cutin_01--982cb42f9f0d5878",
+      "sourceName": "CH0262_Exs_Cutin_01",
+      "category": "技能"
+    },
+    {
+      "id": "original_tactical_start_random",
+      "label": "Tactical · 开始 · Random",
+      "clip": "CH0262_Tactical_Start_Random--97dc4d8f6ef56dc8",
+      "sourceName": "CH0262_Tactical_Start_Random",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_schoolgirl01_sukebanswim_smg_01_01",
+      "label": "EX 技能 · Cutin · SchoolGirl01 · SukebanSwim · SMG · 01 · 01",
+      "clip": "CH0262_Exs_Cutin_SchoolGirl01_SukebanSwim_SMG_01_01--898a7efd4ba44772",
+      "sourceName": "CH0262_Exs_Cutin_SchoolGirl01_SukebanSwim_SMG_01_01",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_schoolgirl02_sukebanswim_sr_01_02",
+      "label": "EX 技能 · Cutin · SchoolGirl02 · SukebanSwim · SR · 01 · 02",
+      "clip": "CH0262_Exs_Cutin_SchoolGirl02_SukebanSwim_SR_01_02--80f49a5abd81d43c",
+      "sourceName": "CH0262_Exs_Cutin_SchoolGirl02_SukebanSwim_SR_01_02",
+      "category": "技能"
+    },
+    {
+      "id": "original_respawn",
+      "label": "respawn",
+      "clip": "CH0262_respawn--f2c24e2fd0f13339",
+      "sourceName": "CH0262_respawn",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_schoolgirl01_sukebanswim_smg_02_02",
+      "label": "EX 技能 · Cutin · SchoolGirl01 · SukebanSwim · SMG · 02 · 02",
+      "clip": "CH0262_Exs_Cutin_SchoolGirl01_SukebanSwim_SMG_02_02--e170e25fef6fc9f",
+      "sourceName": "CH0262_Exs_Cutin_SchoolGirl01_SukebanSwim_SMG_02_02",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "CH0262_Vital_Death--10d48983c393ac5b",
+      "sourceName": "CH0262_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_schoolgirl01_sukebanswim_smg_02_01",
+      "label": "EX 技能 · Cutin · SchoolGirl01 · SukebanSwim · SMG · 02 · 01",
+      "clip": "CH0262_Exs_Cutin_SchoolGirl01_SukebanSwim_SMG_02_01--1925efeb89c6291a",
+      "sourceName": "CH0262_Exs_Cutin_SchoolGirl01_SukebanSwim_SMG_02_01",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0262_Formation_Idle--2339a8e9b7538bb8",
+      "sourceName": "CH0262_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs_cutin_schoolgirl03_sukebanswim_mg_02_02",
+      "label": "EX 技能 · Cutin · SchoolGirl03 · SukebanSwim · MG · 02 · 02",
+      "clip": "CH0262_Exs_Cutin_SchoolGirl03_SukebanSwim_MG_02_02--3555f57a09d40400",
+      "sourceName": "CH0262_Exs_Cutin_SchoolGirl03_SukebanSwim_MG_02_02",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_schoolgirl02_sukebanswim_sr_02_01",
+      "label": "EX 技能 · Cutin · SchoolGirl02 · SukebanSwim · SR · 02 · 01",
+      "clip": "CH0262_Exs_Cutin_SchoolGirl02_SukebanSwim_SR_02_01--65f7bc46685b6ea4",
+      "sourceName": "CH0262_Exs_Cutin_SchoolGirl02_SukebanSwim_SR_02_01",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_02",
+      "label": "EX 技能 · Cutin · 02",
+      "clip": "CH0262_Exs_Cutin_02--66ae1a41691cf6f8",
+      "sourceName": "CH0262_Exs_Cutin_02",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_ilde",
+      "label": "常规 · Ilde",
+      "clip": "CH0262_Normal_Ilde--6b1eb3fe6fb00151",
+      "sourceName": "CH0262_Normal_Ilde",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "CH0262_Mouth",
+    "defaultTile": 704,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.5,
+      0.875
+    ],
+    "events": {
+      "CH0262_Cafe_Idle--1b6b585a8bb82c8c": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.99998,
+          "tile": 704
+        }
+      ],
+      "CH0262_Cafe_Reaction--db52e01cdc3209ba": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.13333337,
+          "tile": 602
+        },
+        {
+          "time": 3.099969,
+          "tile": 402
+        },
+        {
+          "time": 4.166625,
+          "tile": 704
+        },
+        {
+          "time": 4.66662,
+          "tile": 704
+        },
+        {
+          "time": 5.733276,
+          "tile": 704
+        },
+        {
+          "time": 5.866608,
+          "tile": 705
+        },
+        {
+          "time": 7.99992,
+          "tile": 704
+        }
+      ],
+      "CH0262_Cafe_Walk--36194a0f28bdb2e3": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.299987,
+          "tile": 602
+        },
+        {
+          "time": 4.066626,
+          "tile": 402
+        },
+        {
+          "time": 5.699943,
+          "tile": 704
+        }
+      ],
+      "CH0262_Formation_Pickup--e09a3e7866692a05": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.099998996,
+          "tile": 604
+        },
+        {
+          "time": 0.233331,
+          "tile": 605
+        },
+        {
+          "time": 0.83332497,
+          "tile": 506
+        },
+        {
+          "time": 1.766649,
+          "tile": 604
+        },
+        {
+          "time": 3.366633,
+          "tile": 606
+        },
+        {
+          "time": 3.533298,
+          "tile": 606
+        },
+        {
+          "time": 3.699963,
+          "tile": 402
+        },
+        {
+          "time": 5.266614,
+          "tile": 401
+        },
+        {
+          "time": 5.433279,
+          "tile": 604
+        },
+        {
+          "time": 6.799932,
+          "tile": 704
+        }
+      ],
+      "CH0262_Exs_Cutin_SchoolGirl01_SukebanSwim_SMG_01_02--da1617ca1c3d2bca": [],
+      "CH0262_Exs_Cutin_SchoolGirl03_SukebanSwim_MG_02_01--d34c5eeefb1ab4b6": [],
+      "CH0262_Exs_Cutin_SchoolGirl03_SukebanSwim_MG_01_02--fade61cd701d7e7e": [],
+      "CH0262_Exs_Cutin_SchoolGirl02_SukebanSwim_SR_02_02--bfdf9a928a1ad7e2": [],
+      "CH0262_Tactical_Start--b2eb66fd2b98e69d": [
+        {
+          "time": 0,
+          "tile": 403
+        },
+        {
+          "time": 0.33333,
+          "tile": 704
+        },
+        {
+          "time": 0.99999,
+          "tile": 705
+        }
+      ],
+      "CH0262_Appear--a8d68bc08fcfdbe9": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.299997,
+          "tile": 507
+        },
+        {
+          "time": 0.499995,
+          "tile": 205
+        },
+        {
+          "time": 2.233311,
+          "tile": 305
+        },
+        {
+          "time": 2.733306,
+          "tile": 704
+        }
+      ],
+      "CH0262_Exs_Cutin_SchoolGirl02_SukebanSwim_SR_01_01--a33c1ded94da795e": [],
+      "CH0262_Exs_Cutin_SchoolGirl03_SukebanSwim_MG_01_01--991c805e893f13e2": [],
+      "CH0262_Exs_Cutin_01--982cb42f9f0d5878": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0262_Tactical_Start_Random--97dc4d8f6ef56dc8": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.733326,
+          "tile": 704
+        }
+      ],
+      "CH0262_Exs_Cutin_SchoolGirl01_SukebanSwim_SMG_01_01--898a7efd4ba44772": [],
+      "CH0262_Exs_Cutin_SchoolGirl02_SukebanSwim_SR_01_02--80f49a5abd81d43c": [],
+      "CH0262_respawn--f2c24e2fd0f13339": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.066666,
+          "tile": 402
+        },
+        {
+          "time": 0.79999197,
+          "tile": 705
+        },
+        {
+          "time": 1.699983,
+          "tile": 705
+        }
+      ],
+      "CH0262_Exs_Cutin_SchoolGirl01_SukebanSwim_SMG_02_02--e170e25fef6fc9f": [],
+      "CH0262_Vital_Death--10d48983c393ac5b": [
+        {
+          "time": 0.033333,
+          "tile": 101
+        },
+        {
+          "time": 2.166645,
+          "tile": 506
+        }
+      ],
+      "CH0262_Exs_Cutin_SchoolGirl01_SukebanSwim_SMG_02_01--1925efeb89c6291a": [],
+      "CH0262_Formation_Idle--2339a8e9b7538bb8": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0262_Exs_Cutin_SchoolGirl03_SukebanSwim_MG_02_02--3555f57a09d40400": [],
+      "CH0262_Exs_Cutin_SchoolGirl02_SukebanSwim_SR_02_01--65f7bc46685b6ea4": [],
+      "CH0262_Exs_Cutin_02--66ae1a41691cf6f8": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.23333335,
+          "tile": 602
+        },
+        {
+          "time": 1.7333335,
+          "tile": 402
+        },
+        {
+          "time": 1.9333334,
+          "tile": 205
+        },
+        {
+          "time": 2.0333333,
+          "tile": 605
+        },
+        {
+          "time": 2.9333334,
+          "tile": 506
+        },
+        {
+          "time": 3.0000002,
+          "tile": 507
+        },
+        {
+          "time": 3.9333336,
+          "tile": 205
+        },
+        {
+          "time": 5.366667,
+          "tile": 605
+        },
+        {
+          "time": 5.966667,
+          "tile": 402
+        },
+        {
+          "time": 6.0000005,
+          "tile": 403
+        }
+      ],
+      "CH0262_Normal_Ilde--6b1eb3fe6fb00151": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 3.299967,
+          "tile": 402
+        },
+        {
+          "time": 5.066616,
+          "tile": 704
+        },
+        {
+          "time": 9.933234,
+          "tile": 605
+        },
+        {
+          "time": 11.233221,
+          "tile": 305
+        },
+        {
+          "time": 11.433219,
+          "tile": 606
+        },
+        {
+          "time": 11.899881,
+          "tile": 403
+        },
+        {
+          "time": 12.433208,
+          "tile": 403
+        },
+        {
+          "time": 12.533208,
+          "tile": 403
+        },
+        {
+          "time": 13.133202,
+          "tile": 305
+        },
+        {
+          "time": 14.899851,
+          "tile": 305
+        },
+        {
+          "time": 16.133171,
+          "tile": 602
+        },
+        {
+          "time": 21.533117,
+          "tile": 704
+        }
+      ]
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs_cutin_schoolgirl01_sukebanswim_smg_01_02": {
+        "zoom": 0.5089564565452177,
+        "centerY": 0.2863115462477528
+      },
+      "original_exs_cutin_schoolgirl03_sukebanswim_mg_02_01": {
+        "zoom": 0.3760911248309902,
+        "centerY": 1.2246154210892275
+      },
+      "original_exs_cutin_schoolgirl03_sukebanswim_mg_01_02": {
+        "zoom": 0.37395801336035034,
+        "centerY": 0.20885224901174215
+      },
+      "original_exs_cutin_schoolgirl02_sukebanswim_sr_02_02": {
+        "zoom": 0.31428643013225,
+        "centerY": 0.21462055778836664
+      },
+      "original_appear": {
+        "zoom": 0.341500171016483,
+        "centerY": 4.014882491649699
+      },
+      "original_exs_cutin_schoolgirl02_sukebanswim_sr_01_01": {
+        "zoom": 0.4232206723974563,
+        "centerY": 1.226025068095145
+      },
+      "original_exs_cutin_schoolgirl03_sukebanswim_mg_01_01": {
+        "zoom": 0.5540117085356472,
+        "centerY": 1.173599748525528
+      },
+      "original_exs_cutin_01": {
+        "zoom": 0.9078899278301986,
+        "centerY": 1.4261966706047593
+      },
+      "original_tactical_start_random": {
+        "zoom": 1,
+        "centerY": 1.2300685977764534
+      },
+      "original_exs_cutin_schoolgirl01_sukebanswim_smg_01_01": {
+        "zoom": 0.5379711307819791,
+        "centerY": 1.2406420756949361
+      },
+      "original_exs_cutin_schoolgirl02_sukebanswim_sr_01_02": {
+        "zoom": 0.5020471188469583,
+        "centerY": 0.2491311502874245
+      },
+      "original_respawn": {
+        "zoom": 0.8226725699318872,
+        "centerY": 1.4933342952164546
+      },
+      "original_exs_cutin_schoolgirl01_sukebanswim_smg_02_02": {
+        "zoom": 0.4267035248653611,
+        "centerY": 0.22427703370216934
+      },
+      "original_vital_death": {
+        "zoom": 0.5137286601205612,
+        "centerY": 1.933856920107472
+      },
+      "original_exs_cutin_schoolgirl01_sukebanswim_smg_02_01": {
+        "zoom": 0.5540117085356472,
+        "centerY": 1.2011719710953235
+      },
+      "original_exs_cutin_schoolgirl03_sukebanswim_mg_02_02": {
+        "zoom": 0.5017888801025978,
+        "centerY": 0.24772167135914835
+      },
+      "original_exs_cutin_schoolgirl02_sukebanswim_sr_02_01": {
+        "zoom": 0.46628190848089046,
+        "centerY": 1.1505112656923713
+      },
+      "original_exs_cutin_02": {
+        "zoom": 0.9006553352832779,
+        "centerY": 1.4198800169680368
+      },
+      "original_normal_ilde": {
+        "zoom": 0.8214754517970485,
+        "centerY": 1.493539725574675
+      }
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210345_0",
+      "name": "救生员专用椅",
+      "model": "f210345_0.glb",
+      "clip": "f210345_0",
+      "duration": 27.366666666666667,
+      "mouthEvents": [
+        {
+          "time": 6.899931,
+          "tile": 704
+        },
+        {
+          "time": 15.266514,
+          "tile": 602
+        },
+        {
+          "time": 16.033173,
+          "tile": 602
+        },
+        {
+          "time": 16.166506,
+          "tile": 502
+        },
+        {
+          "time": 17.266495,
+          "tile": 305
+        },
+        {
+          "time": 17.499825,
+          "tile": 502
+        },
+        {
+          "time": 17.533157,
+          "tile": 503
+        },
+        {
+          "time": 17.699823,
+          "tile": 503
+        },
+        {
+          "time": 17.89982,
+          "tile": 403
+        },
+        {
+          "time": 18.733147,
+          "tile": 403
+        },
+        {
+          "time": 18.833145,
+          "tile": 502
+        },
+        {
+          "time": 18.966476,
+          "tile": 502
+        },
+        {
+          "time": 19.266474,
+          "tile": 305
+        },
+        {
+          "time": 19.833136,
+          "tile": 305
+        },
+        {
+          "time": 21.299788,
+          "tile": 305
+        },
+        {
+          "time": 22.399776,
+          "tile": 402
+        },
+        {
+          "time": 23.66643,
+          "tile": 402
+        },
+        {
+          "time": 24.833084,
+          "tile": 402
+        },
+        {
+          "time": 25.533077,
+          "tile": 704
+        }
+      ],
+      "yaw": 2.356194490192345,
+      "sourceTimeline": "my_event069_marinewatchover",
+      "sourceGroup": "RequiredTrack_26012",
+      "sourceStudentTrack": "26012"
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "id": "wakamo",
+  "name": "若藻 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Wakamo_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Wakamo_Original_Cafe_Idle--241311b25e331093",
+    "interact": "Wakamo_Original_Cafe_Reaction--785673b522be0982"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Wakamo_Original_Cafe_Idle--241311b25e331093",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Wakamo_Original_Cafe_Reaction--785673b522be0982",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Wakamo_Original_Cafe_Walk--aa19d1a8309ed17a",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Wakamo_Original_Victory_Start--b5f3c4fb72e4f702",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Wakamo_Original_Normal_Reload--42be9de57a72a9b4",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Wakamo_Original_Formation_Pickup--51de466634e8b138",
+      "category": "常用"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Wakamo_Original_Victory_End--e3d27be8ed7d2dfe",
+      "sourceName": "Wakamo_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Wakamo_Original_Move_Ing--dc05314660467b01",
+      "sourceName": "Wakamo_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Wakamo_Original_Vital_Death--fa82e538ce16db5c",
+      "sourceName": "Wakamo_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Wakamo_Original_Kneel_Idle--c5fbcf720e668a1f",
+      "sourceName": "Wakamo_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Wakamo_Original_Formation_Idle--b12a9f6c27789e61",
+      "sourceName": "Wakamo_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Wakamo_Original_Normal_Callsign--a8d834700f20c94a",
+      "sourceName": "Wakamo_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Wakamo_Original_Normal_Attack_Delay--97af26da6ad9b4d6",
+      "sourceName": "Wakamo_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_callsign",
+      "label": "蹲姿 · 回应",
+      "clip": "Wakamo_Original_Kneel_Callsign--92314abc877ea177",
+      "sourceName": "Wakamo_Original_Kneel_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Wakamo_Original_Exs--89b1b63d7e21b189",
+      "sourceName": "Wakamo_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Wakamo_Original_Vital_Dying_Ing--104ec181633c6aeb",
+      "sourceName": "Wakamo_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Wakamo_Original_Normal_Idle--1a6d1531bdc1d22",
+      "sourceName": "Wakamo_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Wakamo_Original_Kneel_Attack_Start--16fdcd5ab7e7d032",
+      "sourceName": "Wakamo_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Wakamo_Original_Move_End_Kneel--17f0fad4b2ff8cba",
+      "sourceName": "Wakamo_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Wakamo_Original_Kneel_Reload--1a4ecc3c7276f9a8",
+      "sourceName": "Wakamo_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "Wakamo_Original_Move_Jump--1c54d4f1260a2346",
+      "sourceName": "Wakamo_Original_Move_Jump",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Wakamo_Original_Normal_Attack_Start--39acdab2cd1194a",
+      "sourceName": "Wakamo_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Wakamo_Original_Kneel_Attack_End--2502d0f2f582e39d",
+      "sourceName": "Wakamo_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Wakamo_Original_Vital_Panic--2cddf71711bc946a",
+      "sourceName": "Wakamo_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_callsign",
+      "label": "移动 · 回应",
+      "clip": "Wakamo_Original_Move_Callsign--32210218ef24659a",
+      "sourceName": "Wakamo_Original_Move_Callsign",
+      "category": "移动"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Wakamo_Original_Exs_Cutin--38e2739f0bf95dac",
+      "sourceName": "Wakamo_Original_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Wakamo_Original_Vital_Retreat--6afc8063b1f4b23",
+      "sourceName": "Wakamo_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Wakamo_Original_Normal_Attack_Ing--55615f4a0dbfa16e",
+      "sourceName": "Wakamo_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Wakamo_Original_Normal_Attack_End--971c4c74cd34b41",
+      "sourceName": "Wakamo_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Wakamo_Original_Kneel_Attack_Delay--62416b91d3175e98",
+      "sourceName": "Wakamo_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Wakamo_Original_Move_End_Normal--65586734451018db",
+      "sourceName": "Wakamo_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_public",
+      "label": "普通技能",
+      "clip": "Wakamo_Original_Public--78913aa70bca144d",
+      "sourceName": "Wakamo_Original_Public",
+      "category": "技能"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Wakamo_Original_Kneel_Attack_Ing--7d8067cc70e5830d",
+      "sourceName": "Wakamo_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public_33",
+      "label": "普通技能",
+      "clip": "Wakamo_Original_GearPublic--8c10461ad9232b47",
+      "sourceName": "Wakamo_Original_GearPublic",
+      "category": "技能"
+    }
+  ],
+  "note": "官方常服模型佩戴面具，原始 MouthRenderer 为空且 MouthMaterialIndex 为 -1；保留原貌，不合成口型。",
+  "framing": {
+    "actions": {
+      "original_exs_cutin": {
+        "zoom": 1,
+        "centerY": 0.8703809671911598
+      }
+    }
+  },
+  "furniture": [
+    {
+      "id": "f3108_0",
+      "name": "情人节曲奇沙发",
+      "model": "f3108_0.glb",
+      "clip": "f3108_0",
+      "duration": 10.0,
+      "mouthEvents": [],
+      "yaw": 0.7853981633974483,
+      "sourceTimeline": "my_chocolatecafe_01_p_sofa",
+      "sourceGroup": "RequiredTrack_10033",
+      "sourceStudentTrack": "10033"
+    }
+  ]
+}

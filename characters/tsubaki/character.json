@@ -1,0 +1,288 @@
+{
+  "id": "tsubaki",
+  "name": "椿 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Tsubaki_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Tsubaki_Original_Cafe_Idle--a757640197478352",
+    "interact": "Tsubaki_Original_Cafe_Reaction--7e3a289d9c5621c4"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Tsubaki_Original_Cafe_Idle--a757640197478352",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Tsubaki_Original_Cafe_Reaction--7e3a289d9c5621c4",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Tsubaki_Original_Cafe_Walk--3c6be55f439dd6dc",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Tsubaki_Original_Victory_Start--81cfecdcd04d5106",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Tsubaki_Original_Normal_Reload--2ec929901139e48a",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Tsubaki_Original_Formation_Pickup--e2b9a87f9dcecbd8",
+      "category": "常用"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Tsubaki_Original_Move_Ing--e8d03a5ac076a5c9",
+      "sourceName": "Tsubaki_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Tsubaki_Original_Formation_Idle--e859ad49228ed899",
+      "sourceName": "Tsubaki_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Tsubaki_Original_Vital_Dying_ing--cad8ffe4a5bff481",
+      "sourceName": "Tsubaki_Original_Vital_Dying_ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Tsubaki_Original_Vital_Retreat--c5674980549fea82",
+      "sourceName": "Tsubaki_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Tsubaki_Original_Exs--bac4dc2479b4d1d9",
+      "sourceName": "Tsubaki_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Tsubaki_Original_Vital_Death--109db795bca2a48e",
+      "sourceName": "Tsubaki_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Tsubaki_Original_Normal_Idle--1bf0589fc91643d",
+      "sourceName": "Tsubaki_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Tsubaki_Original_Normal_Attack_Start--13e3282e7d2d4cc9",
+      "sourceName": "Tsubaki_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Tsubaki_Original_Normal_Attack_Ing--2270e86d2cd6771",
+      "sourceName": "Tsubaki_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Tsubaki_Original_Exs_Cutin--1ca4dd5ad12666d3",
+      "sourceName": "Tsubaki_Original_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Tsubaki_Original_Victory_End--1e2a71a00f249e51",
+      "sourceName": "Tsubaki_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Tsubaki_Original_Vital_Panic--30f2811ecb052f13",
+      "sourceName": "Tsubaki_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_root_motion_normal",
+      "label": "移动 · 结束 · Root · Motion · 常规",
+      "clip": "Tsubaki_Original_Move_End_Root_Motion_Normal--553314eb68bbd9e4",
+      "sourceName": "Tsubaki_Original_Move_End_Root_Motion_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Tsubaki_Original_Public01--55b2e3ee71f5c1d5",
+      "sourceName": "Tsubaki_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Tsubaki_Original_Normal_Callsign--61fba2279968e713",
+      "sourceName": "Tsubaki_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Tsubaki_Original_Normal_Attack_Delay--626f1f428b0b6f88",
+      "sourceName": "Tsubaki_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Tsubaki_Original_Normal_Attack_End--67d2575210be461e",
+      "sourceName": "Tsubaki_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Tsubaki_Original_Move_End_Normal--7a8fcb036dcf0ed6",
+      "sourceName": "Tsubaki_Original_Move_End_Normal",
+      "category": "移动"
+    }
+  ],
+  "mouth": {
+    "material": "Tsubaki_Original_Mouth",
+    "defaultTile": 402,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.25,
+      0.5
+    ],
+    "events": {
+      "Tsubaki_Original_Cafe_Idle--a757640197478352": [],
+      "Tsubaki_Original_Cafe_Reaction--7e3a289d9c5621c4": [],
+      "Tsubaki_Original_Cafe_Walk--3c6be55f439dd6dc": [],
+      "Tsubaki_Original_Victory_Start--81cfecdcd04d5106": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.26666668,
+          "tile": 507
+        },
+        {
+          "time": 1.0333334,
+          "tile": 704
+        },
+        {
+          "time": 1.6666669,
+          "tile": 504
+        }
+      ],
+      "Tsubaki_Original_Normal_Reload--2ec929901139e48a": [],
+      "Tsubaki_Original_Formation_Pickup--e2b9a87f9dcecbd8": [],
+      "Tsubaki_Original_Move_Ing--e8d03a5ac076a5c9": [],
+      "Tsubaki_Original_Formation_Idle--e859ad49228ed899": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.90000004,
+          "tile": 402
+        },
+        {
+          "time": 2.3666668,
+          "tile": 401
+        }
+      ],
+      "Tsubaki_Original_Vital_Dying_ing--cad8ffe4a5bff481": [],
+      "Tsubaki_Original_Vital_Retreat--c5674980549fea82": [],
+      "Tsubaki_Original_Exs--bac4dc2479b4d1d9": [
+        {
+          "time": 0,
+          "tile": 504
+        },
+        {
+          "time": 0.40000004,
+          "tile": 501
+        },
+        {
+          "time": 1.6333334,
+          "tile": 602
+        }
+      ],
+      "Tsubaki_Original_Vital_Death--109db795bca2a48e": [],
+      "Tsubaki_Original_Normal_Idle--1bf0589fc91643d": [],
+      "Tsubaki_Original_Normal_Attack_Start--13e3282e7d2d4cc9": [],
+      "Tsubaki_Original_Normal_Attack_Ing--2270e86d2cd6771": [],
+      "Tsubaki_Original_Exs_Cutin--1ca4dd5ad12666d3": [
+        {
+          "time": 0.4666667,
+          "tile": 504
+        },
+        {
+          "time": 0.73333335,
+          "tile": 704
+        },
+        {
+          "time": 1.7,
+          "tile": 705
+        },
+        {
+          "time": 2.5666668,
+          "tile": 706
+        }
+      ],
+      "Tsubaki_Original_Victory_End--1e2a71a00f249e51": [
+        {
+          "time": 0,
+          "tile": 504
+        }
+      ],
+      "Tsubaki_Original_Vital_Panic--30f2811ecb052f13": [],
+      "Tsubaki_Original_Move_End_Root_Motion_Normal--553314eb68bbd9e4": [],
+      "Tsubaki_Original_Public01--55b2e3ee71f5c1d5": [],
+      "Tsubaki_Original_Normal_Callsign--61fba2279968e713": [],
+      "Tsubaki_Original_Normal_Attack_Delay--626f1f428b0b6f88": [],
+      "Tsubaki_Original_Normal_Attack_End--67d2575210be461e": [],
+      "Tsubaki_Original_Move_End_Normal--7a8fcb036dcf0ed6": []
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs_cutin": {
+        "zoom": 0.7084146507295035,
+        "centerY": 0.9038209372775329
+      }
+    }
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "id": "karin_bunnygirl",
+  "name": "花凛 · 兔女郎",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0100; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0100_Cafe_Idle--f4321f7c9e11f9f9",
+    "interact": "CH0100_Cafe_Reaction--32949b8373d56d8f"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0100_Cafe_Idle--f4321f7c9e11f9f9",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0100_Cafe_Reaction--32949b8373d56d8f",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0100_Cafe_Walk--faba1ee275e125b6",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "CH0100_Victory_Start--971ffd115c8f9845",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "CH0100_Normal_Reload--a871b13aa1a91403",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0100_Formation_Pickup--94136ce9381dabe0",
+      "category": "常用"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "CH0100_Normal_Attack_Ing--ed34dca75227cbf8",
+      "sourceName": "CH0100_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "CH0100_Public01--e9d192aba253bdfe",
+      "sourceName": "CH0100_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "CH0100_Vital_Death--e889aad069103b86",
+      "sourceName": "CH0100_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "CH0100_Vital_Panic--c59e021e4f2b95c2",
+      "sourceName": "CH0100_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "CH0100_Normal_Callsign--b9dffa87329ad589",
+      "sourceName": "CH0100_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "CH0100_Move_Ing--146c1af1ba458f8d",
+      "sourceName": "CH0100_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "CH0100_Kneel_Attack_Start--1c45dbc9a1b03b3f",
+      "sourceName": "CH0100_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "CH0100_Kneel_Idle--251b96ae5dccea40",
+      "sourceName": "CH0100_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "CH0100_Normal_Attack_Delay--25f75c38a0d99166",
+      "sourceName": "CH0100_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "CH0100_Kneel_Reload--35bf1f903bc89438",
+      "sourceName": "CH0100_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "CH0100_Exs_Cutin--3b81b624f8509195",
+      "sourceName": "CH0100_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "CH0100_Move_End_Normal--3df6012e73789115",
+      "sourceName": "CH0100_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "CH0100_Kneel_Attack_End--6749ecc5342e740",
+      "sourceName": "CH0100_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "CH0100_Vital_Retreat--4690f12c40993da5",
+      "sourceName": "CH0100_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "CH0100_Normal_Attack_End--48b5c64dcae1df94",
+      "sourceName": "CH0100_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "CH0100_Kneel_Attack_Delay--4e99d417d6b098b9",
+      "sourceName": "CH0100_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "CH0100_Victory_End--5064cb52919a073f",
+      "sourceName": "CH0100_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "CH0100_Move_End_Kneel--5ca556f3f9cbb420",
+      "sourceName": "CH0100_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "CH0100_Kneel_Attack_Ing--60c9b7faf2026e1c",
+      "sourceName": "CH0100_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "CH0100_Normal_Attack_Start--6d4ddff5cc211646",
+      "sourceName": "CH0100_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "CH0100_Normal_Idle--6e91e76f77c09eff",
+      "sourceName": "CH0100_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0100_Formation_Idle--6fd983dcba3d2e00",
+      "sourceName": "CH0100_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "CH0100_Exs--7825dc0897e2fdc1",
+      "sourceName": "CH0100_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "CH0100_Vital_Dying_ing--7ae2f040fac3a77e",
+      "sourceName": "CH0100_Vital_Dying_ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_table",
+      "label": "EX 技能 · Table",
+      "clip": "CH0100_Exs_Table--c1c10d63691a3bd2",
+      "sourceName": "CH0100_Exs_Table",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_table_31",
+      "label": "EX 技能 · Table",
+      "clip": "CH0100_Exs_Table--4b68817f3dd3d4cd",
+      "sourceName": "CH0100_Exs_Table",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_glass",
+      "label": "EX 技能 · Cutin · Glass",
+      "clip": "CH0100_Exs_Cutin_Glass--5c7b1c427cade63e",
+      "sourceName": "CH0100_Exs_Cutin_Glass",
+      "category": "技能"
+    }
+  ],
+  "mouth": {
+    "material": "CH0100_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "CH0100_Cafe_Idle--f4321f7c9e11f9f9": [],
+      "CH0100_Cafe_Reaction--32949b8373d56d8f": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 3.4,
+          "tile": 300
+        },
+        {
+          "time": 4.966667,
+          "tile": 401
+        }
+      ],
+      "CH0100_Cafe_Walk--faba1ee275e125b6": [],
+      "CH0100_Victory_Start--971ffd115c8f9845": [],
+      "CH0100_Normal_Reload--a871b13aa1a91403": [],
+      "CH0100_Formation_Pickup--94136ce9381dabe0": [],
+      "CH0100_Normal_Attack_Ing--ed34dca75227cbf8": [],
+      "CH0100_Public01--e9d192aba253bdfe": [],
+      "CH0100_Vital_Death--e889aad069103b86": [],
+      "CH0100_Vital_Panic--c59e021e4f2b95c2": [],
+      "CH0100_Normal_Callsign--b9dffa87329ad589": [],
+      "CH0100_Move_Ing--146c1af1ba458f8d": [],
+      "CH0100_Kneel_Attack_Start--1c45dbc9a1b03b3f": [],
+      "CH0100_Kneel_Idle--251b96ae5dccea40": [],
+      "CH0100_Normal_Attack_Delay--25f75c38a0d99166": [],
+      "CH0100_Kneel_Reload--35bf1f903bc89438": [],
+      "CH0100_Exs_Cutin--3b81b624f8509195": [],
+      "CH0100_Move_End_Normal--3df6012e73789115": [],
+      "CH0100_Kneel_Attack_End--6749ecc5342e740": [],
+      "CH0100_Vital_Retreat--4690f12c40993da5": [],
+      "CH0100_Normal_Attack_End--48b5c64dcae1df94": [],
+      "CH0100_Kneel_Attack_Delay--4e99d417d6b098b9": [],
+      "CH0100_Victory_End--5064cb52919a073f": [],
+      "CH0100_Move_End_Kneel--5ca556f3f9cbb420": [],
+      "CH0100_Kneel_Attack_Ing--60c9b7faf2026e1c": [],
+      "CH0100_Normal_Attack_Start--6d4ddff5cc211646": [],
+      "CH0100_Normal_Idle--6e91e76f77c09eff": [],
+      "CH0100_Formation_Idle--6fd983dcba3d2e00": [],
+      "CH0100_Exs--7825dc0897e2fdc1": [],
+      "CH0100_Vital_Dying_ing--7ae2f040fac3a77e": [],
+      "CH0100_Exs_Table--c1c10d63691a3bd2": [],
+      "CH0100_Exs_Table--4b68817f3dd3d4cd": [],
+      "CH0100_Exs_Cutin_Glass--5c7b1c427cade63e": []
+    }
+  },
+  "furniture": [
+    {
+      "id": "f207305_0",
+      "name": "深紫吧台椅",
+      "model": "f207305_0.glb",
+      "clip": "f207305_0",
+      "duration": 14.333333333333334,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 401
+        },
+        {
+          "time": 2.8666666,
+          "tile": 300
+        },
+        {
+          "time": 6.766667,
+          "tile": 402
+        },
+        {
+          "time": 10.400001,
+          "tile": 300
+        },
+        {
+          "time": 13.633334,
+          "tile": 401
+        }
+      ],
+      "yaw": 5.497787143782138,
+      "sourceTimeline": "my_event11_stool04",
+      "sourceGroup": "RequiredTrack_10027",
+      "sourceStudentTrack": "10027"
+    }
+  ]
+}

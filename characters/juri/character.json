@@ -1,0 +1,189 @@
+{
+  "id": "juri",
+  "name": "朱莉 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Juri_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Juri_Original_Cafe_Idle--94f50f725aef0e23",
+    "interact": "Juri_Original_Cafe_Reaction--b83bb3c937627b0d"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Juri_Original_Cafe_Idle--94f50f725aef0e23",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Juri_Original_Cafe_Reaction--b83bb3c937627b0d",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Juri_Original_Cafe_Walk--95c3554119b5128c",
+      "category": "常用"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "Juri_Original_Tactical_Start--2d7984003fb4616c",
+      "sourceName": "Juri_Original_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Juri_Original_Exs_Cutin--4b90dd8ec2d2706b",
+      "sourceName": "Juri_Original_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Juri_Original_Formation_Idle--7e978a36c1feaea9",
+      "sourceName": "Juri_Original_Formation_Idle",
+      "category": "编队与胜利"
+    }
+  ],
+  "mouth": {
+    "material": "Juri_Original_Mouth",
+    "defaultTile": 704,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.5,
+      0.875
+    ],
+    "events": {
+      "Juri_Original_Cafe_Idle--94f50f725aef0e23": [],
+      "Juri_Original_Cafe_Reaction--b83bb3c937627b0d": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.06666667,
+          "tile": 600
+        },
+        {
+          "time": 0.16666667,
+          "tile": 404
+        },
+        {
+          "time": 0.40000004,
+          "tile": 701
+        },
+        {
+          "time": 0.6666667,
+          "tile": 704
+        },
+        {
+          "time": 0.7666667,
+          "tile": 701
+        },
+        {
+          "time": 0.8333334,
+          "tile": 700
+        },
+        {
+          "time": 0.90000004,
+          "tile": 704
+        },
+        {
+          "time": 0.9666667,
+          "tile": 701
+        },
+        {
+          "time": 1.0666667,
+          "tile": 700
+        },
+        {
+          "time": 1.1666667,
+          "tile": 701
+        },
+        {
+          "time": 1.2666668,
+          "tile": 700
+        },
+        {
+          "time": 1.3666668,
+          "tile": 701
+        },
+        {
+          "time": 1.4666667,
+          "tile": 700
+        },
+        {
+          "time": 1.5666667,
+          "tile": 701
+        },
+        {
+          "time": 1.6666667,
+          "tile": 700
+        },
+        {
+          "time": 1.7333335,
+          "tile": 701
+        },
+        {
+          "time": 2.0666668,
+          "tile": 404
+        },
+        {
+          "time": 2.6666667,
+          "tile": 404
+        }
+      ],
+      "Juri_Original_Cafe_Walk--95c3554119b5128c": [],
+      "Juri_Original_Tactical_Start--2d7984003fb4616c": [],
+      "Juri_Original_Exs_Cutin--4b90dd8ec2d2706b": [
+        {
+          "time": 0,
+          "tile": 301
+        },
+        {
+          "time": 1.0666667,
+          "tile": 404
+        },
+        {
+          "time": 1.8333334,
+          "tile": 403
+        },
+        {
+          "time": 2.2,
+          "tile": 504
+        },
+        {
+          "time": 2.4666667,
+          "tile": 506
+        },
+        {
+          "time": 2.7333336,
+          "tile": 601
+        }
+      ],
+      "Juri_Original_Formation_Idle--7e978a36c1feaea9": [
+        {
+          "time": 0,
+          "tile": 705
+        }
+      ]
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs_cutin": {
+        "zoom": 0.871203168656748,
+        "centerY": 1.5782770879036447
+      }
+    }
+  }
+}

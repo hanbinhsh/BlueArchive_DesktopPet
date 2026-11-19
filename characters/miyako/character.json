@@ -1,0 +1,534 @@
+{
+  "id": "miyako",
+  "name": "宫子 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Miyako_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Miyako_Original_Cafe_Idle--723074bd9865eca4",
+    "interact": "Miyako_Original_Cafe_Reaction--68ac8ef15be3e5c2"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Miyako_Original_Cafe_Idle--723074bd9865eca4",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Miyako_Original_Cafe_Reaction--68ac8ef15be3e5c2",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Miyako_Original_Cafe_Walk--85606c4d53fa846b",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Miyako_Original_Victory_Start--2543aed750460afb",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Miyako_Original_Normal_Reload--a6a90ef1596156e5",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Miyako_Original_Formation_Pickup--da6d18ad431dbeb3",
+      "category": "常用"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Miyako_Original_Move_Ing--e946e66e01fdaa32",
+      "sourceName": "Miyako_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Miyako_Original_Formation_Idle--d27fcc6044d8357e",
+      "sourceName": "Miyako_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Miyako_Original_Kneel_Idle--d07407b079a827d5",
+      "sourceName": "Miyako_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Miyako_Original_Move_End_Normal--cec662a82b3c5095",
+      "sourceName": "Miyako_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Miyako_Original_Move_End_Kneel--cea9e4bca76a708a",
+      "sourceName": "Miyako_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Miyako_Original_Victory_End--cd00bedffd792ffe",
+      "sourceName": "Miyako_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Miyako_Original_Normal_Attack_Delay--b1452a5637e85f42",
+      "sourceName": "Miyako_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Miyako_Original_Kneel_Attack_End--af155809de9908bb",
+      "sourceName": "Miyako_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Miyako_Original_Exs--a1fe15551b7ba3f8",
+      "sourceName": "Miyako_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Miyako_Original_Normal_Attack_Start--99c15160ed2162a8",
+      "sourceName": "Miyako_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Miyako_Original_Public01--90655fabd6f0c658",
+      "sourceName": "Miyako_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Miyako_Original_Normal_Idle--8d99959a37211f09",
+      "sourceName": "Miyako_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Miyako_Original_Kneel_Attack_Delay--80a537c8f4b7569a",
+      "sourceName": "Miyako_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Miyako_Original_Kneel_Attack_Ing--158b43260cb7debe",
+      "sourceName": "Miyako_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "Miyako_Original_Move_Jump--1d430338da7775a6",
+      "sourceName": "Miyako_Original_Move_Jump",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Miyako_Original_Kneel_Attack_Start--29961160855a88ff",
+      "sourceName": "Miyako_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Miyako_Original_Vital_Death--2e621e10416dfe56",
+      "sourceName": "Miyako_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Miyako_Original_Normal_Attack_Ing--319a9a9bce1b6dbe",
+      "sourceName": "Miyako_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Miyako_Original_Kneel_Reload--3ef9df9b422561a7",
+      "sourceName": "Miyako_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Miyako_Original_Normal_Attack_End--5413564678faf5fe",
+      "sourceName": "Miyako_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Miyako_Original_Vital_Retreat--54804df66ab584ee",
+      "sourceName": "Miyako_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Miyako_Original_Vital_Dying_Ing--6e4c7759bf919f4a",
+      "sourceName": "Miyako_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Miyako_Original_Vital_Panic--6fe29cb2de3aa7d4",
+      "sourceName": "Miyako_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Miyako_Original_Normal_Callsign--7a8647fe6bd09995",
+      "sourceName": "Miyako_Original_Normal_Callsign",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Miyako_Original_Mouth",
+    "defaultTile": 602,
+    "events": {
+      "Miyako_Original_Cafe_Idle--723074bd9865eca4": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Miyako_Original_Cafe_Reaction--68ac8ef15be3e5c2": [
+        {
+          "time": 0,
+          "tile": 602
+        },
+        {
+          "time": 1.4000001,
+          "tile": 402
+        },
+        {
+          "time": 2.266667,
+          "tile": 704
+        },
+        {
+          "time": 3.766667,
+          "tile": 402
+        },
+        {
+          "time": 3.8000002,
+          "tile": 401
+        }
+      ],
+      "Miyako_Original_Cafe_Walk--85606c4d53fa846b": [
+        {
+          "time": 0,
+          "tile": 602
+        }
+      ],
+      "Miyako_Original_Victory_Start--2543aed750460afb": [
+        {
+          "time": 0,
+          "tile": 602
+        },
+        {
+          "time": 0.6666667,
+          "tile": 402
+        },
+        {
+          "time": 1.4333334,
+          "tile": 300
+        }
+      ],
+      "Miyako_Original_Normal_Reload--a6a90ef1596156e5": [
+        {
+          "time": 0,
+          "tile": 602
+        },
+        {
+          "time": 0.5,
+          "tile": 402
+        },
+        {
+          "time": 1.4666667,
+          "tile": 401
+        }
+      ],
+      "Miyako_Original_Formation_Pickup--da6d18ad431dbeb3": [
+        {
+          "time": 0,
+          "tile": 602
+        },
+        {
+          "time": 0.43333334,
+          "tile": 402
+        },
+        {
+          "time": 3.1666667,
+          "tile": 401
+        },
+        {
+          "time": 3.2333336,
+          "tile": 300
+        }
+      ],
+      "Miyako_Original_Move_Ing--e946e66e01fdaa32": [
+        {
+          "time": 0.033333335,
+          "tile": 602
+        }
+      ],
+      "Miyako_Original_Formation_Idle--d27fcc6044d8357e": [],
+      "Miyako_Original_Kneel_Idle--d07407b079a827d5": [
+        {
+          "time": 0,
+          "tile": 602
+        }
+      ],
+      "Miyako_Original_Move_End_Normal--cec662a82b3c5095": [
+        {
+          "time": 0,
+          "tile": 602
+        }
+      ],
+      "Miyako_Original_Move_End_Kneel--cea9e4bca76a708a": [
+        {
+          "time": 0,
+          "tile": 602
+        }
+      ],
+      "Miyako_Original_Victory_End--cd00bedffd792ffe": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Miyako_Original_Normal_Attack_Delay--b1452a5637e85f42": [
+        {
+          "time": 0,
+          "tile": 602
+        }
+      ],
+      "Miyako_Original_Kneel_Attack_End--af155809de9908bb": [
+        {
+          "time": 0,
+          "tile": 602
+        }
+      ],
+      "Miyako_Original_Exs--a1fe15551b7ba3f8": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.33333334,
+          "tile": 402
+        },
+        {
+          "time": 0.9333334,
+          "tile": 401
+        }
+      ],
+      "Miyako_Original_Normal_Attack_Start--99c15160ed2162a8": [
+        {
+          "time": 0,
+          "tile": 602
+        },
+        {
+          "time": 0.20000002,
+          "tile": 402
+        },
+        {
+          "time": 0.33333334,
+          "tile": 401
+        }
+      ],
+      "Miyako_Original_Public01--90655fabd6f0c658": [
+        {
+          "time": 0,
+          "tile": 602
+        },
+        {
+          "time": 1.1,
+          "tile": 305
+        },
+        {
+          "time": 2.2,
+          "tile": 401
+        }
+      ],
+      "Miyako_Original_Normal_Idle--8d99959a37211f09": [
+        {
+          "time": 0,
+          "tile": 602
+        }
+      ],
+      "Miyako_Original_Kneel_Attack_Delay--80a537c8f4b7569a": [
+        {
+          "time": 0,
+          "tile": 602
+        }
+      ],
+      "Miyako_Original_Kneel_Attack_Ing--158b43260cb7debe": [
+        {
+          "time": 0,
+          "tile": 602
+        }
+      ],
+      "Miyako_Original_Move_Jump--1d430338da7775a6": [
+        {
+          "time": 0,
+          "tile": 602
+        }
+      ],
+      "Miyako_Original_Kneel_Attack_Start--29961160855a88ff": [
+        {
+          "time": 0,
+          "tile": 602
+        },
+        {
+          "time": 0.13333334,
+          "tile": 402
+        },
+        {
+          "time": 0.36666667,
+          "tile": 602
+        }
+      ],
+      "Miyako_Original_Vital_Death--2e621e10416dfe56": [
+        {
+          "time": 0,
+          "tile": 503
+        },
+        {
+          "time": 0.8000001,
+          "tile": 602
+        }
+      ],
+      "Miyako_Original_Normal_Attack_Ing--319a9a9bce1b6dbe": [
+        {
+          "time": 0,
+          "tile": 602
+        }
+      ],
+      "Miyako_Original_Kneel_Reload--3ef9df9b422561a7": [
+        {
+          "time": 0,
+          "tile": 602
+        }
+      ],
+      "Miyako_Original_Normal_Attack_End--5413564678faf5fe": [
+        {
+          "time": 0,
+          "tile": 602
+        }
+      ],
+      "Miyako_Original_Vital_Retreat--54804df66ab584ee": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "Miyako_Original_Vital_Dying_Ing--6e4c7759bf919f4a": [
+        {
+          "time": 0,
+          "tile": 602
+        }
+      ],
+      "Miyako_Original_Vital_Panic--6fe29cb2de3aa7d4": [
+        {
+          "time": 0,
+          "tile": 502
+        }
+      ],
+      "Miyako_Original_Normal_Callsign--7a8647fe6bd09995": [
+        {
+          "time": 0,
+          "tile": 602
+        },
+        {
+          "time": 0.26666668,
+          "tile": 401
+        },
+        {
+          "time": 0.36666667,
+          "tile": 402
+        },
+        {
+          "time": 0.7666667,
+          "tile": 401
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "f8105_0",
+      "name": "粉红色折叠式露营椅",
+      "model": "f8105_0.glb",
+      "clip": "f8105_0",
+      "duration": 17.3,
+      "mouthEvents": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 4.6666665,
+          "tile": 602
+        },
+        {
+          "time": 5.766667,
+          "tile": 200
+        },
+        {
+          "time": 5.8,
+          "tile": 200
+        },
+        {
+          "time": 8.233334,
+          "tile": 602
+        },
+        {
+          "time": 12.733334,
+          "tile": 300
+        },
+        {
+          "time": 15.133334,
+          "tile": 402
+        }
+      ],
+      "yaw": 0.3141592653589793
+    }
+  ]
+}

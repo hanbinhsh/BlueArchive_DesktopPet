@@ -1,0 +1,408 @@
+{
+  "id": "momoi",
+  "name": "小桃 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Momoi_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Momoi_Original_Cafe_Idle--116600356b967855",
+    "interact": "Momoi_Original_Cafe_Reaction--526730de5fd502a1"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Momoi_Original_Cafe_Idle--116600356b967855",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Momoi_Original_Cafe_Reaction--526730de5fd502a1",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Momoi_Original_Cafe_Walk--d46ded6b9a29dfe1",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Momoi_Original_Victory_Start--bb50edf6567aab55",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Momoi_Original_Normal_Reload--76487ec2af497405",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Momoi_Original_Formation_Pickup--4df7217900b70d89",
+      "category": "常用"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Momoi_Original_Formation_Idle--fca9145febf2d215",
+      "sourceName": "Momoi_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Momoi_Original_Victory_End--c3b8f374c285bc25",
+      "sourceName": "Momoi_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Momoi_Original_Exs--c1212ade45a54fbb",
+      "sourceName": "Momoi_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Momoi_Original_Kneel_Idle--b95c3606c1f79cf4",
+      "sourceName": "Momoi_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Momoi_Original_Normal_Attack_Delay--b7ab28007e297548",
+      "sourceName": "Momoi_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Momoi_Original_Vital_Panic--b2b56ee6130f6112",
+      "sourceName": "Momoi_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Momoi_Original_Move_Ing--f40b3c6a0538e68c",
+      "sourceName": "Momoi_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_stand_attack_delay",
+      "label": "掩体站姿 · 攻击 · 间隔",
+      "clip": "Momoi_Original_Stand_Attack_Delay--18d4feadb0fb1996",
+      "sourceName": "Momoi_Original_Stand_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Momoi_Original_Vital_Death--29c17bcdb147135",
+      "sourceName": "Momoi_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Momoi_Original_Vital_Retreat--5b4449de19ccb7",
+      "sourceName": "Momoi_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Momoi_Original_Vital_Dying_ing--28a6c037e1fa0582",
+      "sourceName": "Momoi_Original_Vital_Dying_ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_stand",
+      "label": "移动 · 结束 · 掩体站姿",
+      "clip": "Momoi_Original_Move_End_Stand--6de2b4ae5c88c359",
+      "sourceName": "Momoi_Original_Move_End_Stand",
+      "category": "移动"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Momoi_Original_Public01--70d9c19aa3531e40",
+      "sourceName": "Momoi_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_stand_reload",
+      "label": "掩体站姿 · 换弹",
+      "clip": "Momoi_Original_Stand_Reload--74a2510f5d733bfc",
+      "sourceName": "Momoi_Original_Stand_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Momoi_Original_Normal_Callsign--7a494cfe4c89208a",
+      "sourceName": "Momoi_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Momoi_Original_Move_End_Kneel--eeffdf3ce9d4b3f1",
+      "sourceName": "Momoi_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Momoi_Original_Kneel_Reload--e7f364652924c4c9",
+      "sourceName": "Momoi_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Momoi_Original_Kneel_Attack_Ing--db1a4479183c8445",
+      "sourceName": "Momoi_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Momoi_Original_Normal_Attack_End--d70c0e29945f06c7",
+      "sourceName": "Momoi_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Momoi_Original_Kneel_Attack_Delay--b9747016e89fb195",
+      "sourceName": "Momoi_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "Momoi_Original_Move_Jump--b5ff62f5366ef8b2",
+      "sourceName": "Momoi_Original_Move_Jump",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Momoi_Original_Kneel_Attack_End--a86340658c814701",
+      "sourceName": "Momoi_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_idle",
+      "label": "掩体站姿 · 待机",
+      "clip": "Momoi_Original_Stand_Idle--a64e0d5ac91f80c3",
+      "sourceName": "Momoi_Original_Stand_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Momoi_Original_Normal_Attack_Ing--a62ef892b973f06d",
+      "sourceName": "Momoi_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Momoi_Original_Normal_Idle--a01510c34d9eeedc",
+      "sourceName": "Momoi_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_ing",
+      "label": "掩体站姿 · 攻击 · 持续",
+      "clip": "Momoi_Original_Stand_Attack_Ing--23f7347a1939b03c",
+      "sourceName": "Momoi_Original_Stand_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_end",
+      "label": "掩体站姿 · 攻击 · 结束",
+      "clip": "Momoi_Original_Stand_Attack_End--29ca134f603c4d1a",
+      "sourceName": "Momoi_Original_Stand_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Momoi_Original_Normal_Attack_Start--3c9cedf6d8c0da42",
+      "sourceName": "Momoi_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Momoi_Original_Kneel_Attack_Start--473092c2bf850119",
+      "sourceName": "Momoi_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Momoi_Original_Move_End_Normal--50f39e473879a4ef",
+      "sourceName": "Momoi_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_stand_attack_start",
+      "label": "掩体站姿 · 攻击 · 开始",
+      "clip": "Momoi_Original_Stand_Attack_Start--684f1c7f441f5e09",
+      "sourceName": "Momoi_Original_Stand_Attack_Start",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Momoi_Original_Mouth",
+    "defaultTile": 704,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "Momoi_Original_Cafe_Idle--116600356b967855": [],
+      "Momoi_Original_Cafe_Reaction--526730de5fd502a1": [
+        {
+          "time": 1.6000001,
+          "tile": 504
+        },
+        {
+          "time": 1.7,
+          "tile": 504
+        }
+      ],
+      "Momoi_Original_Cafe_Walk--d46ded6b9a29dfe1": [],
+      "Momoi_Original_Victory_Start--bb50edf6567aab55": [
+        {
+          "time": 0,
+          "tile": 602
+        },
+        {
+          "time": 0.5666667,
+          "tile": 600
+        },
+        {
+          "time": 0.86666673,
+          "tile": 404
+        },
+        {
+          "time": 1.4333334,
+          "tile": 406
+        },
+        {
+          "time": 1.9666668,
+          "tile": 701
+        }
+      ],
+      "Momoi_Original_Normal_Reload--76487ec2af497405": [],
+      "Momoi_Original_Formation_Pickup--4df7217900b70d89": [],
+      "Momoi_Original_Formation_Idle--fca9145febf2d215": [],
+      "Momoi_Original_Victory_End--c3b8f374c285bc25": [],
+      "Momoi_Original_Exs--c1212ade45a54fbb": [],
+      "Momoi_Original_Kneel_Idle--b95c3606c1f79cf4": [],
+      "Momoi_Original_Normal_Attack_Delay--b7ab28007e297548": [],
+      "Momoi_Original_Vital_Panic--b2b56ee6130f6112": [],
+      "Momoi_Original_Move_Ing--f40b3c6a0538e68c": [],
+      "Momoi_Original_Stand_Attack_Delay--18d4feadb0fb1996": [],
+      "Momoi_Original_Vital_Death--29c17bcdb147135": [],
+      "Momoi_Original_Vital_Retreat--5b4449de19ccb7": [],
+      "Momoi_Original_Vital_Dying_ing--28a6c037e1fa0582": [],
+      "Momoi_Original_Move_End_Stand--6de2b4ae5c88c359": [],
+      "Momoi_Original_Public01--70d9c19aa3531e40": [],
+      "Momoi_Original_Stand_Reload--74a2510f5d733bfc": [],
+      "Momoi_Original_Normal_Callsign--7a494cfe4c89208a": [],
+      "Momoi_Original_Move_End_Kneel--eeffdf3ce9d4b3f1": [],
+      "Momoi_Original_Kneel_Reload--e7f364652924c4c9": [],
+      "Momoi_Original_Kneel_Attack_Ing--db1a4479183c8445": [],
+      "Momoi_Original_Normal_Attack_End--d70c0e29945f06c7": [],
+      "Momoi_Original_Kneel_Attack_Delay--b9747016e89fb195": [],
+      "Momoi_Original_Move_Jump--b5ff62f5366ef8b2": [],
+      "Momoi_Original_Kneel_Attack_End--a86340658c814701": [],
+      "Momoi_Original_Stand_Idle--a64e0d5ac91f80c3": [],
+      "Momoi_Original_Normal_Attack_Ing--a62ef892b973f06d": [],
+      "Momoi_Original_Normal_Idle--a01510c34d9eeedc": [],
+      "Momoi_Original_Stand_Attack_Ing--23f7347a1939b03c": [],
+      "Momoi_Original_Stand_Attack_End--29ca134f603c4d1a": [],
+      "Momoi_Original_Normal_Attack_Start--3c9cedf6d8c0da42": [],
+      "Momoi_Original_Kneel_Attack_Start--473092c2bf850119": [],
+      "Momoi_Original_Move_End_Normal--50f39e473879a4ef": [],
+      "Momoi_Original_Stand_Attack_Start--684f1c7f441f5e09": []
+    }
+  },
+  "furniture": [
+    {
+      "id": "f2301_0",
+      "name": "桌上冰球游戏机（双人）",
+      "model": "f2301_0.glb",
+      "clip": "f2301_0",
+      "duration": 4,
+      "mouthEvents": [],
+      "note": "与小绿 · 原版同步互动。",
+      "yaw": 5.497787143782138
+    },
+    {
+      "id": "f12301_1",
+      "name": "游戏机用木质屏幕（双人）",
+      "model": "f12301_1.glb",
+      "clip": "f12301_1",
+      "duration": 17.333333333333336,
+      "mouthEvents": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.9999999999999996,
+          "tile": 704
+        },
+        {
+          "time": 2.8333334299999997,
+          "tile": 200
+        },
+        {
+          "time": 3.9666667999999996,
+          "tile": 201
+        },
+        {
+          "time": 5.3333335,
+          "tile": 502
+        },
+        {
+          "time": 6.2333336,
+          "tile": 506
+        },
+        {
+          "time": 8.766667,
+          "tile": 403
+        },
+        {
+          "time": 10.233334,
+          "tile": 507
+        },
+        {
+          "time": 11.933334,
+          "tile": 403
+        },
+        {
+          "time": 15.333333333333337,
+          "tile": 704
+        }
+      ],
+      "note": "与小绿 · 原版同步互动。",
+      "yaw": 4.319689898685965
+    }
+  ]
+}

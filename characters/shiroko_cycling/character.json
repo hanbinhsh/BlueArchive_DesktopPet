@@ -1,0 +1,354 @@
+{
+  "id": "shiroko_cycling",
+  "name": "白子 · 骑行",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Shiroko_RidingSuit; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Shiroko_RidingSuit_Cafe_Idle--e20bdde865d1faee",
+    "interact": "Shiroko_RidingSuit_Cafe_Reaction--2d091b9a155d6d35"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Shiroko_RidingSuit_Cafe_Idle--e20bdde865d1faee",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Shiroko_RidingSuit_Cafe_Reaction--2d091b9a155d6d35",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Shiroko_RidingSuit_Cafe_Walk--40b5793654fa9681",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Shiroko_RidingSuit_Victory_Start--74c14646e3850309",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Shiroko_RidingSuit_Normal_Reload--c5192a193c3b1cce",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Shiroko_RidingSuit_Formation_Pickup--1303d4a388cfc993",
+      "category": "常用"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Shiroko_RidingSuit_Victory_End--e6a01738dbbfcb9c",
+      "sourceName": "Shiroko_RidingSuit_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_stand_reload",
+      "label": "掩体站姿 · 换弹",
+      "clip": "Shiroko_RidingSuit_Stand_Reload--dcf9c7d62a572b71",
+      "sourceName": "Shiroko_RidingSuit_Stand_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Shiroko_RidingSuit_Kneel_Reload--fc1ace2830341a30",
+      "sourceName": "Shiroko_RidingSuit_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Shiroko_RidingSuit_Normal_Callsign--d56b6702510e8399",
+      "sourceName": "Shiroko_RidingSuit_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Shiroko_RidingSuit_Vital_Death--d569fea5d333cc0f",
+      "sourceName": "Shiroko_RidingSuit_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_delay",
+      "label": "掩体站姿 · 攻击 · 间隔",
+      "clip": "Shiroko_RidingSuit_Stand_Attack_Delay--cb33124fdd347480",
+      "sourceName": "Shiroko_RidingSuit_Stand_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Shiroko_RidingSuit_Vital_Dying_Ing--cb23696330c87dda",
+      "sourceName": "Shiroko_RidingSuit_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Shiroko_RidingSuit_Kneel_Attack_Delay--b5c170d3e803c35b",
+      "sourceName": "Shiroko_RidingSuit_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_stand",
+      "label": "移动 · 结束 · 掩体站姿",
+      "clip": "Shiroko_RidingSuit_Move_End_Stand--b419e2f56162f853",
+      "sourceName": "Shiroko_RidingSuit_Move_End_Stand",
+      "category": "移动"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Shiroko_RidingSuit_Formation_Idle--ac8d87d3550ebfbd",
+      "sourceName": "Shiroko_RidingSuit_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Shiroko_RidingSuit_Kneel_Attack_End--a56c7cd1a8317fd0",
+      "sourceName": "Shiroko_RidingSuit_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Shiroko_RidingSuit_Normal_Attack_Start--e43627f78fbda51",
+      "sourceName": "Shiroko_RidingSuit_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Shiroko_RidingSuit_Normal_Idle--2b2e75a0c4730a43",
+      "sourceName": "Shiroko_RidingSuit_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Shiroko_RidingSuit_Vital_Panic--4d0043343475c0b6",
+      "sourceName": "Shiroko_RidingSuit_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Shiroko_RidingSuit_Kneel_Attack_Ing--5087d0feac147ad3",
+      "sourceName": "Shiroko_RidingSuit_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "Shiroko_RidingSuit_Move_Jump--534433b16148f307",
+      "sourceName": "Shiroko_RidingSuit_Move_Jump",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Shiroko_RidingSuit_Vital_Retreat--53d102dcacb06493",
+      "sourceName": "Shiroko_RidingSuit_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Shiroko_RidingSuit_Move_Ing--5d39582d45b09bac",
+      "sourceName": "Shiroko_RidingSuit_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Shiroko_RidingSuit_Normal_Attack_Delay--5e2cc71d260574c4",
+      "sourceName": "Shiroko_RidingSuit_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Shiroko_RidingSuit_Kneel_Idle--6a964d7070d20dd6",
+      "sourceName": "Shiroko_RidingSuit_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_start",
+      "label": "掩体站姿 · 攻击 · 开始",
+      "clip": "Shiroko_RidingSuit_Stand_Attack_Start--6fa63dad18dcade2",
+      "sourceName": "Shiroko_RidingSuit_Stand_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Shiroko_RidingSuit_Move_End_Kneel--70b4d49c0256fadd",
+      "sourceName": "Shiroko_RidingSuit_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_stand_attack_end",
+      "label": "掩体站姿 · 攻击 · 结束",
+      "clip": "Shiroko_RidingSuit_Stand_Attack_End--726e27601173f143",
+      "sourceName": "Shiroko_RidingSuit_Stand_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Shiroko_RidingSuit_Kneel_Attack_Start--728c7982e0986341",
+      "sourceName": "Shiroko_RidingSuit_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Shiroko_RidingSuit_Normal_Attack_Ing--767c9ca6f55c648d",
+      "sourceName": "Shiroko_RidingSuit_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_ing",
+      "label": "掩体站姿 · 攻击 · 持续",
+      "clip": "Shiroko_RidingSuit_Stand_Attack_Ing--77ded2a0ab815945",
+      "sourceName": "Shiroko_RidingSuit_Stand_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Shiroko_RidingSuit_Move_End_Normal--7a13717198b8d8af",
+      "sourceName": "Shiroko_RidingSuit_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Shiroko_RidingSuit_Normal_Attack_End--7e8f4eba995eeddd",
+      "sourceName": "Shiroko_RidingSuit_Normal_Attack_End",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Shiroko_RidingSuit_Mouth",
+    "defaultTile": 402,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "Shiroko_RidingSuit_Cafe_Idle--e20bdde865d1faee": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 3.2000003,
+          "tile": 401
+        }
+      ],
+      "Shiroko_RidingSuit_Cafe_Reaction--2d091b9a155d6d35": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 4.1000004,
+          "tile": 401
+        },
+        {
+          "time": 4.7333336,
+          "tile": 401
+        }
+      ],
+      "Shiroko_RidingSuit_Cafe_Walk--40b5793654fa9681": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 2.6666667,
+          "tile": 401
+        }
+      ],
+      "Shiroko_RidingSuit_Victory_Start--74c14646e3850309": [],
+      "Shiroko_RidingSuit_Normal_Reload--c5192a193c3b1cce": [],
+      "Shiroko_RidingSuit_Formation_Pickup--1303d4a388cfc993": [],
+      "Shiroko_RidingSuit_Victory_End--e6a01738dbbfcb9c": [],
+      "Shiroko_RidingSuit_Stand_Reload--dcf9c7d62a572b71": [],
+      "Shiroko_RidingSuit_Kneel_Reload--fc1ace2830341a30": [],
+      "Shiroko_RidingSuit_Normal_Callsign--d56b6702510e8399": [],
+      "Shiroko_RidingSuit_Vital_Death--d569fea5d333cc0f": [],
+      "Shiroko_RidingSuit_Stand_Attack_Delay--cb33124fdd347480": [],
+      "Shiroko_RidingSuit_Vital_Dying_Ing--cb23696330c87dda": [],
+      "Shiroko_RidingSuit_Kneel_Attack_Delay--b5c170d3e803c35b": [],
+      "Shiroko_RidingSuit_Move_End_Stand--b419e2f56162f853": [],
+      "Shiroko_RidingSuit_Formation_Idle--ac8d87d3550ebfbd": [],
+      "Shiroko_RidingSuit_Kneel_Attack_End--a56c7cd1a8317fd0": [],
+      "Shiroko_RidingSuit_Normal_Attack_Start--e43627f78fbda51": [],
+      "Shiroko_RidingSuit_Normal_Idle--2b2e75a0c4730a43": [],
+      "Shiroko_RidingSuit_Vital_Panic--4d0043343475c0b6": [],
+      "Shiroko_RidingSuit_Kneel_Attack_Ing--5087d0feac147ad3": [],
+      "Shiroko_RidingSuit_Move_Jump--534433b16148f307": [],
+      "Shiroko_RidingSuit_Vital_Retreat--53d102dcacb06493": [],
+      "Shiroko_RidingSuit_Move_Ing--5d39582d45b09bac": [],
+      "Shiroko_RidingSuit_Normal_Attack_Delay--5e2cc71d260574c4": [],
+      "Shiroko_RidingSuit_Kneel_Idle--6a964d7070d20dd6": [],
+      "Shiroko_RidingSuit_Stand_Attack_Start--6fa63dad18dcade2": [],
+      "Shiroko_RidingSuit_Move_End_Kneel--70b4d49c0256fadd": [],
+      "Shiroko_RidingSuit_Stand_Attack_End--726e27601173f143": [],
+      "Shiroko_RidingSuit_Kneel_Attack_Start--728c7982e0986341": [],
+      "Shiroko_RidingSuit_Normal_Attack_Ing--767c9ca6f55c648d": [],
+      "Shiroko_RidingSuit_Stand_Attack_Ing--77ded2a0ab815945": [],
+      "Shiroko_RidingSuit_Move_End_Normal--7a13717198b8d8af": [],
+      "Shiroko_RidingSuit_Normal_Attack_End--7e8f4eba995eeddd": []
+    }
+  },
+  "furniture": [
+    {
+      "id": "f11301_0",
+      "name": "阿拜多斯讲堂自行车",
+      "model": "f11301_0.glb",
+      "clip": "f11301_0",
+      "duration": 34.766666666666666,
+      "mouthEvents": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 11.666666666666666,
+          "tile": 401
+        },
+        {
+          "time": 17.000000166666666,
+          "tile": 402
+        },
+        {
+          "time": 19.700000666666668,
+          "tile": 401
+        },
+        {
+          "time": 23.1,
+          "tile": 401
+        }
+      ],
+      "yaw": 5.183627878423159
+    }
+  ]
+}

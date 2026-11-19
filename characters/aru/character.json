@@ -1,0 +1,566 @@
+{
+  "id": "aru",
+  "name": "爱露 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Aru_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Aru_Original_Cafe_Idle--cde1e57d384e6ea3",
+    "interact": "Aru_Original_Cafe_Reaction--8a7638c3c4b9589d"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Aru_Original_Cafe_Idle--cde1e57d384e6ea3",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Aru_Original_Cafe_Reaction--8a7638c3c4b9589d",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Aru_Original_Cafe_Walk--2714540922291220",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Aru_Original_Victory_Start--4786d6841053233a",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Aru_Original_Normal_Reload--7d4dfe1ad3cb3db5",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Aru_Original_Formation_Pickup--a6cd55d06b27f285",
+      "category": "常用"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Aru_Original_Public01--b08e7803caf4e296",
+      "sourceName": "Aru_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Aru_Original_Formation_Idle--8ce1b142226d8aec",
+      "sourceName": "Aru_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Aru_Original_Victory_End--723db5dd035f91a7",
+      "sourceName": "Aru_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Aru_Original_Normal_Callsign--94dd4e7addf5cee3",
+      "sourceName": "Aru_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Aru_Original_Normal_Attack_End--d966719ae6a8dbbe",
+      "sourceName": "Aru_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Aru_Original_Normal_Attack_Start--d5019ed08d078160",
+      "sourceName": "Aru_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Aru_Original_Kneel_Attack_Start--bcb6fbc4174dc6f4",
+      "sourceName": "Aru_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Aru_Original_Kneel_Attack_Delay--f9245123e05b20de",
+      "sourceName": "Aru_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Aru_Original_Kneel_Attack_Ing--b506bec8baec8c4c",
+      "sourceName": "Aru_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Aru_Original_Vital_Death--a825c84d30ad31a0",
+      "sourceName": "Aru_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Aru_Original_Vital_Panic--a5715a9e7f8034d2",
+      "sourceName": "Aru_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Aru_Original_Move_Ing--99dd66cf303b0849",
+      "sourceName": "Aru_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Aru_Original_Normal_Idle--812f22bc2861a00c",
+      "sourceName": "Aru_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Aru_Original_Normal_Attack_Ing--f31fc187a430f30e",
+      "sourceName": "Aru_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Aru_Original_Vital_Dying_Ing--12d9f43675d32b71",
+      "sourceName": "Aru_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_callsign",
+      "label": "蹲姿 · 回应",
+      "clip": "Aru_Original_Kneel_Callsign--22178274ba82fb97",
+      "sourceName": "Aru_Original_Kneel_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Aru_Original_Kneel_Reload--2ee577a6520bc4ad",
+      "sourceName": "Aru_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Aru_Original_Move_End_Kneel--4c8f427fba8c58f",
+      "sourceName": "Aru_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Aru_Original_Kneel_Idle--39c8f8ab6ecca5cc",
+      "sourceName": "Aru_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_callsign",
+      "label": "移动 · 回应",
+      "clip": "Aru_Original_Move_Callsign--444738eb5800af9d",
+      "sourceName": "Aru_Original_Move_Callsign",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Aru_Original_Kneel_Attack_End--4f0a26f5e2174e3d",
+      "sourceName": "Aru_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Aru_Original_Normal_Attack_Delay--50be3fc4f8b8b3b9",
+      "sourceName": "Aru_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Aru_Original_Exs--6ebfbf1fa6a9175b",
+      "sourceName": "Aru_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Aru_Original_Move_End_Normal--70574dbc73803f13",
+      "sourceName": "Aru_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Aru_Original_Vital_Retreat--51bcef0a7d754dba",
+      "sourceName": "Aru_Original_Vital_Retreat",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Aru_Original_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "Aru_Original_Cafe_Idle--cde1e57d384e6ea3": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Aru_Original_Cafe_Reaction--8a7638c3c4b9589d": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.36666667,
+          "tile": 407
+        },
+        {
+          "time": 1.2,
+          "tile": 406
+        },
+        {
+          "time": 1.6666667,
+          "tile": 704
+        }
+      ],
+      "Aru_Original_Cafe_Walk--2714540922291220": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Aru_Original_Victory_Start--4786d6841053233a": [
+        {
+          "time": 0,
+          "tile": 406
+        },
+        {
+          "time": 0.3,
+          "tile": 707
+        },
+        {
+          "time": 0.73333335,
+          "tile": 704
+        },
+        {
+          "time": 1.8666667,
+          "tile": 406
+        }
+      ],
+      "Aru_Original_Normal_Reload--7d4dfe1ad3cb3db5": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.5000001,
+          "tile": 504
+        },
+        {
+          "time": 1.6666667,
+          "tile": 401
+        }
+      ],
+      "Aru_Original_Formation_Pickup--a6cd55d06b27f285": [
+        {
+          "time": 0,
+          "tile": 406
+        },
+        {
+          "time": 0.8333334,
+          "tile": 406
+        },
+        {
+          "time": 2.3666668,
+          "tile": 704
+        },
+        {
+          "time": 3.4333334,
+          "tile": 406
+        }
+      ],
+      "Aru_Original_Public01--b08e7803caf4e296": [
+        {
+          "time": 0,
+          "tile": 602
+        },
+        {
+          "time": 0.16666669,
+          "tile": 406
+        },
+        {
+          "time": 0.9333334,
+          "tile": 602
+        }
+      ],
+      "Aru_Original_Formation_Idle--8ce1b142226d8aec": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Aru_Original_Victory_End--723db5dd035f91a7": [
+        {
+          "time": 0,
+          "tile": 406
+        },
+        {
+          "time": 2,
+          "tile": 406
+        }
+      ],
+      "Aru_Original_Normal_Callsign--94dd4e7addf5cee3": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.16666667,
+          "tile": 503
+        },
+        {
+          "time": 0.23333335,
+          "tile": 704
+        },
+        {
+          "time": 1.1,
+          "tile": 504
+        },
+        {
+          "time": 1.2,
+          "tile": 401
+        }
+      ],
+      "Aru_Original_Normal_Attack_End--d966719ae6a8dbbe": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Aru_Original_Normal_Attack_Start--d5019ed08d078160": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Aru_Original_Kneel_Attack_Start--bcb6fbc4174dc6f4": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Aru_Original_Kneel_Attack_Delay--f9245123e05b20de": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Aru_Original_Kneel_Attack_Ing--b506bec8baec8c4c": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Aru_Original_Vital_Death--a825c84d30ad31a0": [
+        {
+          "time": 0,
+          "tile": 604
+        },
+        {
+          "time": 0.6666667,
+          "tile": 504
+        },
+        {
+          "time": 1.3333334,
+          "tile": 401
+        }
+      ],
+      "Aru_Original_Vital_Panic--a5715a9e7f8034d2": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "Aru_Original_Move_Ing--99dd66cf303b0849": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Aru_Original_Normal_Idle--812f22bc2861a00c": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Aru_Original_Normal_Attack_Ing--f31fc187a430f30e": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Aru_Original_Vital_Dying_Ing--12d9f43675d32b71": [
+        {
+          "time": 0,
+          "tile": 604
+        }
+      ],
+      "Aru_Original_Kneel_Callsign--22178274ba82fb97": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.9666667,
+          "tile": 504
+        },
+        {
+          "time": 1.0333334,
+          "tile": 401
+        }
+      ],
+      "Aru_Original_Kneel_Reload--2ee577a6520bc4ad": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.4666667,
+          "tile": 504
+        },
+        {
+          "time": 1.6000001,
+          "tile": 401
+        }
+      ],
+      "Aru_Original_Move_End_Kneel--4c8f427fba8c58f": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.43333337,
+          "tile": 504
+        },
+        {
+          "time": 0.5,
+          "tile": 401
+        }
+      ],
+      "Aru_Original_Kneel_Idle--39c8f8ab6ecca5cc": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Aru_Original_Move_Callsign--444738eb5800af9d": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.20000002,
+          "tile": 502
+        },
+        {
+          "time": 0.4666667,
+          "tile": 401
+        }
+      ],
+      "Aru_Original_Kneel_Attack_End--4f0a26f5e2174e3d": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Aru_Original_Normal_Attack_Delay--50be3fc4f8b8b3b9": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Aru_Original_Exs--6ebfbf1fa6a9175b": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.0333334,
+          "tile": 602
+        },
+        {
+          "time": 3.0333335,
+          "tile": 401
+        },
+        {
+          "time": 3.266667,
+          "tile": 400
+        },
+        {
+          "time": 3.4666667,
+          "tile": 401
+        },
+        {
+          "time": 4.133333,
+          "tile": 406
+        }
+      ],
+      "Aru_Original_Move_End_Normal--70574dbc73803f13": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.43333337,
+          "tile": 504
+        },
+        {
+          "time": 0.5,
+          "tile": 401
+        }
+      ],
+      "Aru_Original_Vital_Retreat--51bcef0a7d754dba": [
+        {
+          "time": 0,
+          "tile": 604
+        },
+        {
+          "time": 0.13333334,
+          "tile": 402
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,524 @@
+{
+  "id": "hina",
+  "name": "日奈 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Hina_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Hina_Original_Cafe_Idle--86140597046b0c72",
+    "interact": "Hina_Original_Cafe_Reaction--17c7f6e083798305"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Hina_Original_Cafe_Idle--86140597046b0c72",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Hina_Original_Cafe_Reaction--17c7f6e083798305",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Hina_Original_Cafe_Walk--c2b6d8fcca23cf7f",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Hina_Original_Victory_Start--ee088ed51025fc11",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Hina_Original_Normal_Reload--46db2b541ac51cd9",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Hina_Original_Formation_Pickup--dd2ee342f9ad42da",
+      "category": "常用"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Hina_Original_Formation_Idle--eb4d6cb146564dd3",
+      "sourceName": "Hina_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_stand_attack_delay",
+      "label": "掩体站姿 · 攻击 · 间隔",
+      "clip": "Hina_Original_Stand_Attack_Delay--c66601e580d33cac",
+      "sourceName": "Hina_Original_Stand_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Hina_Original_Move_Ing--f9c64ba8ea705986",
+      "sourceName": "Hina_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Hina_Original_Vital_Dying_ing--b353d07c1b18a4b6",
+      "sourceName": "Hina_Original_Vital_Dying_ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_idle",
+      "label": "掩体站姿 · 待机",
+      "clip": "Hina_Original_Stand_Idle--a12caf4a4f5a2a4a",
+      "sourceName": "Hina_Original_Stand_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Hina_Original_Normal_Attack_Start--9715c12fdd4dc922",
+      "sourceName": "Hina_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Hina_Original_Normal_Attack_Ing--9591a4e31472f852",
+      "sourceName": "Hina_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Hina_Original_Normal_Idle--87e093f24f42995d",
+      "sourceName": "Hina_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_ing",
+      "label": "掩体站姿 · 攻击 · 持续",
+      "clip": "Hina_Original_Stand_Attack_Ing--87bf447473e18831",
+      "sourceName": "Hina_Original_Stand_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_callsign",
+      "label": "移动 · 回应",
+      "clip": "Hina_Original_Move_Callsign--85e24d4cceec443f",
+      "sourceName": "Hina_Original_Move_Callsign",
+      "category": "移动"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Hina_Original_Public01--f939a2283a19e72",
+      "sourceName": "Hina_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_stand_callsign",
+      "label": "掩体站姿 · 回应",
+      "clip": "Hina_Original_Stand_Callsign--1dabecc3685faf06",
+      "sourceName": "Hina_Original_Stand_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Hina_Original_Normal_Callsign--2cf3aa9fad878bd9",
+      "sourceName": "Hina_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_stand",
+      "label": "移动 · 结束 · 掩体站姿",
+      "clip": "Hina_Original_Move_End_Stand--307e283600663e35",
+      "sourceName": "Hina_Original_Move_End_Stand",
+      "category": "移动"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Hina_Original_Exs--362e40cac5380354",
+      "sourceName": "Hina_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Hina_Original_Vital_Retreat--38921a2c8d6adaeb",
+      "sourceName": "Hina_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Hina_Original_Move_End_Normal--3ff01959934827ff",
+      "sourceName": "Hina_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Hina_Original_Vital_Death--41b7a04d699afa14",
+      "sourceName": "Hina_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Hina_Original_Victory_End--4a4f130d52431e51",
+      "sourceName": "Hina_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Hina_Original_Normal_Attack_Delay--4e8b44b4b657fba9",
+      "sourceName": "Hina_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Hina_Original_Normal_Attack_End--5ac7bfde708343c0",
+      "sourceName": "Hina_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_reload",
+      "label": "掩体站姿 · 换弹",
+      "clip": "Hina_Original_Stand_Reload--5c01e5103bdb4509",
+      "sourceName": "Hina_Original_Stand_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Hina_Original_Vital_Panic--6b35e1933f8b66d3",
+      "sourceName": "Hina_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_start",
+      "label": "掩体站姿 · 攻击 · 开始",
+      "clip": "Hina_Original_Stand_Attack_Start--7747079206179112",
+      "sourceName": "Hina_Original_Stand_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_end",
+      "label": "掩体站姿 · 攻击 · 结束",
+      "clip": "Hina_Original_Stand_Attack_End--7bb548fa3670d90a",
+      "sourceName": "Hina_Original_Stand_Attack_End",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Hina_Original_Mouth",
+    "defaultTile": 300,
+    "events": {
+      "Hina_Original_Cafe_Idle--86140597046b0c72": [],
+      "Hina_Original_Cafe_Reaction--17c7f6e083798305": [
+        {
+          "time": 0,
+          "tile": 101
+        },
+        {
+          "time": 0.2,
+          "tile": 102
+        },
+        {
+          "time": 0.23333335,
+          "tile": 301
+        },
+        {
+          "time": 0.43333337,
+          "tile": 300
+        },
+        {
+          "time": 2,
+          "tile": 301
+        },
+        {
+          "time": 2.1,
+          "tile": 101
+        }
+      ],
+      "Hina_Original_Cafe_Walk--c2b6d8fcca23cf7f": [],
+      "Hina_Original_Victory_Start--ee088ed51025fc11": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.5,
+          "tile": 302
+        },
+        {
+          "time": 1.0333334,
+          "tile": 2
+        },
+        {
+          "time": 1.5333334,
+          "tile": 301
+        },
+        {
+          "time": 2.3333335,
+          "tile": 300
+        }
+      ],
+      "Hina_Original_Normal_Reload--46db2b541ac51cd9": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Hina_Original_Formation_Pickup--dd2ee342f9ad42da": [
+        {
+          "time": 0,
+          "tile": 101
+        },
+        {
+          "time": 0.7333334,
+          "tile": 301
+        },
+        {
+          "time": 1.4000001,
+          "tile": 300
+        },
+        {
+          "time": 4.666667,
+          "tile": 101
+        }
+      ],
+      "Hina_Original_Formation_Idle--eb4d6cb146564dd3": [],
+      "Hina_Original_Stand_Attack_Delay--c66601e580d33cac": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Hina_Original_Move_Ing--f9c64ba8ea705986": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Hina_Original_Vital_Dying_ing--b353d07c1b18a4b6": [],
+      "Hina_Original_Stand_Idle--a12caf4a4f5a2a4a": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Hina_Original_Normal_Attack_Start--9715c12fdd4dc922": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Hina_Original_Normal_Attack_Ing--9591a4e31472f852": [
+        {
+          "time": 0,
+          "tile": 102
+        }
+      ],
+      "Hina_Original_Normal_Idle--87e093f24f42995d": [],
+      "Hina_Original_Stand_Attack_Ing--87bf447473e18831": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Hina_Original_Move_Callsign--85e24d4cceec443f": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.53333336,
+          "tile": 202
+        },
+        {
+          "time": 0.6333334,
+          "tile": 302
+        },
+        {
+          "time": 1.0333334,
+          "tile": 300
+        },
+        {
+          "time": 1.3333334,
+          "tile": 300
+        }
+      ],
+      "Hina_Original_Public01--f939a2283a19e72": [
+        {
+          "time": 0.033333335,
+          "tile": 101
+        },
+        {
+          "time": 1.3666668,
+          "tile": 100
+        },
+        {
+          "time": 2.4333336,
+          "tile": 300
+        }
+      ],
+      "Hina_Original_Stand_Callsign--1dabecc3685faf06": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.20000002,
+          "tile": 202
+        },
+        {
+          "time": 0.3,
+          "tile": 101
+        },
+        {
+          "time": 0.90000004,
+          "tile": 300
+        }
+      ],
+      "Hina_Original_Normal_Callsign--2cf3aa9fad878bd9": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.26666668,
+          "tile": 202
+        },
+        {
+          "time": 0.40000004,
+          "tile": 300
+        }
+      ],
+      "Hina_Original_Move_End_Stand--307e283600663e35": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.33333334,
+          "tile": 301
+        },
+        {
+          "time": 0.40000004,
+          "tile": 300
+        }
+      ],
+      "Hina_Original_Exs--362e40cac5380354": [
+        {
+          "time": 0,
+          "tile": 202
+        },
+        {
+          "time": 0.16666667,
+          "tile": 101
+        }
+      ],
+      "Hina_Original_Vital_Retreat--38921a2c8d6adaeb": [
+        {
+          "time": 0,
+          "tile": 302
+        }
+      ],
+      "Hina_Original_Move_End_Normal--3ff01959934827ff": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Hina_Original_Vital_Death--41b7a04d699afa14": [],
+      "Hina_Original_Victory_End--4a4f130d52431e51": [
+        {
+          "time": 0,
+          "tile": 101
+        }
+      ],
+      "Hina_Original_Normal_Attack_Delay--4e8b44b4b657fba9": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Hina_Original_Normal_Attack_End--5ac7bfde708343c0": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Hina_Original_Stand_Reload--5c01e5103bdb4509": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.5,
+          "tile": 302
+        },
+        {
+          "time": 1.0333334,
+          "tile": 2
+        },
+        {
+          "time": 1.5333334,
+          "tile": 301
+        },
+        {
+          "time": 2.3333335,
+          "tile": 300
+        }
+      ],
+      "Hina_Original_Vital_Panic--6b35e1933f8b66d3": [
+        {
+          "time": 0,
+          "tile": 302
+        }
+      ],
+      "Hina_Original_Stand_Attack_Start--7747079206179112": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Hina_Original_Stand_Attack_End--7bb548fa3670d90a": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ]
+    },
+    "columns": 4,
+    "rows": 4
+  },
+  "framing": {
+    "actions": {
+      "original_vital_retreat": {
+        "zoom": 1,
+        "centerY": 0.7480344383590557
+      },
+      "original_vital_death": {
+        "zoom": 1,
+        "centerY": 0.7928433397855431
+      }
+    }
+  }
+}

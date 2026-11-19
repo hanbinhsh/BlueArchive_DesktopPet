@@ -1,0 +1,56 @@
+# Dependencies & environments
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Build & packaging outputs
+dist/
+release/
+native/bin/
+native/obj/
+*.tsbuildinfo
+
+# Local caches, dev profiles & test artifacts
+.cache/
+.dev-profile/
+test-results/
+playwright-report/
+blob-report/
+
+# Raw game assets & external download tools
+.assets/
+tools/asset-downloader/
+
+# Large generated character binary assets
+# (Keep characters/README.md and characters/*/character.json tracked for clean metadata diffs)
+characters/**/*.glb
+characters/**/*.gltf
+characters/**/*.bin
+characters/**/*.png
+characters/**/*.jpg
+characters/**/*.webp
+
+# Logs, archives & temporary files
+*.log
+*.tmp
+*.bak
+*.zip
+*.7z
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo

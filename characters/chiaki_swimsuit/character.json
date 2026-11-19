@@ -1,0 +1,470 @@
+{
+  "id": "chiaki_swimsuit",
+  "name": "千明 · 泳装",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0348; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0348_Cafe_Idle--135f674259eddf5a",
+    "interact": "CH0348_Cafe_Reaction--1204ddea56c07f10"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0348_Cafe_Idle--135f674259eddf5a",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0348_Cafe_Reaction--1204ddea56c07f10",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0348_Cafe_Walk--a5e4b7062ffef41c",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0348_Formation_Pickup--a9afb133c5758997",
+      "category": "常用"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0348_Tactical_Start--f01e445ab844ad3f",
+      "sourceName": "CH0348_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_03",
+      "label": "EX 技能 · Cutin · 03",
+      "clip": "CH0348_Exs_Cutin_03--f0042a43163ba23b",
+      "sourceName": "CH0348_Exs_Cutin_03",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0348_Formation_Idle--fbed5c553e75c14a",
+      "sourceName": "CH0348_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "CH0348_Exs--c2829da4ff953204",
+      "sourceName": "CH0348_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_02",
+      "label": "EX 技能 · Cutin · 02",
+      "clip": "CH0348_Exs_Cutin_02--b75bd6df5ca64560",
+      "sourceName": "CH0348_Exs_Cutin_02",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle_random",
+      "label": "编队 · 待机 · Random",
+      "clip": "CH0348_Formation_Idle_Random--b59f2cbd7a0c214d",
+      "sourceName": "CH0348_Formation_Idle_Random",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs_cutin_01",
+      "label": "EX 技能 · Cutin · 01",
+      "clip": "CH0348_Exs_Cutin_01--84db94501a312ad4",
+      "sourceName": "CH0348_Exs_Cutin_01",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_05",
+      "label": "EX 技能 · Cutin · 05",
+      "clip": "CH0348_Exs_Cutin_05--9a1e6df9978d58",
+      "sourceName": "CH0348_Exs_Cutin_05",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_04",
+      "label": "EX 技能 · Cutin · 04",
+      "clip": "CH0348_Exs_Cutin_04--68c3d14a2f5b8b22",
+      "sourceName": "CH0348_Exs_Cutin_04",
+      "category": "技能"
+    }
+  ],
+  "mouth": {
+    "material": "CH0348_Mouth",
+    "defaultTile": 404,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.5,
+      0.5
+    ],
+    "events": {
+      "CH0348_Cafe_Idle--135f674259eddf5a": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "CH0348_Cafe_Reaction--1204ddea56c07f10": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.3,
+          "tile": 402
+        },
+        {
+          "time": 1.6000001,
+          "tile": 401
+        },
+        {
+          "time": 1.7666668,
+          "tile": 201
+        },
+        {
+          "time": 2.2666667,
+          "tile": 404
+        },
+        {
+          "time": 2.4666667,
+          "tile": 603
+        },
+        {
+          "time": 3.966667,
+          "tile": 704
+        },
+        {
+          "time": 4.7000003,
+          "tile": 701
+        },
+        {
+          "time": 6.066667,
+          "tile": 404
+        }
+      ],
+      "CH0348_Cafe_Walk--a5e4b7062ffef41c": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "CH0348_Formation_Pickup--a9afb133c5758997": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.3,
+          "tile": 102
+        },
+        {
+          "time": 1.4000002,
+          "tile": 704
+        },
+        {
+          "time": 1.6333334,
+          "tile": 707
+        },
+        {
+          "time": 2.966667,
+          "tile": 704
+        },
+        {
+          "time": 5.7000003,
+          "tile": 603
+        },
+        {
+          "time": 8.1,
+          "tile": 706
+        },
+        {
+          "time": 9.8,
+          "tile": 704
+        }
+      ],
+      "CH0348_Tactical_Start--f01e445ab844ad3f": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.9666667,
+          "tile": 102
+        }
+      ],
+      "CH0348_Exs_Cutin_03--f0042a43163ba23b": [
+        {
+          "time": 0,
+          "tile": 200
+        }
+      ],
+      "CH0348_Formation_Idle--fbed5c553e75c14a": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "CH0348_Exs--c2829da4ff953204": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.20000002,
+          "tile": 102
+        },
+        {
+          "time": 0.8333334,
+          "tile": 404
+        },
+        {
+          "time": 1.7333335,
+          "tile": 701
+        },
+        {
+          "time": 2.6333334,
+          "tile": 404
+        },
+        {
+          "time": 2.8000002,
+          "tile": 102
+        },
+        {
+          "time": 3.3666668,
+          "tile": 305
+        },
+        {
+          "time": 3.5000002,
+          "tile": 703
+        },
+        {
+          "time": 3.6666667,
+          "tile": 506
+        },
+        {
+          "time": 4.1333337,
+          "tile": 402
+        },
+        {
+          "time": 4.8,
+          "tile": 404
+        },
+        {
+          "time": 5.3,
+          "tile": 102
+        }
+      ],
+      "CH0348_Exs_Cutin_02--b75bd6df5ca64560": [
+        {
+          "time": 0,
+          "tile": 200
+        }
+      ],
+      "CH0348_Formation_Idle_Random--b59f2cbd7a0c214d": [
+        {
+          "time": 0,
+          "tile": 707
+        }
+      ],
+      "CH0348_Exs_Cutin_08--b44bfddf2703067e": [],
+      "CH0348_Exs_Cutin_07--8b07cff88d606b4a": [
+        {
+          "time": 0,
+          "tile": 701
+        },
+        {
+          "time": 1.4333334,
+          "tile": 102
+        }
+      ],
+      "CH0348_Exs_Cutin_01--84db94501a312ad4": [
+        {
+          "time": 0,
+          "tile": 200
+        }
+      ],
+      "CH0348_Exs_Cutin_08--262d794e56443ab4": [
+        {
+          "time": 0,
+          "tile": 102
+        },
+        {
+          "time": 0.5,
+          "tile": 404
+        },
+        {
+          "time": 0.7,
+          "tile": 402
+        },
+        {
+          "time": 1.2,
+          "tile": 702
+        },
+        {
+          "time": 1.4333334,
+          "tile": 305
+        },
+        {
+          "time": 1.7333335,
+          "tile": 601
+        },
+        {
+          "time": 2.7,
+          "tile": 404
+        },
+        {
+          "time": 3.2333336,
+          "tile": 603
+        }
+      ],
+      "CH0348_Exs_Cutin_05--9a1e6df9978d58": [
+        {
+          "time": 0,
+          "tile": 200
+        }
+      ],
+      "CH0348_Exs_Cutin_06--6dbb301ad25df38": [
+        {
+          "time": 0,
+          "tile": 200
+        },
+        {
+          "time": 0.10000001,
+          "tile": 404
+        },
+        {
+          "time": 0.26666668,
+          "tile": 102
+        }
+      ],
+      "CH0348_Exs_Cutin_04--68c3d14a2f5b8b22": [
+        {
+          "time": 0,
+          "tile": 200
+        }
+      ]
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs_cutin_03": {
+        "zoom": 0.2741334792295729,
+        "centerY": 0.9890091002302142
+      },
+      "original_exs_cutin_02": {
+        "zoom": 0.2741334792295729,
+        "centerY": 0.9890091002302142
+      },
+      "original_exs_cutin_01": {
+        "zoom": 0.2741334792295729,
+        "centerY": 0.9890091002302142
+      },
+      "original_exs_cutin_05": {
+        "zoom": 0.2741334792295729,
+        "centerY": 0.9890091002302142
+      },
+      "original_exs_cutin_04": {
+        "zoom": 0.2741334792295729,
+        "centerY": 0.9890091002302142
+      }
+    }
+  },
+  "furniture": [
+    {
+      "id": "f211312_0",
+      "name": "沙滩派对套装",
+      "model": "f211312_0.glb",
+      "clip": "f211312_0",
+      "duration": 22.233333333333334,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 404,
+          "flipped": true
+        },
+        {
+          "time": 4.0000000000000036,
+          "tile": 404,
+          "flipped": true
+        },
+        {
+          "time": 4.333333340000004,
+          "tile": 405,
+          "flipped": true
+        },
+        {
+          "time": 5.033333400000004,
+          "tile": 404,
+          "flipped": true
+        },
+        {
+          "time": 5.466666700000004,
+          "tile": 102,
+          "flipped": true
+        },
+        {
+          "time": 6.433333400000004,
+          "tile": 404,
+          "flipped": true
+        },
+        {
+          "time": 9.266667000000004,
+          "tile": 102,
+          "flipped": true
+        },
+        {
+          "time": 10.666667000000004,
+          "tile": 707,
+          "flipped": true
+        },
+        {
+          "time": 11.266667000000004,
+          "tile": 706,
+          "flipped": true
+        },
+        {
+          "time": 11.966667000000005,
+          "tile": 402,
+          "flipped": true
+        },
+        {
+          "time": 13.000000000000004,
+          "tile": 604,
+          "flipped": true
+        },
+        {
+          "time": 13.233334000000003,
+          "tile": 705,
+          "flipped": true
+        },
+        {
+          "time": 15.133334000000003,
+          "tile": 404,
+          "flipped": true
+        },
+        {
+          "time": 18.233333333333334,
+          "tile": 404,
+          "flipped": true
+        }
+      ],
+      "yaw": 5.497787143782138,
+      "sourceTimeline": "my_event094_beachparty",
+      "sourceGroup": "RequiredTrack_26016",
+      "sourceStudentTrack": "26016"
+    }
+  ]
+}

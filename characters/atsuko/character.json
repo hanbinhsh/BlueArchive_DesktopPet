@@ -1,0 +1,242 @@
+{
+  "id": "atsuko",
+  "name": "亚津子 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Atsuko_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Atsuko_Original_Cafe_Idle--b25cd27b1c0b6f48",
+    "interact": "Atsuko_Original_Cafe_Reaction--516b49e39352e4fd"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Atsuko_Original_Cafe_Idle--b25cd27b1c0b6f48",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Atsuko_Original_Cafe_Reaction--516b49e39352e4fd",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Atsuko_Original_Cafe_Walk--270d9d156441aa3a",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Atsuko_Original_Victory_Start--1001c66a96bd71e1",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Atsuko_Original_Normal_Reload--4f6d78186fddce3d",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Atsuko_Original_Formation_Pickup--7f2c3134c1a2cd46",
+      "category": "常用"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Atsuko_Original_Normal_Attack_Start--edda2b7951fc6bbe",
+      "sourceName": "Atsuko_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Atsuko_Original_Kneel_Reload--fe2e5bb8bbc159e6",
+      "sourceName": "Atsuko_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "Atsuko_Original_Move_Jump--cfff67a145e12018",
+      "sourceName": "Atsuko_Original_Move_Jump",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Atsuko_Original_Normal_Callsign--c1a127a67b82bf39",
+      "sourceName": "Atsuko_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Atsuko_Original_Normal_Attack_Delay--ba61702a41aafff8",
+      "sourceName": "Atsuko_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Atsuko_Original_Kneel_Attack_Ing--b6a11cd242b68f60",
+      "sourceName": "Atsuko_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Atsuko_Original_Vital_Dying_Ing--a9f00ad4dbd56fc9",
+      "sourceName": "Atsuko_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Atsuko_Original_Public01--9f81f21b6567ee0d",
+      "sourceName": "Atsuko_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Atsuko_Original_Vital_Panic--f5febbf3203a4919",
+      "sourceName": "Atsuko_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Atsuko_Original_Exs--81db285b24a13936",
+      "sourceName": "Atsuko_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Atsuko_Original_Vital_Death--169a9d9063bef242",
+      "sourceName": "Atsuko_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Atsuko_Original_Move_Ing--258aca65385f5ce5",
+      "sourceName": "Atsuko_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Atsuko_Original_Kneel_Attack_Delay--268cf4b978bba148",
+      "sourceName": "Atsuko_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Atsuko_Original_Kneel_Idle--276d4c2d7c375359",
+      "sourceName": "Atsuko_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Atsuko_Original_Kneel_Attack_Start--2f1d63c03cdac1d6",
+      "sourceName": "Atsuko_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Atsuko_Original_Move_End_Kneel--3331b12c1ae18f17",
+      "sourceName": "Atsuko_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Atsuko_Original_Formation_Idle--59bb8e6c56d2130",
+      "sourceName": "Atsuko_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Atsuko_Original_Normal_Attack_End--657c95a6c0c85e8",
+      "sourceName": "Atsuko_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Atsuko_Original_Vital_Retreat--6639379ab15db086",
+      "sourceName": "Atsuko_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Atsuko_Original_Kneel_Attack_End--6a98854415a1d32a",
+      "sourceName": "Atsuko_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Atsuko_Original_Exs_Cutin--750f9f24507a10a2",
+      "sourceName": "Atsuko_Original_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Atsuko_Original_Move_End_Normal--12cdd7dc66cd6ae",
+      "sourceName": "Atsuko_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Atsuko_Original_Normal_Attack_Ing--79fdb1c1114076c7",
+      "sourceName": "Atsuko_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Atsuko_Original_Normal_Idle--d98cb906a2afa57",
+      "sourceName": "Atsuko_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Atsuko_Original_Victory_End--8b90430208163c53",
+      "sourceName": "Atsuko_Original_Victory_End",
+      "category": "编队与胜利"
+    }
+  ],
+  "furniture": [
+    {
+      "id": "f205301_0",
+      "name": "皇家钻石软垫椅",
+      "model": "f205301_0.glb",
+      "clip": "f205301_0",
+      "duration": 24.233333333333334,
+      "mouthEvents": [],
+      "yaw": 2.356194490192345,
+      "sourceTimeline": "my_event08_AtsukoChair",
+      "sourceGroup": "RequiredTrack_10042",
+      "sourceStudentTrack": "10042"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "mashiro",
+  "name": "真白 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Mashiro_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Mashiro_Original_Cafe_Idle--29bead66d513dfd0",
+    "interact": "Mashiro_Original_Cafe_Reaction--19254c125f65065"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Mashiro_Original_Cafe_Idle--29bead66d513dfd0",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Mashiro_Original_Cafe_Reaction--19254c125f65065",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Mashiro_Original_Cafe_Walk--2afaa2ab7acad7b2",
+      "category": "常用"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Mashiro_Original_Formation_Idle--d977905322889d88",
+      "sourceName": "Mashiro_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Mashiro_Original_Exs_Cutin--bc7e5084089f9e9e",
+      "sourceName": "Mashiro_Original_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "Mashiro_Original_Tactical_Start--2fa5fe7564647e5c",
+      "sourceName": "Mashiro_Original_Tactical_Start",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Mashiro_Original_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.125,
+      0.5
+    ],
+    "events": {
+      "Mashiro_Original_Cafe_Idle--29bead66d513dfd0": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.9666667,
+          "tile": 401
+        }
+      ],
+      "Mashiro_Original_Cafe_Reaction--19254c125f65065": [
+        {
+          "time": 0,
+          "tile": 602
+        },
+        {
+          "time": 0.06666667,
+          "tile": 401
+        },
+        {
+          "time": 0.23333335,
+          "tile": 500
+        },
+        {
+          "time": 0.70000005,
+          "tile": 704
+        },
+        {
+          "time": 1.8666668,
+          "tile": 402
+        }
+      ],
+      "Mashiro_Original_Cafe_Walk--2afaa2ab7acad7b2": [
+        {
+          "time": 0,
+          "tile": 602
+        }
+      ],
+      "Mashiro_Original_Formation_Idle--d977905322889d88": [
+        {
+          "time": 0,
+          "tile": 602
+        },
+        {
+          "time": 3.3333335,
+          "tile": 602
+        }
+      ],
+      "Mashiro_Original_Exs_Cutin--bc7e5084089f9e9e": [],
+      "Mashiro_Original_Tactical_Start--2fa5fe7564647e5c": [
+        {
+          "time": 0,
+          "tile": 504
+        },
+        {
+          "time": 1,
+          "tile": 300
+        }
+      ]
+    }
+  }
+}

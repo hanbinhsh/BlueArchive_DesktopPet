@@ -1,0 +1,320 @@
+{
+  "id": "moe",
+  "name": "萌绘 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Moe_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Moe_Original_Cafe_Idle--e762f2a5bf8f9d28",
+    "interact": "Moe_Original_Cafe_Reaction--3f60398bc36a3f8e"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Moe_Original_Cafe_Idle--e762f2a5bf8f9d28",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Moe_Original_Cafe_Reaction--3f60398bc36a3f8e",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Moe_Original_Cafe_Walk--97e8b1400e4f1c5",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Moe_Original_Formation_Pickup--8337a4b75aaa2304",
+      "category": "常用"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Moe_Original_Exs_Cutin--ea2dc53c4330e98b",
+      "sourceName": "Moe_Original_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "Moe_Original_Tactical_Start--b3b3f89d84a57629",
+      "sourceName": "Moe_Original_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Moe_Original_Formation_Idle--7c45796495b733a8",
+      "sourceName": "Moe_Original_Formation_Idle",
+      "category": "编队与胜利"
+    }
+  ],
+  "mouth": {
+    "material": "Moe_Original_Mouth",
+    "defaultTile": 407,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "Moe_Original_Cafe_Idle--e762f2a5bf8f9d28": [
+        {
+          "time": 0,
+          "tile": 306
+        },
+        {
+          "time": 3.3333335,
+          "tile": 306
+        }
+      ],
+      "Moe_Original_Cafe_Reaction--3f60398bc36a3f8e": [
+        {
+          "time": 0,
+          "tile": 504
+        },
+        {
+          "time": 0.33333334,
+          "tile": 704
+        },
+        {
+          "time": 0.40000004,
+          "tile": 407
+        },
+        {
+          "time": 0.6,
+          "tile": 303
+        },
+        {
+          "time": 2.3333335,
+          "tile": 704
+        },
+        {
+          "time": 2.8666668,
+          "tile": 306
+        },
+        {
+          "time": 3.5000002,
+          "tile": 306
+        }
+      ],
+      "Moe_Original_Cafe_Walk--97e8b1400e4f1c5": [
+        {
+          "time": 0,
+          "tile": 303
+        },
+        {
+          "time": 2.6666667,
+          "tile": 303
+        }
+      ],
+      "Moe_Original_Formation_Pickup--8337a4b75aaa2304": [
+        {
+          "time": 0,
+          "tile": 306
+        },
+        {
+          "time": 0.20000002,
+          "tile": 303
+        },
+        {
+          "time": 0.36666667,
+          "tile": 306
+        },
+        {
+          "time": 0.5,
+          "tile": 303
+        },
+        {
+          "time": 0.6333334,
+          "tile": 306
+        },
+        {
+          "time": 1.2333333,
+          "tile": 707
+        },
+        {
+          "time": 1.5666667,
+          "tile": 100
+        },
+        {
+          "time": 2.266667,
+          "tile": 306
+        },
+        {
+          "time": 2.8333335,
+          "tile": 707
+        },
+        {
+          "time": 3.0666668,
+          "tile": 306
+        },
+        {
+          "time": 4.9,
+          "tile": 100
+        },
+        {
+          "time": 5.3333335,
+          "tile": 406,
+          "flipped": true
+        },
+        {
+          "time": 5.6333337,
+          "tile": 303
+        },
+        {
+          "time": 6.2000003,
+          "tile": 306
+        },
+        {
+          "time": 9.900001,
+          "tile": 303
+        },
+        {
+          "time": 10.066668,
+          "tile": 306
+        },
+        {
+          "time": 11.366667,
+          "tile": 303
+        },
+        {
+          "time": 11.900001,
+          "tile": 306
+        }
+      ],
+      "Moe_Original_Exs_Cutin--ea2dc53c4330e98b": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.06666666,
+          "tile": 303
+        },
+        {
+          "time": 0.73333335,
+          "tile": 506
+        },
+        {
+          "time": 1.2666668,
+          "tile": 407
+        },
+        {
+          "time": 1.8666668,
+          "tile": 306
+        },
+        {
+          "time": 2.5666668,
+          "tile": 407
+        },
+        {
+          "time": 4.9333334,
+          "tile": 407
+        }
+      ],
+      "Moe_Original_Tactical_Start--b3b3f89d84a57629": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.7666667,
+          "tile": 402
+        },
+        {
+          "time": 0.8000001,
+          "tile": 504
+        },
+        {
+          "time": 1,
+          "tile": 704
+        },
+        {
+          "time": 1.2333335,
+          "tile": 407
+        },
+        {
+          "time": 2,
+          "tile": 407
+        }
+      ],
+      "Moe_Original_Formation_Idle--7c45796495b733a8": [
+        {
+          "time": 0,
+          "tile": 306
+        },
+        {
+          "time": 3.3333335,
+          "tile": 306
+        }
+      ]
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs_cutin": {
+        "zoom": 0.9488316279791248,
+        "centerY": 1.4491506811683257
+      }
+    }
+  },
+  "furniture": [
+    {
+      "id": "f8106_0",
+      "name": "蓝色折叠式露营椅",
+      "model": "f8106_0.glb",
+      "clip": "f8106_0",
+      "duration": 20.266666666666666,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 303
+        },
+        {
+          "time": 2.533333333333333,
+          "tile": 303
+        },
+        {
+          "time": 5.1000000016666664,
+          "tile": 305
+        },
+        {
+          "time": 6.666666766666666,
+          "tile": 406
+        },
+        {
+          "time": 7.666666766666666,
+          "tile": 303
+        },
+        {
+          "time": 10.133333333333333,
+          "tile": 303
+        },
+        {
+          "time": 12.666666666666666,
+          "tile": 303
+        },
+        {
+          "time": 15.200000000000001,
+          "tile": 303
+        },
+        {
+          "time": 17.733333333333334,
+          "tile": 303
+        }
+      ],
+      "yaw": 0.47123889803846897,
+      "sourceTimeline": "my_military_01_moe_chair",
+      "sourceGroup": "RequiredTrack_20018",
+      "sourceStudentTrack": "20018"
+    }
+  ]
+}

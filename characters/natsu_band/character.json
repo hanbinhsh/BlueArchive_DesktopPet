@@ -1,0 +1,270 @@
+{
+  "id": "natsu_band",
+  "name": "夏 · 乐队",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0221; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0221_Cafe_Idle--b6916bc84a38ca5d",
+    "interact": "CH0221_Cafe_Reaction--bd55a04746de4345"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0221_Cafe_Idle--b6916bc84a38ca5d",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0221_Cafe_Reaction--bd55a04746de4345",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0221_Cafe_Walk--8bdbd541bd20d576",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "CH0221_Victory_Start--cb4fa4af6bb6493d",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "CH0221_Normal_Reload--ac69da0da3b0aae5",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0221_Formation_Pickup--8bd36f9053a05751",
+      "category": "常用"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0221_Formation_Idle--fa8b2adf8b41249a",
+      "sourceName": "CH0221_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "CH0221_Normal_Attack_Delay--bc8d0014f77e9797",
+      "sourceName": "CH0221_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "CH0221_Normal_Attack_Ing--aefd21ed355dca5c",
+      "sourceName": "CH0221_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "CH0221_Normal_Attack_Start--45b4b6280465991e",
+      "sourceName": "CH0221_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "CH0221_Normal_Attack_End--5b3d9577dee8695a",
+      "sourceName": "CH0221_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "CH0221_Move_End_Kneel--d64adf758833704a",
+      "sourceName": "CH0221_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "CH0221_Public01--cafcd566f923de8d",
+      "sourceName": "CH0221_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "CH0221_Vital_Panic--be29fcd8d2a3d9e5",
+      "sourceName": "CH0221_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "CH0221_Kneel_Attack_End--b67205142b6c1dbe",
+      "sourceName": "CH0221_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "CH0221_Vital_Retreat--a5563d9c14c39736",
+      "sourceName": "CH0221_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "CH0221_Vital_Dying_ing--a50a8dfe7cf3bd9d",
+      "sourceName": "CH0221_Vital_Dying_ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "CH0221_Victory_End--9e98591a960adcb1",
+      "sourceName": "CH0221_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "CH0221_Kneel_Attack_Start--f4e3024c361eb488",
+      "sourceName": "CH0221_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "CH0221_Exs--e2de241408f04e8",
+      "sourceName": "CH0221_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "CH0221_Move_Ing--1df579a506c6c945",
+      "sourceName": "CH0221_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "CH0221_Move_End_Normal--2268ab2fd2dba07a",
+      "sourceName": "CH0221_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "CH0221_Normal_Callsign--2374e6a335b490cc",
+      "sourceName": "CH0221_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "CH0221_Kneel_Attack_Delay--2cd2bc977b39b894",
+      "sourceName": "CH0221_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "CH0221_Kneel_Reload--7ab754eb58cbab",
+      "sourceName": "CH0221_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "CH0221_Kneel_Attack_Ing--34a35811ce7f9f30",
+      "sourceName": "CH0221_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "CH0221_Kneel_Idle--34bbbb0a935ee9b6",
+      "sourceName": "CH0221_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "CH0221_Normal_Idle--4beef6cacb513f4b",
+      "sourceName": "CH0221_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "CH0221_Vital_Death--7c852580d8baffa8",
+      "sourceName": "CH0221_Vital_Death",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "CH0221_Mouth",
+    "defaultTile": 200,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "CH0221_Cafe_Idle--b6916bc84a38ca5d": [],
+      "CH0221_Cafe_Reaction--bd55a04746de4345": [],
+      "CH0221_Cafe_Walk--8bdbd541bd20d576": [],
+      "CH0221_Victory_Start--cb4fa4af6bb6493d": [],
+      "CH0221_Normal_Reload--ac69da0da3b0aae5": [],
+      "CH0221_Formation_Pickup--8bd36f9053a05751": [],
+      "CH0221_Formation_Idle--fa8b2adf8b41249a": [],
+      "CH0221_Normal_Attack_Delay--bc8d0014f77e9797": [],
+      "CH0221_Normal_Attack_Ing--aefd21ed355dca5c": [],
+      "CH0221_Normal_Attack_Start--45b4b6280465991e": [],
+      "CH0221_Normal_Attack_End--5b3d9577dee8695a": [],
+      "CH0221_Move_End_Kneel--d64adf758833704a": [],
+      "CH0221_Public01--cafcd566f923de8d": [],
+      "CH0221_Vital_Panic--be29fcd8d2a3d9e5": [],
+      "CH0221_Kneel_Attack_End--b67205142b6c1dbe": [],
+      "CH0221_Vital_Retreat--a5563d9c14c39736": [],
+      "CH0221_Vital_Dying_ing--a50a8dfe7cf3bd9d": [],
+      "CH0221_Victory_End--9e98591a960adcb1": [],
+      "CH0221_Kneel_Attack_Start--f4e3024c361eb488": [],
+      "CH0221_Exs--e2de241408f04e8": [],
+      "CH0221_Move_Ing--1df579a506c6c945": [],
+      "CH0221_Move_End_Normal--2268ab2fd2dba07a": [],
+      "CH0221_Normal_Callsign--2374e6a335b490cc": [],
+      "CH0221_Kneel_Attack_Delay--2cd2bc977b39b894": [],
+      "CH0221_Kneel_Reload--7ab754eb58cbab": [],
+      "CH0221_Kneel_Attack_Ing--34a35811ce7f9f30": [],
+      "CH0221_Kneel_Idle--34bbbb0a935ee9b6": [],
+      "CH0221_Normal_Idle--4beef6cacb513f4b": [],
+      "CH0221_Vital_Death--7c852580d8baffa8": []
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210370_0",
+      "name": "节奏引导者",
+      "model": "f210370_0.glb",
+      "clip": "f210370_0",
+      "duration": 7.7666666666666675,
+      "mouthEvents": [],
+      "yaw": 5.811946409141117
+    }
+  ],
+  "framing": {
+    "actions": {
+      "original_exs": {
+        "zoom": 0.5837137287930751,
+        "centerY": 1
+      }
+    }
+  }
+}

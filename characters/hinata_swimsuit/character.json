@@ -1,0 +1,324 @@
+{
+  "id": "hinata_swimsuit",
+  "name": "日向 · 泳装",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0210; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0210_Cafe_Idle--2bd49aaba4deb180",
+    "interact": "CH0210_Cafe_Reaction--f85ed5fb92ff45e5"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0210_Cafe_Idle--2bd49aaba4deb180",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0210_Cafe_Reaction--f85ed5fb92ff45e5",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0210_Cafe_Walk--699605b862ed2218",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0210_Formation_Pickup--acc4d25f2aec5b7a",
+      "category": "常用"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0210_Formation_Idle--206d3ba9934eeb55",
+      "sourceName": "CH0210_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "CH0210_Exs--a675916070ee9e7c",
+      "sourceName": "CH0210_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0210_Tactical_Start--49053898dd2fdde5",
+      "sourceName": "CH0210_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_tactical_start_random",
+      "label": "Tactical · 开始 · Random",
+      "clip": "CH0210_Tactical_Start_Random--52caf66645df6f7e",
+      "sourceName": "CH0210_Tactical_Start_Random",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "CH0210_Exs_Cutin--6204496f6424180c",
+      "sourceName": "CH0210_Exs_Cutin",
+      "category": "技能"
+    }
+  ],
+  "mouth": {
+    "material": "CH0210_Mouth",
+    "defaultTile": 402,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.25,
+      0.5
+    ],
+    "events": {
+      "CH0210_Cafe_Idle--2bd49aaba4deb180": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ],
+      "CH0210_Cafe_Reaction--f85ed5fb92ff45e5": [
+        {
+          "time": 0,
+          "tile": 506
+        },
+        {
+          "time": 0.30000004,
+          "tile": 402
+        },
+        {
+          "time": 1.6333334,
+          "tile": 300
+        },
+        {
+          "time": 3.7666671,
+          "tile": 402
+        },
+        {
+          "time": 5.3333335,
+          "tile": 402
+        }
+      ],
+      "CH0210_Cafe_Walk--699605b862ed2218": [],
+      "CH0210_Formation_Pickup--acc4d25f2aec5b7a": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.099998996,
+          "tile": 602
+        },
+        {
+          "time": 0.366663,
+          "tile": 402
+        },
+        {
+          "time": 1.199988,
+          "tile": 506
+        },
+        {
+          "time": 4.166625,
+          "tile": 705
+        },
+        {
+          "time": 4.833285,
+          "tile": 300
+        },
+        {
+          "time": 7.533258,
+          "tile": 602
+        },
+        {
+          "time": 8.066586,
+          "tile": 705
+        },
+        {
+          "time": 8.566581,
+          "tile": 300
+        }
+      ],
+      "CH0210_Formation_Idle--206d3ba9934eeb55": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0210_Exs--a675916070ee9e7c": [
+        {
+          "time": 0,
+          "tile": 507
+        },
+        {
+          "time": 0.20000002,
+          "tile": 506
+        },
+        {
+          "time": 3.7666671,
+          "tile": 507
+        },
+        {
+          "time": 4.1000004,
+          "tile": 506
+        },
+        {
+          "time": 5.2000003,
+          "tile": 402
+        },
+        {
+          "time": 6.166667,
+          "tile": 300
+        }
+      ],
+      "CH0210_Tactical_Start--49053898dd2fdde5": [
+        {
+          "time": 0.16666667,
+          "tile": 505
+        },
+        {
+          "time": 1.0333333,
+          "tile": 401
+        },
+        {
+          "time": 1.2333333,
+          "tile": 300
+        }
+      ],
+      "CH0210_Tactical_Start_Random--52caf66645df6f7e": [
+        {
+          "time": 0,
+          "tile": 506
+        },
+        {
+          "time": 0.6,
+          "tile": 402
+        },
+        {
+          "time": 1.4333334,
+          "tile": 300
+        }
+      ],
+      "CH0210_Exs_Cutin--6204496f6424180c": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 2.5666668,
+          "tile": 506
+        },
+        {
+          "time": 3.0000002,
+          "tile": 502
+        },
+        {
+          "time": 5.4,
+          "tile": 506
+        },
+        {
+          "time": 5.6000004,
+          "tile": 507
+        }
+      ]
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs": {
+        "zoom": 0.7314443770630406,
+        "centerY": 1.7741525419995243
+      },
+      "original_exs_cutin": {
+        "zoom": 0.4162781727031313,
+        "centerY": 1.4886210520001795
+      }
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210314_0",
+      "name": "迷你凳子和日光浴床",
+      "model": "f210314_0.glb",
+      "clip": "f210314_0",
+      "duration": 30.666666666666693,
+      "mouthEvents": [
+        {
+          "time": 2.098321516541546e-14,
+          "tile": 402
+        },
+        {
+          "time": 2.6666666666666874,
+          "tile": 402
+        },
+        {
+          "time": 3.0666667066666875,
+          "tile": 604
+        },
+        {
+          "time": 3.3333333666666873,
+          "tile": 506
+        },
+        {
+          "time": 4.933333666666687,
+          "tile": 606
+        },
+        {
+          "time": 7.233333666666687,
+          "tile": 506
+        },
+        {
+          "time": 8.100000066666688,
+          "tile": 402
+        },
+        {
+          "time": 11.333333666666688,
+          "tile": 506
+        },
+        {
+          "time": 13.833334666666687,
+          "tile": 305
+        },
+        {
+          "time": 14.200000666666687,
+          "tile": 402
+        },
+        {
+          "time": 17.333333333333353,
+          "tile": 402
+        },
+        {
+          "time": 20.00000000000002,
+          "tile": 402
+        },
+        {
+          "time": 22.66666666666669,
+          "tile": 402
+        },
+        {
+          "time": 25.333333333333357,
+          "tile": 402
+        },
+        {
+          "time": 28.000000000000025,
+          "tile": 402
+        }
+      ],
+      "yaw": 2.356194490192345,
+      "sourceTimeline": "my_event058_parasolandsunbed",
+      "sourceGroup": "RequiredTrack_20028",
+      "sourceStudentTrack": "20028"
+    }
+  ]
+}

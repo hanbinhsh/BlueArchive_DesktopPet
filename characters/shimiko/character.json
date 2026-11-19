@@ -1,0 +1,384 @@
+{
+  "id": "shimiko",
+  "name": "志美子 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Shimiko_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Shimiko_Original_Cafe_Idle--6cfd8397ceef1f57",
+    "interact": "Shimiko_Original_Cafe_Reaction--278177fd4b6c519"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Shimiko_Original_Cafe_Idle--6cfd8397ceef1f57",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Shimiko_Original_Cafe_Reaction--278177fd4b6c519",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Shimiko_Original_Cafe_Walk--44608d08676e4391",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Shimiko_Original_Victory_Start--a68f580252a37eef",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Shimiko_Original_Normal_Reload--df134229d65e8da1",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Shimiko_Original_Formation_Pickup--89a77efb53953d5",
+      "category": "常用"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Shimiko_Original_Kneel_Attack_Delay--eda8d829c31a6cce",
+      "sourceName": "Shimiko_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Shimiko_Original_Kneel_Attack_End--ebcb64588e48d210",
+      "sourceName": "Shimiko_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Shimiko_Original_Victory_End--ea1a7eb020768fc5",
+      "sourceName": "Shimiko_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Shimiko_Original_Vital_Dying_Ing--e7e43984a6a4161b",
+      "sourceName": "Shimiko_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "Shimiko_Original_Tactical_Start--e41bee0f1171e38c",
+      "sourceName": "Shimiko_Original_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_delay",
+      "label": "掩体站姿 · 攻击 · 间隔",
+      "clip": "Shimiko_Original_Stand_Attack_Delay--d515ad9e8fbb5182",
+      "sourceName": "Shimiko_Original_Stand_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Shimiko_Original_Normal_Idle--cc3b0ce4b2b90d1d",
+      "sourceName": "Shimiko_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_ing",
+      "label": "掩体站姿 · 攻击 · 持续",
+      "clip": "Shimiko_Original_Stand_Attack_Ing--fa4573e91575614b",
+      "sourceName": "Shimiko_Original_Stand_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Shimiko_Original_Kneel_Idle--bfe4003764f2e9f7",
+      "sourceName": "Shimiko_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Shimiko_Original_Normal_Attack_Ing--b8d2bec60850a7a6",
+      "sourceName": "Shimiko_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Shimiko_Original_Kneel_Reload--b5fdd7c01dc94d7c",
+      "sourceName": "Shimiko_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Shimiko_Original_Vital_Death--9729dbbac0d3fa1e",
+      "sourceName": "Shimiko_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_callsign",
+      "label": "蹲姿 · 回应",
+      "clip": "Shimiko_Original_Kneel_Callsign--8f2bda405b2f975e",
+      "sourceName": "Shimiko_Original_Kneel_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_idle",
+      "label": "掩体站姿 · 待机",
+      "clip": "Shimiko_Original_Stand_Idle--803a2f7098a086c4",
+      "sourceName": "Shimiko_Original_Stand_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Shimiko_Original_Move_End_Kneel--12e35d94ca48afa5",
+      "sourceName": "Shimiko_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_move_end_stand",
+      "label": "移动 · 结束 · 掩体站姿",
+      "clip": "Shimiko_Original_Move_End_Stand--1a87e8da1d6bcfa1",
+      "sourceName": "Shimiko_Original_Move_End_Stand",
+      "category": "移动"
+    },
+    {
+      "id": "original_move_callsign",
+      "label": "移动 · 回应",
+      "clip": "Shimiko_Original_Move_Callsign--20b6fecc10d77e0a",
+      "sourceName": "Shimiko_Original_Move_Callsign",
+      "category": "移动"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "Shimiko_Original_Move_Jump--232a8544caf914c3",
+      "sourceName": "Shimiko_Original_Move_Jump",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Shimiko_Original_Vital_Retreat--376734f96a4b51ab",
+      "sourceName": "Shimiko_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_end",
+      "label": "掩体站姿 · 攻击 · 结束",
+      "clip": "Shimiko_Original_Stand_Attack_End--3eb86ea0a741b5db",
+      "sourceName": "Shimiko_Original_Stand_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Shimiko_Original_Move_End_Normal--45d8cfa28ac2b569",
+      "sourceName": "Shimiko_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Shimiko_Original_Kneel_Attack_Ing--49ec096ad46d8ee8",
+      "sourceName": "Shimiko_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Shimiko_Original_Normal_Callsign--4af9c8aac0db48b7",
+      "sourceName": "Shimiko_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Shimiko_Original_Normal_Attack_Delay--4b7ddd7f974cca55",
+      "sourceName": "Shimiko_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Shimiko_Original_Vital_Panic--56fa6590632e309d",
+      "sourceName": "Shimiko_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Shimiko_Original_Kneel_Attack_Start--5da3a7ccb7343eb4",
+      "sourceName": "Shimiko_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Shimiko_Original_Move_Ing--5e88157ec9da9562",
+      "sourceName": "Shimiko_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Shimiko_Original_Formation_Idle--5f9040bb9bb7ea53",
+      "sourceName": "Shimiko_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Shimiko_Original_Exs_Cutin--600e2a8992a5270f",
+      "sourceName": "Shimiko_Original_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_stand_attack_start",
+      "label": "掩体站姿 · 攻击 · 开始",
+      "clip": "Shimiko_Original_Stand_Attack_Start--60ed7091fac4afaa",
+      "sourceName": "Shimiko_Original_Stand_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_callsign",
+      "label": "掩体站姿 · 回应",
+      "clip": "Shimiko_Original_Stand_Callsign--615266b3d9a1b10d",
+      "sourceName": "Shimiko_Original_Stand_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Shimiko_Original_Normal_Attack_End--6c33967e20719a7b",
+      "sourceName": "Shimiko_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Shimiko_Original_Normal_Attack_Start--713ed87ace5638a6",
+      "sourceName": "Shimiko_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_reload",
+      "label": "掩体站姿 · 换弹",
+      "clip": "Shimiko_Original_Stand_Reload--721b04c5151599fe",
+      "sourceName": "Shimiko_Original_Stand_Reload",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Shimiko_Original_Mouth",
+    "defaultTile": 300,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0,
+      0.375
+    ],
+    "events": {
+      "Shimiko_Original_Cafe_Idle--6cfd8397ceef1f57": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Shimiko_Original_Cafe_Reaction--278177fd4b6c519": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Shimiko_Original_Cafe_Walk--44608d08676e4391": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Shimiko_Original_Victory_Start--a68f580252a37eef": [],
+      "Shimiko_Original_Normal_Reload--df134229d65e8da1": [],
+      "Shimiko_Original_Formation_Pickup--89a77efb53953d5": [],
+      "Shimiko_Original_Kneel_Attack_Delay--eda8d829c31a6cce": [],
+      "Shimiko_Original_Kneel_Attack_End--ebcb64588e48d210": [],
+      "Shimiko_Original_Victory_End--ea1a7eb020768fc5": [],
+      "Shimiko_Original_Vital_Dying_Ing--e7e43984a6a4161b": [],
+      "Shimiko_Original_Tactical_Start--e41bee0f1171e38c": [
+        {
+          "time": 0.06666667,
+          "tile": 402
+        },
+        {
+          "time": 0.6666667,
+          "tile": 401
+        },
+        {
+          "time": 1.4333334,
+          "tile": 704
+        }
+      ],
+      "Shimiko_Original_Stand_Attack_Delay--d515ad9e8fbb5182": [],
+      "Shimiko_Original_Normal_Idle--cc3b0ce4b2b90d1d": [],
+      "Shimiko_Original_Stand_Attack_Ing--fa4573e91575614b": [],
+      "Shimiko_Original_Kneel_Idle--bfe4003764f2e9f7": [],
+      "Shimiko_Original_Normal_Attack_Ing--b8d2bec60850a7a6": [],
+      "Shimiko_Original_Kneel_Reload--b5fdd7c01dc94d7c": [],
+      "Shimiko_Original_Vital_Death--9729dbbac0d3fa1e": [],
+      "Shimiko_Original_Kneel_Callsign--8f2bda405b2f975e": [],
+      "Shimiko_Original_Stand_Idle--803a2f7098a086c4": [],
+      "Shimiko_Original_Move_End_Kneel--12e35d94ca48afa5": [],
+      "Shimiko_Original_Move_End_Stand--1a87e8da1d6bcfa1": [],
+      "Shimiko_Original_Move_Callsign--20b6fecc10d77e0a": [],
+      "Shimiko_Original_Move_Jump--232a8544caf914c3": [],
+      "Shimiko_Original_Vital_Retreat--376734f96a4b51ab": [],
+      "Shimiko_Original_Stand_Attack_End--3eb86ea0a741b5db": [],
+      "Shimiko_Original_Move_End_Normal--45d8cfa28ac2b569": [],
+      "Shimiko_Original_Kneel_Attack_Ing--49ec096ad46d8ee8": [],
+      "Shimiko_Original_Normal_Callsign--4af9c8aac0db48b7": [],
+      "Shimiko_Original_Normal_Attack_Delay--4b7ddd7f974cca55": [],
+      "Shimiko_Original_Vital_Panic--56fa6590632e309d": [],
+      "Shimiko_Original_Kneel_Attack_Start--5da3a7ccb7343eb4": [],
+      "Shimiko_Original_Move_Ing--5e88157ec9da9562": [],
+      "Shimiko_Original_Formation_Idle--5f9040bb9bb7ea53": [],
+      "Shimiko_Original_Exs_Cutin--600e2a8992a5270f": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 1.7,
+          "tile": 704
+        },
+        {
+          "time": 2.1666667,
+          "tile": 500
+        }
+      ],
+      "Shimiko_Original_Stand_Attack_Start--60ed7091fac4afaa": [],
+      "Shimiko_Original_Stand_Callsign--615266b3d9a1b10d": [],
+      "Shimiko_Original_Normal_Attack_End--6c33967e20719a7b": [],
+      "Shimiko_Original_Normal_Attack_Start--713ed87ace5638a6": [],
+      "Shimiko_Original_Stand_Reload--721b04c5151599fe": []
+    }
+  }
+}

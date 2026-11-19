@@ -1,0 +1,56 @@
+{
+  "id": "aris_battle_carrier",
+  "name": "爱丽丝 · 临战（携带武器）",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0334_Carrier; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0334_Carrier_Idle--f6fb07a0d51dec83",
+    "interact": "CH0334_Carrier_Walk--50892ca55d500a62"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "携带待机",
+      "clip": "CH0334_Carrier_Idle--f6fb07a0d51dec83",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "携带走路",
+      "clip": "CH0334_Carrier_Walk--50892ca55d500a62",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "携带走路",
+      "clip": "CH0334_Carrier_Walk--50892ca55d500a62",
+      "category": "常用"
+    }
+  ],
+  "note": "临战的携带武器形态，使用独立的原版待机和走路动作；单击播放走路，无提起动画。",
+  "mouth": {
+    "material": "CH0334_Carrier_Mouth",
+    "defaultTile": 704,
+    "columns": 8,
+    "rows": 8,
+    "events": {
+      "CH0334_Carrier_Idle--f6fb07a0d51dec83": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0334_Carrier_Walk--50892ca55d500a62": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,471 @@
+{
+  "id": "tsubaki_guide",
+  "name": "椿 · 导游",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0255; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0255_Cafe_Idle--1b525ff2c8921ef",
+    "interact": "CH0255_Cafe_Reaction--da1899b87ca4afd1"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0255_Cafe_Idle--1b525ff2c8921ef",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0255_Cafe_Reaction--da1899b87ca4afd1",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0255_Cafe_Walk--aa29b189573b9d5a",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0255_Formation_Pickup--28fc9e99c9976da4",
+      "category": "常用"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0255_Formation_Idle--8afdbb74fcf01492",
+      "sourceName": "CH0255_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_tactical_start_random",
+      "label": "Tactical · 开始 · Random",
+      "clip": "CH0255_Tactical_Start_Random--f0d4e34c2cdf3f55",
+      "sourceName": "CH0255_Tactical_Start_Random",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "CH0255_Exs_Cutin--20a50cd5eb521dec",
+      "sourceName": "CH0255_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0255_Tactical_Start--21941a623d5b6815",
+      "sourceName": "CH0255_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_02",
+      "label": "EX 技能 · Cutin · 02",
+      "clip": "CH0255_Exs_Cutin_02--493fb96e98f1c702",
+      "sourceName": "CH0255_Exs_Cutin_02",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "CH0255_Exs--5507503dccfa8f82",
+      "sourceName": "CH0255_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_01",
+      "label": "EX 技能 · Cutin · 01",
+      "clip": "CH0255_Exs_Cutin_01--723de61f6b7b8f39",
+      "sourceName": "CH0255_Exs_Cutin_01",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_yukata_streetghostes_rl",
+      "label": "EX 技能 · Yukata · StreetGhostes · RL",
+      "clip": "CH0255_Exs_Yukata_StreetGhostes_RL--7433a5ed51c6f18b",
+      "sourceName": "CH0255_Exs_Yukata_StreetGhostes_RL",
+      "category": "技能"
+    }
+  ],
+  "mouth": {
+    "material": "CH0255_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.125,
+      0.5
+    ],
+    "events": {
+      "CH0255_Cafe_Idle--1b525ff2c8921ef": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.466662,
+          "tile": 402
+        },
+        {
+          "time": 3.3332999,
+          "tile": 401
+        },
+        {
+          "time": 3.933294,
+          "tile": 402
+        },
+        {
+          "time": 5.299947,
+          "tile": 401
+        }
+      ],
+      "CH0255_Cafe_Reaction--da1899b87ca4afd1": [
+        {
+          "time": 0.033333,
+          "tile": 401
+        },
+        {
+          "time": 0.266664,
+          "tile": 401
+        },
+        {
+          "time": 0.533328,
+          "tile": 402
+        },
+        {
+          "time": 1.5999839,
+          "tile": 300
+        },
+        {
+          "time": 2.933304,
+          "tile": 300
+        },
+        {
+          "time": 3.133302,
+          "tile": 705
+        },
+        {
+          "time": 4.733286,
+          "tile": 300
+        },
+        {
+          "time": 7.766589,
+          "tile": 401
+        },
+        {
+          "time": 11.766549,
+          "tile": 402
+        },
+        {
+          "time": 16.933165,
+          "tile": 401
+        },
+        {
+          "time": 20.233131,
+          "tile": 402
+        },
+        {
+          "time": 25.966408,
+          "tile": 401
+        }
+      ],
+      "CH0255_Cafe_Walk--aa29b189573b9d5a": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 2.4333334,
+          "tile": 402
+        },
+        {
+          "time": 3.499965,
+          "tile": 504
+        },
+        {
+          "time": 3.633297,
+          "tile": 505
+        },
+        {
+          "time": 4.199958,
+          "tile": 504
+        },
+        {
+          "time": 4.33329,
+          "tile": 401
+        },
+        {
+          "time": 4.66662,
+          "tile": 402
+        },
+        {
+          "time": 5.733276,
+          "tile": 401
+        }
+      ],
+      "CH0255_Formation_Pickup--28fc9e99c9976da4": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 2.8666668,
+          "tile": 401
+        },
+        {
+          "time": 4.033334,
+          "tile": 504
+        },
+        {
+          "time": 5.8333335,
+          "tile": 401
+        },
+        {
+          "time": 9.8,
+          "tile": 402
+        }
+      ],
+      "CH0255_Formation_Idle--8afdbb74fcf01492": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ],
+      "CH0255_Tactical_Start_Random--f0d4e34c2cdf3f55": [
+        {
+          "time": 0,
+          "tile": 402
+        }
+      ],
+      "CH0255_Exs_Cutin--20a50cd5eb521dec": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.733326,
+          "tile": 401
+        },
+        {
+          "time": 3.099969,
+          "tile": 402
+        },
+        {
+          "time": 6.33327,
+          "tile": 402
+        },
+        {
+          "time": 6.466602,
+          "tile": 505
+        },
+        {
+          "time": 7.733256,
+          "tile": 401
+        },
+        {
+          "time": 8.299917,
+          "tile": 300
+        },
+        {
+          "time": 8.899911,
+          "tile": 705
+        }
+      ],
+      "CH0255_Tactical_Start--21941a623d5b6815": [
+        {
+          "time": 0.39999598,
+          "tile": 401
+        },
+        {
+          "time": 0.633327,
+          "tile": 402
+        },
+        {
+          "time": 1.366653,
+          "tile": 401
+        },
+        {
+          "time": 1.866648,
+          "tile": 402
+        }
+      ],
+      "CH0255_Exs_Cutin_02--493fb96e98f1c702": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.13333334,
+          "tile": 505
+        },
+        {
+          "time": 1.4000001,
+          "tile": 401
+        },
+        {
+          "time": 1.9666668,
+          "tile": 300
+        },
+        {
+          "time": 2.5666668,
+          "tile": 705
+        }
+      ],
+      "CH0255_Exs--5507503dccfa8f82": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.466662,
+          "tile": 300
+        },
+        {
+          "time": 0.866658,
+          "tile": 707
+        },
+        {
+          "time": 1.066656,
+          "tile": 705
+        },
+        {
+          "time": 1.266654,
+          "tile": 707
+        },
+        {
+          "time": 1.466652,
+          "tile": 300
+        },
+        {
+          "time": 1.533318,
+          "tile": 402
+        },
+        {
+          "time": 1.733316,
+          "tile": 705
+        },
+        {
+          "time": 1.899981,
+          "tile": 300
+        },
+        {
+          "time": 2.099979,
+          "tile": 707
+        },
+        {
+          "time": 2.266644,
+          "tile": 705
+        },
+        {
+          "time": 2.366643,
+          "tile": 300
+        },
+        {
+          "time": 2.533308,
+          "tile": 705
+        },
+        {
+          "time": 2.799972,
+          "tile": 300
+        },
+        {
+          "time": 4.266624,
+          "tile": 402
+        },
+        {
+          "time": 4.966617,
+          "tile": 504
+        },
+        {
+          "time": 5.099949,
+          "tile": 505
+        },
+        {
+          "time": 5.66661,
+          "tile": 504
+        },
+        {
+          "time": 5.799942,
+          "tile": 401
+        },
+        {
+          "time": 6.833265,
+          "tile": 402
+        }
+      ],
+      "CH0255_Exs_Cutin_01--723de61f6b7b8f39": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.733326,
+          "tile": 401
+        },
+        {
+          "time": 3.099969,
+          "tile": 402
+        }
+      ],
+      "CH0255_Exs_Yukata_StreetGhostes_RL--7433a5ed51c6f18b": []
+    }
+  },
+  "furniture": [
+    {
+      "id": "f14102_0",
+      "name": "购物中心设计师沙发",
+      "model": "f14102_0.glb",
+      "clip": "f14102_0",
+      "duration": 50.0,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 402
+        },
+        {
+          "time": 6.899931,
+          "tile": 401
+        },
+        {
+          "time": 9.933234,
+          "tile": 402
+        },
+        {
+          "time": 18.366484,
+          "tile": 401
+        },
+        {
+          "time": 20.699793,
+          "tile": 604
+        },
+        {
+          "time": 32.43301,
+          "tile": 401
+        },
+        {
+          "time": 36.7663,
+          "tile": 402
+        },
+        {
+          "time": 44.532887,
+          "tile": 401
+        },
+        {
+          "time": 45.266212,
+          "tile": 402
+        }
+      ],
+      "yaw": 2.356194490192345,
+      "sourceTimeline": "my_shoppingmall_01_bench_01",
+      "sourceGroup": "RequiredTrack_20035",
+      "sourceStudentTrack": "20035"
+    }
+  ]
+}
