@@ -9,7 +9,8 @@ export async function attachWaterFx(material:THREE.MeshBasicMaterial,parser:any,
  const white=new THREE.DataTexture(new Uint8Array([255,255,255,255]),1,1);white.needsUpdate=true;textures.add(white);
  for(const name of ['main','mask','distort']){
   const info=spec[`${name}Texture`];
-  const texture=info?await parser.getDependency('texture',info.index):white;texture.colorSpace=THREE.NoColorSpace;textures.add(texture);
+  let texture=white;
+  if(info){const base=await parser.getDependency('texture',info.index);texture=info.srgb?base.clone():base;texture.colorSpace=info.srgb?THREE.SRGBColorSpace:THREE.NoColorSpace;if(info.srgb)texture.needsUpdate=true;textures.add(texture);}
   uniforms[`${name}Tex`]={value:texture};uniforms[`${name}ST`]={value:new THREE.Vector4(...(info?.st||[1,1,0,0]) as [number,number,number,number])};
  }
  uniforms.fxAtlas={value:new THREE.Vector4(1,1,0,0)};uniforms.cd1={value:new THREE.Vector4()};uniforms.cd2={value:new THREE.Vector4()};

@@ -28,6 +28,7 @@ const vertexShader=`
 #include <skinning_pars_vertex>
 attribute vec3 smoothNormal;
 uniform float outlineWidth;
+varying vec3 outlineWorld;
 void main(){
  vec3 objectNormal=smoothNormal;
  #include <skinbase_vertex>
@@ -35,6 +36,7 @@ void main(){
  vec3 transformed=position;
  #include <morphtarget_vertex>
  #include <skinning_vertex>
+ outlineWorld=(modelMatrix*vec4(transformed,1.)).xyz;
  vec4 mvPosition=modelViewMatrix*vec4(transformed,1.);
  vec3 viewNormal=normalize(normalMatrix*objectNormal);
  // Our orthographic camera uses the wiki's default 35-degree perspective
@@ -53,7 +55,13 @@ export class ModelOutline{
    const materials=Array.isArray(mesh.material)?mesh.material:[mesh.material];
    if(materials.some(m=>m.transparent||!m.colorWrite||m.userData.BA_stencil||m.userData.BA_cafeParticle||m.userData.BA_waterFx))continue;
    smoothOutlineNormals(mesh.geometry);if(!mesh.geometry.hasAttribute('smoothNormal'))continue;
-   const material=new THREE.ShaderMaterial({side:THREE.BackSide,uniforms:{outlineWidth:{value:0}},vertexShader,fragmentShader:`void main(){
+   const clip=materials.find(m=>m.userData._BA_clipPlane)?.userData._BA_clipPlane;
+   const material=new THREE.ShaderMaterial({side:THREE.BackSide,uniforms:clip?{outlineWidth:{value:0},clipPlane:clip}:{outlineWidth:{value:0}},vertexShader,fragmentShader:clip?`uniform vec4 clipPlane;varying vec3 outlineWorld;
+void main(){
+ if(dot(clipPlane.xyz,outlineWorld)+clipPlane.w<0.)discard;
+ gl_FragColor=vec4(0.,0.,0.,1.);
+ #include <colorspace_fragment>
+}`:`void main(){
  gl_FragColor=vec4(0.,0.,0.,1.);
  #include <colorspace_fragment>
 }`});

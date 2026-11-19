@@ -31,6 +31,18 @@ def adapt_prop_material(material):
         material['alphaMode'] = 'OPAQUE'
         material.pop('alphaCutoff', None)
         return
+    elif name == 'CH0203_Body':
+        # Maid Yuzu crouches inside her floor-resting cardboard box in Cafe_Idle /
+        # Cafe_Reaction, sinking 9 cm below the cafe floor plane (Y=0). Without a
+        # cafe floor, her legs, skirt and hands poke out the closed box bottom.
+        # Clip below the closed bottom flaps when the box rests on the floor.
+        material.setdefault('extras', {})['BA_liquidReceiver'] = {
+            'node': 'bone_root',
+            'normal': [0, 0, 1],
+            'constant': -0.015,
+            'gate': {'node': 'bone_box_b_01', 'maxHeight': 0.025, 'fallbackConstant': 0.01},
+        }
+        return
     elif name not in {'my_hotsprings_woodenbathtub 1', 'my_event094_sandbath_alpha'}:
         return
 

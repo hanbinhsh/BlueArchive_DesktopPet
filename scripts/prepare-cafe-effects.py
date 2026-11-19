@@ -204,7 +204,9 @@ for character in requested:
                                 for slot,key in [('_Tex_Main','mainTexture'),('_Tex_Mask','maskTexture'),('_Tex_Distort','distortTexture')]:
                                     t=next((t for t in original['textures'] if t['slot']==slot and 'file' in t),None)
                                     if not t:continue
-                                    water[key]={'index':texture(t),'st':t['scale']+t['offset']}
+                                    tex_entry={'index':texture(t),'st':t['scale']+t['offset']}
+                                    if key in ('maskTexture','distortTexture') and t.get('srgb') and original['floats'].get('_Step_Scroll_Use'):tex_entry['srgb']=True
+                                    water[key]=tex_entry
                                 material['extras']['BA_waterFx']=water
                             if original['shader'].rsplit('/',1)[-1] in shader_kinds or original['shader'] in ['DSFX/FX_SHADER_Explosion_Smoke_Blur_Sp_1a','DSFX/FX_SHADER_Smoke_SmoothStep_0','DSFX/FX_SHADER_Explosion_Smoke_Blur_0','DSFX/FX_SHADER_Explosion_Smoke_0']:
                                 fx={'kind':shader_kinds.get(original['shader'].rsplit('/',1)[-1]) or ('cloud' if 'Blur_Sp' in original['shader'] else 'puff' if 'Blur_0' in original['shader'] else 'pixel' if original['shader'].endswith('Explosion_Smoke_0') else 'smooth'),'floats':dict(original['floats']),'colors':dict(original['colors'])}
