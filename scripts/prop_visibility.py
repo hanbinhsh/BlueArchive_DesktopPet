@@ -12,6 +12,12 @@ def apply_prop_visibility(doc, character, timeline=None):
     defaults[str(cutin)] = False
 
     if timeline == 'my_hotsprings_01_woodenbathtub_CH0123':
+        # The bath timeline uses CH0123_Prop for the deck bucket holding the two
+        # ducks, the folded white towel on the tub rim, and the shelf sake cup.
+        prop = next((i for i, node in enumerate(doc['nodes'])
+                     if node['name'] == 'CH0123_Prop' and 'mesh' in node), None)
+        if prop is not None:
+            defaults[str(prop)] = True
         # Both ducks are explicitly posed on the deck in Shigure's timeline.
         # The mesh ripple and particle ripple are ambient children of the
         # generic bath prefab, where the ducks sit in the water by default.

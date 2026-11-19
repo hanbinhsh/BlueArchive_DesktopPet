@@ -247,12 +247,38 @@ def bake(doc,data,source,raw,track,node_map,duration,animation):
             st=np.array(read_accessor(source,raw,first_sampler['input']))[:,0]
             sv=np.array(read_accessor(source,raw,first_sampler['output']))
             values[pre]=interpolate(st,sv,np.full(int(pre.sum()),first['clipIn']),first_sampler.get('interpolation','LINEAR'),kind=='rotation')
+        prev_end=None
         for k,(segment,sampler) in enumerate(items):
-            start=max(0,segment['start']);end=items[k+1][0]['start'] if k+1<len(items) else duration+1
-            mask=(times>=start-1e-8)&(times<end-1e-8 if k+1<len(items) else times<=end)
-            local=(np.minimum(times[mask],segment['start']+segment['duration'])-segment['start'])*segment['speed']+segment['clipIn']
+            start=max(0,segment['start']);seg_end=segment['start']+segment['duration']
+            next_start=items[k+1][0]['start'] if k+1<len(items) else duration+1
+            overlaps_next=k+1<len(items) and seg_end>next_start+1e-6
+            end=max(next_start,min(seg_end,duration+1)) if overlaps_next else next_start
+            mask=(times>=start-1e-8)&(times<=end+1e-8 if overlaps_next else (times<end-1e-8 if k+1<len(items) else times<=end))
+            local=(np.minimum(times[mask],seg_end)-segment['start'])*segment['speed']+segment['clipIn']
             st=np.array(read_accessor(source,raw,sampler['input']))[:,0];sv=np.array(read_accessor(source,raw,sampler['output']))
-            values[mask]=interpolate(st,sv,local,sampler.get('interpolation','LINEAR'),kind=='rotation')
+            sampled=interpolate(st,sv,local,sampler.get('interpolation','LINEAR'),kind=='rotation')
+            if prev_end is not None and prev_end>start+1e-6:
+                overlap_end=min(prev_end,seg_end)
+                t_mask=times[mask];ov=t_mask<=overlap_end+1e-8
+                if ov.any():
+                    u=np.clip((t_mask[ov]-start)/max(overlap_end-start,1e-9),0.,1.)[:,None]
+                    # Unity Timeline overlapping clips ease in/out with cubic smoothstep.
+                    w=3.*u*u-2.*u*u*u
+                    a,b=values[mask][ov],sampled[ov]
+                    if kind=='rotation':
+                        dot=np.sum(a*b,axis=1,keepdims=True)
+                        b=np.where(dot<0,-b,b)
+                        theta=np.arccos(np.clip(np.abs(dot),0.,1.))
+                        sin_t=np.sin(theta);small=sin_t<1e-6
+                        s0=np.where(small,1.-w,np.sin((1.-w)*theta)/np.where(small,1.,sin_t))
+                        s1=np.where(small,w,np.sin(w*theta)/np.where(small,1.,sin_t))
+                        blended=a*s0+b*s1
+                        blended/=np.maximum(np.linalg.norm(blended,axis=1,keepdims=True),1e-12)
+                    else:
+                        blended=a*(1.-w)+b*w
+                    sampled[ov]=blended
+            values[mask]=sampled
+            prev_end=seg_end
         assert np.isfinite(values).all()
         ai=append_accessor(doc,data,[(float(t),) for t in times],'SCALAR');doc['accessors'][ai]['min']=[float(times[0])];doc['accessors'][ai]['max']=[float(times[-1])]
         bi=append_accessor(doc,data,values.tolist(),'VEC4' if size==4 else 'VEC3')

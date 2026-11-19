@@ -45,17 +45,19 @@ class PropRepairsTests(unittest.TestCase):
             'nodes': [
                 {'name': 'CH0123_CutIn_Body', 'mesh': 0},
                 {'name': 'CH0123_Body', 'mesh': 1},
+                {'name': 'CH0123_Prop', 'mesh': 3},
                 {'name': 'furniture_16_FX_my_hotsprings_woodenbathtub_duck_02_Bubble', 'mesh': 2},
                 {'name': 'furniture_18_FX_my_hotsprings_woodenbathtub_duck_01_Bubble'},
             ],
-            'scenes': [{'extras': {'BA_pet_visibility': {'defaults': {'0': True, '1': True, '2': True}}}}],
+            'scenes': [{'extras': {'BA_pet_visibility': {'defaults': {'0': True, '1': True, '2': False, '3': True}}}}],
         }
         apply_prop_visibility(doc, 'shigure_onsen', 'my_hotsprings_01_woodenbathtub_CH0123')
         defaults = doc['scenes'][0]['extras']['BA_pet_visibility']['defaults']
         self.assertFalse(defaults['0'])
         self.assertTrue(defaults['1'])
-        self.assertFalse(defaults['2'])
+        self.assertTrue(defaults['2'])
         self.assertFalse(defaults['3'])
+        self.assertFalse(defaults['4'])
 
 
 if __name__ == '__main__':
