@@ -411,9 +411,9 @@
     "f210304_0": 0.25
   },
   "tsukuyo/f4106_0": 1.95,
-  "cherino_onsen/f6203_0": 2.356194,
+  "cherino_onsen/f6203_0": 3.926991,
   "fubuki/f1104_0": 2.356194,
-  "fubuki_swimsuit/f210344_0": 2.356194,
+  "fubuki_swimsuit/f210344_0": 3.926991,
   "marina/f3105_0": 0.785398,
   "marina_qipao/f210351_0": 2.356194,
   "michiru/f7102_0": -0.785398,
@@ -422,7 +422,13 @@
   "nagusa_swimsuit/f211306_0": 0.785398,
   "reijo/f210351_0": 2.356194,
   "sakurako/f207314_0": 2.356194,
-  "sakurako_idol/f210354_0": 2.356194,
-  "sakurako_idol/f210354_1": 2.356194,
-  "takane/f210387_0": 0.785398
+  "sakurako_idol/f210354_0": 0.0,
+  "sakurako_idol/f210354_1": 0.0,
+  "takane/f210387_0": 0.785398,
+  "pina/f7106_0": 0.785398,
+  "renge_swimsuit/f210371_0": 2.356194,
+  "mari_idol/f210354_0": 0.0,
+  "mari_idol/f210354_1": 0.0,
+  "mine_idol/f210354_0": 0.0,
+  "mine_idol/f210354_1": 0.0
 }

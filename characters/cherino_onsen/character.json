@@ -482,10 +482,13 @@
           "tile": 604
         }
       ],
-      "yaw": 2.356194,
+      "yaw": 3.926991,
       "sourceTimeline": "My_hotsprings_01_hotstorage",
       "sourceGroup": "RequiredTrack_20009",
       "sourceStudentTrack": "20009"
     }
+  ],
+  "aliases": [
+    "洁莉诺"
   ]
 }

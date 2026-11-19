@@ -41,3 +41,22 @@ test('gated floor clip activates when prop rests on floor, releases when lifted,
  assert.ok(p.y*.001+p.w>0);
  outline.dispose();mesh.geometry.dispose();material.dispose();
 });
+
+test('gated floor clip with followOffset tracks box hop height and releases above maxHeight',()=>{
+ const root=new THREE.Group(),floor=new THREE.Object3D(),box=new THREE.Object3D();
+ floor.name='bone_root';box.name='bone_box_b_01';floor.rotation.x=-Math.PI/2;floor.add(box);root.add(floor);
+ const material=new THREE.MeshBasicMaterial();
+ material.userData.BA_liquidReceiver={node:'bone_root',normal:[0,0,1],constant:-.015,gate:{node:'bone_box_b_01',maxHeight:.05,fallbackConstant:.01,followOffset:.075}};
+ const update=attachLiquidReceiver(material,root)!;
+ const p=material.userData._BA_clipPlane.value as THREE.Vector4;
+ // Rest pose (box at -0.056): clips below 0.019
+ box.position.set(0,0,-.056);root.updateMatrixWorld(true);update();
+ assert.ok(p.y*.025+p.w>0);assert.ok(p.y*.010+p.w<0);
+ // Hop peak during interact (box at +0.017): tracks up to 0.092 so skirt never peeks below box
+ box.position.set(0,0,.017);root.updateMatrixWorld(true);update();
+ assert.ok(p.y*.10+p.w>0);assert.ok(p.y*.08+p.w<0);
+ // Walk lift (box at +0.22 >= maxHeight): releases to fallbackConstant (+0.01) so legs show
+ box.position.set(0,0,.22);root.updateMatrixWorld(true);update();
+ assert.ok(p.y*.001+p.w>0);
+ material.dispose();
+});

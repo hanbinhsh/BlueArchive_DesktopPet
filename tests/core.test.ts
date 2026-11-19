@@ -66,6 +66,8 @@ test('invalid settings cannot introduce nonfinite window geometry', () => {
 test('character manifests reject path traversal and missing interaction', () => {
   const valid = { id: 'serika', name: '芹香', model: 'model.glb', source: { url: 'https://example.com', description: 'test source' }, scale: 1, yaw: 0, animations: { idle: 'Idle', interact: 'Touch' } };
   assert.equal(validateCharacter(valid).id, 'serika');
+  assert.deepEqual(validateCharacter({ ...valid, aliases: ['玛丽娜', '真里奈'] }).aliases, ['玛丽娜', '真里奈']);
+  assert.throws(() => validateCharacter({ ...valid, aliases: [''] }));
   assert.throws(() => validateCharacter({ ...valid, model: '../model.glb' }));
   assert.throws(() => validateCharacter({ ...valid, animations: { idle: 'Idle' } }));
 });

@@ -24,7 +24,9 @@ export function attachLiquidReceiver(material:THREE.Material,root:THREE.Object3D
   if(gate&&spec.gate){
    gate.updateWorldMatrix(true,false);
    gatePos.setFromMatrixPosition(gate.matrixWorld).applyMatrix4(vesselInv.copy(vessel.matrixWorld).invert());
-   if(gatePos.dot(normal)>=spec.gate.maxHeight)constant=spec.gate.fallbackConstant;
+   const h=gatePos.dot(normal);
+   if(h>=spec.gate.maxHeight)constant=spec.gate.fallbackConstant;
+   else if(typeof spec.gate.followOffset==='number')constant=-(h+spec.gate.followOffset);
   }
   local.set(normal,constant);
   const p=local.clone().applyMatrix4(vessel.matrixWorld);

@@ -12,7 +12,7 @@ export interface Settings {
   eyeFollow: boolean; randomIdle: boolean; randomInterval: number; roaming: boolean; roamRadius: number; roamSpeed: number; favorites: string[]; favoriteCharacters: string[]; actionSort: ActionSort;
 }
 export interface Character {
-  id: string; name: string; model: string;
+  id: string; name: string; aliases?: string[]; model: string;
   source: { url: string; description: string };
   scale: number; yaw: number;
   framing?: { minExtent?: number; actions?: Record<string, { zoom: number; centerY: number }> };
@@ -61,6 +61,7 @@ export function validateCharacter(value: unknown): Character {
   const c = value as Character;
   if (!c || typeof c.id !== 'string' || !/^[a-z0-9_-]+$/.test(c.id) || typeof c.name !== 'string' || !c.name || typeof c.model !== 'string' || !/^[\w.-]+\.glb$/i.test(c.model) || typeof c.source?.url !== 'string' || !c.source.url || typeof c.source.description !== 'string' || !c.source.description || !(c.scale > 0 && Number.isFinite(c.scale)) || !Number.isFinite(c.yaw) || typeof c.animations?.idle !== 'string' || !c.animations.idle || typeof c.animations.interact !== 'string' || !c.animations.interact || c.animations.idle === c.animations.interact) throw new Error('角色包描述不完整或格式错误');
   if (c.note !== undefined && (typeof c.note !== 'string' || c.note.length > 500)) throw new Error('角色说明无效');
+  if (c.aliases !== undefined && (!Array.isArray(c.aliases) || c.aliases.length > 20 || c.aliases.some(a => typeof a !== 'string' || !a.trim() || a.length > 60))) throw new Error('角色别名无效');
   if (c.framing !== undefined) {
     if (!c.framing || typeof c.framing !== 'object') throw new Error('角色取景配置无效');
     const { minExtent, actions } = c.framing;
@@ -127,5 +128,5 @@ export interface PetApi {
   onAction(cb: (id: string) => void): void;
 }
 
-export interface PanelState { ready: boolean; settings: Settings; characters: { id: string; name: string; thumbnail: string | null }[]; character: Character | null; furniture?: Furniture; error?: string; playback?:PlaybackStatus; durations:Record<string,number>; startup:{enabled:boolean;registered:boolean;available:boolean}; range?:{radius:number;actual:number}; }
+export interface PanelState { ready: boolean; settings: Settings; characters: { id: string; name: string; aliases?: string[]; thumbnail: string | null }[]; character: Character | null; furniture?: Furniture; error?: string; playback?:PlaybackStatus; durations:Record<string,number>; startup:{enabled:boolean;registered:boolean;available:boolean}; range?:{radius:number;actual:number}; }
 export interface PanelApi { dirty:(value:boolean)=>void; state(): Promise<PanelState>; command(command: string, value?: unknown): Promise<PanelState>; onState(cb: (value: PanelState) => void): void; }

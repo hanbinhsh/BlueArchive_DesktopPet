@@ -52,7 +52,9 @@ function renderRoster() {
   const groups = new Map<string, PanelState['characters']>();
   el('allCharacters').setAttribute('aria-pressed',String(!onlyFavoriteCharacters));el('favoriteCharacters').setAttribute('aria-pressed',String(onlyFavoriteCharacters));
   el('favoriteCharacters').textContent=`角色收藏夹 · ${state.settings.favoriteCharacters.length}`;
-  for (const item of state.characters.filter(c => c.name.includes(query)&&(!onlyFavoriteCharacters||state.settings.favoriteCharacters.includes(characterGroup(c.name))))) {
+  const qLower = query.toLowerCase();
+  const matchesQuery = (c: PanelState['characters'][number]) => !qLower || c.name.toLowerCase().includes(qLower) || c.id.toLowerCase().includes(qLower) || (c.aliases || []).some(a => a.toLowerCase().includes(qLower));
+  for (const item of state.characters.filter(c => matchesQuery(c)&&(!onlyFavoriteCharacters||state.settings.favoriteCharacters.includes(characterGroup(c.name))))) {
     const group = characterGroup(item.name);
     if (!groups.has(group)) groups.set(group, []); groups.get(group)!.push(item);
   }

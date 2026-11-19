@@ -24,7 +24,7 @@ let character: Character | null = null;
 let model: ArrayBuffer | undefined;
 let furniture: Furniture | undefined;
 let loadError: string | undefined;
-let costumes: { directory: string; name: string }[] = [];
+let costumes: { directory: string; name: string; aliases?: string[] }[] = [];
 let panel: BrowserWindow | null = null;
 let activity = 'loading';
 let menuOpen = false;
@@ -81,7 +81,7 @@ function panelState(): PanelState {
     let thumbnail: string | null = null;
     if(thumbnails.has(c.directory))thumbnail=thumbnails.get(c.directory)!;
     else {try { thumbnail = 'data:image/png;base64,' + readFileSync(path.join(root, c.directory, 'thumbnail.png')).toString('base64'); } catch {} thumbnails.set(c.directory,thumbnail);}
-    return { id: c.directory, name: c.name, thumbnail };
+    return { id: c.directory, name: c.name, ...(c.aliases?.length ? { aliases: c.aliases } : {}), thumbnail };
   }) };
 }
 function updatePanel() { if (!quitting && panel && !panel.isDestroyed()&&!panel.webContents.isDestroyed()) panel.webContents.send('panel:state', panelState()); }
@@ -238,7 +238,7 @@ function loadCharacter(requested?: string) {
     for (const dir of dirs) {
       try {
         const candidate = validateCharacter(JSON.parse(readFileSync(path.join(root, dir.name, 'character.json'), 'utf8')));
-        costumes.push({ directory: dir.name, name: candidate.name });
+        costumes.push({ directory: dir.name, name: candidate.name, aliases: candidate.aliases });
       } catch { /* Invalid packs are reported by the normal loading path. */ }
     }
     dirs.sort((a, b) => Number(b.name === settings.character) - Number(a.name === settings.character) || a.name.localeCompare(b.name));

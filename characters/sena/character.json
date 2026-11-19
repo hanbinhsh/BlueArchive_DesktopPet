@@ -68,13 +68,9 @@
   ],
   "mouth": {
     "material": "CH0081_Mouth",
-    "defaultTile": 0,
+    "defaultTile": 401,
     "columns": 8,
     "rows": 8,
-    "baseUV": [
-      0,
-      0
-    ],
     "events": {
       "CH0081_Cafe_Idle--483238b02a7cc59": [],
       "CH0081_Cafe_Reaction--257dca8d8643b5b8": [
