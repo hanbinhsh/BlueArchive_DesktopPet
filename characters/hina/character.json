@@ -520,5 +520,77 @@
         "centerY": 0.7928433397855431
       }
     }
-  }
+  },
+  "furniture": [
+    {
+      "id": "field_bookshelf_start",
+      "name": "书架 · 取书",
+      "model": "field_bookshelf_start.glb",
+      "clip": "field_bookshelf_start",
+      "duration": 8.6667,
+      "mouthEvents": [],
+      "yaw": 0.75,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_bookshelf_ing",
+      "name": "书架 · 阅览",
+      "model": "field_bookshelf_ing.glb",
+      "clip": "field_bookshelf_ing",
+      "duration": 4.8333,
+      "mouthEvents": [],
+      "yaw": 0.75,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_bookshelf_end",
+      "name": "书架 · 归放",
+      "model": "field_bookshelf_end.glb",
+      "clip": "field_bookshelf_end",
+      "duration": 6.3667,
+      "mouthEvents": [],
+      "yaw": 0.75,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_cat_start",
+      "name": "街角猫咪 · 靠近",
+      "model": "field_cat_start.glb",
+      "clip": "field_cat_start",
+      "duration": 4.0,
+      "mouthEvents": [],
+      "yaw": 0.35,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_cat_ing",
+      "name": "街角猫咪 · 抚摸",
+      "model": "field_cat_ing.glb",
+      "clip": "field_cat_ing",
+      "duration": 5.6667,
+      "mouthEvents": [],
+      "yaw": 0.35,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_cat_end",
+      "name": "街角猫咪 · 告别",
+      "model": "field_cat_end.glb",
+      "clip": "field_cat_end",
+      "duration": 2.9,
+      "mouthEvents": [],
+      "yaw": 0.35,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_piano_ing",
+      "name": "钢琴 · 演奏",
+      "model": "field_piano_ing.glb",
+      "clip": "field_piano_ing",
+      "duration": 5.1667,
+      "mouthEvents": [],
+      "yaw": 1.570796,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    }
+  ]
 }

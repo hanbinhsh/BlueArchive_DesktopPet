@@ -594,6 +594,468 @@
         }
       ],
       "yaw": 2.670353755551324
+    },
+    {
+      "id": "field_gymball_start",
+      "name": "健身球 · 坐上",
+      "model": "field_gymball_start.glb",
+      "clip": "field_gymball_start",
+      "duration": 4.4333,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 401
+        },
+        {
+          "time": 3.1666667,
+          "tile": 402
+        }
+      ],
+      "yaw": 5.497787,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_gymball_ing",
+      "name": "健身球 · 弹跳",
+      "model": "field_gymball_ing.glb",
+      "clip": "field_gymball_ing",
+      "duration": 3.8667,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 402
+        }
+      ],
+      "yaw": 5.497787,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_gymball_end",
+      "name": "健身球 · 下来",
+      "model": "field_gymball_end.glb",
+      "clip": "field_gymball_end",
+      "duration": 8.2667,
+      "mouthEvents": [
+        {
+          "time": 1.7,
+          "tile": 405
+        },
+        {
+          "time": 4.6000004,
+          "tile": 401
+        }
+      ],
+      "yaw": 5.497787,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_mic_start",
+      "name": "麦克风 · 上前",
+      "model": "field_mic_start.glb",
+      "clip": "field_mic_start",
+      "duration": 5.0,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 300
+        },
+        {
+          "time": 2.366643,
+          "tile": 404
+        },
+        {
+          "time": 3.233301,
+          "tile": 404
+        },
+        {
+          "time": 3.399966,
+          "tile": 405
+        }
+      ],
+      "yaw": 1.570796,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_mic_ing",
+      "name": "麦克风 · 发言",
+      "model": "field_mic_ing.glb",
+      "clip": "field_mic_ing",
+      "duration": 10.0,
+      "mouthEvents": [
+        {
+          "time": 0.03328280000000028,
+          "tile": 402
+        },
+        {
+          "time": 2.0665959999999997,
+          "tile": 602
+        },
+        {
+          "time": 3.599914,
+          "tile": 505
+        },
+        {
+          "time": 4.899901,
+          "tile": 604
+        },
+        {
+          "time": 6.166555000000001,
+          "tile": 604
+        },
+        {
+          "time": 6.433218999999999,
+          "tile": 505
+        },
+        {
+          "time": 7.499874999999999,
+          "tile": 505
+        },
+        {
+          "time": 7.699873,
+          "tile": 504
+        },
+        {
+          "time": 8.033203,
+          "tile": 505
+        },
+        {
+          "time": 9.433188,
+          "tile": 505
+        },
+        {
+          "time": 9.5998535,
+          "tile": 403
+        }
+      ],
+      "yaw": 1.570796,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_mic_end",
+      "name": "麦克风 · 结束",
+      "model": "field_mic_end.glb",
+      "clip": "field_mic_end",
+      "duration": 8.9,
+      "mouthEvents": [
+        {
+          "time": 1.0665049999999976,
+          "tile": 101
+        },
+        {
+          "time": 4.066476999999997,
+          "tile": 205
+        },
+        {
+          "time": 6.266454999999999,
+          "tile": 403
+        },
+        {
+          "time": 7.833104999999998,
+          "tile": 403
+        },
+        {
+          "time": 8.199767999999997,
+          "tile": 300
+        }
+      ],
+      "yaw": 1.570796,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_cabinet_start",
+      "name": "储物柜 · 打开",
+      "model": "field_cabinet_start.glb",
+      "clip": "field_cabinet_start",
+      "duration": 1.8333,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 401
+        }
+      ],
+      "yaw": 2.356194,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_cabinet_ing",
+      "name": "储物柜 · 查看",
+      "model": "field_cabinet_ing.glb",
+      "clip": "field_cabinet_ing",
+      "duration": 15.1667,
+      "mouthEvents": [
+        {
+          "time": 7.633238666666666,
+          "tile": 604
+        },
+        {
+          "time": 9.299888666666666,
+          "tile": 201
+        },
+        {
+          "time": 12.366524666666667,
+          "tile": 604
+        }
+      ],
+      "yaw": 2.356194,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_cabinet_end",
+      "name": "储物柜 · 关闭",
+      "model": "field_cabinet_end.glb",
+      "clip": "field_cabinet_end",
+      "duration": 4.1333,
+      "mouthEvents": [
+        {
+          "time": 2.366472000000048,
+          "tile": 401
+        }
+      ],
+      "yaw": 2.356194,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_vending01_start",
+      "name": "自动贩卖机① · 操作",
+      "model": "field_vending01_start.glb",
+      "clip": "field_vending01_start",
+      "duration": 4.0,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 401
+        },
+        {
+          "time": 0.133332,
+          "tile": 402
+        },
+        {
+          "time": 1.833315,
+          "tile": 401
+        }
+      ],
+      "yaw": 2.356194,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_vending01_ing",
+      "name": "自动贩卖机① · 互动",
+      "model": "field_vending01_ing.glb",
+      "clip": "field_vending01_ing",
+      "duration": 17.6667,
+      "mouthEvents": [
+        {
+          "time": 0.03329299999999957,
+          "tile": 402
+        },
+        {
+          "time": 1.6666100000000004,
+          "tile": 401
+        },
+        {
+          "time": 3.8332550000000003,
+          "tile": 402
+        },
+        {
+          "time": 6.8332250000000005,
+          "tile": 300
+        },
+        {
+          "time": 7.433218999999999,
+          "tile": 705
+        },
+        {
+          "time": 8.66654,
+          "tile": 300
+        },
+        {
+          "time": 16.699793,
+          "tile": 705
+        },
+        {
+          "time": 17.599783,
+          "tile": 300
+        }
+      ],
+      "yaw": 2.356194,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_vending01_end",
+      "name": "自动贩卖机① · 离开",
+      "model": "field_vending01_end.glb",
+      "clip": "field_vending01_end",
+      "duration": 2.7667,
+      "mouthEvents": [
+        {
+          "time": 2.633090333333346,
+          "tile": 401
+        }
+      ],
+      "yaw": 2.356194,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_vending02_start",
+      "name": "自动贩卖机② · 操作",
+      "model": "field_vending02_start.glb",
+      "clip": "field_vending02_start",
+      "duration": 4.0,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 401
+        },
+        {
+          "time": 0.133332,
+          "tile": 402
+        },
+        {
+          "time": 1.833315,
+          "tile": 401
+        }
+      ],
+      "yaw": 2.356194,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_vending02_ing",
+      "name": "自动贩卖机② · 互动",
+      "model": "field_vending02_ing.glb",
+      "clip": "field_vending02_ing",
+      "duration": 20.0,
+      "mouthEvents": [
+        {
+          "time": 0.03329299999999957,
+          "tile": 300
+        },
+        {
+          "time": 1.6332769999999996,
+          "tile": 705
+        },
+        {
+          "time": 3.2999267999999997,
+          "tile": 300
+        },
+        {
+          "time": 4.133252000000001,
+          "tile": 402
+        },
+        {
+          "time": 7.399886,
+          "tile": 602
+        },
+        {
+          "time": 10.433188,
+          "tile": 402
+        },
+        {
+          "time": 14.266483000000001,
+          "tile": 305
+        },
+        {
+          "time": 16.699793,
+          "tile": 602
+        }
+      ],
+      "yaw": 2.356194,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_vending02_end",
+      "name": "自动贩卖机② · 离开",
+      "model": "field_vending02_end.glb",
+      "clip": "field_vending02_end",
+      "duration": 2.6667,
+      "mouthEvents": [
+        {
+          "time": 2.6663989999999878,
+          "tile": 401
+        }
+      ],
+      "yaw": 2.356194,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_riosbot_start",
+      "name": "莉音机械犬 · 启动",
+      "model": "field_riosbot_start.glb",
+      "clip": "field_riosbot_start",
+      "duration": 5.0,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 401
+        },
+        {
+          "time": 0.39999598,
+          "tile": 200
+        },
+        {
+          "time": 1.799982,
+          "tile": 404
+        },
+        {
+          "time": 4.599954,
+          "tile": 507
+        },
+        {
+          "time": 4.766619,
+          "tile": 205
+        }
+      ],
+      "yaw": 0.942478,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_riosbot_ing",
+      "name": "莉音机械犬 · 互动",
+      "model": "field_riosbot_ing.glb",
+      "clip": "field_riosbot_ing",
+      "duration": 5.0,
+      "mouthEvents": [
+        {
+          "time": 0.8332750000000004,
+          "tile": 403
+        },
+        {
+          "time": 2.699923,
+          "tile": 201
+        },
+        {
+          "time": 4.7665690000000005,
+          "tile": 300
+        }
+      ],
+      "yaw": 0.942478,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_riosbot_end",
+      "name": "莉音机械犬 · 结束",
+      "model": "field_riosbot_end.glb",
+      "clip": "field_riosbot_end",
+      "duration": 7.8667,
+      "mouthEvents": [
+        {
+          "time": 1.2665540000000026,
+          "tile": 405
+        },
+        {
+          "time": 4.966516500000003,
+          "tile": 402
+        },
+        {
+          "time": 6.699833000000005,
+          "tile": 300
+        },
+        {
+          "time": 7.733156000000005,
+          "tile": 401
+        }
+      ],
+      "yaw": 0.942478,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
     }
   ],
   "framing": {

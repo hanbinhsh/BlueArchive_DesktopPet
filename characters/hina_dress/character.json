@@ -501,6 +501,36 @@
       ],
       "note": "与亚子 · 礼服同步互动。",
       "yaw": 2.356194490192345
+    },
+    {
+      "id": "field_table_start",
+      "name": "宴会餐桌 · 就座",
+      "model": "field_table_start.glb",
+      "clip": "field_table_start",
+      "duration": 4.6667,
+      "mouthEvents": [],
+      "yaw": 1.570796,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_table_ing",
+      "name": "宴会餐桌 · 休憩",
+      "model": "field_table_ing.glb",
+      "clip": "field_table_ing",
+      "duration": 10.0,
+      "mouthEvents": [],
+      "yaw": 1.570796,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_table_end",
+      "name": "宴会餐桌 · 离席",
+      "model": "field_table_end.glb",
+      "clip": "field_table_end",
+      "duration": 2.8333,
+      "mouthEvents": [],
+      "yaw": 1.570796,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
     }
   ],
   "framing": {

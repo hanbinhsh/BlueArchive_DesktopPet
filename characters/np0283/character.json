@@ -1,0 +1,452 @@
+{
+  "id": "np0283",
+  "name": "妮可 · 探索",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Field_Player_NP0283_NonWeapon; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Field_Player_NP0283_NonWeapon_Normal_Idle--636fd72f600c3f36",
+    "interact": "Field_Player_NP0283_NonWeapon_Normal_Idle_Think--a1cdade9a0a03b46"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Field_Player_NP0283_NonWeapon_Normal_Idle--636fd72f600c3f36",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "思考",
+      "clip": "Field_Player_NP0283_NonWeapon_Normal_Idle_Think--a1cdade9a0a03b46",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "散步",
+      "clip": "Field_Player_NP0283_NonWeapon_Walk_Ing--25662c512066e2c2",
+      "category": "常用"
+    },
+    {
+      "id": "move",
+      "label": "奔跑",
+      "clip": "Field_Player_NP0283_NonWeapon_Move_Ing--8d86554ac21088f7",
+      "category": "常用"
+    },
+    {
+      "id": "search",
+      "label": "搜寻",
+      "clip": "Field_Player_NP0283_NonWeapon_Search--72d139bddb9759a5",
+      "category": "常用"
+    },
+    {
+      "id": "get_item",
+      "label": "拾取道具",
+      "clip": "Field_Player_NP0283_NonWeapon_Field_Get_Item--a201359d2f0f26bf",
+      "category": "常用"
+    }
+  ],
+  "mouth": {
+    "material": "Field_Player_NP0283_NonWeapon_Mouth",
+    "defaultTile": 704,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.5,
+      0.875
+    ],
+    "events": {
+      "Field_Player_NP0283_NonWeapon_Normal_Idle--636fd72f600c3f36": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Field_Player_NP0283_NonWeapon_Normal_Idle_Think--a1cdade9a0a03b46": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 8.66658,
+          "tile": 402
+        },
+        {
+          "time": 10.199898,
+          "tile": 401
+        }
+      ],
+      "Field_Player_NP0283_NonWeapon_Walk_Ing--25662c512066e2c2": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Field_Player_NP0283_NonWeapon_Move_Ing--8d86554ac21088f7": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Field_Player_NP0283_NonWeapon_Search--72d139bddb9759a5": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 0.99999,
+          "tile": 402
+        },
+        {
+          "time": 2.33331,
+          "tile": 402
+        }
+      ],
+      "Field_Player_NP0283_NonWeapon_Field_Get_Item--a201359d2f0f26bf": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.19999799,
+          "tile": 705
+        },
+        {
+          "time": 1.199988,
+          "tile": 704
+        }
+      ],
+      "CutIn_Ex2_Zone02_Op_01_Field_Player_NP0283_NonWeapon_03--e6ed33f2009bc4b0": [],
+      "CutIn_Ex2_Zone02_Op_01_Field_Player_NP0283_NonWeapon_04--d5f0c5a8f0503d6c": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 2.3000002,
+          "tile": 707
+        }
+      ],
+      "CutIn_Ex2_Zone02_Op_01_Field_Player_NP0283_NonWeapon_05--b21fd83daa1f1bfa": [],
+      "CutIn_Ex2_Zone02_Op_01_Field_Player_NP0283_NonWeapon_01--74b64617a8b35ae": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 2.3000002,
+          "tile": 604
+        },
+        {
+          "time": 2.766667,
+          "tile": 402
+        },
+        {
+          "time": 3.7666667,
+          "tile": 402
+        }
+      ],
+      "Field_Player_NP0283_NonWeapon_bench_End--ecbfad353e56529e": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Field_Player_NP0283_NonWeapon_Prop_Field_Ex2_Zone02_Cat_01_Ing--9c26e4df2f88a12e": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Field_Player_NP0283_NonWeapon_bench_Ing--30b98bfa0ec08769": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.6666667,
+          "tile": 705
+        },
+        {
+          "time": 1.6666667,
+          "tile": 706
+        },
+        {
+          "time": 1.9000001,
+          "tile": 403
+        },
+        {
+          "time": 3.1666667,
+          "tile": 706
+        },
+        {
+          "time": 3.4333334,
+          "tile": 403
+        },
+        {
+          "time": 6.466667,
+          "tile": 602
+        },
+        {
+          "time": 6.7000003,
+          "tile": 300
+        },
+        {
+          "time": 8,
+          "tile": 706
+        },
+        {
+          "time": 8.3,
+          "tile": 403
+        },
+        {
+          "time": 10.200001,
+          "tile": 505
+        },
+        {
+          "time": 10.366667,
+          "tile": 403
+        },
+        {
+          "time": 13.333334,
+          "tile": 602
+        },
+        {
+          "time": 13.900001,
+          "tile": 705
+        },
+        {
+          "time": 15.566668,
+          "tile": 300
+        }
+      ],
+      "Field_Player_NP0283_NonWeapon_Prop_Field_Ex2_Zone02_Cat_01_Start--daa087398f8da3": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "Field_Player_NP0283_NonWeapon_bench_Start--5a62cd3af912befe": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 3.866628,
+          "tile": 705
+        },
+        {
+          "time": 5.433279,
+          "tile": 704
+        },
+        {
+          "time": 6.499935,
+          "tile": 704
+        },
+        {
+          "time": 7.533258,
+          "tile": 705
+        },
+        {
+          "time": 8.33325,
+          "tile": 704
+        }
+      ],
+      "Field_Player_NP0283_NonWeapon_Prop_Field_Ex2_Zone02_Cat_01_End--65cb6c7b38c80175": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 2.3000002,
+          "tile": 705
+        },
+        {
+          "time": 4.3,
+          "tile": 300
+        }
+      ]
+    }
+  },
+  "furniture": [
+    {
+      "id": "field_cat_start",
+      "name": "街角猫咪 · 靠近",
+      "model": "field_cat_start.glb",
+      "clip": "field_cat_start",
+      "duration": 4.0,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 300
+        }
+      ],
+      "yaw": 5.497787,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_cat_ing",
+      "name": "街角猫咪 · 抚摸",
+      "model": "field_cat_ing.glb",
+      "clip": "field_cat_ing",
+      "duration": 3.0,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 300
+        }
+      ],
+      "yaw": 5.497787,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_cat_end",
+      "name": "街角猫咪 · 告别",
+      "model": "field_cat_end.glb",
+      "clip": "field_cat_end",
+      "duration": 9.0,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 300
+        },
+        {
+          "time": 2.3000002,
+          "tile": 705
+        },
+        {
+          "time": 4.3,
+          "tile": 300
+        }
+      ],
+      "yaw": 5.497787,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_bench_start",
+      "name": "公园长椅 · 坐下",
+      "model": "field_bench_start.glb",
+      "clip": "field_bench_start",
+      "duration": 8.6667,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 704
+        },
+        {
+          "time": 3.866628,
+          "tile": 705
+        },
+        {
+          "time": 5.433279,
+          "tile": 704
+        },
+        {
+          "time": 6.499935,
+          "tile": 704
+        },
+        {
+          "time": 7.533258,
+          "tile": 705
+        },
+        {
+          "time": 8.33325,
+          "tile": 704
+        }
+      ],
+      "yaw": 1.570796,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_bench_ing",
+      "name": "公园长椅 · 休憩",
+      "model": "field_bench_ing.glb",
+      "clip": "field_bench_ing",
+      "duration": 17.3667,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 704
+        },
+        {
+          "time": 0.6666667,
+          "tile": 705
+        },
+        {
+          "time": 1.6666667,
+          "tile": 706
+        },
+        {
+          "time": 1.9000001,
+          "tile": 403
+        },
+        {
+          "time": 3.1666667,
+          "tile": 706
+        },
+        {
+          "time": 3.4333334,
+          "tile": 403
+        },
+        {
+          "time": 6.466667,
+          "tile": 602
+        },
+        {
+          "time": 6.7000003,
+          "tile": 300
+        },
+        {
+          "time": 8.0,
+          "tile": 706
+        },
+        {
+          "time": 8.3,
+          "tile": 403
+        },
+        {
+          "time": 10.200001,
+          "tile": 505
+        },
+        {
+          "time": 10.366667,
+          "tile": 403
+        },
+        {
+          "time": 13.333334,
+          "tile": 602
+        },
+        {
+          "time": 13.900001,
+          "tile": 705
+        },
+        {
+          "time": 15.566668,
+          "tile": 300
+        }
+      ],
+      "yaw": 1.570796,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    },
+    {
+      "id": "field_bench_end",
+      "name": "公园长椅 · 起身",
+      "model": "field_bench_end.glb",
+      "clip": "field_bench_end",
+      "duration": 2.5,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 300
+        }
+      ],
+      "yaw": 1.570796,
+      "note": "原版探索互动场景，人物与家具按同一时间轴同步播放。"
+    }
+  ],
+  "note": "探索模式角色外观。猫咪互动与长椅互动的六段原版拆分动作在下方“家具互动”中播放。"
+}

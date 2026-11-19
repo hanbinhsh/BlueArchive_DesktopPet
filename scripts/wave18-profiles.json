@@ -1,0 +1,341 @@
+{
+  "renge": {
+    "modelPrefix": "CH0224",
+    "prefabName": "CH0224",
+    "exportDirectory": "wave18-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0224_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0224_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0224_Cafe_Walk"
+      ],
+      [
+        "victory",
+        "胜利动作",
+        "CH0224_Victory_Start"
+      ],
+      [
+        "reload",
+        "换弹",
+        "CH0224_Normal_Reload"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0224_Formation_Pickup"
+      ]
+    ]
+  },
+  "renge_swimsuit": {
+    "modelPrefix": "CH0302",
+    "prefabName": "CH0302",
+    "exportDirectory": "wave18-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0302_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0302_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0302_Cafe_Walk"
+      ],
+      [
+        "victory",
+        "胜利动作",
+        "CH0302_Victory_Start"
+      ],
+      [
+        "reload",
+        "换弹",
+        "CH0302_Normal_Reload"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0302_Formation_Pickup"
+      ]
+    ]
+  },
+  "makoto": {
+    "modelPrefix": "CH0079",
+    "prefabName": "CH0079",
+    "exportDirectory": "wave18-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0079_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0079_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0079_Cafe_Walk"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0079_Formation_Pickup"
+      ]
+    ]
+  },
+  "makoto_swimsuit": {
+    "modelPrefix": "CH0344",
+    "prefabName": "CH0344",
+    "exportDirectory": "wave18-complete",
+    "mouthDefaultUV": {
+      "x": 0.0,
+      "y": 0.75
+    },
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0344_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0344_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0344_Cafe_Walk"
+      ],
+      [
+        "victory",
+        "胜利动作",
+        "CH0344_Victory_Start"
+      ],
+      [
+        "reload",
+        "换弹",
+        "CH0344_Normal_Reload"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0344_Formation_Pickup"
+      ]
+    ]
+  },
+  "noa": {
+    "modelPrefix": "CH0095",
+    "prefabName": "CH0095",
+    "exportDirectory": "wave18-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0095_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0095_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0095_Cafe_Walk"
+      ],
+      [
+        "victory",
+        "胜利动作",
+        "CH0095_Victory_Start"
+      ],
+      [
+        "reload",
+        "换弹",
+        "CH0095_Normal_Reload"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0095_Formation_Pickup"
+      ]
+    ]
+  },
+  "noa_pajama": {
+    "modelPrefix": "CH0285",
+    "prefabName": "CH0285",
+    "exportDirectory": "wave18-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0285_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0285_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0285_Cafe_Walk"
+      ],
+      [
+        "victory",
+        "胜利动作",
+        "CH0285_Victory_Start"
+      ],
+      [
+        "reload",
+        "换弹",
+        "CH0285_Normal_Reload"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0285_Formation_Pickup"
+      ]
+    ]
+  },
+  "himari": {
+    "modelPrefix": "CH0159",
+    "prefabName": "CH0159",
+    "exportDirectory": "wave18-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0159_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0159_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0159_Cafe_Walk"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0159_Formation_Pickup"
+      ]
+    ]
+  },
+  "himari_battle": {
+    "modelPrefix": "CH0332",
+    "prefabName": "CH0332",
+    "exportDirectory": "wave18-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0332_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0332_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0332_Cafe_Walk"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0332_Formation_Pickup"
+      ]
+    ]
+  },
+  "yukino": {
+    "modelPrefix": "CH0171_Enemy",
+    "prefabName": "CH0171_Enemy",
+    "exportDirectory": "wave18-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0171_Enemy_Normal_Idle"
+      ],
+      [
+        "interact",
+        "登场动作",
+        "CH0171_Enemy_Appear"
+      ],
+      [
+        "walk",
+        "移动",
+        "CH0171_Enemy_Move_Ing"
+      ],
+      [
+        "reload",
+        "换弹",
+        "CH0171_Enemy_Normal_Reload"
+      ],
+      [
+        "public01",
+        "普通技能",
+        "CH0171_Enemy_Public01"
+      ]
+    ]
+  },
+  "np0283": {
+    "modelPrefix": "Field_Player_NP0283_NonWeapon",
+    "prefabName": "Field_Player_NP0283_NonWeapon",
+    "exportDirectory": "wave18-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "Field_Player_NP0283_NonWeapon_Normal_Idle"
+      ],
+      [
+        "interact",
+        "思考",
+        "Field_Player_NP0283_NonWeapon_Normal_Idle_Think"
+      ],
+      [
+        "walk",
+        "散步",
+        "Field_Player_NP0283_NonWeapon_Walk_Ing"
+      ],
+      [
+        "move",
+        "奔跑",
+        "Field_Player_NP0283_NonWeapon_Move_Ing"
+      ],
+      [
+        "search",
+        "搜寻",
+        "Field_Player_NP0283_NonWeapon_Search"
+      ],
+      [
+        "get_item",
+        "拾取道具",
+        "Field_Player_NP0283_NonWeapon_Field_Get_Item"
+      ]
+    ]
+  }
+}

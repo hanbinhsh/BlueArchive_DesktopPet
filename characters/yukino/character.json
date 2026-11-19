@@ -1,0 +1,243 @@
+{
+  "id": "yukino",
+  "name": "雪乃 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0171_Enemy; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0171_Enemy_Normal_Idle--dff3c557c58f39ed",
+    "interact": "CH0171_Enemy_Appear--39784f08c1a0bd02"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0171_Enemy_Normal_Idle--dff3c557c58f39ed",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "登场动作",
+      "clip": "CH0171_Enemy_Appear--39784f08c1a0bd02",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "移动",
+      "clip": "CH0171_Enemy_Move_Ing--d3eb4a6109add757",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "CH0171_Enemy_Normal_Reload--ce93c2d2a500b94d",
+      "category": "常用"
+    },
+    {
+      "id": "public01",
+      "label": "普通技能",
+      "clip": "CH0171_Enemy_Public01--8d7df2c6fa9ceb54",
+      "category": "常用"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "CH0171_Enemy_Kneel_Attack_Delay--ce82c2602bcea4d8",
+      "sourceName": "CH0171_Enemy_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "CH0171_Enemy_Kneel_Attack_Ing--bc6111949264c570",
+      "sourceName": "CH0171_Enemy_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_ex01",
+      "label": "Ex01",
+      "clip": "CH0171_Enemy_Ex01--f938b8c33ee95ed5",
+      "sourceName": "CH0171_Enemy_Ex01",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "CH0171_Enemy_Kneel_Idle--b963ff53a232651c",
+      "sourceName": "CH0171_Enemy_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_root",
+      "label": "蹲姿 · Root",
+      "clip": "CH0171_Enemy_Move_End_Kneel_Root--b5f4107d20340ad3",
+      "sourceName": "CH0171_Enemy_Move_End_Kneel_Root",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "CH0171_Enemy_Move_End_Normal--907679a976dd8858",
+      "sourceName": "CH0171_Enemy_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "CH0171_Enemy_Normal_Attack_End--902dfc56f3eff3e7",
+      "sourceName": "CH0171_Enemy_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "CH0171_Enemy_Kneel_Attack_Start--88d01c4fb29a4917",
+      "sourceName": "CH0171_Enemy_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "CH0171_Enemy_Normal_Attack_Ing--84923df0bc04c0b0",
+      "sourceName": "CH0171_Enemy_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "CH0171_Enemy_Kneel_Attack_End--846cc3ebaf6a4675",
+      "sourceName": "CH0171_Enemy_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "CH0171_Enemy_Kneel_Reload--2600822230d878a8",
+      "sourceName": "CH0171_Enemy_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "CH0171_Enemy_Normal_Attack_Delay--2e38ec18494b7507",
+      "sourceName": "CH0171_Enemy_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "CH0171_Enemy_Vital_Panic--35ab7c374b0b2252",
+      "sourceName": "CH0171_Enemy_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "CH0171_Enemy_Normal_Attack_Start--435e627be1fb4821",
+      "sourceName": "CH0171_Enemy_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "CH0171_Enemy_Vital_Death--653f6f0d308beb27",
+      "sourceName": "CH0171_Enemy_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_root",
+      "label": "常规 · Root",
+      "clip": "CH0171_Enemy_Move_End_Normal_Root--73b0d3f3bf6dc28c",
+      "sourceName": "CH0171_Enemy_Move_End_Normal_Root",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "CH0171_Enemy_Move_End_Kneel--77b78bb13da79579",
+      "sourceName": "CH0171_Enemy_Move_End_Kneel",
+      "category": "移动"
+    }
+  ],
+  "mouth": {
+    "material": "CH0171_Enemy_Mouth",
+    "defaultTile": 401,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.125,
+      0.5
+    ],
+    "events": {
+      "CH0171_Enemy_Normal_Idle--dff3c557c58f39ed": [],
+      "CH0171_Enemy_Appear--39784f08c1a0bd02": [],
+      "CH0171_Enemy_Move_Ing--d3eb4a6109add757": [],
+      "CH0171_Enemy_Normal_Reload--ce93c2d2a500b94d": [],
+      "CH0171_Enemy_Public01--8d7df2c6fa9ceb54": [
+        {
+          "time": 0,
+          "tile": 401,
+          "reset": true
+        },
+        {
+          "time": 0.53333336,
+          "tile": 401
+        },
+        {
+          "time": 0.6,
+          "tile": 402
+        },
+        {
+          "time": 0.9666667,
+          "tile": 401
+        },
+        {
+          "time": 1.1,
+          "tile": 402
+        },
+        {
+          "time": 1.3666668,
+          "tile": 401
+        },
+        {
+          "time": 1.5333334,
+          "tile": 402
+        },
+        {
+          "time": 1.7,
+          "tile": 401
+        },
+        {
+          "time": 1.8666667,
+          "tile": 402
+        },
+        {
+          "time": 2.0333335,
+          "tile": 401
+        }
+      ],
+      "CH0171_Enemy_Kneel_Attack_Delay--ce82c2602bcea4d8": [],
+      "CH0171_Enemy_Kneel_Attack_Ing--bc6111949264c570": [],
+      "CH0171_Enemy_Ex01--f938b8c33ee95ed5": [],
+      "CH0171_Enemy_Kneel_Idle--b963ff53a232651c": [],
+      "CH0171_Enemy_Move_End_Kneel_Root--b5f4107d20340ad3": [],
+      "CH0171_Enemy_Move_End_Normal--907679a976dd8858": [],
+      "CH0171_Enemy_Normal_Attack_End--902dfc56f3eff3e7": [],
+      "CH0171_Enemy_Kneel_Attack_Start--88d01c4fb29a4917": [],
+      "CH0171_Enemy_Normal_Attack_Ing--84923df0bc04c0b0": [],
+      "CH0171_Enemy_Kneel_Attack_End--846cc3ebaf6a4675": [],
+      "CH0171_Enemy_Kneel_Reload--2600822230d878a8": [],
+      "CH0171_Enemy_RabbitofCaerbannog_part2_OP--2cc9220cb69c596c": [],
+      "CH0171_Enemy_Normal_Attack_Delay--2e38ec18494b7507": [],
+      "CH0171_Enemy_Vital_Panic--35ab7c374b0b2252": [],
+      "CH0171_Enemy_Normal_Attack_Start--435e627be1fb4821": [],
+      "CH0171_Enemy_Vital_Death--653f6f0d308beb27": [],
+      "CH0171_Enemy_Move_End_Normal_Root--73b0d3f3bf6dc28c": [],
+      "CH0171_Enemy_Move_End_Kneel--77b78bb13da79579": []
+    }
+  }
+}

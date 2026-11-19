@@ -1,0 +1,42 @@
+{
+  "renge": [
+    "CH0224",
+    "莲华 · 原版"
+  ],
+  "renge_swimsuit": [
+    "CH0302",
+    "莲华 · 泳装"
+  ],
+  "makoto": [
+    "CH0079",
+    "真琴 · 原版"
+  ],
+  "makoto_swimsuit": [
+    "CH0344",
+    "真琴 · 泳装"
+  ],
+  "noa": [
+    "CH0095",
+    "诺亚 · 原版"
+  ],
+  "noa_pajama": [
+    "CH0285",
+    "诺亚 · 睡衣"
+  ],
+  "himari": [
+    "CH0159",
+    "日鞠 · 原版"
+  ],
+  "himari_battle": [
+    "CH0332",
+    "日鞠 · 武装"
+  ],
+  "yukino": [
+    "CH0171_Enemy",
+    "雪乃 · 原版"
+  ],
+  "np0283": [
+    "Field_Player_NP0283_NonWeapon",
+    "妮可 · 探索"
+  ]
+}

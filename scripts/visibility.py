@@ -10,11 +10,10 @@ def attach_visibility(doc, renderer_names, defaults=None, ignore_missing=False, 
                 tracks[name] = [[k[0], k[1] >= .5] for k in curve['keys']]
         for event in clip['events']:
             if event['function'] not in ('AniEvt_EnableChildRenderer','AniEvt_DisableChildRenderer'): continue
-            if not 0 <= event['int'] < len(renderer_names):
-                ignored=next((e for e in ignored_events if e['clip']==clip['name'] and e['index']==event['int'] and e['function']==event['function'] and abs(e['time']-event['time'])<1e-6),None)
-                if ignored:
-                    doc.setdefault('extras',{}).setdefault('BA_unresolved_legacy_renderer_events',[]).append(ignored)
-                    continue
+            ignored=next((e for e in ignored_events if e['clip']==clip['name'] and e['index']==event['int'] and e['function']==event['function'] and abs(e['time']-event['time'])<1e-6),None)
+            if ignored:
+                doc.setdefault('extras',{}).setdefault('BA_unresolved_legacy_renderer_events',[]).append(ignored)
+                continue
             if ignore_missing and not 0 <= event['int'] < len(renderer_names): continue
             name = renderer_names[event['int']]
             if ignore_missing and name not in nodes: continue

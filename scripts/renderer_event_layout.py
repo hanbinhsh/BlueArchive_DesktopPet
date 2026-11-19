@@ -10,6 +10,10 @@ LAYOUTS={
     # indices 3/4 onto CH0123_Prop and CH0123_Halo, causing yukata z-fighting
     # and hiding her handheld onsen props in cafe/skill clips.
     'shigure_onsen':{3:'CH0123_CutIn_Body',4:'CH0123_Body'},
+    # CH0159 clips address CH0159_Blanket_Mesh at prefab child index 3 (bone_root
+    # is child 0). Enumerating renderers alone shifted index 3 onto CH0159_Halo,
+    # hiding her halo instead of her lap blanket in CH0159_Formation_Pickup.
+    'himari':{3:'CH0159_Blanket_Mesh'},
 }
 def renderer_event_layout(character,names):
     result=list(names)

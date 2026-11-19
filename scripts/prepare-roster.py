@@ -120,7 +120,7 @@ for name, renderer in original_renderers.items():
     # actually referenced by this prefab, not another asset's same-named copy.
     for pointer in renderer.m_Materials:
         material = pointer.read(); materials[material.m_Name] = material
-default_uv = defaults[0]
+default_uv = profile.get('mouthDefaultUV', defaults[0])
 default_tile = round(default_uv['y'] * 8) * 100 + round(default_uv['x'] * 8)
 texture_cache = {}
 def texture_index(texture):
