@@ -1,0 +1,393 @@
+{
+  "id": "kotama",
+  "name": "小玉 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Kotama_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Kotama_Original_Cafe_Idle--87329c7fb6fbbd99",
+    "interact": "Kotama_Original_Cafe_Reaction--7731b5d265df614"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Kotama_Original_Cafe_Idle--87329c7fb6fbbd99",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Kotama_Original_Cafe_Reaction--7731b5d265df614",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Kotama_Original_Cafe_Walk--996099922abcc658",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Kotama_Original_Victory_Start--834579614d2f5fc7",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Kotama_Original_Normal_Reload--99b800ba9f882793",
+      "category": "常用"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Kotama_Original_Normal_Attack_End--ec305eb58e542219",
+      "sourceName": "Kotama_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Kotama_Original_Vital_Dying_Ing--eaf78b666f748d23",
+      "sourceName": "Kotama_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Kotama_Original_Victory_End--e3613efd0b06bec0",
+      "sourceName": "Kotama_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Kotama_Original_Kneel_Reload--da47a504828b2a50",
+      "sourceName": "Kotama_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "Kotama_Original_Move_Jump--d52baee51de41ac0",
+      "sourceName": "Kotama_Original_Move_Jump",
+      "category": "移动"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Kotama_Original_Move_Ing--d2908eeaf9e171af",
+      "sourceName": "Kotama_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Kotama_Original_Vital_Death--cdd55bfb4e9b6a3e",
+      "sourceName": "Kotama_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_end",
+      "label": "掩体站姿 · 攻击 · 结束",
+      "clip": "Kotama_Original_Stand_Attack_End--c8726ee7d9d4e622",
+      "sourceName": "Kotama_Original_Stand_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_stand",
+      "label": "移动 · 结束 · 掩体站姿",
+      "clip": "Kotama_Original_Move_End_Stand--c77abbba74fcd598",
+      "sourceName": "Kotama_Original_Move_End_Stand",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Kotama_Original_Kneel_Attack_Ing--c5a9b6db272baea0",
+      "sourceName": "Kotama_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Kotama_Original_Normal_Attack_Delay--c5a0a5f48037a358",
+      "sourceName": "Kotama_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_delay",
+      "label": "掩体站姿 · 攻击 · 间隔",
+      "clip": "Kotama_Original_Stand_Attack_Delay--bf53043c48175894",
+      "sourceName": "Kotama_Original_Stand_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Kotama_Original_Normal_Idle--ba15a99628725264",
+      "sourceName": "Kotama_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_start",
+      "label": "掩体站姿 · 攻击 · 开始",
+      "clip": "Kotama_Original_Stand_Attack_Start--a1ff3ab85b02aeb3",
+      "sourceName": "Kotama_Original_Stand_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Kotama_Original_Normal_Attack_Ing--9db1d5a53bac4141",
+      "sourceName": "Kotama_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_callsign",
+      "label": "掩体站姿 · 回应",
+      "clip": "Kotama_Original_Stand_Callsign--9c99a38ea59f063d",
+      "sourceName": "Kotama_Original_Stand_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Kotama_Original_Move_End_Kneel--9564886dd9b13578",
+      "sourceName": "Kotama_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Kotama_Original_Normal_Callsign--93d3499e0ed9f5b7",
+      "sourceName": "Kotama_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_idle",
+      "label": "掩体站姿 · 待机",
+      "clip": "Kotama_Original_Stand_Idle--8a6899705f1e8dec",
+      "sourceName": "Kotama_Original_Stand_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Kotama_Original_Move_End_Normal--fb1d2884de22f8a",
+      "sourceName": "Kotama_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Kotama_Original_Vital_Retreat--1000a3e0347810f3",
+      "sourceName": "Kotama_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Kotama_Original_Normal_Attack_Start--2e7c90cc855b6b4",
+      "sourceName": "Kotama_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_callsign",
+      "label": "移动 · 回应",
+      "clip": "Kotama_Original_Move_Callsign--1f782b2558c3b2af",
+      "sourceName": "Kotama_Original_Move_Callsign",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_callsign",
+      "label": "蹲姿 · 回应",
+      "clip": "Kotama_Original_Kneel_Callsign--20691432a4f0772f",
+      "sourceName": "Kotama_Original_Kneel_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Kotama_Original_Kneel_Idle--5d97e6c8345d046",
+      "sourceName": "Kotama_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Kotama_Original_Vital_Panic--3ee0b13001959028",
+      "sourceName": "Kotama_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Kotama_Original_Kneel_Attack_Delay--3f17123a17c1cc3a",
+      "sourceName": "Kotama_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_cutin",
+      "label": "Cutin",
+      "clip": "Kotama_Original_Cutin--40b64c945bdc1945",
+      "sourceName": "Kotama_Original_Cutin",
+      "category": "战斗"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "Kotama_Original_Tactical_Start--45fdbb692fd142d2",
+      "sourceName": "Kotama_Original_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_reload",
+      "label": "掩体站姿 · 换弹",
+      "clip": "Kotama_Original_Stand_Reload--49cf80b901cb6c64",
+      "sourceName": "Kotama_Original_Stand_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Kotama_Original_Exs--513a7e5f161414ee",
+      "sourceName": "Kotama_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Kotama_Original_Formation_Idle--522251e9abdd5603",
+      "sourceName": "Kotama_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Kotama_Original_Kneel_Attack_End--a7426d6d3b285cf",
+      "sourceName": "Kotama_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Kotama_Original_Kneel_Attack_Start--73f92e4a0537229b",
+      "sourceName": "Kotama_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_ing",
+      "label": "掩体站姿 · 攻击 · 持续",
+      "clip": "Kotama_Original_Stand_Attack_Ing--760fa90b841b7fcc",
+      "sourceName": "Kotama_Original_Stand_Attack_Ing",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Kotama_Original_Mouth",
+    "defaultTile": 602,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.25,
+      0.75
+    ],
+    "events": {
+      "Kotama_Original_Cafe_Idle--87329c7fb6fbbd99": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Kotama_Original_Cafe_Reaction--7731b5d265df614": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.33333334,
+          "tile": 300
+        },
+        {
+          "time": 0.36666667,
+          "tile": 704
+        },
+        {
+          "time": 1.1666667,
+          "tile": 504
+        },
+        {
+          "time": 2.3000002,
+          "tile": 402
+        },
+        {
+          "time": 2.3333335,
+          "tile": 401
+        }
+      ],
+      "Kotama_Original_Cafe_Walk--996099922abcc658": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Kotama_Original_Victory_Start--834579614d2f5fc7": [],
+      "Kotama_Original_Normal_Reload--99b800ba9f882793": [],
+      "Kotama_Original_Normal_Attack_End--ec305eb58e542219": [],
+      "Kotama_Original_Vital_Dying_Ing--eaf78b666f748d23": [],
+      "Kotama_Original_Victory_End--e3613efd0b06bec0": [],
+      "Kotama_Original_Kneel_Reload--da47a504828b2a50": [],
+      "Kotama_Original_Move_Jump--d52baee51de41ac0": [],
+      "Kotama_Original_Move_Ing--d2908eeaf9e171af": [],
+      "Kotama_Original_Vital_Death--cdd55bfb4e9b6a3e": [],
+      "Kotama_Original_Stand_Attack_End--c8726ee7d9d4e622": [],
+      "Kotama_Original_Move_End_Stand--c77abbba74fcd598": [],
+      "Kotama_Original_Kneel_Attack_Ing--c5a9b6db272baea0": [],
+      "Kotama_Original_Normal_Attack_Delay--c5a0a5f48037a358": [],
+      "Kotama_Original_Stand_Attack_Delay--bf53043c48175894": [],
+      "Kotama_Original_Normal_Idle--ba15a99628725264": [],
+      "Kotama_Original_Stand_Attack_Start--a1ff3ab85b02aeb3": [],
+      "Kotama_Original_Normal_Attack_Ing--9db1d5a53bac4141": [],
+      "Kotama_Original_Stand_Callsign--9c99a38ea59f063d": [],
+      "Kotama_Original_Move_End_Kneel--9564886dd9b13578": [],
+      "Kotama_Original_Normal_Callsign--93d3499e0ed9f5b7": [],
+      "Kotama_Original_Stand_Idle--8a6899705f1e8dec": [],
+      "Kotama_Original_Move_End_Normal--fb1d2884de22f8a": [],
+      "Kotama_Original_Vital_Retreat--1000a3e0347810f3": [],
+      "Kotama_Original_Normal_Attack_Start--2e7c90cc855b6b4": [],
+      "Kotama_Original_Move_Callsign--1f782b2558c3b2af": [],
+      "Kotama_Original_Kneel_Callsign--20691432a4f0772f": [],
+      "Kotama_Original_Kneel_Idle--5d97e6c8345d046": [],
+      "Kotama_Original_Vital_Panic--3ee0b13001959028": [],
+      "Kotama_Original_Kneel_Attack_Delay--3f17123a17c1cc3a": [],
+      "Kotama_Original_Cutin--40b64c945bdc1945": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 2.4666667,
+          "tile": 402
+        }
+      ],
+      "Kotama_Original_Tactical_Start--45fdbb692fd142d2": [],
+      "Kotama_Original_Stand_Reload--49cf80b901cb6c64": [],
+      "Kotama_Original_Exs--513a7e5f161414ee": [],
+      "Kotama_Original_Formation_Idle--522251e9abdd5603": [
+        {
+          "time": 0,
+          "tile": 602
+        }
+      ],
+      "Kotama_Original_Kneel_Attack_End--a7426d6d3b285cf": [],
+      "Kotama_Original_Kneel_Attack_Start--73f92e4a0537229b": [],
+      "Kotama_Original_Stand_Attack_Ing--760fa90b841b7fcc": []
+    }
+  }
+}

@@ -1,0 +1,631 @@
+{
+  "id": "megu",
+  "name": "惠 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0088; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0088_Cafe_Idle--298890b9394c6237",
+    "interact": "CH0088_Cafe_Reaction--d470ce02f0b53d53"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0088_Cafe_Idle--298890b9394c6237",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0088_Cafe_Reaction--d470ce02f0b53d53",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0088_Cafe_Walk--727f5f38dbe96996",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "CH0088_Victory_Start--ca00753060186cb7",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "CH0088_Normal_Reload--5019382da72725d",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0088_Formation_Pickup--2b021c1bb06d4dd3",
+      "category": "常用"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "CH0088_Normal_Idle--fdec030a4e5de33d",
+      "sourceName": "CH0088_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_onsen_sg",
+      "label": "EX 技能 · Cutin · Onsen · SG",
+      "clip": "CH0088_Exs_Cutin_Onsen_SG--d11e4760b86e5517",
+      "sourceName": "CH0088_Exs_Cutin_Onsen_SG",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "CH0088_Vital_Retreat--c1271ac33d49102f",
+      "sourceName": "CH0088_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "CH0088_Vital_Death--b5dbbf878dcd1ad7",
+      "sourceName": "CH0088_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "CH0088_Normal_Attack_End--ad039112c8eac443",
+      "sourceName": "CH0088_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "CH0088_Victory_End--ff0b75c89f17b253",
+      "sourceName": "CH0088_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs_cutin_onsen_rl",
+      "label": "EX 技能 · Cutin · Onsen · RL",
+      "clip": "CH0088_Exs_Cutin_Onsen_RL--8ddbfc9d5469502e",
+      "sourceName": "CH0088_Exs_Cutin_Onsen_RL",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_callsign_random",
+      "label": "常规 · 回应 · Random",
+      "clip": "CH0088_Normal_Callsign_Random--8ae0cd8fffcced37",
+      "sourceName": "CH0088_Normal_Callsign_Random",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "CH0088_Normal_Attack_Delay--18eddd03f4c177c1",
+      "sourceName": "CH0088_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "CH0088_Public01--1d8817cc8254036e",
+      "sourceName": "CH0088_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "CH0088_Normal_Attack_Ing--25d2c99b5d172560",
+      "sourceName": "CH0088_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "CH0088_Vital_Dying_Ing--437fdbb3fa015c26",
+      "sourceName": "CH0088_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "CH0088_Move_End_Normal--458ca851ee20b1e0",
+      "sourceName": "CH0088_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "CH0088_Vital_Panic--45df110cb1fb9746",
+      "sourceName": "CH0088_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0088_Formation_Idle--4817abc1e78b9ec3",
+      "sourceName": "CH0088_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs_cutin_onsen_gl",
+      "label": "EX 技能 · Cutin · Onsen · GL",
+      "clip": "CH0088_Exs_Cutin_Onsen_GL--48fb882c120aa476",
+      "sourceName": "CH0088_Exs_Cutin_Onsen_GL",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "CH0088_Normal_Attack_Start--58c28227f3e205b6",
+      "sourceName": "CH0088_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "CH0088_Normal_Callsign--5a4c38934f5c7e8c",
+      "sourceName": "CH0088_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "CH0088_Move_Ing--6a19e5eff22d6d15",
+      "sourceName": "CH0088_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "CH0088_Exs_Cutin--7119c0e91f8de1eb",
+      "sourceName": "CH0088_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "CH0088_Exs--798bb7f1af6bc513",
+      "sourceName": "CH0088_Exs",
+      "category": "技能"
+    }
+  ],
+  "mouth": {
+    "material": "CH0088_Mouth",
+    "defaultTile": 1,
+    "columns": 4,
+    "rows": 4,
+    "baseUV": [
+      0.25,
+      0
+    ],
+    "events": {
+      "CH0088_Cafe_Idle--298890b9394c6237": [
+        {
+          "time": 0,
+          "tile": 0,
+          "flipped": true
+        }
+      ],
+      "CH0088_Cafe_Reaction--d470ce02f0b53d53": [
+        {
+          "time": 0,
+          "tile": 103,
+          "flipped": true
+        },
+        {
+          "time": 0.23333335,
+          "tile": 100,
+          "flipped": true
+        },
+        {
+          "time": 2.3000002,
+          "tile": 301,
+          "flipped": true
+        },
+        {
+          "time": 3.1000001,
+          "tile": 100,
+          "flipped": true
+        },
+        {
+          "time": 3.5666666,
+          "tile": 2,
+          "flipped": true
+        },
+        {
+          "time": 5.3333335,
+          "tile": 0,
+          "flipped": true
+        },
+        {
+          "time": 6.5000005,
+          "tile": 103,
+          "flipped": true
+        },
+        {
+          "time": 7.2000003,
+          "tile": 0,
+          "flipped": true
+        }
+      ],
+      "CH0088_Cafe_Walk--727f5f38dbe96996": [
+        {
+          "time": 0,
+          "tile": 0,
+          "flipped": true
+        }
+      ],
+      "CH0088_Victory_Start--ca00753060186cb7": [
+        {
+          "time": 0,
+          "tile": 0,
+          "flipped": true
+        },
+        {
+          "time": 0.73333335,
+          "tile": 1,
+          "flipped": true
+        },
+        {
+          "time": 1.6000001,
+          "tile": 0,
+          "flipped": true
+        },
+        {
+          "time": 1.9000001,
+          "tile": 3,
+          "flipped": true
+        }
+      ],
+      "CH0088_Normal_Reload--5019382da72725d": [
+        {
+          "time": 0,
+          "tile": 0,
+          "flipped": true
+        },
+        {
+          "time": 1.0333333,
+          "tile": 1,
+          "flipped": true
+        },
+        {
+          "time": 1.9333334,
+          "tile": 0,
+          "flipped": true
+        }
+      ],
+      "CH0088_Formation_Pickup--2b021c1bb06d4dd3": [
+        {
+          "time": 0,
+          "tile": 0,
+          "flipped": true
+        },
+        {
+          "time": 0.06666667,
+          "tile": 1,
+          "flipped": true
+        },
+        {
+          "time": 0.4666667,
+          "tile": 3,
+          "flipped": true
+        },
+        {
+          "time": 1.3000001,
+          "tile": 1,
+          "flipped": true
+        },
+        {
+          "time": 4.366667,
+          "tile": 0,
+          "flipped": true
+        }
+      ],
+      "CH0088_Normal_Idle--fdec030a4e5de33d": [
+        {
+          "time": 0,
+          "tile": 0,
+          "flipped": true
+        }
+      ],
+      "CH0088_Exs_Cutin_Onsen_SG--d11e4760b86e5517": [],
+      "CH0088_Vital_Retreat--c1271ac33d49102f": [
+        {
+          "time": 0,
+          "tile": 0,
+          "flipped": true
+        }
+      ],
+      "CH0088_Vital_Death--b5dbbf878dcd1ad7": [
+        {
+          "time": 0,
+          "tile": 203,
+          "flipped": true
+        },
+        {
+          "time": 0.6666667,
+          "tile": 100,
+          "flipped": true
+        }
+      ],
+      "CH0088_Normal_Attack_End--ad039112c8eac443": [
+        {
+          "time": 0,
+          "tile": 1,
+          "flipped": true
+        },
+        {
+          "time": 0.13333334,
+          "tile": 0,
+          "flipped": true
+        }
+      ],
+      "CH0088_Victory_End--ff0b75c89f17b253": [
+        {
+          "time": 0,
+          "tile": 3,
+          "flipped": true
+        }
+      ],
+      "CH0088_Exs_Cutin_Onsen_RL--8ddbfc9d5469502e": [],
+      "CH0088_Normal_Callsign_Random--8ae0cd8fffcced37": [
+        {
+          "time": 0,
+          "tile": 0,
+          "flipped": true
+        },
+        {
+          "time": 0.40000004,
+          "tile": 3,
+          "flipped": true
+        },
+        {
+          "time": 1.0333334,
+          "tile": 1,
+          "flipped": true
+        }
+      ],
+      "CH0088_Normal_Attack_Delay--18eddd03f4c177c1": [
+        {
+          "time": 0,
+          "tile": 0,
+          "flipped": true
+        }
+      ],
+      "CH0088_Public01--1d8817cc8254036e": [
+        {
+          "time": 0,
+          "tile": 0,
+          "flipped": true
+        },
+        {
+          "time": 0.10000001,
+          "tile": 1,
+          "flipped": true
+        },
+        {
+          "time": 1,
+          "tile": 3,
+          "flipped": true
+        },
+        {
+          "time": 2.6333334,
+          "tile": 0,
+          "flipped": true
+        }
+      ],
+      "CH0088_Normal_Attack_Ing--25d2c99b5d172560": [
+        {
+          "time": 0,
+          "tile": 1,
+          "flipped": true
+        }
+      ],
+      "CH0088_Vital_Dying_Ing--437fdbb3fa015c26": [
+        {
+          "time": 0,
+          "tile": 301,
+          "flipped": true
+        }
+      ],
+      "CH0088_Move_End_Normal--458ca851ee20b1e0": [
+        {
+          "time": 0,
+          "tile": 3,
+          "flipped": true
+        },
+        {
+          "time": 0.20000002,
+          "tile": 1,
+          "flipped": true
+        },
+        {
+          "time": 0.6666667,
+          "tile": 0,
+          "flipped": true
+        }
+      ],
+      "CH0088_Vital_Panic--45df110cb1fb9746": [
+        {
+          "time": 0,
+          "tile": 301,
+          "flipped": true
+        }
+      ],
+      "CH0088_Formation_Idle--4817abc1e78b9ec3": [
+        {
+          "time": 0,
+          "tile": 0,
+          "flipped": true
+        }
+      ],
+      "CH0088_Exs_Cutin_Onsen_GL--48fb882c120aa476": [],
+      "CH0088_Normal_Attack_Start--58c28227f3e205b6": [
+        {
+          "time": 0,
+          "tile": 0,
+          "flipped": true
+        },
+        {
+          "time": 0.16666667,
+          "tile": 1,
+          "flipped": true
+        }
+      ],
+      "CH0088_Normal_Callsign--5a4c38934f5c7e8c": [
+        {
+          "time": 0,
+          "tile": 3,
+          "flipped": true
+        },
+        {
+          "time": 0.53333336,
+          "tile": 0,
+          "flipped": true
+        },
+        {
+          "time": 1,
+          "tile": 1,
+          "flipped": true
+        }
+      ],
+      "CH0088_Move_Ing--6a19e5eff22d6d15": [
+        {
+          "time": 0,
+          "tile": 3,
+          "flipped": true
+        }
+      ],
+      "CH0088_Exs_Cutin--7119c0e91f8de1eb": [
+        {
+          "time": 0,
+          "tile": 3
+        },
+        {
+          "time": 3.0000002,
+          "tile": 0,
+          "flipped": true
+        },
+        {
+          "time": 3.266667,
+          "tile": 1
+        },
+        {
+          "time": 3.6333334,
+          "tile": 0,
+          "flipped": true
+        },
+        {
+          "time": 4.533334,
+          "tile": 1
+        }
+      ],
+      "CH0088_Exs--798bb7f1af6bc513": [
+        {
+          "time": 0,
+          "tile": 3,
+          "flipped": true
+        },
+        {
+          "time": 1.3333334,
+          "tile": 0,
+          "flipped": true
+        },
+        {
+          "time": 1.6000001,
+          "tile": 1,
+          "flipped": true
+        },
+        {
+          "time": 3.5333335,
+          "tile": 0,
+          "flipped": true
+        }
+      ]
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs_cutin_onsen_sg": {
+        "zoom": 0.5233869085645487,
+        "centerY": -0.6271195887782175
+      },
+      "original_exs_cutin_onsen_rl": {
+        "zoom": 0.5386570148723461,
+        "centerY": -0.5526447480236658
+      },
+      "original_exs_cutin_onsen_gl": {
+        "zoom": 0.45541844643098484,
+        "centerY": -0.783714743664498
+      }
+    }
+  },
+  "furniture": [
+    {
+      "id": "f6301_0",
+      "name": "柏木治愈套装浴缸",
+      "model": "f6301_0.glb",
+      "clip": "f6301_0",
+      "duration": 22.5,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 0,
+          "flipped": true
+        },
+        {
+          "time": 5.0000005,
+          "tile": 103,
+          "flipped": true
+        },
+        {
+          "time": 10.500001,
+          "tile": 0,
+          "flipped": true
+        },
+        {
+          "time": 12.133334,
+          "tile": 1,
+          "flipped": true
+        },
+        {
+          "time": 13.733334,
+          "tile": 0,
+          "flipped": true
+        },
+        {
+          "time": 13.966667,
+          "tile": 3,
+          "flipped": true
+        },
+        {
+          "time": 16.733334,
+          "tile": 0,
+          "flipped": true
+        },
+        {
+          "time": 18.0,
+          "tile": 103,
+          "flipped": true
+        },
+        {
+          "time": 20.066668,
+          "tile": 0,
+          "flipped": true
+        }
+      ],
+      "yaw": 3.926991,
+      "sourceTimeline": "my_hotsprings_01_woodenbathtub",
+      "sourceGroup": "OnlyTrack_10060",
+      "sourceStudentTrack": "10060"
+    }
+  ]
+}

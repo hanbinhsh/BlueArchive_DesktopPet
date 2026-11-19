@@ -1,0 +1,606 @@
+{
+  "id": "haruna",
+  "name": "晴奈 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Haruna_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Haruna_Original_Cafe_Idle--92a2259fd5fcb3fc",
+    "interact": "Haruna_Original_Cafe_Reaction--63632efde56fc43e"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Haruna_Original_Cafe_Idle--92a2259fd5fcb3fc",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Haruna_Original_Cafe_Reaction--63632efde56fc43e",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Haruna_Original_Cafe_Walk--5b8f3e551157e3e0",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Haruna_Original_Victory_Start--e6ec2923544dc3c3",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Haruna_Original_Normal_Reload--de6d231671511c6e",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Haruna_Original_Formation_Pickup--47b984ef5604d731",
+      "category": "常用"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Haruna_Original_Normal_Attack_Start--fde542273374ee13",
+      "sourceName": "Haruna_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Haruna_Original_Move_End_Kneel--e92f0efbe84659b2",
+      "sourceName": "Haruna_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Haruna_Original_Kneel_Attack_Start--e7cca664728eaff3",
+      "sourceName": "Haruna_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Haruna_Original_Normal_Callsign--fc22084326891ffa",
+      "sourceName": "Haruna_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Haruna_Original_Normal_Attack_Ing--ca60c63455d842df",
+      "sourceName": "Haruna_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Haruna_Original_Move_End_Normal--c1e3a5ebc39cd960",
+      "sourceName": "Haruna_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_callsign",
+      "label": "蹲姿 · 回应",
+      "clip": "Haruna_Original_Kneel_Callsign--c1479389cab51d7b",
+      "sourceName": "Haruna_Original_Kneel_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Haruna_Original_Vital_Retreat--b23b1a9cea97686f",
+      "sourceName": "Haruna_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Haruna_Original_Formation_Idle--afd35fc0c050364b",
+      "sourceName": "Haruna_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Haruna_Original_Vital_Panic--f46518c85b40ddee",
+      "sourceName": "Haruna_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Haruna_Original_Normal_Idle--82a2750738ffad3a",
+      "sourceName": "Haruna_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Haruna_Original_Normal_Attack_Delay--11374fe3fa91c001",
+      "sourceName": "Haruna_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Haruna_Original_Kneel_Attack_Delay--257d9447f21b8e82",
+      "sourceName": "Haruna_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Haruna_Original_Normal_Attack_End--2f72baf802703a38",
+      "sourceName": "Haruna_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Haruna_Original_Kneel_Idle--30e37e4deeaecd02",
+      "sourceName": "Haruna_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Haruna_Original_Vital_Death--37d79e7556d8f2d7",
+      "sourceName": "Haruna_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Haruna_Original_Exs_Cutin--4c0fc65b6489a6b4",
+      "sourceName": "Haruna_Original_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Haruna_Original_Kneel_Attack_Ing--505fd60859966d88",
+      "sourceName": "Haruna_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Haruna_Original_Kneel_Reload--525c247a89bdc4df",
+      "sourceName": "Haruna_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Haruna_Original_Public01--5d9e39273a9be4bd",
+      "sourceName": "Haruna_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Haruna_Original_Victory_End--5e1190f6ce6ac8de",
+      "sourceName": "Haruna_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Haruna_Original_Exs--60f4d37d730533e4",
+      "sourceName": "Haruna_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Haruna_Original_Vital_Dying_Ing--69434e318b9900da",
+      "sourceName": "Haruna_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Haruna_Original_Kneel_Attack_End--6b0ea79a9f27246f",
+      "sourceName": "Haruna_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_callsign",
+      "label": "移动 · 回应",
+      "clip": "Haruna_Original_Move_Callsign--78ebf9118e91abde",
+      "sourceName": "Haruna_Original_Move_Callsign",
+      "category": "移动"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Haruna_Original_Move_Ing--7bb935bffaa573ab",
+      "sourceName": "Haruna_Original_Move_Ing",
+      "category": "移动"
+    }
+  ],
+  "mouth": {
+    "material": "Haruna_Original_Mouth",
+    "defaultTile": 501,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.125,
+      0.625
+    ],
+    "events": {
+      "Haruna_Original_Cafe_Idle--92a2259fd5fcb3fc": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Haruna_Original_Cafe_Reaction--63632efde56fc43e": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.3,
+          "tile": 707
+        },
+        {
+          "time": 1.2333335,
+          "tile": 300
+        },
+        {
+          "time": 1.2666668,
+          "tile": 704
+        }
+      ],
+      "Haruna_Original_Cafe_Walk--5b8f3e551157e3e0": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Haruna_Original_Victory_Start--e6ec2923544dc3c3": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.6,
+          "tile": 400
+        },
+        {
+          "time": 1.0333334,
+          "tile": 404
+        },
+        {
+          "time": 1.2,
+          "tile": 400
+        },
+        {
+          "time": 1.3333334,
+          "tile": 404
+        },
+        {
+          "time": 1.4666667,
+          "tile": 506
+        },
+        {
+          "time": 1.5333334,
+          "tile": 406
+        },
+        {
+          "time": 1.6333334,
+          "tile": 506
+        },
+        {
+          "time": 1.7333335,
+          "tile": 406
+        },
+        {
+          "time": 2,
+          "tile": 603
+        },
+        {
+          "time": 2.5000002,
+          "tile": 501
+        },
+        {
+          "time": 3.5666668,
+          "tile": 501
+        }
+      ],
+      "Haruna_Original_Normal_Reload--de6d231671511c6e": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.40000004,
+          "tile": 505
+        },
+        {
+          "time": 0.4666667,
+          "tile": 401
+        },
+        {
+          "time": 2,
+          "tile": 704
+        }
+      ],
+      "Haruna_Original_Formation_Pickup--47b984ef5604d731": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.43333337,
+          "tile": 501
+        },
+        {
+          "time": 1.4333334,
+          "tile": 704
+        },
+        {
+          "time": 2.1666667,
+          "tile": 404
+        }
+      ],
+      "Haruna_Original_Normal_Attack_Start--fde542273374ee13": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Haruna_Original_Move_End_Kneel--e92f0efbe84659b2": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.6,
+          "tile": 705
+        },
+        {
+          "time": 0.7666667,
+          "tile": 704
+        }
+      ],
+      "Haruna_Original_Kneel_Attack_Start--e7cca664728eaff3": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Haruna_Original_Normal_Callsign--fc22084326891ffa": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.0666667,
+          "tile": 400
+        },
+        {
+          "time": 1.2,
+          "tile": 704
+        }
+      ],
+      "Haruna_Original_Normal_Attack_Ing--ca60c63455d842df": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Haruna_Original_Move_End_Normal--c1e3a5ebc39cd960": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Haruna_Original_Kneel_Callsign--c1479389cab51d7b": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Haruna_Original_Vital_Retreat--b23b1a9cea97686f": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 1.6666667,
+          "tile": 402
+        }
+      ],
+      "Haruna_Original_Formation_Idle--afd35fc0c050364b": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Haruna_Original_Vital_Panic--f46518c85b40ddee": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 1.6000001,
+          "tile": 402
+        }
+      ],
+      "Haruna_Original_Normal_Idle--82a2750738ffad3a": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Haruna_Original_Normal_Attack_Delay--11374fe3fa91c001": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Haruna_Original_Kneel_Attack_Delay--257d9447f21b8e82": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Haruna_Original_Normal_Attack_End--2f72baf802703a38": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Haruna_Original_Kneel_Idle--30e37e4deeaecd02": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Haruna_Original_Vital_Death--37d79e7556d8f2d7": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.3333334,
+          "tile": 400
+        },
+        {
+          "time": 1.4000001,
+          "tile": 402
+        }
+      ],
+      "Haruna_Original_Exs_Cutin--4c0fc65b6489a6b4": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.73333335,
+          "tile": 501
+        },
+        {
+          "time": 1.3000001,
+          "tile": 704
+        }
+      ],
+      "Haruna_Original_Kneel_Attack_Ing--505fd60859966d88": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Haruna_Original_Kneel_Reload--525c247a89bdc4df": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.5666667,
+          "tile": 505
+        },
+        {
+          "time": 1.7,
+          "tile": 401
+        },
+        {
+          "time": 2.0666668,
+          "tile": 704
+        }
+      ],
+      "Haruna_Original_Public01--5d9e39273a9be4bd": [],
+      "Haruna_Original_Victory_End--5e1190f6ce6ac8de": [
+        {
+          "time": 0,
+          "tile": 501
+        },
+        {
+          "time": 1.8333334,
+          "tile": 501
+        }
+      ],
+      "Haruna_Original_Exs--60f4d37d730533e4": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Haruna_Original_Vital_Dying_Ing--69434e318b9900da": [
+        {
+          "time": 0,
+          "tile": 402
+        },
+        {
+          "time": 1.3333334,
+          "tile": 402
+        }
+      ],
+      "Haruna_Original_Kneel_Attack_End--6b0ea79a9f27246f": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Haruna_Original_Move_Callsign--78ebf9118e91abde": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.26666668,
+          "tile": 502
+        },
+        {
+          "time": 0.3,
+          "tile": 401
+        },
+        {
+          "time": 0.7666667,
+          "tile": 505
+        },
+        {
+          "time": 0.90000004,
+          "tile": 704
+        }
+      ],
+      "Haruna_Original_Move_Ing--7bb935bffaa573ab": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ]
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_vital_death": {
+        "zoom": 1,
+        "centerY": 0.7811357532514976
+      },
+      "original_kneel_reload": {
+        "zoom": 0.9267833500641893,
+        "centerY": 0.9685955063143942
+      },
+      "original_exs": {
+        "zoom": 1,
+        "centerY": 1.1755707267219273
+      }
+    }
+  }
+}

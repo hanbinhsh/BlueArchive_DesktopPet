@@ -1,0 +1,177 @@
+{
+  "id": "sena",
+  "name": "濑名 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0081; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0081_Cafe_Idle--483238b02a7cc59",
+    "interact": "CH0081_Cafe_Reaction--257dca8d8643b5b8"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0081_Cafe_Idle--483238b02a7cc59",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0081_Cafe_Reaction--257dca8d8643b5b8",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0081_Cafe_Walk--bdffb00f986cede",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0081_Formation_Pickup--b75b38cfe3ee559e",
+      "category": "常用"
+    },
+    {
+      "id": "original_cafe_table_02",
+      "label": "咖啡厅 · Table · 02",
+      "clip": "CH0081_Cafe_Table_02--a0c6eb35365728e7",
+      "sourceName": "CH0081_Cafe_Table_02",
+      "category": "剧情"
+    },
+    {
+      "id": "original_cafe_table_01",
+      "label": "咖啡厅 · Table · 01",
+      "clip": "CH0081_Cafe_Table_01--62e5453c87156de",
+      "sourceName": "CH0081_Cafe_Table_01",
+      "category": "剧情"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0081_Tactical_Start--250010bd0ca62f67",
+      "sourceName": "CH0081_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0081_Formation_Idle--cfa067fb076fa19",
+      "sourceName": "CH0081_Formation_Idle",
+      "category": "编队与胜利"
+    }
+  ],
+  "mouth": {
+    "material": "CH0081_Mouth",
+    "defaultTile": 0,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0,
+      0
+    ],
+    "events": {
+      "CH0081_Cafe_Idle--483238b02a7cc59": [],
+      "CH0081_Cafe_Reaction--257dca8d8643b5b8": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.5000001,
+          "tile": 402
+        },
+        {
+          "time": 2.1000001,
+          "tile": 401
+        }
+      ],
+      "CH0081_Cafe_Walk--bdffb00f986cede": [],
+      "CH0081_Formation_Pickup--b75b38cfe3ee559e": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.19999799,
+          "tile": 402
+        },
+        {
+          "time": 1.399986,
+          "tile": 401
+        }
+      ],
+      "CH0081_Cafe_Table_02--a0c6eb35365728e7": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.23333335,
+          "tile": 502
+        },
+        {
+          "time": 0.8000001,
+          "tile": 604
+        },
+        {
+          "time": 5.266667,
+          "tile": 401
+        }
+      ],
+      "CH0081_Cafe_Table_01--62e5453c87156de": [],
+      "CH0081_Exs_Cutin--ee1a825e041adc36": [],
+      "CH0081_Tactical_Start--250010bd0ca62f67": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.33333334,
+          "tile": 402
+        },
+        {
+          "time": 1.3333334,
+          "tile": 401
+        }
+      ],
+      "CH0081_Formation_Idle--cfa067fb076fa19": []
+    }
+  },
+  "furniture": [
+    {
+      "id": "f10_0",
+      "name": "原木大桌",
+      "model": "f10_0.glb",
+      "clip": "f10_0",
+      "duration": 19.133333333333333,
+      "mouthEvents": [
+        {
+          "time": 6.666666666666667,
+          "tile": 401
+        },
+        {
+          "time": 6.900000016666667,
+          "tile": 502
+        },
+        {
+          "time": 7.466666766666667,
+          "tile": 604
+        },
+        {
+          "time": 11.933333666666666,
+          "tile": 401
+        }
+      ],
+      "yaw": 0.785398,
+      "sourceTimeline": "my_defaultroom_table",
+      "sourceGroup": "RequiredTrack_20012",
+      "sourceStudentTrack": "20012"
+    }
+  ]
+}

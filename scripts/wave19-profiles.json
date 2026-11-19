@@ -1,0 +1,831 @@
+{
+  "hanae_christmas": {
+    "modelPrefix": "CH0195",
+    "prefabName": "CH0195",
+    "exportDirectory": "wave19-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0195_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0195_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0195_Cafe_Walk"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0195_Formation_Pickup"
+      ]
+    ]
+  },
+  "hanae": {
+    "modelPrefix": "Hanae_Original",
+    "prefabName": "Hanae_Original",
+    "exportDirectory": "wave19-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "Hanae_Original_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "Hanae_Original_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "Hanae_Original_Cafe_Walk"
+      ]
+    ]
+  },
+  "rabu": {
+    "modelPrefix": "CH0166",
+    "prefabName": "CH0166",
+    "exportDirectory": "wave19-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0166_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0166_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0166_Cafe_Walk"
+      ],
+      [
+        "victory",
+        "胜利动作",
+        "CH0166_Victory_Start"
+      ],
+      [
+        "reload",
+        "换弹",
+        "CH0166_Normal_Reload"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0166_Formation_Pickup"
+      ]
+    ]
+  },
+  "niya": {
+    "modelPrefix": "CH0109",
+    "prefabName": "CH0109",
+    "exportDirectory": "wave19-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0109_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0109_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0109_Cafe_Walk"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0109_Formation_Pickup"
+      ]
+    ]
+  },
+  "fuyu": {
+    "modelPrefix": "CH0318",
+    "prefabName": "CH0318",
+    "exportDirectory": "wave19-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0318_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0318_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0318_Cafe_Walk"
+      ],
+      [
+        "victory",
+        "胜利动作",
+        "CH0318_Victory_Start"
+      ],
+      [
+        "reload",
+        "换弹",
+        "CH0318_Normal_Reload"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0318_Formation_Pickup"
+      ]
+    ]
+  },
+  "pina": {
+    "modelPrefix": "Pina_Original",
+    "prefabName": "Pina_Original",
+    "exportDirectory": "wave19-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "Pina_Original_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "Pina_Original_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "Pina_Original_Cafe_Walk"
+      ],
+      [
+        "victory",
+        "胜利动作",
+        "Pina_Original_Victory_Start"
+      ],
+      [
+        "reload",
+        "换弹",
+        "Pina_Original_Normal_Reload"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "Pina_Original_Formation_Pickup"
+      ]
+    ]
+  },
+  "pina_guide": {
+    "modelPrefix": "CH0257",
+    "prefabName": "CH0257",
+    "exportDirectory": "wave19-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0257_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0257_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0257_Cafe_Walk"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0257_Formation_Pickup"
+      ]
+    ]
+  },
+  "kaede": {
+    "modelPrefix": "Kaede_Original",
+    "prefabName": "Kaede_Original",
+    "exportDirectory": "wave19-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "Kaede_Original_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "Kaede_Original_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "Kaede_Original_Cafe_Walk"
+      ]
+    ]
+  },
+  "asuna_bunnygirl": {
+    "modelPrefix": "CH0098",
+    "prefabName": "CH0098",
+    "exportDirectory": "wave19-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0098_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0098_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0098_Cafe_Walk"
+      ],
+      [
+        "victory",
+        "胜利动作",
+        "CH0098_Victory_Start"
+      ],
+      [
+        "reload",
+        "换弹",
+        "CH0098_Normal_Reload"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0098_Formation_Pickup"
+      ]
+    ]
+  },
+  "asuna_uniform": {
+    "modelPrefix": "CH0281",
+    "prefabName": "CH0281",
+    "exportDirectory": "wave19-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0281_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0281_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0281_Cafe_Walk"
+      ],
+      [
+        "victory",
+        "胜利动作",
+        "CH0281_Victory_Start"
+      ],
+      [
+        "reload",
+        "换弹",
+        "CH0281_Normal_Reload"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0281_Formation_Pickup"
+      ]
+    ]
+  },
+  "asuna": {
+    "modelPrefix": "Asuna_Original",
+    "prefabName": "Asuna_Original",
+    "exportDirectory": "wave19-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "Asuna_Original_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "Asuna_Original_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "Asuna_Original_Cafe_Walk"
+      ],
+      [
+        "victory",
+        "胜利动作",
+        "Asuna_Original_Victory_Start"
+      ],
+      [
+        "reload",
+        "换弹",
+        "Asuna_Original_Normal_Reload"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "Asuna_Original_Formation_Pickup"
+      ]
+    ]
+  },
+  "kanna_swimsuit": {
+    "modelPrefix": "CH0260",
+    "prefabName": "CH0260",
+    "exportDirectory": "wave19-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0260_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0260_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0260_Cafe_Walk"
+      ],
+      [
+        "victory",
+        "胜利动作",
+        "CH0260_Victory_Start"
+      ],
+      [
+        "reload",
+        "换弹",
+        "CH0260_Normal_Reload"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0260_Formation_Pickup"
+      ]
+    ]
+  },
+  "kanna": {
+    "modelPrefix": "CH0170",
+    "prefabName": "CH0170",
+    "exportDirectory": "wave19-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0170_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0170_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0170_Cafe_Walk"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0170_Formation_Pickup"
+      ]
+    ]
+  },
+  "fuuka_newyear": {
+    "modelPrefix": "CH0177",
+    "prefabName": "CH0177",
+    "exportDirectory": "wave19-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0177_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0177_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0177_Cafe_Walk"
+      ]
+    ]
+  },
+  "fuuka": {
+    "modelPrefix": "Fuuka_Original",
+    "prefabName": "Fuuka_Original",
+    "exportDirectory": "wave19-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "Fuuka_Original_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "Fuuka_Original_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "Fuuka_Original_Cafe_Walk"
+      ]
+    ]
+  },
+  "niko": {
+    "modelPrefix": "CH0172",
+    "prefabName": "CH0172",
+    "exportDirectory": "wave19-complete",
+    "ignoreMissingVisibility": true,
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0172_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0172_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0172_Cafe_Walk"
+      ],
+      [
+        "victory",
+        "胜利动作",
+        "CH0172_Victory_Start"
+      ],
+      [
+        "reload",
+        "换弹",
+        "CH0172_Normal_Reload"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0172_Formation_Pickup"
+      ]
+    ]
+  },
+  "sena_casual": {
+    "modelPrefix": "CH0082",
+    "prefabName": "CH0082",
+    "exportDirectory": "wave19-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0082_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0082_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0082_Cafe_Walk"
+      ],
+      [
+        "victory",
+        "胜利动作",
+        "CH0082_Victory_Start"
+      ],
+      [
+        "reload",
+        "换弹",
+        "CH0082_Normal_Reload"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0082_Formation_Pickup"
+      ]
+    ]
+  },
+  "sena": {
+    "modelPrefix": "CH0081",
+    "prefabName": "CH0081",
+    "exportDirectory": "wave19-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0081_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0081_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0081_Cafe_Walk"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0081_Formation_Pickup"
+      ]
+    ],
+    "noMouthAtlas": true
+  },
+  "momiji": {
+    "modelPrefix": "Momiji_Original",
+    "prefabName": "Momiji_Original",
+    "exportDirectory": "wave19-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "Momiji_Original_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "Momiji_Original_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "Momiji_Original_Cafe_Walk"
+      ],
+      [
+        "victory",
+        "胜利动作",
+        "Momiji_Original_Victory_Start"
+      ],
+      [
+        "reload",
+        "换弹",
+        "Momiji_Original_Normal_Reload"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "Momiji_Original_Formation_Pickup"
+      ]
+    ]
+  },
+  "haruna": {
+    "modelPrefix": "Haruna_Original",
+    "prefabName": "Haruna_Original",
+    "exportDirectory": "wave19-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "Haruna_Original_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "Haruna_Original_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "Haruna_Original_Cafe_Walk"
+      ],
+      [
+        "victory",
+        "胜利动作",
+        "Haruna_Original_Victory_Start"
+      ],
+      [
+        "reload",
+        "换弹",
+        "Haruna_Original_Normal_Reload"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "Haruna_Original_Formation_Pickup"
+      ]
+    ]
+  },
+  "haruna_newyear": {
+    "modelPrefix": "CH0191",
+    "prefabName": "CH0191",
+    "exportDirectory": "wave19-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0191_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0191_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0191_Cafe_Walk"
+      ],
+      [
+        "victory",
+        "胜利动作",
+        "CH0191_Victory_Start"
+      ],
+      [
+        "reload",
+        "换弹",
+        "CH0191_Normal_Reload"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0191_Formation_Pickup"
+      ]
+    ]
+  },
+  "haruna_track": {
+    "modelPrefix": "CH0193",
+    "prefabName": "CH0193",
+    "exportDirectory": "wave19-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0193_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0193_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0193_Cafe_Walk"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0193_Formation_Pickup"
+      ]
+    ]
+  },
+  "kotama_camp": {
+    "modelPrefix": "CH0232",
+    "prefabName": "CH0232",
+    "exportDirectory": "wave19-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0232_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0232_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0232_Cafe_Walk"
+      ],
+      [
+        "victory",
+        "胜利动作",
+        "CH0232_Victory_Start"
+      ],
+      [
+        "reload",
+        "换弹",
+        "CH0232_Normal_Reload"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0232_Formation_Pickup"
+      ]
+    ]
+  },
+  "kotama": {
+    "modelPrefix": "Kotama_Original",
+    "prefabName": "Kotama_Original",
+    "exportDirectory": "wave19-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "Kotama_Original_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "Kotama_Original_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "Kotama_Original_Cafe_Walk"
+      ],
+      [
+        "victory",
+        "胜利动作",
+        "Kotama_Original_Victory_Start"
+      ],
+      [
+        "reload",
+        "换弹",
+        "Kotama_Original_Normal_Reload"
+      ]
+    ]
+  },
+  "erika": {
+    "modelPrefix": "CH0076",
+    "prefabName": "CH0076",
+    "exportDirectory": "wave19-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0076_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0076_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0076_Cafe_Walk"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0076_Formation_Pickup"
+      ]
+    ]
+  },
+  "megu": {
+    "modelPrefix": "CH0088",
+    "prefabName": "CH0088",
+    "exportDirectory": "wave19-complete",
+    "actions": [
+      [
+        "idle",
+        "待机",
+        "CH0088_Cafe_Idle"
+      ],
+      [
+        "interact",
+        "咖啡厅互动",
+        "CH0088_Cafe_Reaction"
+      ],
+      [
+        "walk",
+        "原地走路",
+        "CH0088_Cafe_Walk"
+      ],
+      [
+        "victory",
+        "胜利动作",
+        "CH0088_Victory_Start"
+      ],
+      [
+        "reload",
+        "换弹",
+        "CH0088_Normal_Reload"
+      ],
+      [
+        "pickup",
+        "编队提起",
+        "CH0088_Formation_Pickup"
+      ]
+    ]
+  }
+}

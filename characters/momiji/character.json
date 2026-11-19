@@ -1,0 +1,544 @@
+{
+  "id": "momiji",
+  "name": "红叶 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Momiji_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Momiji_Original_Cafe_Idle--a8580daba096bd8c",
+    "interact": "Momiji_Original_Cafe_Reaction--8ed9edbf8a304235"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Momiji_Original_Cafe_Idle--a8580daba096bd8c",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Momiji_Original_Cafe_Reaction--8ed9edbf8a304235",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Momiji_Original_Cafe_Walk--9fa7b57a3588ea37",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Momiji_Original_Victory_Start--d998203f96fc7a89",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Momiji_Original_Normal_Reload--e48571d65c682e7",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Momiji_Original_Formation_Pickup--c3d68084adc8f22f",
+      "category": "常用"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Momiji_Original_Normal_Attack_Start--f14e1eabe8b4130b",
+      "sourceName": "Momiji_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Momiji_Original_Move_End_Normal--fdb34808d7c7966a",
+      "sourceName": "Momiji_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Momiji_Original_Exs--e189af704defd9a5",
+      "sourceName": "Momiji_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Momiji_Original_Exs_Cutin--de2dcaac1406a7d3",
+      "sourceName": "Momiji_Original_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Momiji_Original_Vital_Death--d9d5c47e2a8db27d",
+      "sourceName": "Momiji_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Momiji_Original_Move_End_Kneel--d6a18dfadb9b1caa",
+      "sourceName": "Momiji_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Momiji_Original_Normal_Idle--cfc8afffc589dce0",
+      "sourceName": "Momiji_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Momiji_Original_Move_Ing--c4c97f3e84840fc8",
+      "sourceName": "Momiji_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Momiji_Original_Victory_End--bd23faebd71c0a33",
+      "sourceName": "Momiji_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_stand_attack_delay",
+      "label": "掩体站姿 · 攻击 · 间隔",
+      "clip": "Momiji_Original_Stand_Attack_Delay--f928fd285436579e",
+      "sourceName": "Momiji_Original_Stand_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Momiji_Original_Vital_Dying_Ing--ad7fe4807c06e1e2",
+      "sourceName": "Momiji_Original_Vital_Dying_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_stand",
+      "label": "移动 · 结束 · 掩体站姿",
+      "clip": "Momiji_Original_Move_End_Stand--f670ec8b6e517bbc",
+      "sourceName": "Momiji_Original_Move_End_Stand",
+      "category": "移动"
+    },
+    {
+      "id": "original_stand_attack_ing",
+      "label": "掩体站姿 · 攻击 · 持续",
+      "clip": "Momiji_Original_Stand_Attack_Ing--988973dca372b826",
+      "sourceName": "Momiji_Original_Stand_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Momiji_Original_Kneel_Attack_End--96201dce4665fd8c",
+      "sourceName": "Momiji_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_reload",
+      "label": "掩体站姿 · 换弹",
+      "clip": "Momiji_Original_Stand_Reload--878df7966678d697",
+      "sourceName": "Momiji_Original_Stand_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Momiji_Original_Vital_Panic--13a1161cc2afe0a7",
+      "sourceName": "Momiji_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_idle",
+      "label": "掩体站姿 · 待机",
+      "clip": "Momiji_Original_Stand_Idle--15a9da5734694032",
+      "sourceName": "Momiji_Original_Stand_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_start",
+      "label": "掩体站姿 · 攻击 · 开始",
+      "clip": "Momiji_Original_Stand_Attack_Start--2adf205bbe944dad",
+      "sourceName": "Momiji_Original_Stand_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Momiji_Original_Public01--331187d4a0ec72a9",
+      "sourceName": "Momiji_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_stand_attack_end",
+      "label": "掩体站姿 · 攻击 · 结束",
+      "clip": "Momiji_Original_Stand_Attack_End--4ce1e4e5928e8d4e",
+      "sourceName": "Momiji_Original_Stand_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Momiji_Original_Vital_Retreat--5557260af93439aa",
+      "sourceName": "Momiji_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Momiji_Original_Normal_Callsign--594cabec15002f25",
+      "sourceName": "Momiji_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Momiji_Original_Kneel_Attack_Start--63f419c1f2ffac73",
+      "sourceName": "Momiji_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Momiji_Original_Kneel_Reload--ab6b298efe324c1",
+      "sourceName": "Momiji_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Momiji_Original_Normal_Attack_Delay--6d013453c7355e32",
+      "sourceName": "Momiji_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Momiji_Original_Formation_Idle--6fc49eb0a570cfd3",
+      "sourceName": "Momiji_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Momiji_Original_Kneel_Idle--79de9767e0e86206",
+      "sourceName": "Momiji_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "Momiji_Original_Move_Jump--c84d78ba63cd635",
+      "sourceName": "Momiji_Original_Move_Jump",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Momiji_Original_Kneel_Attack_Ing--f0774cb33e9f6c31",
+      "sourceName": "Momiji_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Momiji_Original_Normal_Attack_Ing--f825f4db7b3af2fc",
+      "sourceName": "Momiji_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Momiji_Original_Kneel_Attack_Delay--378c4680ccb810a2",
+      "sourceName": "Momiji_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Momiji_Original_Normal_Attack_End--6b920b15360b3d8",
+      "sourceName": "Momiji_Original_Normal_Attack_End",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Momiji_Original_Mouth",
+    "defaultTile": 602,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.25,
+      0.75
+    ],
+    "events": {
+      "Momiji_Original_Cafe_Idle--a8580daba096bd8c": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Momiji_Original_Cafe_Reaction--8ed9edbf8a304235": [
+        {
+          "time": 0,
+          "tile": 602
+        },
+        {
+          "time": 0.8333334,
+          "tile": 402
+        },
+        {
+          "time": 2.3666668,
+          "tile": 405
+        },
+        {
+          "time": 3.2000003,
+          "tile": 404
+        },
+        {
+          "time": 4.866667,
+          "tile": 405
+        },
+        {
+          "time": 6.666667,
+          "tile": 404
+        }
+      ],
+      "Momiji_Original_Cafe_Walk--9fa7b57a3588ea37": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Momiji_Original_Victory_Start--d998203f96fc7a89": [
+        {
+          "time": 0,
+          "tile": 202
+        },
+        {
+          "time": 0.40000004,
+          "tile": 404
+        },
+        {
+          "time": 1.0666667,
+          "tile": 405
+        },
+        {
+          "time": 2.7333336,
+          "tile": 404
+        }
+      ],
+      "Momiji_Original_Normal_Reload--e48571d65c682e7": [],
+      "Momiji_Original_Formation_Pickup--c3d68084adc8f22f": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.23333335,
+          "tile": 202
+        },
+        {
+          "time": 0.6666667,
+          "tile": 602
+        },
+        {
+          "time": 1.1666667,
+          "tile": 705
+        },
+        {
+          "time": 3.466667,
+          "tile": 405
+        },
+        {
+          "time": 7.933334,
+          "tile": 404
+        }
+      ],
+      "Momiji_Original_Normal_Attack_Start--f14e1eabe8b4130b": [],
+      "Momiji_Original_Move_End_Normal--fdb34808d7c7966a": [],
+      "Momiji_Original_Exs--e189af704defd9a5": [
+        {
+          "time": 0,
+          "tile": 602
+        },
+        {
+          "time": 3.5000002,
+          "tile": 403
+        },
+        {
+          "time": 4.9333334,
+          "tile": 602
+        }
+      ],
+      "Momiji_Original_Exs_Cutin--de2dcaac1406a7d3": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.6333334,
+          "tile": 602
+        },
+        {
+          "time": 4.8,
+          "tile": 201
+        },
+        {
+          "time": 5.4,
+          "tile": 403
+        }
+      ],
+      "Momiji_Original_Vital_Death--d9d5c47e2a8db27d": [],
+      "Momiji_Original_Move_End_Kneel--d6a18dfadb9b1caa": [],
+      "Momiji_Original_Normal_Idle--cfc8afffc589dce0": [],
+      "Momiji_Original_Move_Ing--c4c97f3e84840fc8": [],
+      "Momiji_Original_Victory_End--bd23faebd71c0a33": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "Momiji_Original_Stand_Attack_Delay--f928fd285436579e": [],
+      "Momiji_Original_Vital_Dying_Ing--ad7fe4807c06e1e2": [],
+      "Momiji_Original_Move_End_Stand--f670ec8b6e517bbc": [],
+      "Momiji_Original_Stand_Attack_Ing--988973dca372b826": [],
+      "Momiji_Original_Kneel_Attack_End--96201dce4665fd8c": [],
+      "Momiji_Original_Stand_Reload--878df7966678d697": [],
+      "Momiji_Original_Vital_Panic--13a1161cc2afe0a7": [],
+      "Momiji_Original_Stand_Idle--15a9da5734694032": [],
+      "Momiji_Original_Stand_Attack_Start--2adf205bbe944dad": [],
+      "Momiji_Original_Public01--331187d4a0ec72a9": [
+        {
+          "time": 0,
+          "tile": 405
+        },
+        {
+          "time": 0.3,
+          "tile": 404
+        },
+        {
+          "time": 1.0666667,
+          "tile": 202
+        },
+        {
+          "time": 2.2333333,
+          "tile": 300
+        },
+        {
+          "time": 2.966667,
+          "tile": 602
+        }
+      ],
+      "Momiji_Original_Stand_Attack_End--4ce1e4e5928e8d4e": [],
+      "Momiji_Original_Vital_Retreat--5557260af93439aa": [],
+      "Momiji_Original_Normal_Callsign--594cabec15002f25": [],
+      "Momiji_Original_Kneel_Attack_Start--63f419c1f2ffac73": [],
+      "Momiji_Original_Kneel_Reload--ab6b298efe324c1": [],
+      "Momiji_Original_Normal_Attack_Delay--6d013453c7355e32": [],
+      "Momiji_Original_Formation_Idle--6fc49eb0a570cfd3": [
+        {
+          "time": 0,
+          "tile": 401
+        }
+      ],
+      "Momiji_Original_Kneel_Idle--79de9767e0e86206": [],
+      "Momiji_Original_Move_Jump--c84d78ba63cd635": [],
+      "Momiji_Original_Kneel_Attack_Ing--f0774cb33e9f6c31": [],
+      "Momiji_Original_Normal_Attack_Ing--f825f4db7b3af2fc": [],
+      "Momiji_Original_Kneel_Attack_Delay--378c4680ccb810a2": [],
+      "Momiji_Original_Normal_Attack_End--6b920b15360b3d8": []
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs_cutin": {
+        "zoom": 0.9129437549534835,
+        "centerY": 0.4938831198094351
+      },
+      "original_move_end_stand": {
+        "zoom": 0.5300960265952996,
+        "centerY": 1.0445312003755811
+      },
+      "original_stand_reload": {
+        "zoom": 0.7230487709466089,
+        "centerY": 1.3475456075754138
+      },
+      "original_stand_idle": {
+        "zoom": 0.7966565897129538,
+        "centerY": 0.9960291929982082
+      },
+      "original_stand_attack_start": {
+        "zoom": 0.5051634610622034,
+        "centerY": 1.1727549395387433
+      },
+      "original_stand_attack_end": {
+        "zoom": 0.5347649561779828,
+        "centerY": 1.0191285665803582
+      }
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210318_0",
+      "name": "图书馆的经典椅子",
+      "model": "f210318_0.glb",
+      "clip": "f210318_0",
+      "duration": 24.133333333333333,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 404
+        },
+        {
+          "time": 2.4333334,
+          "tile": 200
+        },
+        {
+          "time": 3.5333335,
+          "tile": 205
+        },
+        {
+          "time": 5.2000003,
+          "tile": 602
+        },
+        {
+          "time": 8.0,
+          "tile": 200
+        },
+        {
+          "time": 11.266667,
+          "tile": 201
+        },
+        {
+          "time": 12.466667,
+          "tile": 705
+        },
+        {
+          "time": 14.933334,
+          "tile": 303
+        },
+        {
+          "time": 20.733334,
+          "tile": 404
+        }
+      ],
+      "yaw": 0.785398,
+      "sourceTimeline": "my_event059_chair",
+      "sourceGroup": "RequiredTrack_13013",
+      "sourceStudentTrack": "13013"
+    }
+  ]
+}

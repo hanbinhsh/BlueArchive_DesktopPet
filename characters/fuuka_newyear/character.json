@@ -1,0 +1,213 @@
+{
+  "id": "fuuka_newyear",
+  "name": "风香 · 新年",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0177; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0177_Cafe_Idle--c25bc6c8695f66ce",
+    "interact": "CH0177_Cafe_Reaction--46338b9c57a8dbd4"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0177_Cafe_Idle--c25bc6c8695f66ce",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0177_Cafe_Reaction--46338b9c57a8dbd4",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0177_Cafe_Walk--8079ce7bdab5bd6a",
+      "category": "常用"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0177_Tactical_Start--c473a272218a25b1",
+      "sourceName": "CH0177_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "CH0177_Exs--afca63d72b32fb63",
+      "sourceName": "CH0177_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "CH0177_Exs_Cutin--ac3b8e6d28f61ddc",
+      "sourceName": "CH0177_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0177_Formation_Idle--2a0039f47a8334b7",
+      "sourceName": "CH0177_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs_cutin_7",
+      "label": "EX 技能 · Cutin",
+      "clip": "CH0177_Exs_Cutin--5ed327aa387d6bee",
+      "sourceName": "CH0177_Exs_Cutin",
+      "category": "技能"
+    }
+  ],
+  "mouth": {
+    "material": "CH0177_Mouth",
+    "defaultTile": 300,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0,
+      0.375
+    ],
+    "events": {
+      "CH0177_Cafe_Idle--c25bc6c8695f66ce": [],
+      "CH0177_Cafe_Reaction--46338b9c57a8dbd4": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 3.8666668,
+          "tile": 201
+        },
+        {
+          "time": 4.166667,
+          "tile": 402
+        },
+        {
+          "time": 4.8000007,
+          "tile": 300
+        },
+        {
+          "time": 5.533334,
+          "tile": 705
+        },
+        {
+          "time": 7.2333336,
+          "tile": 300
+        }
+      ],
+      "CH0177_Cafe_Walk--8079ce7bdab5bd6a": [],
+      "CH0177_Tactical_Start--c473a272218a25b1": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.76666665,
+          "tile": 201
+        },
+        {
+          "time": 1.3333334,
+          "tile": 704
+        }
+      ],
+      "CH0177_Exs--afca63d72b32fb63": [],
+      "CH0177_Exs_Cutin--ac3b8e6d28f61ddc": [
+        {
+          "time": 0,
+          "tile": 305
+        },
+        {
+          "time": 3.0000002,
+          "tile": 705
+        },
+        {
+          "time": 3.8000002,
+          "tile": 402
+        },
+        {
+          "time": 4.3333335,
+          "tile": 403
+        },
+        {
+          "time": 4.9666667,
+          "tile": 300
+        },
+        {
+          "time": 5.6000004,
+          "tile": 705
+        }
+      ],
+      "CH0177_Formation_Idle--2a0039f47a8334b7": [
+        {
+          "time": 0,
+          "tile": 300
+        }
+      ],
+      "CH0177_Exs_Cutin--5ed327aa387d6bee": []
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs": {
+        "zoom": 0.9822276932191261,
+        "centerY": 1.3998790804743173
+      },
+      "original_exs_cutin": {
+        "zoom": 0.5399200526804031,
+        "centerY": 0.9869681139072896
+      },
+      "original_exs_cutin_7": {
+        "zoom": 0.5399200526804031,
+        "centerY": 0.9869681138850513
+      }
+    }
+  },
+  "furniture": [
+    {
+      "id": "f7200_0",
+      "name": "花纹丝绸和服挂饰",
+      "model": "f7200_0.glb",
+      "clip": "f7200_0",
+      "duration": 16.0,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 300
+        },
+        {
+          "time": 1.4000001,
+          "tile": 201
+        },
+        {
+          "time": 2.8,
+          "tile": 706
+        },
+        {
+          "time": 7.933334,
+          "tile": 704
+        },
+        {
+          "time": 10.6,
+          "tile": 504
+        },
+        {
+          "time": 13.000001,
+          "tile": 300
+        }
+      ],
+      "yaw": 2.356194,
+      "sourceTimeline": "my_newyearpath_01_hanger",
+      "sourceGroup": "RequiredTrack_20022",
+      "sourceStudentTrack": "20022"
+    }
+  ]
+}

@@ -20,6 +20,7 @@ shader_kinds={'FX_SHADER_Explosion_Smoke_Distortion_0':'smokeDistortion','FX_SHA
 shader_kinds['FX_SHADER_Matcap']='matcap'
 shader_kinds['FX_SHADER_Matcap_0']='matcapBlend'
 shader_kinds['FX_SHADER_AlphaBlend_Add_Double_Distort_1a']='doubleDistort'
+shader_kinds['C-Weapon']='unlit'
 allowed=['InitialModule','SizeModule','RotationModule','ColorModule','UVModule','VelocityModule','CustomDataModule','ShapeModule','ClampVelocityModule','SubModule']
 def curve(c):
     d={k:v for k,v in c.items() if k in ['minMaxState','scalar','minScalar']}
@@ -157,7 +158,11 @@ for character in requested:
                         for birth in emission_times(p['EmissionModule']['rateOverTime'],begin,end,p['lengthInSec'],seed=seed):
                             schedule.append((birth,0,1,rng.getrandbits(32)))
                     if any(b['cycleCount']==0 for b in p['EmissionModule'].get('m_Bursts',[])):
-                        if p.get('ringBufferMode',0):raise ValueError('Indefinite burst with ring-buffer reuse requires explicit support')
+                        if p.get('ringBufferMode',0):
+                            if p.get('ringBufferMode',0)==2 and p['InitialModule']['maxNumParticles']==1:
+                                schedule=schedule[:1]
+                            else:
+                                raise ValueError('Indefinite burst with ring-buffer reuse requires explicit support')
                     # Continuous emitters share the same particle capacity as
                     # bursts. A one-slot LED at 120 births/s must not become
                     # thousands of coincident, overbright draw calls.

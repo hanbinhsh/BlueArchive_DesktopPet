@@ -1,0 +1,511 @@
+{
+  "id": "pina_guide",
+  "name": "菲娜 · 导游",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0257; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0257_Cafe_Idle--35dbe133da1e9310",
+    "interact": "CH0257_Cafe_Reaction--4f6fb445c07b5340"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0257_Cafe_Idle--35dbe133da1e9310",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0257_Cafe_Reaction--4f6fb445c07b5340",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0257_Cafe_Walk--dc9e271e22b73321",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0257_Formation_Pickup--50c1bd8e7c1268d4",
+      "category": "常用"
+    },
+    {
+      "id": "original_exs_cutin_yukata_streetghostes_rg_03",
+      "label": "EX 技能 · Cutin · Yukata · StreetGhostes · RG · 03",
+      "clip": "CH0257_Exs_Cutin_Yukata_StreetGhostes_RG_03--fd034fff7e66d1eb",
+      "sourceName": "CH0257_Exs_Cutin_Yukata_StreetGhostes_RG_03",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "CH0257_Exs--dc3c01816e7a1b45",
+      "sourceName": "CH0257_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_hyakkiyakomatsuri_shibainu",
+      "label": "EX 技能 · hyakkiyakomatsuri · shibainu",
+      "clip": "CH0257_Exs_hyakkiyakomatsuri_shibainu--d39f9522c51eae6c",
+      "sourceName": "CH0257_Exs_hyakkiyakomatsuri_shibainu",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_hyakkiyakomatsuri_shibainu03_01",
+      "label": "EX 技能 · Cutin · hyakkiyakomatsuri · shibainu03 · 01",
+      "clip": "CH0257_Exs_Cutin_hyakkiyakomatsuri_shibainu03_01--d168c5d966a4bffb",
+      "sourceName": "CH0257_Exs_Cutin_hyakkiyakomatsuri_shibainu03_01",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_yukata_streetghostes_sg_02",
+      "label": "EX 技能 · Cutin · Yukata · StreetGhostes · SG · 02",
+      "clip": "CH0257_Exs_Cutin_Yukata_StreetGhostes_SG_02--faf6a1bcb2505715",
+      "sourceName": "CH0257_Exs_Cutin_Yukata_StreetGhostes_SG_02",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_yukata_streetghostes",
+      "label": "EX 技能 · Yukata · StreetGhostes",
+      "clip": "CH0257_Exs_Yukata_StreetGhostes--cc1e75134e4a1f45",
+      "sourceName": "CH0257_Exs_Yukata_StreetGhostes",
+      "category": "技能"
+    },
+    {
+      "id": "original_tactical_start_random",
+      "label": "Tactical · 开始 · Random",
+      "clip": "CH0257_Tactical_Start_Random--a38b1a408eff5374",
+      "sourceName": "CH0257_Tactical_Start_Random",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_01",
+      "label": "EX 技能 · Cutin · 01",
+      "clip": "CH0257_Exs_Cutin_01--9e68efe2d5bda754",
+      "sourceName": "CH0257_Exs_Cutin_01",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0257_Formation_Idle--9ab9b0c89b91ddd3",
+      "sourceName": "CH0257_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0257_Tactical_Start--938722655f6db662",
+      "sourceName": "CH0257_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_cutin_02",
+      "label": "EX 技能 · Cutin · 02",
+      "clip": "CH0257_Exs_Cutin_02--92abe002b18cf44b",
+      "sourceName": "CH0257_Exs_Cutin_02",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_04",
+      "label": "EX 技能 · Cutin · 04",
+      "clip": "CH0257_Exs_Cutin_04--83a55fa82c778eec",
+      "sourceName": "CH0257_Exs_Cutin_04",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_hyakkiyakomatsuri_shibainu05_02",
+      "label": "EX 技能 · Cutin · hyakkiyakomatsuri · shibainu05 · 02",
+      "clip": "CH0257_Exs_Cutin_hyakkiyakomatsuri_shibainu05_02--3abf4d2aada4bfa7",
+      "sourceName": "CH0257_Exs_Cutin_hyakkiyakomatsuri_shibainu05_02",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_03",
+      "label": "EX 技能 · Cutin · 03",
+      "clip": "CH0257_Exs_Cutin_03--47cdb297a3efbfc3",
+      "sourceName": "CH0257_Exs_Cutin_03",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_hyakkiyakomatsuri_shibainu03_03",
+      "label": "EX 技能 · Cutin · hyakkiyakomatsuri · shibainu03 · 03",
+      "clip": "CH0257_Exs_Cutin_hyakkiyakomatsuri_shibainu03_03--560a024d23818a38",
+      "sourceName": "CH0257_Exs_Cutin_hyakkiyakomatsuri_shibainu03_03",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin_yukata_streetghostes_rg_01",
+      "label": "EX 技能 · Cutin · Yukata · StreetGhostes · RG · 01",
+      "clip": "CH0257_Exs_Cutin_Yukata_StreetGhostes_RG_01--717a2e8a4f99b4f8",
+      "sourceName": "CH0257_Exs_Cutin_Yukata_StreetGhostes_RG_01",
+      "category": "技能"
+    }
+  ],
+  "mouth": {
+    "material": "CH0257_Mouth",
+    "defaultTile": 207,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.875,
+      0.25
+    ],
+    "events": {
+      "CH0257_Cafe_Idle--35dbe133da1e9310": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 4.3333335,
+          "tile": 404
+        }
+      ],
+      "CH0257_Cafe_Reaction--4f6fb445c07b5340": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.39999598,
+          "tile": 706
+        },
+        {
+          "time": 2.299977,
+          "tile": 705
+        },
+        {
+          "time": 4.166625,
+          "tile": 504
+        },
+        {
+          "time": 4.99995,
+          "tile": 402
+        },
+        {
+          "time": 6.299937,
+          "tile": 404
+        },
+        {
+          "time": 6.6665998,
+          "tile": 706
+        },
+        {
+          "time": 8.633247,
+          "tile": 404
+        },
+        {
+          "time": 9.166667,
+          "tile": 404
+        }
+      ],
+      "CH0257_Cafe_Walk--dc9e271e22b73321": [
+        {
+          "time": 0,
+          "tile": 706
+        },
+        {
+          "time": 1.3333334,
+          "tile": 706
+        }
+      ],
+      "CH0257_Formation_Pickup--50c1bd8e7c1268d4": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.33333,
+          "tile": 504
+        },
+        {
+          "time": 0.599994,
+          "tile": 706
+        },
+        {
+          "time": 4.033293,
+          "tile": 704
+        },
+        {
+          "time": 5.33328,
+          "tile": 706
+        },
+        {
+          "time": 13.3331995,
+          "tile": 404
+        }
+      ],
+      "CH0257_Exs_Cutin_Yukata_StreetGhostes_RG_03--fd034fff7e66d1eb": [],
+      "CH0257_Exs--dc3c01816e7a1b45": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.83332497,
+          "tile": 706
+        },
+        {
+          "time": 2.533308,
+          "tile": 200
+        },
+        {
+          "time": 5.066616,
+          "tile": 704
+        },
+        {
+          "time": 5.533278,
+          "tile": 706
+        }
+      ],
+      "CH0257_Exs_hyakkiyakomatsuri_shibainu--d39f9522c51eae6c": [],
+      "CH0257_Exs_Cutin_hyakkiyakomatsuri_shibainu03_01--d168c5d966a4bffb": [],
+      "CH0257_Exs_Cutin_Yukata_StreetGhostes_SG_02--faf6a1bcb2505715": [],
+      "CH0257_Exs_Yukata_StreetGhostes--cc1e75134e4a1f45": [],
+      "CH0257_Tactical_Start_Random--a38b1a408eff5374": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.466662,
+          "tile": 704
+        },
+        {
+          "time": 0.566661,
+          "tile": 707
+        }
+      ],
+      "CH0257_Exs_Cutin_01--9e68efe2d5bda754": [
+        {
+          "time": 0,
+          "tile": 706
+        },
+        {
+          "time": 3.3333335,
+          "tile": 706
+        }
+      ],
+      "CH0257_Formation_Idle--9ab9b0c89b91ddd3": [
+        {
+          "time": 0,
+          "tile": 307
+        },
+        {
+          "time": 3.3333335,
+          "tile": 307
+        }
+      ],
+      "CH0257_Tactical_Start--938722655f6db662": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.66666,
+          "tile": 706
+        },
+        {
+          "time": 1.99998,
+          "tile": 706
+        }
+      ],
+      "CH0257_Exs_Cutin_02--92abe002b18cf44b": [],
+      "CH0257_Exs_Cutin_04--83a55fa82c778eec": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 1.5333334,
+          "tile": 606
+        },
+        {
+          "time": 2.6333334,
+          "tile": 606
+        }
+      ],
+      "CH0257_Exs_Cutin_hyakkiyakomatsuri_shibainu05_02--3abf4d2aada4bfa7": [],
+      "CH0257_Exs_Cutin_03--47cdb297a3efbfc3": [
+        {
+          "time": 0,
+          "tile": 401
+        },
+        {
+          "time": 0.23333335,
+          "tile": 504
+        },
+        {
+          "time": 0.9666667,
+          "tile": 504
+        }
+      ],
+      "CH0257_Exs_Cutin_hyakkiyakomatsuri_shibainu03_03--560a024d23818a38": [],
+      "CH0257_Exs_Cutin_Yukata_StreetGhostes_RG_01--717a2e8a4f99b4f8": []
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs_cutin_yukata_streetghostes_rg_03": {
+        "zoom": 0.6095936557904538,
+        "centerY": 0.9933920548363391
+      },
+      "original_exs_hyakkiyakomatsuri_shibainu": {
+        "zoom": 0.6095936525686516,
+        "centerY": 0.7121455018282288
+      },
+      "original_exs_cutin_hyakkiyakomatsuri_shibainu03_01": {
+        "zoom": 0.5243314480050376,
+        "centerY": 0.8604539117118195
+      },
+      "original_exs_cutin_yukata_streetghostes_sg_02": {
+        "zoom": 0.2994280876877991,
+        "centerY": 0.07308758112937486
+      },
+      "original_exs_yukata_streetghostes": {
+        "zoom": 0.6095936557904538,
+        "centerY": 0.9866025162388885
+      },
+      "original_exs_cutin_01": {
+        "zoom": 0.9018370212536752,
+        "centerY": 0.4753342703889396
+      },
+      "original_exs_cutin_02": {
+        "zoom": 0.8641879349266132,
+        "centerY": 0.9892312012275638
+      },
+      "original_exs_cutin_04": {
+        "zoom": 0.3133808804245827,
+        "centerY": 0.9434321385641006
+      },
+      "original_exs_cutin_hyakkiyakomatsuri_shibainu05_02": {
+        "zoom": 0.4447310399610084,
+        "centerY": 0.6540719114354365
+      },
+      "original_exs_cutin_03": {
+        "zoom": 0.923981717139388,
+        "centerY": 0.9998018292976666
+      },
+      "original_exs_cutin_hyakkiyakomatsuri_shibainu03_03": {
+        "zoom": 0.6095936525686516,
+        "centerY": 0.8604539432141648
+      },
+      "original_exs_cutin_yukata_streetghostes_rg_01": {
+        "zoom": 0.6095936557904538,
+        "centerY": 0.993392206805879
+      }
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210368_0",
+      "name": "录像电视机",
+      "model": "f210368_0.glb",
+      "clip": "f210368_0",
+      "duration": 47.50000000000001,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 405
+        },
+        {
+          "time": 4.9999999999999964,
+          "tile": 405
+        },
+        {
+          "time": 10.000000000000007,
+          "tile": 405
+        },
+        {
+          "time": 15.000000000000007,
+          "tile": 405
+        },
+        {
+          "time": 20.000000000000007,
+          "tile": 405
+        },
+        {
+          "time": 20.099998996000007,
+          "tile": 507
+        },
+        {
+          "time": 22.266644000000007,
+          "tile": 504
+        },
+        {
+          "time": 24.43328900000001,
+          "tile": 507
+        },
+        {
+          "time": 26.499935000000008,
+          "tile": 607
+        },
+        {
+          "time": 27.83325500000001,
+          "tile": 504
+        },
+        {
+          "time": 28.833245000000005,
+          "tile": 404
+        },
+        {
+          "time": 30.833225000000006,
+          "tile": 706
+        },
+        {
+          "time": 33.03320300000001,
+          "tile": 405
+        },
+        {
+          "time": 36.166506000000005,
+          "tile": 504
+        },
+        {
+          "time": 37.16649400000001,
+          "tile": 504
+        },
+        {
+          "time": 37.69982300000001,
+          "tile": 404
+        },
+        {
+          "time": 38.36648400000001,
+          "tile": 404
+        },
+        {
+          "time": 38.53314800000001,
+          "tile": 705
+        },
+        {
+          "time": 39.099810000000005,
+          "tile": 501
+        },
+        {
+          "time": 41.933113000000006,
+          "tile": 404
+        },
+        {
+          "time": 42.49977500000001,
+          "tile": 405
+        },
+        {
+          "time": 42.50000000000001,
+          "tile": 405
+        }
+      ],
+      "yaw": 3.926991,
+      "sourceTimeline": "my_event078_videotelevision",
+      "sourceGroup": "RequiredTrack_20045",
+      "sourceStudentTrack": "20045"
+    }
+  ]
+}

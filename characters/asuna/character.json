@@ -1,0 +1,439 @@
+{
+  "id": "asuna",
+  "name": "明日奈 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Asuna_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Asuna_Original_Cafe_Idle--bb19c3569f2820cb",
+    "interact": "Asuna_Original_Cafe_Reaction--b0320902aa450c2b"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Asuna_Original_Cafe_Idle--bb19c3569f2820cb",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Asuna_Original_Cafe_Reaction--b0320902aa450c2b",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Asuna_Original_Cafe_Walk--1a4976b812cdb307",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Asuna_Original_Victory_Start--fe044a905e93a515",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Asuna_Original_Normal_Reload--b50e68d698772d5e",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Asuna_Original_Formation_Pickup--58f7e1ef491d2526",
+      "category": "常用"
+    },
+    {
+      "id": "original_stand_attack_delay",
+      "label": "掩体站姿 · 攻击 · 间隔",
+      "clip": "Asuna_Original_Stand_Attack_Delay--ef085ca0f4895f05",
+      "sourceName": "Asuna_Original_Stand_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_start",
+      "label": "蹲姿 · 攻击 · 开始",
+      "clip": "Asuna_Original_Kneel_Attack_Start--e9ca52e83a520a15",
+      "sourceName": "Asuna_Original_Kneel_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_idle",
+      "label": "蹲姿 · 待机",
+      "clip": "Asuna_Original_Kneel_Idle--e997da1b07dc6774",
+      "sourceName": "Asuna_Original_Kneel_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Asuna_Original_Public01--e653ca16d71faed2",
+      "sourceName": "Asuna_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Asuna_Original_Formation_Idle--df4d6536a98fc132",
+      "sourceName": "Asuna_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Asuna_Original_Normal_Attack_Start--fc41b34cb97a3fac",
+      "sourceName": "Asuna_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_root",
+      "label": "EX 技能 · Root",
+      "clip": "Asuna_Original_Exs_Root--d80cf4f57e5b30a8",
+      "sourceName": "Asuna_Original_Exs_Root",
+      "category": "技能"
+    },
+    {
+      "id": "original_move_jump",
+      "label": "移动 · 跳跃",
+      "clip": "Asuna_Original_Move_Jump--d3cf36ec8b11d3fe",
+      "sourceName": "Asuna_Original_Move_Jump",
+      "category": "移动"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Asuna_Original_Move_End_Normal--d25a0671a5277121",
+      "sourceName": "Asuna_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_stand_attack_start",
+      "label": "掩体站姿 · 攻击 · 开始",
+      "clip": "Asuna_Original_Stand_Attack_Start--ce5dbdd82902d62d",
+      "sourceName": "Asuna_Original_Stand_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Asuna_Original_Vital_Dying_ing--cc6d174790f9375a",
+      "sourceName": "Asuna_Original_Vital_Dying_ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Asuna_Original_Normal_Callsign--b339f2dd1aa13b26",
+      "sourceName": "Asuna_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_delay",
+      "label": "蹲姿 · 攻击 · 间隔",
+      "clip": "Asuna_Original_Kneel_Attack_Delay--a85059d985479f07",
+      "sourceName": "Asuna_Original_Kneel_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_ing",
+      "label": "掩体站姿 · 攻击 · 持续",
+      "clip": "Asuna_Original_Stand_Attack_Ing--a2113c4ec20f4a86",
+      "sourceName": "Asuna_Original_Stand_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Asuna_Original_Normal_Attack_End--8bdb32870230a533",
+      "sourceName": "Asuna_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Asuna_Original_Vital_Retreat--898e770086f83369",
+      "sourceName": "Asuna_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_stand",
+      "label": "移动 · 结束 · 掩体站姿",
+      "clip": "Asuna_Original_Move_End_Stand--3739351e0fba90f",
+      "sourceName": "Asuna_Original_Move_End_Stand",
+      "category": "移动"
+    },
+    {
+      "id": "original_kneel_attack_end",
+      "label": "蹲姿 · 攻击 · 结束",
+      "clip": "Asuna_Original_Kneel_Attack_End--276c3e8a1be9e849",
+      "sourceName": "Asuna_Original_Kneel_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_kneel",
+      "label": "移动 · 结束 · 蹲姿",
+      "clip": "Asuna_Original_Move_End_Kneel--331af5afa097cfc8",
+      "sourceName": "Asuna_Original_Move_End_Kneel",
+      "category": "移动"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "Asuna_Original_Exs_Cutin--9c896ffaa47ae9",
+      "sourceName": "Asuna_Original_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Asuna_Original_Victory_End--452554dad9e774e2",
+      "sourceName": "Asuna_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Asuna_Original_Normal_Attack_Delay--4b4b03bfbbae245d",
+      "sourceName": "Asuna_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Asuna_Original_Exs--4d188ab0af01da42",
+      "sourceName": "Asuna_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Asuna_Original_Vital_Panic--52ae7161c3436cce",
+      "sourceName": "Asuna_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Asuna_Original_Normal_Idle--55c043f66c94e94a",
+      "sourceName": "Asuna_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Asuna_Original_Move_Ing--5908602d1513af8f",
+      "sourceName": "Asuna_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Asuna_Original_Normal_Attack_Ing--5c921a0f0fe42bfb",
+      "sourceName": "Asuna_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_root_33",
+      "label": "EX 技能 · Root",
+      "clip": "Asuna_Original_Exs_Root--6099cdd1c5ec29d2",
+      "sourceName": "Asuna_Original_Exs_Root",
+      "category": "技能"
+    },
+    {
+      "id": "original_stand_reload",
+      "label": "掩体站姿 · 换弹",
+      "clip": "Asuna_Original_Stand_Reload--65e0406a37343f3e",
+      "sourceName": "Asuna_Original_Stand_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Asuna_Original_Vital_Death--7605fd95b9d7e6d4",
+      "sourceName": "Asuna_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_attack_end",
+      "label": "掩体站姿 · 攻击 · 结束",
+      "clip": "Asuna_Original_Stand_Attack_End--7bb34c6bb5b37415",
+      "sourceName": "Asuna_Original_Stand_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_stand_idle",
+      "label": "掩体站姿 · 待机",
+      "clip": "Asuna_Original_Stand_Idle--7e301f40da37997a",
+      "sourceName": "Asuna_Original_Stand_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_reload",
+      "label": "蹲姿 · 换弹",
+      "clip": "Asuna_Original_Kneel_Reload--7e83ad40abffaeae",
+      "sourceName": "Asuna_Original_Kneel_Reload",
+      "category": "战斗"
+    },
+    {
+      "id": "original_kneel_attack_ing",
+      "label": "蹲姿 · 攻击 · 持续",
+      "clip": "Asuna_Original_Kneel_Attack_Ing--7f0cef234da6fd41",
+      "sourceName": "Asuna_Original_Kneel_Attack_Ing",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Asuna_Original_Mouth",
+    "defaultTile": 704,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.5,
+      0.875
+    ],
+    "events": {
+      "Asuna_Original_Cafe_Idle--bb19c3569f2820cb": [],
+      "Asuna_Original_Cafe_Reaction--b0320902aa450c2b": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.40000004,
+          "tile": 500
+        },
+        {
+          "time": 0.43333337,
+          "tile": 501
+        },
+        {
+          "time": 1.9666668,
+          "tile": 704
+        }
+      ],
+      "Asuna_Original_Cafe_Walk--1a4976b812cdb307": [],
+      "Asuna_Original_Victory_Start--fe044a905e93a515": [
+        {
+          "time": 0,
+          "tile": 300
+        },
+        {
+          "time": 0.53333336,
+          "tile": 704
+        },
+        {
+          "time": 1.5000001,
+          "tile": 402
+        },
+        {
+          "time": 2.2,
+          "tile": 300
+        },
+        {
+          "time": 2.7333336,
+          "tile": 500
+        }
+      ],
+      "Asuna_Original_Normal_Reload--b50e68d698772d5e": [],
+      "Asuna_Original_Formation_Pickup--58f7e1ef491d2526": [
+        {
+          "time": 4.566667,
+          "tile": 501
+        },
+        {
+          "time": 7.8,
+          "tile": 704
+        }
+      ],
+      "Asuna_Original_Stand_Attack_Delay--ef085ca0f4895f05": [],
+      "Asuna_Original_Kneel_Attack_Start--e9ca52e83a520a15": [],
+      "Asuna_Original_Kneel_Idle--e997da1b07dc6774": [],
+      "Asuna_Original_Public01--e653ca16d71faed2": [],
+      "Asuna_Original_Formation_Idle--df4d6536a98fc132": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "Asuna_Original_Normal_Attack_Start--fc41b34cb97a3fac": [],
+      "Asuna_Original_Exs_Root--d80cf4f57e5b30a8": [],
+      "Asuna_Original_Move_Jump--d3cf36ec8b11d3fe": [],
+      "Asuna_Original_Move_End_Normal--d25a0671a5277121": [],
+      "Asuna_Original_Stand_Attack_Start--ce5dbdd82902d62d": [],
+      "Asuna_Original_Vital_Dying_ing--cc6d174790f9375a": [
+        {
+          "time": 0,
+          "tile": 507
+        }
+      ],
+      "Asuna_Original_Normal_Callsign--b339f2dd1aa13b26": [],
+      "Asuna_Original_Kneel_Attack_Delay--a85059d985479f07": [],
+      "Asuna_Original_Stand_Attack_Ing--a2113c4ec20f4a86": [],
+      "Asuna_Original_Normal_Attack_End--8bdb32870230a533": [],
+      "Asuna_Original_Vital_Retreat--898e770086f83369": [],
+      "Asuna_Original_Move_End_Stand--3739351e0fba90f": [],
+      "Asuna_Original_Kneel_Attack_End--276c3e8a1be9e849": [],
+      "Asuna_Original_Move_End_Kneel--331af5afa097cfc8": [],
+      "Asuna_Original_Exs_Cutin--9c896ffaa47ae9": [
+        {
+          "time": 0,
+          "tile": 500
+        },
+        {
+          "time": 0.90000004,
+          "tile": 704
+        },
+        {
+          "time": 2.266667,
+          "tile": 500
+        }
+      ],
+      "Asuna_Original_Victory_End--452554dad9e774e2": [
+        {
+          "time": 0,
+          "tile": 500
+        }
+      ],
+      "Asuna_Original_Normal_Attack_Delay--4b4b03bfbbae245d": [],
+      "Asuna_Original_Exs--4d188ab0af01da42": [
+        {
+          "time": 0.33333334,
+          "tile": 500
+        },
+        {
+          "time": 1.4000001,
+          "tile": 300
+        },
+        {
+          "time": 2.3000002,
+          "tile": 704
+        }
+      ],
+      "Asuna_Original_Vital_Panic--52ae7161c3436cce": [],
+      "Asuna_Original_Normal_Idle--55c043f66c94e94a": [],
+      "Asuna_Original_Move_Ing--5908602d1513af8f": [],
+      "Asuna_Original_Normal_Attack_Ing--5c921a0f0fe42bfb": [],
+      "Asuna_Original_Exs_Root--6099cdd1c5ec29d2": [],
+      "Asuna_Original_Stand_Reload--65e0406a37343f3e": [],
+      "Asuna_Original_Vital_Death--7605fd95b9d7e6d4": [],
+      "Asuna_Original_Stand_Attack_End--7bb34c6bb5b37415": [],
+      "Asuna_Original_Stand_Idle--7e301f40da37997a": [],
+      "Asuna_Original_Kneel_Reload--7e83ad40abffaeae": [],
+      "Asuna_Original_Kneel_Attack_Ing--7f0cef234da6fd41": []
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs_cutin": {
+        "zoom": 0.7618480244597499,
+        "centerY": 0.97807642325712
+      }
+    }
+  }
+}

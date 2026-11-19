@@ -1,0 +1,244 @@
+{
+  "id": "kanna",
+  "name": "康娜 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0170; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0170_Cafe_Idle--b994a1fa28d91f6b",
+    "interact": "CH0170_Cafe_Reaction--fa900995f4890457"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0170_Cafe_Idle--b994a1fa28d91f6b",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0170_Cafe_Reaction--fa900995f4890457",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0170_Cafe_Walk--bdd33ce47a4a9b61",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0170_Formation_Pickup--b4c59a66cc00e379",
+      "category": "常用"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0170_Formation_Idle--f05391786d99d028",
+      "sourceName": "CH0170_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs_cutin_dummy",
+      "label": "EX 技能 · Cutin · Dummy",
+      "clip": "CH0170_Exs_Cutin_Dummy--c450ca6f8f3cd853",
+      "sourceName": "CH0170_Exs_Cutin_Dummy",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "CH0170_Exs_Cutin--bfb504ad3abdf01b",
+      "sourceName": "CH0170_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "CH0170_Exs--f386b5b0a1d853ee",
+      "sourceName": "CH0170_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0170_Tactical_Start--7247874f5cf7aa45",
+      "sourceName": "CH0170_Tactical_Start",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "CH0170_Mouth",
+    "defaultTile": 707,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.875,
+      0.875
+    ],
+    "events": {
+      "CH0170_Cafe_Idle--b994a1fa28d91f6b": [
+        {
+          "time": 0,
+          "tile": 501
+        }
+      ],
+      "CH0170_Cafe_Reaction--fa900995f4890457": [
+        {
+          "time": 0,
+          "tile": 501
+        },
+        {
+          "time": 0.13333334,
+          "tile": 604
+        },
+        {
+          "time": 1.6666667,
+          "tile": 705
+        },
+        {
+          "time": 1.9666668,
+          "tile": 501
+        }
+      ],
+      "CH0170_Cafe_Walk--bdd33ce47a4a9b61": [
+        {
+          "time": 0,
+          "tile": 501
+        }
+      ],
+      "CH0170_Formation_Pickup--b4c59a66cc00e379": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.133332,
+          "tile": 501
+        },
+        {
+          "time": 2.33331,
+          "tile": 700
+        },
+        {
+          "time": 2.566641,
+          "tile": 702
+        },
+        {
+          "time": 4.966617,
+          "tile": 702
+        },
+        {
+          "time": 5.099949,
+          "tile": 501
+        },
+        {
+          "time": 10.833225,
+          "tile": 704
+        },
+        {
+          "time": 12.766539,
+          "tile": 704
+        }
+      ],
+      "CH0170_Formation_Idle--f05391786d99d028": [
+        {
+          "time": 0,
+          "tile": 501
+        }
+      ],
+      "CH0170_Exs_Cutin_Dummy--c450ca6f8f3cd853": [],
+      "CH0170_Exs_Cutin--bfb504ad3abdf01b": [
+        {
+          "time": 0,
+          "tile": 501
+        },
+        {
+          "time": 2,
+          "tile": 600
+        },
+        {
+          "time": 3.0333335,
+          "tile": 501
+        },
+        {
+          "time": 4.2333336,
+          "tile": 707
+        }
+      ],
+      "CH0170_Exs--f386b5b0a1d853ee": [
+        {
+          "time": 0,
+          "tile": 501
+        },
+        {
+          "time": 0.9666667,
+          "tile": 706
+        },
+        {
+          "time": 1.9000001,
+          "tile": 501
+        }
+      ],
+      "CH0170_Tactical_Start--7247874f5cf7aa45": [
+        {
+          "time": 0,
+          "tile": 501
+        }
+      ]
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs_cutin_dummy": {
+        "zoom": 0.855766528431053,
+        "centerY": 0.3932533532003172
+      }
+    }
+  },
+  "furniture": [
+    {
+      "id": "f207313_0",
+      "name": "审讯室桌子",
+      "model": "f207313_0.glb",
+      "clip": "f207313_0",
+      "duration": 16.133333333333333,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 501
+        },
+        {
+          "time": 5.866667,
+          "tile": 706
+        },
+        {
+          "time": 5.933334,
+          "tile": 706
+        },
+        {
+          "time": 7.9,
+          "tile": 501
+        },
+        {
+          "time": 12.933334,
+          "tile": 704
+        },
+        {
+          "time": 14.3,
+          "tile": 501
+        }
+      ],
+      "yaw": 2.356194,
+      "sourceTimeline": "my_event15_table",
+      "sourceGroup": "RequiredTrack_20023",
+      "sourceStudentTrack": "20023"
+    }
+  ]
+}

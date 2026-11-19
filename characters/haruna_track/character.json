@@ -1,0 +1,275 @@
+{
+  "id": "haruna_track",
+  "name": "晴奈 · 体操服",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 CH0193; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "CH0193_Cafe_Idle--bfcffb02302224d",
+    "interact": "CH0193_Cafe_Reaction--db9258e4c62c5e85"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "CH0193_Cafe_Idle--bfcffb02302224d",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "CH0193_Cafe_Reaction--db9258e4c62c5e85",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "CH0193_Cafe_Walk--41ce7768782b7e9f",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "CH0193_Formation_Pickup--cc1c1184d82e1c9",
+      "category": "常用"
+    },
+    {
+      "id": "original_exs_cutin",
+      "label": "EX 技能 · Cutin",
+      "clip": "CH0193_Exs_Cutin--c3ebc46b86438873",
+      "sourceName": "CH0193_Exs_Cutin",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_idle",
+      "label": "EX 技能 · 待机",
+      "clip": "CH0193_Exs_Idle--c0064da7c296058f",
+      "sourceName": "CH0193_Exs_Idle",
+      "category": "技能"
+    },
+    {
+      "id": "original_tactical_start_random",
+      "label": "Tactical · 开始 · Random",
+      "clip": "CH0193_Tactical_Start_Random--b038085aa3cc8882",
+      "sourceName": "CH0193_Tactical_Start_Random",
+      "category": "战斗"
+    },
+    {
+      "id": "original_tactical_start",
+      "label": "Tactical · 开始",
+      "clip": "CH0193_Tactical_Start--4be050f21eb4866a",
+      "sourceName": "CH0193_Tactical_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_exs_spawn",
+      "label": "EX 技能 · Spawn",
+      "clip": "CH0193_Exs_Spawn--5767c2765887c9ed",
+      "sourceName": "CH0193_Exs_Spawn",
+      "category": "技能"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "CH0193_Formation_Idle--8e026ac009f926a",
+      "sourceName": "CH0193_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs_interaction",
+      "label": "EX 技能 · Interaction",
+      "clip": "CH0193_Exs_Interaction--6e751f06775948c8",
+      "sourceName": "CH0193_Exs_Interaction",
+      "category": "技能"
+    },
+    {
+      "id": "original_exs_destory",
+      "label": "EX 技能 · Destory",
+      "clip": "CH0193_Exs_Destory--77b859abd96aadd1",
+      "sourceName": "CH0193_Exs_Destory",
+      "category": "技能"
+    }
+  ],
+  "mouth": {
+    "material": "CH0193_Mouth",
+    "defaultTile": 704,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.5,
+      0.875
+    ],
+    "events": {
+      "CH0193_Cafe_Idle--bfcffb02302224d": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0193_Cafe_Reaction--db9258e4c62c5e85": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 1.7666669,
+          "tile": 404
+        },
+        {
+          "time": 4.5,
+          "tile": 707
+        },
+        {
+          "time": 5.766667,
+          "tile": 704
+        }
+      ],
+      "CH0193_Cafe_Walk--41ce7768782b7e9f": [
+        {
+          "time": 0,
+          "tile": 704
+        }
+      ],
+      "CH0193_Formation_Pickup--cc1c1184d82e1c9": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 2.1999779,
+          "tile": 501
+        },
+        {
+          "time": 3.3332999,
+          "tile": 704
+        },
+        {
+          "time": 3.799962,
+          "tile": 707
+        },
+        {
+          "time": 6.799932,
+          "tile": 704
+        },
+        {
+          "time": 12.133333,
+          "tile": 704
+        }
+      ],
+      "CH0193_Exs_Cutin--c3ebc46b86438873": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 8.5,
+          "tile": 501
+        }
+      ],
+      "CH0193_Exs_Idle--c0064da7c296058f": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 2.7,
+          "tile": 705
+        },
+        {
+          "time": 4.3,
+          "tile": 404
+        }
+      ],
+      "CH0193_Tactical_Start_Random--b038085aa3cc8882": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.53333336,
+          "tile": 505
+        },
+        {
+          "time": 0.9,
+          "tile": 404
+        }
+      ],
+      "CH0193_Tactical_Start--4be050f21eb4866a": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.9333334,
+          "tile": 707
+        }
+      ],
+      "CH0193_Exs_Spawn--5767c2765887c9ed": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "CH0193_Formation_Idle--8e026ac009f926a": [
+        {
+          "time": 0,
+          "tile": 404
+        }
+      ],
+      "CH0193_Exs_Interaction--6e751f06775948c8": [
+        {
+          "time": 0,
+          "tile": 404
+        },
+        {
+          "time": 0.23333333,
+          "tile": 706
+        },
+        {
+          "time": 0.6333334,
+          "tile": 704
+        }
+      ],
+      "CH0193_Exs_Destory--77b859abd96aadd1": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.7666667,
+          "tile": 206
+        },
+        {
+          "time": 1.1,
+          "tile": 404
+        }
+      ]
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs_cutin": {
+        "zoom": 0.3224834813189645,
+        "centerY": 0.8925729329032966
+      }
+    }
+  },
+  "furniture": [
+    {
+      "id": "f210320_0",
+      "name": "休息用长桌椅",
+      "model": "f210320_0.glb",
+      "clip": "f210320_0",
+      "duration": 18.666666666666668,
+      "mouthEvents": [],
+      "yaw": 0.785398,
+      "sourceTimeline": "my_event059_benchtable",
+      "sourceGroup": "RequiredTrack_20030",
+      "sourceStudentTrack": "20030"
+    }
+  ]
+}

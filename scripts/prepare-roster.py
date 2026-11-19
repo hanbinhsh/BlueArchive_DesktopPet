@@ -151,6 +151,19 @@ def material_index(name):
     if floats.get('_SrcBlend') == 5 and floats.get('_DstBlend') == 10:
         result['alphaMode'] = 'BLEND'
         result['doubleSided'] = floats.get('_Cull', 0) == 0
+    try:
+        if original.m_Shader.m_PathID:
+            shader_name = original.m_Shader.read().m_ParsedForm.m_Name
+            if shader_name == 'MX/C-Simple-Transparent' and '_Tint' in colors:
+                tint = [max(0, min(1, getattr(colors['_Tint'], k))) for k in 'rgba']
+                result['pbrMetallicRoughness']['baseColorFactor'] = tint
+                result['alphaMode'] = 'BLEND'
+                result.setdefault('extras', {}).update(BA_sourceShader=shader_name, BA_sourceColorProperty='_Tint', BA_depthWrite=False)
+            elif shader_name == 'MX/C-General/Transparent':
+                result['alphaMode'] = 'BLEND'
+                result['doubleSided'] = floats.get('_Cull', 0) == 0
+    except Exception:
+        pass
     adapt_prop_material(result)
     index = len(doc['materials']); doc['materials'].append(result); material_cache[name] = index
     return index

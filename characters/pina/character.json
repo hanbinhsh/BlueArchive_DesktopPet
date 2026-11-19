@@ -1,0 +1,386 @@
+{
+  "id": "pina",
+  "name": "菲娜 · 原版",
+  "model": "model.glb",
+  "source": {
+    "url": "https://prod-clientpatch.bluearchiveyostar.com/r96_nvji95owgkbcxlmkb8mi/Windows_PatchPack/BundlePackingInfo.json",
+    "description": "Official JP r96 patch 33 Pina_Original; original rig, textures, material references, mouth defaults and animation events."
+  },
+  "scale": 1,
+  "yaw": 0,
+  "animations": {
+    "idle": "Pina_Original_Cafe_Idle--d45377b4dae4ee00",
+    "interact": "Pina_Original_Cafe_Reaction--ed0e91a963892730"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "label": "待机",
+      "clip": "Pina_Original_Cafe_Idle--d45377b4dae4ee00",
+      "category": "常用"
+    },
+    {
+      "id": "interact",
+      "label": "咖啡厅互动",
+      "clip": "Pina_Original_Cafe_Reaction--ed0e91a963892730",
+      "category": "常用"
+    },
+    {
+      "id": "walk",
+      "label": "原地走路",
+      "clip": "Pina_Original_Cafe_Walk--a567e34250a1febe",
+      "category": "常用"
+    },
+    {
+      "id": "victory",
+      "label": "胜利动作",
+      "clip": "Pina_Original_Victory_Start--98b830588a6813ab",
+      "category": "常用"
+    },
+    {
+      "id": "reload",
+      "label": "换弹",
+      "clip": "Pina_Original_Normal_Reload--305ae720c3bdfdb2",
+      "category": "常用"
+    },
+    {
+      "id": "pickup",
+      "label": "编队提起",
+      "clip": "Pina_Original_Formation_Pickup--ba043ac1343cc0be",
+      "category": "常用"
+    },
+    {
+      "id": "original_normal_attack_readyidle",
+      "label": "常规 · 攻击 · ReadyIdle",
+      "clip": "Pina_Original_Normal_Attack_ReadyIdle--fd3b3a1d9e51cc81",
+      "sourceName": "Pina_Original_Normal_Attack_ReadyIdle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_victory_end",
+      "label": "胜利 · 结束",
+      "clip": "Pina_Original_Victory_End--c761cf734135462f",
+      "sourceName": "Pina_Original_Victory_End",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_normal_attack_readystart",
+      "label": "常规 · 攻击 · ReadyStart",
+      "clip": "Pina_Original_Normal_Attack_ReadyStart--a6861e682290bdcb",
+      "sourceName": "Pina_Original_Normal_Attack_ReadyStart",
+      "category": "战斗"
+    },
+    {
+      "id": "original_public01",
+      "label": "Public01",
+      "clip": "Pina_Original_Public01--f6fe5b9a3aa05fd0",
+      "sourceName": "Pina_Original_Public01",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_ing",
+      "label": "常规 · 攻击 · 持续",
+      "clip": "Pina_Original_Normal_Attack_Ing--a4c0e13dbf56229d",
+      "sourceName": "Pina_Original_Normal_Attack_Ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_start",
+      "label": "常规 · 攻击 · 开始",
+      "clip": "Pina_Original_Normal_Attack_Start--a27cce621228493e",
+      "sourceName": "Pina_Original_Normal_Attack_Start",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_idle",
+      "label": "常规 · 待机",
+      "clip": "Pina_Original_Normal_Idle--9c7340278da7479e",
+      "sourceName": "Pina_Original_Normal_Idle",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_callsign",
+      "label": "移动 · 回应",
+      "clip": "Pina_Original_Move_Callsign--97a41cf40ab4ac90",
+      "sourceName": "Pina_Original_Move_Callsign",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_retreat",
+      "label": "状态 · 撤退",
+      "clip": "Pina_Original_Vital_Retreat--897e1a674b5d6816",
+      "sourceName": "Pina_Original_Vital_Retreat",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_panic",
+      "label": "状态 · 惊慌",
+      "clip": "Pina_Original_Vital_Panic--f5debbda47ba1ef",
+      "sourceName": "Pina_Original_Vital_Panic",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_end_normal",
+      "label": "移动 · 结束 · 常规",
+      "clip": "Pina_Original_Move_End_Normal--3032a53b800c9f16",
+      "sourceName": "Pina_Original_Move_End_Normal",
+      "category": "移动"
+    },
+    {
+      "id": "original_normal_attack_end",
+      "label": "常规 · 攻击 · 结束",
+      "clip": "Pina_Original_Normal_Attack_End--3ea79f2abc6687a4",
+      "sourceName": "Pina_Original_Normal_Attack_End",
+      "category": "战斗"
+    },
+    {
+      "id": "original_vital_dying_ing",
+      "label": "状态 · 濒危 · 持续",
+      "clip": "Pina_Original_Vital_Dying_ing--4a655f6b2b8a5f7c",
+      "sourceName": "Pina_Original_Vital_Dying_ing",
+      "category": "战斗"
+    },
+    {
+      "id": "original_move_ing",
+      "label": "移动 · 持续",
+      "clip": "Pina_Original_Move_Ing--4f01146ced416905",
+      "sourceName": "Pina_Original_Move_Ing",
+      "category": "移动"
+    },
+    {
+      "id": "original_vital_death",
+      "label": "状态 · 倒下",
+      "clip": "Pina_Original_Vital_Death--565a4990b8e55eb5",
+      "sourceName": "Pina_Original_Vital_Death",
+      "category": "战斗"
+    },
+    {
+      "id": "original_formation_idle",
+      "label": "编队 · 待机",
+      "clip": "Pina_Original_Formation_Idle--615e09b64f7ec15b",
+      "sourceName": "Pina_Original_Formation_Idle",
+      "category": "编队与胜利"
+    },
+    {
+      "id": "original_exs",
+      "label": "EX 技能",
+      "clip": "Pina_Original_Exs--64e541cce84644d2",
+      "sourceName": "Pina_Original_Exs",
+      "category": "技能"
+    },
+    {
+      "id": "original_normal_attack_delay",
+      "label": "常规 · 攻击 · 间隔",
+      "clip": "Pina_Original_Normal_Attack_Delay--68d0b48e29d202b3",
+      "sourceName": "Pina_Original_Normal_Attack_Delay",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_callsign",
+      "label": "常规 · 回应",
+      "clip": "Pina_Original_Normal_Callsign--7125c4280de40ad2",
+      "sourceName": "Pina_Original_Normal_Callsign",
+      "category": "战斗"
+    },
+    {
+      "id": "original_normal_attack_readyend",
+      "label": "常规 · 攻击 · ReadyEnd",
+      "clip": "Pina_Original_Normal_Attack_ReadyEnd--7d120882257e5265",
+      "sourceName": "Pina_Original_Normal_Attack_ReadyEnd",
+      "category": "战斗"
+    }
+  ],
+  "mouth": {
+    "material": "Pina_Original_Mouth",
+    "defaultTile": 704,
+    "columns": 8,
+    "rows": 8,
+    "baseUV": [
+      0.5,
+      0.875
+    ],
+    "events": {
+      "Pina_Original_Cafe_Idle--d45377b4dae4ee00": [],
+      "Pina_Original_Cafe_Reaction--ed0e91a963892730": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.53333336,
+          "tile": 501
+        },
+        {
+          "time": 1.1666667,
+          "tile": 500
+        },
+        {
+          "time": 1.2,
+          "tile": 704
+        }
+      ],
+      "Pina_Original_Cafe_Walk--a567e34250a1febe": [],
+      "Pina_Original_Victory_Start--98b830588a6813ab": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.26666668,
+          "tile": 501
+        },
+        {
+          "time": 0.5666667,
+          "tile": 704
+        },
+        {
+          "time": 0.8333334,
+          "tile": 501
+        },
+        {
+          "time": 1.3333334,
+          "tile": 704
+        },
+        {
+          "time": 2.1333334,
+          "tile": 400
+        },
+        {
+          "time": 2.9333334,
+          "tile": 704
+        }
+      ],
+      "Pina_Original_Normal_Reload--305ae720c3bdfdb2": [],
+      "Pina_Original_Formation_Pickup--ba043ac1343cc0be": [
+        {
+          "time": 0,
+          "tile": 501
+        },
+        {
+          "time": 1.4333334,
+          "tile": 704
+        },
+        {
+          "time": 2.1333334,
+          "tile": 501
+        }
+      ],
+      "Pina_Original_Normal_Attack_ReadyIdle--fd3b3a1d9e51cc81": [],
+      "Pina_Original_Victory_End--c761cf734135462f": [],
+      "Pina_Original_Normal_Attack_ReadyStart--a6861e682290bdcb": [],
+      "Pina_Original_Public01--f6fe5b9a3aa05fd0": [],
+      "Pina_Original_Normal_Attack_Ing--a4c0e13dbf56229d": [],
+      "Pina_Original_Normal_Attack_Start--a27cce621228493e": [],
+      "Pina_Original_Normal_Idle--9c7340278da7479e": [
+        {
+          "time": 0,
+          "tile": 704,
+          "reset": true
+        }
+      ],
+      "Pina_Original_Move_Callsign--97a41cf40ab4ac90": [],
+      "Pina_Original_Vital_Retreat--897e1a674b5d6816": [],
+      "Pina_Original_Vital_Panic--f5debbda47ba1ef": [],
+      "Pina_Original_Move_End_Normal--3032a53b800c9f16": [],
+      "Pina_Original_Normal_Attack_End--3ea79f2abc6687a4": [],
+      "Pina_Original_Vital_Dying_ing--4a655f6b2b8a5f7c": [],
+      "Pina_Original_Move_Ing--4f01146ced416905": [],
+      "Pina_Original_Vital_Death--565a4990b8e55eb5": [],
+      "Pina_Original_Formation_Idle--615e09b64f7ec15b": [
+        {
+          "time": 0,
+          "tile": 704,
+          "reset": true
+        }
+      ],
+      "Pina_Original_Exs--64e541cce84644d2": [
+        {
+          "time": 0,
+          "tile": 704
+        },
+        {
+          "time": 0.40000004,
+          "tile": 706
+        },
+        {
+          "time": 0.9333334,
+          "tile": 704
+        },
+        {
+          "time": 1.2000002,
+          "tile": 406
+        },
+        {
+          "time": 1.8333334,
+          "tile": 602
+        },
+        {
+          "time": 2.3666668,
+          "tile": 602
+        },
+        {
+          "time": 3.0333335,
+          "tile": 707
+        },
+        {
+          "time": 3.5666668,
+          "tile": 406
+        },
+        {
+          "time": 4.766667,
+          "tile": 406
+        }
+      ],
+      "Pina_Original_Normal_Attack_Delay--68d0b48e29d202b3": [],
+      "Pina_Original_Normal_Callsign--7125c4280de40ad2": [],
+      "Pina_Original_Normal_Attack_ReadyEnd--7d120882257e5265": []
+    }
+  },
+  "framing": {
+    "actions": {
+      "original_exs": {
+        "zoom": 0.8870696631812126,
+        "centerY": 1.0039552506599732
+      }
+    }
+  },
+  "furniture": [
+    {
+      "id": "f7106_0",
+      "name": "灯油暖炉和糯米糕",
+      "model": "f7106_0.glb",
+      "clip": "f7106_0",
+      "duration": 12.0,
+      "mouthEvents": [
+        {
+          "time": 0.0,
+          "tile": 700
+        },
+        {
+          "time": 5.1000004,
+          "tile": 504
+        },
+        {
+          "time": 5.9,
+          "tile": 600
+        },
+        {
+          "time": 6.933334,
+          "tile": 701
+        },
+        {
+          "time": 8.900001,
+          "tile": 404
+        },
+        {
+          "time": 9.366667,
+          "tile": 700
+        }
+      ],
+      "yaw": 5.497787,
+      "sourceTimeline": "my_newyearpath_01_fireplace",
+      "sourceGroup": "RequiredTrack_16004",
+      "sourceStudentTrack": "16004"
+    }
+  ]
+}
