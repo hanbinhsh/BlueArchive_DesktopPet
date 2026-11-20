@@ -23,5 +23,8 @@ test('outline follows hidden parents, excludes transparent FX, and leaves pickin
  assert.deepEqual(visiblePoseBounds(root),before);const hits:THREE.Intersection[]=[];outline.meshes[0].raycast(new THREE.Raycaster(),hits);assert.equal(hits.length,0);
  assert.ok(Math.abs((outline.meshes[0].material as THREE.ShaderMaterial).uniforms.outlineWidth.value-.00076)<1e-12);
  body.visible=false;let visible=0;root.traverseVisible(o=>{if(o.userData.isOutline)visible++;});assert.equal(visible,0);
+ const vs=(outline.meshes[0].material as THREE.ShaderMaterial).vertexShader;
+ assert.match(vs,/skinScale=length\(objectNormal\)/);
+ assert.match(vs,/if\(skinScale<\.02\)/);
  outline.dispose();assert.equal(body.children.length,0);g.dispose();opaque.dispose();water.dispose();
 });

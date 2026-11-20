@@ -141,6 +141,29 @@ def main():
             clip_tracks.append({'node': box_mesh_id, 'keys': [[0.0, False]]})
         print(f'Patched {name}: hid bullet/duster/box channels + visibility clip for node {box_mesh_id}')
 
+    # 3. Collapse 0.01-hidden bone_duster_main channels to 0.0001 so the 2mm handle
+    #    never peeks as a 1px speck below the box in Cafe_Idle / Cafe_Reaction / etc.
+    collapsed_duster = 0
+    for anim in doc['animations']:
+        for ch in anim['channels']:
+            if ch['target']['node'] == duster_id and ch['target']['path'] == 'scale':
+                s = anim['samplers'][ch['sampler']]
+                acc = doc['accessors'][s['output']]
+                bv = doc['bufferViews'][acc['bufferView']]
+                off = bv.get('byteOffset', 0) + acc.get('byteOffset', 0)
+                cnt = acc['count']
+                vals = struct.unpack_from(f'<{cnt * 3}f', buf, off)
+                if s.get('interpolation') == 'CUBICSPLINE':
+                    key_vals = vals[3::9] + vals[4::9] + vals[5::9]
+                else:
+                    key_vals = vals
+                if key_vals and max(abs(v) for v in key_vals) <= 0.015:
+                    s['interpolation'] = 'STEP'
+                    s['input'] = t_acc
+                    s['output'] = tiny_scale_acc
+                    collapsed_duster += 1
+    print(f'Collapsed {collapsed_duster} hidden (0.01) bone_duster_main scale tracks to 0.0001')
+
     save_glb(path, doc, buf)
     print(f'Saved {path}')
 

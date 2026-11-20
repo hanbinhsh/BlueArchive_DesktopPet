@@ -1,3 +1,7 @@
+## 0.2.33 描边折叠道具黑点全局修复与柚子女仆箱底黑点消除
+
+修复 `src/model-outline.ts` 对缩起隐藏骨骼（如 `scale = 0.01` 的道具／武器骨骼）经 `normalize()` 消除缩放后仍按屏幕空间固定宽度外扩成悬浮黑点的全库隐患（`skinScale < 0.02` 直接丢弃描边顶点，并在 `0.02–0.10` 平滑过渡）；同时将柚子 · 女仆（`yuzu_maid`）17 段隐藏鸡毛掸子动画中的 `bone_duster_main` 缩起轨道从 `0.01` 压至 `0.0001`，彻底消除缩在纸箱内时箱底右下方的孤立黑点。
+
 ## 0.2.32 柚子女仆点击露裙／EX与Tactical裁切／Genryumon分离道具修复
 
 彻底修复柚子 · 女仆（`yuzu_maid`）三处动作渲染问题：升级 `src/liquid-receiver.ts` 的纸箱门控逻辑，新增直立姿态（`minUpDot`）、有效缩放（`minScale`）与角色重合度（`maxLateral`）三维几何判定，并将 `maxHeight` 提升至 `0.14`、`followOffset` 调至 `0.085`、`fallbackConstant` 设为 `10`——消除手动点击与《咖啡厅互动》（`CH0203_Cafe_Reaction`）开场纸箱弹跳帧（`0.05s–0.23s`）底部露裙及 `CH0203_Exs` 结尾倒立缩入纸箱时露出头／光环／武器问题，同时在纸箱侧放面向镜头的 `CH0203_Exs` 与 `CH0203_Tactical_Start` 动作中自动释放裁剪平面，完整保留裙摆；并为 `CH0203_Exs_Cutin_Genryumon_AR` / `HG` 补齐未动画化的绑定态道具隐藏轨道，消除枪口前悬空榴弹（`bone_bullet_01`）、浮空鸡毛掸子（`bone_duster_main`）与左侧滞留纸箱。

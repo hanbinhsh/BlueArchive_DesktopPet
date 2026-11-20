@@ -1,11 +1,12 @@
 import { openTestPanel } from './themed-menu-test-helper.mjs';
 import { _electron as electron } from 'playwright';
-import { mkdirSync, writeFileSync } from 'node:fs';
+import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import assert from 'node:assert/strict';
 
-const exe = path.resolve('release/v0.2.32/win-unpacked/BA Desktop Pet.exe');
-const profile = path.resolve('test-results/smoke-v0232-profile');
+const version = process.argv[2] || `v${JSON.parse(readFileSync('package.json', 'utf8')).version}`;
+const exe = path.resolve(`release/${version}/win-unpacked/BA Desktop Pet.exe`);
+const profile = path.resolve(`test-results/smoke-${version}-profile`);
 mkdirSync(profile, { recursive: true });
 writeFileSync(
   path.join(profile, 'settings.json'),
