@@ -60,3 +60,38 @@ test('gated floor clip with followOffset tracks box hop height and releases abov
  assert.ok(p.y*.001+p.w>0);
  material.dispose();
 });
+
+test('gated floor clip releases when box is tipped on its side, shrunk away, or offset from target',()=>{
+ const root=new THREE.Group(),floor=new THREE.Object3D(),boxMain=new THREE.Object3D(),boxBottom=new THREE.Object3D(),bip=new THREE.Object3D();
+ floor.name='bone_root';boxMain.name='bone_box_main';boxBottom.name='bone_box_b_01';bip.name='Bip001';
+ floor.rotation.x=-Math.PI/2;floor.add(boxMain);boxMain.add(boxBottom);floor.add(bip);root.add(floor);
+ boxBottom.position.set(0,0,-.38);
+ const material=new THREE.MeshBasicMaterial();
+ material.userData.BA_liquidReceiver={
+  node:'bone_root',normal:[0,0,1],constant:-.015,
+  gate:{node:'bone_box_b_01',maxHeight:.14,fallbackConstant:10,followOffset:.085,alignNode:'bone_box_main',minScale:.3,minUpDot:.9,targetNode:'Bip001',maxLateral:.4},
+ };
+ const update=attachLiquidReceiver(material,root)!;
+ const p=material.userData._BA_clipPlane.value as THREE.Vector4;
+ // Upright box hopping to h=+0.08 (< 0.14): clips at 0.08 + 0.085 = 0.165
+ boxMain.position.set(0,0,.396);boxMain.rotation.set(0,0,0);boxMain.scale.setScalar(.8311);bip.position.set(0,0,.2);
+ root.updateMatrixWorld(true);update();
+ assert.ok(p.y*.18+p.w>0);assert.ok(p.y*.12+p.w<0);
+ // Tipped 90 deg on its side (Tactical_Start / Exs): upDot=0 < 0.9 -> releases to fallbackConstant (10)
+ boxMain.position.set(0,0,.40);boxMain.rotation.set(Math.PI/2,0,0);boxMain.scale.setScalar(.9);
+ root.updateMatrixWorld(true);update();
+ assert.ok(p.y*-.5+p.w>0);
+ // Shrunk away (ST_Death / Formation_Idle): scale=0.01 < 0.3 -> releases
+ boxMain.position.set(0,0,.05);boxMain.rotation.set(0,0,0);boxMain.scale.setScalar(.01);
+ root.updateMatrixWorld(true);update();
+ assert.ok(p.y*-.5+p.w>0);
+ // Box parked 1m away from character (Exs_Cutin_Genryumon): lateral=1.0 > 0.4 -> releases
+ boxMain.position.set(-1,0,.40);boxMain.rotation.set(0,0,0);boxMain.scale.setScalar(1);
+ root.updateMatrixWorld(true);update();
+ assert.ok(p.y*-.5+p.w>0);
+ // Both box and character hopped together to y=+1.77 (Exs upright ending): lateral=0 <= 0.4 -> clips!
+ boxMain.position.set(0,1.77,.35);bip.position.set(0,1.77,.2);boxMain.scale.setScalar(.872);
+ root.updateMatrixWorld(true);update();
+ assert.ok(p.y*.05+p.w<0);
+ material.dispose();
+});

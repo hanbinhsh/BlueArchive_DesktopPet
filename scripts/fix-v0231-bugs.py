@@ -327,13 +327,18 @@ m_body['extras']['BA_liquidReceiver'] = {
     'constant': -0.015,
     'gate': {
         'node': 'bone_box_b_01',
-        'maxHeight': 0.05,
-        'fallbackConstant': 0.01,
-        'followOffset': 0.075,
+        'maxHeight': 0.14,
+        'fallbackConstant': 10,
+        'followOffset': 0.085,
+        'alignNode': 'bone_box_main',
+        'minScale': 0.3,
+        'minUpDot': 0.9,
+        'targetNode': 'Bip001',
+        'maxLateral': 0.4,
     },
 }
 save(ym_path, ym_doc, ym_bin)
-print('  Updated yuzu_maid/model.glb CH0203_Body BA_liquidReceiver with followOffset=0.075')
+print('  Updated yuzu_maid/model.glb CH0203_Body BA_liquidReceiver with upright box gate & followOffset=0.085')
 
 # ==============================================================================
 # ITEMS 1, 4, 8, 9, 11: Furniture yaw adjustments
