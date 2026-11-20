@@ -146,7 +146,7 @@ GLB SHA-256：`43dc35c8e64b94bd191df759429599a3f2c6631e80884d255b56db80a76e89af`
 
 ## 复现
 
-需要 Python 3.12、.NET 10 SDK，及指定提交的提取器。将提取器克隆到 `tools/asset-downloader`，建立 `.venv` 后安装该项目及 `UnityPy`、`Pillow`。
+以下流程仅用于整理自己合法持有的游戏副本，提取出的模型、贴图、音频不得再分发。需要 Python 3.12、.NET 10 SDK，及指定提交的提取器。将提取器克隆到 `tools/asset-downloader`，建立 `.venv` 后安装该项目及 `UnityPy`、`Pillow`。
 
 1. 执行 `scripts/fetch-candidates.py`，获取固定目录中候选角色与共享贴图的分包，完成 CRC32 校验后只保留相关 bundle。
 2. 按提取器官方工作流准备其 AssetRipper 补丁源码，构建 `AssetRipperExporter.csproj`，输出到 `.assets/exporter`。构建需通过 `-p:AssetRipperSource=<补丁源码目录>` 指定源码。

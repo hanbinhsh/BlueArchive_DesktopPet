@@ -1,5 +1,7 @@
 # 角色包
 
+> 本仓库不包含任何 GLB 或贴图文件（已在 `.gitignore` 中排除）；运行前需用自己合法持有的游戏副本，按 [资源说明](../docs/ASSETS.md) 生成角色包。
+
 每个子目录放置 `character.json` 和自包含的 GLB。GLB 必须包含贴图、骨骼、待机和互动动画，不加载外部网络资源。
 
 描述文件字段：`id`（小写字母/数字/横线）、`name`、`model`（同目录 GLB 文件名）、`source: {url, description}`、`scale`（正数）、`yaw`（弧度）、`animations: {idle, interact}`（GLB 中的实际动画名）。

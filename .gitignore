@@ -54,3 +54,10 @@ desktop.ini
 .idea/
 *.swp
 *.swo
+
+# Internal working notes and local tooling artifacts (not published)
+/AGENTS.md
+docs/WORK-IN-PROGRESS-*.md
+validation/
+.dsh-acl-reports/
+.internal/

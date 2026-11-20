@@ -2,6 +2,7 @@
   "name": "blue-archive-desktop-pet",
   "version": "0.2.34",
   "private": true,
+  "license": "MIT",
   "description": "Offline Windows 3D desktop companion",
   "author": "BA Desktop Pet",
   "main": "dist/main.cjs",

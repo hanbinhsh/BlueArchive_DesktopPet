@@ -1,3 +1,39 @@
+# 蔚蓝档案桌宠（非官方）
+
+Windows 上的三维桌面宠物：读取本地的 Blue Archive 角色模型（GLB），以透明窗口显示，支持待机／互动／换装／家具场景、描边、口型事件与多显示器漫游。
+
+> **非官方、非商业的粉丝项目**，与 NEXON Games、NEXON、Yostar 无任何关联，也未获其授权。
+> 本仓库只包含程序源码、测试与资源整理脚本，**不包含任何游戏素材**（模型、贴图、音频）和构建成品；运行所需的 `characters/<角色ID>/` 需由使用者用自己合法持有的游戏副本自行准备。
+
+## 快速开始
+
+```powershell
+npm ci
+npm run typecheck
+npm test
+npm run build
+npm start
+```
+
+打包 Windows x64 可运行目录：`npm run pack`（输出含 `BA Desktop Pet.exe`，运行前需自备 `characters/` 资源）。完整步骤见 [构建与可运行目录](docs/BUILD.md)。
+
+## 文档
+
+- [构建与可运行目录](docs/BUILD.md)
+- [角色资源与转换步骤](docs/ASSETS.md)
+- [角色包格式](characters/README.md)
+- [服装核对表](docs/COSTUMES.md) · [模型与动作核对](docs/MODEL-AUDIT.md) · [验收记录](docs/VALIDATION.md)
+
+## 许可证与免责声明
+
+源码以 [MIT 许可证](LICENSE) 发布，可自由使用、修改与再分发（需保留版权声明）。
+游戏素材（角色模型、贴图、音频、名称与设定）版权归 NEXON Games／NEXON／Yostar 等原权利人所有；本仓库不分发素材，[MIT 许可证](LICENSE) 不改变这一点。`scripts/` 中的资源获取与转换脚本仅用于整理自己合法持有的游戏副本，请勿用于分发素材。
+使用本程序产生的任何后果由使用者自行承担。
+
+---
+
+以下为按版本倒序的更新记录。
+
 ## 0.2.34 描边黑线修复（0.2.33 回归）
 
 修复 0.2.33 引入的回归：`src/model-outline.ts` 对折叠顶点（`skinScale < 0.02`）改用 `gl_Position = vec4(2.,2.,2.,1.)` 丢弃描边。该顶点只是落到视锥之外，`w` 仍为 1，并没有被裁掉；只要三角形里同时存在折叠顶点与正常顶点，就会被拉成横跨视口的巨大楔形，表现为开启描边时贯穿画面的长条黑线（吹雪 · 撞色双人椅的甜甜圈、爱理原版与万圣节南瓜柜台、明日奈 · 千禧年双人书桌等均可见）。现在不再移动顶点，只用既有的 `smoothstep(.02,.1,skinScale)` 把外扩量压到 0，并以 `skinScale > 1e-6` 保护 `normalize()`；折叠顶点与相邻顶点重合后三角形自然退化，不再产生黑线。
@@ -94,7 +130,7 @@
 
 当前版本：**0.2.31**。合计 297 套外观、7,307 个普通动作、311 项家具。修复暖炉光效、水枪架铁网、玲纱桌特效与挎包、濑名／芹娜默认口型、阳光花水池透明水体、柚子点击露裙、多件家具视角及角色搜索别名匹配。
 
-描边开关和宽度位于“外观与窗口”，默认宽度为 38%。此前的闸机、水面、家具视角及制服妮露刘海修复均已包含。本程序无需安装 Node.js，直接运行 `release/v0.2.31/win-unpacked/BA Desktop Pet.exe`；请先退出旧版再启动新版。今后默认只生成可运行文件夹，用户明确要求时才创建压缩包。
+描边开关和宽度位于“外观与窗口”，默认宽度为 38%。此前的闸机、水面、家具视角及制服妮露刘海修复均已包含。本程序无需安装 Node.js，直接运行成品目录中的 `BA Desktop Pet.exe`；请先退出旧版再启动新版。今后默认只生成可运行文件夹，用户明确要求时才创建压缩包。
 
 以下为历史版本记录；各记录中的待办状态以最新版本记录为准。
 
@@ -225,7 +261,7 @@ Windows x64 自用桌宠，采用游戏官方 **普拉娜（NPC）、纯子（�
 
 ## 运行
 
-解压 `release/BA-Desktop-Pet-0.1.22-win-x64.zip`，双击 `BA Desktop Pet.exe`。请保留解压目录内的 DLL、`resources` 等文件，不要只复制 EXE。运行不需要 Node.js、Python、.NET 或 Unity。
+解压成品包（自行打包或使用他人构建好的成品目录），双击 `BA Desktop Pet.exe`。请保留解压目录内的 DLL、`resources` 等文件，不要只复制 EXE。运行不需要 Node.js、Python、.NET 或 Unity。
 
 首次启动显示光，默认置顶。系统托盘中有粉蓝色圆环图标；如果角色被隐藏或移出视野，可从托盘恢复。
 
@@ -274,7 +310,7 @@ node scripts/costumes-test.mjs
 node scripts/roster-test.mjs
 node scripts/view-test.mjs
 node scripts/hold-test.mjs
-$env:BA_EXECUTABLE = (Resolve-Path 'release/win-unpacked/BA Desktop Pet.exe').Path
+$env:BA_EXECUTABLE = (Resolve-Path 'release\win-unpacked\BA Desktop Pet.exe').Path   # 指向你本地的成品目录
 node scripts/soak.mjs
 ```
 

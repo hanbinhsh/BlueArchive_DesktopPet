@@ -33,6 +33,5 @@ npm run pack
 - `tests/`：配置、随机规则、倍速、道具及启动项核心测试。
 - `scripts/`：构建、资源处理与运行验证；历史资源导出脚本按各自说明使用。
 - `docs/`：操作、资源来源、历史修复及验收说明。
-- `validation/`：本版本主要验证记录；原始工作目录记录位于 `test-results/`。
 
-完整项目与已准备的资源仍保留在工作目录 `G:/Projects/BA`。
+仓库不包含 `characters/<角色ID>/` 下的 GLB、`release/` 成品和 `test-results/` 验收数据：它们都列在 `.gitignore` 中，需要在本地自行准备或生成。
