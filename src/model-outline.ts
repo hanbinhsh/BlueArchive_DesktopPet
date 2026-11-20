@@ -35,13 +35,12 @@ void main(){
  #include <skinbase_vertex>
  #include <skinnormal_vertex>
  float skinScale=length(objectNormal);
- if(skinScale<.02){outlineWorld=vec3(0.);gl_Position=vec4(2.,2.,2.,1.);return;}
  vec3 transformed=position;
  #include <morphtarget_vertex>
  #include <skinning_vertex>
  outlineWorld=(modelMatrix*vec4(transformed,1.)).xyz;
  vec4 mvPosition=modelViewMatrix*vec4(transformed,1.);
- vec3 viewNormal=normalize(normalMatrix*objectNormal);
+ vec3 viewNormal=skinScale>1e-6?normalize(normalMatrix*objectNormal):vec3(0.);
  // Our orthographic camera uses the wiki's default 35-degree perspective
  // projection scale, giving the same screen-space width at equal viewport height.
  float depth=isOrthographic?3.171594802/projectionMatrix[1][1]:max(-mvPosition.z,.05);

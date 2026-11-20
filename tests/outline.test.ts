@@ -25,6 +25,7 @@ test('outline follows hidden parents, excludes transparent FX, and leaves pickin
  body.visible=false;let visible=0;root.traverseVisible(o=>{if(o.userData.isOutline)visible++;});assert.equal(visible,0);
  const vs=(outline.meshes[0].material as THREE.ShaderMaterial).vertexShader;
  assert.match(vs,/skinScale=length\(objectNormal\)/);
- assert.match(vs,/if\(skinScale<\.02\)/);
+ assert.match(vs,/smoothstep\(\.02,\.1,skinScale\)/);
+ assert.doesNotMatch(vs,/vec4\(2\.,2\.,2\.,1\.\)/);
  outline.dispose();assert.equal(body.children.length,0);g.dispose();opaque.dispose();water.dispose();
 });
